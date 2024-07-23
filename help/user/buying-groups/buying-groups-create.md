@@ -3,7 +3,7 @@ title: 创建购买组
 description: 了解如何创建购买组。
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 8afc432e7caeb2bf7e632276a7432d0a010f9ab2
+source-git-commit: 92f28ab633cc1f6e5e0172dff69869fcc718e2e8
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 创建购买组
 
-创建购买组后，可通过[解决方案兴趣](./solution-interests.md)在帐户历程中使用它。
+创建购买组后，可在通过[解决方案兴趣](./solution-interests.md)进行的帐户历程中使用。
 
 1. 在Adobe Experience Platform主页中，单击Adobe Journey Optimizer B2B Edition 。
 

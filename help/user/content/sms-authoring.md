@@ -3,9 +3,9 @@ title: 短信创作
 description: 了解如何在其移动设备上向客户发送短信(SMS)，以及通过短信编辑器以文本格式个性化和预览消息。
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: e0d9359560f31b3e66f593426c66e64d31044d54
+source-git-commit: a5f3f5533adefeb2daa6fc93e9cdef094aee9d37
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1879'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## SMS配置
 
-Adobe Journey Optimizer B2B版本通过SMS服务提供商（或SMS网关提供商）发送文本消息。 在创建短信消息之前，请从“管理员”设置配置服务提供商。
+Adobe Journey Optimizer B2B版本通过SMS服务提供商（或SMS网关提供商）发送文本消息。 在创建短信消息之前，请从&#x200B;_管理员_&#x200B;设置中配置服务提供商。
 
 ### SMS网关服务提供商
 
@@ -162,26 +162,26 @@ _要通过Adobe Journey Optimizer B2B版本将Infobip配置为您的SMS提供程
 
    放置个性化令牌后，单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存更改并返回主短信创作工作区。 您可以根据需要继续编辑包含令牌的消息。
 
-<!-- 1. **Add URLs to text message**.
+1. **向文本消息添加URL**。
 
-   After defining your content, you can add URLs to your message by clicking the _Link_ icon.
-   
-   You can add two types of URLs: 
+   定义内容后，您可以通过单击&#x200B;_链接_&#x200B;图标，向消息添加URL。
 
-   External URLs - This is ANY external URL that can be directly typed into/ pasted into the input text box
-   Adobe Marketo Engage Design Studio Landing Pages - Selecting this option, you will see a 'Landing Page picker' from which you can select any of the listed approved Landing Pages from Marketo Engage
+   此操作将打开一个对话框，您可以在其中选择要链接的两种URL类型之一：
 
-   You can choose to 'shorten' either of these URLs by selecting the checkbox
-   Note that the URL shortening function, uses the Marketo subdomain for shortening
-   The shortened URL appears as a read-only field within the modal
-   You can optionally track clicks on the URL
-   You can also choose to include 'mkt_tok' for tracking activity against a user
-   Click on Add to save changes & add the chosen URL to the SMS message
--->
+   * **[!UICONTROL 外部URL]** — 此类型是您在文本框中输入的任何外部URL。
+   * **[!UICONTROL 登陆页面]** — 选择此选项可从您的Marketo Engage实例中选择任何已批准的Adobe Marketo Engage Design Studio登陆页面。
+
+   该对话框还包括URL链接的选项：
+
+   * **[!UICONTROL 缩短URL]** — 选中此复选框可&#x200B;_缩短_ URL，这是跟踪所必需的。 对于登陆页面，它会使用缩短URL的Marketo Engage子域。 此时将显示缩短的URL格式的示例。 实际URL是在将短信发送给收件人时创建的。
+
+   * **[!UICONTROL 包含mkt_tok]** — 选中此复选框可跟踪针对用户的活动。
+
+   链接选项完成后，单击&#x200B;**[!UICONTROL 添加]**&#x200B;以保存更改并将URL链接添加到短信消息。
 
 ## 设置短信属性
 
-1. 在&#x200B;_[!UICONTROL SMS属性]_&#x200B;部分中，为您的消息输入&#x200B;**[!UICONTROL Name]**（必需，最多100个cha\racter）和&#x200B;**[!UICONTROL Description]**（可选，最多300个字符）。
+1. 在&#x200B;_[!UICONTROL 短信属性]_&#x200B;部分中，为您的消息输入&#x200B;**[!UICONTROL Name]**（必需，最多100个字符）和&#x200B;**[!UICONTROL Description]**（可选，最多300个字符）。
 
    这些字段允许Alpha、数字和特殊字符。 以下保留字符是&#x200B;**不允许的**： `\`、`/`、`:`、`*`、`?`、`"`、`<`、`>`和`|`。
 
@@ -198,32 +198,48 @@ _要通过Adobe Journey Optimizer B2B版本将Infobip配置为您的SMS提供程
 
    ![执行操作 — 发送短信](./assets/sms-properties.png){width="700" zoomable="yes"}
 
-   收件人号码始终映射到Marketo Engage中的`Lead.MainPhone`字段。
+   收件人号码始终映射到Marketo Engage中的`Lead.mobilePhone`字段。
 
-<!-- ## Preview the text message content
+## 模拟文本消息内容
 
-When your message content is defined, you can use test profiles to preview its content. If you inserted personalized content, you can check how this content is displayed in the message, using test profile data.
+定义消息内容后，您可以使用测试用户档案来模拟（预览）其内容。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
 
-1. Click **[!UICONTROL Simulate Content]** at the top of the SMS authoring workspace.
+>[!IMPORTANT]
+>
+>请确保先保存短信消息，然后再继续模拟短信。
 
-1. From the _[!UICONTROL Simulate Content]_ page, click **[!UICONTROL Add People]**.
+1. 单击短信创作工作区顶部的&#x200B;**[!UICONTROL 模拟内容]**。
 
-1. Use the # page to manage the leads used for your test profile.
+1. 在&#x200B;_[!UICONTROL 模拟内容]_&#x200B;页面中，单击&#x200B;**[!UICONTROL 添加联系人]**。
 
-   In the displayed list, you can search for and add any of the leads (up to 10 leads at a time) from the Marketo Engage lead database.
+1. 使用&#x200B;_模拟内容_&#x200B;页面管理用于测试配置文件的潜在客户。
 
-   To search, enter the whole email address and click enter. The corresponding lead profile shows up for selection.
+   在显示的列表中，您可以从Marketo Engage潜在客户数据库中搜索并添加任何潜在客户（一次最多10个潜在客户）。
 
-   The preview updated to the personalization fields for the selected profile.
+   要搜索，请输入整个电子邮件地址，然后按&#x200B;_Enter_。 将显示相应的潜在客户配置文件以供选择。
 
-   All the added leads appear on the left rail of the 'Simulate Content' page
+   所选配置文件的个性化字段的预览更新。
 
-   You can manage this list by adding more people and deleting individual leads from the profile listing (it does not remove them from the database).
+   所有添加的潜在客户都显示在左侧。
 
-1. Simulate content for a lead.
+   您可以通过添加更多人员并从配置文件列表中删除各个潜在客户来管理此列表（它不会从数据库中删除这些潜在客户）。
 
-   Select any of the leads listed on the left rail of the Simulate Content page and the SMS preview on the page updates for the corresponding lead.
+1. 模拟选定商机的内容。
 
-   You can also select a lead from the 'drop-down' box above the preview space and the SMS preview on the page updates for the corresponding lead
+   选择左侧列出的任何潜在客户，页面上的短信预览将更新相应潜在客户。
 
-1. To exit the _[!UICONTROL Simulate Content]_ page and return back to the SMS authoring workspace, click Close. -->
+   您还可以从预览空间上方的选择器中选择潜在客户，以更新相应潜在客户的页面上的SMS预览。
+
+1. 要退出&#x200B;_[!UICONTROL 模拟内容]_&#x200B;页面并返回短信创作工作区，请单击右上方的&#x200B;**[!UICONTROL 关闭]**。
+
+## 短信同意管理
+
+向收件人提供取消订阅以停止从品牌接收通信的功能，并遵守此选择是一项法律要求。 未能遵守这些法规会为您的品牌带来法律风险。 此功能还可帮助您避免向收件人发送未经请求的通信，这种通信可能会导致他们将您的邮件标记为垃圾邮件并损害您的声誉。
+
+提供此选项后，短信收件人可以使用选择启用和选择禁用关键词进行回复。 支持并接受所有标准的选择加入和选择退出关键词，以及短信服务提供商配置的任何自定义关键词。 取消订阅后，用户档案将自动从未来营销消息的受众中删除。
+
+Journey Optimizer B2B版本提供了使用以下逻辑管理短信消息中的选择退出的功能：
+
+* 默认情况下，如果商机选择不接收您的通信，则相应的用户档案将从后续短信投放中排除
+
+* 来自不同来源（例如AEP或SMS服务提供商）的潜在客户同意将同步到Journey Optimizer B2B版本。 目前，在实例级别，它仅支持每个商机的单个同意状态（商机“John Doe”订阅或取消订阅实例中的所有促销短信）。 它当前不支持在品牌级别/单个订阅列表级别同意双重选择加入。

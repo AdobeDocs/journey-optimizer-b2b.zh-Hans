@@ -1,12 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B版本文档
-user-guide-description: 这是将显示在登陆页面上的描述。
-badgeBeta: label="Beta版本" type="informative" tooltip="Beta发行文档"
-badgeGA: label="GA限量发行" type="neutral" tooltip="限量发行正式上市文档"
-source-git-commit: 765720da2fe4f8ccc668d8defc6a76cf942f7b5d
+user-guide-description: 了解Adobe Journey Optimizer B2B版本，以及如何使用它通过内置的创意AI和行业领先的自动化功能编排帐户和购买团体历程。
+source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 5%
+source-wordcount: '130'
+ht-degree: 9%
 
 ---
 
@@ -14,7 +12,14 @@ ht-degree: 5%
 # Journey Optimizer B2B版用户指南 {#user}
 
 + [Adobe Journey Optimizer B2B版本文档](guide-overview.md)
-+ [登录和主页](home-page.md)
++ 开始使用{#get-started}
+   + [Journey Optimizer B2B版本概述](about-journey-optimizer-b2b-edition.md)
+   + [登录和主页](home-page.md)
+   + [快速入门指南](./start/get-started.md)
+   + [使用AI助手](./start/ai-assistant.md)
++ 帐户受众{#account-audiences}
+   + [概述](./audiences/account-audience-overview.md)
+   + [XDM字段映射](./data/field-mapping.md)
 + 购买组{#buying-groups}
    + [概述](./buying-groups/buying-groups-overview.md)
    + [解决方案兴趣](./buying-groups/solution-interests.md)
@@ -25,11 +30,21 @@ ht-degree: 5%
    + [帐户历程节点](./journeys/journey-nodes.md)
 + 内容{#journey-content}历程
    + [电子邮件创作](./content/email-authoring.md)
+   + [销售警报电子邮件](./content/sales-alert-email.md)
    + [用于电子邮件创作的AI助手](./content/ai-assistant-emails.md)
    + [短信创作](./content/sms-authoring.md)
++ 内容管理{#content-management}
+   + Assets {#assets}
+      + [概述](./content/assets-overview.md)
+      + [使用Marketo Engage资源](./content/marketo-engage-design-studio.md)
+      + [使用AEM Assets图像](./content/aem-assets.md)
+   + [模板](./content/email-templates.md)
+   + [片段](./content/fragments.md)
 + 分析功能板{#dashboards}
    + [购买组](./dashboards/buying-groups-dashboard.md)
    + [参与概述](./dashboards/engagement-dashboard.md)
    + [历程概述](./dashboards/journeys-dashboard.md)
-+ 集成{#integrations}
-   + [AdobeExperience Manager Assets](./integrations/experience-manager-assets-integration.md)
++ 管理{#admin}
+   + [用户管理](./admin/user-management.md)
+   + [配置AEM Assets存储库](./admin/configure-aem-repositories.md)
+   + [治理](./admin/governance.md)

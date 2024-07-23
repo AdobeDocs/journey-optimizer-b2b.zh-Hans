@@ -3,16 +3,16 @@ title: 历程概述功能板
 description: 了解历程概述功能板提供的信息，以及它如何帮助您监控和管理客户历程策略。
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 3223a1379fad0da8b46af8c2f3929e79fafbd256
+source-git-commit: d1505512a45b2e47f8d867a8c1abe28ddc2565f0
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
 # 历程概述功能板
 
-此仪表板提供参与度的全面视图，并通过快照圆环图和随时间变化的趋势显示折线图展示帐户和个人交互的实时量度。 它有助于您有效地监控和制定参与策略。
+此仪表板提供选定帐户历程的全面概述，详细介绍使用圆环图和折线图对一段时间内完成、正在进行的活动和中止进行分类和量化的帐户进度。 它有助于营销人员通过关键交付和参与量度来评估电子邮件和短信渠道的有效性。
 
 ## 历程状态
 
@@ -85,7 +85,3 @@ ht-degree: 0%
 * [!UICONTROL 输入日期]
 * [!UICONTROL 退出日期]
 * [!UICONTROL 历程天数]
-
-全局过滤器：
-
-日期过滤器

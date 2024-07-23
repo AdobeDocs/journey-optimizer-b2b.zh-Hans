@@ -2,9 +2,9 @@
 title: Adobe Journey Optimizer B2B版本文档
 description: 了解如何使用Adobe Journey Optimizer B2B版本功能。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: dc8301ba755aaf457b955ffbb9c6f0eff6d5a295
+source-git-commit: f8b8f2a4ee813094389d1f262f729a9e95502c6a
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '362'
 ht-degree: 2%
 
 ---
@@ -88,24 +88,25 @@ ht-degree: 2%
       <strong>购买团体</strong><br/><a href="./buying-groups/buying-groups-overview.md">购买团体概述</a><br/><a href="./buying-groups/buying-groups-role-templates.md">角色模板</a><br/><a href="./buying-groups/solution-interests.md">解决方案兴趣</a><br/><a href="./buying-groups/buying-groups-create.md">创建购买团体</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
-      <strong>历程内容</strong><br/><a href="./content/email-authoring.md">电子邮件创作</a><br/><a href="./content/ai-assistant-emails.md">用于电子邮件创作</a><br/><a href="./content/sms-authoring.md">短信的AI助手</a>
+      <img src="../assets/do-not-localize/icon-paths.svg" width="35px"><br/>
+      <strong>帐户历程</strong><br/><a href="./journeys/journey-overview.md">历程概述</a><br/><a href="./journeys/journey-nodes.md">历程节点</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">创建帐户历程</a>
     </td>
   </tr>
   <tr style="border: 0;">
+    <td>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
+      <strong>历程内容</strong><br/><a href="./content/email-authoring.md">电子邮件创作</a><br/><a href="./content/ai-assistant-emails.md">用于电子邮件创作</a><br/><a href="./content/sms-authoring.md">短信的AI助手</a>
+    </td>
         <td>
-      <img src="../assets/do-not-localize/icon-paths.svg" width="35px"><br/>
-      <strong>帐户历程</strong><br/><a href="./journeys/journey-overview.md">历程概述</a><br/><a href="./journeys/journey-nodes.md">历程节点</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">创建帐户历程</a>
+      <img src="../assets/do-not-localize/icon_assets.svg" width="35px"><br/>
+      <strong>Assets</strong><br/><a href="./content/assets-overview.md">概述</a><br/><a href="./content/marketo-engage-design-studio.md">Marketo Engage设计工作室</a><br/><a href="./content/aem-assets.md">Adobe Experience Manager Assets</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>
       <strong>见解</strong><br/><a href="./dashboards/buying-groups-dashboard.md">购买团体仪表板</a><br/><a href="./dashboards/journeys-dashboard.md">历程仪表板</a><br/><a href="./dashboards/engagement-dashboard.md">参与度仪表板</a>
     </td>
-    <td>
-      <img src="../assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>集成</strong><br/><a href="./integrations/experience-manager-assets-integration.md">Adobe Experience Manager Assets</a>
-    </td>
-  </tr>
+
+</tr>
 </table>
 
 <!-- 

@@ -3,9 +3,9 @@ title: 购买组角色模板
 description: 了解如何定义用作购买组组件的角色模板。
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 8afc432e7caeb2bf7e632276a7432d0a010f9ab2
+source-git-commit: 099b515ac91e37c90421cf92f7a724257b07f42e
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -55,13 +55,23 @@ ht-degree: 0%
 
 1. 为要为模板定义的每个角色添加一个规则。
 
-   对于当前版本，有六个角色：`Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。
+* 从列表中选择&#x200B;**[!UICONTROL 购买团体角色]**。
 
-   ![购买团体角色列表](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
+  对于当前版本，有六个角色：`Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。
 
-   * 从列表中选择角色。
+![购买团体角色列表](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
-   * 单击&#x200B;**[!UICONTROL 添加条件]**。
+* 为用于计算参与度分数的角色设置&#x200B;**[!UICONTROL 权重]**。
+
+  每个选项的值已转换为得分计算的百分比： [!UICONTROL 普通] = 20，[!UICONTROL 次要] = 40，[!UICONTROL 普通] = 60，[!UICONTROL 重要] = 80，以及[!UICONTROL 重要] = 100。
+
+  例如，角色使用Vital、Important和Normal的角色模板随后将转换为100/240、80/240、60/240。
+
+* **[!UICONTROL 为自动分配添加条件]** — 选中此复选框可将自动分配成员的条件添加到符合条件的购买组。 如果未选中该复选框，则不需要添加条件。
+
+* **[!UICONTROL 完整性得分必需]** — 如果您希望该角色成为计算完整性得分的要求，请选中此复选框。—>
+
+* 单击&#x200B;**[!UICONTROL 添加条件]**。
 
    * 在条件对话框中，展开&#x200B;**[!UICONTROL 人员属性]**&#x200B;的列表，并找到要用于匹配角色的属性。 将其拖动到右侧，然后将其放到过滤器空间中。
 
@@ -77,19 +87,15 @@ ht-degree: 0%
 
    * 单击&#x200B;**[!UICONTROL 完成]**。
 
-   对于要为模板包括的每个其他角色，单击&#x200B;**[!UICONTROL 添加其他角色]**&#x200B;并定义一个或多个条件以与该角色匹配。
+对于要为模板包括的每个其他角色，单击&#x200B;**[!UICONTROL 添加其他角色]**&#x200B;并定义一个或多个条件以与该角色匹配。
 
-   ![定义了多个角色的角色模板](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+![定义了多个角色的角色模板](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
 1. 如果模板已准备就绪，请单击右上方的&#x200B;**[!UICONTROL Publish]**。
 
    发布模板会将其设置为&#x200B;_实时_&#x200B;状态，并使其可以与解决方案兴趣关联。 必须至少定义一个角色才能发布角色模板。
 
    您的更改将自动保存为&#x200B;_草稿_&#x200B;状态。 如果您还未准备好发布角色模板，请单击页面顶部的左（后）箭头，并返回到“角色模板”列表。
-<!-- 
-< PM -- the Required for completion checkbox is not available to clear. Is this functional for Beta? >
-
-Required for completion checkbox - select this for a role if it is required to calculate the completeness score. -->
 
 ## 编辑草稿角色模板
 

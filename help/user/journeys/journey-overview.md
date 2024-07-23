@@ -3,9 +3,9 @@ title: 帐户历程
 description: 了解帐户历程以及如何创建和管理它们。
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 59407f21319ff1b84e4fd001c4e92cfff61c57c9
+source-git-commit: 07198448d168e66023fada332f38099890ba4a1b
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1125'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 此表包括按名称和创建者进行搜索的功能。 排序当前不可用。
 
-通过单击右上角的列图标并选中或清除复选框，可以自定义显示的表格。
+您可以通过单击右上角的&#x200B;_列_&#x200B;图标并选择或清除复选框来自定义显示的表。
 
 ![选择要显示在帐户历程列表中的列](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 ![帐户历程工作区](./assets/account-journey-workspace.png){width="800" zoomable="yes"}
 
-每个历程的编辑器标题包括：
+每个帐户历程的编辑器标题包括：
 
 * 历程名称
 * 能够编辑名称（_编辑_&#x200B;图标）
