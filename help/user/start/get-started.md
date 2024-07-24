@@ -16,7 +16,7 @@ ht-degree: 3%
 
 >[!BEGINTABS]
 
->管理员的[!TAB 快速入门]
+>[!TAB 管理员的快速入门]
 
 需要执行多个步骤来准备环境，然后您的团队才能开始使用Adobe Journey Optimizer B2B版本功能。 执行这些步骤，以便数据工程师和营销人员可以开始使用Adobe Journey Optimizer B2B版本。
 
