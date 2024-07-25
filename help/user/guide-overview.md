@@ -1,11 +1,11 @@
 ---
 title: Adobe Journey Optimizer B2B版本文档
-description: 了解如何使用Adobe Journey Optimizer B2B版本功能。
+description: 了解如何使用Adobe Journey Optimizer B2B版功能通过内置的创意AI和行业领先的自动化功能编排帐户和购买团体历程。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: f8b8f2a4ee813094389d1f262f729a9e95502c6a
+source-git-commit: 595eb7fcf982370cc733f566ea2f51fb02362926
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 2%
+source-wordcount: '404'
+ht-degree: 5%
 
 ---
 
@@ -19,21 +19,25 @@ ht-degree: 2%
 
 >[!BEGINTABS]
 
->[!TAB Beta版本可用]
+>[!TAB AI 助手]
 
-加入Beta计划，了解Adobe Journey Optimizer B2B Edition Beta版本中包含的众多功能。
+快速了解基于帐户的营销概念，并了解旨在最大限度地提升团队策略的Journey Optimizer B2B版本功能。
 
-[!BADGE 了解更多]{type=Informative url="https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4epuYNI0IWZLgH1mr3nTaPdURThPQjFWR0VaWk9XNjJQTjFER1pYT0lWWi4u" tooltip="Journey Optimizer B2B Edition Beta版本"}
+[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="了解AI助手"}
 
->[!TAB 电子邮件内容的AI助手]
-
-使用由创作AI提供支持的Adobe Journey Optimizer B2B版本中的AI助手，将您的内容提升到新的级别。 AI Assistant可以生成整个电子邮件、有针对性的文本内容，甚至是专门定制以引起受众共鸣的图像，从而帮助您优化投放的影响。
+在Adobe Journey Optimizer B2B版本中使用由创作AI提供支持的AI助手，将您的内容提升到新的级别。 AI Assistant可以生成整个电子邮件、有针对性的文本内容，甚至是专门定制以引起受众共鸣的图像，从而帮助您优化投放的影响。
 
 [!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="了解电子邮件的AI助手"}
 
+>[!TAB 可视片段]
+
+创建可重用组件作为自定义内容块，供营销团队成员用于汇编电子邮件内容，从而改进设计过程。
+
+[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="了解可视化片段"}
+
 >[!TAB 购买群]
 
-从整个企业的统一B2B数据创建购买组，将这些购买组与您公司的产品保持一致，并自动定义、识别和定位每个角色的适当成员，从而扩展客户历程的最精确定位。
+从整个企业的统一B2B数据创建购买组。 根据贵公司的产品和服务进行调整，并自动定义、识别和定位每个角色的适当成员，从而为您的客户历程扩展最精确的定位。
 
 [!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="了解购买群组"}
 
@@ -55,7 +59,7 @@ ht-degree: 2%
     </td>
       <td>
     <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png"></a>
-    <div><strong>构建您的第一个购买群组</strong><br/>在Journey Optimizer B2B Edition中创建您的第一个购买群组，以自动执行联系人和确认联系人的过程。</div>
+    <div><strong>创建您的第一个购买群组</strong><br/>在Journey Optimizer B2B Edition中创建您的第一个购买群组，以自动执行联系人和确认联系人的过程。</div>
     </td>
     <td>
     <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png"></a>
@@ -76,7 +80,7 @@ ht-degree: 2%
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong>登录和主页</strong><br/><a href="home-page.md#marketer---new-user">营销人员 — 新用户</a><br/><a href="home-page.md#marketer---advanced-user">营销人员 — 高级</a> <br/><a href="home-page.md#administrator---new-user">管理员 — 新用户</a> <br/><a href="home-page.md#administrator---advanced-user">管理员 — 高级</a>
+      <strong>开始使用</strong><br/><a href="home-page.md">登录和主页</a><br/><a href="./start/get-started.md">快速入门指南</a> <br/><a href="./start/ai-assistant.md">AI助手</a>
     </td>
     <!--
     <td>
@@ -99,7 +103,7 @@ ht-degree: 2%
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px"><br/>
-      <strong>Assets</strong><br/><a href="./content/assets-overview.md">概述</a><br/><a href="./content/marketo-engage-design-studio.md">Marketo Engage设计工作室</a><br/><a href="./content/aem-assets.md">Adobe Experience Manager Assets</a>
+      <strong>内容管理</strong><br/><a href="./content/assets-overview.md">Assets概述</a><br/><a href="./content/email-templates.md">电子邮件模板</a><br/><a href="./content/fragments.md">可视化片段</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>

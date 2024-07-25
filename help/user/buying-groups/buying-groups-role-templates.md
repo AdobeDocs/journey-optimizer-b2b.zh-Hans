@@ -3,7 +3,7 @@ title: 购买组角色模板
 description: 了解如何定义用作购买组组件的角色模板。
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 099b515ac91e37c90421cf92f7a724257b07f42e
+source-git-commit: 19633e2676c3e9d747a1e65bfc48a3ba421674b9
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 0%
@@ -55,41 +55,41 @@ ht-degree: 0%
 
 1. 为要为模板定义的每个角色添加一个规则。
 
-* 从列表中选择&#x200B;**[!UICONTROL 购买团体角色]**。
+   * 从列表中选择&#x200B;**[!UICONTROL 购买团体角色]**。
 
-  对于当前版本，有六个角色：`Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。
+     对于当前版本，有六个角色：`Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。
 
-![购买团体角色列表](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
+     ![购买团体角色列表](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
-* 为用于计算参与度分数的角色设置&#x200B;**[!UICONTROL 权重]**。
+   * 为用于计算参与度分数的角色设置&#x200B;**[!UICONTROL 权重]**。
 
-  每个选项的值已转换为得分计算的百分比： [!UICONTROL 普通] = 20，[!UICONTROL 次要] = 40，[!UICONTROL 普通] = 60，[!UICONTROL 重要] = 80，以及[!UICONTROL 重要] = 100。
+     每个选项的值已转换为得分计算的百分比： [!UICONTROL 普通] = 20，[!UICONTROL 次要] = 40，[!UICONTROL 普通] = 60，[!UICONTROL 重要] = 80，以及[!UICONTROL 重要] = 100。
 
-  例如，角色使用Vital、Important和Normal的角色模板随后将转换为100/240、80/240、60/240。
+     例如，角色使用Vital、Important和Normal的角色模板随后将转换为100/240、80/240、60/240。
 
-* **[!UICONTROL 为自动分配添加条件]** — 选中此复选框可将自动分配成员的条件添加到符合条件的购买组。 如果未选中该复选框，则不需要添加条件。
+   * **[!UICONTROL 为自动分配添加条件]** — 选中此复选框可将自动分配成员的条件添加到符合条件的购买组。 如果未选中该复选框，则不需要添加条件。
 
-* **[!UICONTROL 完整性得分必需]** — 如果您希望该角色成为计算完整性得分的要求，请选中此复选框。—>
+   * **[!UICONTROL 完整性得分必需]** — 如果您希望该角色成为计算完整性得分的要求，请选中此复选框。—>
 
-* 单击&#x200B;**[!UICONTROL 添加条件]**。
+   * 单击&#x200B;**[!UICONTROL 添加条件]**。
 
-   * 在条件对话框中，展开&#x200B;**[!UICONTROL 人员属性]**&#x200B;的列表，并找到要用于匹配角色的属性。 将其拖动到右侧，然后将其放到过滤器空间中。
+      * 在条件对话框中，展开&#x200B;**[!UICONTROL 人员属性]**&#x200B;的列表，并找到要用于匹配角色的属性。 将其拖动到右侧，然后将其放到过滤器空间中。
 
-     ![角色模板添加条件拖动属性](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
+        ![角色模板添加条件拖动属性](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
-   * 使用属性可使用一个或多个值创建匹配过滤器。
+      * 使用属性可使用一个或多个值创建匹配过滤器。
 
-     在以下示例中，职称属性用于标识决策者的匹配项。 任何以`Director`或`Sr Director`开头的标题值都会将该条件的评估为true。
+        在以下示例中，职称属性用于标识决策者的匹配项。 任何以`Director`或`Sr Director`开头的标题值都会将该条件的评估为true。
 
-     使用工作标题的![角色模板条件示例](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
+        使用工作标题的![角色模板条件示例](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-   * 如果需要，可添加其他属性和条件，以进一步优化与角色的匹配条件。
+      * 如果需要，可添加其他属性和条件，以进一步优化与角色的匹配条件。
 
-   * 单击&#x200B;**[!UICONTROL 完成]**。
+      * 单击&#x200B;**[!UICONTROL 完成]**。
 
-对于要为模板包括的每个其他角色，单击&#x200B;**[!UICONTROL 添加其他角色]**&#x200B;并定义一个或多个条件以与该角色匹配。
+   对于要为模板包括的每个其他角色，单击&#x200B;**[!UICONTROL 添加其他角色]**&#x200B;并定义一个或多个条件以与该角色匹配。
 
-![定义了多个角色的角色模板](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+   ![定义了多个角色的角色模板](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
 1. 如果模板已准备就绪，请单击右上方的&#x200B;**[!UICONTROL Publish]**。
 

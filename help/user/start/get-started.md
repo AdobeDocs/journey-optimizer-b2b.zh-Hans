@@ -1,10 +1,11 @@
 ---
 title: Journey Optimizer B2B版本入门
 description: 作为Journey Optimizer B2B版本中的新用户，了解快速入门的关键领域。
-source-git-commit: f38dc43681d7c12f6ae5e69978e5950fd9526f4c
+exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
+source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 3%
+source-wordcount: '623'
+ht-degree: 8%
 
 ---
 
@@ -16,15 +17,15 @@ ht-degree: 3%
 
 >[!BEGINTABS]
 
->[!TAB 管理员的快速入门]
+>[!TAB 管理员快速入门]
 
 需要执行多个步骤来准备环境，然后您的团队才能开始使用Adobe Journey Optimizer B2B版本功能。 执行这些步骤，以便数据工程师和营销人员可以开始使用Adobe Journey Optimizer B2B版本。
 
-作为系统管理员，您需要了解产品配置文件并为沙盒管理和渠道配置分配权限。 您还需要设置沙盒并对可用的产品配置文件管理沙盒。 然后，您可以将团队成员分配给产品配置文件。 这些功能可以由有权访问Adobe Admin Console的产品管理员管理。 [进一步了解Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)。
+作为系统管理员，您需要了解产品配置文件并为沙盒管理和渠道配置分配权限。 您还需要设置沙盒并对可用的产品配置文件管理沙盒。 然后，您可以将团队成员分配给产品配置文件。 这些功能可以由有权访问Adobe Admin Console的产品管理员管理。 [进一步了解 Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)。
 
 在以下页面中了解访问管理：
 
-1. **创建沙盒**&#x200B;以将实例分区为单独的独立虚拟环境。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home#understanding-sandboxes)
+1. **创建沙盒**&#x200B;以将实例分割为单独的独立虚拟环境。[了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home#understanding-sandboxes)
 
 1. **设置产品配置文件**。 产品配置文件是Adobe Experience Platform中的一组统一权限，允许用户访问界面中的特定功能或对象。 [了解更多](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
@@ -46,7 +47,7 @@ ht-degree: 3%
 
 1. **创建购买组**。 定义满足您的业务目标和目的的关键组件，并创建购买组以标识目标客户列表的成员。 [了解更多](../buying-groups/buying-groups-overview.md)
 
-1. **创建和管理资源**。 Adobe Experience Manager Assets提供了单一集中式资源存储库，您可以使用它填充消息。 [了解更多](../content/assets-overview.md)
+1. **创建和管理资源**。Adobe Experience Manager Assets提供了单一集中式资源存储库，您可以使用它填充消息。 [了解更多](../content/assets-overview.md)
 
 1. **添加个性化和动态电子邮件模板**。 利用Journey Optimizer B2B Edition个性化和动态内容功能，根据受众调整消息。 [了解更多](../content/email-templates.md)
 
