@@ -3,10 +3,10 @@ title: 参与概述仪表板
 description: 了解如何使用参与概述仪表板监控参与工作。
 feature: Dashboards, Engagement
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
-source-git-commit: bb14b15ae41f795f4e9adf0bb564770e152539fd
+source-git-commit: c5fe3f1530b2c3d9b9eab8ad089dbab9a2c74e99
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 1%
+source-wordcount: '329'
+ht-degree: 3%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 1%
 
 <!-- To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. To engage with the data, use the action menu in the top-right corner. -->
 
-## 按客户/人员列出的参与度
+## 按客户列出的参与度/按人员列出的参与度
 
 圆环图将客户或人员明确划分为参与和非参与类别。 中心数字表示每个类别中的总计数，从而可以一目了然地了解总体参与。
 
 ![按帐户和人员进行的参与](assets/engagement-accounts-people.png){width="700" zoomable="yes"}
 
-## 随时间推移按客户/人员列出的参与度
+## 随时间变化的参与客户/随时间变化参与的人员
 
 这些折线图显示一段时间内客户或人员的参与级别。 通过将“已参与”和“未参与”的不同行与带有时间戳的水平轴一起可视化，您可以查明趋势和模式。 您可以将鼠标悬停在一行上以显示任何给定日期的精确量度。
 
@@ -30,36 +30,31 @@ ht-degree: 1%
 
 ## 增强的交互
 
-使用右上角的操作图标( **...** )进一步处理数据。
+使用每个图形右上角的操作图标( **...** )进一步处理数据。
 
-![参与仪表板数据 — 操作菜单](assets/engagement-action-menu.png){width="400"}
+![参与仪表板数据 — 操作菜单](assets/engagement-action-menu.png){width="300"}
 
 ### 查看更多信息
 
 **[!UICONTROL 查看更多]**：对于所有仪表板视图，将出现一个弹出窗口，其中显示按帐户/人员划分的参与度列表。
 
-表右上角的下载CSV按钮。
+要复制扩展数据，请单击右上方的&#x200B;**[!UICONTROL 下载CSV]**。
+
+### 穿透钻取
+
+选择&#x200B;**[!UICONTROL 穿透钻取]**&#x200B;以深入分析各个组状态。
+
+应用于功能板的全局过滤器将会转移到此页面。
+
+选择&#x200B;**[!UICONTROL 查看更多]**&#x200B;以查看扩展数据和见解。 根据图表，存在以下项的扩展数据：
+
+* [!UICONTROL 帐户]
+* [!UICONTROL 人员]
+* [!UICONTROL 日期]
+* [!UICONTROL 状态]
+* [!UICONTROL 参与]
+* [!UICONTROL 未参与]
 <!-- 
-### Drill through
-
-Choose **[!UICONTROL Drill through]** for an in-depth analysis of individual group statuses.
-
-The global filters applied to the dashboard are carried over to this page.
-
-The applied filters are displayed, but are not editable on this page. 
-The only available filters that are enabled are _Account Name_ or _Person Name_.
-
-To display or hide available columns, click **[!UICONTROL View more]** at the top-right corner:
-
-Click **[!UICONTROL View more]** to open the download dialog.
-
-Button on the top right corner to open a pop-up with the available column list:
-
-* [!UICONTROL Account]
-* [!UICONTROL Account name]
-* [!UICONTROL Account ID]
-* [!UICONTROL Status]
-* [!UICONTROL People engaged]
 * [!UICONTROL Engagement activities]
 * [!UICONTROL Last engagement date]
 * [!UICONTROL Region]
@@ -71,17 +66,14 @@ Button on the top right corner to open a pop-up with the available column list:
 * [!UICONTROL Email]
 --->
 
-### 筛选条件
+### 数据筛选
 
-全局筛选器： **[!UICONTROL 日期]**&#x200B;筛选器，它反映了购买组的上次状态更改日期。 开始日期可调。 结束日期默认为当天。
+* **数据筛选器** — 使用&#x200B;_[!UICONTROL 日期筛选器]_，该筛选器可反映上次参与日期。 开始日期可调。 结束日期默认为当天。
 
-您还可以使用以下任一属性过滤显示：
+* **属性筛选器** — 单击左上角的&#x200B;_筛选器_&#x200B;图标，以使用下列任一属性筛选数据显示：
 
-* 解决方案兴趣
-* 解决方案兴趣列表
-* 参与类型
-* 参与类型列表
-* 帐户区域
-* 帐户所在地区
-* 帐户行业
-* 帐户行业
+   * 解决方案兴趣
+   * 参与类型
+   * 区域
+   * 行业
+  <!-- * Account's Industry -->

@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B版本文档
 description: 了解如何使用Adobe Journey Optimizer B2B版功能通过内置的创意AI和行业领先的自动化功能编排帐户和购买团体历程。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 595eb7fcf982370cc733f566ea2f51fb02362926
+source-git-commit: 8a27ab8d1c0849b9ed0e921874cb1e5260647e40
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 5%
+source-wordcount: '422'
+ht-degree: 4%
 
 ---
 
@@ -23,29 +23,29 @@ ht-degree: 5%
 
 快速了解基于帐户的营销概念，并了解旨在最大限度地提升团队策略的Journey Optimizer B2B版本功能。
 
-[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="了解AI助手"}
+[!BADGE 了解详情]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="了解AI助手"}
 
 在Adobe Journey Optimizer B2B版本中使用由创作AI提供支持的AI助手，将您的内容提升到新的级别。 AI Assistant可以生成整个电子邮件、有针对性的文本内容，甚至是专门定制以引起受众共鸣的图像，从而帮助您优化投放的影响。
 
-[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="了解电子邮件的AI助手"}
+[!BADGE 了解详情]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="了解电子邮件的AI助手"}
 
 >[!TAB 可视片段]
 
 创建可重用组件作为自定义内容块，供营销团队成员用于汇编电子邮件内容，从而改进设计过程。
 
-[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="了解可视化片段"}
+[!BADGE 了解详情]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="了解可视化片段"}
 
 >[!TAB 购买群]
 
 从整个企业的统一B2B数据创建购买组。 根据贵公司的产品和服务进行调整，并自动定义、识别和定位每个角色的适当成员，从而为您的客户历程扩展最精确的定位。
 
-[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="了解购买群组"}
+[!BADGE 了解详情]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="了解购买群组"}
 
 >[!TAB 帐户历程]
 
 在目标客户群中构建量身定制的购买历程，以自动化超个性化的销售和营销参与，从而简化需求生成、资格鉴定和无缝、协调的购买群组体验。
 
-[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview" tooltip="了解帐户历程"}
+[!BADGE 了解详情]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview" tooltip="了解帐户历程"}
 
 >[!ENDTABS]
 
@@ -73,6 +73,12 @@ ht-degree: 5%
     <td align="center"><a href="journeys/journey-overview.md"><img src="../assets/learn-more.svg"></a></td>
     </tr>
 </table>
+
+## 概述演示
+
+了解购买团体的各个组成部分，并了解构建客户历程的基础知识。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3432054?quality=12)
 
 ## 浏览文档
 
