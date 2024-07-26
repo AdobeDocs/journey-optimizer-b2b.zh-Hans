@@ -3,7 +3,7 @@ title: 创建购买组
 description: 了解如何创建购买组。
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 164a038ecce64cbf113c50b9328f84a95aa7b201
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 确认对话框提供了购买组流程的摘要和预计完成时间。 要确认并启动该进程，请单击&#x200B;**[!UICONTROL 创建]**。
 
-![创建购买群组确认对话框](./assets/buying-groups-create-confirm.png){width="425" zoomable="no"}
+![创建购买群组确认对话框](./assets/buying-groups-create-confirm.png){width="400" zoomable="yes"}
 
 您可以将用户导航到解决方案兴趣选项卡，并显示为解决方案兴趣创建的作业计数。
 

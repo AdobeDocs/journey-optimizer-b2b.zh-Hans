@@ -3,9 +3,9 @@ title: 购买组概述仪表板
 description: 了解购买组概述仪表板以及它如何支持营销团队的销售移交功能。
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: c5fe3f1530b2c3d9b9eab8ad089dbab9a2c74e99
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '410'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
 
 要处理数据，请使用右上角的操作菜单。
 
-![单击图标以访问操作菜单](./assets/buying-group-more-menu.png){width="400"}
+![单击图标以访问操作菜单](./assets/buying-group-more-menu.png){width="300"}
 
 ### [!UICONTROL 穿透钻取]
 
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 ![图形数据的穿透钻取](./assets/buying-group-status-drill-through-view.png){width="600" zoomable="yes"}
 
-应用于仪表板的全局过滤器会转移，并且无法从该页面进行更改。
+应用于仪表板的全局过滤器会转移。
 
 单击右上方的操作菜单图标，然后选择&#x200B;**[!UICONTROL 查看更多]**&#x200B;到[查看扩展数据和见解](#view-more)。
 
@@ -86,4 +86,4 @@ ht-degree: 1%
 
 ![查看扩展数据](./assets/buying-group-status-view-more.png){width="600" zoomable="yes"}
 
-要下载数据，请单击右上角的&#x200B;**[!UICONTROL 下载CSV]**。
+要下载数据，请单击右上方的&#x200B;**[!UICONTROL 下载CSV]**。

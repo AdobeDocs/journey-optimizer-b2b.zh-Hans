@@ -3,9 +3,9 @@ title: 电子邮件创作
 description: 了解如何创建在帐户历程中使用的个性化电子邮件内容。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: cae7aa7faa67bd1888b85051ff247848b6c3c072
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1314'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 1. 若要对人员&#x200B;]_执行_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 发送电子邮件]**。
 1. 对于&#x200B;_[!UICONTROL 电子邮件源]_，请选择&#x200B;**[!UICONTROL 新建电子邮件]**。
 
-   或者，您还可以选择`Select email from Adobe Marketo Engage`选项，在Marketo Engage中使用预先编写的电子邮件之一，并将其作为Account历程的一部分发送。
+   或者，您还可以选择&#x200B;_[!UICONTROL 从Adobe Marketo Engage中选择电子邮件]_&#x200B;选项，以在Marketo Engage中使用预先编写的电子邮件之一并将其作为Account历程的一部分发送。
 
    >[!NOTE]
    >
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 >[!TIP]
 >
->使用由generative AI提供支持的Adobe Journey Optimizer B2B版本中的AI Assistant将您的内容提升到新的级别。 AI Assistant可以帮助您优化投放的影响，方法是生成整个电子邮件、提供有针对性的文本内容，并为可与受众产生共鸣的图像获取AI Assistant推荐。 [了解更多](./ai-assistant-emails.md)
+>使用由generative AI提供支持的Adobe Journey Optimizer B2B版本中的AI Assistant将您的内容提升到新的级别。 AI Assistant可以帮助您优化投放的影响，方法是生成整个电子邮件、提供有针对性的文本内容，并为可与受众产生共鸣的图像获取AI Assistant推荐。 [了解详情](./ai-assistant-emails.md)
 
 ### 从头开始设计电子邮件
 
@@ -92,7 +92,7 @@ ht-degree: 1%
 
 1. 从左窗格中选择&#x200B;**[!UICONTROL 链接]**&#x200B;选项卡以显示您的内容中受跟踪的所有URL。
 
-   您可以修改跟踪类型或标签，并根据需要添加标记。
+   您可以修改&#x200B;_跟踪类型_&#x200B;或&#x200B;_标签_，并根据需要添加标记。
 
 如果需要，您可以通过单击高级菜单中的&#x200B;**[!UICONTROL 切换到代码编辑器]**&#x200B;来进一步个性化电子邮件。 代码编辑器允许您编辑电子邮件源代码，如添加跟踪或自定义HTML标记。
 

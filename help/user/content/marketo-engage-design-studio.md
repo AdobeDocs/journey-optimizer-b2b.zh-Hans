@@ -2,7 +2,8 @@
 title: 使用Marketo Engage资源
 description: 了解如何在Journey Optimizer B2B Edition中使用Marketo EngageDesign Studio资产管理集成。
 feature: Assets, Content
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 0%
@@ -95,7 +96,7 @@ Marketo EngageDesign Studio是Journey Optimizer B2B版本的默认资源源，�
 
 在&#x200B;_[!UICONTROL 替换资产]_&#x200B;对话框中，将替换文件从您的系统拖放到文件框中。 您还可以单击&#x200B;_[!UICONTROL 从计算机中选择文件]_&#x200B;链接以使用本地文件系统选择文件。 （如果在本地系统中选择多个文件，则使用所选的第一个文件来替换。）
 
-![替换资源对话框](./assets/assets-replace-dialog.png){width="500" zoomable="yes"}
+![替换资源对话框](./assets/assets-replace-dialog.png){width="520" zoomable="yes"}
 
 若要继续，请单击&#x200B;**[!UICONTROL 替换]**。 单击&#x200B;**[!UICONTROL 取消]**&#x200B;可中止该进程。
 
