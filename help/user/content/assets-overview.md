@@ -3,9 +3,9 @@ title: 资源
 description: 了解Journey Optimizer B2B版本中的资源管理。
 feature: Assets, Content
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+source-git-commit: 16b798f18f72eeb63e68a8d32e69164930aa1e22
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -51,9 +51,9 @@ Adobe Experience Manager Assets可以连接到Adobe Experience Manager Assets as
 
 如果您订阅了Experience Manager Assetsas a Cloud Service以及默认的Adobe Marketo Engage Design Studio，则可以从任一源选择图像资源。 要实现此目的，您必须在创建新电子邮件、电子邮件模板或可视片段时选择图像源。 或者，您可以在编辑内容时选择图像源。 所选内容仅适用于编辑体验，您可以根据需要更改图像源以从其他库访问资产。
 
-创建电子邮件
+_**创建内容资源**_ — 要在创建电子邮件、电子邮件模板或片段时选择图像源，请在创建时设置&#x200B;**[!UICONTROL 图像源]**。
 
-编辑电子邮件 — 要在可视编辑器中选择图像资源源，请使用画布顶部的&#x200B;**[!UICONTROL 选择图像源]**&#x200B;选择器。
+_**编辑内容资源**_ — 若要在可视编辑器中选择图像资源源，请使用画布顶部的&#x200B;**[!UICONTROL 选择图像源]**&#x200B;选择器。
 
 ### 将资源添加到您的内容
 
