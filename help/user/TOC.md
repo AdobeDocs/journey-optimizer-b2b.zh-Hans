@@ -4,7 +4,7 @@ user-guide-description: 了解Adobe Journey Optimizer B2B版本，以及如何�
 source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 9%
+ht-degree: 13%
 
 ---
 
@@ -12,7 +12,7 @@ ht-degree: 9%
 # Journey Optimizer B2B版用户指南 {#user}
 
 + [Adobe Journey Optimizer B2B版本文档](guide-overview.md)
-+ 开始使用{#get-started}
++ 入门 {#get-started}
    + [Journey Optimizer B2B版本概述](about-journey-optimizer-b2b-edition.md)
    + [登录和主页](home-page.md)
    + [快速入门指南](./start/get-started.md)
@@ -34,7 +34,7 @@ ht-degree: 9%
    + [用于电子邮件创作的AI助手](./content/ai-assistant-emails.md)
    + [短信创作](./content/sms-authoring.md)
 + 内容管理{#content-management}
-   + Assets {#assets}
+   + 资源 {#assets}
       + [概述](./content/assets-overview.md)
       + [使用Marketo Engage资源](./content/marketo-engage-design-studio.md)
       + [使用AEM Assets图像](./content/aem-assets.md)
@@ -44,7 +44,7 @@ ht-degree: 9%
    + [购买组](./dashboards/buying-groups-dashboard.md)
    + [参与概述](./dashboards/engagement-dashboard.md)
    + [历程概述](./dashboards/journeys-dashboard.md)
-+ 管理{#admin}
++ 管理 {#admin}
    + [用户管理](./admin/user-management.md)
    + [配置AEM Assets存储库](./admin/configure-aem-repositories.md)
    + [治理](./admin/governance.md)

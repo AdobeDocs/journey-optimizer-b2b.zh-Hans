@@ -25,17 +25,17 @@ ht-degree: 8%
 
 在以下页面中了解访问管理：
 
-1. **创建沙盒**&#x200B;以将实例分割为单独的独立虚拟环境。[了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home#understanding-sandboxes)
+1. **创建沙盒**&#x200B;以将实例分割为单独的独立虚拟环境。[了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home#understanding-sandboxes)
 
-1. **设置产品配置文件**。 产品配置文件是Adobe Experience Platform中的一组统一权限，允许用户访问界面中的特定功能或对象。 [了解更多](../admin/user-management.md#create-the-marketo-engage-product-profile)
+1. **设置产品配置文件**。 产品配置文件是Adobe Experience Platform中的一组统一权限，允许用户访问界面中的特定功能或对象。 [了解详情](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
-1. **为产品配置文件（包括沙箱）设置用户权限**，并通过将团队成员分配给不同的产品配置文件来授予他们访问权限。 此任务在Admin Console中执行。 [了解更多](../admin/user-management.md#create-a-user-group)
+1. **为产品配置文件（包括沙箱）设置用户权限**，并通过将团队成员分配给不同的产品配置文件来授予他们访问权限。 此任务在Admin Console中执行。 [了解详情](../admin/user-management.md#create-a-user-group)
 
-1. **在Marketo Engage中配置电子邮件投放**，使您的团队能够通过帐户历程发送电子邮件内容。 [了解更多](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)
+1. **在Marketo Engage中配置电子邮件投放**，使您的团队能够通过帐户历程发送电子邮件内容。 [了解详情](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)
 
-1. **配置短信服务**。 在Adobe Journey Optimizer B2B版本中设置一个受支持的第三方短信提供商，这些提供商独立提供短信服务，并配置帐户凭据。 [了解更多](../content/sms-authoring.md#create-a-new-api-credentials-for-an-sms-service-provider)
+1. **配置短信服务**。 在Adobe Journey Optimizer B2B版本中设置一个受支持的第三方短信提供商，这些提供商独立提供短信服务，并配置帐户凭据。 [了解详情](../content/sms-authoring.md#create-a-new-api-credentials-for-an-sms-service-provider)
 
-1. **为使用Adobe Experience Manager Assets作为集中数字资产管理的Cloud Service的团队配置并启用使用Assets**。 [了解更多](../admin/configure-aem-repositories.md)
+1. **为使用Adobe Experience Manager Assets作为集中数字资产管理的Cloud Service的团队配置并启用使用Assets**。 [了解详情](../admin/configure-aem-repositories.md)
 
 >[!TAB 营销人员快速入门]
 
@@ -43,13 +43,13 @@ ht-degree: 8%
 
 请参阅以下部分以设置您的第一个历程、添加资源和发送内容：
 
-1. **添加帐户受众**。 Journey Optimizer B2B版本允许您直接从应用程序通过区段定义创建帐户受众，并将它们用于您的帐户历程。 [了解更多](../audiences/account-audience-overview.md)
+1. **添加帐户受众**。 Journey Optimizer B2B版本允许您直接从应用程序通过区段定义创建帐户受众，并将它们用于您的帐户历程。 [了解详情](../audiences/account-audience-overview.md)
 
-1. **创建购买组**。 定义满足您的业务目标和目的的关键组件，并创建购买组以标识目标客户列表的成员。 [了解更多](../buying-groups/buying-groups-overview.md)
+1. **创建购买组**。 定义满足您的业务目标和目的的关键组件，并创建购买组以标识目标客户列表的成员。 [了解详情](../buying-groups/buying-groups-overview.md)
 
-1. **创建和管理资源**。Adobe Experience Manager Assets提供了单一集中式资源存储库，您可以使用它填充消息。 [了解更多](../content/assets-overview.md)
+1. **创建和管理资源**。Adobe Experience Manager Assets提供了单一集中式资源存储库，您可以使用它填充消息。 [了解详情](../content/assets-overview.md)
 
-1. **添加个性化和动态电子邮件模板**。 利用Journey Optimizer B2B Edition个性化和动态内容功能，根据受众调整消息。 [了解更多](../content/email-templates.md)
+1. **添加个性化和动态电子邮件模板**。 利用Journey Optimizer B2B Edition个性化和动态内容功能，根据受众调整消息。 [了解详情](../content/email-templates.md)
 
 1. **设计帐户历程以提供个性化的情境式体验**。 Journey Optimizer B2B版本允许您利用存储在事件或数据源中的情境数据构建实时编排用例。 设计由以下功能提供支持的多步高级方案：
 
