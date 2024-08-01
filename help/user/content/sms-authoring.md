@@ -3,7 +3,7 @@ title: 短信创作
 description: 了解如何在其移动设备上向客户发送短信(SMS)，以及通过短信编辑器以文本格式个性化和预览消息。
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: a5f3f5533adefeb2daa6fc93e9cdef094aee9d37
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1879'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 短信创作
 
-使用Adobe Journey Optimizer B2B Edition向客户在其移动设备上发送短信(SMS)。 您可以通过短信编辑器以文本格式创建、个性化和预览消息。
+使用Adobe Journey Optimizer B2B Edition向客户在其移动设备上发送短信(SMS)。 您可以从短信编辑器中创建、个性化和预览文本格式的消息。
 
 ## SMS配置
 

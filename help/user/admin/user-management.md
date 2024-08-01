@@ -1,10 +1,10 @@
 ---
-title: 用户管理
+title: User Management
 description: 了解如何将团队成员分配给Journey Optimizer B2B版本产品配置文件。
 feature: Setup
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: f8ae6e51e76ded14316273c8e746ed814e7eb68b
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 3%

@@ -2,7 +2,7 @@
 title: Adobe Journey Optimizer B2B版本概述
 description: 了解Adobe Journey Optimizer B2B版本的关键功能、用例和体系结构。
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
-source-git-commit: 164a038ecce64cbf113c50b9328f84a95aa7b201
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%

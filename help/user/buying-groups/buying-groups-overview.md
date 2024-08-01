@@ -1,12 +1,12 @@
 ---
-title: 购买群组
+title: 购买组
 description: 了解购买群组及其组件。
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: e107c4c7c4e86c57b70d90e0f42d71454bc832a9
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1004'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -100,7 +100,7 @@ _[!UICONTROL 购买组]_&#x200B;页面组织为选项卡：
 | Adam | 决策者 | 80% | 访问过的网站 | 1000 | 2 | 1 | 22 |
 | | | | 已点击电子邮件 | 1 | 0 | 1 | 1 |
 | | | | 已下载Pub | 1 | 3 | 1 | 4 |
-| 鲍勃 | 影响因素 | 15% | 访问过的网站 | 1 | 2 | 1 | 3 |
+| Bob | 影响因素 | 15% | 访问过的网站 | 1 | 2 | 1 | 3 |
 | 卡尔文 | 从业者 | 5% | 访问过的网站 | 1 | 1 | 1 | 2 |
 
 **购买群组2** — 参与度分数= 8.55

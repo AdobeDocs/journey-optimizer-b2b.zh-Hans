@@ -2,7 +2,7 @@
 title: XDM字段映射
 description: 查看AEP XDM架构、Marketo Engage和Journey Optimizer B2B版本之间的字段映射。
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 838308621a27bcfc6425b8683f642a66f1fa6a7b
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 16%
