@@ -1,10 +1,10 @@
 ---
-user-guide-title: Journey Optimizer B2B版本文档
-user-guide-description: 了解Adobe Journey Optimizer B2B版本，以及如何使用它通过内置的创意AI和行业领先的自动化功能编排帐户和购买团体历程。
+user-guide-title: Journey Optimizer B2B Edition Documentation
+user-guide-description: 了解 Adobe Journey Optimizer B2B Edition 以及如何使用它通过内置的生成式 AI 和行业领先的自动化来协调帐户和购买团体旅程。
 source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 14%
+ht-degree: 39%
 
 ---
 
