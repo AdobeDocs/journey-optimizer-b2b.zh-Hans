@@ -3,10 +3,10 @@ title: 电子邮件创作
 description: 了解如何创建在帐户历程中使用的个性化电子邮件内容。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 9eb664edbfe1561e2946a94775c78554dfca74a2
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 1%
+source-wordcount: '1323'
+ht-degree: 2%
 
 ---
 
@@ -179,7 +179,12 @@ _要使用示例模板或保存的模板之一开始构建内容：_
 
    * `The email version of the message is empty`：尚未配置电子邮件内容时显示此错误。
 
-## 检查并测试电子邮件
+## 检查并测试电子邮件 {#preview-test}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_preview_simulate"
+>title="检查您的内容的渲染方式"
+>abstract="定义内容后，您可以预览内容，并检查渲染是否适合您使用的渠道。"
 
 定义消息内容后，您可以使用测试用户档案来预览、发送校样，并控制它在常用桌面、移动和基于Web的客户端中的呈现。 如果插入个性化内容，则可以使用测试用户档案数据预览此内容在消息中的显示方式。
 
