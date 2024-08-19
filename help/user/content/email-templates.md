@@ -3,10 +3,10 @@ title: 电子邮件模板
 description: 了解如何创建和编辑可用于轻松高效地创作帐户历程电子邮件的电子邮件模板。
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: f3677c275971c9a438d2d63ef72c6a99fa7d3d8a
 workflow-type: tm+mt
-source-wordcount: '2622'
-ht-degree: 0%
+source-wordcount: '2670'
+ht-degree: 2%
 
 ---
 
@@ -48,7 +48,17 @@ ht-degree: 0%
 
 ![选择您希望如何开始您的电子邮件模板设计](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-### 从头开始设计
+### 从头开始设计 {#design-from-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_template"
+>title="添加结构组件"
+>abstract="结构组件定义模板的版面。拖放&#x200B;**结构**&#x200B;组件到画布中，开始设计您的模板内容。"
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_template"
+>title="关于内容组件"
+>abstract="内容组件是空的内容占位符，您可用它来创建模板的版面。"
 
 使用电子邮件设计器定义电子邮件内容的结构。 通过简单的拖放操作添加和移动结构组件，您可以在几秒钟内设计可重用电子邮件内容的形状。
 

@@ -3,10 +3,10 @@ title: 电子邮件创作
 description: 了解如何创建在帐户历程中使用的个性化电子邮件内容。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9eb664edbfe1561e2946a94775c78554dfca74a2
+source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
 workflow-type: tm+mt
-source-wordcount: '1323'
-ht-degree: 2%
+source-wordcount: '1468'
+ht-degree: 11%
 
 ---
 
@@ -62,7 +62,37 @@ ht-degree: 2%
 >
 >使用由generative AI提供支持的Adobe Journey Optimizer B2B版本中的AI Assistant将您的内容提升到新的级别。 AI Assistant可以帮助您优化投放的影响，方法是生成整个电子邮件、提供有针对性的文本内容，并为可与受众产生共鸣的图像获取AI Assistant推荐。 [了解详情](./ai-assistant-emails.md)
 
-### 从头开始设计电子邮件
+### 从头开始设计电子邮件 {#design-from-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_email"
+>title="添加结构组件"
+>abstract="结构组件定义电子邮件的版面。将&#x200B;**结构**&#x200B;组件拖放到画布中，开始设计您的电子邮件内容。"
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_landing_page"
+>title="添加结构组件"
+>abstract="结构组件定义登陆页面的版面。拖放&#x200B;**结构**&#x200B;组件到画布中，开始设计您的登陆页面内容。"
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_fragment"
+>title="添加结构组件"
+>abstract="结构组件定义片段的版面。拖放&#x200B;**结构**&#x200B;组件到画布中，开始设计您的片段内容。"
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_email"
+>title="关于内容组件"
+>abstract="内容组件是空的内容占位符，您可用它来创建电子邮件的版面。"
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_landing_page"
+>title="关于内容组件"
+>abstract="内容组件是空的内容占位符，您可用它来创建登陆页面的版面。"
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_fragment"
+>title="关于内容组件"
+>abstract="内容组件是空的内容占位符，您可用它来创建片段的版面。"
 
 1. 从Designer主页中，选择&#x200B;**[!UICONTROL 从头开始设计]**&#x200B;选项。
 
@@ -182,7 +212,7 @@ _要使用示例模板或保存的模板之一开始构建内容：_
 ## 检查并测试电子邮件 {#preview-test}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_preview_simulate"
+>id="ajo-b2b_email_preview_simulate"
 >title="检查您的内容的渲染方式"
 >abstract="定义内容后，您可以预览内容，并检查渲染是否适合您使用的渠道。"
 
