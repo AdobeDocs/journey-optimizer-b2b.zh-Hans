@@ -3,10 +3,10 @@ title: 购买组
 description: 了解购买群组及其组件。
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 43fc83e70c4916c6367374a76a63e29110712a36
+source-git-commit: 5e500f616dcbbebcdfacfead9ae386b523a4d1a4
 workflow-type: tm+mt
 source-wordcount: '1186'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -85,7 +85,7 @@ _[!UICONTROL 购买组]_&#x200B;页面组织为选项卡：
 
 每次创建或更新购买群组时，都会重新计算购买群组完整性分数。
 
-### 购买团体参与度分数
+### 购买群组参与度得分
 
 购买团体参与度得分是一个数字，用于根据购买团体成员执行的活动确定其参与度。 购买组成员在过去30天内执行的任何入站活动均用于计算得分。
 
@@ -109,7 +109,7 @@ _[!UICONTROL 购买组]_&#x200B;页面组织为选项卡：
 
 具有三个加权为&#x200B;_[!UICONTROL Vital]_、_[!UICONTROL Important]_&#x200B;和&#x200B;_[!UICONTROL Normal]_&#x200B;角色的角色模板将转换为以下加权百分比：
 
-| 角色 | 权重 | 后端值 | 值计算 | 百分比 |
+| 角色 | 权重 | 系统值 | 值计算 | 百分比 |
 |-------------- |--------- |------------- |------------------ |---------- |
 |               |          |              |                   |           |
 | 决策者 | 重要 | 100 | 100/240 | 41.67% |

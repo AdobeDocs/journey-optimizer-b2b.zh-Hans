@@ -2,9 +2,9 @@
 title: Adobe Journey Optimizer B2B版本文档
 description: 了解如何使用Adobe Journey Optimizer B2B版功能通过内置的创意AI和行业领先的自动化功能编排帐户和购买团体历程。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 8a27ab8d1c0849b9ed0e921874cb1e5260647e40
+source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '490'
 ht-degree: 4%
 
 ---
@@ -18,6 +18,12 @@ ht-degree: 4%
 <!-- For a comprehensive list of features, improvements, and fixes, check out the detailed < Release Notes >. Stay up-to-date with the latest changes in our documentation by visiting the , < documentation updates page >. -->
 
 >[!BEGINTABS]
+
+>[!TAB LinkedIn帐户与受众匹配]
+
+通过帐户匹配受众生成LinkedIn广告受众，以帮助您在购买群组中填充空角色。 通过定义一组购买群组过滤器，您可以维护一个LinkedIn匹配受众，以定位与您的购买群组参数相匹配的潜在客户。 此功能利用Experience Platform目标来管理集成的某些方面。
+
+[!BADGE 了解详情]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="了解LinkedIn帐户匹配的受众"}
 
 >[!TAB AI 助手]
 

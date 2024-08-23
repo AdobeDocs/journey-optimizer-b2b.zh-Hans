@@ -1,11 +1,9 @@
 ---
 title: linkedIn帐户匹配的受众
 description: 了解如何连接LinkedIn帐户并激活用于购买群组的数据流。
-hidefromtoc: true
-hide: true
-source-git-commit: 63bf202e179895d72cd8b3f40e1bf5333bcd4c48
+source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -25,15 +23,29 @@ Journey Optimizer B2B版本提供了通过“帐户匹配受众”生成LinkedIn
 
 1. 在Experience Platform中，转到左侧导航栏中的&#x200B;**[!UICONTROL 连接]** > **[!UICONTROL 目标]**，然后选择&#x200B;**[!UICONTROL 目录]**&#x200B;选项卡。
 
-1. 在目录中，找到&#x200B;**[!UICONTROL （公司） LinkedIn匹配的受众]**&#x200B;连接器，然后单击&#x200B;**[!UICONTROL 设置]**。
+1. 在目录中，找到&#x200B;**[!UICONTROL （公司） LinkedIn Matched Audience]**&#x200B;连接器。
+
+   >[!TIP]
+   >
+   >您可以在搜索框中输入`LinkedIn`以快速查找连接器。
+
+1. 在连接器卡中，单击&#x200B;_更多_ (**...**)图标，然后选择&#x200B;**[!UICONTROL 配置新目标]**。
 
    ![访问（公司） LinkedIn匹配的受众连接器](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
-1. 选择&#x200B;**[!UICONTROL 新帐户]** > **[!UICONTROL 连接到LinkedIn]**。
+1. 选择&#x200B;**[!UICONTROL 新帐户]**&#x200B;并单击&#x200B;**[!UICONTROL 连接到目标]**。
+
+   ![连接新的LinkedIn帐户](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
 
 1. 提供您的LinkedIn凭据并登录。
 
-   已将LinkedIn帐户作为目标连接。
+   身份验证后，LinkedIn帐户将作为Experience Platform中的目标进行连接。
+
+   显示![帐户连接确认](./assets/aep-destinations-catalog-linkedin-connected.png){width="400"}
+
+   >[!IMPORTANT]
+   >
+   >此时，**不**&#x200B;输入&#x200B;_[!UICONTROL 目标详细信息]_。 只需要连接。
 
 ## 更新帐户详细信息
 
