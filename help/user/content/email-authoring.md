@@ -6,7 +6,7 @@ exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
 workflow-type: tm+mt
 source-wordcount: '1468'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 11%
 >
 >使用由generative AI提供支持的Adobe Journey Optimizer B2B版本中的AI Assistant将您的内容提升到新的级别。 AI Assistant可以帮助您优化投放的影响，方法是生成整个电子邮件、提供有针对性的文本内容，并为可与受众产生共鸣的图像获取AI Assistant推荐。 [了解详情](./ai-assistant-emails.md)
 
-### 从头开始设计电子邮件 {#design-from-scratch}
+### 从头开始设计您的电子邮件 {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_email"
@@ -214,7 +214,7 @@ _要使用示例模板或保存的模板之一开始构建内容：_
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="检查您的内容的渲染方式"
->abstract="定义内容后，您可以预览内容，并检查渲染是否适合您使用的渠道。"
+>abstract="定义内容后可预览它，并根据所使用的渠道检查渲染是否正确。"
 
 定义消息内容后，您可以使用测试用户档案来预览、发送校样，并控制它在常用桌面、移动和基于Web的客户端中的呈现。 如果插入个性化内容，则可以使用测试用户档案数据预览此内容在消息中的显示方式。
 

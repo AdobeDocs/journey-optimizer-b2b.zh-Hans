@@ -6,7 +6,7 @@ hide: true
 source-git-commit: fdaf71355aa77d73f5e30d468b05d48046fb6ae2
 workflow-type: tm+mt
 source-wordcount: '682'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -16,12 +16,12 @@ Journey Optimizer B2B版本提供了通过“帐户匹配受众”生成LinkedIn
 
 在从Journey Optimizer B2B版本启动数据流之前，必须至少有一个[（公司）LinkedIn匹配的Audience目标连接器](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect)的实例具有在Experience Platform应用程序中配置的LinkedIn Campaign Manager帐户。
 
-## 配置新的LinkedIn帐户连接 {#linkedin-destination-setup}
+## 配置新的 LinkedIn 帐户连接 {#linkedin-destination-setup}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_linkedin_destination_setup"
->title="需要LinkedIn目标设置"
->abstract="将按购买团体过滤的帐户发送到Linkedin目标，以与潜在的购买团体成员进行接触。 您最多可以为10个不同的已过滤帐户组创建10个数据流。 要开始使用此功能，请先添加一个Linkedin目标。"
+>title="需要设置 LinkedIn 目标"
+>abstract="将按购买群组过滤的帐户发送到 Linkedin 目标，以便与潜在的购买群组成员互动。您可以为 10 个不同的过滤帐户组创建最多 10 个数据流。要开始使用此功能，请先添加 Linkedin 目标。"
 
 1. 在Experience Platform中，转到左侧导航栏中的&#x200B;**[!UICONTROL 连接]** > **[!UICONTROL 目标]**，然后选择&#x200B;**[!UICONTROL 目录]**&#x200B;选项卡。
 
