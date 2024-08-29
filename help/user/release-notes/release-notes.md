@@ -1,12 +1,11 @@
 ---
 title: 发行说明
 description: Adobe Journey Optimizer B2B版本的最新发行说明
-hidefromtoc: true
-hide: true
-source-git-commit: fdaf71355aa77d73f5e30d468b05d48046fb6ae2
+exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
+source-git-commit: b034c96da0b00f4976a832a6b01858180e189c8d
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 12%
+source-wordcount: '152'
+ht-degree: 11%
 
 ---
 
@@ -16,9 +15,11 @@ Adobe Journey Optimizer B2B版本不断提供新功能、现有功能的增强�
 
 Journey Optimizer B2B Edition原生构建于[!DNL Adobe Experience Platform]上并继承了其最新的创新和改进。 在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/latest){target="_blank"}中，进一步了解这些更改。
 
+查看[产品描述](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，了解有关授权、性能护栏和限制的信息。
+
 ## 2024 年 8 月发行说明 {#Aug-2024}
 
-**发行日期**： 2024年8月22日
+**发行日期**： 2024年8月29日
 
 此版本包括以下新增功能和增强功能：
 
