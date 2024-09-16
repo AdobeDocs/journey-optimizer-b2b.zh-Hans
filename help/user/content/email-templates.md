@@ -3,9 +3,9 @@ title: 电子邮件模板
 description: 了解如何创建和编辑可用于轻松高效地创作帐户历程电子邮件的电子邮件模板。
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: f3677c275971c9a438d2d63ef72c6a99fa7d3d8a
+source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
-source-wordcount: '2670'
+source-wordcount: '1817'
 ht-degree: 2%
 
 ---
@@ -48,46 +48,25 @@ ht-degree: 2%
 
 ![选择您希望如何开始您的电子邮件模板设计](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-### 从头开始设计 {#design-from-scratch}
+### 从头开始设计
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_template"
->title="添加结构组件"
->abstract="结构组件定义模板的版面。拖放&#x200B;**结构**&#x200B;组件到画布中，开始设计您的模板内容。"
+使用可视内容编辑器定义电子邮件内容的结构。 通过简单的拖放操作添加和移动结构组件，您可以在几秒钟内设计可重用电子邮件内容的形状。
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_template"
->title="关于内容组件"
->abstract="内容组件是空的内容占位符，您可用它来创建模板的版面。"
-
-使用电子邮件设计器定义电子邮件内容的结构。 通过简单的拖放操作添加和移动结构组件，您可以在几秒钟内设计可重用电子邮件内容的形状。
+>[!NOTE]
+>
+>可用的设计工具等效于[电子邮件创作](./email-authoring.md)所用的工具。 不同之处在于，此内容随后另存为模板，可在帐户历程中的多个发送电子邮件节点中重复使用。
 
 1. 从&#x200B;_[!UICONTROL 设计您的模板]_&#x200B;主页中，选择&#x200B;**[!UICONTROL 从头开始设计]**&#x200B;选项。
 
-1. 将组件拖放到画布中以定义电子邮件的结构布局，开始设计内容。
-
-   可用的设计工具等效于[电子邮件创作](./email-authoring.md)所用的工具。 不同之处在于，此内容随后另存为模板，可在帐户历程中的多个发送电子邮件节点中重复使用。
+1. [将结构和内容](#add-structure-and-content)添加到模板。
 
 ### 导入HTML
 
-Adobe Journey Optimizer B2B版本允许您导入现有HTML内容以设计电子邮件模板。 此内容可以是：
+Adobe Journey Optimizer B2B版本允许您导入现有HTML内容以设计电子邮件模板。
 
-* 包含合并样式表的HTML文件。
-* 包含HTML文件、样式表(.css)和图像的.zip文件
+{{$include /help/_includes/content-design-import.md}}
 
-  >[!NOTE]
-  >
-  >.zip文件结构没有限制。 但是，引用必须是相对的，并且适合.zip文件夹的树结构。
-
-_要导入包含HTML内容的文件：_
-
-1. 从&#x200B;_[!UICONTROL 设计模板]_&#x200B;主页中，选择&#x200B;**[!UICONTROL 导入HTML]**&#x200B;选项。
-
-1. 拖放包含HTML内容的HTML或.zip文件，然后单击&#x200B;**[!UICONTROL 导入]**。
-
-   上传HTML内容后，您的内容处于&#x200B;_兼容模式_。 在此模式下，您只能对文本进行个性化，向内容添加链接或包含资源。
-
-1. 若要使用电子邮件设计器内容组件，请单击&#x200B;**[!UICONTROL HTML转换器]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 转换]**。
+![在zip文件中导入html内容](./assets/templates-import-zip-file.png){width="500"}
 
 >[!NOTE]
 >
@@ -97,91 +76,21 @@ _要导入包含HTML内容的文件：_
 
 ### 选择设计模板
 
-在&#x200B;_[!UICONTROL 设计模板]_&#x200B;主页中，使用“选择设计模板”部分开始从模板构建内容。 您可以使用Journey Optimizer B2B Edition实例中的示例模板或保存的电子邮件模板。
+{{$include /help/_includes/content-design-select-template.md}}
 
->[!BEGINTABS]
+## 添加结构和内容 {#structure-content}
 
->[!TAB 已保存模板]
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_template"
+>title="添加结构组件"
+>abstract="结构组件定义模板的版面。将&#x200B;**Structure**&#x200B;组件拖放到画布中，以开始设计模板的内容。"
 
-在&#x200B;_设计模板_&#x200B;主页上，默认选中&#x200B;_示例模板_&#x200B;选项卡。 要使用自定义模板，请选择&#x200B;**[!UICONTROL 保存的模板]**&#x200B;选项卡。
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_template"
+>title="关于内容组件"
+>abstract="内容组件是空的内容占位符，您可用它来创建模板的版面。"
 
-此时将显示在当前沙盒中创建的所有电子邮件模板的列表。 您可以按&#x200B;_[!UICONTROL 名称]_、_[!UICONTROL 上次修改时间]_&#x200B;和&#x200B;_[!UICONTROL 上次创建时间]_&#x200B;对它们进行排序。
-
-![选择已保存的模板](./assets/templates-design-saved-sort-by.png){width="800" zoomable="yes"}
-
-从列表中选择所需的模板。
-
-选择后，这将显示模板的预览。 在预览模式下，您可以使用左右箭头在某个类别（示例或已保存，具体取决于您的选择）的所有模板之间导航。
-
-![预览保存的模板](./assets/templates-design-saved-preview.png){width="800" zoomable="yes"}
-
-当显示与您想要使用的内容匹配时，单击预览窗口右上角的&#x200B;**[!UICONTROL 使用此模板]**。
-
-此操作会将内容复制到可视内容设计器中，您可以在其中根据需要编辑内容。
-
->[!TAB 示例模板]
-
-Adobe Journey Optimizer B2B Edition提供了一系列&#x200B;_现成的电子邮件模板_，这些模板可用于创建电子邮件和电子邮件模板。
-
-![选择由Adobe提供的模板](./assets/templates-design-samples.png){width="800" zoomable="yes"}
-
->[!ENDTABS]
-
-## 添加结构和内容
-
-通过将&#x200B;**[!UICONTROL 组件]**&#x200B;菜单中的结构拖放到画布中以定义电子邮件的布局，开始设计内容。
-
-根据需要添加任意数量的结构，并在右侧的元素属性中编辑其设置。
-
-选择&#x200B;_[!UICONTROL n：n列]_&#x200B;组件以定义您选择的列数（3到10之间）。 通过移动底部的箭头来定义每列的宽度。
-
->[!NOTE]
->
->每个列大小不能低于结构组件总宽度的10%。 您只能删除空列。
-
-展开&#x200B;**[!UICONTROL 内容]**&#x200B;部分并将所需数量的元素添加到一个或多个结构组件中。
-
-
-
-可以使用右侧面板中的&#x200B;_[!UICONTROL 设置]_&#x200B;或&#x200B;_[!UICONTROL 样式]_&#x200B;选项卡进一步自定义每个组件。 例如，可以更改每个组件的文本样式、填充或边距。
-
-### 浏览图层、设置和样式
-
-以下示例概述了在由三列组成的结构组件内调整填充和垂直对齐的步骤。
-
-1. 直接在电子邮件中或使用左侧菜单中提供的导航树选择结构组件。
-
-1. 在工具栏中，单击&#x200B;**[!UICONTROL 选择一个列]**，然后选择要编辑的列。
-
-   ![n：n列组件显示在画布中](./assets/visual-designer-n-n-column.png){width="800" zoomable="yes"}
-
-   也可以从结构树中选择它。 该列的可编辑参数显示在&#x200B;_[!UICONTROL 样式]_&#x200B;选项卡中。
-
-1. 在&#x200B;**[!UICONTROL 对齐方式]**&#x200B;下，选择&#x200B;_Top_、_Middle_&#x200B;或&#x200B;_Bottom_&#x200B;图标。
-
-1. 在&#x200B;**[!UICONTROL 内边距]**&#x200B;下，定义所有边的内边距。
-
-   如果要微调边距，请选择&#x200B;**[!UICONTROL 每边不同的边距]**。 单击锁定图标可中断同步。
-
-1. 如果需要，请调整其他列的对齐和填充。
-
-1. 保存更改。
-
-### 使内容个性化
-
-以下示例概述了使用商机/帐户属性和系统令牌对模板内容进行个性化的步骤。
-
-1. 选择文本组件并单击工具栏中的&#x200B;_添加个性化_&#x200B;图标。
-
-   ![单击“个性化”图标](./assets/visual-designer-personalize-icon.png){width="500"}
-
-   此操作打开&#x200B;_编辑Personalization_&#x200B;对话框。
-
-1. 单击&#x200B;**+**&#x200B;或&#x200B;**...**&#x200B;将令牌添加到空白空间。
-
-   ![使用令牌构造个性化文本](./assets/visual-designer-personalize-dialog.png){width="700" zoomable="yes"}
-
-1. 单击&#x200B;**[!UICONTROL 保存]**。
+{{$include /help/_includes/content-design-components.md}}
 
 ### 添加片段
 
@@ -198,43 +107,33 @@ Adobe Journey Optimizer B2B Edition提供了一系列&#x200B;_现成的电子邮
 
    ![从列表中选择片段](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
 
-1. 将任意片段拖放到结构组件占位符中。
+1. 将任意片段拖放到结构组件的占位符中。
 
    编辑器在电子邮件结构的部分/元素中呈现片段。
 
-片段的内容在结构中动态更新，以呈现内容在电子邮件中如何显示的可视化。
+片段的内容在结构中动态更新，以显示内容在电子邮件中的显示方式。
 
-如果要添加片段以使其占据电子邮件中的整个水平布局，请添加1:1列结构，然后将片段拖放到其中。
+>[!TIP]
+>
+>如果要添加片段以使其占据电子邮件中的整个水平布局，请添加1:1列结构，然后将片段拖放到其中。
 
 保存电子邮件后，当您在摘要中选择&#x200B;_[!UICONTROL 使用者]_&#x200B;选项卡时，该电子邮件会显示在片段详细信息页面中。 添加到电子邮件模板的片段在模板中不可编辑 — 内容由源片段定义。
 
 ### 添加资源
 
-在可视内容编辑器中，选择左侧显示的&#x200B;_Assets_&#x200B;图标。
+{{$include /help/_includes/content-design-assets.md}}
 
->[!NOTE]
->
->如果您订阅了Experience Manager Assetsas a Cloud Service以及默认的Adobe Marketo Engage Design Studio，则可以从在“模板详细信息”页面中选择的源中选择图像资源。
+### 导航图层、设置和样式
 
-以下示例概述了将资源添加到模板内容的步骤：
+{{$include /help/_includes/content-design-navigation.md}}
 
-1. 要打开资源库，请单击&#x200B;_Assets_&#x200B;图标。
+### 使内容个性化
 
-   在资产选择器中，您可以直接选择存储在源库中的资产。
+{{$include /help/_includes/content-design-personalization.md}}
 
-1. 通过将图像资产拖放到结构组件中来添加新资产。
+### 编辑链接的URL跟踪
 
-1. 在画布上选择图像资源并单击图像源工具中的&#x200B;**[!UICONTROL 选择资源]**&#x200B;以替换该资源。
-
-   ![从源库中选择资产](./assets/visual-designer-select-an-asset.png){width="700" zoomable="yes"}
-
-### 预览和编辑URL
-
-1. 单击左侧的&#x200B;_[!UICONTROL 链接]_&#x200B;图标以显示要跟踪的内容的所有URL。
-
-1. 如果需要，请单击&#x200B;_编辑_ （铅笔）图标并修改&#x200B;_跟踪类型_&#x200B;或&#x200B;_标签_，然后为链接添加&#x200B;_标记_。
-
-![单击“更多”以访问模板操作](./assets/visual-designer-links.png){width="500"}
+{{$include /help/_includes/content-design-links.md}}
 
 ### 查看选项
 

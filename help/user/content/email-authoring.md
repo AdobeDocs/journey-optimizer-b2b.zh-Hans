@@ -3,10 +3,10 @@ title: 电子邮件创作
 description: 了解如何创建在帐户历程中使用的个性化电子邮件内容。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
+source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 14%
+source-wordcount: '1221'
+ht-degree: 13%
 
 ---
 
@@ -65,121 +65,116 @@ ht-degree: 14%
 ### 从头开始设计您的电子邮件 {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_email"
->title="添加结构组件"
->abstract="结构组件定义电子邮件的版面。将&#x200B;**结构**&#x200B;组件拖放到画布中，开始设计您的电子邮件内容。"
-
->[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
 >title="添加结构组件"
 >abstract="结构组件定义登陆页面的版面。拖放&#x200B;**结构**&#x200B;组件到画布中，开始设计您的登陆页面内容。"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="添加结构组件"
->abstract="结构组件定义片段的版面。拖放&#x200B;**结构**&#x200B;组件到画布中，开始设计您的片段内容。"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_email"
->title="关于内容组件"
->abstract="内容组件是空的内容占位符，您可用它来创建电子邮件的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_landing_page"
 >title="关于内容组件"
 >abstract="内容组件是空的内容占位符，您可用它来创建登陆页面的版面。"
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="关于内容组件"
->abstract="内容组件是空的内容占位符，您可用它来创建片段的版面。"
+使用可视内容编辑器定义电子邮件内容的结构。 通过简单的拖放操作添加和移动结构组件，您可以在几秒钟内设计可重用电子邮件内容的形状。
 
-1. 从Designer主页中，选择&#x200B;**[!UICONTROL 从头开始设计]**&#x200B;选项。
+1. 从&#x200B;_[!UICONTROL 设计您的模板]_&#x200B;主页中，选择&#x200B;**[!UICONTROL 从头开始设计]**&#x200B;选项。
 
-1. 要开始内容设计，请从&#x200B;**[!UICONTROL 结构]**&#x200B;中拖动一个项，然后将其放到画布上。
+1. [向电子邮件添加结构和内容](#add-structure-and-content)。
+1. [将图像资源](#add-assets)添加到电子邮件中。
+1. [个性化电子邮件内容](#personalize-content)。
+1. [审阅并更新链接](#preview-and-edit-linked-urls)。
 
-   对每个结构组件重复此步骤以构建电子邮件的布局。
-
-1. 根据需要从&#x200B;_结构_&#x200B;添加任意数量的项，并编辑右侧窗格中每个项的设置。
-
-   选择n：n列组件以定义所选列数（3到10之间）。 您还可以通过移动列下方的箭头来定义每列的宽度。
-
-   每个列大小不能小于结构组件总宽度的10%。 只能删除空列。
-
-1. 展开&#x200B;**[!UICONTROL 内容]**&#x200B;部分并将所需数量的元素添加到一个或多个结构组件中。
-
-1. 如果需要，您可以在&#x200B;_[!UICONTROL 设置]_&#x200B;或&#x200B;_[!UICONTROL 样式]_&#x200B;选项卡中为每个组件进行其他自定义。
-
-   例如，可以更改每个组件的文本样式、填充或边距。
-
-1. 从Asset选取器中，您可以直接选择存储在Assets库中的资源。
-
-   双击包含资产的文件夹。 将项目拖放到结构组件中。
-
-1. 插入个性化字段以根据用户档案属性、受众成员资格、上下文属性等自定义您的内容。
-
-<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
--->
-1. 从左窗格中选择&#x200B;**[!UICONTROL 链接]**&#x200B;选项卡以显示您的内容中受跟踪的所有URL。
-
-   您可以修改&#x200B;_跟踪类型_&#x200B;或&#x200B;_标签_，并根据需要添加标记。
-
-如果需要，您可以通过单击高级菜单中的&#x200B;**[!UICONTROL 切换到代码编辑器]**&#x200B;来进一步个性化电子邮件。 代码编辑器允许您编辑电子邮件源代码，如添加跟踪或自定义HTML标记。
+<!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->切换到代码编辑器后，无法还原到此电子邮件的可视设计器。
+>You cannot revert back to the visual designer for this email after switching to the code editor. -->
 
 内容完成后，单击顶部的&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以检查渲染。 您可以选择桌面视图或移动设备视图。
 
-准备就绪后，单击“保存”。
+如果对内容满意，请单击&#x200B;**[!UICONTROL 保存]**。
 
 ### 导入现有HTML内容
 
-导入的内容可以是：
+{{$include /help/_includes/content-design-import.md}}
 
-* 具有合并样式表的HTML文件
-* 包含HTML文件、样式表(.css)和图像文件的.zip文件夹
+![在zip文件中导入html内容](./assets/email-import-zip-file.png){width="500"}
 
 >[!NOTE]
 >
->.zip文件结构没有限制。 但是，引用必须是相对的，并且适合.zip文件夹的树结构。
+>在HTML文件中使用`<table>`标记作为第一层可能会导致样式丢失，包括顶层标记中的背景和宽度设置。
 
-_要导入包含HTML内容的文件：_
-
-1. 从电子邮件Designer主页中，选择&#x200B;**[!UICONTROL 导入HTML]**。
-
-1. 拖放包含HTML内容的HTML或.zip文件，然后单击[!UICONTROL 导入]。
-
-   HTML内容上传完成后，您的内容处于&#x200B;_兼容模式_。 在此模式下，您只能对文本进行个性化，向内容添加链接或包含资源。
+您可以根据需要使用可视电子邮件编辑器工具个性化导入的内容。
 
 ### 选择模板
 
-您可以从以下内容中进行选择：
+{{$include /help/_includes/content-design-select-template.md}}
 
-* 示例模板。 Journey Optimizer界面提供了20个现成的电子邮件模板，您可以选择这些模板。
+## 添加结构和内容 {#structure-content}
 
-* 已保存模板。
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_email"
+>title="添加结构组件"
+>abstract="结构组件定义电子邮件的版面。将&#x200B;**结构**&#x200B;组件拖放到画布中，开始设计您的电子邮件内容。"
 
-* 使用&#x200B;_模板_&#x200B;菜单从头创建的自定义模板，或使用&#x200B;_[!UICONTROL 另存为内容模板]_&#x200B;选项从历程中的电子邮件中保存的自定义模板。
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_email"
+>title="关于内容组件"
+>abstract="内容组件是空的内容占位符，您可用它来创建电子邮件的版面。"
 
-_要使用示例模板或保存的模板之一开始构建内容：_
+{{$include /help/_includes/content-design-components.md}}
 
-1. 从电子邮件内容编辑工作区访问&#x200B;_电子邮件Designer_。
+### 添加片段
 
-   在&#x200B;_[!UICONTROL 创建电子邮件]_&#x200B;页面上，默认选中&#x200B;**[!UICONTROL 示例模板]**&#x200B;选项卡。
+在可视内容编辑器中，_片段_&#x200B;图标显示在左侧。 以下示例概述了将片段添加到模板内容的步骤。
 
-1. 要使用自定义模板，请选择&#x200B;**[!UICONTROL 保存的模板]**&#x200B;选项卡。
+1. 要打开片段列表，请单击&#x200B;_片段_&#x200B;图标。
 
-   此时将显示在当前沙盒中创建的所有内容模板的列表。 您可以按名称、上次修改时间或上次创建时间对它们进行排序。
+   您可以：
 
-1. 从列表中选择您选择的模板。
+   * 对列表进行排序。
+   * 浏览、搜索或筛选列表。
+   * 在“缩略图”和“列表”视图之间切换。
+   * 刷新列表以反映任何最近创建的片段。
 
-1. 选择类别后，您可以使用左右箭头在该类别的所有模板（示例或保存的模板，具体取决于您的选择）之间导航。
+   ![从列表中选择片段](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
 
-1. 单击页面右上角的&#x200B;**[!UICONTROL 使用此模板]**。
+1. 将任意片段拖放到结构组件的占位符中。
 
-1. 根据需要在&#x200B;_电子邮件Designer_&#x200B;中编辑内容。
+   编辑器在电子邮件结构的部分/元素中呈现片段。
+
+片段的内容在结构中动态更新，以显示内容在电子邮件中的显示方式。
+
+>[!TIP]
+>
+>如果要添加片段以使其占据电子邮件中的整个水平布局，请添加1:1列结构，然后将片段拖放到其中。
+
+保存电子邮件后，当您在摘要中选择&#x200B;_[!UICONTROL 使用者]_&#x200B;选项卡时，该电子邮件会显示在片段详细信息页面中。 添加到电子邮件模板的片段在模板中不可编辑 — 内容由源片段定义。
+
+### 添加资源
+
+{{$include /help/_includes/content-design-assets.md}}
+
+### 导航图层、设置和样式
+
+{{$include /help/_includes/content-design-navigation.md}}
+
+### 使内容个性化
+
+{{$include /help/_includes/content-design-personalization.md}}
+
+### 编辑链接的URL跟踪
+
+{{$include /help/_includes/content-design-links.md}}
+
+### 查看选项
+
+利用可视电子邮件编辑器中提供的视图和内容验证选项。
+
+* 通过预设缩放选项放大/缩小内容。
+
+* 切换在桌面、移动设备或纯文本/纯文本中查看内容。
+   * 单击&#x200B;_眼睛_&#x200B;图标可跨设备预览内容。
+   * 选择一个现成的设备或输入自定义维度以预览内容。
 
 ## 检查警报
 
