@@ -3,9 +3,9 @@ title: 购买组角色模板
 description: 了解如何定义用作购买组组件的角色模板。
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # 购买组角色模板
 
 在B2B市场中，购买决策通常由多人做出。 这些个人根据其在组织内的作用参与决策过程。 根据每种产品和服务类型或帐户用例，创建包含这些角色定义的购买组角色模板。
+
+![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看概述视频](#overview-video)
 
 ## 访问和浏览角色模板
 
@@ -130,3 +132,7 @@ ht-degree: 0%
    ![更改角色优先级](./assets/roles-template-delete.png){width="700"}
 
 1. 在对话框中，单击&#x200B;**[!UICONTROL 删除]**&#x200B;以进行确认。
+
+## 概述视频
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

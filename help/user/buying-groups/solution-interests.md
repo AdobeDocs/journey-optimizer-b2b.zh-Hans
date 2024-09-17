@@ -3,9 +3,9 @@ title: 解决方案兴趣
 description: 了解解决方案兴趣以及如何定义这些兴趣以在您的购买群中使用。
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 92f28ab633cc1f6e5e0172dff69869fcc718e2e8
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # 解决方案兴趣
 
 在创建购买组之前，您应该知道自己销售的产品以及要定位的对象。 您的营销和销售策略应该保持一致，以便您可以为购买组添加解决方案兴趣。
+
+![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看概述视频](#overview-video)
 
 ## 访问和浏览解决方案兴趣
 
@@ -84,3 +86,7 @@ ht-degree: 0%
    如果客户历程或购买组作业当前正在使用感兴趣的解决方案，此操作将打开一个信息对话框，提醒您无法删除它。 单击[!UICONTROL 确定]，这将中止删除。
 
 1. 单击&#x200B;**[!UICONTROL 删除]**&#x200B;以确认删除，或者单击&#x200B;_[!UICONTROL 取消]_&#x200B;中止该进程。
+
+## 概述视频
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

@@ -3,9 +3,9 @@ title: 购买组
 description: 了解购买群组及其组件。
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 5e500f616dcbbebcdfacfead9ae386b523a4d1a4
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1193'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 5%
 ![帐户角色关系图](assets/account-roles-diagram.png){width="800"}
 
 在该帐户中，可能有一部分人组成&#x200B;_购买组_。 这些人员最终会做出购买决定，因此他们需要营销人员给予特别关注，并且可能需要将不同的信息提供给他们，而不是与帐户关联的其他人员。 购买组可能由不同产品线或产品的不同人员组成。 例如，网络安全产品通常需要首席信息官或首席安全官以及法律部门的代表来批准购买，但错误跟踪产品通常需要工程部副总和ITDirector作为购买组的成员。
+
+![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看视频概述](#overview-video)
 
 ## 关键组件
 
@@ -152,3 +154,7 @@ _[!UICONTROL 购买组]_&#x200B;页面组织为选项卡：
 | 影响者 | 28 | 33.33% | 9.33 |
 | 从业者 | 17 | 25% | 4.25 |
 | **最终参与度分数** |                |             | **35.25** |
+
+## 概述视频
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
