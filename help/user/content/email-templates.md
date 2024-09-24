@@ -6,7 +6,7 @@ exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
 source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
 source-wordcount: '1817'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -83,7 +83,7 @@ Adobe Journey Optimizer B2B版本允许您导入现有HTML内容以设计电子�
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_template"
 >title="添加结构组件"
->abstract="结构组件定义模板的版面。将&#x200B;**Structure**&#x200B;组件拖放到画布中，以开始设计模板的内容。"
+>abstract="结构组件定义模板的版面。将&#x200B;**结构**&#x200B;组件拖放到画布中，开始设计您的模板内容。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_template"
