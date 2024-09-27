@@ -3,9 +3,9 @@ title: 片段
 description: 了解如何在Adobe Journey Optimizer B2B Edition中创建可视化内容片段，并将其用作电子邮件和电子邮件模板的可重用组件。
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 8e55e4444a363a5699574c2fa1ed256fdb690dd0
+source-git-commit: d0bf71dd1503d824391df7d7a7c59e3c2c925f03
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '2687'
 ht-degree: 3%
 
 ---
@@ -31,11 +31,35 @@ ht-degree: 3%
 
 该表按&#x200B;_[!UICONTROL Modified]_&#x200B;列排序，最近更新的片段默认位于顶部。 单击列标题可在升序和降序之间更改。
 
-要按名称搜索片段，请在搜索栏中输入文本字符串以查找匹配项。 单击&#x200B;_筛选器_&#x200B;图标可根据指定的条件筛选显示的项目。
+### 片段状态和生命周期
+
+片段状态决定了在电子邮件或电子邮件模板中使用的可用性，以及您可以对片段进行的更改。
+
+| 状态 | 描述 |
+| -------------------- | ----------- |
+| 草稿 | 创建片段时，它处于草稿状态。 在您定义或编辑可视内容时，它保持此状态，直到您发布它以用于电子邮件或电子邮件模板为止。 可用操作： <br/><ul><li>编辑所有详细信息<li>在可视设计器中编辑<li>发布<li>复制<li>Delete |
+| 发布日期 | 发布片段后，该片段将可用于电子邮件或电子邮件模板。 在可视设计器中无法修改已发布的片段内容。 可用操作： <br/><ul><li>编辑描述<li>添加到电子邮件或模板<li>创建草稿版本<li>复制<li>删除（如果未使用） |
+| 以草稿发布 | 从已发布的片段创建草稿时，已发布的版本仍然可用于电子邮件或电子邮件模板，并且草稿内容可以在可视设计器中进行修改。 如果您发布草稿版本，它会替换当前已发布的版本，并且内容会在使用草稿的电子邮件和电子邮件模板中进行更新。 可用操作： <br/><ul><li>编辑描述<li>添加到电子邮件或模板<li>在可视设计器中编辑草稿版本<li>Publish草稿版本<li>复制<li>删除（如果未使用） |
+
+![片段状态生命周期](./assets/status-lifecycle-diagram.png){width="800" zoomable="yes"}
+
+>[!IMPORTANT]
+>
+>片段状态已在Journey Optimizer B2B版本8月版本中引入。 在此版本之前创建的所有片段均具有&#x200B;_草稿_&#x200B;状态，即使它们在电子邮件或模板中使用也是如此。 如果您对这些片段进行了任何更改，则必须发布片段以传播更改。
+
+### 筛选片段列表
+
+要按名称搜索片段，请在搜索栏中输入文本字符串以查找匹配项。 单击&#x200B;_筛选器_&#x200B;图标（![显示或隐藏筛选器图标](../assets/do-not-localize/icon-filter.svg)）以显示可用的筛选器选项并更改设置以根据指定的条件筛选显示的项。
 
 ![筛选显示的片段](./assets/fragments-list-filtered.png){width="700" zoomable="yes"}
 
-通过单击右上角的&#x200B;_自定义表_&#x200B;图标，自定义要在表中显示的列。 选择要显示的列，然后单击&#x200B;**[!UICONTROL 应用]**。
+### 自定义列显示
+
+通过单击右上角的&#x200B;_自定义表_&#x200B;图标（![自定义表图标](../assets/do-not-localize/icon-column-settings.svg)）自定义要在表中显示的列。
+
+在对话框中，选择要显示的列，然后单击&#x200B;**[!UICONTROL 应用]**。
+
+![选择要显示的列](./assets/fragments-customize-table-dialog.png){width="300"}
 
 ## 创建片段
 
@@ -57,16 +81,19 @@ ht-degree: 3%
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-   此时将打开可视内容编辑器，并显示空画布。
+   此时会打开可视设计器，并显示一个空画布。
 
-<!-- To be linked to the corresponding sections on this page: Adobe Journey Optimizer B2B Edition - Email Templates
+1. 使用内容设计工具创建可视化片段内容：
 
-Adding structure and content
-Adding assets
-Navigating the layers
-Previewing & editing URLs
-View options
-More options -->
+   * [添加结构和内容](#add-structure-and-content)
+   * [添加Assets](#add-assets)
+   * [导航图层、设置和样式](#navigate-the-layers-settings-and-styles)
+   * [使内容个性化](#personalize-content)
+   * [编辑链接的URL跟踪](#edit-linked-url-tracking)
+
+1. 随时单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存草稿片段。
+
+1. 当您准备好在电子邮件或电子邮件模板中使用片段时，请单击&#x200B;**[!UICONTROL Publish]**。
 
 ### 添加结构和内容 {#design-fragment}
 
@@ -145,18 +172,103 @@ More options -->
 
 ## 编辑片段
 
-您可以使用以下任一方法编辑片段：
+对片段的编辑取决于其当前状态：
 
-* 从右侧的片段详细信息中，单击&#x200B;**[!UICONTROL 编辑]**。
-* 从&#x200B;_[!UICONTROL 片段]_&#x200B;列表页面，单击片段旁边的省略号并选择&#x200B;**[!UICONTROL 编辑]**。
+* 当片段处于&#x200B;_草稿_&#x200B;状态时，您可以编辑其任何详细信息和可视内容。
+* 当片段处于&#x200B;_已发布_&#x200B;状态时，您可以编辑片段描述，但不能编辑名称。 无法编辑可视内容。
+* 当片段处于&#x200B;_已发布，状态为_&#x200B;草稿时，编辑详细信息仅限于描述。 您还可以编辑草稿版本的可视内容。
 
-此操作在可视内容编辑器中打开片段，您可以在其中使用[创建片段](#create-fragments)的任何功能编辑片段。
+>[!BEGINTABS]
+
+>[!TAB 草稿]
+
+1. 从&#x200B;_[!UICONTROL 片段]_&#x200B;列表页面，单击片段名称以将其打开。
+
+   随后将显示可视内容的预览，其中片段详细信息位于右侧。
+
+1. 修改任何详细信息，如名称和描述。
+
+   ![具有草稿状态的片段的详细信息](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
+
+1. 要对可视设计器中的内容进行更改，请单击&#x200B;**[!UICONTROL 编辑片段]**。
+
+   根据需要使用可视设计器工具：
+
+   * [添加结构和内容](#add-structure-and-content)
+   * [添加Assets](#add-assets)
+   * [导航图层、设置和样式](#navigate-the-layers-settings-and-styles)
+   * [使内容个性化](#personalize-content)
+   * [编辑链接的URL跟踪](#edit-linked-url-tracking)
+
+   单击&#x200B;**[!UICONTROL 保存]**，或单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回片段详细信息。
+
+1. 如果片段符合您的条件并且您想在电子邮件或电子邮件模板中使用它，请单击&#x200B;**[!UICONTROL Publish]**。
+
+>[!TAB 已发布]
+
+1. 从&#x200B;_[!UICONTROL 片段]_&#x200B;列表页面，单击片段名称以将其打开。
+
+   随后将显示可视内容的预览，其中片段详细信息位于右侧。
+
+1. 如果需要，请修改说明。
+
+   对于已发布的片段，无法更改所有其他详细信息。
+
+1. 如果要更新内容，请单击右上方的&#x200B;**[!UICONTROL 创建草稿版本]**。
+
+   在对话框中单击&#x200B;**[!UICONTROL 确定]**&#x200B;以在可视设计器中打开草稿版本。 您可以根据需要更改[图像源](./assets-overview.md#choose-an-asset-source)。
+
+   ![创建草稿版本对话框](./assets/fragments-create-draft-version.png){width="300"}
+
+   根据需要使用可视设计器工具：
+
+   * [添加结构和内容](#add-structure-and-content)
+   * [添加Assets](#add-assets)
+   * [导航图层、设置和样式](#navigate-the-layers-settings-and-styles)
+   * [使内容个性化](#personalize-content)
+   * [编辑链接的URL跟踪](#edit-linked-url-tracking)
+
+   单击&#x200B;**[!UICONTROL 保存]**，或单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回片段详细信息。
+
+1. 当草稿片段符合您的条件并且您想要使更改可用于电子邮件或电子邮件模板时，请单击&#x200B;**[!UICONTROL Publish]**。
+
+   发布草稿版本时，草稿版本会替换当前已发布的版本，并且内容会在电子邮件和电子邮件模板中更新（该模板已在使用中）。
+
+>[!TAB 已发布草稿]
+
+有两种方法可以打开草稿版本以从&#x200B;_[!UICONTROL 片段]_&#x200B;列表页面进行编辑：
+
+* 单击片段名称旁边的&#x200B;_更多_&#x200B;图标(**...**)，然后选择&#x200B;**[!UICONTROL 打开草稿版本]**。
+
+  ![打开草稿版本](./assets/fragments-create-draft-version.png){width="300"}
+
+* 单击片段名称以将其打开。 然后，单击右上方的&#x200B;**[!UICONTROL 打开草稿版本]**。
+
+  将显示草稿版本的可视内容预览，其中片段详细信息位于右侧。
+
+要更新内容，请执行以下操作：
+
+1. 单击右上方的&#x200B;**[!UICONTROL 编辑片段]**。 根据需要使用可视设计器工具：
+
+   * [添加结构和内容](#add-structure-and-content)
+   * [添加Assets](#add-assets)
+   * [导航图层、设置和样式](#navigate-the-layers-settings-and-styles)
+   * [使内容个性化](#personalize-content)
+   * [编辑链接的URL跟踪](#edit-linked-url-tracking)
+
+   单击&#x200B;**[!UICONTROL 保存]**，或单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回片段详细信息。
+
+1. 当草稿片段符合您的条件并且您想要使更改可用于电子邮件或电子邮件模板时，请单击&#x200B;**[!UICONTROL Publish]**。
+
+   发布草稿版本时，草稿版本会替换当前已发布的版本，并且内容会在电子邮件和电子邮件模板中更新（该模板已在使用中）。
+
+>[!ENDTABS]
 
 ## 重复片段
 
 您可以使用以下任一方法复制片段：
 
-* 从&#x200B;_[!UICONTROL 片段]_&#x200B;列表页面，单击片段名称旁边的&#x200B;_更多_ (**...**)图标，然后选择&#x200B;**[!UICONTROL 复制]**。
+* 从&#x200B;_[!UICONTROL 片段]_&#x200B;列表页面，单击片段名称旁边的&#x200B;_更多_&#x200B;图标(**...**)，然后选择&#x200B;**[!UICONTROL 复制]**。
 * 在片段详细信息页面的右上方，单击&#x200B;**[!UICONTROL ...更多]**&#x200B;并选择&#x200B;**[!UICONTROL 复制]**。
 
 ![复制片段](./assets/fragment-details-duplicate.png){width="600" zoomable="yes"}
@@ -167,7 +279,7 @@ More options -->
 
 然后，重复的（新）片段出现在&#x200B;_片段_&#x200B;列表中。
 
-## 从电子邮件或模板内容保存片段
+## 从电子邮件或模板内容保存新片段
 
 在可视内容编辑器中创建/编辑电子邮件或电子邮件模板时，您可以选择将内容的所有或部分另存为片段，以便重用。
 
