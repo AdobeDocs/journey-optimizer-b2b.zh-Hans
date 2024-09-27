@@ -2,7 +2,7 @@
 title: 发行说明
 description: Adobe Journey Optimizer B2B 版本的最新发行说明
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 1161afedadaf4ed16d895599ba2b6330b6bf7fa5
+source-git-commit: 9a7550b3e25adeab2918368c4fb5b4c640012baf
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 15%
@@ -47,7 +47,7 @@ Journey Optimizer B2B Edition原生构建于[!DNL Adobe Experience Platform]上�
 <tbody>
 <tr>
 <td>
-<p>可视化片段使用状态生命周期进行管理，其中片段状态决定其在电子邮件或电子邮件模板中使用的可用性，以及您可以对其进行的更改。 这样，您就可以根据促销和通信日历轻松管理重复使用的内容。 <a href="../content/fragments#fragment-status-and-lifecycle">了解详情</a>
+<p>可视化片段使用状态生命周期进行管理，其中片段状态决定其在电子邮件或电子邮件模板中使用的可用性，以及您可以对其进行的更改。 这样，您就可以根据促销和通信日历轻松管理重复使用的内容。 <a href="../content/fragments.md#fragment-status-and-lifecycle">了解详情</a>
 </td>
 </tr>
 </tbody>
