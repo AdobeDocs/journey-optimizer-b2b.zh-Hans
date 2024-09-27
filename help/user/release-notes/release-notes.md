@@ -2,10 +2,10 @@
 title: 发行说明
 description: Adobe Journey Optimizer B2B 版本的最新发行说明
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 192080e0cea6eb3deaea24ac89ec17113bc75af5
+source-git-commit: 1161afedadaf4ed16d895599ba2b6330b6bf7fa5
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 10%
+source-wordcount: '205'
+ht-degree: 15%
 
 ---
 
@@ -32,7 +32,7 @@ Journey Optimizer B2B Edition原生构建于[!DNL Adobe Experience Platform]上�
 <tbody>
 <tr>
 <td>
-<p>通过帐户匹配受众生成LinkedIn广告受众，以帮助您在购买群组中填充空角色。 通过定义一组购买群组过滤器，您可以维护一个LinkedIn匹配受众，以定位与您的购买群组参数相匹配的潜在客户。 此功能利用Experience Platform目标来管理集成的某些方面。 [了解详情](../data/linkedin-account-matched-audiences.md)</p>
+<p>通过帐户匹配受众生成LinkedIn广告受众，以帮助您在购买群组中填充空角色。 通过定义一组购买群组过滤器，您可以维护一个LinkedIn匹配受众，以定位与您的购买群组参数相匹配的潜在客户。 此功能利用Experience Platform目标来管理集成的某些方面。 <a href="../data/linkedin-account-matched-audiences.md">了解详情</a>
 </td>
 </tr>
 </tbody>
@@ -47,22 +47,7 @@ Journey Optimizer B2B Edition原生构建于[!DNL Adobe Experience Platform]上�
 <tbody>
 <tr>
 <td>
-<p>可视化片段使用状态生命周期进行管理，其中片段状态决定其在电子邮件或电子邮件模板中使用的可用性，以及您可以对其进行的更改。 这样，您就可以根据促销和通信日历轻松管理重复使用的内容。 [了解详情](../content/fragments.md#fragment-status-and-lifecycle)</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>可视化片段的状态生命周期</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>可视化片段使用状态生命周期进行管理，其中片段状态决定其在电子邮件或电子邮件模板中使用的可用性，以及您可以对其进行的更改。 这样，您就可以根据促销和通信日历轻松管理重复使用的内容。 [了解详情](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments#fragment-status-and-lifecycle)</p>
+<p>可视化片段使用状态生命周期进行管理，其中片段状态决定其在电子邮件或电子邮件模板中使用的可用性，以及您可以对其进行的更改。 这样，您就可以根据促销和通信日历轻松管理重复使用的内容。 <a href="../content/fragments#fragment-status-and-lifecycle">了解详情</a>
 </td>
 </tr>
 </tbody>
