@@ -3,9 +3,9 @@ title: 销售警报电子邮件
 description: 了解如何在帐户历程中包含自动销售警报电子邮件。
 feature: Email Authoring, Content
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 33bd8f68ae581d974fc52f94df6f2249d9493325
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '494'
 ht-degree: 3%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 3%
 _销售提醒电子邮件_&#x200B;表示将购买组移交给销售人员。 该电子邮件包含购买组的摘要以及有关购买组成员及其活动的信息。
 
 作为营销人员，您可以在帐户历程中配置销售警报电子邮件节点，以提醒销售团队特定购买群组的历程已完成。 在该节点中，您可以指定销售团队的电子邮件地址或到达一组帐户的分配别名。
-
->[!NOTE]
->
->如果购买组至少有四名成员具有分配的购买组角色，并且该组包含具有&#x200B;_决策者_&#x200B;或&#x200B;_影响者_&#x200B;角色的人员，则会发送销售警报电子邮件。
 
 ## 电子邮件内容
 
