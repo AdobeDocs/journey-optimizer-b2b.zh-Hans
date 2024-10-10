@@ -3,16 +3,16 @@ title: 短信创作
 description: 了解如何在其移动设备上向客户发送短信(SMS)，以及通过短信编辑器以文本格式个性化和预览消息。
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: eea4afcf352eeefbd5a67c4bfff6a4c2ec559319
+source-git-commit: e38ec0f128e811fd4ac21c624d9018854b91c78b
 workflow-type: tm+mt
-source-wordcount: '1908'
-ht-degree: 2%
+source-wordcount: '2041'
+ht-degree: 1%
 
 ---
 
 # 短信创作
 
-使用Adobe Journey Optimizer B2B Edition向客户在其移动设备上发送短信(SMS)。 您可以从短信编辑器中创建、个性化和预览文本格式的消息。
+使用Adobe Journey Optimizer B2B edition在其移动设备上向客户发送短信(SMS)。 您可以从短信编辑器中创建、个性化和预览文本格式的消息。
 
 ## SMS配置
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer B2B版本通过SMS服务提供商（或SMS网关提供�
 
 ### SMS网关服务提供商
 
-Adobe Journey Optimizer B2B版本目前与独立提供文本消息服务的第三方提供商集成。 受支持的短信提供商有Sinch、Twilio和Infobip。
+Adobe Journey Optimizer B2B edition目前与独立提供短信服务的第三方提供商集成。 受支持的短信提供商有Sinch、Twilio和Infobip。
 
 在Adobe Journey Optimizer B2B版本中配置短信渠道之前，必须向这些提供商之一创建帐户，以获取API令牌和服务ID。 配置Adobe Journey Optimizer B2B Edition与适用提供商之间的连接时需要这些凭据。
 
@@ -34,13 +34,17 @@ Adobe Journey Optimizer B2B版本目前与独立提供文本消息服务的第�
 >
 >仅具有短信管理员权限的用户可访问描述的设置。
 
-在左侧导航栏中，展开&#x200B;**[!UICONTROL 管理员]**&#x200B;部分，然后单击&#x200B;**[!UICONTROL 配置]**。
+1. 在左侧导航栏中，展开&#x200B;**[!UICONTROL 管理员]**&#x200B;部分，然后单击&#x200B;**[!UICONTROL 渠道]**。
 
-![访问AMA API凭据的配置](./assets/config-sms-api.png){width="800" zoomable="yes"}
+   ![访问SMS API凭据的配置](./assets/config-sms-api.png){width="800" zoomable="yes"}
 
-页面列出了实例的可用API配置。 您可以通过SMS服务提供商或创建者筛选显示的API凭据。
+1. 在导航面板中，选择&#x200B;**[!UICONTROL API凭据]**。
 
-![单击筛选器图标以筛选API凭据列表](./assets/config-sms-api-filter.png){width="500"}
+   页面列出了实例的可用API配置。
+
+1. 如果需要，请单击&#x200B;_筛选器_&#x200B;图标（![显示或隐藏筛选器图标](../assets/do-not-localize/icon-filter.svg)），然后选择相应选项以显示SMS服务提供商或创建者配置的API凭据列表。
+
+   ![单击“筛选器”图标以优化API凭据列表](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
 
 ### 为SMS服务提供商创建新的API凭据
 
@@ -48,7 +52,7 @@ Adobe Journey Optimizer B2B版本目前与独立提供文本消息服务的第�
 
 >[!TAB Sinch]
 
-_要将Sinch配置为您的SMS提供商，请添加Adobe Journey Optimizer B2B版本：_
+_要将Sinch配置为您的Adobe Journey Optimizer B2B edition短信提供商：_
 
 1. 在左侧导航栏中，展开&#x200B;**[!UICONTROL 管理员]**&#x200B;部分，然后单击&#x200B;**[!UICONTROL 配置]**。
 
@@ -70,7 +74,7 @@ _要将Sinch配置为您的SMS提供商，请添加Adobe Journey Optimizer B2B�
 
 >[!TAB Twilio]
 
-_要将Twilio配置为您的SMS提供商，请添加Adobe Journey Optimizer B2B版本：_
+_要将Twilio配置为您的Adobe Journey Optimizer B2B edition短信提供商，请执行以下操作：_
 
 1. 在左侧导航栏中，展开&#x200B;**[!UICONTROL 管理员]**&#x200B;部分，然后单击&#x200B;**[!UICONTROL 配置]**。
 
@@ -92,7 +96,7 @@ _要将Twilio配置为您的SMS提供商，请添加Adobe Journey Optimizer B2B�
 
 >[!TAB Infobip]
 
-_要通过Adobe Journey Optimizer B2B版本将Infobip配置为您的SMS提供程序：_
+_要将Infobip配置为您的Adobe Journey Optimizer B2B edition短信提供商，请执行以下操作：_
 
 1. 在左侧导航栏中，展开&#x200B;**[!UICONTROL 管理员]**&#x200B;部分，然后单击&#x200B;**[!UICONTROL 配置]**。
 
@@ -128,58 +132,76 @@ _要通过Adobe Journey Optimizer B2B版本将Infobip配置为您的SMS提供程
 
 1. 在&#x200B;_[!UICONTROL 执行操作]_&#x200B;面板的底部，单击&#x200B;**[!UICONTROL 创建短信]**。
 
-1. 在对话框中，为电子邮件输入唯一的&#x200B;**[!UICONTROL 名称]**&#x200B;和&#x200B;**[!UICONTROL 主题行]**。
+1. 在对话框中，为短信消息输入唯一的&#x200B;**[!UICONTROL Name]**。
 
-   ![新建短信对话框](assets/create-new-sms.png){width="500"}
+   ![新建短信对话框](assets/create-new-sms.png){width="400"}
 
-## 创建短信消息
+1. 单击&#x200B;**[!UICONTROL 创建]**。
+
+   将打开&#x200B;_历程内容设计器_，您可以创建消息并设置用于发送消息的SMS属性。
+
+### 创建短信消息
 
 >[!IMPORTANT]
 >
 >**短信同意管理**<br/>
-><br/>
+>
 >根据行业标准和法规，所有短信营销消息都必须包含一种让接收者轻松取消订阅的方式。 要实现此目的，短信收件人可以使用选择启用和选择禁用关键词进行回复。 支持并遵循所有标准的选择加入和选择退出关键词。 此外，还支持并遵循为短信服务提供商帐户配置的任何自定义关键字。
 
-1. 在&#x200B;**[!UICONTROL 消息]**&#x200B;字段中输入要发送的文本。
+在&#x200B;**[!UICONTROL 消息]**&#x200B;字段中输入要发送的文本。
 
-   您可以创建最多1600个字符的消息，每160个字符即被视为一条短信消息。
+您可以创建最多1600个字符的消息，每160个字符即被视为一条短信消息。
 
-1. **个性化设置短信**。
+![单击“个性化”图标向邮件添加令牌](./assets/sms-message-compose.png){width="800" zoomable="yes"}
 
-   在创作文本消息时，随时单击文本消息框右侧的&#x200B;_个性化_&#x200B;图标。
+#### 个性化设置短信
 
-   ![单击“个性化”图标向邮件添加令牌](./assets/sms-message-personalize-icon.png){width="800" zoomable="yes"}
+1. 在创作文本消息时，随时单击文本消息框右侧的&#x200B;_个性化_&#x200B;图标（![个性化图标](../assets/do-not-localize/icon-personalize.svg)）。
 
-   显示的页面提供了对Adobe Marketo Engage潜在客户和系统令牌的访问权限。 包括标准令牌和自定义令牌。 您可以使用搜索栏找到所需的令牌，或浏览文件夹树以查找并选择任何潜在客户/系统令牌。
+   显示的页面提供了对Adobe Marketo Engage潜在客户和系统令牌的访问权限。 包括标准令牌和自定义令牌。 您可以使用&#x200B;_搜索_&#x200B;栏找到所需的令牌，或者浏览文件夹树查找并选择任何潜在客户/系统令牌。
 
-   将光标放在要添加令牌的消息中的位置。 通过单击令牌旁边的加号( **+**)符号添加令牌。 如果要添加带有回退的令牌（如果该字段对于潜在客户不可用，将显示默认值），请单击省略号( **...** )，然后选择&#x200B;**[!UICONTROL 插入带有回退文本]**。
+1. 将光标放在要添加令牌的消息中的位置。
+
+1. 通过单击令牌旁边的加号( **+**)符号添加令牌。
+
+   如果要添加带有回退的令牌（如果该字段对于潜在客户不可用，将显示默认值），请单击&#x200B;_更多_&#x200B;图标( **...**)，然后选择&#x200B;**[!UICONTROL 插入带有回退文本]**。
 
    ![单击省略号以使用令牌的回退](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"}
 
-   在&#x200B;_[!UICONTROL 输入回退值]_&#x200B;对话框中，输入显示为回退的文本，然后单击&#x200B;**[!UICONTROL 添加]**。
+1. 在&#x200B;_[!UICONTROL 输入回退值]_&#x200B;对话框中，输入显示为回退的文本，然后单击&#x200B;**[!UICONTROL 添加]**。
 
    ![输入令牌的回退文本](./assets/sms-message-personalize-fallback-text.png){width="400"}
 
-   放置个性化令牌后，单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存更改并返回主短信创作工作区。 您可以根据需要继续编辑包含令牌的消息。
+1. 放置个性化令牌后，单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存更改并返回主短信创作工作区。
 
-1. **向文本消息添加URL**。
+   您可以根据需要继续编辑包含令牌的消息。
 
-   定义内容后，您可以通过单击&#x200B;_链接_&#x200B;图标，向消息添加URL。
+#### 向文本消息添加链接(URL)
 
-   此操作将打开一个对话框，您可以在其中选择要链接的两种URL类型之一：
+1. 输入消息文本后，单击文本消息框右侧的&#x200B;_链接_&#x200B;图标（![链接图标](../assets/do-not-localize/icon-link.svg)）。
+
+1. 在对话框中，选择要链接的URL类型：
+
+   * **[!UICONTROL 登陆页面]** — 选择此选项可从您的Marketo Engage实例中选择任何已批准的Adobe Marketo Engage Design Studio登陆页面。 选择工作区，然后选择登陆页面。
 
    * **[!UICONTROL 外部URL]** — 此类型是您在文本框中输入的任何外部URL。
-   * **[!UICONTROL 登陆页面]** — 选择此选项可从您的Marketo Engage实例中选择任何已批准的Adobe Marketo Engage Design Studio登陆页面。
 
-   该对话框还包括URL链接的选项：
+1. 如果选择使用登陆页面，请设置跟踪选项。
 
-   * **[!UICONTROL 缩短URL]** — 选中此复选框可&#x200B;_缩短_ URL，这是跟踪所必需的。 对于登陆页面，它会使用缩短URL的Marketo Engage子域。 此时将显示缩短的URL格式的示例。 实际URL是在将短信发送给收件人时创建的。
+   * **[!UICONTROL 启用跟踪]** — 选中此复选框可启用跟踪，这需要&#x200B;_缩短_ URL。 对于登陆页面，它会使用缩短URL的Marketo Engage子域。 此时将显示缩短的URL格式的示例。 实际URL是在将短信发送给收件人时创建的。
 
    * **[!UICONTROL 包含mkt_tok]** — 选中此复选框可跟踪针对用户的活动。
 
-   链接选项完成后，单击&#x200B;**[!UICONTROL 添加]**&#x200B;以保存更改并将URL链接添加到短信消息。
+     >[!NOTE]
+     >
+     >当您允许跟踪但禁用&#x200B;_[!UICONTROL 包含mkt_tok]_&#x200B;时，目标URL在重定向后不包含`mkt_tok`查询字符串参数。 此参数供Marketo Engage登录页和Munchkin使用，以确保对人员活动的跟踪（例如，当人员取消订阅电子邮件时）。 除非参数导致您的网站出现问题，否则请勿禁用此选项。<br/>
+     >有关在网站上使用Munchkin跟踪代码的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}。
 
-## 设置短信属性
+   ![为短信消息添加链接对话框](./assets/sms-add-link-dialog.png){width="470"}
+
+1. 链接选项完成后，单击&#x200B;**[!UICONTROL 添加]**&#x200B;以保存更改并将URL链接添加到短信消息。
+
+### 设置短信属性
 
 1. 在&#x200B;_[!UICONTROL 短信属性]_&#x200B;部分中，为您的消息输入&#x200B;**[!UICONTROL Name]**（必需，最多100个字符）和&#x200B;**[!UICONTROL Description]**（可选，最多300个字符）。
 
@@ -200,12 +222,12 @@ _要通过Adobe Journey Optimizer B2B版本将Infobip配置为您的SMS提供程
 
    收件人号码始终映射到Marketo Engage中的`Lead.mobilePhone`字段。
 
-## 模拟短信内容 {#preview-test}
+### 模拟短信内容 {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
 >title="检查您的内容的渲染方式"
->abstract="定义内容后可预览它，并根据所使用的渠道检查渲染是否正确。"
+>abstract="定义内容后，您可以预览内容并检查正在使用的渠道的渲染。"
 
 定义消息内容后，您可以使用测试用户档案来模拟（预览）其内容。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
 
@@ -231,7 +253,7 @@ _要通过Adobe Journey Optimizer B2B版本将Infobip配置为您的SMS提供程
 
 1. 模拟选定商机的内容。
 
-   选择左侧列出的任何潜在客户，页面上的短信预览将更新相应潜在客户。
+   选择左侧列出的任何潜在客户。 页面上的SMS预览将更新所选潜在客户。
 
    您还可以从预览空间上方的选择器中选择潜在客户，以更新相应潜在客户的页面上的SMS预览。
 
