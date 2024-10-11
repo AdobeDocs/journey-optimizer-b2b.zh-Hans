@@ -4,17 +4,17 @@ user-guide-description: 了解 Adobe Journey Optimizer B2B Edition 以及如何�
 source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
 workflow-type: tm+mt
 source-wordcount: '133'
-ht-degree: 39%
+ht-degree: 43%
 
 ---
 
 
-# Journey Optimizer B2B版用户指南 {#user}
+# Journey Optimizer B2B edition用户指南 {#user}
 
-+ [Adobe Journey Optimizer B2B版本文档](guide-overview.md)
++ [Adobe Journey Optimizer B2B 版本文档](guide-overview.md)
 + [发行说明](./release-notes/release-notes.md)
 + 入门 {#get-started}
-   + [Journey Optimizer B2B版本概述](about-journey-optimizer-b2b-edition.md)
+   + [Journey Optimizer B2B edition概述](about-journey-optimizer-b2b-edition.md)
    + [登录和主页](home-page.md)
    + [快速入门指南](./start/get-started.md)
    + [使用AI助手](./start/ai-assistant.md)
