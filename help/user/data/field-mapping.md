@@ -2,7 +2,7 @@
 title: XDM字段
 description: 查看在Adobe Experience Platform和Journey Optimizer B2B edition之间同步的默认属性字段。
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 6578fdf35ec565ba315c00eeb3d2466c925cf816
+source-git-commit: 69312f48bdbe9f366a8e6adfb4736c20d04739f8
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 13%
@@ -59,7 +59,7 @@ ht-degree: 13%
 | `accountBillingAddress.region` | 区域 | 地址区域 | 字符串 | 帐单地址的地区、国家或地区部分。 |
 | `accountBillingAddress.state` | State | State | 字符串 | 帐单地址的省/市/自治区名称。 它是一个自由格式的字段。 |
 | `accountBillingAddress.street1` | 街道1 | 街道1 | 字符串 | 帐单地址的主要街道级别信息，通常包括公寓号、街道号和街道名称。 |
-| `accountName` | 名称 | 名称 | **必填字段** <br/>字符串 | 公司名称。 此字段最多可包含255个字符。 |
+| `accountName` | 名称 | 名称 | 字符串 | **必填字段** <br/>公司名称。 此字段最多可包含255个字符。 |
 | `accountOrganization.annualRevenue.amount` | 年收入 | 年收入 | 数值 | 估计的组织年收入金额。 |
 | `accountOrganization.industry` | 行业 | 行业 | 字符串 | 业界归功于该组织。 它是一个自由格式字段，建议在查询中使用结构化值或使用`xdm:classifier`属性。 |
 | `accountOrganization.logoUrl` | 徽标URL | 徽标URL | 字符串 | 要与Salesforce实例的URL（例如`https://yourInstance.salesforce.com/`）组合的路径，用于生成URL以请求与帐户关联的社交网络个人资料图像。 生成的URL会返回指向帐户的社交网络个人资料图像的HTTP重定向（代码302）。 |
