@@ -6,7 +6,7 @@ exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
 source-git-commit: e38ec0f128e811fd4ac21c624d9018854b91c78b
 workflow-type: tm+mt
 source-wordcount: '2041'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -227,7 +227,7 @@ _要将Infobip配置为您的Adobe Journey Optimizer B2B edition短信提供商�
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
 >title="检查您的内容的渲染方式"
->abstract="定义内容后，您可以预览内容并检查正在使用的渠道的渲染。"
+>abstract="定义内容后可进行预览，并根据所使用的渠道检查渲染是否正确。"
 
 定义消息内容后，您可以使用测试用户档案来模拟（预览）其内容。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
 
