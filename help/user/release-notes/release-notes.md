@@ -2,9 +2,9 @@
 title: 发行说明
 description: Adobe Journey Optimizer B2B 版本的最新发行说明
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: cdb6ddac25e3457a5baff3976b7e3181ad2c50e0
+source-git-commit: 235f54e4db84554f83076070b0d549e29141ba6e
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '420'
 ht-degree: 9%
 
 ---
@@ -32,7 +32,8 @@ Journey Optimizer B2B Edition原生构建于[!DNL Adobe Experience Platform]上�
 <tbody>
 <tr>
 <td>
-<p>增强的_central assets library_允许您在Design Studio工作区中使用Marketo Engage实例中的所有图像资源。 有内置的护栏，可阻止从Journey Optimizer B2B edition编辑Marketo Engage资源以及执行删除和移动操作。 这些保护可以确保维护源资源(Marketo EngageDesign Studio)，同时允许在Journey Optimizer B2B edition中无缝读取和重用。 <a href="../content/marketo-engage-design-studio.md">了解详情</a>
+<p>增强的<i>中央资源库</i>允许您在Design Studio工作区中使用Marketo Engage实例中的所有图像资源。 有内置的护栏，可阻止从Journey Optimizer B2B edition编辑Marketo Engage资源以及执行删除和移动操作。 这些保护可以确保维护源资源(Marketo EngageDesign Studio)，同时允许在Journey Optimizer B2B edition中无缝读取和重用。 </p>
+<p>对于在Journey Optimizer B2B edition中专门使用的资源，特定工作区提供了完整的资源管理功能。 <a href="../content/marketo-engage-design-studio.md">了解详情</a></p>
 </td>
 </tr>
 </tbody>
@@ -47,7 +48,7 @@ Journey Optimizer B2B Edition原生构建于[!DNL Adobe Experience Platform]上�
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer B2B edition应用程序中的主页现在包括_[！UICONTROL最近访问的]_部分，该部分为营销人员或管理员提供了最近访问过的资源列表。 您可以使用此列表直接转到您最近处理的资产，而无需浏览一系列资产页面并搜索。 它提供有关修改的更多信息，以便您能够决定哪些资产需要从上一会话进一步修改。 对于电子邮件资产，它显示使用电子邮件资产的帐户历程。 <a href="../home-page.md">了解详情</a>
+<p>Journey Optimizer B2B edition应用程序中的主页现在包含<i>[！UICONTROL最近访问的]</i>部分，该部分为营销人员或管理员提供了最近访问过的资源列表。 您可以使用此列表直接转到您最近处理的资产，而无需浏览一系列资产页面并搜索。 它提供有关修改的更多信息，以便您能够决定哪些资产需要从上一会话进一步修改。 对于电子邮件资产，它显示使用电子邮件资产的帐户历程。 <a href="../home-page.md">了解详情</a>
 </td>
 </tr>
 </tbody>

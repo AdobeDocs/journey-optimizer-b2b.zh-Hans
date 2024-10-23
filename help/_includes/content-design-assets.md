@@ -1,7 +1,7 @@
 ---
 title: 内容创作 — 资产
 description: 有关使用资产进行内容创作的“已重用”部分
-source-git-commit: e041d7eb02d2792f2f8c3526ed80b9d6c6cb1556
+source-git-commit: 23fb478712f3c6df59e94432bdf16883e6acf70b
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 # 内容创作 — 资产
 
-在可视内容编辑器中，选择左侧显示的&#x200B;_Assets_&#x200B;图标。
+在可视内容编辑器中，选择左侧显示的&#x200B;_Assets_&#x200B;图标(![显示Assets](../user/assets/do-not-localize/icon-assets-design.svg))。
 
 >[!NOTE]
 >
->如果您订阅了Experience Manager Assetsas a Cloud Service以及默认的Adobe Marketo Engage Design Studio，则在创建电子邮件、电子邮件模板或可视化片段时必须选择[图像源](../user/content/assets-overview.md#choose-an-asset-source)。 但是，您也可以在打开内容设计器进行编辑之前选择图像源。
+>如果您订阅了Experience Manager Assetsas a Cloud Service以及默认的Adobe Marketo Engage Design Studio，则在创建电子邮件、电子邮件模板或可视化片段时选择[图像源](../user/content/assets-overview.md#choose-an-asset-source)。 您还可以在打开可视设计器进行编辑之前选择图像源。
 
 以下示例概述了将资源添加到模板内容的步骤：
 
@@ -30,4 +30,4 @@ ht-degree: 0%
 
 1. 通过在画布上选择现有图像资源并单击图像源工具中的&#x200B;**[!UICONTROL 选择资源]**&#x200B;来替换该资源。
 
-   ![从源库中选择资产](../assets/content-design-shared/visual-designer-select-an-asset.png){width="700" zoomable="yes"}
+   ![从源库中选择资产](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}
