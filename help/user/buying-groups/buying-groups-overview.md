@@ -1,11 +1,11 @@
 ---
 title: 购买组
-description: 了解购买群组及其组件。
+description: 了解在Journey Optimizer B2B edition中购买群组如何通过识别和定向客户列表成员来提高营销效率。
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
+source-git-commit: a514dcdce95b6ef2a134c9882cd6b6936d473609
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1208'
 ht-degree: 5%
 
 ---
