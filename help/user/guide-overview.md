@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B 版本文档
 description: 了解如何使用Adobe Journey Optimizer B2B edition功能通过内置的创新型人工智能和行业领先的自动化功能编排帐户和购买团体历程。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: a1cbb0270f5174b8a16b783aaef7a890abb81a32
+source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 9%
+source-wordcount: '683'
+ht-degree: 7%
 
 ---
 
@@ -13,13 +13,25 @@ ht-degree: 9%
 
 ## 新增功能
 
-以下是Journey Optimizer B2B版本产品和文档中的最新增强功能的示例。
+以下是Journey Optimizer B2B edition产品和文档中的最新增强功能的示例。
 
 >[!BEGINTABS]
 
+>[!TAB 条件内容]
+
+使用条件内容可根据条件规则调整电子邮件内容。 使用配置文件属性或上下文事件定义规则。 您可以在规则生成器中创建条件规则，并且可以存储这些规则以便在帐户历程中重复使用。
+
+[!BADGE 了解详情]{type=Informative url="/help/user/content/conditional-content.md" tooltip="了解条件内容"}
+
+>[!TAB 人员操作 — 添加到列表/从列表中删除]
+
+在帐户历程中，使用&#x200B;_添加到列表_&#x200B;操作节点将人员添加到Marketo Engage静态列表。 这些列表为您提供了完全的灵活性，可用于重新调整特定受众的用途和定位。 您可以构建一个列表，然后围绕该列表创建营销活动，或直接将人员添加到现有营销活动。 此外，使用&#x200B;_从列表中删除_&#x200B;人员操作可根据帐户历程进度优化和更改Marketo Engage中的定位。
+
+[!BADGE 了解详情]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes#action-nodes" tooltip="了解添加到列表和从列表中删除"}
+
 >[!TAB 中央资源库]
 
-在Design Studio工作区中使用Marketo Engage实例中的所有图像资源。 内置护栏阻止从Journey Optimizer B2B edition编辑Marketo Engage资源。 这些保护可确保Marketo Engage源资源得到维护，同时允许在Journey Optimizer B2B edition中无缝读取和重用。 对于在Journey Optimizer B2B edition中专门使用的资源，特定工作区提供了完整的资源管理功能。
+在Design Studio工作区的Marketo Engage实例中使用图像资源。 内置护栏阻止从Journey Optimizer B2B edition编辑Marketo Engage资源。 这些保护可确保Marketo Engage源资源得到维护，同时允许在Journey Optimizer B2B edition中无缝读取和重用。 对于在Journey Optimizer B2B edition中专门使用的资源，特定工作区提供了完整的资源管理功能。
 
 [!BADGE 了解详情]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/marketo-engage-design-studio" tooltip="了解中央资产管理"}
 
@@ -35,15 +47,9 @@ ht-degree: 9%
 
 [!BADGE 了解详情]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="了解AI助手"}
 
-在Adobe Journey Optimizer B2B版本中使用由创作AI提供支持的AI助手，将您的内容提升到新的级别。 AI Assistant可以生成整个电子邮件、有针对性的文本内容，甚至是专门定制以引起受众共鸣的图像，从而帮助您优化投放的影响。
+在Adobe Journey Optimizer B2B edition中使用由创作AI提供支持的AI助手，将您的内容提升到新的水平。 AI Assistant可以生成整个电子邮件、有针对性的文本内容，甚至是专门定制以引起受众共鸣的图像，从而帮助您优化投放的影响。
 
 [!BADGE 了解详情]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="了解电子邮件的AI助手"}
-
->[!TAB 可视片段]
-
-创建可重用组件作为自定义内容块，供营销团队成员用于汇编电子邮件内容，从而改进设计过程。
-
-[!BADGE 了解详情]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="了解可视化片段"}
 
 >[!ENDTABS]
 
@@ -104,12 +110,12 @@ ht-degree: 9%
   </tr>
   <tr style="border: 0;">
     <td>
-      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="内容创作"><br/>
-      <strong>历程内容</strong><br/><a href="./content/email-authoring.md">电子邮件创作</a><br/><a href="./content/ai-assistant-emails.md">用于电子邮件创作</a><br/><a href="./content/sms-authoring.md">短信的AI助手</a>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="历程内容"><br/>
+      <strong>历程内容</strong><br/><a href="./content/email-authoring.md">电子邮件创作</a><br/><a href="./content/ai-assistant-emails.md">电子邮件的AI助手</a><br/><a href="./content/sales-alert-email.md">销售提醒电子邮件</a><br/><a href="./content/sms-authoring.md">短信创作</a>
     </td>
         <td>
-      <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="内容资产"><br/>
-      <strong>内容管理</strong><br/><a href="./content/assets-overview.md">Assets概述</a><br/><a href="./content/email-templates.md">电子邮件模板</a><br/><a href="./content/fragments.md">可视化片段</a>
+      <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="内容管理"><br/>
+      <strong>内容管理</strong><br/><a href="./content/assets-overview.md">Assets概述</a><br/><a href="./content/email-templates.md">电子邮件模板</a><br/><a href="./content/fragments.md">可视化片段</a><br/><a href="./content/conditional-content.md">条件内容</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="洞察信息和功能板"><br/>
@@ -126,7 +132,7 @@ ht-degree: 9%
 <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans" target="_blank">文档</a> - <a href="https://www.adobe.com/cn/experience-platform/documentation-and-developer-resources.html" target="_blank">开发人员资源</a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank">文档</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">开发人员资源</a>
 </td></tr>
 <tr><td><strong>Adobe Real-time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home" target="_blank">文档</a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">开发人员教程</a>

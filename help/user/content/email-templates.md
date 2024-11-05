@@ -1,22 +1,22 @@
 ---
 title: 电子邮件模板
-description: 了解如何创建和编辑可用于轻松高效地创作帐户历程电子邮件的电子邮件模板。
+description: 了解如何管理和创建可用于轻松高效地创作帐户历程电子邮件的电子邮件模板。
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
+source-git-commit: 10f8f254f49bb5dfb498758a4f39b23112c123a0
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 3%
+source-wordcount: '1396'
+ht-degree: 0%
 
 ---
 
 # 电子邮件模板
 
-为了加快和改进设计过程，您可以创建独立的电子邮件模板，以在Adobe Journey Optimizer B2B Edition客户历程中重用自定义内容。 通过模板，您的以内容为导向的团队成员可以在历程之外处理电子邮件内容。 然后，营销策划人员可以在他们的帐户历程中重复使用和调整这些独立的模板。 例如，一个团队成员仅负责内容，无权访问帐户历程。 但是，他们可以创建一个电子邮件模板，营销人员可以选择该模板作为电子邮件通信的起点，并根据历程的要求对其进行自定义。
+为了加快并改进设计过程，您可以创建独立的电子邮件模板，以在Adobe Journey Optimizer B2B edition客户历程中重用自定义内容。 通过模板，您的以内容为导向的团队成员可以在历程之外处理电子邮件内容。 然后，营销策划人员可以在他们的帐户历程中重复使用和调整这些独立的模板。 例如，一个团队成员仅负责内容，无权访问帐户历程。 但是，他们可以创建一个电子邮件模板，营销人员可以选择该模板作为电子邮件通信的起点，并根据历程的要求对其进行自定义。
 
 ## 访问和管理电子邮件模板
 
-要访问Adobe Journey Optimizer B2B版本中的电子邮件模板，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 模板]**。 此操作将打开一个列表页面，其中包含在该实例中创建的所有电子邮件模板，这些模板在表中列出。
+要在Adobe Journey Optimizer B2B edition中访问电子邮件模板，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 模板]**。 此操作将打开一个列表页面，其中包含在该实例中创建的所有电子邮件模板，这些模板在表中列出。
 
 该表按&#x200B;_[!UICONTROL 已修改]_&#x200B;列排序，最近更新的模板默认位于列表顶部。 单击列标题可在升序和降序之间更改。
 
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 ## 创建电子邮件模板
 
-您可以通过单击右上角的&#x200B;**[!UICONTROL 创建模板]**，从电子邮件模板列表页面创建新的电子邮件模板。
+通过单击右上方的&#x200B;**[!UICONTROL 创建模板]**，可以从电子邮件模板列表页面创建电子邮件模板。
 
 1. 在对话框中，输入有用的&#x200B;**[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**（可选）。
 
@@ -48,21 +48,23 @@ ht-degree: 3%
 
 ![选择您希望如何开始您的电子邮件模板设计](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
+选择您要用于启动电子邮件模板设计的方法后，使用可视设计器[创作电子邮件模板内容](./email-template-authoring.md)。
+
 ### 从头开始设计
 
 使用可视内容编辑器定义电子邮件内容的结构。 通过简单的拖放操作添加和移动结构组件，您可以在几秒钟内设计可重用电子邮件内容的形状。
 
 >[!NOTE]
 >
->可用的设计工具等效于[电子邮件创作](./email-authoring.md)所用的工具。 不同之处在于，此内容随后另存为模板，可在帐户历程中的多个发送电子邮件节点中重复使用。
+>可用的设计工具等效于[电子邮件创作](./email-authoring.md)所用的工具。 不同之处在于，此内容随后保存为模板，可在帐户历程中的多个&#x200B;_发送电子邮件_&#x200B;节点中重复使用。
 
 1. 从&#x200B;_[!UICONTROL 设计您的模板]_&#x200B;主页中，选择&#x200B;**[!UICONTROL 从头开始设计]**&#x200B;选项。
 
-1. [将结构和内容](#add-structure-and-content)添加到模板。
+1. [将结构和内容](./email-authoring.md#add-structure-and-content)添加到模板。
 
 ### 导入HTML
 
-Adobe Journey Optimizer B2B版本允许您导入现有HTML内容以设计电子邮件模板。
+Adobe Journey Optimizer B2B edition允许您导入现有HTML内容以设计电子邮件模板。
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -72,89 +74,11 @@ Adobe Journey Optimizer B2B版本允许您导入现有HTML内容以设计电子�
 >
 >在HTML文件中使用`<table>`标记作为第一层可能会导致样式丢失，包括顶层标记中的背景和宽度设置。
 
-您可以根据需要使用可视电子邮件编辑器工具个性化导入的内容。
+您可以根据需要使用可视设计器个性化导入的内容。
 
 ### 选择设计模板
 
 {{$include /help/_includes/content-design-select-template.md}}
-
-## 添加结构和内容 {#structure-content}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_template"
->title="添加结构组件"
->abstract="结构组件定义模板的版面。将&#x200B;**结构**&#x200B;组件拖放到画布中，开始设计您的模板内容。"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_template"
->title="关于内容组件"
->abstract="内容组件是空的内容占位符，您可用它来创建模板的版面。"
-
-{{$include /help/_includes/content-design-components.md}}
-
-### 添加片段
-
-在可视内容编辑器中，_片段_&#x200B;图标显示在左侧。 以下示例概述了将片段添加到模板内容的步骤。
-
-1. 要打开片段列表，请单击&#x200B;_片段_&#x200B;图标。
-
-   您可以：
-
-   * 对列表进行排序。
-   * 浏览、搜索或筛选列表。
-   * 在“缩略图”和“列表”视图之间切换。
-   * 刷新列表以反映任何最近创建的片段。
-
-   ![从列表中选择片段](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
-
-1. 将任意片段拖放到结构组件的占位符中。
-
-   编辑器在电子邮件结构的部分/元素中呈现片段。
-
-片段的内容在结构中动态更新，以显示内容在电子邮件中的显示方式。
-
->[!TIP]
->
->如果要添加片段以使其占据电子邮件中的整个水平布局，请添加1:1列结构，然后将片段拖放到其中。
-
-保存电子邮件后，当您在摘要中选择&#x200B;_[!UICONTROL 使用者]_&#x200B;选项卡时，该电子邮件会显示在片段详细信息页面中。 添加到电子邮件模板的片段在模板中不可编辑 — 内容由源片段定义。
-
-### 添加资源
-
-{{$include /help/_includes/content-design-assets.md}}
-
-### 导航图层、设置和样式
-
-{{$include /help/_includes/content-design-navigation.md}}
-
-### 使内容个性化
-
-{{$include /help/_includes/content-design-personalization.md}}
-
-### 编辑链接的URL跟踪
-
-{{$include /help/_includes/content-design-links.md}}
-
-### 查看选项
-
-利用可视电子邮件编辑器中提供的视图和内容验证选项。
-
-* 通过预设缩放选项放大/缩小内容。
-
-* 切换在桌面、移动设备或纯文本/纯文本中查看内容。
-   * 单击&#x200B;_眼睛_&#x200B;图标可跨设备预览内容。
-   * 选择一个现成的设备或输入自定义维度以预览内容。
-
-### 更多选项
-
-在可视内容编辑器的&#x200B;_更多选项_&#x200B;选择器中，您可以执行以下操作：
-
-![单击“更多”以访问模板操作](./assets/visual-designer-more-menu.png){width="500"}
-
-* **重置模板** — 单击此选项可将可视电子邮件设计器画布清除为空白并重新启动生成内容。
-* **另存为片段** — 将其全部或部分另存为片段，以便在多个电子邮件或电子邮件模板中重复使用。 您可以提供片段的名称和描述，并将其添加到可用片段的列表。
-* **更改您的设计** — 返回&#x200B;_设计您的模板_&#x200B;页面。 从此处，您可以执行创建电子邮件模板一节中概述的任何操作过程。
-* **导出HTML** — 将可视画布中的内容以HTML格式下载到本地系统，并打包为zip文件。
 
 ## 查看电子邮件模板详细信息
 
@@ -178,7 +102,7 @@ Adobe Journey Optimizer B2B版本允许您导入现有HTML内容以设计电子�
 
 ![单击“使用者”选项卡以检查模板使用情况](./assets/template-details-used-by.png){width="400"}
 
-Journey Optimizer B2B Edition中的电子邮件在历程中嵌入和创作，因此使用模板的电子邮件的父历程显示在引用中。
+Journey Optimizer B2B edition中的电子邮件在历程中嵌入和创作，因此使用模板的电子邮件的父历程显示在引用中。
 
 * 单击链接将会转到相应的历程电子邮件，其中使用电子邮件模板。
 

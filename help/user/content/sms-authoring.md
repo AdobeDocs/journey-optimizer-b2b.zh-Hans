@@ -3,10 +3,10 @@ title: 短信创作
 description: 了解如何在其移动设备上向客户发送短信(SMS)，以及通过短信编辑器以文本格式个性化和预览消息。
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: e38ec0f128e811fd4ac21c624d9018854b91c78b
+source-git-commit: c3352db2235af08e31ba7e4d8690bc9e330dd41f
 workflow-type: tm+mt
-source-wordcount: '2041'
-ht-degree: 2%
+source-wordcount: '1370'
+ht-degree: 3%
 
 ---
 
@@ -14,111 +14,7 @@ ht-degree: 2%
 
 使用Adobe Journey Optimizer B2B edition在其移动设备上向客户发送短信(SMS)。 您可以从短信编辑器中创建、个性化和预览文本格式的消息。
 
-## SMS配置
-
-Adobe Journey Optimizer B2B版本通过SMS服务提供商（或SMS网关提供商）发送文本消息。 在创建短信消息之前，请从&#x200B;_管理员_&#x200B;设置中配置服务提供商。
-
-### SMS网关服务提供商
-
-Adobe Journey Optimizer B2B edition目前与独立提供短信服务的第三方提供商集成。 受支持的短信提供商有Sinch、Twilio和Infobip。
-
-在Adobe Journey Optimizer B2B版本中配置短信渠道之前，必须向这些提供商之一创建帐户，以获取API令牌和服务ID。 配置Adobe Journey Optimizer B2B Edition与适用提供商之间的连接时需要这些凭据。
-
->[!IMPORTANT]
->
->您对短信服务的使用受适用提供商提供的其他条款与条件的约束。 作为第三方解决方案，Adobe Journey Optimizer B2B Edition用户可通过集成使用Sinch、Twilio和Infobip。 Adobe不控制，也不对第三方产品负责。 有关短信服务(SMS)的任何问题或协助请求，请与提供商联系。
-
-### 验证现有SMS API配置
-
->[!NOTE]
->
->仅具有短信管理员权限的用户可访问描述的设置。
-
-1. 在左侧导航栏中，展开&#x200B;**[!UICONTROL 管理员]**&#x200B;部分，然后单击&#x200B;**[!UICONTROL 渠道]**。
-
-   ![访问SMS API凭据的配置](./assets/config-sms-api.png){width="800" zoomable="yes"}
-
-1. 在导航面板中，选择&#x200B;**[!UICONTROL API凭据]**。
-
-   页面列出了实例的可用API配置。
-
-1. 如果需要，请单击&#x200B;_筛选器_&#x200B;图标（![显示或隐藏筛选器图标](../assets/do-not-localize/icon-filter.svg)），然后选择相应选项以显示SMS服务提供商或创建者配置的API凭据列表。
-
-   ![单击“筛选器”图标以优化API凭据列表](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
-
-### 为SMS服务提供商创建新的API凭据
-
->[!BEGINTABS]
-
->[!TAB Sinch]
-
-_要将Sinch配置为您的Adobe Journey Optimizer B2B edition短信提供商：_
-
-1. 在左侧导航栏中，展开&#x200B;**[!UICONTROL 管理员]**&#x200B;部分，然后单击&#x200B;**[!UICONTROL 配置]**。
-
-1. 单击&#x200B;_[!UICONTROL API凭据]_&#x200B;列表右上角的&#x200B;**[!UICONTROL 创建新API凭据]**。
-
-1. 配置您的SMS API凭据：
-
-   ![配置Sinch SMS API凭据](./assets/config-sms-api-sinch.png){width="500"}
-
-   * **[!UICONTROL SMS供应商]** — 选择`Sinch`作为SMS提供商。
-
-   * **[!UICONTROL 名称]** — 输入API凭据的名称。
-
-   * **[!UICONTROL 服务ID]**&#x200B;和&#x200B;**[!UICONTROL API令牌]** — 从你的Sinch帐户访问API页面（你可以在“短信”选项卡下找到你的凭据）。
-
-   有关查找你的Sinch帐户的此信息的详细信息，请参阅[Sinch开发人员文档](https://developers.sinch.com/docs/sms/getting-started/#2-get-credentials)
-
-1. 完成API凭据的配置详细信息后，单击&#x200B;**[!UICONTROL 提交]**。
-
->[!TAB Twilio]
-
-_要将Twilio配置为您的Adobe Journey Optimizer B2B edition短信提供商，请执行以下操作：_
-
-1. 在左侧导航栏中，展开&#x200B;**[!UICONTROL 管理员]**&#x200B;部分，然后单击&#x200B;**[!UICONTROL 配置]**。
-
-1. 单击&#x200B;_[!UICONTROL API凭据]_&#x200B;列表右上角的&#x200B;**[!UICONTROL 创建新API凭据]**。
-
-1. 配置您的SMS API凭据：
-
-   ![配置Twilio SMS API凭据](./assets/config-sms-api-twilio.png){width="500"}
-
-   * **[!UICONTROL SMS供应商]** — 选择`Twilio`作为SMS提供商。
-
-   * **[!UICONTROL 名称]** — 输入API凭据定义的名称。
-
-   * **[!UICONTROL 帐户SID]**&#x200B;和&#x200B;**[!UICONTROL 身份验证令牌]** — 访问Twilio控制台仪表板页面的&#x200B;_帐户信息_&#x200B;窗格以查找你的凭据。
-
-   有关为您的Twilio帐户查找此信息的详细信息，请参阅[Twilio帮助中心](https://help.twilio.com/articles/14726256820123-What-is-a-Twilio-Account-SID-and-where-can-I-find-it-)。
-
-1. 完成API凭据的配置详细信息后，单击页面右上角的&#x200B;**[!UICONTROL 提交]**。
-
->[!TAB Infobip]
-
-_要将Infobip配置为您的Adobe Journey Optimizer B2B edition短信提供商，请执行以下操作：_
-
-1. 在左侧导航栏中，展开&#x200B;**[!UICONTROL 管理员]**&#x200B;部分，然后单击&#x200B;**[!UICONTROL 配置]**。
-
-1. 单击&#x200B;_[!UICONTROL API凭据]_&#x200B;列表右上角的&#x200B;**[!UICONTROL 创建新API凭据]**。
-
-1. 配置您的SMS API凭据：
-
-   ![配置Infobip SMS API凭据](./assets/config-sms-api-infobip.png){width="500"}
-
-   * **[!UICONTROL SMS供应商]** — 选择`Infobip`作为SMS提供商。
-
-   * **[!UICONTROL 名称]** — 输入API凭据定义的名称。
-
-   * **[!UICONTROL API基本URL]**&#x200B;和&#x200B;**[!UICONTROL API密钥]** — 访问您的Web界面主页或Infobip帐户的API密钥管理页面以查找您的凭据。
-
-   有关为您的Infobip帐户查找此信息的详细信息，请参阅[Infobip文档](https://www.infobip.com/docs/api/_blank)。
-
-1. 完成API凭据的配置详细信息后，单击页面右上角的&#x200B;**[!UICONTROL 提交]**。
-
->[!ENDTABS]
-
-单击&#x200B;_[!UICONTROL 提交]_&#x200B;后，将立即验证并保存凭据，并将您重定向到&#x200B;_[!UICONTROL API凭据]_&#x200B;列表页面。 如果提交的凭据无效，系统会在列表页面上显示错误消息。 在这种情况下，您可以选择取消配置，或更新配置并重新提交。
+在为帐户历程创建短信消息之前，请确保从&#x200B;_[!UICONTROL 管理员]_&#x200B;设置中配置了[短信服务提供程序](../admin/configure-channels-sms.md)。
 
 ## 在帐户历程中添加短信操作
 
@@ -265,8 +161,8 @@ _要将Infobip配置为您的Adobe Journey Optimizer B2B edition短信提供商�
 
 提供此选项后，短信收件人可以使用选择启用和选择禁用关键词进行回复。 支持并接受所有标准的选择加入和选择退出关键词，以及短信服务提供商配置的任何自定义关键词。 取消订阅后，用户档案将自动从未来营销消息的受众中删除。
 
-Journey Optimizer B2B版本提供了使用以下逻辑管理短信消息中的选择退出的功能：
+Journey Optimizer B2B edition提供了使用以下逻辑管理短信消息中的选择退出的功能：
 
 * 默认情况下，如果商机选择不接收您的通信，则相应的用户档案将从后续短信投放中排除
 
-* 来自不同来源（例如AEP或SMS服务提供商）的潜在客户同意将同步到Journey Optimizer B2B版本。 目前，在实例级别，它仅支持每个商机的单个同意状态（商机“John Doe”订阅或取消订阅实例中的所有促销短信）。 它当前不支持在品牌级别/单个订阅列表级别同意双重选择加入。
+* 来自不同来源（例如AEP或短信服务提供商）的潜在客户同意已同步到Journey Optimizer B2B edition。 目前，在实例级别，它仅支持每个商机的单个同意状态（商机“John Doe”订阅或取消订阅实例中的所有促销短信）。 它当前不支持在品牌级别/单个订阅列表级别同意双重选择加入。

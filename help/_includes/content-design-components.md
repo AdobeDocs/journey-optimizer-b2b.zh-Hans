@@ -1,9 +1,9 @@
 ---
 title: 内容创作 — 组件
 description: 重用有关使用组件和内容元素进行内容创作的部分
-source-git-commit: 8e55e4444a363a5699574c2fa1ed256fdb690dd0
+source-git-commit: b41a32710f872e4935077a01b91b691f5dbeaeeb
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,12 @@ ht-degree: 0%
 
    ![将内容元素拖到画布上并调整设置](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
    <!--
-   reference to the contents elements--->
+   reference to the contents elements when we have a completed reference for each.--->
 
 1. 如果需要，您可以在&#x200B;_[!UICONTROL 设置]_&#x200B;或&#x200B;_[!UICONTROL 样式]_&#x200B;选项卡中为每个组件进行其他自定义。
 
    例如，可以更改每个组件的文本样式、填充或边距。
 
-<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
--->
+1. 要添加条件内容并根据条件规则将内容调整到目标配置文件，请选择一个内容组件，然后单击组件工具栏中的&#x200B;**[!UICONTROL 启用条件内容]**&#x200B;图标。
+
+   有关详细信息，请参阅&#x200B;[_条件内容_](../user/content/conditional-content.md)。

@@ -3,16 +3,16 @@ title: 电子邮件创作
 description: 了解如何创建在帐户历程中使用的个性化电子邮件内容。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
+source-git-commit: 8315c760e573aa36819652798a400206e6268ccc
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 13%
+source-wordcount: '1428'
+ht-degree: 10%
 
 ---
 
 # 电子邮件创作
 
-使用Adobe Journey Optimizer B2B Edition向客户发送电子邮件。 您可以在电子邮件设计器中创建、个性化和预览消息。
+使用Adobe Journey Optimizer B2B edition向客户发送电子邮件。 您可以在可视设计器中创建、个性化和预览消息。
 
 ## 在帐户历程中添加电子邮件操作
 
@@ -60,7 +60,7 @@ ht-degree: 13%
 
 >[!TIP]
 >
->使用由generative AI提供支持的Adobe Journey Optimizer B2B版本中的AI Assistant将您的内容提升到新的级别。 AI Assistant可以帮助您优化投放的影响，方法是生成整个电子邮件、提供有针对性的文本内容，并为可与受众产生共鸣的图像获取AI Assistant推荐。 [了解详情](./ai-assistant-emails.md)
+>使用由generative AI提供支持的Adobe Journey Optimizer B2B edition中的AI助手，将您的内容提升到新的级别。 AI Assistant可以帮助您优化投放的影响，方法是生成整个电子邮件、提供有针对性的文本内容，并为可与受众产生共鸣的图像获取AI Assistant推荐。 [了解详情](./ai-assistant-emails.md)
 
 ### 从头开始设计您的电子邮件 {#design-from-scratch}
 
@@ -109,6 +109,10 @@ ht-degree: 13%
 
 {{$include /help/_includes/content-design-select-template.md}}
 
+>[!NOTE]
+>
+> 保存的模板可能已将管理（内容锁定）设置应用于一个或多个组件。 当您[从受控制的模板](./email-authoring-governance.md)创作电子邮件时，可视设计器提供了有关锁定的组件的准则。
+
 ## 添加结构和内容 {#structure-content}
 
 >[!CONTEXTUALHELP]
@@ -146,9 +150,9 @@ ht-degree: 13%
 
 >[!TIP]
 >
->如果要添加片段以使其占据电子邮件中的整个水平布局，请添加1:1列结构，然后将片段拖放到其中。
+>要添加片段，以使其占据电子邮件中的整个水平布局，请添加1:1列结构，然后将片段拖放到其中。
 
-保存电子邮件后，当您在摘要中选择&#x200B;_[!UICONTROL 使用者]_&#x200B;选项卡时，该电子邮件会显示在片段详细信息页面中。 添加到电子邮件模板的片段在模板中不可编辑 — 内容由源片段定义。
+保存电子邮件后，当您在摘要中选择&#x200B;_[!UICONTROL 使用者]_&#x200B;选项卡时，该电子邮件会显示在片段详细信息页面中。 添加到电子邮件模板的片段在模板中不可编辑 — 源片段定义内容。
 
 ### 添加资源
 
@@ -173,8 +177,20 @@ ht-degree: 13%
 * 通过预设缩放选项放大/缩小内容。
 
 * 切换在桌面、移动设备或纯文本/纯文本中查看内容。
-   * 单击&#x200B;_眼睛_&#x200B;图标可跨设备预览内容。
+   * 单击&#x200B;_查看_&#x200B;图标可跨设备预览内容。
    * 选择一个现成的设备或输入自定义维度以预览内容。
+
+### 更多选项
+
+从电子邮件设计器顶部的&#x200B;_[!UICONTROL 更多……]_&#x200B;菜单中，可以执行以下操作：
+
+![单击“更多”以访问模板操作](./assets/email-designer-more-menu.png){width="500"}
+
+* **[!UICONTROL 重置电子邮件]** — 单击此选项可将可视电子邮件设计器画布清除为空白并重新启动内容生成。
+* **[!UICONTROL 另存为片段]** — 将电子邮件的全部或部分另存为片段，以便在多个电子邮件或电子邮件模板中重复使用。 您可以提供片段的名称和描述，并将其保存到可用片段列表中。
+* **[!UICONTROL 更改您的设计]** — 返回&#x200B;_设计您的电子邮件_&#x200B;页面。 从那里，您可以选择另一个模板以重新启动设计过程，或者选择在黑色画布中从头开始设计内容。\
+* **[!UICONTROL 另存为内容模板]** — 将电子邮件正文另存为电子邮件模板，以便在多个电子邮件或电子邮件模板中重复使用。 您可以提供模板的名称和描述，并将其保存到已保存电子邮件模板的列表中。
+* **[!UICONTROL 导出HTML]** — 将可视画布中的内容以HTML格式下载到本地系统，并打包为zip文件。
 
 ## 检查警报
 
