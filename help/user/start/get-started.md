@@ -2,7 +2,7 @@
 title: Journey Optimizer B2B edition快速入门
 description: 作为 Journey Optimizer B2B Edition 的新用户，了解入门的关键领域。
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: ed736c7366ad3fa5c4023947b1c3c4cef7097e2e
+source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 10%
@@ -37,9 +37,9 @@ ht-degree: 10%
 
 1. **在Marketo Engage中配置电子邮件投放**，使您的团队能够通过帐户历程发送电子邮件内容。 [了解详情](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)
 
-1. **配置短信服务**。 在Adobe Journey Optimizer B2B edition中设置一个受支持的第三方短信提供商，这些提供商独立提供短信服务，并配置帐户凭据。 [了解详情](../content/sms-authoring.md#create-a-new-api-credentials-for-an-sms-service-provider)
+1. **配置短信服务**。 在Adobe Journey Optimizer B2B edition中设置一个受支持的第三方短信提供商，这些提供商独立提供短信服务，并配置帐户凭据。 [了解详情](../admin/configure-channels-sms.md)
 
-1. **为使用Adobe Experience Manager Assets作为集中数字资产管理的Cloud Service的团队配置并启用使用Assets**。 [了解详情](../admin/configure-aem-repositories.md)
+1. **为使用Adobe Experience Manager Assetsas a Cloud Service进行集中数字资源管理的团队配置并启用使用Assets**。 [了解详情](../admin/configure-aem-repositories.md)
 
 >[!TAB 营销人员快速入门]
 

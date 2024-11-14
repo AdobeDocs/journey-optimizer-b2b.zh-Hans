@@ -2,16 +2,17 @@
 title: 电子邮件配置
 description: 了解如何访问和查看Marketo Engage中配置的电子邮件设置。
 feature: Setup
-source-git-commit: f097f535237fe6b27322e2c325e59daa8a54ee2f
+exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
+source-git-commit: 796cb86f81aa18d8e616af527c22b3160df4f1b5
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
 
 # 电子邮件配置
 
-Adobe Journey Optimizer B2B edition利用Market Engage中的渠道功能和事件跟踪。 管理员应确保已设置投放和跟踪配置，以便为营销人员启用渠道投放。
+Adobe Journey Optimizer B2B edition利用Market Engage中的渠道功能和事件跟踪。 管理员应确保已设置投放和跟踪配置，以便为营销人员启用渠道投放。 有关通过Marketo Engage进行电子邮件投放和跟踪所需的协议的信息，请参阅[跟踪和电子邮件投放的协议](../start/email-protocols.md)。
 
 ## 投放设置
 
@@ -54,7 +55,6 @@ Journey Optimizer B2B edition中的设置是只读的。 单击右上角的&#x20
 >[!NOTE]
 >
 >如果您在Journey Optimizer B2B edition和连接的Marketo Engage实例中推广多个品牌，并希望每个品牌都有自己的品牌跟踪链接，则可以添加额外的品牌推广域。 有关详细信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}。
-
 
 ### [!UICONTROL 自定义标头选项] {#custom-header-options}
 
@@ -146,4 +146,3 @@ Journey Optimizer B2B edition中的设置是只读的。 单击右上角的&#x20
 >要在Adobe Marketo Engage中访问和编辑这些设置，您必须具有产品管理员权限。
 
 有关配置机器人活动选项的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}。
-
