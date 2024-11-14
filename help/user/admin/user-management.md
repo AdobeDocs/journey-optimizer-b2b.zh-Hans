@@ -1,19 +1,19 @@
 ---
 title: User Management
-description: 了解如何将团队成员分配给Journey Optimizer B2B版本产品配置文件。
+description: 了解如何将团队成员分配给Journey Optimizer B2B edition产品配置文件。
 feature: Setup
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8335e47021df16d0e423c9cc270bf8a6e23834fc
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 3%
+source-wordcount: '1166'
+ht-degree: 2%
 
 ---
 
 # 用户管理
 
-完成配置并绑定沙盒后，请完成以下步骤以向团队和用户提供对Adobe Journey Optimizer B2B版本的访问权限。
+完成配置并绑定沙盒后，请完成以下步骤以为您的团队和用户提供对Adobe Journey Optimizer B2B edition的访问权限。
 
 1. [在Admin Console中创建Marketo Engage产品配置文件](#marketo-engage-profile)(仅新Marketo Engage实例)。
 1. 在Admin Console中[创建用户组](#create-user-group)。
@@ -56,7 +56,15 @@ ht-degree: 3%
 
 授予用户访问Adobe解决方案的权限时，您不一定要授予他们完全访问权限。 产品配置文件使每个解决方案都有自己的用户权限集。 使用Admin Console分配产品配置文件。
 
-有关将产品配置文件用于用户权限的详细信息，请参阅Admin Console文档中的[管理企业用户的产品配置文件](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)。
+有关将产品配置文件用于用户权限的详细信息，请参阅Admin Console文档中的[管理企业用户的产品配置文件](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"}。
+
+>[!BEGINSHADEBOX]
+
+将用户添加到Marketo Engage产品配置文件时，随后会将用户添加到Marketo Engage订阅的默认工作区中的&#x200B;_标准用户_&#x200B;角色。 此角色授予他们在该工作区中Marketo Engage的所有&#x200B;_标准用户_&#x200B;权限。 目前，所有Journey Optimizer B2B edition用户都必须是Marketo Engage用户。 Marketo Engage管理员可以通过更新&#x200B;_Standard User_&#x200B;角色的权限或将该用户移动到具有更严格权限的其他Marketo Engage用户角色来限制访问。
+
+有关在Marketo Engage中管理这些权限的详细信息，请参阅Marketo Engage文档中的[管理用户角色和权限](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >
@@ -78,7 +86,7 @@ ht-degree: 3%
 
 用户组是指一组被授予共享权限的用户。 您可以在用户组中添加或删除用户。 当组内的用户发生更改时，组权限保持不变。
 
-有关如何使用用户组管理权限的详细信息，请参阅Admin Console文档中的[管理用户组](https://helpx.adobe.com/cn/enterprise/using/user-groups.html)。
+有关如何使用用户组管理权限的详细信息，请参阅Admin Console文档中的[管理用户组](https://helpx.adobe.com/cn/enterprise/using/user-groups.html){target="_blank"}。
 
 >[!NOTE]
 >
@@ -111,11 +119,11 @@ ht-degree: 3%
 
 ## 在AEP权限中创建角色 {#create-role}
 
-权限是单一的权利，可用于定义分配给产品配置文件的授权。 每个权限都是通过某种功能（如历程或购买群组）收集的，该功能代表Journey Optimizer B2B版本中的不同功能或对象。
+权限是单一的权利，可用于定义分配给产品配置文件的授权。 每个权限都是通过某种功能（如历程或购买群组）收集而得，该功能代表Journey Optimizer B2B edition中的不同功能或对象。
 
 在Adobe Experience Platform的&#x200B;_权限_&#x200B;区域，管理员可以定义用户角色和访问策略，以管理产品应用程序内功能和对象的访问权限。 在此应用程序中，您可以创建和管理角色，并为这些角色分配所需的资源权限。 权限还允许您管理与特定角色关联的标签、沙盒和用户。
 
-有关详细信息，请参阅Experience Platform文档中的[管理角色](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions)的权限。
+有关详细信息，请参阅Experience Platform文档中的[管理角色](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}的权限。
 
 >[!NOTE]
 >
