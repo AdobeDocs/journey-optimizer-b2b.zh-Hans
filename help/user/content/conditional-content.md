@@ -2,10 +2,11 @@
 title: 条件内容
 description: 了解如何在为帐户历程创作电子邮件内容时创建内容变体并应用条件规则。
 feature: Email Authoring, Content
-source-git-commit: 15a5144554f25634efa29efc42d41350b19c2bfb
+exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
+source-git-commit: 82c4d9f1a46076d4dfad2ac46fca23c11ef8b4a6
 workflow-type: tm+mt
 source-wordcount: '1071'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_content"
 >title="条件内容"
->abstract="使用条件规则创建内容组件的多个变体。如果在发送消息时未满足任何条件，则会显示默认变体中的内容。"
+>abstract="使用条件规则创建内容组件的多个变体。如果在发送消息时不满足任何条件，则会显示默认变体中的内容。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_rule_select"
@@ -105,7 +106,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditions_rule_editor"
 >title="创建条件"
->abstract="组合属性和上下文事件以构建规则，这些规则可确定要在电子邮件中显示的内容变体。"
+>abstract="结合属性和上下文事件来构建规则，确定在电子邮件消息中显示哪些内容变体。"
 
 为组件变体选择条件时，您可以从Email Designer访问条件规则生成器。
 

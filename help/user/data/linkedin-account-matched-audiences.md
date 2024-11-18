@@ -11,16 +11,16 @@ ht-degree: 8%
 
 # linkedIn帐户匹配的受众
 
-Journey Optimizer B2B版本提供了通过“帐户匹配受众”生成LinkedIn广告受众的功能，旨在帮助您在购买群组中填充空角色。 通过定义一组购买群组过滤器，您可以维护一个LinkedIn匹配受众，以定位与您的购买群组参数相匹配的潜在客户。 此功能利用Experience Platform目标来管理集成的某些方面。 数据流上限为10个。
+Journey Optimizer B2B edition提供通过帐户匹配受众生成LinkedIn广告受众的功能，旨在帮助您在购买群组中填充空角色。 通过定义一组购买群组过滤器，您可以维护一个LinkedIn匹配受众，以定位与您的购买群组参数相匹配的潜在客户。 此功能利用Experience Platform目标来管理集成的某些方面。 数据流上限为10个。
 
-在从Journey Optimizer B2B版本启动数据流之前，必须至少有一个[（公司）LinkedIn匹配的Audience目标连接器](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect)的实例具有在Experience Platform应用程序中配置的LinkedIn Campaign Manager帐户。
+在从Journey Optimizer B2B edition启动数据流之前，必须至少有一个[（公司） LinkedIn匹配的Audience目标连接器](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect)的实例具有在Experience Platform应用程序中配置的LinkedIn Campaign Manager帐户。
 
 ## 配置新的 LinkedIn 帐户连接 {#linkedin-destination-setup}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_linkedin_destination_setup"
 >title="需要设置 LinkedIn 目标"
->abstract="将按购买群组过滤的帐户发送到 Linkedin 目标，以便与潜在的购买群组成员互动。您可以为 10 个不同的过滤帐户组创建最多 10 个数据流。要开始使用此功能，请先添加 Linkedin 目标。"
+>abstract="将按购买群组过滤的帐户发送到 Linkedin 目标，以便与潜在的购买群组成员参与。您可以为 10 个不同的过滤帐户组创建最多 10 个数据流。要开始使用此功能，请先添加 Linkedin 目标。"
 
 1. 在Experience Platform中，转到左侧导航栏中的&#x200B;**[!UICONTROL 连接]** > **[!UICONTROL 目标]**，然后选择&#x200B;**[!UICONTROL 目录]**&#x200B;选项卡。
 
@@ -50,7 +50,7 @@ Journey Optimizer B2B版本提供了通过“帐户匹配受众”生成LinkedIn
 
 ## 更新帐户详细信息
 
-在Journey Optimizer B2B版本中，购买组可以看到LinkedIn帐户的名称和描述。 最佳实践是更新此信息，以便与购买群组一起工作的营销人员能够轻松识别此信息。 您可以在Experience Platform或Journey Optimizer B2B版本UI中更改帐户详细信息。
+在Journey Optimizer B2B edition中，购买组可以看到LinkedIn帐户的名称和描述。 最佳实践是更新此信息，以便与购买群组一起工作的营销人员能够轻松识别此信息。 您可以在Experience Platform或Journey Optimizer B2B edition UI中更改帐户详细信息。
 
 1. 在左侧导航中转到&#x200B;**[!UICONTROL 连接]** > **[!UICONTROL 目标]**，然后选择&#x200B;**[!UICONTROL 帐户]**&#x200B;选项卡。
 
@@ -68,9 +68,9 @@ Journey Optimizer B2B版本提供了通过“帐户匹配受众”生成LinkedIn
 
 >[!NOTE]
 >
->如果您已有10个数据流，则无法创建另一个数据流。 如果达到最大数量，请先删除Experience Platform中的一个，然后再在Journey Optimizer B2B版本中创建一个新版本。
+>如果您已有10个数据流，则无法创建另一个数据流。 如果达到最大数量，请先删除Experience Platform中的一个变量，然后再在Journey Optimizer B2B edition中创建新变量。
 
-1. 在Journey Optimizer B2B版本中，在左侧导航中转到&#x200B;**[!UICONTROL 帐户]** > **[!UICONTROL 购买群组]**。
+1. 在Journey Optimizer B2B edition的左侧导航栏中，转到&#x200B;**[!UICONTROL 帐户]** > **[!UICONTROL 购买群组]**。
 
 1. 选择&#x200B;**[!UICONTROL 浏览]**&#x200B;选项卡。
 

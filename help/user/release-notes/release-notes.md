@@ -1,6 +1,6 @@
 ---
 title: 发行说明
-description: Adobe Journey Optimizer B2B 版本的最新发行说明
+description: Adobe Journey Optimizer B2B Edition 的最新发行说明
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: ce241e3d5412e38f3f2bc833d9eca6ee567697f3
 workflow-type: tm+mt
