@@ -3,9 +3,9 @@ title: 解决方案兴趣
 description: 了解解决方案兴趣以及如何定义这些兴趣以在您的购买群中使用。
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
+source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 访问和浏览解决方案兴趣
 
-1. 在Adobe Experience Platform主页中，单击Adobe Journey Optimizer B2B Edition 。
+1. 在Adobe Experience Platform主页中，单击Adobe Journey Optimizer B2B edition。
 
 1. 在左侧导航栏中，单击&#x200B;**[!UICONTROL 购买群组]**。
 
@@ -48,13 +48,21 @@ ht-degree: 0%
 
 1. 选择&#x200B;**[!UICONTROL 角色模板]** （必需）。
 
-   单击选择器，然后从显示的列表中选择一个实时角色模板。 您只能将一个实时角色模板与解决方案兴趣关联。
+   单击&#x200B;**[!UICONTROL 选择角色模板]**，然后从对话框的列表中选择一个实时角色模板。 您只能将一个实时角色模板与解决方案兴趣关联。 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以返回到&#x200B;_[!UICONTROL 创建解决方案兴趣]_&#x200B;页面，该页面显示了所选角色模板。
 
-   ![解决方案兴趣选项卡](assets/solution-interest-create.png){width="700" zoomable="yes"}
+   ![向解决方案兴趣添加角色模板](assets/solution-interest-create.png){width="700" zoomable="yes"}
+
+1. 选择&#x200B;**[!UICONTROL 购买组阶段模型]**&#x200B;以使用购买组阶段进度（可选）。
+
+   有关使用购买组阶段来跟踪帐户进展的详细信息，请参阅[购买组阶段](./buying-group-stages.md)。
+
+1. 启用&#x200B;**[!UICONTROL 更新现有购买组]**&#x200B;设置（可选）。
+
+   启用此选项后，与解决方案相关的所有现有购买组都将通过24小时同步周期进行更新。
 
 1. 单击右上角的&#x200B;**[!UICONTROL 创建]**。
 
-   您的新解决方案兴趣将显示在“解决方案兴趣”中
+   新的解决方案兴趣显示在&#x200B;_[!UICONTROL 解决方案兴趣]_&#x200B;列表中。
 
 ## 编辑解决方案兴趣
 
@@ -68,6 +76,10 @@ ht-degree: 0%
    ![解决方案兴趣更多菜单](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
 1. 如果需要，请更新名称（必需且唯一）和描述（可选）。
+
+1. 如果需要，请选择&#x200B;**[!UICONTROL 购买组阶段模型]**&#x200B;以跟踪购买组阶段进度。
+
+   有关使用购买组阶段来跟踪历程进展与销售的详细信息，请参阅[购买组阶段](./buying-group-stages.md)。
 
 1. 如果需要，请更改&#x200B;**[!UICONTROL 更新现有购买组]**&#x200B;设置。
 
