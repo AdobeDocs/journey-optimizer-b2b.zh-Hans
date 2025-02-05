@@ -1,16 +1,16 @@
 ---
 title: 内容创作 — 个性化
 description: 重用有关使用个性化进行内容创作的部分
-source-git-commit: 0a9c05ac2ddd95e1fa5321f44f5cbe8cfa595007
+source-git-commit: 3791beb98068a56882bb0a96fbc6b192e85130bb
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '135'
 ht-degree: 2%
 
 ---
 
 # 内容创作 — 个性化
 
-Journey Optimizer B2B Edition使用内联简单语法，允许您创建包含用双大括号`{}`括起来的个性化内容的表达式。 您可以在同一内容或字段中添加多个表达式，而不受限制。
+Journey Optimizer B2B edition使用内联简单语法，允许您创建包含用双大括号`{}`括起来的个性化内容的表达式。 您可以在同一内容或字段中添加多个表达式，而不受限制。
 
 示例：
 
@@ -18,7 +18,7 @@ Journey Optimizer B2B Edition使用内联简单语法，允许您创建包含用
 
 * `Hello {{profile.person.name.fullName}}`
 
-在处理消息（电子邮件和短信）时，Journey Optimizer B2B Edition会使用Experience Platform数据库中包含的数据替换表达式。 因此，第一个示例变为&#x200B;_Hello John Doe_。
+处理内容时，Journey Optimizer B2B edition会使用Experience Platform数据库中包含的数据替换表达式。 因此，第一个示例变为&#x200B;_Hello John Doe_。
 
 以下示例概述了使用商机/帐户属性和系统令牌对内容进行个性化的步骤。
 

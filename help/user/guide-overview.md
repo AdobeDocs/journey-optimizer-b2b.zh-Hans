@@ -2,7 +2,7 @@
 title: Adobe Journey Optimizer B2B 版本文档
 description: 了解如何使用Adobe Journey Optimizer B2B edition功能通过内置的创新型人工智能和行业领先的自动化功能编排帐户和购买团体历程。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
+source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 7%
@@ -27,7 +27,7 @@ ht-degree: 7%
 
 在帐户历程中，使用&#x200B;_添加到列表_&#x200B;操作节点将人员添加到Marketo Engage静态列表。 这些列表为您提供了完全的灵活性，可用于重新调整特定受众的用途和定位。 您可以构建一个列表，然后围绕该列表创建营销活动，或直接将人员添加到现有营销活动。 此外，使用&#x200B;_从列表中删除_&#x200B;人员操作可根据帐户历程进度优化和更改Marketo Engage中的定位。
 
-[!BADGE 了解详情]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes#action-nodes" tooltip="了解添加到列表和从列表中删除"}
+[!BADGE 了解详情]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes" tooltip="了解添加到列表和从列表中删除"}
 
 >[!TAB 中央资源库]
 

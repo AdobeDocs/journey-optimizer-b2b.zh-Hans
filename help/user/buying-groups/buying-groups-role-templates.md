@@ -3,10 +3,10 @@ title: 购买组角色模板
 description: 了解如何定义用作购买组组件的角色模板。
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 492c4f5c326624e1713fb12289826c530384686a
+source-git-commit: 3ce0b2722e56ef46b84a55f097cd1e8a9d39ceb5
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 0%
+source-wordcount: '1125'
+ht-degree: 1%
 
 ---
 
@@ -61,6 +61,14 @@ ht-degree: 0%
 
 创建模板后，该模板将在工作区中打开，并提示您定义角色。 默认情况下，将显示第一个角色卡。
 
+您为模板定义的每个角色都使用一组筛选器（即&#x200B;_条件_）来确定分配给该角色的成员。 使用以下过滤器类型定义角色的条件：
+
+| 类型 | 条件 |
+| ---- | --------- |
+| 人员属性 | <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>传真号 <li>名字 <li>推断的状态区域 <li>职务名称 <li>姓氏 <li>中间名 <li>手机号码 <li>电话号码 <li>邮政编码 <li>State <li>退订 <li>取消订阅的原因 |
+| 特殊过滤器 | <li>列表成员 |
+| 目的数据 | 类别意图 <li>产品意图 <li>关键字意图<br/>[了解意图数据](../admin/intent-data.md)。 |
+
 1. 对于第一个角色信息卡，定义角色属性。
 
    * 从列表中选择&#x200B;**[!UICONTROL 购买团体角色]**。
@@ -102,6 +110,16 @@ ht-degree: 0%
 1. 对于要为模板包括的每个其他角色，单击&#x200B;**[!UICONTROL 添加其他角色]**&#x200B;并重复步骤1和2以定义该角色。
 
    ![定义了多个角色的角色模板](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+
+>[!BEGINSHADEBOX “Marketo Engage列表成员资格”]
+
+在Marketo Engage中，_智能营销活动_&#x200B;检查计划成员身份，确保潜在客户不会收到重复的电子邮件，并且不会同时成为多个电子邮件流的成员。 在Journey Optimizer B2B中，您可以检查Marketo Engage列表成员资格，将其作为角色模板的条件，以帮助消除购买组成员资格和旅程活动中的重复。
+
+要将列表成员资格用作角色条件，请展开&#x200B;**[!UICONTROL 特殊筛选器]**，并将&#x200B;**[!UICONTROL 列表成员]**&#x200B;条件拖入筛选器空间。 然后完成筛选器定义以评估一个或多个Marketo Engage列表中的成员资格。
+
+Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+
+>[!ENDSHADEBOX]
 
 您的更改将自动保存为&#x200B;_草稿_&#x200B;状态。 如果您还未准备好发布角色模板，请单击页面顶部的左（后）箭头，并返回到&#x200B;_[!UICONTROL 角色模板]_&#x200B;列表。
 

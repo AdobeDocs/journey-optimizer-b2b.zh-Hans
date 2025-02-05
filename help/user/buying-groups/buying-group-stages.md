@@ -2,9 +2,10 @@
 title: 购买组阶段
 description: 了解购买组阶段，以及如何定义这些阶段以根据销售目标跟踪历程进展。
 feature: Buying Groups, Account Journeys
-source-git-commit: 42d73cd2c1ead771205e5fdf188088fce7ca6f21
+exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
+source-git-commit: 3336a09a58d4c68418ffa1563b6c4c65097e1a49
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2250'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 购买组阶段旨在跟踪购买组在将机会转化为客户方面的进度。 使用此功能跟踪购买团体进度，并确定适合购买团体成员的下一个最佳操作。
 
-在单个分段模型中定义阶段，定义多个阶段以及它们之间的转换流。 一个或多个阶段被指定进入生命周期。 模型还允许非线性渐变，在其中可以指定从一个阶段到另一个阶段的过渡，例如从阶段A到阶段B、C或D。要求将一个阶段指定为成功阶段，例如购买或签署合同。 可选地将另一个阶段指定为失败阶段，例如拒绝的合同或从其他供应商购买竞争解决方案。<!-- This is achieved through intelligent dashboards that show how buying groups are progressing in terms of completing a sale opportunity or converting an opportunity into a customer. -->
+在单个分段模型中定义阶段，定义多个阶段以及它们之间的转换流。 一个或多个阶段被指定进入生命周期。 模型还允许非线性渐变，在其中可以指定从一个阶段到另一个阶段的过渡，例如从阶段A到阶段B、C或D。要求将一个阶段指定为成功阶段，例如购买或签署合同。 可选地将另一个阶段指定为失败阶段，例如被拒绝的合同或从另一个供应商处购买竞争解决方案。 这是通过[智能仪表板](../dashboards/intelligent-dashboard.md)实现的，该仪表板可显示购买组在完成销售机会或将机会转化为客户方面的进展情况。
 
 ![购买团体阶段示例](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 

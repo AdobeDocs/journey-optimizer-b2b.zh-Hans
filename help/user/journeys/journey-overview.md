@@ -3,9 +3,9 @@ title: 帐户历程
 description: 了解帐户历程以及如何创建和管理它们。
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1141'
 ht-degree: 1%
 
 ---
@@ -13,11 +13,13 @@ ht-degree: 1%
 
 # 帐户历程
 
+使用电子邮件、短信、活动等自动参与功能，构建和执行为每个购买组和购买组成员量身定制的历程。 WIth客户历程您可以简化需求生成和购买团体资格鉴定，并推动对您的收购、追加销售/交叉销售和保留计划的更多合格需求。
+
 定义包括电子邮件、短信和更多内部帐户历程的销售驱动型参与，以协调入站营销与每个购买组成员的出站销售活动。
 
 ## 访问和浏览帐户历程
 
-1. 在Adobe Experience Platform主页中，单击Adobe Journey Optimizer B2B Edition 。
+1. 在Adobe Experience Platform主页中，单击Adobe Journey Optimizer B2B edition。
 
 1. 在左侧导航中，单击&#x200B;**[!UICONTROL 帐户历程]**。
 
@@ -86,33 +88,17 @@ ht-degree: 1%
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-### 为您的历程添加帐户受众
-
-帐户历程始终以帐户受众开始，您可以在其中向历程添加输入。
-
-1. 单击&#x200B;**[!UICONTROL 帐户受众]**&#x200B;节点可在右侧显示节点属性。
-
-   ![帐户受众节点](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
-
-1. 单击&#x200B;**[!UICONTROL 添加帐户受众]**。
-
-   您可以通过单击&#x200B;_[!UICONTROL 添加受众]_&#x200B;来选择以前选择的受众区段。
-
-1. 要创建新的受众区段，请在左侧导航中选择&#x200B;**[!UICONTROL 帐户受众]**。
-
-1. 单击&#x200B;**[!UICONTROL 创建受众]**，然后按照[分段服务指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}中所述的步骤操作。
-
 ### 历程的构建基块
 
-_历程画布_&#x200B;是历程设计器中的中心区域。 在此区域中，您可以添加并配置历程节点。 单击某个节点可打开其位于画布右侧的属性窗格，并根据您的设计设置这些窗格。
+_历程图_&#x200B;是历程设计器中的中心区域。 在此区域中，您可以添加并配置历程节点。 单击某个节点可打开其位于画布右侧的属性窗格，并根据您的设计设置这些窗格。 帐户历程始终以[帐户受众节点](./account-audience-nodes.md)开始，您可以在其中向历程添加输入。
 
-您可以使用以下任一节点类型构建旅程：
+创建帐户历程并添加受众后，使用节点构建历程。 历程图提供了一个画布，您可以在其中使用以下节点类型构建多步骤B2B营销用例以构建帐户历程：
 
-* [侦听事件](journey-nodes.md#listen-for-an-event)
-* [执行操作](journey-nodes.md#take-an-action)
-* [拆分路径](journey-nodes.md#split-paths)
-* [等待](journey-nodes.md#wait)
-* [合并路径](journey-nodes.md#merge-paths)
+* [执行操作](./action-nodes.md)
+* [侦听事件](./listen-for-event-nodes.md)
+* [拆分路径](./split-merge-paths-nodes.md)
+* [等待](./wait-nodes.md)
+* [合并路径](./split-merge-paths-nodes.md)
 
 ### 护栏
 
@@ -134,7 +120,7 @@ _历程画布_&#x200B;是历程设计器中的中心区域。 在此区域中，
 
 1. 导航到历程编辑器。
 
-1. 在右侧的节点属性中，单击&#x200B;_删除_ （垃圾桶）图标。
+1. 在右侧的节点属性中，单击&#x200B;_删除_ （ ![删除图标](../assets/do-not-localize/icon-delete.svg) ）图标。
 
 1. 在配置对话框中，单击&#x200B;**[!UICONTROL 删除]**。
 
@@ -142,7 +128,7 @@ _历程画布_&#x200B;是历程设计器中的中心区域。 在此区域中，
 
 1. 导航到历程编辑器。
 
-1. 单击路径上的加号( **+** )图标，然后添加拆分路径节点。
+1. 单击路径上的加号( **+** )图标，然后添加[拆分路径节点](./split-merge-paths-nodes.md#split-paths)。
 
 1. 在右侧的节点属性中，选择&#x200B;**[!UICONTROL 帐户]**。
 
@@ -150,11 +136,11 @@ _历程画布_&#x200B;是历程设计器中的中心区域。 在此区域中，
 
    对于历程中创建的每个路径，属性中都会显示一张新路径卡。
 
-1. 导航到历程中的路径之一，并使用加号图标将操作或事件节点添加到此路径。
+1. 导航到历程中的路径之一，并使用加号图标将[操作](./action-nodes.md)或[事件](./listen-for-event-nodes.md)节点添加到此路径中。
 
-1. 选择拆分路径节点以打开右侧的属性。
+1. 选择[拆分路径](./split-merge-paths-nodes.md)节点以打开右侧的属性。
 
-   请注意，无法删除上面有节点的路径。
+   不能删除上面有节点的路径。
 
 1. 要删除这些路径，必须先删除该路径上的所有节点。
 
@@ -181,3 +167,7 @@ _历程画布_&#x200B;是历程设计器中的中心区域。 在此区域中，
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
    当您准备好发布旅程时，您可以在单击&#x200B;_[!UICONTROL Publish]_&#x200B;时查看这些设置。
+
+### Publish帐户历程
+
+

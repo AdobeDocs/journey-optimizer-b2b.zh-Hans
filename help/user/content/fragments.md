@@ -1,18 +1,18 @@
 ---
 title: 片段
-description: 了解如何在Adobe Journey Optimizer B2B Edition中创建可视化内容片段，并将其用作电子邮件和电子邮件模板的可重用组件。
+description: 了解如何在Adobe Journey Optimizer B2B edition中创建可视化内容片段，并将其用作电子邮件和电子邮件模板的可重用组件。
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: d0bf71dd1503d824391df7d7a7c59e3c2c925f03
+source-git-commit: cd65d568c68f2f4ed85e1612a8f91d8343c9e2be
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2679'
 ht-degree: 3%
 
 ---
 
 # 片段
 
-片段是可重用的组件，可以在Adobe Journey Optimizer B2B Edition中的一个或多个电子邮件和电子邮件模板中引用。 它通常是可以预先创建并快速插入到电子邮件或电子邮件模板中的内容块（文本、图像或两者）。 借助此功能，您可以预构建多个自定义内容块，以供营销团队成员用于汇编电子邮件内容，从而改进设计过程。 常见用例包括电子邮件的页眉/页脚内容块、事件邀请横幅和季节性问候。
+片段是可重复使用的组件，可以在Adobe Journey Optimizer B2B edition中的一个或多个电子邮件和电子邮件模板中引用。 它通常是可以预先创建并快速插入到电子邮件或电子邮件模板中的内容块（文本、图像或两者）。 借助此功能，您可以预构建多个自定义内容块，以供营销团队成员用于汇编电子邮件内容，从而改进设计过程。 常见用例包括电子邮件的页眉/页脚内容块、事件邀请横幅和季节性问候。
 
 要在工作流中充分利用片段，请执行以下操作：
 
@@ -21,11 +21,11 @@ ht-degree: 3%
 
 ## 可视化片段
 
-可视片段是使用可视内容编辑器构建的预定义可视块，您可以在多个电子邮件或电子邮件模板中重复使用该可视块。 Journey Optimizer B2B版本的当前范围以及本文档仅为可视片段。 Journey Optimizer B2B版本尚不支持基于表达式的片段。
+可视片段是使用可视内容编辑器构建的预定义可视块，您可以在多个电子邮件或电子邮件模板中重复使用该可视块。 Journey Optimizer B2B edition和本文档的当前范围仅为可视化片段。 Journey Optimizer B2B edition尚不支持基于表达式的片段。
 
 ## 访问和管理片段
 
-要访问Adobe Journey Optimizer B2B版本中的可视化片段，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 片段]**。 此操作将打开一个列表页面，其中包含实例中创建的所有片段在表中列出。
+要在Adobe Journey Optimizer B2B edition中访问可视化片段，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 片段]**。 此操作将打开一个列表页面，其中包含实例中创建的所有片段在表中列出。
 
 ![访问片段库](./assets/fragments-list.png){width="700" zoomable="yes"}
 
@@ -45,7 +45,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->片段状态已在Journey Optimizer B2B版本8月版本中引入。 在此版本之前创建的所有片段均具有&#x200B;_草稿_&#x200B;状态，即使它们在电子邮件或模板中使用也是如此。 如果您对这些片段进行了任何更改，则必须发布片段以传播更改。
+>Journey Optimizer B2B edition 8月版本中引入了片段状态。 在此版本之前创建的所有片段均具有&#x200B;_草稿_&#x200B;状态，即使它们在电子邮件或模板中使用也是如此。 如果您对这些片段进行了任何更改，则必须发布片段以传播更改。
 
 ### 筛选片段列表
 
@@ -63,7 +63,7 @@ ht-degree: 3%
 
 ## 创建片段
 
-您可以通过单击右上角的&#x200B;**[!UICONTROL 创建片段]**，在Journey Optimizer B2B版本中创建新可视片段。
+您可以通过单击右上角的&#x200B;**[!UICONTROL 创建片段]**，在Journey Optimizer B2B edition中创建新可视片段。
 
 1. 在&#x200B;_[!UICONTROL 创建片段]_&#x200B;对话框中，输入有用的&#x200B;**[!UICONTROL 名称]**&#x200B;和&#x200B;**[!UICONTROL 描述]**（可选）。
 
@@ -141,13 +141,13 @@ ht-degree: 3%
 
 ## 引用使用的视图片段
 
-在片段详细信息页面中，单击&#x200B;**[!UICONTROL 使用者]**&#x200B;选项卡，查看当前在Journey Optimizer B2B版本中使用片段的位置、电子邮件、电子邮件模板和片段的详细信息。
+在片段详细信息页面中，单击&#x200B;**[!UICONTROL 使用者]**&#x200B;选项卡以查看片段当前在Journey Optimizer B2B edition中的使用位置、电子邮件、电子邮件模板和片段的详细信息。
 
 >[!IMPORTANT]
 >
 >无法删除任何电子邮件或电子邮件模板当前正在使用的任何片段。
 
-根据类别显示引用： _电子邮件_&#x200B;或&#x200B;_电子邮件模板_。 Journey Optimizer B2B Edition中的电子邮件在帐户历程中嵌入和创作，因此使用片段的电子邮件的父历程显示在引用中。
+根据类别显示引用： _电子邮件_&#x200B;或&#x200B;_电子邮件模板_。 Journey Optimizer B2B edition中的电子邮件在帐户历程中嵌入和创作，因此使用片段的电子邮件的父历程显示在引用中。
 
 ![由对片段的引用使用](./assets/fragment-used-by-published.png){width="600" zoomable="yes"}
 
@@ -216,7 +216,7 @@ ht-degree: 3%
 
 1. 如果要更新内容，请单击右上方的&#x200B;**[!UICONTROL 创建草稿版本]**。
 
-   在对话框中单击&#x200B;**[!UICONTROL 确定]**&#x200B;以在可视设计器中打开草稿版本。 您可以根据需要更改[图像源](./assets-overview.md#choose-an-asset-source)。
+   在对话框中单击&#x200B;**[!UICONTROL 确定]**&#x200B;以在可视设计器中打开草稿版本。
 
    ![创建草稿版本对话框](./assets/fragments-create-draft-version.png){width="300"}
 

@@ -1,9 +1,9 @@
 ---
 title: 配置Experience Manager资源存储库
-description: 了解如何配置与Experience Manager Assets存储库的连接，以用于Journey Optimizer B2B Edition内容创作。
+description: 了解如何配置与Experience Manager Assets存储库的连接，以用于Journey Optimizer B2B edition内容创作。
 feature: Assets, Integrations
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 0%
@@ -12,15 +12,17 @@ ht-degree: 0%
 
 # 配置Experience Manager资源存储库
 
-Adobe Journey Optimizer B2B Edition与Adobe Experience Manager Assetsas a Cloud Service集成，使得在帐户历程中不仅可以使用电子邮件等资源。 它通过与Experience Manager Assets交换信息确保透明度。 配置与AdobeExperience Assets的连接以启用此功能。
+Adobe Journey Optimizer B2B edition与Adobe Experience Manager Assetsas a Cloud Service集成，从而不仅允许在帐户历程中使用电子邮件等资产。 它通过与Experience Manager Assets交换信息确保透明度。 配置与AdobeExperience Assets的连接以启用此功能。
 
-Adobe Experience Manager Cloud Manager分为多个项目，每个项目都有多个环境和存储库（[了解详情](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types)）。 在Adobe Journey Optimizer B2B版本中配置Adobe Experience Manager Assets时，您需要设置与要用于访问数字资产的每个存储库的连接。
+Adobe Experience Manager Cloud Manager分为多个项目，每个项目都有多个环境和存储库（[了解详情](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types)）。 在Adobe Journey Optimizer B2B edition中配置Adobe Experience Manager Assets时，您需要设置与要用于访问数字资源的每个存储库的连接。
+
+{{aem-assets-licensing-note}}
 
 ## 先决条件
 
 * 在AEM Headless Developer Console上为所需的环境生成服务凭据（[了解更多](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials)）。
 * 获取连接所需的证书。 作为最佳实践，请确保证书在过期前至少还有六个月。 证书每365天过期一次。
-* Adobe Journey Optimizer B2B版本支持一次访问一个数字资产管理源。 切换之前，请确保所需的资源在Adobe Experience Manager中可用。
+* Adobe Journey Optimizer B2B edition支持一次访问一个数字资产管理源。 切换之前，请确保所需的资源在Adobe Experience Manager中可用。
 
 >[!IMPORTANT]
 >
@@ -66,7 +68,7 @@ Adobe Experience Manager Cloud Manager分为多个项目，每个项目都有多
 
 >[!NOTE]
 >
->Adobe Journey Optimizer B2B版本支持在创作内容时一次访问一个数字资产管理源。 
+>Adobe Journey Optimizer B2B edition支持在创作内容时一次访问一个数字资产管理源。 
 
 ## 替换证书
 
@@ -74,7 +76,7 @@ Adobe Experience Manager Cloud Manager分为多个项目，每个项目都有多
 
 >[!NOTE]
 >
->Adobe Journey Optimizer B2B Edition与Experience Manager资源通信以了解使用信息。 连接必须保持活动状态才能可靠的使用数据同步并防止数据差异。 管理员用户会通过应用程序内通知收到有关证书过期的通知。 他们还可以在“管理”区域的“Assets”子部分“数字资源管理”中注意过期日期。
+>Adobe Journey Optimizer B2B edition可与Experience Manager资源通信以了解使用信息。 连接必须保持活动状态才能可靠的使用数据同步并防止数据差异。 管理员用户会通过应用程序内通知收到有关证书过期的通知。 他们还可以在“管理”区域的“Assets”子部分“数字资源管理”中注意过期日期。
 
 1. 在数字资产管理页面上，找到已配置存储库的列表。
 
@@ -110,7 +112,7 @@ Adobe Experience Manager Cloud Manager分为多个项目，每个项目都有多
 
 ## 删除存储库连接
 
-删除存储库会移除用户对Journey Optimizer B2B版本中Experience Manager Assets环境的访问权限。
+删除存储库会移除用户对Journey Optimizer B2B edition中Experience Manager Assets环境的访问权限。
 
 1. 在&#x200B;_[!UICONTROL 数字资源管理]_&#x200B;页面上，找到已配置的资源存储库列表。
 

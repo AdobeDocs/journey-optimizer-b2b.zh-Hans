@@ -1,11 +1,11 @@
 ---
 title: 购买组
-description: 了解在Journey Optimizer B2B edition中购买群组如何通过识别和定向客户列表成员来提高营销效率。
+description: 了解在Journey Optimizer B2B edition中购买群组如何通过识别和定向帐户列表的成员来提高营销效率。
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
+source-git-commit: e2059726fbb7541dbe0e7ab9be4cd82f37f26cf8
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1259'
 ht-degree: 5%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 ## 关键组件
 
-您可以在Journey Optimizer B2B edition中建立购买组，根据销售团队负责销售的解决方案确定目标客户列表中缺少的成员，从而提高营销效率。 在您和营销团队开始创建购买群组之前，请确保您定义了关键组件。 这些组件对于实现您的业务目标和目的至关重要。
+您可以在Journey Optimizer B2B edition中建立购买组，根据销售团队负责销售的解决方案确定目标帐户列表中缺少的成员，从而提高营销效率。 在您和营销团队开始创建购买群组之前，请确保您定义了关键组件。 这些组件对于实现您的业务目标和目的至关重要。
 
 | 组件 | 用途 |
 | --------- | ------- |
@@ -77,7 +77,7 @@ _[!UICONTROL 购买组]_&#x200B;页面组织为选项卡：
 
 ## 购买团体详细信息
 
-要访问购买群组的详细信息，请在&#x200B;_[!UICONTROL 浏览]_&#x200B;选项卡中单击购买群组名称。
+要访问购买群组的详细信息，请在&#x200B;_[!UICONTROL 浏览]_&#x200B;选项卡中单击购买群组名称。 [了解详情](./buying-group-details.md)
 
 ![购买团体详细信息](assets/buying-group-details.png){width="600" zoomable="yes"}
 

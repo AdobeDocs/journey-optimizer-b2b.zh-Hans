@@ -1,9 +1,9 @@
 ---
 title: 片段
 description: 重用注释和可视化元素来注释应用于特定版本的功能或页面
-source-git-commit: 4facd14886cb21371ebbc3e0032cbf14cc322586
+source-git-commit: 8892aff0501a157006506663ef304be5ccc9695c
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -11,6 +11,19 @@ ht-degree: 0%
 # 片段
 
 <!-- Content authoring steps for reuse -->
+
+## 目的数据配置 {#intent-data-note}
+
+>[!NOTE]
+>为您的Journey Optimizer B2B edition实例配置意图数据后，该数据也可包含在页面中。 有关意图检测模型以及如何提交关键字的详细信息，请参阅[意图数据](../user/admin/intent-data.md)。
+>
+
+## AEM assets许可说明 {#aem-assets-licensing-note}
+
+>[!NOTE]
+>
+>AEM Assetsas a Cloud Service许可证和Dynamic Media许可证是进行集成的先决条件。 您应确保启用了[Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。<br/>
+>根据您的合同和配置，在设计可视化内容时，可以直接从Adobe Experience Manager Assets B2B edition访问Adobe Journey Optimizer as a Cloud Service 。
 
 ## 内容创作 — 组件 — 结构步骤 {#structures-step}
 
@@ -46,11 +59,7 @@ ht-degree: 0%
 
    双击包含资产的文件夹。 将项目拖放到结构组件中。
 
-   >[!NOTE]
-   >
-   >如果您订阅了Experience Manager Assetsas a Cloud Service以及默认的Adobe Marketo Engage Design Studio，则在创建电子邮件、电子邮件模板或可视化片段时必须选择[图像源](../user/content/assets-overview.md#choose-an-asset-source)。 但是，您也可以在打开内容设计器进行编辑之前选择图像源。
-
-   有关使用源类型中的资产的更多信息，请参阅[将资产添加到您的内容](../user/content/assets-overview.md#add-assets-to-your-content)。
+   有关使用源类型中的资产的更多信息，请参阅[将资产添加到您的内容](../user/content/assets-overview.md#use-assets-for-content-authoring)。
 
    ![将Marketo Engage资源拖动到画布上并调整设置](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
 
@@ -64,6 +73,6 @@ ht-degree: 0%
 
 ## 内容创作 — 链接跟踪步骤 {#links-tracking-step}
 
-1. 从左窗格中选择&#x200B;**[!UICONTROL 链接]**&#x200B;选项卡以显示您的内容中受跟踪的所有URL。
+1. 从左窗格中选择&#x200B;**[!UICONTROL 链接]**&#x200B;选项卡以显示您的内容中被跟踪的所有URL。
 
    您可以修改&#x200B;_跟踪类型_&#x200B;或&#x200B;_标签_，并根据需要添加标记。

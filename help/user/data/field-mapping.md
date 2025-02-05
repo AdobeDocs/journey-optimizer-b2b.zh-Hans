@@ -2,9 +2,9 @@
 title: XDM字段
 description: 查看在Adobe Experience Platform和Journey Optimizer B2B edition之间同步的默认属性字段。
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 69312f48bdbe9f366a8e6adfb4736c20d04739f8
+source-git-commit: 332c25305377398c2338d4b1d4a61b7fcf814232
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '1033'
 ht-degree: 13%
 
 ---
@@ -12,6 +12,16 @@ ht-degree: 13%
 # XDM字段
 
 帐户受众数据同时作为属性存储在XDM业务帐户和XDM业务人员类中。 数据定期在Adobe Experience Platform和Journey Optimizer B2B edition之间同步。 以下部分列出了缺省属性集。
+
+>[!TIP]
+>
+>您可以使用[Experience PlatformXDM文档](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)中所述的XDM业务帐户人员关系类来以多对多关系建模XDM业务人员和XDM业务帐户类。
+
+## XDM业务帐户人员关系属性
+
+| [属性](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | 显示名称 | Journey Optimizer B2B显示名称 | 数据类型 | 描述 |
+|------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
+| `personRoles` | 人员角色 | 角色 | 字符串数组 | 与帐户中的人员关联的角色数组，如`owner, accountant, designer`。 |
 
 ## XDM业务人员属性
 
@@ -64,7 +74,31 @@ ht-degree: 13%
 | `accountOrganization.industry` | 行业 | 行业 | 字符串 | 业界归功于该组织。 它是一个自由格式字段，建议在查询中使用结构化值或使用`xdm:classifier`属性。 |
 | `accountOrganization.logoUrl` | 徽标URL | 徽标URL | 字符串 | 要与Salesforce实例的URL（例如`https://yourInstance.salesforce.com/`）组合的路径，用于生成URL以请求与帐户关联的社交网络个人资料图像。 生成的URL会返回指向帐户的社交网络个人资料图像的HTTP重定向（代码302）。 |
 | `accountOrganization.numberOfEmployees` | 员工数 | 员工数 | 整数 | 组织的员工数。 |
-| `accountOrganization.SICCode` | SIC 代码 | SIC 代码 | 字符串 | 标准行业分类(SIC)代码，它是一个四位数的代码，根据公司的业务活动对公司所属的行业进行分类。 |
+| `accountOrganization.SICCode` | SIC 代码 | SIC 代码 | 字符串 | 标准行业分类(SIC)代码是一个四位数的代码，根据公司的业务活动对公司所属的行业进行分类。 |
 | `accountOrganization.website` | 网站URL | 域名 | 字符串 | 组织网站的URL。 |
 | `accountPhone.number` | 不适用 | 帐户电话号码 | 字符串 | 与帐户关联的电话号码。 |
 | `accountSourceType` | 不适用 | 源类型 | 字符串 | 帐户的Source类型。 |
+
+<!-- ## XDM Opportunity attributes
+
+|[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md) |Display name |Journey Optimizer B2B display name |Data type |Description |
+|------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
+|`opportunityName` | Opportunity Name   | ? |String  | Subject or descriptive name, such as the expected order or company name, for the opportunity. |
+|`opportunityDescription` | Opportunity Description   | ?    |String  | Additional information to describe the opportunity, such as possible products to sell or past purchases from the customer. |
+|`opportunityType` | Opportunity Type   | ?   | String | ?   |
+|`opportunityStage` | Opportunity Stage   | ?   | String | Sales stage of the opportunity to aid the sales team in their efforts to win it.  |
+|`fiscalQuarter` | Fiscal Quarter   | ?   | String | The fiscal quarter that the opportunity is targeted.   |
+|`fiscalYear` | Fiscal Year   | ?   | String | The fiscal year that the opportunity is targeted.   |
+|`fiscalCategory` | Fiscal Category   | ?   | String | ?   |
+|`fiscalCategoryName` | Fiscal Category Name  | ?   | String | Forecast category name that is displayed in reports for a particular forecast category.   |
+|`isClosed` | Closed Flag  | ?   | String | Flag that indicates if the opportunity is closed.   |
+|`isWon` | Won Flag  | ?   | String | Flag that indicates if the opportunity is won.  |
+|`probabilityPercentage` | Probability Percentage  | ?   | String | Likelihood of closing the opportunity, stated as a percentage.  |
+|`opportunityAmount.amount` | Opportunity Amount  | ?   | String | Estimated total sale amount for the opportunity.   |
+|`expectedRevenue.amount` | Expected Revenue  | ?   | String | Calculated revenue based on the Amount and Probability.   |
+|`opportunityQuantity` | Opportunity Quantity  | ?   | String | Total of all quantity field values for all products in the related Products list for the opportunity.   |
+|`expectedCloseDate` | Expected Close Date  | ?   | String | Expected date of closure for the opportunity.   |
+|`lastActivityDate` | Last Activity Date  | ?   | String | Last activity date for the opportunity.  |
+|`leadSource` | Lead Source  | ?   | String | Source of the opportunity, such as Advertisement, Partner, or Web.   |
+|`nextStep` | Next Step  | ?   | String | Description of the next task for closing the opportunity.   |
+-->

@@ -3,16 +3,16 @@ title: 使用Marketo EngageAssets
 description: 了解如何在Journey Optimizer B2B edition中使用Marketo EngageDesign Studio资产管理集成。
 feature: Assets, Content
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 80df6ffd84a51b9df0fbeab321cb2197f610a048
+source-git-commit: bfa6cc84c3c8757146b70933b91b53337203eb5d
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
 
 # 使用Marketo Engage资源
 
-Marketo Engage设计工作室是Journey Optimizer B2B edition的默认资源源，您可以轻松管理和使用内容中用于帐户历程的可用资源。
+Marketo Engage设计工作室是Journey Optimizer B2B edition的默认资源源，您可以轻松管理和使用可用资源来设计支持您的帐户旅程的内容。
 
 在Marketo Engage中，营销组织使用工作区来组织其内容资源，并帮助团队访问正确的资源。 对于拥有大量产品组合，或在全球运营且不同地区有不同营销要求的大型企业，明确定义的工作区特别有用。
 
@@ -20,15 +20,16 @@ Marketo Engage设计工作室是Journey Optimizer B2B edition的默认资源源�
 
 默认情况下，有一个&#x200B;**_[!UICONTROL Journey Optimizer B2B edition]_**&#x200B;工作区可专门用于您的帐户历程内容。 您添加到此工作区的资源不可见或在Marketo Engage中可用。 对于位于此工作区中的资产，您可以在Journey Optimizer B2B edition中执行各种资产管理功能。 这些功能包括：
 
-* 替换
-* Delete
-* 移动
+* [替换](#replace-assets)
+* [Delete](#delete-assets)
+* [移动](#create-a-folder)
+* [使用Adobe Express编辑](./image-edit-adobe-express.md)
 
 驻留在Marketo Engage工作区中的Assets受限于在电子邮件、电子邮件模板和片段中使用的只读访问权限。 您可以将新资源添加到这些工作区并下载资源的副本。
 
 ## 浏览和访问资源
 
-要从Journey Optimizer B2B edition中访问Adobe Marketo Engage资源，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL Assets]**。 此操作会打开一个列表页面，其中列出了所有资产。
+要从Journey Optimizer B2B edition访问Adobe Marketo Engage资源，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL Assets]**。 此操作会打开一个列表页面，其中列出了所有资产。
 
 ![浏览Marketo Engage资源](assets/assets-list-page.png){width="800" zoomable="yes"}
 
@@ -66,7 +67,7 @@ Marketo Engage设计工作室是Journey Optimizer B2B edition的默认资源源�
 
 ## 添加资源
 
-从Assets列表页面，您可以将图像资产添加到Journey Optimizer B2B edition工作区或Marketo Engage工作区。
+从&#x200B;_Assets_&#x200B;列表页面，您可以将图像资源添加到Journey Optimizer B2B edition工作区或Marketo Engage工作区。
 
 1. 单击右上方的&#x200B;**[!UICONTROL 添加Assets]**。
 
@@ -126,7 +127,7 @@ Marketo Engage设计工作室是Journey Optimizer B2B edition的默认资源源�
 
 若要继续，请单击&#x200B;**[!UICONTROL 替换]**。 单击&#x200B;**[!UICONTROL 取消]**&#x200B;可中止该进程。
 
-如果要替换的文件当前正在使用中，则会显示一个信息对话框，提醒您新的图像文件会在所有使用位置（电子邮件、电子邮件模板和片段）替换图像。
+如果要替换的文件正在使用中，则会显示一个信息对话框，提醒您新的图像文件会在所有使用位置（电子邮件、电子邮件模板和片段）替换图像。
 
 ## 下载资产
 
@@ -154,7 +155,7 @@ Marketo Engage设计工作室是Journey Optimizer B2B edition的默认资源源�
 
 1. 选择文件夹。
 
-   _[!UICONTROL 所选资源旁边的路径更新将移动到：]_。
+   _[!UICONTROL 所选资源将移动到]_&#x200B;旁边的路径反映了此更改。
 
 1. 单击&#x200B;**[!UICONTROL 移动]**。
 
@@ -268,7 +269,7 @@ Marketo Engage设计工作室是Journey Optimizer B2B edition的默认资源源�
 
 通过可视内容编辑器，可在您团队的电子邮件、电子邮件模板或可视片段创作中使用Assets。
 
-从可视设计器UI中，选择左侧边栏上的&#x200B;_资源选择器_&#x200B;图标(![Assets选择](../assets/do-not-localize/icon-assets-design.svg))。
+从可视设计器UI中，选择左侧边栏上的&#x200B;_Marketo EngageAssets_&#x200B;图标(![Marketo EngageAssets图标](../../assets/do-not-localize/icon-assets-me.svg))。
 
 此操作更改工具面板，该面板显示选定工作区中可用资源的结构化列表。 选择要显示用于选择资源的工作区。
 
