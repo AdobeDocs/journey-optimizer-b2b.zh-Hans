@@ -1,7 +1,10 @@
 ---
 title: 帐户列表
 description: 了解帐户列表以及营销人员如何使用它们通过帐户历程定位帐户。
-source-git-commit: c44721af93275297a90c6f7c0c3683ade6847658
+exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
+hidefromtoc: true
+hide: true
+source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 0%
@@ -232,4 +235,3 @@ ht-degree: 0%
 1. 对于&#x200B;**[!UICONTROL 选择实时静态帐户列表]**，选择要从中删除帐户的帐户列表。
 
    ![选择“添加到帐户列表”](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
-
