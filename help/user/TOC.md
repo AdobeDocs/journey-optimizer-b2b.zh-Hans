@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文档
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition 以及如何使用它通过内置的生成式 AI 和行业领先的自动化来协调帐户和购买团体旅程。
-source-git-commit: bb2c790dbef3202b871e1362a1ca091666888368
+source-git-commit: 04656fde343ac613e98608ff6b68ddac38ec9a6d
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 37%
+source-wordcount: '221'
+ht-degree: 35%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 37%
    + [使用AI助手](./start/ai-assistant.md)
 + 帐户历程{#account-journeys}
    + [概述](./journeys/journey-overview.md)
+   + [历程详细信息](./journeys/journey-details.md)
    + [历程节点](./journeys/journey-nodes.md)
    + 历程节点{#journey-nodes}
       + [帐户受众](./journeys/account-audience-nodes.md)
@@ -45,9 +46,10 @@ ht-degree: 37%
       + [购买团体详细信息](./buying-groups/buying-group-details.md)
       + [创建购买组](./buying-groups/buying-groups-create.md)
       + [导出帐户列表](./audiences/account-list-export.md)
-      + [linkedIn帐户匹配的受众](./data/linkedin-account-matched-audiences.md)
+      + [LinkedIn帐户匹配的受众](./data/linkedin-account-matched-audiences.md)
       + [在Market Engage中购买群组过滤器](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + [帐户列表](./accounts/account-lists.md)
+   + [帐户详细信息](./accounts/account-details.md)
    + [XDM字段](./data/field-mapping.md)
 + 内容管理{#content-management}
    + 资源 {#assets}
@@ -70,10 +72,9 @@ ht-degree: 37%
    + [条件内容](./content/conditional-content.md)
 + 分析功能板{#dashboards}
    + [智能仪表板](./dashboards/intelligent-dashboard.md)
-   + [帐户详细信息](./accounts/account-details.md)
-   + [购买组概述](./dashboards/buying-groups-dashboard.md)
    + [参与概述](./dashboards/engagement-dashboard.md)
-   + [历程概述](./dashboards/journeys-dashboard.md)
+   + [购买组概述](./dashboards/buying-groups-dashboard.md)
+   + [帐户历程概述](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
    + [用户管理](./admin/user-management.md)
    + [目的数据](./admin/intent-data.md)

@@ -2,7 +2,8 @@
 title: 购买组详细信息
 description: 了解如何在Journey Optimizer B2B edition中访问有关购买群组的详细信息和创作AI摘要。
 feature: Buying Groups
-source-git-commit: 55c157483f7b5c5340bc3e0e2cfde29de45a5cc2
+exl-id: f14301dc-d605-4ed2-8867-6a49675019de
+source-git-commit: cfebf3d3a91733261417e338b3ce3c1b80495e5b
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 5%
@@ -11,7 +12,7 @@ ht-degree: 5%
 
 # 购买团体详细信息
 
-在Journey Optimizer B2B edition的任何位置单击购买组名称时，都会显示购买组详细信息。 此信息提供有关购买组的有用信息，包括创作AI摘要。
+在Journey Optimizer B2B edition的任何位置单击购买组名称时，都会显示购买组详细信息。 此概述提供了有关购买组的有用信息，包括创作AI摘要。
 
 ![访问购买团体详细信息](./assets/buying-group-details.png){width="800" zoomable="yes"}
 
