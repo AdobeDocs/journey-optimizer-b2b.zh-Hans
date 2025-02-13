@@ -2,9 +2,10 @@
 title: 拆分和合并路径
 description: 了解可用于在Journey Optimizer B2B edition中编排帐户旅程的拆分路径和合并路径节点类型。
 feature: Account Journeys
-source-git-commit: af6e89b25ca20e14ec9a4c2ed4c8d632ad7c12dc
+exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1519'
 ht-degree: 2%
 
 ---
@@ -12,6 +13,8 @@ ht-degree: 2%
 # 拆分和合并路径
 
 在帐户历程中使用拆分和合并路径节点来编排帐户历程。 您可以根据定义的条件细分受众，然后组合这些区段以继续。
+
+![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看概述视频](#overview-video)
 
 ## 拆分路径
 
@@ -54,7 +57,7 @@ _按人员划分的路径如何工作？_
 | | [!UICONTROL 活动历史记录] > [!UICONTROL 数据值已更改] | 对于选定的人员属性，发生值更改。 这些更改类型包括： <li>新值</li><li>上一个值</li><li>原因</li><li>来源</li><li>活动日期</li><li>最低 次数</li> |
 | | [!UICONTROL 活动历史记录] > [!UICONTROL 快乐时光] | 在关联的Marketo Engage实例中定义的有趣时刻活动。 限制包括： <li>里程碑</li><li>电子邮件</li><li>Web</li> |
 | | [!UICONTROL 特殊筛选器] > [!UICONTROL 购买团体成员] | 人员是否属于根据以下一个或多个标准评估的购买组成员： <li>解决方案兴趣</li><li>购买组状态</li><li>完整性分数</li><li>参与度分数</li><li>角色</li> |
-| | [!UICONTROL 特殊筛选器] > [!UICONTROL 列表成员] | 此人是否是一个或多个Marketo Engage列表的成员。 |
+| | [!UICONTROL 特殊筛选器] > [!UICONTROL 列表成员] | 此人是否为一个或多个Marketo Engage列表的成员。 |
 | [人员](#add-a-split-path-by-people-node) >仅[!UICONTROL 帐户 — 人员属性] | 帐户属性中的角色 | 人员是否在帐户中被分配了角色。 可选约束： <li>输入角色名称</li> |
 
 ### 按帐户节点添加拆分路径
@@ -146,7 +149,7 @@ _按人员划分的路径如何工作？_
 
 >[!BEGINSHADEBOX “Marketo Engage列表成员资格”]
 
-在Marketo Engage中，_智能营销活动_&#x200B;检查计划成员身份，确保潜在客户不会收到重复的电子邮件，并且不会同时成为多个电子邮件流的成员。 在Journey Optimizer B2B中，您可以检查Marketo Engage列表成员资格，以此作为按人员划分拆分路径的条件，以帮助消除旅程活动中的重复。
+在Marketo Engage中，_Smart Campaigns_&#x200B;检查项目成员资格，以确保潜在客户不会收到重复的电子邮件，并且不会同时成为多个电子邮件流的成员。 在Journey Optimizer B2B中，您可以检查Marketo Engage列表成员资格，以此作为按人员划分拆分路径的条件，以帮助消除旅程活动中的重复。
 
 为此，请展开&#x200B;**[!UICONTROL 特殊筛选器]**，并将&#x200B;**[!UICONTROL Member of List]**&#x200B;条件拖入筛选器空间，并完成筛选器定义以评估一个或多个Marketo Engage列表中的成员资格。
 
@@ -185,3 +188,7 @@ _按人员划分的路径如何工作？_
    此时，将合并路径，以便选定路径中的帐户合并为可以继续完成历程的单个路径。
 
 1. 如果需要，您可以通过导航回合并路径节点属性并清除要删除的任何路径的复选框来取消合并路径。
+
+## 概述视频
+
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

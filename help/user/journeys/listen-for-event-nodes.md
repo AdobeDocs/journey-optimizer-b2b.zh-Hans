@@ -2,9 +2,10 @@
 title: 侦听事件
 description: 了解侦听事件节点类型，可用于在Journey Optimizer B2B edition中编排帐户历程。
 feature: Account Journeys
-source-git-commit: a1247b0cdab586f2bca1c0e495d5db2069d2645b
+exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1368'
 ht-degree: 3%
 
 ---
@@ -12,6 +13,8 @@ ht-degree: 3%
 # 侦听事件
 
 添加&#x200B;_侦听事件_&#x200B;节点，以便在事件发生时将受众前进到帐户历程中的下一步。
+
+![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看概述视频](#overview-video)
 
 >[!NOTE]
 >
@@ -62,7 +65,7 @@ ht-degree: 3%
 | | 已从购买组中移除 | 解决方案兴趣<br/>活动日期（可选）<br/>超时（可选） |
 | | 分数已更改 | 得分名称<br/><br/>其他约束（可选）：<li>更改</li><li>新得分</li><li>紧急</li><li>优先级</li><li>相对分数</li><li>相对紧迫性</li><li>活动日期</li><li>最低 次数</li><br/>超时（可选） |
 | | 短信退回 | SMS消息<br/><br/>其他约束（可选）： <li>活动日期</li><li>最小次数</li><br/>超时（可选） |
-| Marketo Engage | 访问网页 | 网页<br/>选择要匹配的一个或多个Marketo Engage页。 <br/><br/>其他约束（可选）： <li>查询字符串</li><li>客户端IP地址</li><li>反向链接</li><li>用户代理</li><li>搜索引擎</li><li>搜索查询</li><li>令牌</li><li>浏览器</li><li>平台</li><li>设备</li><li>活动日期</li> |
+| Marketo Engage | 访问网页 | 网页<br/>选择一个或多个Marketo Engage页面进行匹配。 <br/><br/>其他约束（可选）： <li>查询字符串</li><li>客户端IP地址</li><li>反向链接</li><li>用户代理</li><li>搜索引擎</li><li>搜索查询</li><li>令牌</li><li>浏览器</li><li>平台</li><li>设备</li><li>活动日期</li> |
 | | 填写表单 | 表单<br/>选择要匹配的一个或多个Marketo Engage表单。  <br/><br/>其他约束（可选）： <li>活动日期</li><li>查询字符串</li><li>客户端IP地址</li><li>反向链接</li><li>用户代理</li><li>平台</li><li>设备</li><br/>超时（可选） |
 | Adobe Experience Platform | 事件定义 | 事件类型<br/><br/>其他约束（可选）： <li>字段</li> <br/>其他约束（不支持）： <li>活动日期</li><li>最低 次数</li><br/>超时（可选） |
 
@@ -80,9 +83,9 @@ ht-degree: 3%
 
 1. 单击&#x200B;**[!UICONTROL 编辑事件]**&#x200B;并定义该事件的详细信息。
 
-### 侦听Marketo Engage事件
+### 收听Marketo Engage活动
 
-如果您在连接的Marketo Engage实例中创建了网页，则可以根据访问/未访问Marketo Engage网页以及未填写的Marketo Engage表单来触发事件。
+如果您在连接的Marketo Engage实例中创建了网页，则可以根据访问/未访问Marketo Engage网页以及未填写的Marketo Engage表单触发事件。
 
 1. 在历程编辑器中选择&#x200B;**[!UICONTROL 侦听事件]**&#x200B;节点。
 
@@ -99,7 +102,7 @@ ht-degree: 3%
 
 1. 单击&#x200B;**[!UICONTROL 编辑事件]**&#x200B;并定义一个或多个要匹配的网页以及该事件的任何其他约束。
 
-   * （必需）在&#x200B;_[!UICONTROL 编辑事件]_&#x200B;对话框中，定义&#x200B;**[!UICONTROL 网页]**&#x200B;或填写表单约束。 使用&#x200B;**[!UICONTROL 是]**（默认值）匹配一个或多个选定的页面或表单。 使用&#x200B;**[!UICONTROL 不是]**&#x200B;在所有页面访问/表单上匹配，排除一个或多个选定的页面/表单。 或者，使用&#x200B;**[!UICONTROL 是任何]**&#x200B;以匹配任何Marketo Engage网页访问或填写的表单。
+   * （必需）在&#x200B;_[!UICONTROL 编辑事件]_&#x200B;对话框中，定义&#x200B;**[!UICONTROL 网页]**&#x200B;或填写表单约束。 使用&#x200B;**[!UICONTROL 是]**（默认值）匹配一个或多个选定的页面或表单。 使用&#x200B;**[!UICONTROL 不是]**&#x200B;在所有页面访问/表单上匹配，排除一个或多个选定的页面/表单。 或者，在任何Marketo Engage网页访问或填写的表单中，使用&#x200B;**[!UICONTROL 为任何]**&#x200B;进行匹配。
 
    * （可选）单击&#x200B;**[!UICONTROL 添加约束]**，然后选择要用于约束的字段。 设置字段的运算符和值。
 
@@ -175,5 +178,6 @@ _要在您的历程中包含体验事件，请执行以下操作：_
 
    ![历程事件节点 — 设置超时路径](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
+## 概述视频
 
-
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)
