@@ -4,9 +4,9 @@ description: 了解如何将团队成员分配给Journey Optimizer B2B edition�
 feature: Setup
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
+source-git-commit: d5197e740a17de507bf72b4d7b64deb5af672346
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1351'
 ht-degree: 1%
 
 ---
@@ -15,24 +15,24 @@ ht-degree: 1%
 
 完成配置并绑定沙盒后，请完成以下步骤以为您的团队和用户提供对Adobe Journey Optimizer B2B edition的访问权限。
 
-1. [在Admin Console中创建Marketo Engage产品配置文件](#marketo-engage-profile)(仅新Marketo Engage实例)。
+1. [在Admin Console中创建Marketo Engage产品配置文件](#marketo-engage-profile)(仅限新的Marketo Engage实例)。
 1. 在Admin Console中[创建用户组](#create-user-group)。
 1. [编辑内置角色](#edit-roles)或[创建具有Journey Optimizer B2B edition权限的自定义角色](#create-a-custom-role)。
 1. [将用户](#add-users)或[组](#add-user-groups-to-a-role)添加到角色。
 
-作为管理员，您可以在Adobe Admin Console中完成这些任务，该网站是管理Adobe产品许可证和用户的中心位置。 在Admin Console中，您可以在单个位置而不是在各种单独的解决方案中创建和管理用户。 请参阅[Admin Console概述](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)页面，了解有关其功能和功能的更多信息。
+作为管理员，您可以在Adobe Admin Console中完成这些任务，这是管理您的Adobe产品许可证和用户的中心位置。 在Admin Console中，您可以在单个位置而不是在各种单独的解决方案中创建和管理用户。 请参阅[Admin Console概述](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)页面，了解有关其功能和功能的更多信息。
 
 ## 访问Admin Console
 
-在使用Admin Console管理团队中的用户之前，您需要确保可以访问该Admin Console并具有适当的权限。
+在使用Admin Console管理团队中的用户之前，您需要确保可以访问Admin Console并具有适当的权限。
 
-1. 作为系统管理员，您应在载入流程中从Adobe收到多封电子邮件。
+1. 作为系统管理员，您应在载入流程中收到来自Adobe的多封电子邮件。
 
    查找欢迎电子邮件，其中提供了有关您被授予访问权限的组织名称的信息。
 
-1. 单击欢迎电子邮件中的&#x200B;**[!UICONTROL 开始使用]**&#x200B;链接以导航到该Admin Console。
+1. 单击欢迎电子邮件中的&#x200B;**[!UICONTROL 开始使用]**&#x200B;链接以导航到Admin Console。
 
-   如果找不到电子邮件，请直接打开浏览器，打开[https://adminconsole.adobe.com](https://adminconsole.adobe.com)上的Admin Console。
+   如果找不到电子邮件，请直接打开浏览器访问Admin Console，网址为[https://adminconsole.adobe.com](https://adminconsole.adobe.com)。
 
 1. 使用您的Adobe ID登录。
 
@@ -66,9 +66,7 @@ For more information about managing these permissions within Marketo Engage, see
 
 >[!ENDSHADEBOX]-->
 
->[!NOTE]
->
->Admin Console系统管理员或Marketo Engage产品管理员可以执行这些步骤。
+![管理员角色要求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系统管理员或Marketo Engage产品管理员可以执行以下步骤。
 
 1. 登录到[https://adminconsole.adobe.com](https://adminconsole.adobe.com)。
 
@@ -76,7 +74,7 @@ For more information about managing these permissions within Marketo Engage, see
 
 1. 打开要添加配置文件的Marketo Engage实例，然后单击&#x200B;**[!UICONTROL 新建配置文件]**。
 
-   ![Admin Console-Marketo Engage实例 — 新配置文件](./assets/admin-console-marketo-engage-instance-new-profile.png){width="700" zoomable="yes"}
+   ![Admin Console - Marketo Engage实例 — 新配置文件](./assets/admin-console-marketo-engage-instance-new-profile.png){width="700" zoomable="yes"}
 
 1. 输入产品配置文件名称，如&#x200B;_标准用户_。
 
@@ -86,11 +84,9 @@ For more information about managing these permissions within Marketo Engage, see
 
 用户组是指一组被授予共享权限的用户。 您可以在用户组中添加或删除用户。 当组内的用户发生更改时，组权限保持不变。
 
-有关如何使用用户组管理权限的详细信息，请参阅Admin Console文档中的[管理用户组](https://helpx.adobe.com/cn/enterprise/using/user-groups.html){target="_blank"}。
+有关如何使用用户组管理权限的更多信息，请参阅Admin Console文档中的[管理用户组](https://helpx.adobe.com/cn/enterprise/using/user-groups.html){target="_blank"}。
 
->[!NOTE]
->
->Admin Console系统管理员可以执行这些步骤。
+![管理员角色要求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系统管理员可以执行以下步骤。
 
 1. 登录到[https://adminconsole.adobe.com](https://adminconsole.adobe.com)。
 
@@ -119,11 +115,9 @@ For more information about managing these permissions within Marketo Engage, see
 
 ## 将用户添加到组
 
->[!NOTE]
->
->Admin Console系统管理员可以执行这些步骤。
-
 有关用户管理的信息，请参阅Admin Console文档中的[Admin Console用户](https://helpx.adobe.com/cn/enterprise/using/user-groups.html)。
+
+![管理员角色要求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系统管理员或产品管理员可以执行以下步骤。 产品管理员只能添加其组织中已存在的用户。
 
 1. 转到[https://adminconsole.adobe.com](https://adminconsole.adobe.com)。
 
@@ -149,7 +143,7 @@ For more information about managing these permissions within Marketo Engage, see
 
 在Adobe Experience Platform的&#x200B;_权限_&#x200B;区域，管理员可以定义用户角色和访问策略，以管理产品应用程序内功能和对象的访问权限。 在此应用程序中，您可以创建和管理角色，并为这些角色分配所需的资源权限。 权限还允许您管理与特定角色关联的沙盒和用户。
 
-有关Experience Platform中角色权限的详细信息，请参阅Experience Platform文档中的[管理角色的权限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
+有关Experience Platform中角色权限的更多信息，请参阅Experience Platform文档中的[管理角色的权限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
 <!-- 
 ### B2B product permissions
 
@@ -224,9 +218,7 @@ _To change the permissions for a role:_
 
 ### 将用户添加到角色
 
->[!NOTE]
->
->Admin Console系统管理员可以执行这些步骤。
+![管理员角色要求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系统管理员或AEP产品管理员可以执行以下步骤。
 
 1. 打开角色详细信息并选择&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡。
 
@@ -248,11 +240,9 @@ _To change the permissions for a role:_
 
 ### 将用户组添加到角色
 
->[!NOTE]
->
->Admin Console系统管理员可以执行这些步骤。
-
 有关用户管理的信息，请参阅Admin Console文档中的[Admin Console用户](https://helpx.adobe.com/cn/enterprise/using/user-groups.html)。
+
+![管理员角色要求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系统管理员或AEP产品管理员可以执行以下步骤。
 
 1. 打开角色详细信息并选择&#x200B;**[!UICONTROL 用户组]**&#x200B;选项卡。
 
@@ -268,15 +258,13 @@ _To change the permissions for a role:_
 
    * 选中每个用户组的复选框。
 
-   ![Experience Platform — 添加组对话框](./assets/aep-permissions-role-add-groups-dialog.png){width="600" zoomable="yes"}
+   ![Experience Platform — 添加群组对话框](./assets/aep-permissions-role-add-groups-dialog.png){width="600" zoomable="yes"}
 
 1. 选择您要添加的所有用户后，单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 创建自定义角色
 
->[!NOTE]
->
->Admin Console系统管理员可以执行这些步骤。
+![管理员角色要求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系统管理员或AEP产品管理员可以执行以下步骤。
 
 1. 在左侧导航中选择&#x200B;**[!UICONTROL 角色]**，然后选择&#x200B;**[!UICONTROL 创建角色]**。
 
