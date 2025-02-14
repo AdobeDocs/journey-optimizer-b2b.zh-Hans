@@ -5,10 +5,11 @@ feature: Content
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
-source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
+exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
+source-git-commit: 41041ad94cea758cf11f1255e0de5e49153d992e
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 9%
+ht-degree: 18%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_structure"
 >title="将结构组件添加到登陆页面"
->abstract="结构组件定义登陆页面的版面。将&#x200B;**Structure**&#x200B;组件拖放到画布中，以开始设计页面的内容。"
+>abstract="结构组件定义登陆页面的版面。将&#x200B;**结构**&#x200B;组件拖放到画布中，开始设计您的页面内容。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_content_components"
@@ -71,4 +72,4 @@ ht-degree: 9%
 * **[!UICONTROL 重置登陆页面]** — 单击此选项可将可视设计器画布清除为空白并重新启动页面内容生成操作。
 * **[!UICONTROL 更改您的设计]** — 返回到&#x200B;_[!UICONTROL 创建您的主登陆页面]_&#x200B;主页。 从该位置，您可以选择另一个模板来重新启动设计过程，或者选择在空白画布中从头开始设计页面。
 <!--- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
-* **[!UICONTROL 导出HTML]** — 将可视画布中的内容以HTML格式下载到本地系统，并打包为zip文件。
+* **[!UICONTROL 导出HTML]** — 将可视画布中的内容以HTML格式下载到您的本地系统，并打包为zip文件。
