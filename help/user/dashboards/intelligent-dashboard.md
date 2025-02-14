@@ -3,10 +3,10 @@ title: 智能仪表板
 description: 了解智能仪表板，它提供了有关购买群组和帐户指标的全面视图
 feature: Dashboards, Buying Groups
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 74561c07ea8cc3a717f1e0f25a3c4326cb14ee36
+source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 15%
+source-wordcount: '1568'
+ht-degree: 14%
 
 ---
 
@@ -30,13 +30,17 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="购买群组阶段"
->abstract="此图表概述了基于配置的过渡规则跨不同阶段购买组的进展。 第一个条形图表示在所选时间范围的第一个日期处于特定阶段的购买群组数量，与所选时间范围的最后一个日期的购买群组数量进行比较。"
+>abstract="此图概述了根据所配置的过渡规则，购买群组在不同阶段的进展情况。第一条　指示在选定时间范围的第一日期与选定时间范围的最后日期相比的特定阶段中的购买组数量。"
 
 _[!UICONTROL 购买组阶段]_&#x200B;图表提供了跨不同阶段的购买组进展的概览（[基于管理员设置的过渡规则](../buying-groups/buying-group-stages.md)）。
 
+>[!NOTE]
+>
+>购买组阶段的可用性需要配置购买组阶段。 请参阅[购买组阶段](../buying-groups/buying-group-stages.md)，了解有关阶段以及如何为购买组定义和启用阶段的详细信息。
+
 ![购买组阶段数据可视化图表](./assets/intelligent-dashboards-buying-group-stages.png){width="800" zoomable="yes"}
 
-该图表使用最新发布的购买群体阶段模型中的购买群体阶段。 每个舞台都由两个条形反射出来。 第一个栏指示在选定时间范围的第一个日期购买群组的数量。 第二个（比较）是时间范围的最后日期购买群的数量。 您可以将鼠标悬停在每个栏上以查看每个阶段的购买组数量。
+该图表使用最新发布的购买群体阶段模型中的购买群体阶段。 每个舞台有两个横条。 第一个栏指示在选定时间范围的第一个日期购买群组的数量。 第二个（比较）是时间范围的最后日期购买群的数量。 您可以将鼠标悬停在每个栏上以查看每个阶段的购买组数量。
 
 ![将鼠标悬停在栏上以查看详细数字](./assets/intelligent-dashboard-buying-group-stages-hover-bar.png){width="400"}
 
@@ -50,7 +54,7 @@ _[!UICONTROL 购买组阶段]_&#x200B;图表提供了跨不同阶段的购买组
 
 ### 时间段 {#time-period-stages}
 
-使用右上角的日期过滤器可更改数据可视化的日期范围。 单击向下箭头可设置相对日期范围，或设置自定义开始和结束日期。
+使用右上角的日期过滤器可更改数据可视化的日期范围。 单击向下箭头可设置相对日期范围，或设置自定义开始日期和结束日期。
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
@@ -64,7 +68,7 @@ _[!UICONTROL 购买组阶段]_&#x200B;图表提供了跨不同阶段的购买组
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
 
-## 购买团体亮点 {#buying-group-highlights}
+## 购买群组亮点 {#buying-group-highlights}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_engagement"
@@ -104,6 +108,8 @@ _[!UICONTROL 购买群组亮点]_&#x200B;分区分为三行，以显示有关您
    * 每行的数据按列组织：产品名称、产品意图强度和按意图强度排列的关键字。
    * 类别、产品和关键字的排序顺序从高到低。 如果每种类型中的一种或多种具有相同的目的强度，则排序使用字母顺序。
 
+  {{intent-data-note}}
+
 在&#x200B;_购买群组摘要_&#x200B;面板的右上角，单击&#x200B;**[!UICONTROL 查看全部]**&#x200B;以导航到“购买群组”列表页面。
 
 ### 属性过滤器 {#attribute-filter-bg-highlights}
@@ -118,7 +124,7 @@ _[!UICONTROL 购买群组亮点]_&#x200B;分区分为三行，以显示有关您
 
 ### 时间段 {#time-period-bg-highlights}
 
-使用右上角的日期过滤器可更改数据可视化的日期范围。 单击向下箭头可设置相对日期范围，或设置自定义开始和结束日期。
+使用右上角的日期过滤器可更改数据可视化的日期范围。 单击向下箭头可设置相对日期范围，或设置自定义开始日期和结束日期。
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
@@ -130,6 +136,10 @@ _[!UICONTROL 购买群组亮点]_&#x200B;分区分为三行，以显示有关您
 >abstract="在选定的时间范围内，参与度势头发生显著变化的账户。"
 
 “_[!UICONTROL 激增的帐户]_”部分显示了在所选时间范围内参与量发生显着变化的帐户的可视化图表。
+
+>[!NOTE]
+>
+>帐户激增数据仅限于Journey Optimizer B2B edition通过帐户历程或购买团体摄取的帐户受众中的帐户。
 
 ![帐户激增数据可视化图表](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -153,7 +163,7 @@ _[!UICONTROL 购买群组亮点]_&#x200B;分区分为三行，以显示有关您
 
 ### 时间段 {#time-period-acct-surge}
 
-使用右上角的日期过滤器可更改数据可视化的日期范围。 单击向下箭头可设置相对日期范围，或设置自定义开始和结束日期。
+使用右上角的日期过滤器可更改数据可视化的日期范围。 单击向下箭头可设置相对日期范围，或设置自定义开始日期和结束日期。
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
@@ -171,6 +181,10 @@ _[!UICONTROL 购买群组亮点]_&#x200B;分区分为三行，以显示有关您
 
 _[!UICONTROL 购买群组要点]_&#x200B;部分分为两行，以显示有关您组织感兴趣的帐户的信息。
 
+>[!NOTE]
+>
+>帐户高亮数据仅限于Journey Optimizer B2B edition通过帐户历程或购买群组在帐户受众中摄取的帐户。
+
 ![帐户亮点](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
 * **正在激增的帐户** — 此行显示了在所选时间范围内参与量显着增加的帐户。
@@ -187,6 +201,8 @@ _[!UICONTROL 购买群组要点]_&#x200B;部分分为两行，以显示有关您
    * 详细信息弹出窗口显示类别名称，意图级别位于顶部。
    * 每行的数据按列组织：产品名称、产品意图强度和按意图强度排列的关键字。
    * 类别、产品和关键字的排序顺序从高到低。 如果每种类型中的一种或多种具有相同的目的强度，则排序使用字母顺序。
+
+  {{intent-data-note}}
 <!-- 
 At the top right of the _Buying group highlights_ panel, click **[!UICONTROL View All]** to navigate to the Buying groups list page. -->
 
@@ -201,7 +217,7 @@ At the top right of the _Buying group highlights_ panel, click **[!UICONTROL Vie
 
 ### 时间段 {#time-period-acct-highlights}
 
-使用右上角的日期过滤器可更改数据可视化的日期范围。 单击向下箭头可设置相对日期范围，或设置自定义开始和结束日期。
+使用右上角的日期过滤器可更改数据可视化的日期范围。 单击向下箭头可设置相对日期范围，或设置自定义开始日期和结束日期。
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
@@ -213,6 +229,10 @@ At the top right of the _Buying group highlights_ panel, click **[!UICONTROL Vie
 >abstract="显示与解决方案兴趣相关的具有特定角色的联系人数量。角色和解决方案兴趣的分配基于购买组模板。"
 
 _[!UICONTROL 联系人覆盖范围]_&#x200B;部分显示与解决方案兴趣相关的特定角色的联系人数量的可视化图表。 角色和解决方案兴趣的分配基于购买组模板。
+
+>[!NOTE]
+>
+>联系范围数据基于在Journey Optimizer B2B edition实例中创建的购买群组。
 
 ![帐户激增数据可视化图表](./assets/intelligent-dashboard-contact-coverage.png){width="800" zoomable="yes"}
 
@@ -238,9 +258,13 @@ _[!UICONTROL 联系人覆盖范围]_&#x200B;部分显示与解决方案兴趣相
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_contact_overlap"
 >title="联系重叠"
->abstract="由于与多个解决方案利益关联而属于多个购买组的联系人列表。"
+>abstract="由于与多个解决方案兴趣相关联而隶属于多个购买群组的联系人列表。"
 
 _[!UICONTROL 联系人重叠]_&#x200B;部分显示联系人列表，这些联系人由于与多个解决方案兴趣关联而属于多个购买组。
+
+>[!NOTE]
+>
+>联系人重叠数据基于在Journey Optimizer B2B edition实例中创建的购买组。
 
 ![联系人重叠表](./assets/intelligent-dashboard-contact-overlap.png){width="800" zoomable="yes"}
 

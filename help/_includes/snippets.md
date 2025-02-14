@@ -1,9 +1,9 @@
 ---
 title: 片段
 description: 重用注释和可视化元素来注释应用于特定版本的功能或页面
-source-git-commit: 8892aff0501a157006506663ef304be5ccc9695c
+source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,14 @@ ht-degree: 0%
 ## 目的数据配置 {#intent-data-note}
 
 >[!NOTE]
->为您的Journey Optimizer B2B edition实例配置意图数据后，该数据也可包含在页面中。 有关意图检测模型以及如何提交关键字的详细信息，请参阅[意图数据](../user/admin/intent-data.md)。
 >
+>为您的Journey Optimizer B2B edition实例配置意图数据后，该数据将包含在页面中。 有关意图检测模型以及如何提交关键字、产品和类别的详细信息，请参阅[意图数据](../user/admin/intent-data.md)。
 
 ## AEM assets许可说明 {#aem-assets-licensing-note}
 
 >[!NOTE]
 >
->AEM Assetsas a Cloud Service许可证和Dynamic Media许可证是进行集成的先决条件。 您应确保启用了[Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。<br/>
+>AEM Assets as a Cloud Service的许可证和Dynamic Media许可证是进行集成的先决条件。 您应确保启用了[Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。<br/>
 >根据您的合同和配置，在设计可视化内容时，可以直接从Adobe Experience Manager Assets B2B edition访问Adobe Journey Optimizer as a Cloud Service 。
 
 ## 内容创作 — 组件 — 结构步骤 {#structures-step}
