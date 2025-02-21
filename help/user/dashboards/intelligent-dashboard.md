@@ -6,7 +6,7 @@ exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
 source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
 source-wordcount: '1568'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="购买群组阶段"
->abstract="此图概述了根据所配置的过渡规则，购买群组在不同阶段的进展情况。第一条　指示在选定时间范围的第一日期与选定时间范围的最后日期相比的特定阶段中的购买组数量。"
+>abstract="此图概述了根据所配置的过渡规则，购买群组在不同阶段的进展情况。第一条柱状图显示了所选时间范围内第一天与最后一天相比，特定阶段购买群体的数量变化。"
 
 _[!UICONTROL 购买组阶段]_&#x200B;图表提供了跨不同阶段的购买组进展的概览（[基于管理员设置的过渡规则](../buying-groups/buying-group-stages.md)）。
 
