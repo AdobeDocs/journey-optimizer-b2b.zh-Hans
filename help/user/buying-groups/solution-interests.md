@@ -3,7 +3,7 @@ title: 解决方案兴趣
 description: 了解解决方案兴趣以及如何定义这些兴趣以在您的购买群中使用。
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
+source-git-commit: c84b3e0b05581a630993077688b1dd3a3a95fcc5
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 0%
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 1. 如果需要，请更改&#x200B;**[!UICONTROL 更新现有购买组]**&#x200B;设置。
 
-   启用此选项后，与解决方案相关的所有现有购买组都将通过24小时同步周期进行更新。
+   启用此选项后，与解决方案相关的所有现有购买组都将通过7天同步周期进行更新。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
