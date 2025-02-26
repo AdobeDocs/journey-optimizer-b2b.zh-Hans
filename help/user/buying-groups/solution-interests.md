@@ -3,7 +3,7 @@ title: 解决方案兴趣
 description: 了解解决方案兴趣以及如何定义这些兴趣以在您的购买群中使用。
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 5b2f80bd41a068c1c568e47cdefe4d9f83427c13
+source-git-commit: d9cd89db1814cf606cbc57b0d7ae4d5309b5c7dc
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    ![解决方案兴趣选项卡](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
-   选项卡提供了所有现有解决方案兴趣的清单列表。 它以列格式提供以下信息：_[!UICONTROL 名称]_、_[!UICONTROL 角色模板]_、_[!UICONTROL 购买组创建作业]_、_[!UICONTROL 上次更新日期]_、_[!UICONTROL 更新者]_、_[!UICONTROL 创建日期]_&#x200B;和&#x200B;_[!UICONTROL 创建者]_
+   选项卡提供了所有现有解决方案兴趣的清单列表。 它以列格式显示以下信息：_[!UICONTROL 名称]_、_[!UICONTROL 角色模板]_、_[!UICONTROL 购买组创建作业]_、_[!UICONTROL 上次更新日期]_、_[!UICONTROL 更新者]_、_[!UICONTROL 创建日期]_&#x200B;和&#x200B;_[!UICONTROL 创建者]_
 
    默认情况下，该列表按&#x200B;_[!UICONTROL Last updated on]_&#x200B;列排序。 单击标题中的列标题可在降序和升序之间切换排序。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. 启用&#x200B;**[!UICONTROL 更新现有购买组]**&#x200B;设置（可选）。
 
-   启用此选项后，与解决方案相关的所有现有购买组都将通过24小时同步周期进行更新。
+   启用此选项后，与解决方案相关的所有现有购买组都将通过7天同步周期进行更新。
 
 1. 单击右上角的&#x200B;**[!UICONTROL 创建]**。
 
