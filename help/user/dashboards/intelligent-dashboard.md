@@ -3,10 +3,10 @@ title: 智能仪表板
 description: 了解智能仪表板，它提供了有关购买群组和帐户指标的全面视图
 feature: Dashboards, Buying Groups
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
+source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 16%
+source-wordcount: '1688'
+ht-degree: 15%
 
 ---
 
@@ -24,6 +24,19 @@ ht-degree: 16%
 * 人员、购买组和帐户的目标检测
 
 {{intent-data-note}}
+
+要利用智能功能板提供的信息和见解，您的Journey Optimizer B2B edition实例必须配备以下所需项目：
+
+| 类型 | 要求 |
+| ---- | ----------- |
+| [购买团体阶段](#buying-group-stages) | 设置购买组阶段&#x200B;**和**&#x200B;添加到已创建的购买组。 |
+| [购买团体焦点](#buying-group-highlights) | 设置购买组阶段&#x200B;**和**&#x200B;添加到已创建的购买组。 |
+| [帐户激增](#surging-accounts) | 一个或多个已发布的历程&#x200B;**或**&#x200B;创建了购买群组。 |
+| [帐户亮点](#account-highlights) | 一个或多个已发布的历程&#x200B;**或**&#x200B;创建了购买群组。 |
+| [联系人覆盖范围](#contact-coverage) | 已创建一个或多个购买组（不需要阶段）。 |
+| [联系人重叠](#contact-overlap) | 已创建一个或多个购买组（不需要阶段）。 |
+| [帐户详细信息页面](../accounts/account-details.md) | 一个或多个已发布的历程。 |
+| [购买群组详细信息页面](../buying-groups/buying-group-details.md) | 已创建一个或多个购买组（不需要阶段）。 |
 
 ## 购买群组阶段 {#buying-group-stages}
 
@@ -179,7 +192,7 @@ _[!UICONTROL 购买群组亮点]_&#x200B;分区分为三行，以显示有关您
 >title="有风险的账户"
 >abstract="在选定的时间范围内，参与度势头显著下降的帐户。"
 
-_[!UICONTROL 购买群组要点]_&#x200B;部分分为两行，以显示有关您组织感兴趣的帐户的信息。
+_[!UICONTROL 帐户高亮显示]_&#x200B;部分被组织为两行，以显示有关您组织感兴趣的帐户的信息。
 
 >[!NOTE]
 >
