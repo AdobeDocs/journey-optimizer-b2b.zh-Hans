@@ -2,9 +2,10 @@
 title: 配置Experience Platform事件
 description: 了解可用于在Journey Optimizer B2B edition中编排帐户旅程的等待节点类型。
 feature: Setup
-source-git-commit: e6f9be8ad43dfe4f314cb0462bc548a0957f5f0f
+exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
+source-git-commit: 95b57124806c4dac46e5deeb9d8310ddcc1b3c93
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1761'
 ht-degree: 0%
 
 ---
@@ -39,11 +40,13 @@ ht-degree: 0%
 
 * Journey Optimizer B2B edition支持最多50个事件定义。
 
+* 帐户历程可以侦听使用AEP流功能(如Web SDK或HTTP API)引入的AEP Experience事件。
+
 * 只有一个AEP事件定义可以使用组合架构和事件类型集。 当您使用架构（例如`My Schema`）和事件类型（例如`Web Webpagedetails Page Views`）创建事件定义时，任何其他事件定义都不能使用`My Schema`和`Web Webpagedetails Page Views`的组合。
 
 * 事件定义可以在多个帐户历程中使用。
 
-* AEP Experience事件可用于帐户历程中的决策目的，但不保留。 因此，在Journey Optimizer B2B edition中无法利用AEP Experience事件的历史记录。
+* AEP Experience Events可用于帐户历程中的决策目的，但不保留。 因此，在AEP B2B edition中无法利用Journey Optimizer Experience事件的历史记录。
 
 * 不支持活动&#x200B;_的_&#x200B;日期和&#x200B;_最小次数_&#x200B;的约束。
 
@@ -73,7 +76,7 @@ ht-degree: 0%
 | -------------------- | ----------- |
 | 草稿 | 创建事件定义时，该定义处于草稿状态。 在您发布它以用于帐户历程之前，它一直保持此状态。 可用操作： <br/><ul><li>编辑所有详细信息<li>发布<li>Delete |
 | 发布日期 | 发布事件定义时，它将在帐户历程中使用。 无法修改详细信息。 可用操作： <br/><ul><li>可用于&#x200B;_侦听事件_&#x200B;历程节点<li>创建草稿版本<li>删除（如果未使用） |
-| 已发布（含草稿） | 从已发布的事件定义创建草稿时，已发布的版本仍可用于帐户历程，并且可以修改草稿版本。 如果您发布草稿版本，它将替换当前已发布的版本，并且事件定义会针对尚未执行的帐户历程进行更新。 可用操作： <br/><ul><li>编辑所有详细信息<li>Publish草稿版本<li>放弃草稿版本<li>删除（如果未使用） |
+| 已发布（含草稿） | 从已发布的事件定义创建草稿时，已发布的版本仍可用于帐户历程，并且可以修改草稿版本。 如果您发布草稿版本，它将替换当前已发布的版本，并且事件定义会针对尚未执行的帐户历程进行更新。 可用操作： <br/><ul><li>编辑所有详细信息<li>发布草稿版本<li>放弃草稿版本<li>删除（如果未使用） |
 
 ![片段状态生命周期](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -135,7 +138,7 @@ ht-degree: 0%
 
    ![新的草稿事件定义已列在页面](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}上
 
-## Publish事件定义
+## 发布事件定义
 
 如果您对草稿事件定义完整且符合您的需求感到满意，则可以发布该定义以供帐户历程使用。 发布事件定义后，如果需要进行更改，可以创建草稿版本。 但是，您不能更改架构，并且只能添加事件类型和字段（不能删除它们）。
 
@@ -149,11 +152,11 @@ ht-degree: 0%
 
    如果需要，请在发布之前查看设置。 如果草稿](#edit-an-event-definition)不符合您的要求，您可以[对其进行编辑。
 
-1. 单击右上方的&#x200B;**[!UICONTROL Publish]**。
+1. 单击右上方的&#x200B;**[!UICONTROL 发布]**。
 
-1. 在确认对话框中，单击&#x200B;**[!UICONTROL Publish]**。
+1. 在确认对话框中，单击&#x200B;**[!UICONTROL 发布]**。
 
-   ![Publish事件对话框](./assets/configuration-events-publish-dialog.png){width="300"}
+   ![发布事件对话框](./assets/configuration-events-publish-dialog.png){width="300"}
 
    事件定义的状态更改为&#x200B;_已发布_，现在[可在帐户历程](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event)中使用。
 
@@ -189,9 +192,9 @@ ht-degree: 0%
 
    更改会自动保存在草稿中。
 
-1. 当事件定义符合您的条件并且您希望可用于帐户历程时，请单击&#x200B;**[!UICONTROL Publish]**。
+1. 当事件定义符合您的条件并且您希望可用于帐户历程时，请单击&#x200B;**[!UICONTROL 发布]**。
 
-1. 在确认对话框中，单击&#x200B;**[!UICONTROL Publish]**。
+1. 在确认对话框中，单击&#x200B;**[!UICONTROL 发布]**。
 
    事件定义的状态更改为&#x200B;_已发布_，现在可在帐户历程中使用。
 
@@ -221,11 +224,11 @@ ht-degree: 0%
 
    更改会自动保存在草稿中。
 
-1. 如果草稿事件定义符合您的条件，并且您希望替换当前发布的版本以用于帐户历程，请单击&#x200B;**[!UICONTROL Publish草稿]**。
+1. 如果草稿事件定义符合您的条件，并且您希望替换当前已发布的版本以便在帐户历程中使用，请单击&#x200B;**[!UICONTROL 发布草稿]**。
 
-1. 在确认对话框中，单击&#x200B;**[!UICONTROL Publish]**。
+1. 在确认对话框中，单击&#x200B;**[!UICONTROL 发布]**。
 
-   ![Publish草稿对话框](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![发布草稿对话框](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    发布草稿版本时，草稿版本会替换当前已发布的版本，并且会更新已使用但尚未执行的帐户历程的事件定义。
 
@@ -243,11 +246,11 @@ ht-degree: 0%
 
    更改会自动保存在草稿中。
 
-1. 如果草稿事件定义符合您的条件，并且您希望替换当前发布的版本以用于帐户历程，请单击&#x200B;**[!UICONTROL Publish草稿]**。
+1. 如果草稿事件定义符合您的条件，并且您希望替换当前已发布的版本以便在帐户历程中使用，请单击&#x200B;**[!UICONTROL 发布草稿]**。
 
-1. 在确认对话框中，单击&#x200B;**[!UICONTROL Publish]**。
+1. 在确认对话框中，单击&#x200B;**[!UICONTROL 发布]**。
 
-   ![Publish草稿对话框](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![发布草稿对话框](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    发布草稿版本时，草稿版本会替换当前已发布的版本，并且会更新已使用但尚未执行的帐户历程的事件定义。
 
