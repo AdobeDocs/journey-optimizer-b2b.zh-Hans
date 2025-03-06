@@ -3,10 +3,10 @@ title: 片段
 description: 了解如何在Adobe Journey Optimizer B2B edition中创建可视化内容片段，并将其用作电子邮件和电子邮件模板的可重用组件。
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: cd65d568c68f2f4ed85e1612a8f91d8343c9e2be
+source-git-commit: 7deb914dfb9d6979b4dc4a497ed2d15bbabd3011
 workflow-type: tm+mt
-source-wordcount: '2679'
-ht-degree: 3%
+source-wordcount: '2624'
+ht-degree: 1%
 
 ---
 
@@ -14,14 +14,18 @@ ht-degree: 3%
 
 片段是可重复使用的组件，可以在Adobe Journey Optimizer B2B edition中的一个或多个电子邮件和电子邮件模板中引用。 它通常是可以预先创建并快速插入到电子邮件或电子邮件模板中的内容块（文本、图像或两者）。 借助此功能，您可以预构建多个自定义内容块，以供营销团队成员用于汇编电子邮件内容，从而改进设计过程。 常见用例包括电子邮件的页眉/页脚内容块、事件邀请横幅和季节性问候。
 
+>[!BEGINSHADEBOX]
+
+**可视片段**
+
+可视化片段是使用可视内容设计器构建的预定义可视化块，您可以在多个电子邮件或电子邮件模板中重复使用它们。 Journey Optimizer B2B edition和本文档的当前范围仅为可视化片段。 Journey Optimizer B2B edition尚不支持基于表达式的片段。
+
+>[!ENDSHADEBOX]
+
 要在工作流中充分利用片段，请执行以下操作：
 
 * _创建您自己的片段_ — 从头开始创建可视化片段，或从可视化内容编辑器中将内容另存为片段。
 * _重用片段_ — 根据需要多次在内容中使用它们。
-
-## 可视化片段
-
-可视片段是使用可视内容编辑器构建的预定义可视块，您可以在多个电子邮件或电子邮件模板中重复使用该可视块。 Journey Optimizer B2B edition和本文档的当前范围仅为可视化片段。 Journey Optimizer B2B edition尚不支持基于表达式的片段。
 
 ## 访问和管理片段
 
@@ -39,9 +43,9 @@ ht-degree: 3%
 | -------------------- | ----------- |
 | 草稿 | 创建片段时，它处于草稿状态。 在您定义或编辑可视内容时，它保持此状态，直到您发布它以用于电子邮件或电子邮件模板为止。 可用操作： <br/><ul><li>编辑所有详细信息<li>在可视设计器中编辑<li>发布<li>复制<li>Delete |
 | 发布日期 | 发布片段后，该片段将可用于电子邮件或电子邮件模板。 在可视设计器中无法修改已发布的片段内容。 可用操作： <br/><ul><li>编辑描述<li>添加到电子邮件或模板<li>创建草稿版本<li>复制<li>删除（如果未使用） |
-| 以草稿发布 | 从已发布的片段创建草稿时，已发布的版本仍然可用于电子邮件或电子邮件模板，并且草稿内容可以在可视设计器中进行修改。 如果您发布草稿版本，它会替换当前已发布的版本，并且内容会在使用草稿的电子邮件和电子邮件模板中进行更新。 可用操作： <br/><ul><li>编辑描述<li>添加到电子邮件或模板<li>在可视设计器中编辑草稿版本<li>Publish草稿版本<li>复制<li>删除（如果未使用） |
+| 以草稿发布 | 从已发布的片段创建草稿时，已发布的版本仍然可用于电子邮件或电子邮件模板，并且草稿内容可以在可视设计器中进行修改。 如果您发布草稿版本，它会替换当前已发布的版本，并且内容会在使用草稿的电子邮件和电子邮件模板中进行更新。 可用操作： <br/><ul><li>编辑描述<li>添加到电子邮件或模板<li>在可视设计器中编辑草稿版本<li>发布草稿版本<li>复制<li>删除（如果未使用） |
 
-![片段状态生命周期](./assets/status-lifecycle-diagram.png){width="800" zoomable="yes"}
+![片段状态生命周期](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -85,45 +89,16 @@ ht-degree: 3%
 
 1. 使用内容设计工具创建可视化片段内容：
 
-   * [添加结构和内容](#add-structure-and-content)
-   * [添加Assets](#add-assets)
-   * [导航图层、设置和样式](#navigate-the-layers-settings-and-styles)
-   * [使内容个性化](#personalize-content)
-   * [编辑链接的URL跟踪](#edit-linked-url-tracking)
+   * [添加结构和内容](./fragment-authoring.md#add-structure-and-content)
+   * [添加Assets](./fragment-authoring.md#add-assets)
+   * [导航图层、设置和样式](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [使内容个性化](./fragment-authoring.md#personalize-content)
+   * [启用自定义字段](./fragment-authoring.md#enable-custom-fields)
+   * [编辑链接的URL跟踪](./fragment-authoring.md#edit-linked-url-tracking)
 
 1. 随时单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存草稿片段。
 
-1. 当您准备好在电子邮件或电子邮件模板中使用片段时，请单击&#x200B;**[!UICONTROL Publish]**。
-
-### 添加结构和内容 {#design-fragment}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="添加结构组件"
->abstract="结构组件定义片段的版面。拖放&#x200B;**结构**&#x200B;组件到画布中，开始设计您的片段内容。"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="关于内容组件"
->abstract="内容组件是空的内容占位符，您可用它来创建片段的版面。"
-
-{{$include /help/_includes/content-design-components.md}}
-
-### 添加资源
-
-{{$include /help/_includes/content-design-assets.md}}
-
-### 导航图层、设置和样式
-
-{{$include /help/_includes/content-design-navigation.md}}
-
-### 使内容个性化
-
-{{$include /help/_includes/content-design-personalization.md}}
-
-### 编辑链接的URL跟踪
-
-{{$include /help/_includes/content-design-links.md}}
+1. 准备好在电子邮件或电子邮件模板中使用片段时，单击&#x200B;**[!UICONTROL 发布]**。
 
 ## 查看片段详细信息
 
@@ -194,15 +169,16 @@ ht-degree: 3%
 
    根据需要使用可视设计器工具：
 
-   * [添加结构和内容](#add-structure-and-content)
-   * [添加Assets](#add-assets)
-   * [导航图层、设置和样式](#navigate-the-layers-settings-and-styles)
-   * [使内容个性化](#personalize-content)
-   * [编辑链接的URL跟踪](#edit-linked-url-tracking)
+   * [添加结构和内容](./fragment-authoring.md#add-structure-and-content)
+   * [添加Assets](./fragment-authoring.md#add-assets)
+   * [导航图层、设置和样式](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [使内容个性化](./fragment-authoring.md#personalize-content)
+   * [启用自定义字段](./fragment-authoring.md#enable-custom-fields)
+   * [编辑链接的URL跟踪](./fragment-authoring.md#edit-linked-url-tracking)
 
    单击&#x200B;**[!UICONTROL 保存]**，或单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回片段详细信息。
 
-1. 如果片段符合您的条件并且您想在电子邮件或电子邮件模板中使用它，请单击&#x200B;**[!UICONTROL Publish]**。
+1. 如果片段符合您的条件并且您想在电子邮件或电子邮件模板中使用它，请单击&#x200B;**[!UICONTROL 发布]**。
 
 >[!TAB 已发布]
 
@@ -222,15 +198,16 @@ ht-degree: 3%
 
    根据需要使用可视设计器工具：
 
-   * [添加结构和内容](#add-structure-and-content)
-   * [添加Assets](#add-assets)
-   * [导航图层、设置和样式](#navigate-the-layers-settings-and-styles)
-   * [使内容个性化](#personalize-content)
-   * [编辑链接的URL跟踪](#edit-linked-url-tracking)
+   * [添加结构和内容](./fragment-authoring.md#add-structure-and-content)
+   * [添加Assets](./fragment-authoring.md#add-assets)
+   * [导航图层、设置和样式](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [使内容个性化](./fragment-authoring.md#personalize-content)
+   * [启用自定义字段](./fragment-authoring.md#enable-custom-fields)
+   * [编辑链接的URL跟踪](./fragment-authoring.md#edit-linked-url-tracking)
 
    单击&#x200B;**[!UICONTROL 保存]**，或单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回片段详细信息。
 
-1. 当草稿片段符合您的条件并且您想要使更改可用于电子邮件或电子邮件模板时，请单击&#x200B;**[!UICONTROL Publish]**。
+1. 当草稿片段符合您的条件并且您想要使更改可用于电子邮件或电子邮件模板时，请单击&#x200B;**[!UICONTROL 发布]**。
 
    发布草稿版本时，草稿版本会替换当前已发布的版本，并且内容会在电子邮件和电子邮件模板中更新（该模板已在使用中）。
 
@@ -250,15 +227,16 @@ ht-degree: 3%
 
 1. 单击右上方的&#x200B;**[!UICONTROL 编辑片段]**。 根据需要使用可视设计器工具：
 
-   * [添加结构和内容](#add-structure-and-content)
-   * [添加Assets](#add-assets)
-   * [导航图层、设置和样式](#navigate-the-layers-settings-and-styles)
-   * [使内容个性化](#personalize-content)
-   * [编辑链接的URL跟踪](#edit-linked-url-tracking)
+   * [添加结构和内容](./fragment-authoring.md#add-structure-and-content)
+   * [添加Assets](./fragment-authoring.md#add-assets)
+   * [导航图层、设置和样式](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [使内容个性化](./fragment-authoring.md#personalize-content)
+   * [启用自定义字段](./fragment-authoring.md#enable-custom-fields)
+   * [编辑链接的URL跟踪](./fragment-authoring.md#edit-linked-url-tracking)
 
    单击&#x200B;**[!UICONTROL 保存]**，或单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回片段详细信息。
 
-1. 当草稿片段符合您的条件并且您想要使更改可用于电子邮件或电子邮件模板时，请单击&#x200B;**[!UICONTROL Publish]**。
+1. 当草稿片段符合您的条件并且您想要使更改可用于电子邮件或电子邮件模板时，请单击&#x200B;**[!UICONTROL 发布]**。
 
    发布草稿版本时，草稿版本会替换当前已发布的版本，并且内容会在电子邮件和电子邮件模板中更新（该模板已在使用中）。
 

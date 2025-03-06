@@ -3,10 +3,10 @@ title: 电子邮件创作
 description: 了解如何创建在帐户历程中使用的个性化电子邮件内容。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 8315c760e573aa36819652798a400206e6268ccc
+source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
 workflow-type: tm+mt
-source-wordcount: '1428'
-ht-degree: 10%
+source-wordcount: '1268'
+ht-degree: 12%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 10%
 1. 若要对人员&#x200B;]_执行_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 发送电子邮件]**。
 1. 对于&#x200B;_[!UICONTROL 电子邮件源]_，请选择&#x200B;**[!UICONTROL 新建电子邮件]**。
 
-   或者，您还可以选择&#x200B;_[!UICONTROL 从Adobe Marketo Engage中选择电子邮件]_&#x200B;选项，以在Marketo Engage中使用预先编写的电子邮件之一并将其作为Account历程的一部分发送。
+   或者，您还可以选择&#x200B;_[!UICONTROL 从Adobe Marketo Engage中选择电子邮件]_&#x200B;选项，以使用Marketo Engage中预先编写的电子邮件之一，并将其作为帐户历程的一部分发送。
 
    >[!NOTE]
    >
-   >如果您是首次创建电子邮件，请确保已在Adobe Marketo Engage中配置电子邮件渠道。 若要了解更多信息，请参阅Marketo Engage文档中的[确保电子邮件可投放性](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)。
+   >如果您是首次创建电子邮件，请确保已在Adobe Marketo Engage中配置电子邮件渠道。 要了解更多信息，请参阅Marketo Engage文档中的[确保电子邮件可投放性](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)。
 
    ![执行操作 — 发送电子邮件](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
@@ -129,30 +129,9 @@ ht-degree: 10%
 
 ### 添加片段
 
-在可视内容编辑器中，_片段_&#x200B;图标显示在左侧。 以下示例概述了将片段添加到模板内容的步骤。
+{{$include /help/_includes/content-design-use-fragments.md}}
 
-1. 要打开片段列表，请单击&#x200B;_片段_&#x200B;图标。
-
-   您可以：
-
-   * 对列表进行排序。
-   * 浏览、搜索或筛选列表。
-   * 在“缩略图”和“列表”视图之间切换。
-   * 刷新列表以反映任何最近创建的片段。
-
-   ![从列表中选择片段](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
-
-1. 将任意片段拖放到结构组件的占位符中。
-
-   编辑器在电子邮件结构的部分/元素中呈现片段。
-
-片段的内容在结构中动态更新，以显示内容在电子邮件中的显示方式。
-
->[!TIP]
->
->要添加片段，以使其占据电子邮件中的整个水平布局，请添加1:1列结构，然后将片段拖放到其中。
-
-保存电子邮件后，当您在摘要中选择&#x200B;_[!UICONTROL 使用者]_&#x200B;选项卡时，该电子邮件会显示在片段详细信息页面中。 添加到电子邮件模板的片段在模板中不可编辑 — 源片段定义内容。
+保存电子邮件后，当您在摘要中选择&#x200B;_[!UICONTROL 使用者]_&#x200B;选项卡时，该电子邮件会显示在片段详细信息页面中。
 
 ### 添加资源
 
@@ -190,7 +169,7 @@ ht-degree: 10%
 * **[!UICONTROL 另存为片段]** — 将电子邮件的全部或部分另存为片段，以便在多个电子邮件或电子邮件模板中重复使用。 您可以提供片段的名称和描述，并将其保存到可用片段列表中。
 * **[!UICONTROL 更改您的设计]** — 返回&#x200B;_设计您的电子邮件_&#x200B;页面。 从那里，您可以选择另一个模板以重新启动设计过程，或者选择在黑色画布中从头开始设计内容。\
 * **[!UICONTROL 另存为内容模板]** — 将电子邮件正文另存为电子邮件模板，以便在多个电子邮件或电子邮件模板中重复使用。 您可以提供模板的名称和描述，并将其保存到已保存电子邮件模板的列表中。
-* **[!UICONTROL 导出HTML]** — 将可视画布中的内容以HTML格式下载到本地系统，并打包为zip文件。
+* **[!UICONTROL 导出HTML]** — 将可视画布中的内容以HTML格式下载到您的本地系统，并打包为zip文件。
 
 ## 检查警报
 
