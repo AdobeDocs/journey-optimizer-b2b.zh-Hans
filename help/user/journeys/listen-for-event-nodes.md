@@ -3,9 +3,9 @@ title: 侦听事件
 description: 了解侦听事件节点类型，可用于在Journey Optimizer B2B edition中编排帐户历程。
 feature: Account Journeys
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1373'
 ht-degree: 3%
 
 ---
@@ -124,6 +124,8 @@ ht-degree: 3%
 
 2. 在帐户历程中，添加&#x200B;_侦听事件_&#x200B;节点，并为基于人员的事件选择Experience Platform事件定义。
 
+![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看视频概述](../admin/configure-aep-events.md#overview-video)
+
 _要在您的历程中包含体验事件，请执行以下操作：_
 
 1. 在历程编辑器中选择&#x200B;**[!UICONTROL 侦听事件]**&#x200B;节点。
@@ -162,7 +164,7 @@ _要在您的历程中包含体验事件，请执行以下操作：_
 
 1. 完成历程的其余节点，并[发布它](./journey-overview.md)。
 
-   当历程处于实时状态（已发布）并到达&#x200B;_侦听事件_&#x200B;节点时，它会开始侦听AEP体验事件。
+   当历程处于实时状态（已发布）并到达&#x200B;_侦听事件_&#x200B;节点时，它将开始侦听AEP体验事件。
 
 ## 向事件节点添加超时
 

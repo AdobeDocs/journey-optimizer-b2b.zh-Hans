@@ -2,17 +2,22 @@
 title: 配置Experience Platform事件
 description: 了解可用于在Journey Optimizer B2B edition中编排帐户旅程的等待节点类型。
 feature: Setup
+soultion: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 95b57124806c4dac46e5deeb9d8310ddcc1b3c93
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1768'
 ht-degree: 0%
 
 ---
 
 # 配置Experience Platform事件定义
 
-管理员可以配置基于Adobe Experience Platform (AEP)的事件定义，这使得营销人员能够创建对[AEP Experience事件](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent)做出反应的帐户历程。 在帐户历程中使用AEP体验事件包括两个步骤：
+管理员可以配置基于Adobe Experience Platform (AEP)的事件定义，这使得营销人员能够创建对[AEP Experience事件](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent)做出反应的帐户历程。
+
+![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看视频概述](#overview-video)
+
+在帐户历程中使用AEP体验事件包括两个步骤：
 
 1. 创建和发布AEP事件定义。
 
@@ -273,3 +278,7 @@ ht-degree: 0%
 1. 在确认对话框中，单击&#x200B;**[!UICONTROL 删除]**。
 
    ![确认删除事件定义](./assets/configuration-events-delete-confirm-dialog.png){width="300"}
+
+## 概述视频
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

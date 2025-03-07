@@ -3,9 +3,9 @@ title: 购买组阶段
 description: 了解购买组阶段，以及如何定义这些阶段以根据销售目标跟踪历程进展。
 feature: Buying Groups, Account Journeys
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 3336a09a58d4c68418ffa1563b6c4c65097e1a49
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '2250'
+source-wordcount: '2257'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 在单个分段模型中定义阶段，定义多个阶段以及它们之间的转换流。 一个或多个阶段被指定进入生命周期。 模型还允许非线性渐变，在其中可以指定从一个阶段到另一个阶段的过渡，例如从阶段A到阶段B、C或D。要求将一个阶段指定为成功阶段，例如购买或签署合同。 可选地将另一个阶段指定为失败阶段，例如被拒绝的合同或从另一个供应商处购买竞争解决方案。 这是通过[智能仪表板](../dashboards/intelligent-dashboard.md)实现的，该仪表板可显示购买组在完成销售机会或将机会转化为客户方面的进展情况。
 
 ![购买团体阶段示例](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
+
+![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看视频概述](#overview-video)
 
 ## 定义购买组阶段模型
 
@@ -159,7 +161,7 @@ ht-degree: 0%
 
    您还可以单击&#x200B;_[!UICONTROL 取消]_&#x200B;关闭对话框并返回模型详细信息页面，而不做任何更改。
 
-## Publish购买团体阶段模型
+## 发布购买组阶段模型
 
 如果没有验证错误，则可以发布模型。 发布后，它将更改为&#x200B;_实时_&#x200B;状态，并可用于在帐户历程中继续购买小组阶段。
 
@@ -171,9 +173,9 @@ ht-degree: 0%
 
    如果需要修订，请编辑模型阶段。
 
-1. 单击&#x200B;**[!UICONTROL Publish]**。
+1. 单击&#x200B;**[!UICONTROL 发布]**。
 
-1. 在确认对话框中，单击&#x200B;**[!UICONTROL Publish]**。
+1. 在确认对话框中，单击&#x200B;**[!UICONTROL 发布]**。
 
    返回模型详细信息页面后，模型被指定为&#x200B;_[!UICONTROL 实时]_。 单击左上角的&#x200B;_返回_&#x200B;箭头以返回&#x200B;_[!UICONTROL 阶段]_&#x200B;选项卡页。
 
@@ -345,3 +347,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
    ![历程节点 — 侦听帐户上的事件](./assets/stages-event-node-stage-change-properties.png){width="700" zoomable="yes"}
 
 1. 继续做出其他更改并保存历程。
+
+## 概述视频
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)
