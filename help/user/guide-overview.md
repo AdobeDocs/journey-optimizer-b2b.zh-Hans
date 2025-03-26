@@ -2,9 +2,9 @@
 title: Adobe Journey Optimizer B2B 版本文档
 description: 了解如何使用Adobe Journey Optimizer B2B edition功能通过内置的创新型人工智能和行业领先的自动化功能编排帐户和购买团体历程。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
+source-git-commit: 9e19b8b22c237f43fef3a5ed4c093ad12ff41781
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '680'
 ht-degree: 7%
 
 ---
@@ -31,9 +31,15 @@ ht-degree: 7%
 
 [!BADGE 了解详情]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="了解如何使用Adobe Express编辑图像"}
 
+>[!TAB 可自定义的片段字段]
+
+作为内容设计器，您可以在片段中将组件的参数指定为可编辑。 这允许电子邮件或模板作者指定特定于其需求的自定义字段值。 此自定义标记仅限用于图像、文本和按钮可视组件。
+
+[!BADGE 了解详情]{type=Informative url="/help/user/content/fragment-authoring.md网站#enable-custom-fields" tooltip="了解内容片段的自定义字段"}
+
 >[!TAB AEP事件转发]
 
-管理员现在可以配置基于Adobe Experience Platform (AEP)的事件定义。 通过这些配置，营销人员可以创建对AEP体验事件做出反应的帐户历程。
+管理员现在可以配置基于Adobe Experience Platform (AEP)的事件定义。 通过这些配置，营销人员可创建对AEP Experience事件做出反应的帐户历程。
 
 [!BADGE 了解详情]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="了解用于Journey Orchestration的AEP事件定义"}
 
