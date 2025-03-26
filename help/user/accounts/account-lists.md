@@ -1,12 +1,13 @@
 ---
 title: 帐户列表
 description: 了解帐户列表以及营销人员如何使用它们通过帐户历程定位帐户。
-exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-hidefromtoc: true
 hide: true
-source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
+hidefromtoc: true
+badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
+exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
+source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1642'
 ht-degree: 0%
 
 ---
@@ -140,7 +141,7 @@ ht-degree: 0%
 
 >[!ENDTABS]
 
-## Publish帐户列表
+## 发布帐户列表
 
 筛选器集完成后，您可以继续发布帐户列表。
 
@@ -148,11 +149,11 @@ ht-degree: 0%
 
 >[!TAB 静态帐户列表]
 
-1. 单击右上方的&#x200B;**[!UICONTROL Publish]**。
+1. 单击右上方的&#x200B;**[!UICONTROL 发布]**。
 
-   ![单击右上方的Publish](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
+   ![单击右上角的“发布”](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Publish静态帐户列表]_&#x200B;对话框中，单击&#x200B;**[!UICONTROL Publish]**&#x200B;进行确认。
+1. 在&#x200B;_[!UICONTROL 发布静态帐户列表]_&#x200B;对话框中，单击&#x200B;**[!UICONTROL 发布]**&#x200B;以进行确认。
 
    ![确认发布静态帐户列表](./assets/account-lists-static-publish-confirm.png){width="400"}
 
@@ -162,11 +163,11 @@ ht-degree: 0%
 
 筛选器集完成后，您可以继续发布动态帐户列表。 在帐户列表处于“实时”状态后，便可在帐户受众历程节点中选择。
 
-1. 单击右上方的&#x200B;**[!UICONTROL Publish]**。
+1. 单击右上方的&#x200B;**[!UICONTROL 发布]**。
 
-   ![单击右上方的Publish](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
+   ![单击右上角的“发布”](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Publish动态帐户列表]_&#x200B;对话框中，单击&#x200B;**[!UICONTROL Publish]**&#x200B;进行确认。
+1. 在&#x200B;_[!UICONTROL 发布动态帐户列表]_&#x200B;对话框中，单击&#x200B;**[!UICONTROL 发布]**&#x200B;以进行确认。
 
    ![确认发布动态帐户列表](./assets/account-lists-dynamic-publish-confirm.png){width="400"}
 

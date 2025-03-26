@@ -4,9 +4,9 @@ description: 了解如何将团队成员分配给Journey Optimizer B2B edition�
 feature: Setup
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: d5197e740a17de507bf72b4d7b64deb5af672346
+source-git-commit: 49df3035b3bafc608a5fb16be77d39c5055bf92e
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1878'
 ht-degree: 1%
 
 ---
@@ -144,77 +144,77 @@ For more information about managing these permissions within Marketo Engage, see
 在Adobe Experience Platform的&#x200B;_权限_&#x200B;区域，管理员可以定义用户角色和访问策略，以管理产品应用程序内功能和对象的访问权限。 在此应用程序中，您可以创建和管理角色，并为这些角色分配所需的资源权限。 权限还允许您管理与特定角色关联的沙盒和用户。
 
 有关Experience Platform中角色权限的更多信息，请参阅Experience Platform文档中的[管理角色的权限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
-<!-- 
-### B2B product permissions
 
-The following permissions govern access to Journey Optimizer B2B Edition capabilities:
+### B2B产品权限
 
-| Category | Description | Permissions |
+以下权限可管理对Journey Optimizer B2B edition功能的访问：
+
+| 类别 | 描述 | 权限 |
 | -------- | ----------- | ---------- |
-| B2B Account Lists | Configure, manage, view, and publish permissions for B2B account lists. These permissions include actions such as add, remove, import, and delete accounts from account lists. | <li>Manage B2B Account Lists |
-| B2B Admin Configurations | Configure, manage, and view permissions for B2B administrative configurations. These permissions include digital asset management connections, asset repositories, and events. | <li>Manage B2B Admin Configurations |
-| B2B Assets | Configure, manage, and view permissions for B2B assets. These permissions include emails, SMS, landing pages, fragments, templates, and images. | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments|
-| B2B Buying Groups | Configure, manage, and view permissions for B2B buying groups. These permissions include solution interests, roles templates, and buying group status. | <li>Manage B2B Buying Groups |
-| B2B Channel Configurations | Configure, manage, and view permissions for B2B channel configurations. These permissions include settings for communication limits, API credentials, and security settings. | <li>Manage B2B Channels Configurations |
-| B2B Dashboards |Configure and view permissions for B2B dashboards. These permissions include account engagement, buying group stages, surging accounts, and contact coverage. | <li>Manage B2B Dashboards |
-| B2B Journeys | Configure manage, view, and publish permissions for B2B journeys. These permissions include account and person actions, event listeners, and split paths | <li>Manage B2B Journeys |
+| B2B帐户列表 | 配置、管理、查看和发布B2B帐户列表的权限。 这些权限包括从帐户列表中添加、删除、导入和删除帐户等操作。 | <li>管理B2B帐户列表 |
+| B2B管理配置 | 配置、管理和查看B2B管理配置的权限。 这些权限包括数字资产管理连接、资产存储库和事件。 | <li>管理B2B管理配置 |
+| B2B Assets | 配置、管理和查看B2B资源的权限。 这些权限包括电子邮件、短信、登陆页面、片段、模板和图像。 | <li>管理B2B Assets <li>管理B2B模板 <li>管理B2B片段 |
+| B2B购买团体 | 配置、管理和查看B2B购买群组的权限。 这些权限包括解决方案兴趣、角色模板和购买群组状态。 | <li>管理B2B购买组 |
+| B2B渠道配置 | 配置、管理和查看B2B渠道配置的权限。 这些权限包括通信限制设置、API凭据和安全设置。 | <li>管理B2B渠道配置 |
+| B2B仪表板 | 配置和查看B2B仪表板的权限。 这些权限包括帐户参与、购买团体阶段、激增的帐户和联系范围。 | <li>管理B2B仪表板 |
+| B2B历程 | 为B2B历程配置管理、查看和发布权限。 这些权限包括帐户和人员操作、事件侦听器以及拆分路径 | <li>管理B2B历程 |
 
-### B2B built-in roles
+### B2B内置角色
 
-When your organization has the Journey Optimizer B2B Edition product provisioned, Experience Platform includes a set of built-in (default) roles that you can use to manage access to the product capabilities:
+当您的组织配置了Journey Optimizer B2B edition产品时，Experience Platform包含一组内置（默认）角色，您可以使用这些角色来管理对产品功能的访问：
 
-| Role | Permissions |
+| 角色 | 权限 |
 | ---- | ----------- |
-| B2B Journey Manager | <li>Manage B2B Journeys <li>Manage B2B Buying Groups <li>Manage B2B Account Lists <li>View B2B Intelligent Dashboard <li>View B2B Insights Dashboard |
-| B2B Channel Manager | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments |
-| B2B System Administrator | <li>Manage B2B Channels Configurations <li>Manage B2B Admin Configurations |
-| B2B Sales User | <li>View Intelligent Dashboard |
+| B2B历程管理器 | <li>管理B2B历程 <li>管理B2B购买组 <li>管理B2B帐户列表 <li>查看B2B智能仪表板 <li>查看B2B分析仪表板 |
+| B2B渠道管理器 | <li>管理B2B Assets <li>管理B2B模板 <li>管理B2B片段 |
+| B2B系统管理员 | <li>管理B2B渠道配置 <li>管理B2B管理配置 |
+| B2B销售用户 | <li>查看智能仪表板 |
 
-### Edit role permissions
+### 编辑角色权限
 
-For built-in or custom roles, you can decide at any time to add or delete permissions. If you modify a default or custom role, it impacts every user assigned to the role.
+对于内置或自定义角色，您可以随时决定添加或删除权限。 如果修改默认或自定义角色，则会影响分配给该角色的每个用户。
 
-In the following example, you want to add permissions related to the B2B Journeys resource for users assigned to the B2B Channel Manager role. This change enables users for that role to manage account journeys also.
+在以下示例中，您要为分配给B2B历程管理员角色的用户添加与B2B角色资源相关的权限。 此更改还允许该角色的用户管理帐户历程。
 
 >[!NOTE]
 >
->An Admin Console system administrator can perform these steps.
+>Admin Console系统管理员可以执行这些步骤。
 
-_To change the permissions for a role:_
+_要更改角色的权限：_
 
-1. Go to [experience.adobe.com](https://experience.adobe.com/).
+1. 转到[experience.adobe.com](https://experience.adobe.com/)。
 
-1. In the _[!UICONTROL Quick access]_ panel, select **[!UICONTROL Permissions]**.
+1. 在&#x200B;_[!UICONTROL 快速访问]_&#x200B;面板中，选择&#x200B;**[!UICONTROL 权限]**。
 
    >[!NOTE]
    >
-   >If you don't see _[!UICONTROL Permissions]_, you may need to click **[!UICONTROL View all]** and select it from the available applications.
+   >如果您没有看到&#x200B;_[!UICONTROL 权限]_，您可能需要单击&#x200B;**[!UICONTROL 查看全部]**&#x200B;并从可用应用程序中选择它。
 
-   ![Experience Platform - access Permissions](./assets/aep-permissions.png){width="700" zoomable="yes"}
+   ![Experience Platform — 访问权限](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
-1. Select **[!UICONTROL Roles]** in the left navigation.
+1. 在左侧导航中选择&#x200B;**[!UICONTROL 角色]**。
 
-1. Click the **_B2B Channel Manager_** role name.
+1. 单击&#x200B;**_B2B渠道管理器_**&#x200B;角色名称。
 
-1. In the details page, click **[!UICONTROL Edit]** at the top right.
+1. 在详细信息页面中，单击右上方的&#x200B;**[!UICONTROL 编辑]**。
 
-   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
+   ![Experience Platform — 编辑角色](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
 
-   In the role editor, the _[!UICONTROL Resources]_ menu displays the list of resources that apply to the Experience Cloud - Platform powered applications products.
+   在角色编辑器中，_[!UICONTROL 资源]_&#x200B;菜单显示应用于Experience Cloud - Platform支持的应用程序产品的资源列表。
 
-   You can enter _B2B_ in the search tool to filter the list for the B2B product permissions. 
-   
-1. Click the _Add_ icon (**+**) for the B2B Journeys resource.
+   您可以在搜索工具中输入&#x200B;_B2B_&#x200B;以筛选B2B产品权限列表。
 
-   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"}
+1. 单击B2B历程资源的&#x200B;_添加_&#x200B;图标(**+**)。
 
-1. In the _[!UICONTROL B2B Journeys]_ permissions card, select **[!UICONTROL Manage B2B Account Journeys]**.
+   ![Experience Platform — 编辑角色](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"}
 
-1. Click **[!UICONTROL Save]**.
+1. 在&#x200B;_[!UICONTROL B2B历程]_&#x200B;权限卡中，选择&#x200B;**[!UICONTROL 管理B2B帐户历程]**。
 
-   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"}
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-1. Click **[!UICONTROL Close]** to return to the details page. -->
+   ![Experience Platform — 编辑角色](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"}
+
+1. 单击&#x200B;**[!UICONTROL 关闭]**&#x200B;以返回详细信息页面。
 
 ### 将用户添加到角色
 

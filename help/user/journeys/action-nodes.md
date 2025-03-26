@@ -3,10 +3,10 @@ title: 执行操作
 description: 了解可用于在Journey Optimizer B2B edition中编排帐户旅程的采取操作节点类型。
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 73df89b39524a8622ec610a4ce531f68f0b9d98f
 workflow-type: tm+mt
 source-wordcount: '1200'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -183,7 +183,7 @@ _要使用现有受众：_
 
 ### Marketo Engage操作
 
-基于Marketo Engage人员的设计可协调您在Journey Optimizer B2B edition中基于帐户的营销编排与Marketo Engage中基于商机的营销工作。 使用这些操作可编排列表成员资格、人员分区和请求营销活动。
+Marketo Engage基于人员的操作可协调您在Journey Optimizer B2B edition中基于帐户的营销编排与Marketo Engage中基于商机的营销工作。 使用这些操作可编排列表成员资格、人员分区和请求营销活动。
 
 +++[!UICONTROL 添加到列表]
 
