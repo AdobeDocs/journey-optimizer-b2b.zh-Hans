@@ -1,14 +1,11 @@
 ---
 title: 帐户列表
 description: 了解帐户列表以及营销人员如何使用它们通过帐户历程定位帐户。
-hide: true
-hidefromtoc: true
-badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
+source-git-commit: 25776f0ccf4e3b55891d704ebf766aa142b8e536
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 0%
+source-wordcount: '1632'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +20,7 @@ ht-degree: 0%
 
 ## 访问和浏览帐户列表
 
-1. 在Adobe Experience Platform主页中，单击Adobe Journey Optimizer B2B edition。
+1. 在 Adobe Experience Platform 主页中，单击 Adobe Journey Optimizer B2B Edition。
 
 1. 在左侧导航栏中，展开&#x200B;**[!UICONTROL 帐户]**，然后单击&#x200B;**[!UICONTROL 帐户列表]**。
 
@@ -43,7 +40,7 @@ ht-degree: 0%
 
 您可以通过单击右上角的&#x200B;_列设置_ （ ![列设置](../assets/do-not-localize/icon-column-settings.svg) ）图标并选择或清除复选框来自定义显示的表。
 
-![选择要显示在帐户历程列表中的列](./assets/account-lists-list-columns.png){width="300"}
+![选择要在帐户历程列表中显示的列](./assets/account-lists-list-columns.png){width="300"}
 
 要查看帐户列表的说明，请单击名称旁边的&#x200B;_信息_&#x200B;图标。
 

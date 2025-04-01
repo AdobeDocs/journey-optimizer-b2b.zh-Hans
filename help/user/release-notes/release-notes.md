@@ -2,92 +2,91 @@
 title: 发行说明
 description: Adobe Journey Optimizer B2B Edition 的最新发行说明
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 943dd70a732f8dbcee5c5031c1bc3b15966d66f1
+source-git-commit: 60bda27f2d7b6bb5b8dd07ec26e0b608b8858318
 workflow-type: tm+mt
-source-wordcount: '1601'
-ht-degree: 9%
+source-wordcount: '1650'
+ht-degree: 97%
 
 ---
 
-# Journey Optimizer B2B edition发行说明
+# Journey Optimizer B2B Edition 发行说明
 
-Adobe Journey Optimizer B2B edition不断提供新功能、现有功能的增强以及错误修复。
+Journey Optimizer B2B Edition 不断地提供新功能、对现有功能进行增强和修复错误。
 
-Journey Optimizer B2B edition本机构建于[!DNL Adobe Experience Platform]之上并继承了其最新创新和改进。 在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/latest){target="_blank"}中，进一步了解这些更改。
+Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] 之上，并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/latest){target="_blank"}中，进一步了解这些更改。
 
-查看[产品描述](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，了解有关授权、性能护栏和限制的信息。
+查看[产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，了解有关权限、性能护栏和限制的信息。
 
-## 2025.2发行说明
+## 2025.2 发行说明
 
-**发行日期**： 2025年3月11日
+**发布日期**：2025 年 3 月 11 日
 
-此版本包括以下新增功能和增强功能：
-
-| 类型 | 项目 | 描述 |
-| ---- | ---- | ----------- |
-| 新功能 | 可自定义的字段 — 内容片段 | 作为内容片段设计器，您可以将片段中组件的参数指定为可编辑。 这允许电子邮件或模板作者指定特定于其需求的自定义字段值。 此自定义标记仅限用于图像、文本和按钮可视组件。 <a href="../content/fragment-authoring.md#enable-custom-fields">了解详情</a> |
-| 新功能 | B2B内置角色和产品权限 | Experience Platform现在包含一组内置（默认）角色，您可以使用这些角色来管理对B2B产品功能的访问。 <a href="../admin/user-management.md#b2b-built-in-roles">了解详情</a> <br/>管理员现在可以在Adobe Experience Platform中定义自定义角色，以包含Journey Optimizer B2B edition产品权限。  <a href="../admin/user-management.md#b2b-product-permissions">了解详情</a> |
-| 增强功能 | 四个其他示例电子邮件模板 | 示例电子邮件模板库现在包含四个SecureFinacial模板作为重新参与、通知、培养和反馈内容示例 |
-
-
-
-## 2025.1发行说明 {#Jan-2025}
-
-**发行日期**： 2025年2月6日
-
-此版本包括以下新增功能和增强功能：
+此版本包括以下新功能和增强功能：
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 新功能 | 体验事件转发 | 管理员可以配置基于Adobe Experience Platform (AEP)的事件定义。 通过这些配置，营销人员可创建对AEP Experience事件做出反应的帐户历程。  <a href="../admin/configure-aep-events.md">了解详情</a> |
-| 新功能 | 付费媒体目标 | 通过帐户历程确定已知人员参与付费媒体促销活动的资格，以便您可以在LinkedIn等广告平台上进一步吸引这些人员。 在客户历程中使用拆分路径节点，根据特定行为划分客户受众，并识别需要额外参与的客户。 然后，通过Real-time CDP将这些帐户中的人员添加到外部客户受众到支持的付费媒体目标。 <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">了解详情</a> |
-| 新功能 | 智能仪表板 | 查看购买组通过其帐户历程（包括人工智能生成的见解）的进度，以实现更智能的分析并准确划分帐户优先级。 <a href="../dashboards/intelligent-dashboard.md">了解详情</a> |
-| 新功能 | 购买群组和帐户详细信息 | 在开始与客户接触时，查看购买组和帐户级别的洞察，以获得更多背景和历史数据。<p>购买组详细信息包括检测到的任何第一方意图。 <a href="../buying-groups/buying-group-details.md">了解详情</a><p>客户详细信息帐户突出显示检测到的参与意向激增，以便您可以提醒销售人员注意准备好以自定义销售为重点的参与的帐户。  <a href="../accounts/account-details.md">了解详情</a> |
-| 新功能 | 历程概述 | 当您访问帐户历程时，“概述”选项卡会提供活动帐户历程的综合快照，使用圆圈和条形图详细说明帐户进度，这些图表用于分类和量化完成以及参与活动。  <a href="../dashboards/journeys-dashboard.md">了解详情</a> |
-| 新功能 | Adobe Express图像编辑 | Adobe Express快速操作允许您对图像执行简单的编辑（例如裁切和调整大小），以便在内容中更加光滑。 <a href="../content/image-edit-adobe-express.md#quick-actions-in-adobe-express">了解详情</a>  <p>为了获得更全面的设计工具集，此集成支持将完整的Adobe Express许可证放入Journey Optimizer B2B edition。 通过此设置，在本地资源工作区中即可访问完整的Adobe Express用户界面。 <a href="../content/image-edit-adobe-express.md#adobe-express-enterprise-license">了解详情</a> |
-| 新功能 | 用于购买群组角色的意图筛选器 | 当您提交意图关键词时，意图检测模型会根据商机的活动预测具有足够高置信度的感兴趣的解决方案/产品。 <a href="../admin/intent-data.md">了解详情</a> <p>此意图数据可用于定义购买团体角色条件<a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">了解更多</a> |
-| 增强功能 | 历程中的Marketo Engage事件支持 | _侦听事件_&#x200B;历程节点现在支持人员级别的两个Marketo Engage事件： _访问网页_&#x200B;和&#x200B;_填写表单_。 <a href="../journeys/listen-for-event-nodes.md#listen-for-marketo-engage-event">了解详情</a> |
-| 增强功能 | 为Marketo Engage智能列表购买组筛选器 | 在Marketo Engage中查看并创建包含购买组过滤器的智能列表。 这些添加的过滤器允许您从Journey Optimizer B2B edition中的帐户历程禁止跨多个Marketo Engage营销活动和项目购买组成员，并包括这些组成员。 <a href="../buying-groups/marketo-engage-smart-list-buying-group-filters.md">了解详情</a> |
-| 增强功能 | Marketo Engage列出历程和角色的成员资格筛选器 | 在Journey Optimizer B2B中，检查Marketo Engage列表成员资格以作为&#x200B;_按人员拆分路径_&#x200B;节点的条件，以帮助消除旅程活动中的重复。 <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">了解详情</a> <p> 要购买组角色模板，请使用列表成员资格作为角色条件。 <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">了解详情</a> |
-| 增强功能 | 参与概述仪表板 | 此仪表板已更新，以提供参与情况的全面视图。 它通过快照圆图和随时间变化的趋势显示线形图，显示帐户和个体交互的实时量度。 <a href="../dashboards/engagement-dashboard.md">了解详情</a> |
+| 新功能 | 可自定义字段——内容片段 | 作为内容片段设计者，您可以将片段中组件的参数指定为可编辑。这允许电子邮件或模板作者根据自己的需要指定自定义字段值。此自定义标志仅限于图像、文本和按钮可视组件。<a href="../content/fragment-authoring.md#enable-custom-fields">了解详情</a> |
+| 新功能 | B2B 内置角色和产品权限 | Experience Platform 现在包含一组内置（默认）角色，您可以使用它们来管理对 B2B 产品功能的访问。<a href="../admin/user-management.md#b2b-built-in-roles">了解详情</a> <br/>管理员现在可以在 Adobe Experience Platform 中定义自定义角色，以包含 Journey Optimizer B2B Edition 产品权限。<a href="../admin/user-management.md#b2b-product-permissions">了解详情</a> |
+| 新功能 | 历程重复类型 | 复制帐户历程时，您可以包含节点详细信息，但不包括在Journey Optimizer B2B edition中创建的电子邮件和短信消息。 作为替代方法，您可以创建结构和路径流的骨架副本，而无需节点详细信息和设置。 <a href="../journeys/journey-overview.md#duplicate-journey">了解详情</a> |
+| 增强功能 | 另外四个示例电子邮件模板 | 示例电子邮件模板库现在包含四个 SecurFinacial 模板，作为重新参与、通知、培养和反馈内容示例的例子 |
+
+## 2025.1 发行说明 {#Jan-2025}
+
+**发行日期**：2025 年 2 月 6 日
+
+此版本包括以下新功能和增强功能：
+
+| 类型 | 项目 | 描述 |
+| ---- | ---- | ----------- |
+| 新功能 | 体验事件转发 | 管理员可以配置基于 Adobe Experience Platform（AEP）的事件定义。这些配置使营销人员能够创建对 AEP 体验事件做出反应的帐户历程。<a href="../admin/configure-aep-events.md">了解详情</a> |
+| 新功能 | 付费媒体目标 | 通过帐户历程确定已知人员是否有资格参与付费媒体营销活动，以便您可以在 LinkedIn 等广告平台上进一步吸引他们。在帐户历程中使用拆分路径节点，根据特定行为细分帐户受众，并确定需要额外参与的帐户。然后，通过 Real-Time CDP 将这些帐户中的人员添加到外部客户受众中，并将其添加到支持的付费媒体目标中。<a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">了解详情</a> |
+| 新功能 | 智能仪表板 | 查看购买群组在帐户历程中的进展情况，包括 AI 生成的洞察，以便进行更智能的分析和准确的帐户优先级排序。<a href="../dashboards/intelligent-dashboard.md">了解详情</a> |
+| 新功能 | 购买群组和帐户详细信息 | 查看购买群组和帐户级别的洞察，以便在开始吸引客户时掌握更多的背景信息和历史数据。<p>购买群组详细信息包括检测到的任何第一方意图。<a href="../buying-groups/buying-group-details.md">了解详情</a><p>帐户详细信息帐户突出显示了检测到的参与意图激增，这样您就可以提醒销售人员注意已准备好以参与为重点的自定义销售帐户。<a href="../accounts/account-details.md">了解详情</a> |
+| 新功能 | 历程概述 | 当您访问帐户历程时，“概述”选项卡会提供主要帐户历程的全面情况，使用圆形和条形图详细说明帐户进度，对完成情况和参与活动进行分类和量化。<a href="../dashboards/journeys-dashboard.md">了解详情</a> |
+| 新功能 | 使用 Adobe Express 图像编辑 | Adobe Express 快速操作允许您对图像进行简单的编辑（例如裁剪和调整大小），以使内容看起来更加精美。<a href="../content/image-edit-adobe-express.md#quick-actions-in-adobe-express">了解详情</a>  <p>为了提供更全面的设计工具，此集成可将完整的 Adobe Express 许可证纳入 Journey Optimizer B2B Edition。通过此设置，可在本地资产工作区内访问完整的 Adobe Express 用户界面。<a href="../content/image-edit-adobe-express.md#adobe-express-enterprise-license">了解详情</a> |
+| 新功能 | 购买群组角色的意图过滤器 | 当您提交意图关键词时，意图检测模型会根据潜在客户的活动，以足够高的置信度预测您感兴趣的解决方案/产品。<a href="../admin/intent-data.md">了解详情</a> <p>此意图数据可用于定义购买群组角色条件<a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">了解更多</a> |
+| 增强功能 | 在历程中支持 Marketo Engage 事件 | _侦听事件_&#x200B;历程节点现在支持人员级别的两个 Marketo Engage 事件：_访问网页_&#x200B;和&#x200B;_填写表单_。<a href="../journeys/listen-for-event-nodes.md#listen-for-marketo-engage-event">了解详情</a> |
+| 增强功能 | Marketo Engage 智能列表的购买群组过滤器 | 在 Marketo Engage 中查看并创建包含购买群组过滤器的智能列表。通过这些添加的过滤器，您可以从 Journey Optimizer B2B Edition 帐户历程中抑制或包含 Marketo Engage 营销活动和计划中的购买群组成员。<a href="../buying-groups/marketo-engage-smart-list-buying-group-filters.md">了解详情</a> |
+| 增强功能 | 用于历程和角色的 Marketo Engage 列表会员资格过滤器 | 在 Journey Optimizer B2B 中，检查 Marketo Engage 列表会员资格作为&#x200B;_按人员拆分路径_&#x200B;节点的条件，以帮助消除历程活动中的重复。<a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">了解详情</a> <p> 对于购买群组角色模板，使用列表会员资格作为角色条件。<a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">了解详情</a> |
+| 增强功能 | 参与度概述仪表板 | 此仪表板已更新，可提供参与度的全面视图。它通过快照圆形图和显示一段时间内趋势的线形图，展示帐户和个人互动的实时量度。<a href="../dashboards/engagement-dashboard.md">了解详情</a> |
 
 
 ## 2024 年 10 月发行说明 {#Oct-2024}
 
-**发行日期**：2024年10月29日
+**发行日期**：2024 年 10 月 29 日
 
-此版本包括以下新增功能和增强功能：
+此版本包括以下新功能和增强功能：
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 新功能 | 电子邮件模板中的条件内容 | 在帐户和潜在客户级别上，根据收件人行为和用户档案特征个性化您的电子邮件内容。 <p>在电子邮件可视化设计空间中为您的帐户历程创作电子邮件时，请使用条件规则为任何内容组件定义多个变体。 <a href="../content/conditional-content.md">了解详情</a> |
-| 新功能 | _添加到列表_&#x200B;和&#x200B;_从列表中删除_&#x200B;历程中的人员操作 | 在帐户和潜在客户级别上，根据收件人行为和用户档案特征个性化您的电子邮件内容。 <a href="../journeys/action-nodes.md">了解详情</a> |
-| 新功能 | 内容治理和组件锁定 | 要确保遵循已批准的内容设计，请使用内容治理功能来锁定电子邮件模板内容组件。 在电子邮件模板中激活内容治理后，营销人员可以仅更改允许的元素，以使其与内容策略保持一致。 <a href="../content/template-content-governance.md">了解详情</a> |
-| 新功能 | 购买群组阶段 | 在定义和发布自定义购买组暂存模型时，您可以在整个购买组生命周期阶段跟踪购买组进展。 使用这些阶段来确定购买组成员的下一步最佳操作。 可配置过渡规则和历程节点，以确定暂存进程并根据更改触发操作。 <a href="../buying-groups/buying-group-stages.md">了解详情</a> |
-| 增强功能 | 新的现成电子邮件模板 | 示例模板库现在包含其他为B2B营销人员设计的电子邮件模板。 使用这些示例模板作为起点，并添加您自己的品牌和消息。 <a href="../content/email-templates.md#select-a-design-template">了解详情</a> |
-| 增强功能 | 将自定义字段作为人员属性 | 如果您在Experience Platform的帐户受众架构中定义了自定义人员字段，则这些字段也可用作条件中的人员属性。 在中使用这些自定义属性： <li>角色模板<a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">了解更多</a></li><li>按人员历程节点拆分路径<a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">了解详情</a></li> |
-| 增强功能 | 电子邮件渠道设置 | 电子邮件设置现在显示在Journey Optimizer B2B edition界面中。 您可以快速查看当前配置，管理员可以单击&#x200B;_[!UICONTROL 编辑设置]_&#x200B;直接转到Marketo Engage中的设置，并根据组织的要求更新它们。 <a href="../admin/configure-channels-emails.md">了解详情</a> |
+| 新功能 | 电子邮件模板中的条件内容 | 根据收件人的行为和轮廓特征个性化您的电子邮件内容——无论是在帐户级别还是潜在客户级别。 <p>当您在电子邮件可视设计空间中为您的帐户历程创作电子邮件时，使用条件规则为任何内容组件定义多个变体。<a href="../content/conditional-content.md">了解详情</a> |
+| 新功能 | 在历程中&#x200B;_添加到列表_，并&#x200B;_从列表中移除_&#x200B;人员操作 | 根据收件人的行为和轮廓特征个性化您的电子邮件内容——无论是在帐户级别还是潜在客户级别。<a href="../journeys/action-nodes.md">了解详情</a> |
+| 新功能 | 内容监管和组件锁定 | 要确保遵守批准的内容设计，请使用内容监管功能锁定电子邮件模板内容组件。通过在电子邮件模板中激活内容监管，营销人员只能更改允许的元素，使其与内容策略保持一致。<a href="../content/template-content-governance.md">了解详情</a> |
+| 新功能 | 购买群组阶段 | 当您定义并发布自定义购买群组暂存模型时，您可以通过购买群组生命周期阶段跟踪购买群组进展情况。使用这些阶段来确定购买群组成员的下一步最佳操作。您可以配置过渡规则和历程节点，确定阶段进展情况并根据变化触发操作。<a href="../buying-groups/buying-group-stages.md">了解详情</a> |
+| 增强功能 | 新的现成电子邮件模板 | 示例模板库现在包括专为 B2B 营销人员设计的其他电子邮件模板。使用这些示例模板作为起点，并添加您自己的品牌和消息。<a href="../content/email-templates.md#select-a-design-template">了解详情</a> |
+| 增强功能 | 自定义字段作为人员属性 | 如果您在 Experience Platform 中的帐户受众架构定义了自定义人员字段，则这些字段也可用作条件中的人员属性。在以下内容中使用这些自定义属性： <li>角色模板<a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">了解详情</a></li><li>按人员历程节点拆分路径<a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">了解详情</a></li> |
+| 增强功能 | 电子邮件渠道设置 | 电子邮件设置现在可在 Journey Optimizer B2B Edition 界面中看到。您可以快速查看当前配置，管理员可以单击&#x200B;_[!UICONTROL 编辑设置]_，直接转到 Marketo Engage 中的设置，并根据组织的要求进行更新。<a href="../admin/configure-channels-emails.md">了解详情</a> |
 
 ## 2024 年 9 月发行说明 {#Sept-2024}
 
-**发行日期**：2024年10月7日
+**发行日期**：2024 年 10 月 7 日
 
-此版本包括以下新增功能和增强功能：
+此版本包括以下新功能和增强功能：
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 增强功能 | 中央资产库 | 增强的&#x200B;_中央资源库_&#x200B;允许您在Design Studio工作区中使用Marketo Engage实例中的所有图像资源。 有内置的护栏，可阻止从Journey Optimizer B2B edition编辑Marketo Engage资源以及执行删除和移动操作。 这些保护可以确保维护源资产(Marketo Engage Design Studio)，同时允许在Journey Optimizer B2B edition中无缝读取和重用。<p>对于在Journey Optimizer B2B edition中专门使用的资源，特定工作区提供了完整的资源管理功能。 <a href="../content/marketo-engage-design-studio.md">了解详情</a> |
-| 新功能 | 最近访问的资源 | Journey Optimizer B2B edition应用程序中的主页现在包含&#x200B;_[!UICONTROL 最近访问的]_&#x200B;部分，该部分为营销人员或管理员提供了最近访问的资源列表。 您可以使用此列表直接转到您最近处理的资产，而无需浏览一系列资产页面并搜索。 <p>列表提供了有关修改的更多信息，以便您能够决定哪些资产需要从上一会话进一步修改。 对于电子邮件资产，它显示使用电子邮件资产的帐户历程。 <a href="../home-page.md">了解详情</a> |
-| 增强功能 | 历程拆分节点 — 对路径重新排序 | 在拆分路径节点中，路径过滤按自上而下的顺序计算。 每个人员或帐户都会沿着匹配的第一个路径前进。 您可以通过单击每个路径卡右上角的向上和向下箭头将定义的路径重新排序，以在列表中将其向上或向下移动。 <a href="../journeys/split-merge-paths-nodes.md#split-paths">了解详情</a> |
-| 增强功能 | 历程拆分节点 — 其他活动历史记录条件属性 | 使用条件为按人员划分的拆分节点定义路径筛选时，存在两个其他属性： _已打开的电子邮件_&#x200B;和&#x200B;_已送达电子邮件_。 这些添加内容提供了更大的灵活性，可以根据电子邮件活动筛选历程中的人员。 <a href="../journeys/journey-nodes.md#split-paths">了解详情</a> |
+| 增强功能 | 中央资产库 | 通过增强的&#x200B;_中央资产库_，您可以在 Design Studio 工作区的 Marketo Engage 实例中使用所有图像资产。内置护栏可防止从 Journey Optimizer B2B Edition 对 Marketo Engage 资产进行编辑以及删除和移动操作。这些保护措施可确保源资产（Marketo Engage Design Studio）得到维护，同时允许在 Journey Optimizer B2B Edition 中无缝读取和重复使用。<p>对于专供 Journey Optimizer B2B Edition 使用的资产，特定工作区提供了完整的资产管理功能。<a href="../content/marketo-engage-design-studio.md">了解详情</a> |
+| 新功能 | 最近访问的资产 | Journey Optimizer B2B Edition 应用程序中的主页现在包含&#x200B;_[!UICONTROL 最近访问的]_&#x200B;部分，该部分为营销人员或管理员提供了最近访问的资产列表。您可以使用此列表直接转到您最近处理的资产，而无需浏览一系列资产页面并进行搜索。 <p>该列表提供了有关修改的其他信息，以便您决定哪些资产需要在上次会话的基础上做出进一步修改。对于电子邮件资产，它显示了使用电子邮件资产的帐户历程。<a href="../home-page.md">了解详情</a> |
+| 增强功能 | 历程拆分节点——重新排序路径 | 在拆分路径节点中，路径过滤按自上而下的顺序进行评估。每个人员或每个帐户都沿着第一条匹配的路径前进。您可以通过单击每个路径卡右上角的上下箭头来重新排序定义的路径，将其在列表中向上或向下移动。<a href="../journeys/split-merge-paths-nodes.md#split-paths">了解详情</a> |
+| 增强功能 | 历程拆分节点——其他活动历史记录条件属性 | 在使用条件定义按人员拆分节点的路径过滤时，有其他两个属性：_打开的电子邮件_&#x200B;和&#x200B;_是已送达的电子邮件_。这些其他属性为历程中根据电子邮件活动过滤的人员提供了更大的灵活性。<a href="../journeys/journey-nodes.md#split-paths">了解详情</a> |
 
 ## 2024 年 8 月发行说明 {#Aug-2024}
 
-**发行日期**： 2024年8月29日
+**发行日期**：2024 年 8 月 29 日
 
-此版本包括以下新增功能和增强功能：
+此版本包括以下新功能和增强功能：
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 新功能 | LinkedIn帐户匹配的受众 | 通过帐户匹配受众生成LinkedIn广告受众，以帮助您在购买群组中填充空角色。 通过定义一组购买群组过滤器，您可以维护一个LinkedIn匹配受众，以定位与您的购买群组参数匹配的潜在客户。 <p>此功能利用Experience Platform目标来管理集成的某些方面。 <a href="../data/linkedin-account-matched-audiences.md">了解详情</a> |
-| 增强功能 | 可视化内容片段的状态生命周期 | 可视化片段现在使用状态生命周期进行管理。 片段状态决定了在电子邮件或电子邮件模板中使用的可用性，以及您可以对片段进行的更改。 <p>此增强的工作流使您可以轻松根据促销和通信日历管理重复使用的内容。 <a href="../content/fragments.md#fragment-status-and-lifecycle">了解详情</a> |
+| 新功能 | LinkedIn 帐户匹配的受众 | 通过帐户匹配的受众生成 LinkedIn 广告受众，帮助您填补购买群组中的空缺角色。通过定义一组购买群组过滤器，您可以维护 LinkedIn 匹配的受众，定位匹配您的购买群组参数的潜在客户。 <p>此功能利用 Experience Platform Destinations 来管理集成的某些方面。<a href="../data/linkedin-account-matched-audiences.md">了解详情</a> |
+| 增强功能 | 可视内容片段的状态生命周期 | 现在使用状态生命周期来管理可视片段。片段状态决定其是否可用于电子邮件或电子邮件模板，以及您可以对其进行的更改。 <p>这种增强的工作流使您可以根据促销和通信日程表轻松管理重复使用的内容。<a href="../content/fragments.md#fragment-status-and-lifecycle">了解详情</a> |

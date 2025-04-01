@@ -2,10 +2,11 @@
 title: 创建和发布帐户历程
 description: 了解如何创建和发布帐户历程。
 feature: Account Journeys
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
+source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 0%
+source-wordcount: '773'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 ## 创建帐户历程
 
-1. 在左侧导航中，单击&#x200B;**[!UICONTROL 帐户历程]**。
+1. 在左侧导航栏中，单击&#x200B;**[!UICONTROL 帐户历程]**。
 
 1. 单击页面右上角的&#x200B;**[!UICONTROL 创建帐户历程]**。
 
@@ -109,7 +110,7 @@ _历程图_&#x200B;是历程设计器中的中心区域。 在此区域中，您
 
 ## 发布帐户历程
 
-如果帐户历程没有错误，则可以发布它。
+如果没有阻止程序错误，则可以发布历程。 发布后，历程状态更改为&#x200B;_实时_。如果历程有错误，_[!UICONTROL 发布]_&#x200B;按钮将灰显，内容信息为： `Resolve errors before publishing`。
 
 1. 在历程图的右上方，单击&#x200B;**[!UICONTROL 发布]**。
 
