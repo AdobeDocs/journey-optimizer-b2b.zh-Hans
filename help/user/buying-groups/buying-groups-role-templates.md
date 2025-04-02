@@ -3,14 +3,14 @@ title: 购买组角色模板
 description: 了解如何定义用作购买组组件的角色模板。
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 3ce0b2722e56ef46b84a55f097cd1e8a9d39ceb5
+source-git-commit: 745b88044c4194f08033b7bb3f79106ca206ae61
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 1%
+source-wordcount: '1128'
+ht-degree: 4%
 
 ---
 
-# 购买组角色模板
+# 购买群组角色模板
 
 在B2B市场中，购买决策通常由多人做出。 这些个人根据其在组织内的作用参与决策过程。 根据每种产品和服务类型或帐户用例，创建包含这些角色定义的购买组角色模板。
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ## 访问和浏览角色模板
 
-1. 在Adobe Experience Platform主页中，单击Adobe Journey Optimizer B2B edition。
+1. 在 Adobe Experience Platform 主页中，单击 Adobe Journey Optimizer B2B Edition。
 
 1. 在左侧导航栏中，单击&#x200B;**[!UICONTROL 购买群组]**。
 
@@ -34,7 +34,7 @@ ht-degree: 1%
    * [!UICONTROL 创建者]
    * [!UICONTROL 上次更新]
    * [!UICONTROL 上次更新者]
-   * [!UICONTROL 发布于]
+   * [!UICONTROL 发布日期]
    * [!UICONTROL 发布者]
 
    默认情况下，该列表按&#x200B;_[!UICONTROL 上次更新]_&#x200B;列排序。
@@ -65,9 +65,9 @@ ht-degree: 1%
 
 | 类型 | 条件 |
 | ---- | --------- |
-| 人员属性 | <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>传真号 <li>名字 <li>推断的状态区域 <li>职务名称 <li>姓氏 <li>中间名 <li>手机号码 <li>电话号码 <li>邮政编码 <li>State <li>退订 <li>取消订阅的原因 |
-| 特殊过滤器 | <li>列表成员 |
-| 目的数据 | 类别意图 <li>产品意图 <li>关键字意图<br/>[了解意图数据](../admin/intent-data.md)。 |
+| 人员属性 | <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>传真号 <li>名字 <li>推断的状态区域 <li>作业名称 <li>姓氏 <li>中间名 <li>手机号码 <li>电话号码 <li>邮政编码 <li>State <li>退订 <li>取消订阅的原因 |
+| 特殊过滤器 | <li>列表成员 <li>计划成员 |
+| 意图数据 | 类别意图 <li>产品意图 <li>关键字意图<br/>[了解意图数据](../admin/intent-data.md)。 |
 
 1. 对于第一个角色信息卡，定义角色属性。
 
@@ -113,7 +113,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX “Marketo Engage列表成员资格”]
 
-在Marketo Engage中，_智能营销活动_&#x200B;检查计划成员身份，确保潜在客户不会收到重复的电子邮件，并且不会同时成为多个电子邮件流的成员。 在Journey Optimizer B2B中，您可以检查Marketo Engage列表成员资格，将其作为角色模板的条件，以帮助消除购买组成员资格和旅程活动中的重复。
+在Marketo Engage中，_Smart Campaigns_&#x200B;检查项目成员资格，以确保潜在客户不会收到重复的电子邮件，并且不会同时成为多个电子邮件流的成员。 在Journey Optimizer B2B中，您可以检查Marketo Engage列表成员资格，将其作为您角色模板的条件，以帮助消除购买组成员资格和旅程活动中的重复。
 
 要将列表成员资格用作角色条件，请展开&#x200B;**[!UICONTROL 特殊筛选器]**，并将&#x200B;**[!UICONTROL 列表成员]**&#x200B;条件拖入筛选器空间。 然后完成筛选器定义以评估一个或多个Marketo Engage列表中的成员资格。
 
@@ -123,9 +123,9 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 
 您的更改将自动保存为&#x200B;_草稿_&#x200B;状态。 如果您还未准备好发布角色模板，请单击页面顶部的左（后）箭头，并返回到&#x200B;_[!UICONTROL 角色模板]_&#x200B;列表。
 
-### Publish角色模板
+### 发布角色模板
 
-如果模板已准备就绪，请单击右上方的&#x200B;**[!UICONTROL Publish]**。
+如果模板已准备就绪，请单击右上方的&#x200B;**[!UICONTROL 发布]**。
 
 发布模板会将状态设置为&#x200B;_Live_&#x200B;状态，并使其可用于与解决方案兴趣关联。 必须至少定义一个角色才能发布角色模板。
 
