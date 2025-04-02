@@ -3,10 +3,10 @@ title: 拆分和合并路径
 description: 了解可用于在Journey Optimizer B2B edition中编排帐户旅程的拆分路径和合并路径节点类型。
 feature: Account Journeys
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: bc264c94ff870733ee433a317bbbd885a30fc259
+source-git-commit: 0902e5569847be148bb5037c99cadf0b00c67b8c
 workflow-type: tm+mt
-source-wordcount: '1587'
-ht-degree: 2%
+source-wordcount: '1665'
+ht-degree: 4%
 
 ---
 
@@ -54,21 +54,19 @@ _按人员划分的路径如何工作？_
 | ------------ | --------------- | ----------- |
 | [帐户](#add-a-split-path-by-account-node) | 帐户属性 | 帐户个人资料中的属性，包括： <li>年收入</li><li>城市</li><li>国家/地区</li><li>员工人数</li><li>行业</li><li>名称</li><li>SIC代码</li><li>State</li> |
 | | [!UICONTROL 特殊筛选器] > [!UICONTROL 有购买群] | 该帐户是否具有购买组的成员。 也可以根据以下一个或多个标准进行评估： <li>解决方案兴趣</li><li>购买组状态</li><li>完整性分数</li><li>参与度评分</li> |
+| | [!UICONTROL 特殊筛选器] > [!UICONTROL 具有机会] | 帐户是否与机会相关。 还可以针对以下一个或多个机会属性进行评估： <li>数量<li>关闭日期<li>描述<li>预期收入<li>财政季度<li>会计年度<li>预测类别<li>预测类别名称<li>为关闭<li>赢得了</li><li>上次活动日期</li><li>人员来源<li>名称</li><li>下一步</li><li>概率<li>数量<li>阶段</li><li>类型 |
 | [人员](#add-a-split-path-by-people-node) >仅[!UICONTROL 人员属性] | [!UICONTROL 人员属性] | 人员配置文件中的属性，包括： <li>城市</li><li>国家/地区</li><li>出生日期</li><li>电子邮件地址</li><li>电子邮件无效</li><li>电子邮件已暂停</li><li>名字</li><li>推断的状态区域</li><li>作业名称</li><li>姓氏</li><li>手机号码</li><li>电话号码</li><li>邮政编码</li><li>State</li><li>退订</li><li>取消订阅的原因</li> |
 | | [!UICONTROL 活动历史记录] > [!UICONTROL 电子邮件] | 与历程关联的电子邮件活动： <li>[!UICONTROL 已单击电子邮件中的链接]</li><li>已打开的电子邮件</li><li>已送达电子邮件</li><li>已发送电子邮件</li> 使用历程中早期的选定电子邮件评估这些条件。 |
 | | [!UICONTROL 活动历史记录] > [!UICONTROL 数据值已更改] | 对于选定的人员属性，发生值更改。 这些更改类型包括： <li>新值</li><li>上一个值</li><li>原因</li><li>来源</li><li>活动日期</li><li>最低 次数</li> |
 | | [!UICONTROL 活动历史记录] > [!UICONTROL 快乐时光] | 在关联的Marketo Engage实例中定义的有趣时刻活动。 限制包括： <li>里程碑</li><li>电子邮件</li><li>Web</li> |
 | | [!UICONTROL 特殊筛选器] > [!UICONTROL 购买团体成员] | 人员是否属于根据以下一个或多个标准评估的购买组成员： <li>解决方案兴趣</li><li>购买组状态</li><li>完整性分数</li><li>参与度评分</li><li>角色</li> |
 | | [!UICONTROL 特殊筛选器] > [!UICONTROL 列表成员] | 此人是否为一个或多个Marketo Engage列表的成员。 |
+| | [!UICONTROL 特殊筛选器] > [!UICONTROL 计划成员] | 此人是否为一个或多个Marketo Engage项目的成员。 |
 | [人员](#add-a-split-path-by-people-node) >仅[!UICONTROL 帐户 — 人员属性] | 帐户属性中的角色 | 人员是否在帐户中被分配了角色。 可选约束： <li>输入角色名称</li> |
 
 <!-- 
 
 Add back for next release:
-
-Accounts:
-
-| | [!UICONTROL Special filters] > [!UICONTROL Has opportunity] | The account is or is not related to an opportunity. Can also be evaluated against one or more of the following opportunity attributes: <li>Amount<li>Close date<li>Description<li>Expected revenue<li>Fiscal quarter<li>Fiscal year<li>Forecast category<li>Forecast category name<li>Is closed<li>Is won</li><li>Last activity date</li><li>Person source<li>Name</li><li>Next step</li><li>Probability<li>Quantity<li>Stage</li><li>Type |
 
 People:
 
