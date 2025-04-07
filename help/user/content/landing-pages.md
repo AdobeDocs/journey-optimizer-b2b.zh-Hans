@@ -2,31 +2,30 @@
 title: 登陆页面
 description: 了解登陆页面以及如何创建和管理登陆页面以支持帐户历程和营销活动。
 feature: Content
-hide: true
-hidefromtoc: true
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
-source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
+exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
+source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
 workflow-type: tm+mt
-source-wordcount: '1943'
+source-wordcount: '2188'
 ht-degree: 2%
 
 ---
 
 # 登陆页面
 
-登陆页面是一个独立的网页，您可以在联系人和客户单击电子邮件、短信消息或任何数字位置中的链接项目后指引他们。 您可以将这些页面合并到您的帐户历程中，以使您的潜在客户和客户在Web上查看您的消息，并在您的帐户历程中前进。 您可以在登陆页面Designer中创建、个性化和预览登陆页面。
+登陆页面是一个独立的网页，您可以在联系人和客户单击电子邮件、短信消息或任何数字位置中的链接项目后指引他们。 您可以将这些页面合并到您的帐户历程中，以使您的潜在客户和客户在Web上查看您的消息，并在您的帐户历程中前进。 您可以在登陆页面可视设计空间中创建、个性化和预览登陆页面。
 
 要在客户单击特定链接时将其指引到定义的网页，请在Journey Optimizer B2B edition中创建登陆页面。
 
 * 创建页面
 * 设计登陆页面和创作内容
 * 测试页面
-* Publish页面
+* 发布页面
 * 从您的历程内容链接到页面
 
 例如，您可以创建和设计登陆页面，以将用户定向到在线信息。 该页面可能包括一个表单，用户可以在其中选择加入或选择退出接收您的通信。 也可以是订阅定期通信（如新闻稿）的机会。
 
-您可以在可视设计器中创建、个性化和预览登陆页面。
+您可以在可视设计空间中创建、个性化和预览登陆页面。
 <!-- 
 For the Beta phase, you can only design landing pages from scratch and publish your landing pages. The landing pages will be served on adobe hosted domain for the Beta phase. The capability to define your branded domains for hosting will be delivered in a future release. -->
 
@@ -58,9 +57,9 @@ For the Beta phase, you can only design landing pages from scratch and publish y
 
 | 状态 | 描述 |
 | -------------------- | ----------- |
-| 草稿 | 创建登陆页面时，该页面处于草稿状态。 在您定义或编辑可视内容时，它保持此状态，直到您将其发布为托管页面。 可用操作： <br/><ul><li>编辑名称或描述<li>编辑链接URL<li>在可视设计器中编辑<li>发布<li>复制<li>Delete |
-| 发布日期 | 发布登陆页面时，该页面托管在Journey Optimizer B2B edition实例上，可供在电子邮件或短信消息内容中进行链接。 可用操作： <br/><ul><li>编辑名称或描述<li>编辑链接URL<li>在电子邮件或短信消息内容中添加链接<li>创建草稿版本<li>复制<li>Delete |
-| 以草稿发布 | 从已发布的登陆页面创建草稿时，已发布的版本会保留，并且草稿内容可以在可视设计器中进行修改。 如果您发布草稿版本，则该草稿版本会替换当前已发布的版本，并且托管页面中的内容会更新。 可用操作： <br/><ul><li>编辑名称或描述<li>编辑链接URL<li>在电子邮件或短信消息内容中添加链接<li>在可视设计器中编辑草稿版本<li>Publish草稿版本<li>复制<li>删除（删除两个版本）<li>放弃草稿（返回已发布） |
+| 草稿 | 创建登陆页面时，该页面处于草稿状态。 在您定义或编辑可视内容时，它保持此状态，直到您将其发布为托管页面。 可用操作： <br/><ul><li>编辑名称或描述<li>编辑链接URL<li>在可视设计空间中编辑<li>发布<li>重复<li>删除 |
+| 发布日期 | 发布登陆页面时，该页面托管在Journey Optimizer B2B edition实例上，可供在电子邮件或短信消息内容中进行链接。 可用操作： <br/><ul><li>编辑名称或描述<li>编辑链接URL<li>在电子邮件或短信消息内容中添加链接<li>创建草稿版本<li>重复<li>删除 |
+| 以草稿发布 | 从已发布的登陆页面创建草稿时，已发布的版本会保留，并且草稿内容可以在可视设计空间中修改。 如果您发布草稿版本，则该草稿版本会替换当前已发布的版本，并且托管页面中的内容会更新。 可用操作： <br/><ul><li>编辑名称或描述<li>编辑链接URL<li>在电子邮件或短信消息内容中添加链接<li>在可视设计空间中编辑草稿版本<li>发布草稿版本<li>重复<li>删除（删除两个版本）<li>放弃草稿（返回到已发布状态） |
 
 ![登陆页面状态生命周期](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -86,11 +85,11 @@ For the Beta phase, you can only design landing pages from scratch and publish y
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-   _[!UICONTROL 创建主登陆页面]_&#x200B;主页将打开，并提供了多个用于创建页面的选项：_[!UICONTROL 从头开始设计]_、_[!UICONTROL 导入HTML]_&#x200B;或使用保存的模板。
+   _[!UICONTROL 创建您的主登陆页面]_&#x200B;主页将打开，并提供了多个用于创建页面的选项：_[!UICONTROL 从头开始设计]_、_[!UICONTROL 导入HTML]_&#x200B;或使用保存的模板。
 
    ![选择您希望如何开始您的登陆页面设计](./assets/landing-page-create-design.png){width="800" zoomable="yes"}
 
-   选择要用于开始登陆页面设计的方法后，使用可视化设计器[设计页面](./landing-page-design.md)。
+   选择要用于开始登陆页面设计的方法后，使用可视化设计空间[设计页面](./landing-page-design.md)。
 
 ### 从头开始设计
 
@@ -112,7 +111,7 @@ Adobe Journey Optimizer B2B edition允许您导入现有HTML内容以设计登�
 >
 >在HTML文件中使用`<table>`标记作为第一层可能会导致样式丢失，包括顶层标记中的背景和宽度设置。
 
-您可以根据需要使用可视设计器个性化导入的内容。
+您可以根据需要通过可视设计空间个性化导入的内容。
 
 ### 选择已保存的模板
 
@@ -142,7 +141,7 @@ Adobe Journey Optimizer B2B edition允许您导入现有HTML内容以设计登�
 
 当显示与您想要使用的内容匹配时，单击预览窗口右上角的&#x200B;**[!UICONTROL 使用此模板]**。
 
-此操作会将内容复制到可视内容设计器中，您可以在其中根据需要编辑内容。
+此操作可将内容复制到可视化设计空间中，您可以根据需要在该空间编辑内容。
 
 >[!TAB 示例模板]
 
@@ -177,9 +176,9 @@ Adobe Journey Optimizer B2B edition提供了一系列&#x200B;_现成的_&#x200B;
 
    ![具有草稿状态的登陆页面的详细信息](./assets/landing-page-draft-details.png){width="700" zoomable="yes"}
 
-1. 要对可视设计器中的内容进行更改，请单击&#x200B;**[!UICONTROL 编辑登陆页]**。
+1. 若要更改可视化设计空间中的内容，请单击&#x200B;**[!UICONTROL 编辑登陆页面]**。
 
-   根据需要使用可视设计器工具：
+   根据需要使用可视化设计工具：
 
    * [添加结构和内容](./landing-page-design.md#add-structure-and-content)
    * [添加Assets](./landing-page-design.md#add-assets)
@@ -189,7 +188,7 @@ Adobe Journey Optimizer B2B edition提供了一系列&#x200B;_现成的_&#x200B;
 
 1. 单击&#x200B;**[!UICONTROL 保存]**，或单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回登陆页面的详细信息。
 
-1. 如果页面符合您的条件并且您希望可供显示，请单击&#x200B;**[!UICONTROL Publish]**。
+1. 当页面符合您的条件并且您想要显示时，请单击&#x200B;**[!UICONTROL 发布]**。
 
 >[!TAB 已发布]
 
@@ -203,11 +202,11 @@ Adobe Journey Optimizer B2B edition提供了一系列&#x200B;_现成的_&#x200B;
 
 1. 如果要更新内容，请单击右侧的&#x200B;**[!UICONTROL 编辑登陆页面]**。
 
-   在对话框中单击&#x200B;**[!UICONTROL 创建草稿版本]**&#x200B;以在可视设计器中打开草稿版本。
+   在对话框中单击&#x200B;**[!UICONTROL 创建草稿版本]**&#x200B;以在可视设计空间中打开草稿版本。
 
    ![创建草稿版本对话框](./assets/landing-page-create-draft-version.png){width="300"}
 
-   根据需要使用可视设计器工具：
+   根据需要使用可视化设计工具：
 
    * [添加结构和内容](./landing-page-design.md#add-structure-and-content)
    * [添加Assets](./landing-page-design.md#add-assets)
@@ -217,7 +216,7 @@ Adobe Journey Optimizer B2B edition提供了一系列&#x200B;_现成的_&#x200B;
 
 1. 单击&#x200B;**[!UICONTROL 保存]**，或单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回登陆页面的详细信息。
 
-1. 当草稿登陆页面符合您的条件并且您希望在已发布的页面上提供更改时，请单击&#x200B;**[!UICONTROL Publish]**。
+1. 当草稿登陆页面符合您的条件并且您希望在已发布的页面上提供更改时，单击&#x200B;**[!UICONTROL 发布]**。
 
    发布草稿版本时，草稿版本会替换当前已发布的版本，并且页面URL的内容会更新。
 
@@ -229,7 +228,7 @@ Adobe Journey Optimizer B2B edition提供了一系列&#x200B;_现成的_&#x200B;
 
 要更新内容，请执行以下操作：
 
-1. 单击右上方的&#x200B;**[!UICONTROL 编辑登陆页面]**。 根据需要使用可视设计器工具：
+1. 单击右上方的&#x200B;**[!UICONTROL 编辑登陆页面]**。 根据需要使用可视化设计工具：
 
    * [添加结构和内容](./landing-page-design.md#add-structure-and-content)
    * [添加Assets](./landing-page-design.md#add-assets)
@@ -239,7 +238,7 @@ Adobe Journey Optimizer B2B edition提供了一系列&#x200B;_现成的_&#x200B;
 
 1. 单击&#x200B;**[!UICONTROL 保存]**，或单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回登陆页面的详细信息。
 
-1. 当草稿页面符合您的条件并且您想要提供更改时，请单击&#x200B;**[!UICONTROL Publish]**。
+1. 当草稿页面符合您的条件并且您想要使更改可用时，单击&#x200B;**[!UICONTROL 发布]**。
 
    发布草稿版本时，草稿版本会替换当前已发布的版本，并且托管页面中的内容会更新。
 
@@ -292,3 +291,33 @@ Adobe Journey Optimizer B2B edition提供了一系列&#x200B;_现成的_&#x200B;
 此操作将打开确认对话框。 您可以通过单击&#x200B;**[!UICONTROL 取消]**&#x200B;或单击&#x200B;**[!UICONTROL 删除]**&#x200B;确认删除来中止该进程。
 
 ![删除登陆页面对话框](./assets/landing-page-delete-dialog.png){width="400"}
+
+## 链接到登陆页面
+
+作为创建电子邮件、片段和页面内容的营销人员或Designer，您可以嵌入指向在Journey Optimizer B2B edition实例中创建的已发布（实时）登陆页面的链接。
+
+1. 当您在片段、电子邮件、登陆页面或模板的可视设计空间中工作时，为链接选择文本摘录、按钮组件或图像组件。
+
+   **[!UICONTROL 链接]**&#x200B;选项显示在右侧面板中。
+
+1. 对于&#x200B;**[!UICONTROL Type]**&#x200B;选项，请选择&#x200B;**[!UICONTROL 登陆页面]**。
+
+   登陆页面的![链接选项](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"}
+
+1. 对于&#x200B;**[!UICONTROL 登陆页面]**&#x200B;选项，请单击&#x200B;_选择页面_&#x200B;图标（![显示链接图标](/help/assets/do-not-localize/icon-landing-page-select.svg)）。
+
+1. 在“选择登陆页面”对话框中，将&#x200B;**[!UICONTROL 登陆页面源]**&#x200B;设置为&#x200B;**[!UICONTROL Journey Optimizer B2B edition]**，从已发布的页面列表中选中该登陆页面的复选框，然后单击&#x200B;**[!UICONTROL 选择]**。
+
+   登陆页面的![链接选项](/help/assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
+
+1. 对于&#x200B;**[!UICONTROL Target]**&#x200B;选项，请选择链接目标行为：
+
+   * **[!UICONTROL 无]** — 使用浏览器默认行为打开链接。
+   * **[!UICONTROL 空白]** — 在新窗口或选项卡中打开链接。
+   * **[!UICONTROL Self]** — 在同一帧中打开链接。
+   * **[!UICONTROL 父项]** — 在父框架中打开链接。
+   * **[!UICONTROL Top]** — 在窗口的整个正文中打开链接。
+
+1. （仅限文本链接）如果要为链接的文本加下划线，请选中&#x200B;**[!UICONTROL 加下划线链接]**&#x200B;复选框。
+
+   通过选择右侧面板中的&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡，可以为链接文本设置其他样式，包括链接颜色。

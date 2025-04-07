@@ -3,9 +3,9 @@ title: 电子邮件模板
 description: 了解如何管理和创建用于轻松高效地创作帐户历程电子邮件的电子邮件模板。
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 81c2f7be29e3fdb0b279a2ec8b786e4cf68596da
+source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1319'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ![访问电子邮件模板库并按名称和日期进行筛选](./assets/templates-list-search-filter.png){width="700" zoomable="yes"}
 
-通过单击右上角的&#x200B;_自定义表_&#x200B;图标，自定义要在表中显示的列。 选择要显示的列，然后单击&#x200B;**[!UICONTROL 应用]**。
+通过单击右上角的&#x200B;_自定义表_&#x200B;图标（![自定义表图标](../assets/do-not-localize/icon-column-settings.svg)）自定义要在表中显示的列。 选择要显示的列，然后单击&#x200B;**[!UICONTROL 应用]**。
 
 从显示的模板列表中，您可以执行以下部分中描述的操作。
 

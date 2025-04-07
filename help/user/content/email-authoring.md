@@ -3,10 +3,10 @@ title: 电子邮件创作
 description: 了解如何创建在帐户历程中使用的个性化电子邮件内容。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 12%
+source-wordcount: '1297'
+ht-degree: 11%
 
 ---
 
@@ -144,6 +144,10 @@ ht-degree: 12%
 ### 使内容个性化
 
 {{$include /help/_includes/content-design-personalization.md}}
+
+>[!NOTE]
+>
+>如果为帐户历程定义了&#x200B;_[!UICONTROL 我的令牌]_，则还可以将这些特定于历程的令牌用于电子邮件内容。 有关详细信息，请参阅电子邮件个性化的[自定义令牌](./personalization-my-tokens.md)。
 
 ### 编辑链接的URL跟踪
 

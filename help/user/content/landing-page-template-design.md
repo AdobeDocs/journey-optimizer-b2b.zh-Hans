@@ -1,31 +1,30 @@
 ---
-title: 登陆页面设计
-description: 了解如何为支持帐户历程和营销活动的登陆页面设计和创作内容。
+title: 登陆页面模板设计
+description: 了解如何为营销人员可重复使用的登陆页面模板设计和创作内容以创建登陆页面。
 feature: Content
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
-exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 22112bde7692247d9bc0ea9b79160682b9370f55
+source-git-commit: f0658fad82d6656bc052c1810530963404e29396
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 18%
+source-wordcount: '319'
+ht-degree: 8%
 
 ---
 
-# 登陆页面设计
+# 登陆页面模板设计
 
-在您[创建登陆页面](./landing-pages.md#create-a-landing-page)之后，请使用可视化设计空间在页面中创作结构和内容组件。
+在您[创建登陆页面模板](./landing-page-templates.md#create-a-landing-page-template)之后，请使用可视化设计空间在页面模板中创作结构和内容组件。
 
 ## 添加结构和内容 {#structure-content-landing-page}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_structure"
+>id="ajo-b2b_landing_page_template_structure"
 >title="将结构组件添加到登陆页面"
->abstract="结构组件定义登陆页面的版面。将&#x200B;**结构**&#x200B;组件拖放到画布中，开始设计您的页面内容。"
+>abstract="结构组件定义登陆页面的版面。将&#x200B;**Structure**&#x200B;组件拖放到画布中，以开始设计页面模板的内容。"
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_content_components"
+>id="ajo-b2b_landing_page_template_content_components"
 >title="关于登陆页面的内容组件"
->abstract="内容组件是空的内容占位符，您可用它来创建登陆页面的版面。"
+>abstract="内容组件是空的内容占位符，可用于创建登陆页面模板的布局。"
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -51,9 +50,9 @@ ht-degree: 18%
 
 ### 保存您所做的工作
 
-随时单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存草稿登陆页面。
-
-您可以继续对草稿页面进行编辑。 当您准备好显示页面并在电子邮件或短信消息中提供链接时，可以发布页面。
+随时单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存登陆页面模板。
+<!--
+You can continue to make edits to the draft page template. When you are ready to make it available for using in page creation, you can [publish the template](./landing-page-templates.md#). -->
 
 ### 查看选项
 

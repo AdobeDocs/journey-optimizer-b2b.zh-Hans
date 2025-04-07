@@ -3,9 +3,9 @@ title: 短信创作
 description: 了解如何在其移动设备上向客户发送短信(SMS)，以及通过短信编辑器以文本格式个性化和预览消息。
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: c3352db2235af08e31ba7e4d8690bc9e330dd41f
+source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1368'
 ht-degree: 3%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 3%
 
 1. 在对话框中，选择要链接的URL类型：
 
-   * **[!UICONTROL 登陆页面]** — 选择此选项可从您的Marketo Engage实例中选择任何已批准的Adobe Marketo Engage Design Studio登陆页面。 选择工作区，然后选择登陆页面。
+   * **[!UICONTROL 登陆页面]** — 选择此选项可从Marketo Engage实例中选择任何已批准的Adobe Marketo Engage登陆页面。 选择工作区，然后选择登陆页面。
 
    * **[!UICONTROL 外部URL]** — 此类型是您在文本框中输入的任何外部URL。
 
@@ -90,7 +90,7 @@ ht-degree: 3%
 
      >[!NOTE]
      >
-     >当您允许跟踪但禁用&#x200B;_[!UICONTROL 包含mkt_tok]_&#x200B;时，目标URL在重定向后不包含`mkt_tok`查询字符串参数。 此参数供Marketo Engage登录页和Munchkin使用，以确保对人员活动的跟踪（例如，当人员取消订阅电子邮件时）。 除非参数导致您的网站出现问题，否则请勿禁用此选项。<br/>
+     >当您允许跟踪但禁用&#x200B;_[!UICONTROL 包含mkt_tok]_&#x200B;时，目标URL在重定向后不包含`mkt_tok`查询字符串参数。 Marketo Engage登陆页面和Munchkin使用此参数以确保跟踪人员活动（例如，当人员取消订阅电子邮件时）。 除非参数导致您的网站出现问题，否则请勿禁用此选项。<br/>
      >有关在网站上使用Munchkin跟踪代码的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}。
 
    ![为短信消息添加链接对话框](./assets/sms-add-link-dialog.png){width="470"}
@@ -101,7 +101,7 @@ ht-degree: 3%
 
 1. 在&#x200B;_[!UICONTROL 短信属性]_&#x200B;部分中，为您的消息输入&#x200B;**[!UICONTROL Name]**（必需，最多100个字符）和&#x200B;**[!UICONTROL Description]**（可选，最多300个字符）。
 
-   这些字段允许Alpha、数字和特殊字符。 以下保留字符是&#x200B;**不允许的**： `\`、`/`、`:`、`*`、`?`、`"`、`<`、`>`和`|`。
+   这些字段允许使用Alpha、数字和特殊字符。 以下保留字符是&#x200B;**不允许的**： `\`、`/`、`:`、`*`、`?`、`"`、`<`、`>`和`|`。
 
 1. 选择&#x200B;**[!UICONTROL 短信类型]**：
 
@@ -137,7 +137,7 @@ ht-degree: 3%
 
 1. 使用&#x200B;_模拟内容_&#x200B;页面管理用于测试配置文件的潜在客户。
 
-   在显示的列表中，您可以从Marketo Engage潜在客户数据库中搜索并添加任何潜在客户（一次最多10个潜在客户）。
+   在显示的列表中，您可以从Marketo Engage lead数据库中搜索并添加任何潜在客户（一次最多10个潜在客户）。
 
    要搜索，请输入整个电子邮件地址，然后按&#x200B;_Enter_。 将显示相应的潜在客户配置文件以供选择。
 
@@ -165,4 +165,4 @@ Journey Optimizer B2B edition提供了使用以下逻辑管理短信消息中的
 
 * 默认情况下，如果商机选择不接收您的通信，则相应的用户档案将从后续短信投放中排除
 
-* 来自不同来源（例如AEP或短信服务提供商）的潜在客户同意已同步到Journey Optimizer B2B edition。 目前，在实例级别，它仅支持每个商机的单个同意状态（商机“John Doe”订阅或取消订阅实例中的所有促销短信）。 它当前不支持在品牌级别/单个订阅列表级别同意双重选择加入。
+* 来自不同来源(如AEP或短信服务提供商)的潜在客户同意将同步到Journey Optimizer B2B edition。 目前，在实例级别，它仅支持每个商机的单个同意状态（商机“John Doe”订阅或取消订阅实例中的所有促销短信）。 它当前不支持在品牌级别/单个订阅列表级别同意双重选择加入。

@@ -3,10 +3,10 @@ title: 购买组阶段
 description: 了解购买组阶段，以及如何定义这些阶段以根据销售目标跟踪历程进展。
 feature: Buying Groups, Account Journeys
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 266a9bde4ec889ec3577a7fa8881bec4763a66fd
 workflow-type: tm+mt
-source-wordcount: '2257'
-ht-degree: 0%
+source-wordcount: '2344'
+ht-degree: 1%
 
 ---
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
 只要购买组阶段模型仍处于&#x200B;_草稿_&#x200B;状态，您就可以编辑阶段和过渡规则。
 
-要查看绘制模型，请执行以下操作：
+_要查看草稿模型：_
 
 1. 在左侧导航中，转到&#x200B;**[!UICONTROL 帐户]** > **[!UICONTROL 购买群组]**。
 
@@ -186,6 +186,20 @@ Columns - Name, Status, Created by, Created date, Last updated by, Last update, 
 Name - Name of the stage model, hyperlinked. Clicking on it will navigate to the stage inventory page. 
 Info icon beside the name - display the description on click.
 Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. -->
+
+## 删除购买组阶段模型
+
+当购买组阶段模型处于草稿或已发布状态时，您可以将其删除。 如果该文件已发布（实时），则只能在其与解决方案兴趣无关时将其删除。
+
+1. 在左侧导航中，转到&#x200B;**[!UICONTROL 帐户]** > **[!UICONTROL 购买群组]**。
+
+1. 在&#x200B;_购买组_&#x200B;页面中，选择&#x200B;**[!UICONTROL 阶段]**&#x200B;选项卡。
+
+1. 单击阶段模型名称旁边的&#x200B;_更多_&#x200B;菜单图标(**...**)，然后选择&#x200B;**[!UICONTROL 删除]**。
+
+   ![购买组阶段模型更多菜单](./assets/stages-model-list-more-menu.png){width="700"}
+
+1. 在对话框中，单击&#x200B;**[!UICONTROL 删除]**&#x200B;以进行确认。
 
 ## 在帐户历程中使用模型
 

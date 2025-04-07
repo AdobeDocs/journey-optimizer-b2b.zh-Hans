@@ -1,16 +1,16 @@
 ---
 title: 内容创作 — 链接跟踪
 description: 重用有关编辑内容创作的链接跟踪的部分
-source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
+source-git-commit: e201d0b54309411d024a1b04c3bf7e67d4700aa9
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
 
 # 内容创作 — 链接跟踪
 
-1. 单击左侧的&#x200B;_[!UICONTROL 链接]_&#x200B;图标以显示要跟踪的内容的所有URL。
+1. 单击左侧的&#x200B;_[!UICONTROL 链接]_&#x200B;图标（![显示链接图标](../assets/do-not-localize/icon-links.svg)）可显示您的内容中要跟踪的所有链接URL。
 
 1. 如果需要，请单击&#x200B;_编辑_ （![编辑图标](../user/assets/do-not-localize/icon-edit.svg) ）图标并修改&#x200B;**[!UICONTROL 跟踪类型]**&#x200B;或&#x200B;**[!UICONTROL 标签]**。
 
