@@ -2,9 +2,9 @@
 title: 发行说明
 description: Adobe Journey Optimizer B2B Edition 的最新发行说明
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: dd93531d76ecb025451f0015eedd9ccce0986cb8
+source-git-commit: 228837741f3373ee2b8423515b7412564281f8ea
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1818'
 ht-degree: 89%
 
 ---
@@ -26,7 +26,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
 | 新功能 | 帐户列表 | 您现在可以创建静态或动态帐户列表，以按定义的条件（如行业、位置或公司规模）定位指定帐户。 <a href="../accounts/account-lists.md">了解详情</a> |
-| 新功能 | 帐户历程的我的令牌 | 您现在可以使用特定于帐户历程的值定义一组自定义令牌。 这组自定义令牌称为&#x200B;_我的令牌_，其中的任何自定义令牌均用于在创作历程电子邮件时进行个性化。 |
+| 新功能 | 帐户历程的我的令牌 | 您现在可以使用特定于帐户历程的值定义一组自定义令牌。 这组自定义令牌称为&#x200B;_我的令牌_，其中的任何自定义令牌均用于在创作历程电子邮件时进行个性化。 <a href="../content/personalization-my-tokens.md">了解详情</a> |
 | 新功能 | 删除购买组阶段 | 当购买组阶段模型处于草稿或已发布状态时，您可以将其删除。 如果该文件已发布（实时），则只能在其与解决方案兴趣无关时将其删除。 <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">了解详情</a> |
 | 增强功能 | 历程节点计数 | 改进了节点级别历程成员资格计数的可见性。 使用此信息验证客户在历程中的进展。 |
 
