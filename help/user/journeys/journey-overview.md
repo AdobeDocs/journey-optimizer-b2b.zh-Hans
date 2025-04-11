@@ -1,6 +1,6 @@
 ---
 title: 帐户历程
-description: 了解帐户历程，以及如何将其创建和管理。
+description: 了解帐户历程，以及如何进行创建和管理。
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: bd6f998b610c6f3a4d7c0e1fce5db4bb72b8a1e3
@@ -15,27 +15,27 @@ ht-degree: 30%
 
 通过客户历程，您可以简化需求生成和购买团体资格鉴定，并推动对您的收购、追加销售/交叉销售和保留计划的更多合格需求。 使用电子邮件、短信、活动等自动参与功能，为每个购买组和购买组成员定制历程。
 
-定义销售驱动参与（包括电子邮件、短信和更多内部帐户历程），协调针对每个购买群组成员的入站营销和出站销售活动。
+定义销售驱动型参与（包括电子邮件、短信和更多内部帐户历程），协调每个购买群组成员的入站营销和出站销售活动。
 
 ![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看概述视频](#overview-video)
 
-## 历程入门
+## 开始使用历程
 
-要开始帐户历程入门，请执行以下操作：
+如要开始使用帐户历程：
 
 1. [创建历程](./create-publish-journey.md#create-an-account-journey)。
-1. 在历程图中[添加节点](./create-publish-journey.md#add-a-node)，并[定义历程流程图](./create-publish-journey.md#add-and-delete-a-path)。
+1. 在历程图中[添加节点](./create-publish-journey.md#add-a-node)，然后[定义历程流程图](./create-publish-journey.md#add-and-delete-a-path)。
 1. [发布历程](./create-publish-journey.md#publish-an-account-journey)。
 
 ## 访问并浏览帐户历程
 
 1. 在 Adobe Experience Platform 主页中，单击 Adobe Journey Optimizer B2B Edition。
 
-1. 在左侧导航栏中，单击&#x200B;**[!UICONTROL 帐户历程]**。
+1. 在左侧导航栏中单击&#x200B;**[!UICONTROL 帐户历程]**。
 
    ![访问帐户历程](./assets/account-journey-browse.png){width="800" zoomable="yes"}
 
-   显示的历程页面包括以下列：
+   显示的历程页面包括以下几列：
 
    * [!UICONTROL 名称]（单击该名称以打开历程进行编辑）
    * [!UICONTROL 状态]
@@ -69,10 +69,10 @@ ht-degree: 30%
 | 状态 | 描述 | 可用操作 |
 | ------ | ----------- | ----------------- |
 | _**草稿**_ | 可编辑的未发布历程。 | <ul><li>[发布](./create-publish-journey.md#publish-an-account-journey)</li><li>重复 </li><li>删除 </li></ul> |
-| _**实时**_ | 发布历程时，历程状态从草稿变为实时。在这种状态下，历程将无法再编辑。 | <ul><li>重复 </li><li>对新登入关闭 </li><li>中止 </li></ul> |
+| _**实时**_ | 历程发布后，历程状态就从草稿变为实时。在这种状态下，历程无法再编辑。 | <ul><li>重复 </li><li>对新登入关闭 </li><li>中止 </li></ul> |
 | _**对新登入关闭**_ | 单击顶部导航中的[!UICONTROL 对新登入关闭]，历程状态从&#x200B;_实时_&#x200B;变为&#x200B;_对新登入关闭_。 | <ul><li>重复 </li><li>中止 </li></ul> |
-| _**已中止**_ | 中止历程时，历程状态从&#x200B;_实时_&#x200B;或&#x200B;_对新登入关闭_&#x200B;发生更改。已中止历程无法重新开始。 | <ul><li>重复 </li><li>删除 </li></ul> |
-| _**已完成**_ | 当历程中的所有帐户都完成历程时，状态将从“实时”或“对新登入关闭”变为“已完成”。 | <ul><li>重复 </li><li>删除 </li></ul> |
+| _**已中止**_ | 历程中止后，历程状态从&#x200B;_实时_&#x200B;或&#x200B;_对新登入关闭_&#x200B;改变。已中止历程无法重新开始。 | <ul><li>重复 </li><li>删除 </li></ul> |
+| _**已完成**_ | 历程中的所有帐户都完成历程后，状态将从“实时”或“对新登入关闭”变为“已完成”。 | <ul><li>重复 </li><li>删除 </li></ul> |
 
 ## 管理历程
 
@@ -96,7 +96,7 @@ _帐户历程_&#x200B;列表包含您的Journey Optimizer B2B edition实例中�
 
 ### 对新登入关闭
 
-如果您关闭实时历程，则当前位于该历程中的帐户将继续其在该历程中的路径，并且无法进一步进入历程。 已关闭历程无法重新开始。您可以重复已关闭的历程。
+如果您关闭实时历程，则当前位于该历程中的帐户将继续其在该历程中的路径，并且无法进一步进入历程。 已关闭历程无法重新开始。您可以重复一个已关闭的历程。
 
 >[!IMPORTANT]
 >
