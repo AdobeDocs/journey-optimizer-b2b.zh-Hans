@@ -1,9 +1,9 @@
 ---
 title: 内容创作 — 使用片段
 description: 有关使用片段进行内容创作的重用部分
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,9 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-**可编辑的字段**
+可自定义片段中的&#x200B;**可编辑字段**
 
-可视片段可以包含可自定义的可编辑字段。 自定义字段允许您在将片段合并到内容时修改参数，并创建量身定制的体验而不影响原始片段。 如果包含的片段包含具有可编辑字段的组件，则可以更改默认值。
+可视片段可以包含可自定义的可编辑字段。 自定义字段允许您在将片段合并到内容时修改参数，并创建量身定制的体验而不影响原始片段。 片段作者可以[为文本、图像和按钮组件的自定义](../user/content/fragment-authoring.md#enable-fragment-customization)设计片段。 如果包含的片段包含具有可编辑字段的组件，则可以更改默认值以针对内容对其进行自定义。
 
 1. 选择片段组件。
 
