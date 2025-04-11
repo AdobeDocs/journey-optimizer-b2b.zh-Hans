@@ -1,38 +1,38 @@
 ---
 title: 登录和主页
-description: 了解如何访问Journey Optimizer B2B edition应用程序并使用主页信息。
+description: 了解如何访问 Journey Optimizer B2B Edition 应用程序，并使用主页信息。
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: f7f9531cce6447b4715f0e76b0fd8ce57715f519
+source-git-commit: 2d3437d133f6eacdd5beaf1e7da5cc8ef5992b90
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 6%
+source-wordcount: '452'
+ht-degree: 96%
 
 ---
 
 # 登录和主页
 
-借助 Adobe Journey Optimizer B2B 版本，您可以使用内置的生成式 AI 和行业领先的自动化功能来协调帐户和购买群组历程，以使用符合营销资格的购买群组来最大限度地满足特定产品的需求。
+借助 Adobe Journey Optimizer B2B Edition，您可以使用内置的生成式 AI 和行业领先的自动化功能来协调帐户和购买群组历程，以使用符合营销资格的购买群组来最大限度地满足特定产品的需求。
 
 <!-- Requirements?
 -->
-要访问[!DNL Adobe Journey Optimizer B2B Edition]，请使用您的Adobe ID连接到Adobe Experience Cloud，然后选择[!DNL Journey Optimizer B2B Edition]。
+要访问 [!DNL Adobe Journey Optimizer B2B Edition]，请使用 Adobe ID 连接到 Adobe Experience Cloud，然后选择 [!DNL Journey Optimizer B2B Edition]。
 
-![Adobe Experience Platform应用程序](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
+![Adobe Experience Platform apps](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}{width=&quot;800&quot; zoomable=&quot;yes&quot;}
 
-登录到Adobe Experience Platform并选择Adobe Journey Optimizer B2B edition应用程序时，将显示主页。 本页以<!-- refined insights and-->快速访问相关模块的形式概述了Journey Optimizer B2B计划的当前状态。<!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
+您登录 Adobe Experience Platform 并选择 Adobe Journey Optimizer B2B Edition 应用程序后，将显示主页。此页面以<!-- refined insights and-->快速访问相关模块的形式概述了 Journey Optimizer B2B 计划的当前状态。<!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
-![Journey Optimizer B2B edition主页](./assets/home-page.png){width="800" zoomable="yes"}
+![Journey Optimizer B2B Edition home page](./assets/home-page.png){width="800" zoomable="yes"}{width=&quot;800&quot; zoomable=&quot;yes&quot;}
 
-Journey Optimizer B2B edition有两个主要用户角色：_**营销人员**_&#x200B;和&#x200B;_**管理员**_。 每个角色都有一个用于不同成熟度阶段（新阶段或高级阶段）的特定主页。 页面内容基于每个角色在信息方面的需要以及将要采取的后续操作。
+Journey Optimizer B2B Edition 有两个主要用户角色：_**营销人员**_&#x200B;和&#x200B;_**管理员**_。每个角色都有针对不同成熟度阶段（新用户或高级用户）的特定主页。页面内容基于每个角色所需的信息以及接下来要执行的操作。
 
-* **营销人员 — 新用户** — 新用户的&#x200B;_营销人员_&#x200B;主页可帮助他们适应Journey Optimizer B2B及其功能。 它包括面向新营销人员的引导式演练，以获取入门演练，以便他们能够了解系统的细微差别，并在制定B2B营销策略和计划时变得高效。
-* **营销人员 — 高级用户** — 高级营销人员的&#x200B;_营销人员_&#x200B;主页可帮助他们获取有关计划的当前进度、特定操作和要采取的下一个最佳操作的更多信息，并可快速访问相关章节。
-* **管理员 — 新用户** — 新管理员的&#x200B;_管理员_&#x200B;主页可帮助他们适应Journey Optimizer B2B edition及其功能。 它包括对新管理员的引导式演练，以获得逐步入门培训历程，从而了解系统的细微差别并有效制定B2B营销策略和计划。
-* **管理员 — 高级用户** — 高级管理员的&#x200B;_管理员_&#x200B;主页可帮助他们获取有关实例当前状态的更多信息，以及可采取哪些具体操作来提高营销人员的效率和效力。
+* **营销人员 - 新用户**——针对新用户的&#x200B;_营销人员_&#x200B;主页可帮助他们熟悉 Journey Optimizer B2B 及其功能。它包括为新营销人员在新加入时进行指导性讲解，以便他们能够了解系统的细微差别，并有效地制定 B2B 营销策略和计划。
+* **营销人员 - 高级用户**——针对高级营销人员的&#x200B;_营销人员_&#x200B;主页可帮助他们获取更多信息，了解当前的计划进度、特定的操作以及下一步应执行的最佳操作，并可快速访问相关部分。
+* **管理员 - 新用户**——针对新管理员的&#x200B;_管理员_&#x200B;主页可帮助他们熟悉 Journey Optimizer B2B Edition 及其功能。它包括一个指导性讲解，逐步引导新管理员，以便他们能够了解系统的细微差别，并有效地制定 B2B 营销策略和计划。
+* **管理员 - 高级用户**——针对高级管理员的&#x200B;_管理员_&#x200B;主页可帮助他们获取有关实例当前状态的更多信息，以及可执行哪些特定的操作来提高营销人员的成果和效率。
 
-_[!UICONTROL 最近访问的]_&#x200B;部分为营销人员或管理员提供了最近访问过的资源列表。 使用此列表直接转到您最近处理的资产，而无需浏览一系列资产页面并搜索。
+_[!UICONTROL 最近访问的]_&#x200B;部分提供了营销人员或管理员最近访问的资产列表。使用此列表可直接前往您最近使用过的资产，而无需浏览一系列资产页面进行搜索。
 
-该页面还包括对[AI助手](./start/ai-assistant.md)的访问权限，这有助于用户快速获取有关他们所需的任何特定问题或主题的信息。<!-- and to obtain specific recommendations for their challenges or objectives-->
+通过该页面还可以访问 [AI 助手](./ai-assistant/ai-assistant-overview.md)，帮助用户快速获取他们需要的任何特定问题或主题的信息。<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!-- 
 
