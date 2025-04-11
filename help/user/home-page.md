@@ -4,8 +4,8 @@ description: 了解如何访问 Journey Optimizer B2B Edition 应用程序，并
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
 source-git-commit: 2d3437d133f6eacdd5beaf1e7da5cc8ef5992b90
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 96%
+source-wordcount: '444'
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 96%
 -->
 要访问 [!DNL Adobe Journey Optimizer B2B Edition]，请使用 Adobe ID 连接到 Adobe Experience Cloud，然后选择 [!DNL Journey Optimizer B2B Edition]。
 
-![Adobe Experience Platform apps](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}{width=&quot;800&quot; zoomable=&quot;yes&quot;}
+![Adobe Experience Platform 应用程序](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
 您登录 Adobe Experience Platform 并选择 Adobe Journey Optimizer B2B Edition 应用程序后，将显示主页。此页面以<!-- refined insights and-->快速访问相关模块的形式概述了 Journey Optimizer B2B 计划的当前状态。<!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
-![Journey Optimizer B2B Edition home page](./assets/home-page.png){width="800" zoomable="yes"}{width=&quot;800&quot; zoomable=&quot;yes&quot;}
+![Journey Optimizer B2B Edition 主页](./assets/home-page.png){width="800" zoomable="yes"}
 
 Journey Optimizer B2B Edition 有两个主要用户角色：_**营销人员**_&#x200B;和&#x200B;_**管理员**_。每个角色都有针对不同成熟度阶段（新用户或高级用户）的特定主页。页面内容基于每个角色所需的信息以及接下来要执行的操作。
 

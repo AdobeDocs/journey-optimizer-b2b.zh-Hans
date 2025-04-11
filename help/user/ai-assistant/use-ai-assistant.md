@@ -6,7 +6,7 @@ level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
 source-git-commit: d19ed2bbe850a14cb0563f6e3563cd8f1c8d3226
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 要访问AI助手，请单击标题中的图标。 AI助手将在右侧的面板中打开。
 
-![单击图标以访问AI助手](./assets/ai-assistant-icon-displayed.png){width="420" zoomable="yes"}{width=&quot;420&quot; zoomable=&quot;yes&quot;}
+![单击图标以访问AI助手](./assets/ai-assistant-icon-displayed.png){width="420" zoomable="yes"}
 
 此时将显示AI Assistant界面，它立即为您提供开始使用的信息。 您可以使用&#x200B;_构思下提供的选项开始_&#x200B;并回答问题和命令，例如：
 
@@ -41,13 +41,13 @@ ht-degree: 0%
 
 要询问产品问题，请在面板底部的字段中输入该问题并按Enter键。
 
-![在文本框中输入问题](./assets/ai-assistant-ask-question.png){width="420" zoomable="yes"}{width=&quot;420&quot; zoomable=&quot;yes&quot;}
+![在文本框中输入问题](./assets/ai-assistant-ask-question.png){width="420" zoomable="yes"}
 
 您可以通过查看每个产品知识答案中可用的引文来验证AI Assistant返回的响应。
 
 要查看引文并验证AI助理的响应，请选择&#x200B;**[!UICONTROL 显示源]**。
 
-![来自AI Assistant查询的结果](./assets/ai-assistant-answer.png){width="420" zoomable="yes"}{width=&quot;420&quot; zoomable=&quot;yes&quot;}
+![来自AI Assistant查询的结果](./assets/ai-assistant-answer.png){width="420" zoomable="yes"}
 
 AI Assistant会更新界面，并为您提供可证实初始响应的文档的链接。 此外，启用引用后，AI Assistant将更新响应以包含脚注，用于指示引用所提供文档的答案的特定部分。
 

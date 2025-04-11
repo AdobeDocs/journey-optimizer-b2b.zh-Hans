@@ -3,9 +3,10 @@ title: 启用AI助手访问
 description: 占位符
 feature: AI Assistant
 level: Beginner
-source-git-commit: 5ca03b12fd459c64b245ad95e60a382c355922f9
+exl-id: f08e0cab-f430-4f7f-8cde-ccf4fabe1ff4
+source-git-commit: f09f3f5b7d4419ead5308e4c5be3b518b4e16ff5
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
@@ -28,13 +29,13 @@ ht-degree: 1%
 
 * 将&#x200B;**查看运营分析**&#x200B;权限添加到给定角色，并将用户添加到该角色。 此权限允许用户使用AI助手操作分析功能。
 
-![分配AI助手权限](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}{width=&quot;800&quot; zoomable=&quot;yes&quot;}
+![分配AI助手权限](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}
 
 使用权限UI可授予在Journey Optimizer B2B edition中使用AI助理的权限。 有关在Experience Platform和其他Experience Cloud应用程序中访问AI助手的信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access)。
 
 当用户具有必要的权限时，他们可以通过选择您正在使用的应用程序顶部标题上的&#x200B;_AI助手_&#x200B;图标来访问AI助手。
 
-应用程序标头](./assets/ai-assistant-icon-header.png){width="800" zoomable="yes"}{width=&quot;800&quot; zoomable=&quot;yes&quot;}中的![AI助手图标
+应用程序标头中的![AI助手图标](./assets/ai-assistant-icon-header.png){width="800" zoomable="yes"}
 
 ## AI助手访问概述视频
 
