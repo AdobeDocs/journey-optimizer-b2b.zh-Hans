@@ -2,14 +2,14 @@
 title: XDM字段
 description: 查看在Adobe Experience Platform和Journey Optimizer B2B edition之间同步的默认属性字段。
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: e2a802750ee221caf83989c5731e0daee64aa63e
+source-git-commit: 34ef9681b75ef1cd43d34e3f2836a60affb95b33
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1342'
 ht-degree: 12%
 
 ---
 
-# XDM字段
+# XDM 字段
 
 帐户受众数据同时作为属性存储在XDM业务帐户和XDM业务人员类中。 数据定期在Adobe Experience Platform和Journey Optimizer B2B edition之间同步。 以下部分列出了缺省属性集。
 
@@ -31,8 +31,6 @@ ht-degree: 12%
 
 | [属性](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | 显示名称 | Journey Optimizer B2B显示名称 | 数据类型 | 描述 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
-| `b2b.companyName` | 公司名称 | 公司名称 | 字符串 | 与业务人员关联的公司的名称。 |
-| `b2b.companyWebsite` | 公司网站 | 网站 | 字符串 | 与业务人员关联的公司的网站。 |
 | `b2b.isMarketingSuspended` | 营销暂停指标 | 营销暂停 | 布尔值 | 该值指示人员营销是否暂停。 |
 | `b2b.marketingSuspendedCause` | 营销暂停原因 | 营销暂停原因 | 字符串 | 如果暂停了人员的营销，则此属性提供了原因。 |
 | `b2b.personStatus` | 人员状态 | 潜在客户状态 | 字符串 | 记录人员当前营销/销售状态的字段。 |
@@ -101,5 +99,5 @@ ht-degree: 12%
 | `opportunityName` | 机会名称 | 机会名称 | 字符串 | 机会的主题或描述性名称，如预期订单或公司名称。 |
 | `opportunityQuantity` | 机会数量 | 机会数量 | 字符串 | 商机的相关“产品”列表中所有产品的所有数量字段值的总和。 |
 | `opportunityStage` | 机会阶段 | 机会阶段 | 字符串 | 机会的销售阶段，以帮助销售团队赢得销售机会。 |
-| `opportunityType` | 机会类型 | 机会类型 | 字符串 | 分配给机会的类型，如_Existing Business _或&#x200B;_New Business_ |
+| `opportunityType` | 机会类型 | 机会类型 | 字符串 | 分配给机会的类型，如&#x200B;_现有业务_&#x200B;或&#x200B;_新业务_ |
 | `probabilityPercentage` | 概率百分比 | 机会概率百分比 | 字符串 | 关闭机会的可能性，以百分比表示。 |
