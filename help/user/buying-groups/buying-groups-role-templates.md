@@ -3,10 +3,10 @@ title: 购买组角色模板
 description: 了解如何定义用作购买组组件的角色模板。
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 745b88044c4194f08033b7bb3f79106ca206ae61
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 4%
+source-wordcount: '1115'
+ht-degree: 3%
 
 ---
 
@@ -17,8 +17,6 @@ ht-degree: 4%
 ![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看概述视频](#overview-video)
 
 ## 访问和浏览角色模板
-
-1. 在 Adobe Experience Platform 主页中，单击 Adobe Journey Optimizer B2B Edition。
 
 1. 在左侧导航栏中，单击&#x200B;**[!UICONTROL 购买群组]**。
 

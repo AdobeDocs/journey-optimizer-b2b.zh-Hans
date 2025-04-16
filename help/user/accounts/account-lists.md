@@ -2,10 +2,10 @@
 title: 帐户列表
 description: 了解帐户列表以及营销人员如何使用它们通过帐户历程定位帐户。
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 25776f0ccf4e3b55891d704ebf766aa142b8e536
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 2%
+source-wordcount: '1621'
+ht-degree: 1%
 
 ---
 
@@ -20,21 +20,19 @@ ht-degree: 2%
 
 ## 访问和浏览帐户列表
 
-1. 在 Adobe Experience Platform 主页中，单击 Adobe Journey Optimizer B2B Edition。
+在左侧导航栏中，展开&#x200B;**[!UICONTROL 帐户]**，然后单击&#x200B;**[!UICONTROL 帐户列表]**。
 
-1. 在左侧导航栏中，展开&#x200B;**[!UICONTROL 帐户]**，然后单击&#x200B;**[!UICONTROL 帐户列表]**。
+![访问帐户历程](./assets/account-lists-browse.png){width="800" zoomable="yes"}
 
-   ![访问帐户历程](./assets/account-lists-browse.png){width="800" zoomable="yes"}
+显示的&#x200B;_[!UICONTROL 帐户列表]_&#x200B;页包括以下列：
 
-   显示的&#x200B;_[!UICONTROL 帐户列表]_&#x200B;页包括以下列：
-
-   * [!UICONTROL 名称] （单击帐户列表名称以查看详细信息）
-   * [!UICONTROL 状态]
-   * [!UICONTROL 类型]
-   * [!UICONTROL 上次更新时间：]
-   * [!UICONTROL 上次更新者]
-   * [!UICONTROL 创建日期]
-   * [!UICONTROL 创建者]
+* [!UICONTROL 名称] （单击帐户列表名称以查看详细信息）
+* [!UICONTROL 状态]
+* [!UICONTROL 类型]
+* [!UICONTROL 上次更新时间：]
+* [!UICONTROL 上次更新者]
+* [!UICONTROL 创建日期]
+* [!UICONTROL 创建者]
 
 此表包括按名称搜索的功能。 排序功能当前不可用。
 
@@ -42,7 +40,7 @@ ht-degree: 2%
 
 ![选择要在帐户历程列表中显示的列](./assets/account-lists-list-columns.png){width="300"}
 
-要查看帐户列表的说明，请单击名称旁边的&#x200B;_信息_&#x200B;图标。
+要查看帐户列表的描述，请单击名称旁边的&#x200B;_信息_ （ ![信息图标](../assets/do-not-localize/icon-info.svg) ）图标。
 
 ## 创建帐户列表
 

@@ -3,10 +3,10 @@ title: 帐户历程
 description: 了解帐户历程，以及如何进行创建和管理。
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: bd6f998b610c6f3a4d7c0e1fce5db4bb72b8a1e3
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 30%
+source-wordcount: '1009'
+ht-degree: 29%
 
 ---
 
@@ -29,22 +29,20 @@ ht-degree: 30%
 
 ## 访问并浏览帐户历程
 
-1. 在 Adobe Experience Platform 主页中，单击 Adobe Journey Optimizer B2B Edition。
+在左侧导航栏中单击&#x200B;**[!UICONTROL 帐户历程]**。
 
-1. 在左侧导航栏中单击&#x200B;**[!UICONTROL 帐户历程]**。
+![访问帐户历程](./assets/account-journey-browse.png){width="800" zoomable="yes"}
 
-   ![访问帐户历程](./assets/account-journey-browse.png){width="800" zoomable="yes"}
+显示的历程页面包括以下几列：
 
-   显示的历程页面包括以下几列：
-
-   * [!UICONTROL 名称]（单击该名称以打开历程进行编辑）
-   * [!UICONTROL 状态]
-   * [!UICONTROL 描述]
-   * [!UICONTROL 创建者]
-   * [!UICONTROL 上次更新时间]
-   * [!UICONTROL 上次更新者]
-   * [!UICONTROL 发布日期]
-   * [!UICONTROL 发布者]
+* [!UICONTROL 名称]（单击该名称以打开历程进行编辑）
+* [!UICONTROL 状态]
+* [!UICONTROL 描述]
+* [!UICONTROL 创建者]
+* [!UICONTROL 上次更新时间]
+* [!UICONTROL 上次更新者]
+* [!UICONTROL 发布日期]
+* [!UICONTROL 发布者]
 
 使用顶部的&#x200B;_搜索_&#x200B;工具按名称查找历程。 您可以通过单击列标题按&#x200B;_[!UICONTROL 状态]_&#x200B;对列表进行排序。
 

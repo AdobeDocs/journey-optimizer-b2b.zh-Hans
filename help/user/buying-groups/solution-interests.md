@@ -3,10 +3,10 @@ title: 解决方案兴趣
 description: 了解解决方案兴趣以及如何定义这些兴趣以在您的购买群中使用。
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: d9cd89db1814cf606cbc57b0d7ae4d5309b5c7dc
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 0%
+source-wordcount: '695'
+ht-degree: 1%
 
 ---
 
@@ -17,8 +17,6 @@ ht-degree: 0%
 ![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看概述视频](#overview-video)
 
 ## 访问和浏览解决方案兴趣
-
-1. 在Adobe Experience Platform主页中，单击Adobe Journey Optimizer B2B edition。
 
 1. 在左侧导航栏中，单击&#x200B;**[!UICONTROL 购买群组]**。
 
