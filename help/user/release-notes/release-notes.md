@@ -3,9 +3,9 @@ title: 发行说明
 description: Adobe Journey Optimizer B2B Edition 的最新发行说明
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 775cecb2aa4e305ba9a80ba0655e5e854ddf69e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1863'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -19,16 +19,16 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 ## 2025.3 发行说明
 
-**发行日期**：2025年4月1日
+**发布日期**：2025 年 4 月 1 日
 
 此版本包括以下新功能和增强功能：
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 新功能 | 帐户列表 | 您现在可以创建静态或动态帐户列表，以按定义的条件（如行业、位置或公司规模）定位指定帐户。 <a href="../accounts/account-lists.md">了解详情</a> |
-| 新功能 | 帐户历程的我的令牌 | 您现在可以使用特定于帐户历程的值定义一组自定义令牌。 这组自定义令牌称为&#x200B;_我的令牌_，其中的任何自定义令牌均用于在创作历程电子邮件时进行个性化。 <a href="../content/personalization-my-tokens.md">了解详情</a> |
-| 新功能 | 删除购买组阶段 | 当购买组阶段模型处于草稿或已发布状态时，您可以将其删除。 如果该文件已发布（实时），则只能在其与解决方案兴趣无关时将其删除。 <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">了解详情</a> |
-| 增强功能 | 历程节点计数 | 改进了节点级别上已发布历程成员资格计数的可见性。 在&#x200B;_历程映射_&#x200B;中，节点显示&#x200B;_[!UICONTROL 输入的帐户总数]_。 当您选择并操作节点时，右侧的详细信息还包括&#x200B;_[!UICONTROL 尚未对]_&#x200B;执行操作的帐户。 _侦听事件_&#x200B;节点的详细信息包括此步骤&#x200B;]_中的_[!UICONTROL &#x200B;帐户。 使用此信息验证您的实时、已完成和已中止历程中的帐户进展。 |
+| 新功能 | 帐户列表 | 您现在可以创建静态或动态帐户列表，以根据您定义的标准（例如行业、地点或公司规模）定位命名帐户。<a href="../accounts/account-lists.md">了解详情</a> |
+| 新功能 | 我的账户历程令牌 | 您现在可以定义一组具有帐户历程特定值的自定义令牌。这组自定义令牌被称为&#x200B;_我的令牌_，所有这些自定义令牌都可以在创作历程电子邮件时用于进行个性化。<a href="../content/personalization-my-tokens.md">了解详情</a> |
+| 新功能 | 删除购买群组阶段 | 当购买群组阶段模型处于草稿或已发布状态时，您可以将其删除。如果它已发布（上线），则只有当它与任何解决方案兴趣都无关联时，您才能删除。<a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">了解详情</a> |
+| 增强功能 | 历程节点数 | 在节点层面提高了已发布历程会员资格数量的可见性。在&#x200B;_历程图_&#x200B;中，节点会显示&#x200B;_[!UICONTROL 已进入的帐户总数]_。当您选择并操作节点时，右侧的详细信息还包括&#x200B;_[!UICONTROL 尚未执行操作的帐户]_。_监听事件_&#x200B;节点的详细信息包括&#x200B;_[!UICONTROL 此步骤中的帐户]_。使用此信息来验证您正在进行的、已完成的和已中止的历程中的帐户进展。 |
 
 ## 2025.2 发行说明
 
@@ -40,7 +40,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | ---- | ---- | ----------- |
 | 新功能 | 可自定义字段——内容片段 | 作为内容片段设计者，您可以将片段中组件的参数指定为可编辑。这允许电子邮件或模板作者根据自己的需要指定自定义字段值。此自定义标志仅限于图像、文本和按钮可视组件。<a href="../content/fragment-authoring.md#enable-fragment-customization">了解详情</a> |
 | 新功能 | B2B 内置角色和产品权限 | Experience Platform 现在包含一组内置（默认）角色，您可以使用它们来管理对 B2B 产品功能的访问。<a href="../admin/user-management.md#b2b-built-in-roles">了解详情</a> <br/>管理员现在可以在 Adobe Experience Platform 中定义自定义角色，以包含 Journey Optimizer B2B Edition 产品权限。<a href="../admin/user-management.md#b2b-product-permissions">了解详情</a> |
-| 新功能 | 历程重复类型 | 复制帐户历程时，您可以包含节点详细信息，但不包括在Journey Optimizer B2B edition中创建的电子邮件和短信消息。 作为替代方法，您可以创建结构和路径流的骨架副本，而无需节点详细信息和设置。 <a href="../journeys/journey-overview.md#duplicate-journey">了解详情</a> |
+| 新功能 | 历程复制类型 | 当您复制帐户历程时，您可以包含节点详细信息，其中不包括 Journey Optimizer B2B Edition 中创建的电子邮件和 SMS 消息。或者，您可以创建结构和路径流的精简副本，而不包含节点详细信息和设置。<a href="../journeys/journey-overview.md#duplicate-journey">了解详情</a> |
 | 增强功能 | 另外四个电子邮件模板示例 | 示例电子邮件模板库现在包含四个 SecurFinacial 模板，作为重新参与、通知、培养和反馈内容的示例 |
 
 ## 2025.1 发行说明 {#Jan-2025}

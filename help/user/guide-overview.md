@@ -3,9 +3,9 @@ title: Adobe Journey Optimizer B2B Edition 文档
 description: 了解如何使用 Adobe Journey Optimizer B2B Edition 功能，利用内置的生成式 AI 和行业领先的自动化来编排帐户和购买群组历程。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 99%
 
 作为内容设计者，您可以将片段中组件的参数指定为可编辑。这允许电子邮件或模板作者根据自己的需要指定自定义字段值。此自定义标志仅限于图像、文本和按钮可视组件。
 
-[!BADGE 了解详情]{type=Informative url="/help/user/content/fragment-authoring.md网站#enable-fragment-customization" tooltip="了解内容片段的自定义字段"}
+[!BADGE 了解详情]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="了解内容片段的自定义字段"}
 
 >[!TAB AEP 事件转发]
 
@@ -133,15 +133,15 @@ ht-degree: 99%
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/ journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a>——<a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a>——<a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/ experience-platform/landing/home" target="_blank">文档</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">开发人员资源</a>
+<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/home" target="_blank">文档</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">开发人员资源</a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home" target="_blank">文档</a>——<a href="https://experienceleague.adobe.com/zh-hans/docs/ platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">开发人员教程</a>
+<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home" target="_blank">文档</a>——<a href="https://experienceleague.adobe.com/zh-hans/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">开发人员教程</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/marketo/using/home" target="_blank">用户文档</a>——<a href="https://experienceleague.adobe.com/zh-hans/docs/ marketo-developer/marketo/home" target="_blank">开发人员文档</a>
+<a href="https://experienceleague.adobe.com/zh-hans/docs/marketo/using/home" target="_blank">用户文档</a>——<a href="https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/home" target="_blank">开发人员文档</a>
 </td>
 </tr></table>
 

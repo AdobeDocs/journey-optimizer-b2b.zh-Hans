@@ -2,9 +2,9 @@
 user-guide-title: Journey Optimizer B2B Edition 文档
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何使用它通过内置的生成式 AI 和行业领先的自动化来编排帐户和购买群组历程。
 source-git-commit: 168bd128de8845c1ccd4e33b290aecebc28064ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '249'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 91%
    + [登录和主页](home-page.md)
    + [快速入门指南](./start/get-started.md)
    + [跟踪和电子邮件协议](./start/email-protocols.md)
-+ AI助手{#ai-assistant}
++ AI 助手 {#ai-assistant}
    + [概述](./ai-assistant/ai-assistant-overview.md)
-   + [启用AI助手访问](./ai-assistant/enable-ai-assistant-access.md)
+   + [启用 AI 助手访问](./ai-assistant/enable-ai-assistant-access.md)
    + [问题指导](./ai-assistant/question-guidance.md)
    + [使用 AI 助手](./ai-assistant/use-ai-assistant.md)
 + 帐户历程{#account-journeys}
@@ -69,7 +69,7 @@ ht-degree: 91%
       + 电子邮件模板 {#email-templates}
          + [概述](./content/email-templates.md)
          + [电子邮件模板创作](./content/email-template-authoring.md)
-      + 登陆页面模板{#landing-page-templates}
+      + 登陆页面模板 {#landing-page-templates}
          + [概述](./content/landing-page-templates.md)
          + [登陆页面模板设计](./content/landing-page-template-design.md)
    + 片段 {#visual-fragments}
