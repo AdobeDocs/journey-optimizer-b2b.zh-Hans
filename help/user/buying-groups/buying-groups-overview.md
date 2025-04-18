@@ -62,7 +62,7 @@ _[!UICONTROL 购买群组]_&#x200B;页面分成若干选项卡：
 | 选项卡 | 描述 |
 | --- | ----------- |
 | [!UICONTROL 概述] | 这是默认选项卡，显示[购买群组仪表板](../dashboards/buying-groups-dashboard.md)。 |
-| [!UICONTROL 浏览] | 此选项卡支持以下活动： <ul><li>查看现有购买群组列表。 </li><li>按购买群组名称搜索。 </li><li>按解决方案兴趣筛选。 </li><li>深入了解购买群组详细信息。 </li><li>创建购买组。 </li></ul> |
+| [!UICONTROL 浏览] | 此选项卡支持以下活动： <ul><li>查看现有购买群组列表。 </li><li>按购买群组名称搜索。 </li><li>按解决方案兴趣筛选。 </li><li>深入了解购买群组详细信息。 </li><li>创建购买群组。 </li></ul> |
 | [!UICONTROL 解决方案兴趣] | 此选项卡支持以下活动： <ul><li>查看现有购买群组列表。 </li><li>按购买群组名称搜索。 </li><li>访问并编辑解决方案兴趣属性。 </li><li>创建解决方案兴趣。 </li><li>删除解决方案兴趣。 </li><li>查看并删除购买群组任务。 </li></ul> |
 | [!UICONTROL 角色模板] | 此选项卡支持以下活动： <ul><li>查看现有角色模板的列表。 </li><li>按角色模板名称搜索。 </li><li>访问并编辑角色模板属性和条件。 </li><li>创建角色模板。 </li><li>删除角色模板。 </li></ul> |
 | [!UICONTROL 阶段] | 此选项卡支持以下活动： <ul><li>查看现有的购买群组阶段模型。 </li><li>访问并编辑购买群组阶段模型草稿。 </li><li>创建购买群组阶段模型。 </li></ul> |
@@ -138,7 +138,7 @@ _[!UICONTROL 购买群组]_&#x200B;页面分成若干选项卡：
 
 >[!NOTE]
 >
->参与得分活动记录在人员](https://experienceleague.adobe.com/zh-hans/docs/ marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}的Marketo Engage [活动日志中。
+>参与得分活动记录在人员](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}的Marketo Engage [活动日志中。
 
 +++
 
