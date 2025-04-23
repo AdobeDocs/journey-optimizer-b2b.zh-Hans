@@ -1,10 +1,11 @@
 ---
 title: 帐户列表
 description: 了解帐户列表以及营销人员如何使用它们通过帐户历程定位帐户。
+badgeBeta: label="限量发布版" type="informative" tooltip="此功能当前仅按请求提供"
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: b1e4709042ef5a436bbf4f209ae13cf100e78664
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1631'
 ht-degree: 1%
 
 ---
