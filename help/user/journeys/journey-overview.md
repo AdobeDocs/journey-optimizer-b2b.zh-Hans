@@ -4,7 +4,7 @@ description: 了解帐户历程，以及如何进行创建和管理。
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1009'
 ht-degree: 100%
 

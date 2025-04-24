@@ -4,9 +4,9 @@ description: 了解 Journey Optimizer B2B Edition 中的购买群组如何通过
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1782'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 97%
 
 1. 创建购买群组。
 
-   * 定义[感兴趣的解决方案](./solution-interests.md)和[角色模板](./buying-groups-role-templates.md)
-   * [创建购买组](./buying-groups-create.md#create-buying-groups)并分配[购买组阶段](./buying-group-stages.md)。
+   * 定义[解决方案兴趣](./solution-interests.md)和[角色模板](./buying-groups-role-templates.md)
+   * [创建购买群组](./buying-groups-create.md#create-buying-groups)并分配[购买群组阶段](./buying-group-stages.md)。
 
 1. 确定缺失的人员。
 
@@ -51,7 +51,7 @@ ht-degree: 97%
    * Send to LinkedIn Destination
    * Enrich with Zoominfo -->
 
-1. 使用您的帐户历程中的购买组。
+1. 使用您的帐户旅程的购买群组。
 
 ## 查看购买群组和组件
 
@@ -138,7 +138,7 @@ _[!UICONTROL 购买群组]_&#x200B;页面分成若干选项卡：
 
 >[!NOTE]
 >
->参与得分活动记录在人员](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}的Marketo Engage [活动日志中。
+>参与度评分活动记录在[个人的 Marketo Engage 活动日志](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}中。
 
 +++
 
