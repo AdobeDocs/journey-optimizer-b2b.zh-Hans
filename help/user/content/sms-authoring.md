@@ -3,9 +3,9 @@ title: 短信创作
 description: 了解如何在其移动设备上向客户发送短信(SMS)，以及通过短信编辑器以文本格式个性化和预览消息。
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
+source-git-commit: b614b972ad3f579c11b87af7ec7bcd6df24ec1a9
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1367'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 ## 在帐户历程中添加短信操作
 
-在添加&#x200B;_[!UICONTROL Take an action]_&#x200B;历程并执行以下操作时，可以在Account节点中设置短信投放：
+添加&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点并执行以下操作时，您可以在帐户历程中设置短信投放：
 
 1. 对于&#x200B;]_目标上的_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
 
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-   将打开&#x200B;_历程内容设计器_，您可以创建消息并设置用于发送消息的SMS属性。
+   _历程映射_&#x200B;打开，您可以创建消息并设置用于发送消息的短信属性。
 
 ### 创建短信消息
 
