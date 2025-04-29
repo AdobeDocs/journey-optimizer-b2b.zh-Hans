@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B Edition 文档
 description: 了解如何使用 Adobe Journey Optimizer B2B Edition 功能，利用内置的生成式 AI 和行业领先的自动化来编排帐户和购买群组历程。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
-workflow-type: ht
-source-wordcount: '680'
-ht-degree: 100%
+source-git-commit: 8328829d11af5287dce743d49374fc4b1a4b3f53
+workflow-type: tm+mt
+source-wordcount: '719'
+ht-degree: 65%
 
 ---
 
@@ -13,9 +13,33 @@ ht-degree: 100%
 
 ## 新增功能？
 
-以下是 Journey Optimizer B2B Edition 产品和文档中最新增强功能的取样。
+以下是Journey Optimizer B2B edition应用程序和文档中的最新添加和增强功能的示例。
 
 >[!BEGINTABS]
+
+>[!TAB 帐户列表]
+
+创建帐户列表，它是营销人员可用于目标历程编排的指定帐户集合。 帐户列表可以根据您定义的条件（如行业、位置或公司规模）来定位指定帐户。
+
+[!BADGE 了解详情]{type=Informative url="/help/user/accounts/account-lists.md" tooltip="了解帐户列表"}
+
+>[!TAB 智能列表的帐户列表筛选器]
+
+您现在可以使用帐户列表筛选器来筛选Marketo Engage智能列表。 利用这些过滤器，您可以通过Journey Optimizer B2B edition中的帐户历程在Marketo Engage营销活动和项目中禁止并包含帐户列表成员。
+
+[!BADGE 了解详情]{type=Informative url="/help/user/accounts/account-lists-journeys.md网站#marketo-engage-program---member-of-account-list" tooltip="了解Marketo Engage智能列表中使用的帐户列表筛选器"}
+
+>[!TAB 非活动历史记录筛选器]
+
+进度历程基于Marketo Engage营销活动和项目中的不活动，包括电子邮件、有趣时刻、数据值更改和访问的网页。
+
+[!BADGE 了解详情]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md网站#activity-filtering" tooltip="了解非活动状态历史记录过滤器"}
+
+>[!TAB 历程重复]
+
+复制您的帐户历程结构以最大限度地减少手动错误并确保一致的设置、流程和路径。 在重复的历程中，您可以调整内容或操作，使其更易于管理更大、更复杂的营销策划&#x200B;。
+
+[!BADGE 了解详情]{type=Informative url="/help/user/journeys/journey-overview.md网站#duplicate-journey" tooltip="了解历程重复"}
 
 >[!TAB 智能洞察仪表板]
 
@@ -27,33 +51,15 @@ ht-degree: 100%
 
 使用 Adobe Express 快速操作，通过裁剪、调整大小、背景去除和格式转化来修饰您的内容。内置直观的 Adobe Express UI，以便您可以快速微调图像资产。
 
-通过 Adobe Express Enterprise 授予许可，您可以利用全套 Adobe Express 功能。使用这些功能来润色和增强图像，同时遵守品牌指南，并移除内容供应链中的障碍。
+通过 Adobe Express Enterprise 授予许可，您可以利用全套 Adobe Express 功能。使用这些功能改善和增强图像，同时遵守品牌指南，并消除内容供应链中的障碍。
 
 [!BADGE 了解详情]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="了解如何使用 Adobe Express 进行图像编辑"}
 
 >[!TAB 片段可自定义字段]
 
-作为内容设计者，您可以将片段中组件的参数指定为可编辑。这允许电子邮件或模板作者根据自己的需要指定自定义字段值。此自定义标志仅限于图像、文本和按钮可视组件。
+作为内容设计者，您可以将片段中组件的参数指定为可编辑。此配置允许电子邮件或模板作者指定特定于其需求的自定义字段值。 此自定义标志仅限于图像、文本和按钮可视组件。
 
 [!BADGE 了解详情]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="了解内容片段的自定义字段"}
-
->[!TAB AEP 事件转发]
-
-管理员现在可以配置基于 Adobe Experience Platform（AEP）的事件定义。这些配置使营销人员能够创建对 AEP 体验事件做出反应的帐户历程。
-
-[!BADGE 了解详情]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="了解用于历程编排的 AEP 事件定义"}
-
->[!TAB 用于智能列表的购买群组过滤器]
-
-您现在可以在 Marketo Engage 中查看和创建带有购买群组过滤器的智能列表。通过这些过滤器，您可以从 Journey Optimizer B2B Edition 帐户历程中抑制或包含 Marketo Engage 营销活动和计划中的购买群组成员。
-
-[!BADGE 了解详情]{type=Informative url="/help/user/buying-groups/marketo-engage-smart-list-buying-group-filters.md" tooltip="了解 Marketo Engage 智能列表中使用的购买群组过滤器"}
-
->[!TAB 条件内容]
-
-使用条件内容，根据条件规则调整您的电子邮件内容。使用轮廓属性或上下文事件定义规则。您可以在规则生成器中创建条件规则，将其存储后可在您的帐户历程中重复使用。
-
-[!BADGE 了解详情]{type=Informative url="/help/user/content/conditional-content.md" tooltip="了解条件内容"}
 
 >[!ENDTABS]
 
@@ -64,15 +70,15 @@ ht-degree: 100%
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="home-page.md"><img width="120px" src="./assets/launch.png" alt="产品使用启动"></a>
+    <a href="home-page.md"><img width="140px" src="./assets/launch.png" alt="产品使用启动"></a>
     <div><strong>从您的主页启动</strong><br/>，了解如何在 Journey Optimizer B2B Edition 中通过基于您的角色的个性化主页更快地实现您的目标。</div>
     </td>
       <td>
-    <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png" alt="购买群组"></a>
+    <a href="buying-groups/buying-groups-overview.md"><img width="140px" src="./assets/communication.png" alt="购买群组"></a>
     <div><strong>构建您的第一个购买群组</strong><br/>在 Journey Optimizer B2B Edition 中创建您的第一个购买群组，以自动执行吸引和鉴定联系人的过程。</div>
     </td>
     <td>
-    <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png" alt="帐户历程"></a>
+    <a href="journeys/journey-overview.md"><img width="140px" src="./assets/flow.png" alt="帐户历程"></a>
     <div><strong>创建您的第一个帐户历程</strong><br/>设计和编排个性化的帐户历程，以协调营销推广与目标参与。 
     </div>
     </td>

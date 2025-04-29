@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文档
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何使用它通过内置的生成式 AI 和行业领先的自动化来编排帐户和购买群组历程。
-source-git-commit: 168bd128de8845c1ccd4e33b290aecebc28064ef
-workflow-type: ht
-source-wordcount: '249'
-ht-degree: 100%
+source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 97%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 + [Adobe Journey Optimizer B2B Edition 文档](guide-overview.md)
 + [发行说明](./release-notes/release-notes.md)
-+ 入门 {#get-started}
++ 快速入门 {#get-started}
    + [Journey Optimizer B2B Edition 概述](about-journey-optimizer-b2b-edition.md)
    + [登录和主页](home-page.md)
    + [快速入门指南](./start/get-started.md)
@@ -23,7 +23,7 @@ ht-degree: 100%
    + [启用 AI 助手访问](./ai-assistant/enable-ai-assistant-access.md)
    + [问题指导](./ai-assistant/question-guidance.md)
    + [使用 AI 助手](./ai-assistant/use-ai-assistant.md)
-+ 帐户历程{#account-journeys}
++ 帐户历程 {#account-journeys}
    + [概述](./journeys/journey-overview.md)
    + [创建和发布历程](./journeys/create-publish-journey.md)
    + [历程节点](./journeys/journey-nodes.md)
@@ -54,10 +54,12 @@ ht-degree: 100%
       + [导出帐户列表](./audiences/account-list-export.md)
       + [LinkedIn 帐户匹配的受众](./data/linkedin-account-matched-audiences.md)
       + [Market Engage 中的购买群组过滤器](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
-   + [帐户列表](./accounts/account-lists.md)
+   + 帐户列表 {#occount-lists}
+      + [概述](./accounts/account-lists.md)
+      + [在历程和程序中使用](./accounts/account-lists-journeys.md)
    + [帐户详细信息](./accounts/account-details.md)
    + [XDM 字段](./data/field-mapping.md)
-+ 内容管理{#content-management}
++ 内容管理 {#content-management}
    + 资产 {#assets}
       + [概述](./content/assets-overview.md)
       + Marketo Engage 资产 {#marketo-engage-dam}
@@ -75,14 +77,14 @@ ht-degree: 100%
    + 片段 {#visual-fragments}
       + [概述](./content/fragments.md)
       + [片段创作](./content/fragment-authoring.md)
-   + Forms {#forms}
+   + 表单 {#forms}
       + [概述](./content/forms.md)
       + [表单设计](./content/form-design.md)
-   + 登陆页面{#landing-pages}
+   + 登陆页面 {#landing-pages}
       + [概述](./content/landing-pages.md)
       + [登陆页面设计](./content/landing-page-design.md)
    + [条件内容](./content/conditional-content.md)
-+ 洞察仪表板 {#dashboards}
++ 分析功能板 {#dashboards}
    + [智能仪表板](./dashboards/intelligent-dashboard.md)
    + [参与概述](./dashboards/engagement-dashboard.md)
    + [购买群组概述](./dashboards/buying-groups-dashboard.md)

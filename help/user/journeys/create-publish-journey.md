@@ -3,7 +3,7 @@ title: 创建和发布帐户历程
 description: 了解如何创建和发布帐户历程。
 feature: Account Journeys
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 5%
@@ -12,13 +12,13 @@ ht-degree: 5%
 
 # 创建和发布帐户历程
 
-要开始帐户历程，请创建历程，然后在历程编辑器中构建节点和历程流。
+要开始帐户历程，请创建历程，然后在历程图中构建节点和历程流。
 
 ![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看概述视频](#overview-video)
 
 ## 创建帐户历程
 
-1. 在左侧导航栏中，单击&#x200B;**[!UICONTROL 帐户历程]**。
+1. 在左侧导航栏中单击&#x200B;**[!UICONTROL 帐户历程]**。
 
 1. 单击页面右上角的&#x200B;**[!UICONTROL 创建帐户历程]**。
 
@@ -50,7 +50,7 @@ _历程图_&#x200B;是历程设计器中的中心区域。 在此区域中，您
 
 ## 添加节点
 
-1. 导航到历程编辑器。
+1. 导航到历程图。
 
 1. 单击路径上的加号( **+** )图标并选择节点类型。
 
@@ -58,7 +58,7 @@ _历程图_&#x200B;是历程设计器中的中心区域。 在此区域中，您
 
 ## 删除节点
 
-1. 导航到历程编辑器。
+1. 导航到历程图。
 
 1. 在右侧的节点属性中，单击&#x200B;_删除_ （ ![删除图标](../assets/do-not-localize/icon-delete.svg) ）图标。
 
@@ -66,7 +66,7 @@ _历程图_&#x200B;是历程设计器中的中心区域。 在此区域中，您
 
 ## 添加和删除路径
 
-1. 导航到历程编辑器。
+1. 导航到历程图。
 
 1. 单击路径上的加号( **+** )图标，然后添加[拆分路径节点](./split-merge-paths-nodes.md#split-paths)。
 

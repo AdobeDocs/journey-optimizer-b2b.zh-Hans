@@ -3,16 +3,16 @@ title: 帐户受众节点
 description: 了解可用于在Journey Optimizer B2B edition中定义帐户历程输入的帐户受众节点类型。
 feature: Account Journeys
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
+source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 0%
+source-wordcount: '279'
+ht-degree: 5%
 
 ---
 
 # 帐户受众历程节点
 
-帐户受众节点定义历程的输入帐户受众(在Adobe Experience Platform中创建和管理)。 当您[创建帐户历程](./journey-overview.md#create-an-account-journey)时，它始终以定义历程输入的&#x200B;_帐户受众_&#x200B;节点开头。
+帐户受众节点定义历程的输入帐户。 当您[创建帐户历程](./journey-overview.md#create-an-account-journey)时，它始终以定义历程输入的&#x200B;_帐户受众_&#x200B;节点开头。
 
 有两种类型的输入可用于此节点：
 
@@ -47,9 +47,9 @@ _设置节点的受众：_
 
 _创建受众区段：_
 
-1. 在左侧导航中，选择&#x200B;**[!UICONTROL 帐户]** > **[!UICONTROL 受众]**。
+1. 在左侧导航栏中，选择&#x200B;**[!UICONTROL 帐户]** > **[!UICONTROL 受众]**。
 
-1. 单击右上方的&#x200B;**[!UICONTROL 创建受众]**。
+1. 单击右上角的&#x200B;**[!UICONTROL 创建受众]**。
 
    ![创建受众区段](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 

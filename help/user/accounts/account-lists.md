@@ -1,23 +1,26 @@
 ---
 title: 帐户列表
 description: 了解帐户列表以及营销人员如何使用它们通过帐户历程定位帐户。
-badgeBeta: label="限量发布版" type="informative" tooltip="此功能当前仅按请求提供"
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: b1e4709042ef5a436bbf4f209ae13cf100e78664
+source-git-commit: 2fbf54b3e532eadb7b9a84c64c7d67eb8bcf62b2
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1339'
 ht-degree: 1%
 
 ---
 
 # 帐户列表
 
-帐户列表是营销人员可用于进行目标历程编排的指定帐户集合。 帐户列表可以根据您定义的条件（如行业、位置或公司规模）来定位指定帐户。 帐户列表有两种类型：
+在Journey Optimizer B2B edition中，帐户列表是营销人员可用于进行目标历程编排的指定帐户集合。 帐户列表可以根据您定义的条件（如行业、位置或公司规模）来定位指定帐户。 帐户列表有两种类型：
 
 * **静态** — 使用静态帐户列表时，该列表仅在您添加帐户时更改。 您可以通过应用过滤器集以根据当前帐户数据填充列表来手动添加帐户，或通过帐户历程添加和删除帐户。
 * **动态** — 使用动态帐户列表，您可以定义用于自动策划列表的过滤器集。 系统使用此筛选器集根据帐户信息的更改添加和删除帐户。 此列表管理类似于Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b)中的[受众分段。
 
-当帐户列表处于&#x200B;_实时_（已发布）状态时，它可用于帐户历程。
+当帐户列表处于&#x200B;_实时_（已发布）状态时，它可用于[在帐户历程和Marketo Engage程序中使用](./account-lists-journeys.md)。
+
+>[!NOTE]
+>
+>帐户列表利用Marketo Engage中的帐户数据创建帐户区段和列表。 这意味着，如果Adobe Experience Platform中的某个帐户区段未主动同步到Marketo Engage，则该Experience Platform区段中的帐户可能在Journey Optimizer B2B edition帐户列表中不可用。 随后，Experience Platform区段中未同步到Marketo Engage的帐户中的任何人员，都不会包含在人员会员计数中，也不会计入触发事件中。
 
 ## 访问和浏览帐户列表
 
@@ -170,65 +173,3 @@ ht-degree: 1%
 动态帐户列表的状态更改为&#x200B;_[!UICONTROL 实时]_，并且可在帐户历程](#account-list-usage-in-account-journeys)中[使用。
 
 >[!ENDTABS]
-
-## 帐户历程中的帐户列表使用情况
-
-有三种方式可以将实时（已发布）帐户列表合并到帐户历程中：
-
-### 帐户受众节点
-
-1. 为起始&#x200B;_帐户受众_&#x200B;节点选择&#x200B;**[!UICONTROL 帐户列表]**。
-
-   ![为帐户受众节点选择帐户列表选项](../journeys/assets/node-audience-account-list.png){width="500"}
-
-1. 单击&#x200B;**[!UICONTROL 添加帐户列表]**。
-
-1. 选中帐户列表的复选框，然后单击&#x200B;**[!UICONTROL 保存]**。
-
-   ![为帐户受众节点选择帐户列表选项](../journeys/assets/node-audience-account-list-select-dialog.png){width="600" zoomable="yes"}
-
-当历程处于活动状态（已发布）时，列表中的帐户将在历程中移动。
-
-### 执行操作节点 — 添加到帐户
-
-**_仅限静态帐户列表_**
-
-使用[a _执行操作_&#x200B;节点](../journeys/action-nodes.md)将帐户添加到静态帐户列表。
-
-例如，您可能有一个发送电子邮件的历程路径，一些帐户会将各种操作作为响应操作。 您将此活动视为历程中的资格点，并希望将它们添加到帐户列表，该帐户列表用于作为另一个历程的受众，该历程具有不同的合格帐户流程。
-
->[!NOTE]
->
->如果执行节点时帐户已位于列表中，则将忽略该操作。
-
-1. 选择&#x200B;]_**[!UICONTROL 帐户]**上的_[!UICONTROL &#x200B;操作选项。
-
-1. 若要对帐户&#x200B;]_执行_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 添加到帐户列表]**。
-
-   ![选择“添加到帐户列表”](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
-
-1. 对于&#x200B;**[!UICONTROL 选择实时静态帐户列表]**，选择要添加帐户的帐户列表。
-
-   ![选择“添加到帐户列表”](../journeys/assets/node-action-account-add-to-account-list-select.png){width="500"}
-
-### 执行操作节点 — 从帐户中删除
-
-**_仅限静态帐户列表_**
-
-使用[a _执行操作_&#x200B;节点](../journeys/action-nodes.md)从静态帐户列表中删除帐户。
-
-例如，您可能有一个发送电子邮件的历程路径，一些帐户会将各种操作作为响应操作。 您将此活动视为历程中的资格认证点，并想要将其从帐户列表中删除，该帐户列表用于作为另一历程的受众，该历程会发送其他电子邮件，以便您不会复制资格认证通信。
-
->[!NOTE]
->
->如果某个帐户不在计划删除的列表中，则该操作将被忽略。
-
-1. 选择&#x200B;]_**[!UICONTROL 帐户]**上的_[!UICONTROL &#x200B;操作选项。
-
-1. 若要对帐户&#x200B;]_执行_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 从帐户列表中删除]**。
-
-   ![选择“添加到帐户列表”](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
-
-1. 对于&#x200B;**[!UICONTROL 选择实时静态帐户列表]**，选择要从中删除帐户的帐户列表。
-
-   ![选择“添加到帐户列表”](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}

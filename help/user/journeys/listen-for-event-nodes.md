@@ -3,10 +3,10 @@ title: 侦听事件
 description: 了解侦听事件节点类型，可用于在Journey Optimizer B2B edition中编排帐户历程。
 feature: Account Journeys
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '1373'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -30,14 +30,14 @@ ht-degree: 3%
 | ----- | ----------- |
 | 账户有有趣的时刻 | 类型（电子邮件、里程碑或Web）<br/>其他约束（可选）： <li>描述</li><li>来源</li><li>活动日期</li> <br/>超时（可选） |
 | 帐户数据值更改 | 属性<br/>其他约束（可选）： <li>新值</li><li>上一个值</li><li>活动日期</li> <br/>超时（可选） |
-| 购买组阶段中的更改 | 解决方案兴趣<br/>其他约束（可选）： <li>新阶段</li><li>上一阶段</li><li>活动日期</li><br/>超时（可选） |
-| 购买组状态的更改 | 解决方案兴趣<br/>其他约束（可选）： <li>新状态</li><li>以前的状态</li><li>活动日期</li><br/>超时（可选） |
-| 完整性分数的更改 | 解决方案兴趣<br/>其他约束（可选）： <li>新得分</li><li>上一个得分</li><li>活动日期</li><br/>超时（可选） |
-| 参与度分数的更改 | 解决方案兴趣<br/>其他约束（可选）： <li>新得分</li><li>上一个得分</li><li>活动日期</li><br/>超时（可选） |
+| 更改购买群组阶段 | 解决方案兴趣<br/>其他约束（可选）： <li>新阶段</li><li>上一阶段</li><li>活动日期</li><br/>超时（可选） |
+| 更改购买群组状态 | 解决方案兴趣<br/>其他约束（可选）： <li>新状态</li><li>以前的状态</li><li>活动日期</li><br/>超时（可选） |
+| 完整性评分的更改 | 解决方案兴趣<br/>其他约束（可选）： <li>新得分</li><li>上一个得分</li><li>活动日期</li><br/>超时（可选） |
+| 参与度评分的更改 | 解决方案兴趣<br/>其他约束（可选）： <li>新得分</li><li>上一个得分</li><li>活动日期</li><br/>超时（可选） |
 
 ### 添加帐户事件
 
-1. 导航到历程编辑器。
+1. 导航到历程图。
 
 1. 单击路径上的加号( **+** )图标，然后选择&#x200B;**[!UICONTROL 侦听事件]**。
 
@@ -57,21 +57,21 @@ ht-degree: 3%
 
 | 输入类型 | 活动 | 约束 |
 | ---------- | ----- | ----------- |
-| Journey Optimizer B2B | 已分配给购买组 | 解决方案兴趣<br/><br/>其他约束（可选）： <li>角色</li><li>活动日期</li><br/>超时（可选） |
-| | 单击电子邮件中的链接 | 电子邮件<br/><br/>其他约束（可选）： <li>链接</li><li>链接Id</li><li>是移动设备</li><li>设备</li><li>平台</li><li>浏览器</li><li>是预测内容</li><li>是机器人活动</li><li>机器人活动模式</li><li>浏览器</li><li>活动日期</li><li>最低 次数</li><br/>超时（可选） |
-| | 短信中的点击链接 | 电子邮件<br/><br/>其他约束（可选）： <li>链接</li><li>设备</li><li>平台</li><li>活动日期</li><li>最低 次数</li><br/>超时（可选） |
+| Journey Optimizer B2B | 已分配给购买群组 | 解决方案兴趣<br/><br/>其他约束（可选）： <li>角色</li><li>活动日期</li><br/>超时（可选） |
+| | 点击电子邮件中的链接 | 电子邮件<br/><br/>其他约束（可选）： <li>链接</li><li>链接Id</li><li>是移动设备</li><li>设备</li><li>平台</li><li>浏览器</li><li>是预测内容</li><li>是机器人活动</li><li>机器人活动模式</li><li>浏览器</li><li>活动日期</li><li>最低 次数</li><br/>超时（可选） |
+| | 点击短信中的链接 | 电子邮件<br/><br/>其他约束（可选）： <li>链接</li><li>设备</li><li>平台</li><li>活动日期</li><li>最低 次数</li><br/>超时（可选） |
 | | 数据值更改 | 人员属性<br/><br/>其他约束（可选）： <li>新值</li><li>上一个值</li><li>原因</li><li>来源</li><li>活动日期</li><li>最低 次数</li><br/>超时（可选） |
 | | 打开电子邮件 | 电子邮件<br/><br/>其他约束（可选）： <li>链接</li><li>链接Id</li><li>是移动设备</li><li>设备</li><li>平台</li><li>浏览器</li><li>是预测内容</li><li>是机器人活动</li><li>机器人活动模式</li><li>浏览器</li><li>活动日期</li><li>最低 次数</li><br/>超时（可选） |
-| | 已从购买组中移除 | 解决方案兴趣<br/>活动日期（可选）<br/>超时（可选） |
-| | 分数已更改 | 得分名称<br/><br/>其他约束（可选）：<li>更改</li><li>新得分</li><li>紧急</li><li>优先级</li><li>相对分数</li><li>相对紧迫性</li><li>活动日期</li><li>最低 次数</li><br/>超时（可选） |
-| | 短信退回 | SMS消息<br/><br/>其他约束（可选）： <li>活动日期</li><li>最小次数</li><br/>超时（可选） |
+| | 已从购买群组中删除 | 解决方案兴趣<br/>活动日期（可选）<br/>超时（可选） |
+| | 更改了分数 | 得分名称<br/><br/>其他约束（可选）：<li>更改</li><li>新得分</li><li>紧急</li><li>优先级</li><li>相对分数</li><li>相对紧迫性</li><li>活动日期</li><li>最低 次数</li><br/>超时（可选） |
+| | SMS 跳出率 | SMS消息<br/><br/>其他约束（可选）： <li>活动日期</li><li>最小次数</li><br/>超时（可选） |
 | Marketo Engage | 访问网页 | 网页<br/>选择一个或多个Marketo Engage页面进行匹配。 <br/><br/>其他约束（可选）： <li>查询字符串</li><li>客户端IP地址</li><li>反向链接</li><li>用户代理</li><li>搜索引擎</li><li>搜索查询</li><li>令牌</li><li>浏览器</li><li>平台</li><li>设备</li><li>活动日期</li> |
 | | 填写表单 | 表单<br/>选择要匹配的一个或多个Marketo Engage表单。  <br/><br/>其他约束（可选）： <li>活动日期</li><li>查询字符串</li><li>客户端IP地址</li><li>反向链接</li><li>用户代理</li><li>平台</li><li>设备</li><br/>超时（可选） |
 | Adobe Experience Platform | 事件定义 | 事件类型<br/><br/>其他约束（可选）： <li>字段</li> <br/>其他约束（不支持）： <li>活动日期</li><li>最低 次数</li><br/>超时（可选） |
 
 ### 添加人员事件
 
-1. 导航到历程编辑器。
+1. 导航到历程图。
 
 1. 单击路径上的加号( **+** )图标，然后选择&#x200B;**[!UICONTROL 侦听事件]**。
 
@@ -87,7 +87,7 @@ ht-degree: 3%
 
 如果您在连接的Marketo Engage实例中创建了网页，则可以根据访问/未访问Marketo Engage网页以及未填写的Marketo Engage表单触发事件。
 
-1. 在历程编辑器中选择&#x200B;**[!UICONTROL 侦听事件]**&#x200B;节点。
+1. 在历程映射中选择&#x200B;**[!UICONTROL 侦听事件]**&#x200B;节点。
 
 1. 在右侧的节点属性中，为事件类型选择&#x200B;**[!UICONTROL 人员]**。
 
@@ -114,11 +114,11 @@ ht-degree: 3%
 
 1. 如果需要，请设置&#x200B;**[!UICONTROL Timeout]**&#x200B;选项以限制侦听事件的时间段（请参阅[向事件节点添加超时](#add-a-timeout-to-an-event-node)）。
 
-1. 在历程编辑器中，添加下一个要在事件发生时执行的节点。
+1. 在历程映射中，添加下一个要在事件发生时执行的节点。
 
 ### 收听体验活动
 
-管理员可以配置基于Adobe Experience Platform (AEP)的事件定义，这使得营销人员能够创建对[AEP Experience事件](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent)做出反应的帐户历程。 在帐户历程中使用AEP体验事件包括两个步骤：
+管理员可以配置基于Adobe Experience Platform (AEP)的事件定义，这些定义使营销人员能够创建对[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent)做出反应的帐户历程。 在帐户历程中使用AEP体验事件包括两个步骤：
 
 1. [创建并发布AEP事件定义](../admin/configure-aep-events.md)。
 
@@ -128,7 +128,7 @@ ht-degree: 3%
 
 _要在您的历程中包含体验事件，请执行以下操作：_
 
-1. 在历程编辑器中选择&#x200B;**[!UICONTROL 侦听事件]**&#x200B;节点。
+1. 在历程映射中选择&#x200B;**[!UICONTROL 侦听事件]**&#x200B;节点。
 
 1. 在右侧的节点属性中，为事件类型选择&#x200B;**[!UICONTROL 人员]**。
 
@@ -160,7 +160,7 @@ _要在您的历程中包含体验事件，请执行以下操作：_
 
 1. 如果需要，请设置&#x200B;**[!UICONTROL Timeout]**&#x200B;选项以限制侦听事件的时间段（请参阅[向事件节点添加超时](#add-a-timeout-to-an-event-node)）。
 
-1. 在历程编辑器中，添加下一个要在事件发生时执行的节点。
+1. 在历程映射中，添加下一个要在事件发生时执行的节点。
 
 1. 完成历程的其余节点，并[发布它](./journey-overview.md)。
 

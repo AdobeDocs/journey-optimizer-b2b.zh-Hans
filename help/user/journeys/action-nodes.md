@@ -3,9 +3,9 @@ title: 执行操作
 description: 了解可用于在Journey Optimizer B2B edition中编排帐户旅程的采取操作节点类型。
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 73df89b39524a8622ec610a4ce531f68f0b9d98f
+source-git-commit: db30486c23f6560beb72cd9d9b3a82b70a2e2ddd
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1240'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 2%
 
 ### 添加基于帐户的操作
 
-1. 导航到历程编辑器。
+1. 导航到历程图。
 
 1. 单击路径上的加号( **+** )图标，然后选择&#x200B;**[!UICONTROL 执行操作]**。
 
@@ -71,7 +71,7 @@ ht-degree: 2%
 
 ### 添加基于人员的操作
 
-1. 导航到历程编辑器。
+1. 导航到历程图。
 
 1. 单击路径上的加号( **+** )图标，然后选择&#x200B;**[!UICONTROL 执行操作]**。
 
@@ -112,6 +112,10 @@ _创建外部受众：_
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
    系统会创建新受众并显示确认消息。 然后，您可以继续将其用作节点操作的现有受众。
+
+   >[!NOTE]
+   >
+   >从Journey Optimizer B2B edition创建新的外部客户受众时，将植入一个虚拟记录(`test@email.com`)。 将第一个实际用户档案添加到历程的外部受众后，就会覆盖此记录。
 
 _要使用现有受众：_
 
