@@ -2,9 +2,9 @@
 title: 发行说明
 description: Adobe Journey Optimizer B2B Edition 的最新发行说明
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: f4c0870e3cf8a8c1db3ed2f11f7ecfdf244f69fe
+source-git-commit: f26f8767a9bb1c7df8a1aaf4ca91657e40ef8aa1
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2004'
 ht-degree: 92%
 
 ---
@@ -27,7 +27,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | ---- | ---- | ----------- |
 | 功能 | 帐户列表 | 您现在可以创建静态或动态帐户列表，以根据您定义的标准（例如行业、地点或公司规模）定位命名帐户。<a href="../accounts/account-lists.md">了解详情</a> |
 | 功能 | 帐户列表历程编排 | 使用历程操作节点为静态帐户列表添加和删除帐户。 <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">了解详情</a> |
-| 增强功能 | Marketo Engage中的筛选旅程成员资格 | 对历程受众使用Adobe Journey Optimizer B2B edition帐户列表，然后在Marketo Engage智能列表中使用&#x200B;_帐户列表的成员_&#x200B;筛选器。 &lt;a href=&quot;../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list>了解详情</a> |
+| 增强功能 | Marketo Engage中的筛选旅程成员资格 | 对历程受众使用Adobe Journey Optimizer B2B edition帐户列表，然后在Marketo Engage智能列表中使用&#x200B;_帐户列表的成员_&#x200B;筛选器。 <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">了解详情</a> |
 | 功能 | 非活动筛选器 | 根据Marketo Engage营销活动和项目中的不活动情况编排历程，包括电子邮件不活动、有趣的时刻、数据值更改和访问的网页。 <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">了解详情</a> |
 | 增强功能 | 已访问的网页过滤器 | 根据与Marketo Engage活动和项目关联的已访问网页的活动编排历程。 <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">了解详情</a> |
 
