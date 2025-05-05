@@ -246,12 +246,12 @@ ht-degree: 2%
 
 您可以使用以下任一方法复制片段：
 
-* _[!UICONTROL 在片段]_&#x200B;列表页面中，单击&#x200B;_片段名称旁边的更多_&#x200B;图标 （**...**），然后选择&#x200B;****&#x200B;复制。
+* _[!UICONTROL 在片段]_&#x200B;列表页面中，单击&#x200B;_片段名称旁边的更多_&#x200B;图标 （**...**），然后选择&#x200B;**&#x200B;**&#x200B;复制。
 * 在片段详细信息页面的右上角，单击 **[!UICONTROL ...更多]** ，然后选择 **[!UICONTROL “复制]**”。
 
 ![复制片段](./assets/fragment-details-duplicate.png){width="600" zoomable="yes"}
 
-在对话框中，输入有用的名称（唯一）和描述。 单击“复制&#x200B;]**”**[!UICONTROL &#x200B;以完成作。
+在对话框中，输入有用的名称（唯一）和描述。 单击“复制&#x200B;**”**&#x200B;以完成作。
 
 ![输入复制的片段的名称和描述](./assets/fragment-duplicate-dialog.png){width="400"}
 
@@ -261,7 +261,7 @@ ht-degree: 2%
 
 在可视化内容编辑器中创建/编辑电子邮件或电子邮件模板时，可以选择将全部或部分内容保存为片段，以便可供重复使用。
 
-1. 当您有一些内容要另存为片段时，请单击“更多&#x200B;]**”**[!UICONTROL &#x200B;并选择&#x200B;**[!UICONTROL “另存为片段]**”。
+1. 当您有一些内容要另存为片段时，请单击“更多&#x200B;**”**&#x200B;并选择&#x200B;**[!UICONTROL “另存为片段]**”。
 
 1. 选择要包含在片段中的不同元素。
 
@@ -285,9 +285,9 @@ ht-degree: 2%
 
 1. 导航到&#x200B;**[!UICONTROL 帐户历程]**&#x200B;并打开现有历程或创建新历程。
 
-1. 创建[_[!UICONTROL 发送电子邮件&#x200B;]_节点](./email-authoring.md#add-an-email-action-in-an-account-journey)。
+1. 创建[_[!UICONTROL 发送电子邮件&#x200B;]_&#x200B;节点](./email-authoring.md#add-an-email-action-in-an-account-journey)。
 
-1. 创建或编辑节点](./email-authoring.md#create-the-email-content)的[电子邮件内容。
+1. 创建或编辑节点[&#128279;](./email-authoring.md#create-the-email-content)的电子邮件内容。
 
 1. 从&#x200B;**[!UICONTROL 组件]**&#x200B;菜单拖放项以提供片段的&#x200B;_结构_。
 

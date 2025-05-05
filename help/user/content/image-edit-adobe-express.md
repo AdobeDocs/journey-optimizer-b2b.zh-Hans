@@ -49,7 +49,7 @@ _要修改图像：_
 
    >[!TIP]
    >
-   >在继续编辑图像文件之前，最佳做法是选择图像详细信息中的[由&#x200B;]_使用的_[!UICONTROL &#x200B;选项卡](./marketo-engage-design-studio.md#view-asset-used-by-references)并查看当前使用该图像的内容。
+   >在继续编辑图像文件之前，最佳做法是选择图像详细信息中的[由&#x200B;]_使用的_[[!UICONTROL &#x200B;选项卡]](./marketo-engage-design-studio.md#view-asset-used-by-references)并查看当前使用该图像的内容。
 
 1. 在右侧的图像&#x200B;_[!UICONTROL 详细信息]_&#x200B;中，单击&#x200B;**[!UICONTROL 使用Adobe Express编辑]**。
 
@@ -65,7 +65,7 @@ _要修改图像：_
 
 >[!NOTE]
 >
->必须在同一IMS组织下购买您的Adobe Express企业许可证，才能从Journey Optimizer B2B edition访问这些完整的编辑器功能。 作为IMS组织的单个成员，您需要在Adobe Express实例中分配许可证。 否则，您的Adobe Express访问权限将限制为Journey Optimizer B2B edition中对Adobe Express](#quick-actions-in-adobe-express)的[快速操作。
+>必须在同一IMS组织下购买您的Adobe Express企业许可证，才能从Journey Optimizer B2B edition访问这些完整的编辑器功能。 作为IMS组织的单个成员，您需要在Adobe Express实例中分配许可证。 否则，您的Adobe Express访问权限将限制为Journey Optimizer B2B edition中对Adobe Express[&#128279;](#quick-actions-in-adobe-express)的快速操作。
 
 ![在Adobe Express企业编辑器中打开图像](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 

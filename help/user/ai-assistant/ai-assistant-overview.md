@@ -13,7 +13,7 @@ ht-degree: 4%
 
 # Journey Optimizer B2B edition中的AI助手
 
-Journey Optimizer B2B edition中的AI助手是基于Adobe Experience Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home)中的[AI助手所基于的相同技术创建的。 它是一种对话式体验，可用于加快Adobe Journey Optimizer B2B edition中的工作流程。 您可以使用AI Assistant进一步了解产品功能、排除问题或搜索信息并查找Journey Optimizer B2B edition的操作见解。
+Journey Optimizer B2B edition中的AI助手是基于Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home)中的AI助手所基于的相同技术创建的。 它是一种对话式体验，可用于加快Adobe Journey Optimizer B2B edition中的工作流程。 您可以使用AI Assistant进一步了解产品功能、排除问题或搜索信息并查找Journey Optimizer B2B edition的操作见解。
 
 >[!IMPORTANT]
 >
@@ -29,7 +29,7 @@ Journey Optimizer B2B edition中的AI助手是基于Adobe Experience Platform](h
 
 ## Journey Optimizer B2B edition中的AI助手功能
 
-为了制定对您提交问题的响应，AI Assistant查询数据库并将数据库中的数据转换为人类可读的答案。 此响应是基础数据的内部表示形式，也称为&#x200B;_**_知识图_**_ — 给定答案的概念、数据和元数据的综合网络。 知识图由每次提交查询时引用的子图组成：
+为了制定对您提交问题的响应，AI Assistant查询数据库并将数据库中的数据转换为人类可读的答案。 此响应是基础数据的内部表示形式，也称为&#x200B;_&#x200B;**_知识图_**&#x200B;_ — 给定答案的概念、数据和元数据的综合网络。 知识图由每次提交查询时引用的子图组成：
 
 * Experience League文档。
 * 操作构件，例如架构、字段、受众和历程。
@@ -59,7 +59,7 @@ _操作分析_&#x200B;是指AI助手生成的有关元数据对象（属性、�
 | 域 | 支持的元数据 | 不支持的元数据 |
 | --- | --- | --- |
 | 属性/字段 | <li>属性名称搜索 <li>属性 — 架构关系 <li>属性 — 数据集关系 <li>属性 — 受众关系 <li>属性 — 目标关系 | <li>属性类 <li>审核 <li>弃用状态 <li>标记 <li>存储在属性中的值 |
-| 帐户访问群体&#x200B;<br><br>**_注意：_**AJO B2B AI Assistant只能回答帐户访问群体的访问群体问题，而Experience PlatformAI Assistant只能回答个人访问群体的问题 | <li>受众人数 <li>受众类型（流式传输或批处理） <li>创建/修改日期 <li>激活状态 <li>成员计数 <li>复制受众 <li>名称和ID搜索 | <li>受众重叠 <li>Audience Activation <li>审核 <li>创建/修改 <li>标记 <li>成员资格趋势 |
+| 帐户访问群体&#x200B;<br><br>**_注意：_**&#x200B;AJO B2B AI Assistant只能回答帐户访问群体的访问群体问题，而Experience PlatformAI Assistant只能回答个人访问群体的问题 | <li>受众人数 <li>受众类型（流式传输或批处理） <li>创建/修改日期 <li>激活状态 <li>成员计数 <li>复制受众 <li>名称和ID搜索 | <li>受众重叠 <li>Audience Activation <li>审核 <li>创建/修改 <li>标记 <li>成员资格趋势 |
 | 数据流 | <li>数据流计数 <li>数据流状态 <li>数据流 — 数据集关系 <li>数据流 — 源关系 | <li>创建/修改 <li>数据流 — 批次关系 <li>摄取配置文件计数 |
 | 数据集 | <li>数据集计数 <li>配置文件启用状态 <li>创建/修改日期 <li>数据集 — 架构关系 <li>数据集 — 受众关系 <li>数据集 — 属性关系 <li>数据集 — 数据流关系 <li>名称搜索 <li>名称和ID搜索 | <li>审核 <li>创建者 <li>数据集 — 批次关系 <li>数据集创建/修改 <li>数据集大小 <li>配置文件数量 <li>行数 <li>值搜索 |
 | 目标 | <li>已配置的目标计数 <li>目标 — 受众关系 <li>目标属性关系 | <li>帐户设置 <li>帐户凭据信息 <li>独特配置文件已激活 |

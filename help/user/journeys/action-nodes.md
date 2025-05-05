@@ -171,7 +171,7 @@ _要使用现有受众：_
 
 +++[!UICONTROL 发送电子邮件]
 
-使用此操作发送电子邮件。 您可以在可视设计器中创建、个性化和预览电子邮件（请参阅[电子邮件创作](../content/email-authoring.md)）。 您还可以从Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}发送[电子邮件。 选择Marketo Engage工作区，然后选择要发送的电子邮件。
+使用此操作发送电子邮件。 您可以在可视设计器中创建、个性化和预览电子邮件（请参阅[电子邮件创作](../content/email-authoring.md)）。 您还可以从Marketo Engage[&#128279;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}发送电子邮件。 选择Marketo Engage工作区，然后选择要发送的电子邮件。
 
 ![执行操作 — 发送电子邮件](./assets/node-action-send-email-from-marketo.png){width="300"}
 
