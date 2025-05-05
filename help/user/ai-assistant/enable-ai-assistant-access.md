@@ -21,7 +21,7 @@ ht-degree: 1%
 
 * **访问应用程序：**&#x200B;您可以在Adobe Journey Optimizer B2B edition中访问AI助手。
 
-* **权限：**&#x200B;使用[权限UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions)授予或撤消对您组织中的AI助理的访问权限。 要使用AI助手，给定用户必须属于使用&#x200B;**启用AI助手**&#x200B;和&#x200B;**查看操作分析**&#x200B;权限配置的角色。
+* **权限：**&#x200B;使用[权限UI](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/permissions)授予或撤消对您组织中的AI助理的访问权限。 要使用AI助手，给定用户必须属于使用&#x200B;**启用AI助手**&#x200B;和&#x200B;**查看操作分析**&#x200B;权限配置的角色。
 
 作为管理员，您可以：
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ![分配AI助手权限](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}
 
-使用权限UI可授予在Journey Optimizer B2B edition中使用AI助理的权限。 有关在Experience Platform和其他Experience Cloud应用程序中访问AI助手的信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access)。
+使用权限UI可授予在Journey Optimizer B2B edition中使用AI助理的权限。 有关在Experience Platform和其他Experience Cloud应用程序中访问AI助手的信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/access)。
 
 当用户具有必要的权限时，他们可以通过选择您正在使用的应用程序顶部标题上的&#x200B;_AI助手_&#x200B;图标来访问AI助手。
 

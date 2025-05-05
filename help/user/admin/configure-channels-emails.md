@@ -50,11 +50,11 @@ Journey Optimizer B2B edition中的设置是只读的。 单击右上角的&#x20
 
 ![访问品牌策略域设置](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-此设置为一个或多个Marketo Engage工作区定义主域。 新电子邮件使用此域作为默认域，但营销人员可以根据每封电子邮件覆盖此域。 有关详细信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}。
+此设置为一个或多个Marketo Engage工作区定义主域。 新电子邮件使用此域作为默认域，但营销人员可以根据每封电子邮件覆盖此域。 有关详细信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}。
 
 >[!NOTE]
 >
->如果您在Journey Optimizer B2B edition和连接的Marketo Engage实例中推广多个品牌，并希望每个品牌都有自己的品牌跟踪链接，则可以添加额外的品牌推广域。 有关详细信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}。
+>如果您在Journey Optimizer B2B edition和连接的Marketo Engage实例中推广多个品牌，并希望每个品牌都有自己的品牌跟踪链接，则可以添加额外的品牌推广域。 有关详细信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}。
 
 ### [!UICONTROL 自定义标头选项] {#custom-header-options}
 
@@ -78,7 +78,7 @@ Journey Optimizer B2B edition中的设置是只读的。 单击右上角的&#x20
 >
 >要在Adobe Marketo Engage中访问和编辑这些设置，您必须具有产品管理员权限。
 
-有关配置通信限制的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}。
+有关配置通信限制的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}。
 
 ## SPF/DKIM
 
@@ -112,7 +112,7 @@ DKIM是一种身份验证协议，电子邮件接收者使用它来验证电子�
 
 在DNS记录中激活公钥并在连接的Marketo Engage实例中激活发送域后，自定义DKIM签名将用于发送消息。 自定义DKIM签名包含加密的数字签名，其中包含在发送的每封电子邮件中。 然后，接收方可通过在发送域的DNS中查找&#x200B;_公钥_&#x200B;来解密数字签名。 如果电子邮件中的密钥与DNS记录中的密钥相对应，则接收邮件服务器更有可能接受通过Marketo Engage发送的电子邮件。
 
-有关为电子邮件投放配置自定义DKIM签名的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}。
+有关为电子邮件投放配置自定义DKIM签名的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}。
 
 ## 机器人活动
 
@@ -145,4 +145,4 @@ Journey Optimizer B2B edition中的设置是只读的。 单击右上角的&#x20
 >
 >要在Adobe Marketo Engage中访问和编辑这些设置，您必须具有产品管理员权限。
 
-有关配置机器人活动选项的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}。
+有关配置机器人活动选项的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}。

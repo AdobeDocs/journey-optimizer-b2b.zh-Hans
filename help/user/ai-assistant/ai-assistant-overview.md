@@ -77,9 +77,9 @@ _操作分析_&#x200B;是指AI助手生成的有关元数据对象（属性、�
 
 目前，人工智能助理的范围如下：
 
-* [产品知识](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#product-knowledge)： AI助手可以回答Real-Time Customer Data Platform和Adobe Journey Optimizer B2B edition的产品知识问题。
+* [产品知识](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home#product-knowledge)： AI助手可以回答Real-Time Customer Data Platform和Adobe Journey Optimizer B2B edition的产品知识问题。
 
-* [操作分析](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights)：您可以向AI Assistant询问有关以下数据对象的操作分析的问题：属性、帐户受众、数据流、数据集、目标、帐户历程、架构、源、购买组模板和解决方案兴趣。
+* [操作分析](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home#operational-insights)：您可以向AI Assistant询问有关以下数据对象的操作分析的问题：属性、帐户受众、数据流、数据集、目标、帐户历程、架构、源、购买组模板和解决方案兴趣。
 
 ### 隐私、安全和治理
 
@@ -91,7 +91,7 @@ Journey Optimizer B2B edition中的AI助手以隐私、安全和治理为原则�
 
 * 您必须具有显式权限才能与AI助手交互。
 
-   * 管理员可以使用[权限UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions)和[Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse)设置权限。
+   * 管理员可以使用[权限UI](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/permissions)和[Admin Console](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/ui/browse)设置权限。
 
    * 权限是细粒度的，您的沙盒管理员可以配置哪些用户能够提出不同类别的问题（使用AI助手基于产品知识的问题或有关操作见解的问题）。
 
