@@ -233,4 +233,4 @@ _按人员划分的路径如何工作？_
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443266/?learn=on&captions=chi_hans)

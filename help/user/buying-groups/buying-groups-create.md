@@ -61,4 +61,4 @@ Remove a member of the buying group. -->
 
 ## 操作方法视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3451771/?learn=on&captions=chi_hans)

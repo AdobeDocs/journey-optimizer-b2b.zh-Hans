@@ -154,4 +154,4 @@ _帐户历程_&#x200B;列表中包含您的 Journey Optimizer B2B Edition 实例
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443217/?learn=on&captions=chi_hans)
