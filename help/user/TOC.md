@@ -2,9 +2,9 @@
 user-guide-title: Journey Optimizer B2B Edition 文档
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何使用它通过内置的生成式 AI 和行业领先的自动化来编排帐户和购买群组历程。
 source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 97%
       + [Market Engage 中的购买群组过滤器](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + 帐户列表 {#occount-lists}
       + [概述](./accounts/account-lists.md)
-      + [在历程和程序中使用](./accounts/account-lists-journeys.md)
+      + [用于历程和计划](./accounts/account-lists-journeys.md)
    + [帐户详细信息](./accounts/account-details.md)
    + [XDM 字段](./data/field-mapping.md)
 + 内容管理 {#content-management}
@@ -84,7 +84,7 @@ ht-degree: 97%
       + [概述](./content/landing-pages.md)
       + [登陆页面设计](./content/landing-page-design.md)
    + [条件内容](./content/conditional-content.md)
-+ 分析功能板 {#dashboards}
++ 洞察仪表板  {#dashboards}
    + [智能仪表板](./dashboards/intelligent-dashboard.md)
    + [参与概述](./dashboards/engagement-dashboard.md)
    + [购买群组概述](./dashboards/buying-groups-dashboard.md)
