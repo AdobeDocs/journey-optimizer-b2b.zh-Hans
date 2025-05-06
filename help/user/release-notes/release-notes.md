@@ -5,7 +5,7 @@ exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: f26f8767a9bb1c7df8a1aaf4ca91657e40ef8aa1
 workflow-type: tm+mt
 source-wordcount: '2004'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,21 +15,21 @@ Journey Optimizer B2B Edition 不断地提供新功能，对现有功能进行�
 
 Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] 上，并继承了其最新的创新和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/latest){target="_blank"}中进一步了解这些更改。
 
-查看[产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，了解有关授权、性能护栏和限制的信息。
+查看[产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，了解有关权限、性能护栏和限制的信息。
 
 ## 2025.4 发行说明
 
-**发行日期**： 2025年4月29日
+**发布日期**：2025 年 4 月 29 日
 
 此版本包括以下新功能和增强功能：
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
 | 功能 | 帐户列表 | 您现在可以创建静态或动态帐户列表，以根据您定义的标准（例如行业、地点或公司规模）定位命名帐户。<a href="../accounts/account-lists.md">了解详情</a> |
-| 功能 | 帐户列表历程编排 | 使用历程操作节点为静态帐户列表添加和删除帐户。 <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">了解详情</a> |
-| 增强功能 | Marketo Engage中的筛选旅程成员资格 | 对历程受众使用Adobe Journey Optimizer B2B edition帐户列表，然后在Marketo Engage智能列表中使用&#x200B;_帐户列表的成员_&#x200B;筛选器。 <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">了解详情</a> |
-| 功能 | 非活动筛选器 | 根据Marketo Engage营销活动和项目中的不活动情况编排历程，包括电子邮件不活动、有趣的时刻、数据值更改和访问的网页。 <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">了解详情</a> |
-| 增强功能 | 已访问的网页过滤器 | 根据与Marketo Engage活动和项目关联的已访问网页的活动编排历程。 <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">了解详情</a> |
+| 功能 | 帐户列表历程编排 | 使用历程操作节点来添加和移除静态帐户列表的帐户。<a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">了解详情</a> |
+| 增强功能 | 在 Marketo Engage 中筛选历程会员资格 | 为历程受众使用 Adobe Journey Optimizer B2B Edition 帐户列表，然后使用 Marketo Engage 智能列表中的&#x200B;_帐户列表会员_&#x200B;过滤器。<a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">了解详情</a> |
+| 功能 | 非活动状态过滤器 | 根据 Marketo Engage 营销活动和计划中的非活动状态来编排历程，包括电子邮件非活动状态、有趣的时刻、数据值变化和访问过的网页。<a href="../journeys/split-merge-paths-nodes.md#activity-filtering">了解详情</a> |
+| 增强功能 | 访问过的网页过滤器 | 根据与 Marketo Engage 营销活动和计划相关联的访问过的网页的活动状态来编排历程。<a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">了解详情</a> |
 
 ## 2025.3 发行说明
 
@@ -39,7 +39,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | 重复的帐户历程 | 帐户历程现在提供重复操作。 您可以复制帐户历程的详细信息，也可以仅复制流量和路径结构的简单框架。 <a href="../journeys/journey-overview.md#duplicate-journey">了解详情</a> |
+| 功能 | 重复的帐户历程 | 现在为帐户历程提供重复操作。您可以复制帐户历程的详细信息，或者仅复制流程和路径结构的简单框架。<a href="../journeys/journey-overview.md#duplicate-journey">了解详情</a> |
 | 功能 | 我的账户历程令牌 | 您现在可以定义一组具有帐户历程特定值的自定义令牌。这组自定义令牌被称为&#x200B;_我的令牌_，所有这些自定义令牌都可以在创作历程电子邮件时用于进行个性化。<a href="../content/personalization-my-tokens.md">了解详情</a> |
 | 功能 | 删除购买群组阶段 | 当购买群组阶段模型处于草稿或已发布状态时，您可以将其删除。如果它已发布（上线），则只有当它与任何解决方案兴趣都无关联时，您才能删除。<a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">了解详情</a> |
 | 增强功能 | 历程节点数 | 在节点层面提高了已发布历程会员资格数量的可见性。在&#x200B;_历程图_&#x200B;中，节点会显示&#x200B;_[!UICONTROL 已进入的帐户总数]_。当您选择并操作节点时，右侧的详细信息还包括&#x200B;_[!UICONTROL 尚未执行操作的帐户]_。_监听事件_&#x200B;节点的详细信息包括&#x200B;_[!UICONTROL 此步骤中的帐户]_。使用此信息来验证您正在进行的、已完成的和已中止的历程中的帐户进展。 |
