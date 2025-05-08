@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 配置Experience Platform事件定义
 
-管理员可以配置基于Adobe Experience Platform (AEP)的事件定义，这些定义使营销人员能够创建对[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反应的帐户历程。
+管理员可以配置基于Adobe Experience Platform (AEP)的事件定义，这些定义使营销人员能够创建对[AEP Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反应的帐户历程。
 
 ![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看视频概述](#overview-video)
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >与您的工程团队协调，确保定义所需的架构。 [创建XDM架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}是一个复杂的过程，由数据工程师根据您组织中的用例要求执行。
+  >与您的工程团队协调，确保定义所需的架构。 [创建XDM架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition){target="_blank"}是一个复杂的过程，由数据工程师根据您组织中的用例要求执行。
 
 * **_事件类型_** - XDM ExperienceEvent eventType（每个事件定义最多20个）。
 
@@ -115,7 +115,7 @@ ht-degree: 1%
 
 1. 选择要用于事件定义的&#x200B;**[!UICONTROL 事件类型]**。
 
-   您选择的[事件类型](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"}决定了可用作帐户历程中&#x200B;_侦听事件_&#x200B;节点的约束的事件。
+   您选择的[事件类型](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"}决定了可用作帐户历程中&#x200B;_侦听事件_&#x200B;节点的约束的事件。
 
    * 单击&#x200B;**[!UICONTROL 选择事件类型]**。
    * 在对话框中，从列表中选择一个或多个事件类型（最多20个）。
