@@ -3,10 +3,10 @@ title: 电子邮件创作
 description: 了解如何创建在帐户历程中使用的个性化电子邮件内容。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '1297'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 11%
 
 在添加&#x200B;_[!UICONTROL Take an action]_&#x200B;历程并执行以下操作时，可以在Account节点中设置电子邮件投放：
 
-1. 对于&#x200B;_目标上的_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
-1. 若要对人员&#x200B;_执行_&#x200B;操作，请选择&#x200B;**[!UICONTROL 发送电子邮件]**。
+1. 对于&#x200B;]_目标上的_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
+1. 若要对人员&#x200B;]_执行_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 发送电子邮件]**。
 1. 对于&#x200B;_[!UICONTROL 电子邮件源]_，请选择&#x200B;**[!UICONTROL 新建电子邮件]**。
 
    或者，您还可以选择&#x200B;_[!UICONTROL 从Adobe Marketo Engage中选择电子邮件]_&#x200B;选项，以使用Marketo Engage中预先编写的电子邮件之一，并将其作为帐户历程的一部分发送。
 
    >[!NOTE]
    >
-   >如果您是首次创建电子邮件，请确保已在Adobe Marketo Engage中配置电子邮件渠道。 要了解更多信息，请参阅Marketo Engage文档中的[确保电子邮件可投放性](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)。
+   >如果您是首次创建电子邮件，请确保已在Adobe Marketo Engage中配置电子邮件渠道。 要了解更多信息，请参阅Marketo Engage文档中的[确保电子邮件可投放性](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}。
 
    ![执行操作 — 发送电子邮件](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
@@ -141,7 +141,7 @@ ht-degree: 11%
 
 {{$include /help/_includes/content-design-navigation.md}}
 
-### 使内容个性化
+### 个性化内容
 
 {{$include /help/_includes/content-design-personalization.md}}
 
@@ -212,6 +212,6 @@ ht-degree: 11%
 
 定义消息内容后，您可以使用测试用户档案来预览、发送校样，并控制它在常用桌面、移动和基于Web的客户端中的呈现。 如果插入个性化内容，则可以使用测试用户档案数据预览此内容在消息中的显示方式。
 
-若要预览电子邮件内容，请单击“模拟内容”**&#x200B;**，然后添加测试用户档案，以使用测试用户档案数据检查邮件。
+若要预览电子邮件内容，请单击“模拟内容”****，然后添加测试用户档案，以使用测试用户档案数据检查邮件。
 
 ![模拟电子邮件内容以检查您的设计](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}

@@ -2,8 +2,8 @@
 title: 帐户受众
 description: 了解帐户受众，以及他们如何实现基于帐户的历程。
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: b6b26d9cb79926577ed7fc4ed50c094986796505
-workflow-type: ht
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 受众是具有相似行为和/或特征的一个群体。Journey Optimizer B2B Edition 使用 Adobe Real-Time Customer Data Platform B2B 和 B2P 版本中的帐户分段功能。通过帐户分段，用户可以利用系统内任何 B2B 实体的数据来生成帐户受众。这些帐户受众用作 Journey Optimizer B2B Edition 帐户历程的输入，有助于实现无缝激活和个性化功能。
 
-详细了解帐户受众，以及 [Adobe Experience Platform Segmentation Service 文档](https://experienceleague.adobe.com/zh-hans/docs/ experience-platform/segmentation/types/account-audiences)中如何对其定义。
+详细了解帐户受众，以及 [Adobe Experience Platform Segmentation Service 文档](https://experienceleague.adobe.com/zh-hans/docs/ experience-platform/segmentation/types/account-audiences){target="_blank"}中如何对其定义。
 
 ## 帐户受众工作流
 
@@ -32,7 +32,7 @@ Journey Optimizer B2B Edition 允许您直接从左侧导航栏生成 Adobe Expe
 
 ## 创建帐户受众
 
-通过创建帐户分段来定义帐户受众。您可以选择直接在 Journey Optimizer B2B Edition 应用程序中，也可以使用[区段生成器 UI](https://experienceleague.adobe.com/zh-hans/docs/ experience-platform/segmentation/ui/segment-builder) 创建帐户分段。以下是在 Journey Optimizer B2B Edition 中创建帐户分段的步骤。
+通过创建帐户分段来定义帐户受众。您可以选择直接在 Journey Optimizer B2B Edition 应用程序中，也可以使用[区段生成器 UI](https://experienceleague.adobe.com/zh-hans/docs/ experience-platform/segmentation/ui/segment-builder){target="_blank"} 创建帐户分段。以下是在 Journey Optimizer B2B Edition 中创建帐户分段的步骤。
 
 1. 在左侧导航栏中，选择&#x200B;**[!UICONTROL 帐户]** > **[!UICONTROL 受众]**。
 

@@ -3,8 +3,8 @@ title: 资产
 description: 了解 Journey Optimizer B2B Edition 中的资产管理。
 feature: Assets, Content
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
-workflow-type: ht
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Adobe Journey Optimizer B2B Edition 为营销人员提供两种类型的资产�
 
 Adobe Journey Optimizer B2B Edition 可以连接到 Adobe Experience Manager Assets as a Cloud Service，进行集中资产管理，从而扩展您的创意系统，并为体验投放统一数字资产。Adobe Experience Manager Assets as a Cloud Service 提供了易于使用的云解决方案，有助于高效的数字资产管理和动态媒体运营。它无缝地融合了先进的功能，包括人工智能和机器学习。
 
-更多详情请参阅 [Adobe Experience Manager as a Cloud Service 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/overview)。
+更多详情请参阅 [Adobe Experience Manager as a Cloud Service 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/overview){target="_blank"}。
 
 {{aem-assets-licensing-note}}
 

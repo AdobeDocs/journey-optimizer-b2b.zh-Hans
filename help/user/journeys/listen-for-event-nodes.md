@@ -3,7 +3,7 @@ title: 侦听事件
 description: 了解侦听事件节点类型，可用于在Journey Optimizer B2B edition中编排帐户历程。
 feature: Account Journeys
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '1373'
 ht-degree: 8%
@@ -118,7 +118,7 @@ ht-degree: 8%
 
 ### 收听体验活动
 
-管理员可以配置基于Adobe Experience Platform (AEP)的事件定义，这些定义使营销人员能够创建对[AEP Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent)做出反应的帐户历程。 在帐户历程中使用AEP体验事件包括两个步骤：
+管理员可以配置基于Adobe Experience Platform (AEP)的事件定义，这些定义使营销人员能够创建对[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反应的帐户历程。 在帐户历程中使用AEP体验事件包括两个步骤：
 
 1. [创建并发布AEP事件定义](../admin/configure-aep-events.md)。
 
@@ -182,4 +182,4 @@ _要在您的历程中包含体验事件，请执行以下操作：_
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3443244/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)

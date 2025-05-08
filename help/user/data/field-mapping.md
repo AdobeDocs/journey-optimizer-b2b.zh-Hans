@@ -2,9 +2,9 @@
 title: XDM字段
 description: 查看在Adobe Experience Platform和Journey Optimizer B2B edition之间同步的默认属性字段。
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 34ef9681b75ef1cd43d34e3f2836a60affb95b33
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1346'
 ht-degree: 12%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 12%
 
 >[!TIP]
 >
->您可以使用XDM业务帐户人员关系类在多对多关系中对XDM业务人员和XDM业务帐户类建模，如[Experience Platform XDM文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/tutorials/relationship-b2b)中所述。
+>您可以使用XDM业务帐户人员关系类在多对多关系中对XDM业务人员和XDM业务帐户类建模，如[Experience Platform XDM文档](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}中所述。
 
 ## XDM业务帐户人员关系属性
 
-| [属性](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | 显示名称 | Journey Optimizer B2B显示名称 | 数据类型 | 描述 |
+| [属性](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} | 显示名称 | Journey Optimizer B2B显示名称 | 数据类型 | 描述 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 | `personRoles` | 人员角色 | 角色 | 字符串数组 | 与帐户中的人员关联的角色数组，如`owner, accountant, designer`。 |
 
@@ -29,7 +29,7 @@ ht-degree: 12%
 >
 >`workEmail.Address`属性是必需的。 如果帐户受众成员的该值为空，则不会摄取该人员，并会将其从引用该受众的帐户历程和购买组中忽略。
 
-| [属性](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | 显示名称 | Journey Optimizer B2B显示名称 | 数据类型 | 描述 |
+| [属性](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} | 显示名称 | Journey Optimizer B2B显示名称 | 数据类型 | 描述 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 | `b2b.isMarketingSuspended` | 营销暂停指标 | 营销暂停 | 布尔值 | 该值指示人员营销是否暂停。 |
 | `b2b.marketingSuspendedCause` | 营销暂停原因 | 营销暂停原因 | 字符串 | 如果暂停了人员的营销，则此属性提供了原因。 |
@@ -59,7 +59,7 @@ ht-degree: 12%
 >
 >`accountName`属性是必需的。 如果帐户受众中某个帐户的日期为空，则不会摄取该帐户，并会在引用受众的帐户历程和购买组中忽略该帐户。
 
-| [属性](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/account/account-details.schema.md) | 显示名称 | Journey Optimizer B2B显示名称 | 数据类型 | 描述 |
+| [属性](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/account/account-details.schema.md){target="_blank"} | 显示名称 | Journey Optimizer B2B显示名称 | 数据类型 | 描述 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 | `accountBillingAddress.city` | 城市 | 城市 | 字符串 | 帐单地址中使用的城市名称。 |
 | `accountBillingAddress.country` | 国家/地区 | 国家/地区 | 字符串 | 帐单地址中使用的政府管理地区的名称。 除`xdm:countryCode`外，它是一个自由形式的字段，可以包含任何语言的国家/地区名称。 |
@@ -79,9 +79,9 @@ ht-degree: 12%
 
 ## XDM业务机会属性
 
-此外，商机数据作为属性存储在XDM业务机会类中，这些属性可以通过多对一关系与XDM业务帐户类关联，如[此处](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field)所述。
+此外，机会数据作为属性存储在XDM业务机会类中，该属性可以通过多对一关系与XDM业务帐户类关联，如[Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}中所述。
 
-| [属性](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md) | 显示名称 | Journey Optimizer B2B显示名称 | 数据类型 | 描述 |
+| [属性](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} | 显示名称 | Journey Optimizer B2B显示名称 | 数据类型 | 描述 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 | `expectedCloseDate` | 预计关闭日期 | 预计机会关闭日期 | 字符串 | 商机的预期结束日期。 |
 | `expectedRevenue.amount` | 预期收入 | 总机会预期收入 | 字符串 | 根据金额和概率计算的收入。 |

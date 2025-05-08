@@ -3,10 +3,10 @@ title: 使用 Experience Manager Assets
 description: 了解如何在Adobe Journey Optimizer B2B edition中创作内容时使用连接的AEM Assets存储库中的图像资源。
 feature: Assets, Content
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 1%
 
 {{aem-assets-licensing-note}}
 
-当您使用这些数字资源时，Assetsas a Cloud Service中的最新更改会通过链接的引用自动传播到实时电子邮件营销活动中。 如果在Adobe Experience Manager Assetsas a Cloud Service中删除了图像，则这些图像在电子邮件中显示时带有断开的引用。 当帐户历程中当前使用的资产被修改或删除时，历程作者会收到有关图像更改和使用图像的历程列表的通知。 对资源的所有更改必须在Adobe Experience Manager Assets中央存储库中完成。
+当您使用这些数字资源时，Assets as a Cloud Service中的最新更改会通过链接的引用自动传播到实时电子邮件营销活动中。 如果在Adobe Experience Manager Assets as a Cloud Service中删除了图像，则这些图像在电子邮件中显示时带有损坏的引用。 当帐户历程中当前使用的资产被修改或删除时，历程作者会收到有关图像更改和使用图像的历程列表的通知。 对资源的所有更改必须在Adobe Experience Manager Assets中央存储库中完成。
 
 当您的环境有一个或多个[Assets存储库连接](../admin/configure-aem-repositories.md)时，内容作者在创建电子邮件、电子邮件模板或可视化片段时可以使用AEM Assets作为资源的来源。
 
 >[!IMPORTANT]
 >
->管理员必须将需要访问Assets的用户添加到Assets Consumer Users或/和Assets Users产品配置文件。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console)
+>管理员必须将需要访问Assets的用户添加到Assets Consumer Users或/和Assets Users产品配置文件。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## 访问AEM Assets图像
 
@@ -32,17 +32,17 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->目前，Adobe Journey Optimizer B2B edition仅支持Adobe Experience Manager Assets中的图像资源。 必须在Adobe Experience Manager Assets中央存储库中更改资源。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets)
+>目前，Adobe Journey Optimizer B2B edition仅支持Adobe Experience Manager Assets中的图像资源。 必须在Adobe Experience Manager Assets中央存储库中更改资源。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### 更改显示的存储库
 
-如果您有多个连接的AEM存储库，请单击&#x200B;**[!UICONTROL 存储库]**&#x200B;的菜单箭头，以选择要显示在左侧面板中的存储库。
+如果您有多个连接的AEM存储库，请单击&#x200B;**[!UICONTROL 存储库]**&#x200B;的菜单箭头以选择要在左侧面板中显示的存储库。
 
 ![选择AEM Assets存储库以访问图像资源](./assets/content-assets-selector-aem-repo.png){width="700" zoomable="yes"}
 
 有多种方法可以将图像资产添加到可视画布。
 
-### 拖放图像
+### 拖放一个图像
 
 1. 浏览左侧面板中显示的图像缩略图。
 
