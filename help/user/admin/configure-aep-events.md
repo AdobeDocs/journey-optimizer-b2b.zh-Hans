@@ -155,7 +155,7 @@ ht-degree: 1%
 
    ![打开草稿事件定义](./assets/configuration-events-publish-draft.png){width="600" zoomable="yes"}
 
-   如果需要，请在发布之前查看设置。 如果草稿](#edit-an-event-definition)不符合您的要求，您可以[对其进行编辑。
+   如果需要，请在发布之前查看设置。 如果草稿[&#128279;](#edit-an-event-definition)不符合您的要求，您可以对其进行编辑。
 
 1. 单击右上方的&#x200B;**[!UICONTROL 发布]**。
 
