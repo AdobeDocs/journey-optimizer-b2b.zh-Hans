@@ -3,16 +3,16 @@ title: 用于电子邮件创作的AI助手
 description: 了解如何使用AI Assistant优化帐户历程中使用的电子邮件内容。
 feature: AI Assistant, Email Authoring, Content
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
 workflow-type: tm+mt
 source-wordcount: '3072'
 ht-degree: 0%
 
 ---
 
-# 用于电子邮件创作的AI助手
+# 电子邮件创作的 AI 助手
 
-随着营销行业的竞争日益激烈，各大品牌都在寻求高效的方法来快速高效地生成有影响力的内容。 用于Adobe Journey Optimizer B2B版本中电子邮件创作的AI Assistant是Adobe提供的AI支持的内容生成功能，它彻底改变了营销人员创建专业且品牌一致的电子邮件内容的方式。 借助高级GenAI模型以及对品牌准则的深入了解，AI Assistant可根据营销目标自动生成个性化、引人入胜且有效的内容，其内容针对品牌概述的样式、布局、色调等进行了优化。 AI Assistant使电子邮件营销活动的创建和执行变得直观、简单而轻松。 将此功能添加到工作流可以节省时间、提高效率并取得更好的结果。
+随着营销行业的竞争日益激烈，各大品牌都在寻求高效的方法来快速高效地生成有影响力的内容。 用于Adobe Journey Optimizer B2B edition中电子邮件创作的AI Assistant是Adobe提供的AI支持的内容生成功能，它彻底改变了营销人员创建专业且品牌一致的电子邮件内容的方式。 借助高级GenAI模型以及对品牌准则的深入了解，AI Assistant可根据营销目标自动生成个性化、引人入胜且有效的内容，其内容针对品牌概述的样式、布局、色调等进行了优化。 AI Assistant使电子邮件营销活动的创建和执行变得直观、简单而轻松。 将此功能添加到工作流可以节省时间、提高效率并取得更好的结果。
 
 此新功能提供了基于提示的文本生成、完整电子邮件生成以及电子邮件结构中的内容生成。 不会生成图像，但建议从输入品牌资产的图像目录中将图像添加到模型。 您还可以使用此功能生成最佳主题行和预标题来影响打开率。
 
@@ -22,17 +22,17 @@ ht-degree: 0%
 
 ## 准则和限制
 
-在开始使用Adobe Journey Optimizer B2B版本中的AI Assistant生成电子邮件内容之前，请查看以下准则：
+在开始使用Adobe Journey Optimizer B2B edition中的AI助手生成电子邮件内容之前，请查看以下准则：
 
 * 您定义的营销目标/提示是所生成内容质量的关键决定因素。 使用明确定义的GenAI模型提示来准确地解释。
 * 上传品牌资产，以根据品牌内容获得准确的信息。 如果没有这些资产，内容将基于公开可用的信息。
    * 上传的资源可以是以下格式：PDF、JPEG、PNG或ZIP文件（包含支持的文件格式）。
    * 上传的品牌资产的最大大小为50 MB。 较大的文件或大量的图像可能会工作，但处理时间会增加。
-* 使用Adobe Journey Optimizer B2B Edition创作的电子邮件模板（最好是内置或示例模板）、品牌特定的模板或自定义模板来创建电子邮件内容。 建议使用最多包含八到十张图像的电子邮件模板。
+* 使用Adobe Journey Optimizer B2B edition创作的电子邮件模板（最好是内置或示例模板）、特定于品牌的模板或自定义模板来创建电子邮件内容。 建议使用最多包含八到十张图像的电子邮件模板。
 * 确保使用拇指按下或标记图标针对生成的变体报告任何有问题的输出。
-* AI助手的使用受[Adobe生成AI用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)的约束。
+* 使用AI助手须遵守[Adobe创作AI用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)。
 
-以下限制适用于用于生成电子邮件内容的Adobe Journey Optimizer B2B版本中的AI助手：
+以下限制适用于Adobe Journey Optimizer B2B edition中的AI助手，用于生成电子邮件内容：
 
 * 英语是唯一受支持的语言。
 * 它仅适用于电子邮件渠道。
@@ -51,23 +51,23 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-## 购买团体角色
+## 购买群组角色
 
-Adobe Journey Optimizer B2B版本提供了五个现成的标准B2B购买团体角色。 每个购买团体角色都有不同的消息传递重点：
+Adobe Journey Optimizer B2B edition提供了五个现成的标准B2B购买团体角色。 每个购买团体角色都有不同的消息传递重点：
 
 | 角色 | 消息传送重点 |
 | ---- | --------------- |
 | 执行指导委员会 | 产品信息<br/>定价<br/>技术集成详细信息<br/>产品特性和功能 |
-| 影响因素 | 质量证明<br/>易于实施<br/>主题专业知识<br/>竞争优势 |
+| 影响者 | 质量证明<br/>易于实施<br/>主题专业知识<br/>竞争优势 |
 | 决策者 | 投资回报率<br/>财务价值(RoI) <br/>客户案例 |
-| 从业者 | 易用性<br/>产品特性和功能<br/>产品兼容性<br/>产品集成的便利性 |
+| 业务员 | 易用性<br/>产品特性和功能<br/>产品兼容性<br/>产品集成的便利性 |
 | 冠军 | 教育内容<br/>思想领导力内容<br/>客户案例 |
 
 选择其中一个购买组角色可根据每个购买组角色的特性和感兴趣的主题自动自定义输出。
 
 ## 使用AI助手生成电子邮件属性
 
-当您[将电子邮件操作](./email-authoring.md#add-an-email-action-in-an-account-journey)添加到帐户历程时，您定义了一组用于发送电子邮件的电子邮件属性。 AI助手可以生成电子邮件&#x200B;**主题行**&#x200B;和&#x200B;**预编译标头**&#x200B;的推荐内容，从而帮助实现更好的电子邮件参与。
+当您[将电子邮件操作](./add-email.md#add-an-email-action-node-in-a-journey)添加到帐户历程时，您定义了一组用于发送电子邮件的电子邮件属性。 AI助手可以生成电子邮件&#x200B;**主题行**&#x200B;和&#x200B;**预编译标头**&#x200B;的推荐内容，从而帮助实现更好的电子邮件参与。
 
 1. 从帐户历程创建电子邮件或从历程节点打开现有电子邮件。
 
@@ -83,7 +83,7 @@ Adobe Journey Optimizer B2B版本提供了五个现成的标准B2B购买团体�
 
 1. 在&#x200B;_[!UICONTROL 电子邮件属性]_&#x200B;中，单击&#x200B;**[!UICONTROL 主题行]**&#x200B;字段右侧的AI助手图标（![AI助手访问图标](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}）。
 
-   电子邮件主题行![&#128279;](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}的AI助手访问权限
+   电子邮件主题行](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}的![AI助手访问权限
 
    此时将打开AI Assistant弹出窗口，其中包含电子邮件主题行的生成设置。
 
@@ -201,7 +201,7 @@ Adobe Journey Optimizer B2B版本提供了五个现成的标准B2B购买团体�
 
 ## 使用AI助手生成电子邮件正文内容
 
-在您[创建并个性化您的电子邮件](./email-authoring.md#create-the-email-content)后，请使用由创作AI提供支持的Adobe Journey Optimizer B2B版本中的AI助手，将您的电子邮件正文内容提升到新的级别。
+在您[创建并个性化您的电子邮件](./email-authoring.md)后，请使用由创作AI提供支持的Adobe Journey Optimizer B2B edition中的AI助手，将您的电子邮件正文内容提升到新的级别。
 
 在Email Designer中，AI Assistant通过生成完整的电子邮件正文、有针对性的文本内容以及可与受众引起共鸣的图像推荐，帮助您优化投放的影响。 这种电子邮件促销活动优化旨在提高参与度。
 

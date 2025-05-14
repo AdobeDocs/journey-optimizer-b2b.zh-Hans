@@ -2,10 +2,10 @@
 title: 发行说明
 description: Adobe Journey Optimizer B2B Edition 的最新发行说明
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: f26f8767a9bb1c7df8a1aaf4ca91657e40ef8aa1
-workflow-type: ht
-source-wordcount: '2004'
-ht-degree: 100%
+source-git-commit: c3f2d57da830c46bd1e91d172db14f5400aabfca
+workflow-type: tm+mt
+source-wordcount: '2030'
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,8 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | 功能 | 帐户列表历程编排 | 使用历程操作节点来添加和移除静态帐户列表的帐户。<a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">了解详情</a> |
 | 增强功能 | 在 Marketo Engage 中筛选历程会员资格 | 为历程受众使用 Adobe Journey Optimizer B2B Edition 帐户列表，然后使用 Marketo Engage 智能列表中的&#x200B;_帐户列表会员_&#x200B;过滤器。<a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">了解详情</a> |
 | 功能 | 非活动状态过滤器 | 根据 Marketo Engage 营销活动和计划中的非活动状态来编排历程，包括电子邮件非活动状态、有趣的时刻、数据值变化和访问过的网页。<a href="../journeys/split-merge-paths-nodes.md#activity-filtering">了解详情</a> |
-| 增强功能 | 访问过的网页过滤器 | 根据与 Marketo Engage 营销活动和计划相关联的访问过的网页的活动状态来编排历程。<a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">了解详情</a> |
+| 增强功能 | 已访问网页过滤器 | 根据与Marketo Engage活动和项目关联的已访问网页的活动编排历程。 <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">了解详情</a> |
+| 增强功能 | 电子邮件列表 | 查看活动电子邮件和草稿电子邮件的全局列表，以搜索、审阅和更新关联帐户历程中的电子邮件。 <a href="../content/emails-list.md">了解详情</a> |
 
 ## 2025.3 发行说明
 
@@ -52,7 +53,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | 可自定义字段——内容片段 | 作为内容片段设计者，您可以将片段中组件的参数指定为可编辑。这允许电子邮件或模板作者根据自己的需要指定自定义字段值。此自定义标志仅限于图像、文本和按钮可视组件。<a href="../content/fragment-authoring.md#enable-fragment-customization">了解详情</a> |
+| 功能 | 可自定义字段——内容片段 | 作为内容片段设计者，您可以将片段中组件的参数指定为可编辑。此功能允许电子邮件或模板作者指定特定于其需求的自定义字段值。 此自定义标志仅限于图像、文本和按钮可视组件。<a href="../content/fragment-authoring.md#enable-fragment-customization">了解详情</a> |
 | 功能 | B2B 内置角色和产品权限 | Experience Platform 现在包含一组内置（默认）角色，您可以使用它们来管理对 B2B 产品功能的访问。<a href="../admin/user-management.md#b2b-built-in-roles">了解详情</a> <br/>管理员现在可以在 Adobe Experience Platform 中定义自定义角色，以包含 Journey Optimizer B2B Edition 产品权限。<a href="../admin/user-management.md#b2b-product-permissions">了解详情</a> |
 | 功能 | 历程复制类型 | 当您复制帐户历程时，您可以包含节点详细信息，其中不包括 Journey Optimizer B2B Edition 中创建的电子邮件和 SMS 消息。或者，您可以创建结构和路径流的精简副本，而不包含节点详细信息和设置。<a href="../journeys/journey-overview.md#duplicate-journey">了解详情</a> |
 | 增强功能 | 另外四个电子邮件模板示例 | 示例电子邮件模板库现在包含四个 SecurFinacial 模板，作为重新参与、通知、培养和反馈内容的示例 |

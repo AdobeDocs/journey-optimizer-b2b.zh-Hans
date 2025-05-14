@@ -3,7 +3,7 @@ title: 片段
 description: 了解如何在Adobe Journey Optimizer B2B edition中创建可视化内容片段，并将其用作电子邮件和电子邮件模板的可重用组件。
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
+source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
 workflow-type: tm+mt
 source-wordcount: '2624'
 ht-degree: 2%
@@ -12,11 +12,11 @@ ht-degree: 2%
 
 # 片段
 
-片段是可重复使用的组件，可以在Adobe Journey Optimizer B2B edition中的一个或多个电子邮件和电子邮件模板中引用。 它通常是可以预先创建并快速插入到电子邮件或电子邮件模板中的内容块（文本、图像或两者）。 借助此功能，您可以预构建多个自定义内容块，以供营销团队成员用于汇编电子邮件内容，从而改进设计过程。 常见的用例包括电子邮件的页眉/页脚内容块、活动邀请横幅和季节性问候语。
+片段是可重复使用的组件，可以在Adobe Journey Optimizer B2B edition中的一个或多个电子邮件和电子邮件模板中引用。 它通常是可以预先创建并快速插入到电子邮件或电子邮件模板中的内容块（文本、图像或两者）。 借助此功能，您可以预构建多个自定义内容块，以供营销团队成员用于汇编电子邮件内容，从而改进设计过程。 常见用例包括电子邮件的页眉/页脚内容块、事件邀请横幅和季节性问候。
 
 >[!BEGINSHADEBOX]
 
-**视觉片段**
+**可视片段**
 
 可视化片段是使用可视内容设计器构建的预定义可视化块，您可以在多个电子邮件或电子邮件模板中重复使用它们。 Journey Optimizer B2B edition和本文档的当前范围仅为可视化片段。 Journey Optimizer B2B edition尚不支持基于表达式的片段。
 
@@ -43,7 +43,7 @@ ht-degree: 2%
 | -------------------- | ----------- |
 | 草稿 | 创建片段时，它处于草稿状态。 在您定义或编辑可视内容时，它保持此状态，直到您发布它以用于电子邮件或电子邮件模板为止。 可用操作： <br/><ul><li>编辑所有详细信息<li>在可视设计器中编辑<li>发布<li>重复<li>删除 |
 | 发布日期 | 发布片段后，该片段将可用于电子邮件或电子邮件模板。 在可视设计器中无法修改已发布的片段内容。 可用操作： <br/><ul><li>编辑描述<li>添加到电子邮件或模板<li>创建草稿版本<li>重复<li>删除（如果未使用） |
-| 以草稿发布 | 当您从已发布片段创建草稿时，已发布版本仍可在电子邮件或电子邮件模板中使用，并且可以在可视设计器中修改草稿内容。 如果发布草稿版本，则它将替换当前已发布的版本，并且内容会在使用它的电子邮件和电子邮件模板中更新。 可用操作： <br/><ul><li>编辑描述<li>添加到电子邮件或模板<li>在可视设计器中编辑草稿版本<li>Publish草稿版本<li>重复<li>删除（如果未使用） |
+| 以草稿发布 | 从已发布的片段创建草稿时，已发布的版本仍然可用于电子邮件或电子邮件模板，并且草稿内容可以在可视设计器中进行修改。 如果您发布草稿版本，它会替换当前已发布的版本，并且内容会在使用草稿的电子邮件和电子邮件模板中进行更新。 可用操作： <br/><ul><li>编辑描述<li>添加到电子邮件或模板<li>在可视设计器中编辑草稿版本<li>发布草稿版本<li>重复<li>删除（如果未使用） |
 
 ![片段状态生命周期](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 ### 筛选片段列表
 
-要按名称搜索片段，请在搜索栏中输入文本字符串以查找匹配项。 单击&#x200B;_筛选器_&#x200B;图标（ ![显示或隐藏筛选器图标](../assets/do-not-localize/icon-filter.svg) ）以显示可用的筛选器选项，并根据您指定的条件更改设置以筛选显示的项目。
+要按名称搜索片段，请在搜索栏中输入文本字符串以查找匹配项。 单击&#x200B;_筛选器_&#x200B;图标（![显示或隐藏筛选器图标](../assets/do-not-localize/icon-filter.svg)）以显示可用的筛选器选项并更改设置以根据指定的条件筛选显示的项。
 
 ![筛选显示的片段](./assets/fragments-list-filtered.png){width="700" zoomable="yes"}
 
@@ -61,13 +61,13 @@ ht-degree: 2%
 
 通过单击右上角的&#x200B;_自定义表_&#x200B;图标（![自定义表图标](../assets/do-not-localize/icon-column-settings.svg)）自定义要在表中显示的列。
 
-在该对话框中，选择要显示的列，然后单击&#x200B;**[!UICONTROL 应用]**。
+在对话框中，选择要显示的列，然后单击&#x200B;**[!UICONTROL 应用]**。
 
 ![选择要显示的列](./assets/fragments-customize-table-dialog.png){width="300"}
 
 ## 创建片段
 
-您可以通过单击右上角的&#x200B;**[!UICONTROL 创建片段]**，在Journey Optimizer B2B版本中创建新的视觉片段。
+您可以通过单击右上角的&#x200B;**[!UICONTROL 创建片段]**，在Journey Optimizer B2B edition中创建新可视片段。
 
 1. 在&#x200B;_[!UICONTROL 创建片段]_&#x200B;对话框中，输入有用的&#x200B;**[!UICONTROL 名称]**&#x200B;和&#x200B;**[!UICONTROL 描述]**（可选）。
 
@@ -92,7 +92,7 @@ ht-degree: 2%
    * [添加结构和内容](./fragment-authoring.md#add-structure-and-content)
    * [添加Assets](./fragment-authoring.md#add-assets)
    * [导航图层、设置和样式](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
-   * [使内容个性化](./fragment-authoring.md#personalize-content)
+   * [个性化内容](./fragment-authoring.md#personalize-content)
    * [启用自定义字段](./fragment-authoring.md#enable-fragment-customization)
    * [编辑链接的URL跟踪](./fragment-authoring.md#edit-linked-url-tracking)
 
@@ -132,51 +132,51 @@ ht-degree: 2%
 
 无法删除任何电子邮件或电子邮件模板当前使用的任何片段，因此请确保在启动片段移除之前检查&#x200B;_used-by_&#x200B;引用。 此外，删除操作无法撤消，因此在启动删除操作之前请检查。
 
-可使用以下任一方法删除片段：
+您可以使用以下任一方法删除片段：
 
 * 从右侧的片段详细信息中，单击&#x200B;**[!UICONTROL 删除]**。
-* 在&#x200B;_[!UICONTROL 片段]_&#x200B;列表页面中，单击片段旁边的省略号，然后选择&#x200B;**[!UICONTROL 删除]**。
+* 从&#x200B;_[!UICONTROL 片段]_&#x200B;列表页面，单击片段旁边的省略号并选择&#x200B;**[!UICONTROL 删除]**。
 
-此操作将打开确认对话框。 您可以单击&#x200B;**[!UICONTROL 取消]**&#x200B;中止进程，或单击&#x200B;**[!UICONTROL 删除]**&#x200B;以确认删除。
+此操作将打开确认对话框。 您可以通过单击&#x200B;**[!UICONTROL 取消]**&#x200B;或单击&#x200B;**[!UICONTROL 删除]**&#x200B;确认删除来中止该进程。
 
 ![删除片段对话框](./assets/fragment-delete-dialog.png){width="400"}
 
-如果片段当前正在使用中，此操作将打开一个信息对话框，警告您无法删除该片段。 单击“**[!UICONTROL 确定]**”，这将中止删除操作。
+如果片段当前正在使用中，则该操作会打开一个信息对话框，警告您无法删除该片段。 单击&#x200B;**[!UICONTROL 确定]**，这将中止删除操作。
 
-![“删除片段”对话框 - 无法删除正在使用的片段](./assets/fragment-delete-dialog-in-use.png){width="400"}
+![删除片段对话框 — 无法删除正在使用的片段](./assets/fragment-delete-dialog-in-use.png){width="400"}
 
 ## 编辑片段
 
 对片段的编辑取决于其当前状态：
 
-* 当片段处于 _草稿_ 状态时，您可以编辑其任何细节和可视内容。
-* 当片段处于 _已发布状态_ 时，您可以编辑片段描述，但不能编辑名称。 无法编辑可视内容。
-* 当片段处于 _“已发布且处于草稿_ ”状态时，对详细信息的编辑仅限于描述。 您还可以编辑草稿版本的视觉内容。
+* 当片段处于&#x200B;_草稿_&#x200B;状态时，您可以编辑其任何详细信息和可视内容。
+* 当片段处于&#x200B;_已发布_&#x200B;状态时，您可以编辑片段描述，但不能编辑名称。 无法编辑可视内容。
+* 当片段处于&#x200B;_已发布，状态为_&#x200B;草稿时，编辑详细信息仅限于描述。 您还可以编辑草稿版本的可视内容。
 
 >[!BEGINTABS]
 
 >[!TAB 草稿]
 
-1. _[!UICONTROL 在片段]_&#x200B;列表页面中，单击片段名称将其打开。
+1. 从&#x200B;_[!UICONTROL 片段]_&#x200B;列表页面，单击片段名称以将其打开。
 
-   此时会显示视觉内容的预览，右侧会显示片段详细信息。
+   随后将显示可视内容的预览，其中片段详细信息位于右侧。
 
-1. 修改任何详细信息，如名称和说明。
+1. 修改任何详细信息，如名称和描述。
 
-   ![处于草稿状态的帧的详细信息](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
+   ![具有草稿状态的片段的详细信息](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
 
-1. 要在可视设计器中更改内容，请单击&#x200B;**[!UICONTROL 编辑片段]**。
+1. 要对可视设计器中的内容进行更改，请单击&#x200B;**[!UICONTROL 编辑片段]**。
 
    根据需要使用可视设计器工具：
 
    * [添加结构和内容](./fragment-authoring.md#add-structure-and-content)
-   * [添加资源](./fragment-authoring.md#add-assets)
+   * [添加Assets](./fragment-authoring.md#add-assets)
    * [导航图层、设置和样式](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [个性化内容](./fragment-authoring.md#personalize-content)
    * [启用自定义字段](./fragment-authoring.md#enable-fragment-customization)
    * [编辑链接的URL跟踪](./fragment-authoring.md#edit-linked-url-tracking)
 
-   单击&#x200B;**[!UICONTROL 保存]**&#x200B;或&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回片段详细信息。
+   单击&#x200B;**[!UICONTROL 保存]**，或单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回片段详细信息。
 
 1. 如果片段符合您的条件并且您想在电子邮件或电子邮件模板中使用它，请单击&#x200B;**[!UICONTROL 发布]**。
 
@@ -201,7 +201,7 @@ ht-degree: 2%
    * [添加结构和内容](./fragment-authoring.md#add-structure-and-content)
    * [添加Assets](./fragment-authoring.md#add-assets)
    * [导航图层、设置和样式](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
-   * [使内容个性化](./fragment-authoring.md#personalize-content)
+   * [个性化内容](./fragment-authoring.md#personalize-content)
    * [启用自定义字段](./fragment-authoring.md#enable-fragment-customization)
    * [编辑链接的URL跟踪](./fragment-authoring.md#edit-linked-url-tracking)
 
@@ -225,12 +225,12 @@ ht-degree: 2%
 
 要更新内容，请执行以下操作：
 
-1. 单击右上角的&#x200B;**[!UICONTROL 编辑片段]**。 根据需要使用可视设计器工具：
+1. 单击右上方的&#x200B;**[!UICONTROL 编辑片段]**。 根据需要使用可视设计器工具：
 
    * [添加结构和内容](./fragment-authoring.md#add-structure-and-content)
    * [添加Assets](./fragment-authoring.md#add-assets)
    * [导航图层、设置和样式](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
-   * [使内容个性化](./fragment-authoring.md#personalize-content)
+   * [个性化内容](./fragment-authoring.md#personalize-content)
    * [启用自定义字段](./fragment-authoring.md#enable-fragment-customization)
    * [编辑链接的URL跟踪](./fragment-authoring.md#edit-linked-url-tracking)
 
@@ -246,48 +246,48 @@ ht-degree: 2%
 
 您可以使用以下任一方法复制片段：
 
-* _[!UICONTROL 在片段]_&#x200B;列表页面中，单击&#x200B;_片段名称旁边的更多_&#x200B;图标 （**...**），然后选择&#x200B;**&#x200B;**&#x200B;复制。
-* 在片段详细信息页面的右上角，单击 **[!UICONTROL ...更多]** ，然后选择 **[!UICONTROL “复制]**”。
+* 从&#x200B;_[!UICONTROL 片段]_&#x200B;列表页面，单击片段名称旁边的&#x200B;_更多_&#x200B;图标(**...**)，然后选择&#x200B;**[!UICONTROL 复制]**。
+* 在片段详细信息页面的右上方，单击&#x200B;**[!UICONTROL ...更多]**&#x200B;并选择&#x200B;**[!UICONTROL 复制]**。
 
 ![复制片段](./assets/fragment-details-duplicate.png){width="600" zoomable="yes"}
 
-在对话框中，输入有用的名称（唯一）和描述。 单击“复制&#x200B;**”**&#x200B;以完成作。
+在对话框中，输入有用的名称（唯一）和描述。 单击&#x200B;**[!UICONTROL 复制]**&#x200B;以完成操作。
 
 ![输入复制的片段的名称和描述](./assets/fragment-duplicate-dialog.png){width="400"}
 
-然后，复制的（新）片段将显示在 _“片段_ ”列表中。
+然后，重复的（新）片段出现在&#x200B;_片段_&#x200B;列表中。
 
-## 保存电子邮件或模板内容中的新片段
+## 从电子邮件或模板内容保存新片段
 
-在可视化内容编辑器中创建/编辑电子邮件或电子邮件模板时，可以选择将全部或部分内容保存为片段，以便可供重复使用。
+在可视内容编辑器中创建/编辑电子邮件或电子邮件模板时，您可以选择将内容的所有或部分另存为片段，以便重用。
 
-1. 当您有一些内容要另存为片段时，请单击“更多&#x200B;**”**&#x200B;并选择&#x200B;**[!UICONTROL “另存为片段]**”。
+1. 当某些内容要另存为片段时，请单击“**[!UICONTROL 更多]**”，然后选择“**[!UICONTROL 另存为片段]**”。
 
 1. 选择要包含在片段中的不同元素。
 
    按住Shift或Control按钮选择多个结构。
 
-   您只能选择彼此相邻的结构，而界面不允许您选择不相邻的元素。
+   您只能选择彼此相邻的结构，并且接口不允许您选择非相邻元素。
 
-1. 选择内容后，单击右上角的&#x200B;**[!UICONTROL 创建]**。
+1. 选择内容后，单击右上方的&#x200B;**[!UICONTROL 创建]**。
 
 1. 在对话框中，为片段输入有用的名称和描述。 然后单击&#x200B;**[!UICONTROL 创建]**。
 
    然后，新片段将显示在&#x200B;_片段_&#x200B;列表页面中，并可用于电子邮件和电子邮件模板。
 
-## 将视觉片段添加到电子邮件或模板内容
+## 将可视化片段添加到您的电子邮件或模板内容
 
-片段专为重复使用而设计，可以插入片段以创作电子邮件和电子邮件模板。 您最多可以在电子邮件或模板中添加30个片段。 片段最多只能嵌套一个级别。
+片段设计为可重复使用，并且可以插入以用于电子邮件和电子邮件模板的创作。 您最多可以在电子邮件或模板中添加30个片段。 片段最多只能嵌套一个级别。
 
 >[!BEGINTABS]
 
->[!TAB 向电子邮件中添加片段]
+>[!TAB 向电子邮件添加片段]
 
 1. 导航到&#x200B;**[!UICONTROL 帐户历程]**&#x200B;并打开现有历程或创建新历程。
 
-1. 创建[_[!UICONTROL 发送电子邮件&#x200B;]_&#x200B;节点](./email-authoring.md#add-an-email-action-in-an-account-journey)。
+1. 创建[_[!UICONTROL 发送电子邮件&#x200B;]_节点](./add-email.md#add-an-email-action-node-in-a-journey)。
 
-1. 创建或编辑节点[&#128279;](./email-authoring.md#create-the-email-content)的电子邮件内容。
+1. 创建或编辑节点](./email-authoring.md)的[电子邮件内容。
 
 1. 从&#x200B;**[!UICONTROL 组件]**&#x200B;菜单拖放项以提供片段的&#x200B;_结构_。
 
@@ -296,7 +296,7 @@ ht-degree: 2%
    您可以：
    * 对列表进行排序。
    * 浏览、搜索和筛选列表。
-   * 在卡（缩略图）和列表视图之间切换。
+   * 在卡片（缩略图）和列表视图之间切换。
    * 刷新列表以反映任何最近创建的片段。
 
    ![在可视设计器中搜索片段](./assets/fragments-list-designer-search.png){width="600"}
@@ -354,9 +354,9 @@ ht-degree: 2%
 * **[!UICONTROL 删除]** — 此操作从当前电子邮件或电子邮件模板内容中删除片段（片段源不受影响）。
 * **[!UICONTROL 刷新]** — 此操作刷新当前电子邮件或电子邮件模板中片段的内容。 当您想要反映在添加到电子邮件或电子邮件模板之后对片段进行的任何最近编辑时，刷新很有用。
 * **[!UICONTROL 复制]** — 此操作在编辑器中复制同一电子邮件或电子邮件模板中的片段，这些片段具有相同的维度，并紧跟其下添加。
-* **[!UICONTROL 打开片段]** - 此作会打开一个新的浏览器选项卡，其中包含片段编辑器页面和详细信息。
-* **[!UICONTROL 中断继承]** - 此作中断片段（及其更改）从源的继承。 使用此作可使片段内容在电子邮件或电子邮件模板中作为独立且可编辑的内容提供。 此作还会从原始片段的“ _使用者”_ 引用中删除电子邮件或电子邮件模板。
+* **[!UICONTROL 打开片段]** — 此操作将打开一个新的浏览器选项卡，其中包含片段编辑器页面和详细信息。
+* **[!UICONTROL 中断继承]** — 此操作中断来自源的片段（及其更改）继承。 使用此操作可以在电子邮件或电子邮件模板中作为独立的可编辑内容使用片段内容。 此操作还会从原始片段的&#x200B;_Used By_&#x200B;引用中删除电子邮件或电子邮件模板。
 
-当您在编辑器页面上选择片段时，可从上下文工具栏和右侧的属性面板中执行这些作。
+在编辑器页面上选择片段时，可以从右侧的上下文工具栏和属性面板中执行这些操作。
 
-![将动作应用于所选片段](./assets/fragment-actions-email-authoring.png){width="600" zoomable="yes"}
+![将操作应用于所选片段](./assets/fragment-actions-email-authoring.png){width="600" zoomable="yes"}

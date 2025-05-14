@@ -1,52 +1,24 @@
 ---
 title: 电子邮件创作
-description: 了解如何创建在帐户历程中使用的个性化电子邮件内容。
+description: 了解如何在Adobe Journey Optimizer B2B中创建电子邮件内容。 使用模板、HTML导入和AI支持的工具来个性化和优化电子邮件通信。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 0fb3f56ef0a82f340c9847d4c384a5244df3182f
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 12%
+source-wordcount: '949'
+ht-degree: 15%
 
 ---
 
 # 电子邮件创作
 
-使用Adobe Journey Optimizer B2B edition向客户发送电子邮件。 您可以在可视设计器中创建、个性化和预览消息。
-
-## 在帐户历程中添加电子邮件操作
-
-在添加&#x200B;_[!UICONTROL Take an action]_&#x200B;历程并执行以下操作时，可以在Account节点中设置电子邮件投放：
-
-1. 对于&#x200B;_目标上的_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
-1. 若要对人员&#x200B;_执行_&#x200B;操作，请选择&#x200B;**[!UICONTROL 发送电子邮件]**。
-1. 对于&#x200B;_[!UICONTROL 电子邮件源]_，请选择&#x200B;**[!UICONTROL 新建电子邮件]**。
-
-   或者，您还可以选择&#x200B;_[!UICONTROL 从Adobe Marketo Engage中选择电子邮件]_&#x200B;选项，以使用Marketo Engage中预先编写的电子邮件之一，并将其作为帐户历程的一部分发送。
-
-   >[!NOTE]
-   >
-   >如果您是首次创建电子邮件，请确保已在Adobe Marketo Engage中配置电子邮件渠道。 要了解更多信息，请参阅Marketo Engage文档中的[确保电子邮件可投放性](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}。
-
-   ![执行操作 — 发送电子邮件](assets/journey-node-send-email.png){width="700" zoomable="yes"}
-
-1. 在&#x200B;_[!UICONTROL 执行操作]_&#x200B;面板的底部，单击&#x200B;**[!UICONTROL 创建电子邮件]**。
-
-1. 在对话框中，为电子邮件输入唯一的&#x200B;**[!UICONTROL 名称]**&#x200B;和&#x200B;**[!UICONTROL 主题行]**。
-
-   ![新建电子邮件对话框](assets/create-new-email.png){width="400"}
-
-1. 单击&#x200B;**[!UICONTROL 创建]**。
-
-   在电子邮件内容页面的&#x200B;_[!UICONTROL 电子邮件属性]_&#x200B;部分中，_[!UICONTROL 发件人电子邮件]_&#x200B;和&#x200B;_[!UICONTROL 回复地址]_&#x200B;字段已配置。 您可以为&#x200B;_[!UICONTROL From name]_&#x200B;和&#x200B;_[!UICONTROL Description]_（可选）字段输入值。
-
-## 创建电子邮件内容
+在您[将新的<!-- or duplicated -->电子邮件资产添加到历程操作节点](./add-email.md)后，您可以定义电子邮件的内容。
 
 单击&#x200B;_[!UICONTROL 电子邮件]_&#x200B;预览面板顶部的&#x200B;**[!UICONTROL 添加电子邮件内容]**。
 
 ![单击“添加电子邮件内容”](./assets/add-email-content.png){width="700" zoomable="yes"}
 
-此操作将启动电子邮件Designer，您可以在其中从以下选项中选择所需的电子邮件设计方式：
+此操作将启动电子邮件设计工具，您可以在其中从以下选项中选择所需的电子邮件设计方式：
 
 * [使用Designer电子邮件界面从头开始设计电子邮件](#design-your-email-from-scratch)。
 
@@ -62,7 +34,7 @@ ht-degree: 12%
 >
 >使用由generative AI提供支持的Adobe Journey Optimizer B2B edition中的AI助手，将您的内容提升到新的级别。 AI Assistant可以帮助您优化投放的影响，方法是生成整个电子邮件、提供有针对性的文本内容，并为可与受众产生共鸣的图像获取AI Assistant推荐。 [了解详情](./ai-assistant-emails.md)
 
-### 从头开始设计您的电子邮件 {#design-from-scratch}
+## 从头开始设计您的电子邮件 {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
@@ -93,7 +65,7 @@ ht-degree: 12%
 
 如果对内容满意，请单击&#x200B;**[!UICONTROL 保存]**。
 
-### 导入现有HTML内容
+## 导入现有HTML内容
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -105,7 +77,7 @@ ht-degree: 12%
 
 您可以根据需要使用可视电子邮件编辑器工具个性化导入的内容。
 
-### 选择模板
+## 选择模板
 
 {{$include /help/_includes/content-design-select-template.md}}
 
@@ -165,7 +137,7 @@ ht-degree: 12%
 
 ### 更多选项
 
-从电子邮件设计器顶部的&#x200B;_[!UICONTROL 更多……]_&#x200B;菜单中，可以执行以下操作：
+从电子邮件设计空间顶部的&#x200B;_[!UICONTROL 更多……]_&#x200B;菜单中，可以执行以下操作：
 
 ![单击“更多”以访问模板操作](./assets/email-designer-more-menu.png){width="500"}
 
@@ -174,34 +146,6 @@ ht-degree: 12%
 * **[!UICONTROL 更改您的设计]** — 返回&#x200B;_设计您的电子邮件_&#x200B;页面。 从那里，您可以选择另一个模板以重新启动设计过程，或者选择在黑色画布中从头开始设计内容。\
 * **[!UICONTROL 另存为内容模板]** — 将电子邮件正文另存为电子邮件模板，以便在多个电子邮件或电子邮件模板中重复使用。 您可以提供模板的名称和描述，并将其保存到已保存电子邮件模板的列表中。
 * **[!UICONTROL 导出HTML]** — 将可视画布中的内容以HTML格式下载到您的本地系统，并打包为zip文件。
-
-## 检查警报
-
-在设计电子邮件内容时，如果缺少关键设置，则会在界面（页面右上方）中显示警报。
-
-如果未看到此按钮，则表示没有检测到问题。
-
-可以检测到两种类型的警报：
-
-* 引用推荐和最佳实践的&#x200B;**_警告_**，例如：
-
-   * `The opt-out link is not present in the email body`：最佳做法是在电子邮件正文中添加退订链接。
-
-     >[!NOTE]
-     >
-     >营销风格的电子邮件必须包含选择退出链接，这对于事务型消息不是必需的。
-
-   * `Text version of HTML is empty`：别忘了定义电子邮件正文的文本版本，此文本版本在HTML内容无法显示时使用。
-
-   * `Empty link is present in email body`：检查电子邮件中的所有链接是否正确。
-
-   * `Email size has exceeded the limit of 100KB`：要获得最佳投放，请确保电子邮件大小不超过100KB。
-
-* **_错误_**，阻止您测试或激活历程/营销活动，只要未解决这些错误，例如：
-
-   * `The subject line is missing`：电子邮件主题行是必填的。
-
-   * `The email version of the message is empty`：尚未配置电子邮件内容时显示此错误。
 
 ## 检查并测试电子邮件 {#preview-test}
 
@@ -212,6 +156,6 @@ ht-degree: 12%
 
 定义消息内容后，您可以使用测试用户档案来预览、发送校样，并控制它在常用桌面、移动和基于Web的客户端中的呈现。 如果插入个性化内容，则可以使用测试用户档案数据预览此内容在消息中的显示方式。
 
-若要预览电子邮件内容，请单击“模拟内容”**&#x200B;**，然后添加测试用户档案，以使用测试用户档案数据检查邮件。
+若要预览电子邮件内容，请单击“模拟内容”****，然后添加测试用户档案，以使用测试用户档案数据检查邮件。
 
 ![模拟电子邮件内容以检查您的设计](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}

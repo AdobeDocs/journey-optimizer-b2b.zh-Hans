@@ -3,10 +3,10 @@ title: 条件内容
 description: 了解如何在为帐户历程创作电子邮件内容时创建内容变体并应用条件规则。
 feature: Email Authoring, Content
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 1351880505fcf656f94dc5d9e383337d83faeff4
+source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 10%
+source-wordcount: '1305'
+ht-degree: 11%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 条件内容允许您根据条件规则调整电子邮件内容。 这些规则是使用配置文件属性或上下文事件定义的。 您可以在规则生成器中创建条件规则，将其存储后可在您的帐户历程中重复使用。
 
-要在电子邮件中添加条件内容，Adobe Journey Optimizer允许您应用存储在&#x200B;_条件_&#x200B;库中的条件规则。 当您[在帐户历程](./email-authoring.md)中创作电子邮件时，在电子邮件设计空间中应用条件规则。
+要在电子邮件中添加条件内容，Adobe Journey Optimizer允许您应用存储在&#x200B;_条件_&#x200B;库中的条件规则。 当您[为帐户历程](./email-authoring.md)创作电子邮件内容时，在电子邮件设计空间中应用条件规则。
 
 ## 向电子邮件添加条件内容 {#email-content}
 
@@ -34,7 +34,7 @@ ht-degree: 10%
 
    该组件以橙色列出，表示它作为条件组件激活。 **[!UICONTROL 条件内容]**&#x200B;窗格在左侧显示&#x200B;_默认变体_&#x200B;和_Variant - 1。
 
-   ![为文本组件启用条件内容](./assets/conditions-enable.png){width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![为文本组件启用条件内容](./assets/conditions-enable.png){width="700" zoomable="yes"}
 
    所选和激活的原始内容是默认内容，并在任何条件规则都不符合您定义的任何变体时应用。
 
@@ -42,13 +42,13 @@ ht-degree: 10%
 
 1. 将鼠标悬停在第一个变体（_变体 — 1_）上，然后单击&#x200B;_选择条件_&#x200B;图标（![条件图标](../assets/do-not-localize/icon-select-condition.svg)）。
 
-   ![为变体](./assets/conditions-variant-select.png)选择条件{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![为变体](./assets/conditions-variant-select.png){width="700" zoomable="yes"}选择条件
 
    _[!UICONTROL 选择条件]_&#x200B;对话框打开并显示条件库。
 
    如果要查看条件的详细信息以确保它是您想要的，请单击&#x200B;_更多菜单_&#x200B;图标(**...**)，然后选择&#x200B;**[!UICONTROL 查看信息]**。
 
-   ![条件库访问条件详细信息](assets/conditions-select-dialog.png){width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![条件库访问条件详细信息](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
    如果所需的条件不存在，[通过单击&#x200B;**[!UICONTROL 新建]**&#x200B;创建一个条件规则](#create-condition)。
 
@@ -56,23 +56,23 @@ ht-degree: 10%
 
    您可以通过单击变体的&#x200B;_更多菜单_&#x200B;图标(**...**)并选择&#x200B;**[!UICONTROL 查看条件]**&#x200B;来查看关联的条件。
 
-   ![查看与变体关联的条件](./assets/conditions-variant-view-condition.png){width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![查看与变体关联的条件](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}
 
    单击右上方的X关闭弹出窗口。
 
-   ![查看相关条件的详细信息](./assets/conditions-info-popup.png){width=&quot;500&quot;}
+   ![查看关联条件的详细信息](./assets/conditions-info-popup.png){width="500"}
 
 1. 为了提高可读性，请单击变体的&#x200B;_更多菜单_&#x200B;图标(**...**)并选择&#x200B;**[!UICONTROL 重命名]**&#x200B;以重命名变体。
 
    为变体输入一个有意义的名称，以帮助您识别变体及其意图。
 
-   ![重命名变体](./assets/conditions-variant-rename.png){width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![重命名变体](./assets/conditions-variant-rename.png){width="600" zoomable="yes"}
 
 1. 在左窗格中选择变体后，更改组件，以改变它在条件为true时电子邮件中的显示方式。
 
    在此示例中，文本组件的变体根据收件人的区域使用不同的描述。
 
-   ![更改变体的组件](./assets/conditions-variant-component-edit.png){width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![更改变体的组件](./assets/conditions-variant-component-edit.png){width="600" zoomable="yes"}
 
 1. 如果需要，单击&#x200B;**[!UICONTROL 添加变体]**&#x200B;以定义另一个变体。
 
@@ -136,13 +136,13 @@ ht-degree: 10%
    * **[!UICONTROL 人员条件]** — 选择此类型可使用人员属性和上下文事件构建条件规则。
    * **[!UICONTROL 帐户条件]** — 选择此类型可使用帐户属性构建条件规则。
 
-   ![选择要创建的条件类型](./assets/conditions-select-create-new.png){width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![选择要创建的条件类型](./assets/conditions-select-create-new.png){width="600" zoomable="yes"}
 
 1. 根据需要构建条件规则。
 
    对于要包含在规则中的每个属性或事件，将该项目拖放到规则画布上。 展开过滤器并完成表达式。
 
-   ![完成表达式以计算](./assets/conditions-rule-add-attribute.png){width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![完成表达式以计算](./assets/conditions-rule-add-attribute.png){width="600" zoomable="yes"}
 
    如果包含多个筛选器，请设置&#x200B;**[!UICONTROL 筛选器逻辑]**：
 
@@ -153,7 +153,7 @@ ht-degree: 10%
 
    使用有意义的名称和有用的描述来帮助组织中的其他人，以便他们能够重复使用它，而不是创建另一个重复条件。
 
-   ![为条件规则添加名称和描述](./assets/conditions-rule-name-description.png){width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![为条件规则添加名称和描述](./assets/conditions-rule-name-description.png){width="600" zoomable="yes"}
 
 1. 完成条件规则后，单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -167,7 +167,7 @@ ht-degree: 10%
 
    将在规则生成器中打开规则的副本。 使用副本作为要构建的规则的起点。
 
-   ![使用重复规则创建您需要的规则](./assets/conditions-rule-duplicate.png){width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![使用重复的规则创建您需要的规则](./assets/conditions-rule-duplicate.png){width="600" zoomable="yes"}
 
 1. 在规则生成器中，根据需要更改、添加或删除条件。
 

@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B Edition 文档
 description: 了解如何使用 Adobe Journey Optimizer B2B Edition 功能，利用内置的生成式 AI 和行业领先的自动化来编排帐户和购买群组历程。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 8afe00f0ff4fd5a2046ca4c21114eaa1c654a793
+source-git-commit: 5d16e14a87aabb87fab9f06ea597ca671c66b7e3
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 100%
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="历程内容"><br/>
-      <strong>历程内容</strong><br/><a href="./content/email-authoring.md">电子邮件创作</a><br/><a href="./content/ai-assistant-emails.md">电子邮件 AI 助手</a><br/><a href="./content/sales-alert-email.md">销售警报电子邮件</a><br/><a href="./content/sms-authoring.md">短信创作</a>
+      <strong>历程内容</strong><br/><a href="./content/add-email.md">电子邮件频道</a><br/><a href="./content/ai-assistant-emails.md">电子邮件的AI助手</a><br/><a href="./content/sales-alert-email.md">销售提醒电子邮件</a><br/><a href="./content/sms-authoring.md">短信频道</a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="内容管理"><br/>
@@ -139,7 +139,7 @@ ht-degree: 100%
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a>——<a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a>——<a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/home" target="_blank">文档</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">开发人员资源</a>
