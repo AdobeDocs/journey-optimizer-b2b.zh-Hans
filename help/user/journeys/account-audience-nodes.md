@@ -54,4 +54,4 @@ _创建受众区段：_
 
    ![创建受众区段](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. 按照[分段服务指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}中所述的步骤操作。
+1. 按照[分段服务指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}中所述的步骤操作。
