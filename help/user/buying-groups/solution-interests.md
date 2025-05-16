@@ -102,4 +102,4 @@ ht-degree: 1%
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3450123/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

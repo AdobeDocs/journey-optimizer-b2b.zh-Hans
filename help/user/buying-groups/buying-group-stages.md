@@ -71,7 +71,7 @@ ht-degree: 1%
 
    重复此步骤，直到拥有模型所需的阶段。
 
-   为模型![&#128279;](assets/stages-model-stages-added.png){width="700" zoomable="yes"}定义的阶段
+   为模型](assets/stages-model-stages-added.png){width="700" zoomable="yes"}定义的![阶段
 
 1. 如果您对已定义的阶段感到满意，请单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -277,7 +277,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. 在右侧的节点属性中，为拆分选择&#x200B;**[!UICONTROL 人员]**。
 
-   将用于条件&#x200B;_的_&#x200B;属性的默认值保留为&#x200B;**[!UICONTROL 仅People属性]**。
+   将用于条件&#x200B;]_的_[!UICONTROL &#x200B;属性的默认值保留为&#x200B;**[!UICONTROL 仅People属性]**。
 
 1. 要定义适用于&#x200B;_[!UICONTROL 路径1]_&#x200B;的条件，请单击&#x200B;**[!UICONTROL 应用条件]**。
 
@@ -321,7 +321,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. 定义操作以更新购买组阶段。
 
-   * 若要对帐户&#x200B;**执行**&#x200B;操作，请选择&#x200B;**[!UICONTROL 更新购买团体阶段]**。
+   * 若要对帐户&#x200B;]**执行**[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 更新购买团体阶段]**。
 
    * 对于&#x200B;**[!UICONTROL 选择解决方案兴趣]**，请选择与购买组阶段模型关联的解决方案。
 
@@ -365,4 +365,4 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3448704/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

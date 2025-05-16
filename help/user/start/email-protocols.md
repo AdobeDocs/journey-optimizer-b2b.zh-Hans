@@ -65,7 +65,7 @@ Add the landing page CNAME to your DNS record, so that `[YourLandingPageCNAME]` 
 
 ### 提供 SSL 证书
 
-联系[Adobe支持](https://experienceleague.adobe.com/home?lang=zh-Hans&amp;support-tab=home#support){target="_blank"}以开始配置SSL证书的流程。
+联系[Adobe支持](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=home#support){target="_blank"}以开始配置SSL证书的流程。
 
 此过程可能最多需要三个工作日。
 
@@ -202,7 +202,7 @@ DMARC 有两种对齐方式：
 
 ### 专用 IP 和共享池
 
-如果您通过专用IP通过Marketo Engage发送邮件，但尚未实现标记返回路径（或者不确定您是否实施了），请打开具有[Adobe支持](https://experienceleague.adobe.com/home?lang=zh-Hans&amp;support-tab=home#support){target="_blank"}的票证。
+如果您通过专用IP通过Marketo Engage发送邮件，但尚未实现标记返回路径（或者不确定您是否实施了），请打开具有[Adobe支持](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=home#support){target="_blank"}的票证。
 
 可信 IP 池是为每月发送量低于 75k 且不符合专用 IP 条件的低流量用户预留的共享 IP 池。这些用户还必须满足最佳实践要求。
 
@@ -220,11 +220,11 @@ MX 记录允许您接收那些发送到您用于发出邮件的域的邮件，�
 
 <!-- ### Webhooks
 
-Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
+Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
 
 ### CRM sync
 
-Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. -->
+Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. -->
 
 ## 出站 IP 地址块
 

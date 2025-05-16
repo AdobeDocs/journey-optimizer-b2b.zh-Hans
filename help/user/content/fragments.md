@@ -286,9 +286,9 @@ ht-degree: 2%
 
 1. 导航到&#x200B;**[!UICONTROL 帐户历程]**&#x200B;并打开现有历程或创建新历程。
 
-1. 创建[_[!UICONTROL 发送电子邮件&#x200B;]_&#x200B;节点](./add-email.md#add-an-email-action-node-in-a-journey)。
+1. 创建[_[!UICONTROL 发送电子邮件&#x200B;]_节点](./add-email.md#add-an-email-action-node-in-a-journey)。
 
-1. 创建或编辑节点[&#128279;](./email-authoring.md)的电子邮件内容。
+1. 创建或编辑节点](./email-authoring.md)的[电子邮件内容。
 
 1. 从&#x200B;**[!UICONTROL 组件]**&#x200B;菜单拖放项以提供片段的&#x200B;_结构_。
 

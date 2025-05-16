@@ -21,9 +21,9 @@ ht-degree: 3%
 
 添加&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点并执行以下操作时，您可以在帐户历程中设置短信投放：
 
-1. 对于&#x200B;_目标上的_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
+1. 对于&#x200B;]_目标上的_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
 
-1. 若要对人员&#x200B;_执行_&#x200B;操作，请选择&#x200B;**[!UICONTROL 发送短信]**。
+1. 若要对人员&#x200B;]_执行_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 发送短信]**。
 
    ![执行操作 — 发送短信](assets/journey-node-send-sms.png){width="800" zoomable="yes"}
 
@@ -92,7 +92,7 @@ ht-degree: 3%
      >[!NOTE]
      >
      >当您允许跟踪但禁用&#x200B;_[!UICONTROL 包含mkt_tok]_&#x200B;时，目标URL在重定向后不包含`mkt_tok`查询字符串参数。 Marketo Engage登陆页面和Munchkin使用此参数以确保跟踪人员活动（例如，当人员取消订阅电子邮件时）。 除非参数导致您的网站出现问题，否则请勿禁用此选项。<br/>
-     >有关在网站上使用Munchkin跟踪代码的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}。
+     >有关在网站上使用Munchkin跟踪代码的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}。
 
    ![为短信消息添加链接对话框](./assets/sms-add-link-dialog.png){width="470"}
 

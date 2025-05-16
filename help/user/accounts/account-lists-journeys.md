@@ -41,9 +41,9 @@ ht-degree: 0%
 >
 >如果执行节点时帐户已位于列表中，则将忽略该操作。
 
-1. 选择&#x200B;_&#x200B;**[!UICONTROL 帐户]**&#x200B;上的_&#x200B;操作选项。
+1. 选择&#x200B;]_**[!UICONTROL 帐户]**上的_[!UICONTROL &#x200B;操作选项。
 
-1. 若要对帐户&#x200B;_执行_&#x200B;操作，请选择&#x200B;**[!UICONTROL 添加到帐户列表]**。
+1. 若要对帐户&#x200B;]_执行_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 添加到帐户列表]**。
 
    ![选择“添加到帐户列表”](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
 
@@ -63,9 +63,9 @@ ht-degree: 0%
 >
 >如果某个帐户不在计划删除的列表中，则该操作将被忽略。
 
-1. 选择&#x200B;_&#x200B;**[!UICONTROL 帐户]**&#x200B;上的_&#x200B;操作选项。
+1. 选择&#x200B;]_**[!UICONTROL 帐户]**上的_[!UICONTROL &#x200B;操作选项。
 
-1. 若要对帐户&#x200B;_执行_&#x200B;操作，请选择&#x200B;**[!UICONTROL 从帐户列表中删除]**。
+1. 若要对帐户&#x200B;]_执行_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 从帐户列表中删除]**。
 
    ![选择“添加到帐户列表”](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 作为营销人员，您可能希望在Marketo Engage中为属于Journey Optimizer B2B edition帐户列表的人员禁止显示项目。
 
-在连接到Journey Optimizer B2B edition的Marketo Engage实例中，您可以使用智能列表中的&#x200B;_[!UICONTROL 帐户列表成员]_&#x200B;过滤器根据营销活动策略识别这些潜在客户。 有关智能列表的详细信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}。
+在连接到Journey Optimizer B2B edition的Marketo Engage实例中，您可以使用智能列表中的&#x200B;_[!UICONTROL 帐户列表成员]_&#x200B;过滤器根据营销活动策略识别这些潜在客户。 有关智能列表的详细信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}。
 
 ### 将筛选器添加到智能列表
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 1. 在营销活动流程中，添加&#x200B;**[!UICONTROL 添加到列表]**&#x200B;步骤，并从Journey Optimizer B2B edition帐户列表中选择要填充人员的列表。
 
-   请参阅Marketo Engage文档中的&#x200B;_[将流程步骤添加到智能营销活动](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_，了解有关将步骤添加到流程的详细信息。
+   请参阅Marketo Engage文档中的&#x200B;_[将流程步骤添加到智能营销活动](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_，了解有关将步骤添加到流程的详细信息。
 
 ### 查看成员
 

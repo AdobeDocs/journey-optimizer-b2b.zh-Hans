@@ -137,4 +137,4 @@ _历程图_&#x200B;是历程设计器中的中心区域。 在此区域中，您
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3443229/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
