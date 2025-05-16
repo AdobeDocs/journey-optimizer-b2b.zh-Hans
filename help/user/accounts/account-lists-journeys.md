@@ -41,9 +41,9 @@ ht-degree: 0%
 >
 >如果执行节点时帐户已位于列表中，则将忽略该操作。
 
-1. 选择&#x200B;]_**[!UICONTROL 帐户]**上的_[!UICONTROL &#x200B;操作选项。
+1. 选择&#x200B;_&#x200B;**[!UICONTROL 帐户]**&#x200B;上的_&#x200B;操作选项。
 
-1. 若要对帐户&#x200B;]_执行_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 添加到帐户列表]**。
+1. 若要对帐户&#x200B;_执行_&#x200B;操作，请选择&#x200B;**[!UICONTROL 添加到帐户列表]**。
 
    ![选择“添加到帐户列表”](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
 
@@ -63,9 +63,9 @@ ht-degree: 0%
 >
 >如果某个帐户不在计划删除的列表中，则该操作将被忽略。
 
-1. 选择&#x200B;]_**[!UICONTROL 帐户]**上的_[!UICONTROL &#x200B;操作选项。
+1. 选择&#x200B;_&#x200B;**[!UICONTROL 帐户]**&#x200B;上的_&#x200B;操作选项。
 
-1. 若要对帐户&#x200B;]_执行_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 从帐户列表中删除]**。
+1. 若要对帐户&#x200B;_执行_&#x200B;操作，请选择&#x200B;**[!UICONTROL 从帐户列表中删除]**。
 
    ![选择“添加到帐户列表”](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
 
