@@ -84,7 +84,7 @@ LinkedIn帐户的名称和描述对Journey Optimizer B2B edition中的购买群�
 
    保存之后，为数据流指定的名称将带有&#x200B;_AJOB2B_&#x200B;前缀，以便帮助识别Experience Platform中的数据流。
 
-1. 输入LinkedIn营销活动管理器帐户](https://www.linkedin.com/help/lms/answer/a424270)的[帐户ID。
+1. 输入LinkedIn营销活动管理器帐户[&#128279;](https://www.linkedin.com/help/lms/answer/a424270)的帐户ID。
 
    您可以在Campaign Manager UI中按帐户名称查找帐户ID。
 

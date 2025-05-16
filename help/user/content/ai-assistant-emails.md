@@ -84,7 +84,7 @@ Adobe Journey Optimizer B2B edition提供了五个现成的标准B2B购买团体
 
 1. 在&#x200B;_[!UICONTROL 电子邮件属性]_&#x200B;中，单击&#x200B;**[!UICONTROL 主题行]**&#x200B;字段右侧的AI助手图标（![AI助手访问图标](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}）。
 
-   电子邮件主题行](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}的![AI助手访问权限
+   电子邮件主题行![&#128279;](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}的AI助手访问权限
 
    此时将打开AI Assistant弹出窗口，其中包含电子邮件主题行的生成设置。
 
