@@ -230,4 +230,4 @@ Marketo Engage基于人员的操作可协调您在Journey Optimizer B2B edition�
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443255/?learn=on&captions=chi_hans)
