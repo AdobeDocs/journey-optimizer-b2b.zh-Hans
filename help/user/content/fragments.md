@@ -1,9 +1,10 @@
 ---
 title: 片段
 description: 了解如何在Adobe Journey Optimizer B2B edition中创建可视化内容片段，并将其用作电子邮件和电子邮件模板的可重用组件。
-feature: Content, Email Authoring
+feature: Fragments, Content
+role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2624'
 ht-degree: 2%
@@ -285,9 +286,9 @@ ht-degree: 2%
 
 1. 导航到&#x200B;**[!UICONTROL 帐户历程]**&#x200B;并打开现有历程或创建新历程。
 
-1. 创建[_[!UICONTROL 发送电子邮件&#x200B;]_&#x200B;节点](./add-email.md#add-an-email-action-node-in-a-journey)。
+1. 创建[_[!UICONTROL 发送电子邮件&#x200B;]_节点](./add-email.md#add-an-email-action-node-in-a-journey)。
 
-1. 创建或编辑节点[&#128279;](./email-authoring.md)的电子邮件内容。
+1. 创建或编辑节点](./email-authoring.md)的[电子邮件内容。
 
 1. 从&#x200B;**[!UICONTROL 组件]**&#x200B;菜单拖放项以提供片段的&#x200B;_结构_。
 

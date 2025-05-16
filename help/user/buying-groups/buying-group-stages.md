@@ -2,8 +2,9 @@
 title: 购买组阶段
 description: 了解购买组阶段，以及如何定义这些阶段以根据销售目标跟踪历程进展。
 feature: Buying Groups, Account Journeys
+role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 266a9bde4ec889ec3577a7fa8881bec4763a66fd
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2344'
 ht-degree: 1%
@@ -70,7 +71,7 @@ ht-degree: 1%
 
    重复此步骤，直到拥有模型所需的阶段。
 
-   为模型![&#128279;](assets/stages-model-stages-added.png){width="700" zoomable="yes"}定义的阶段
+   为模型](assets/stages-model-stages-added.png){width="700" zoomable="yes"}定义的![阶段
 
 1. 如果您对已定义的阶段感到满意，请单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -189,7 +190,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ## 删除购买组阶段模型
 
-当购买组阶段模型处于草稿或已发布状态时，您可以将其删除。 如果该文件已发布（实时），则只能在其与解决方案兴趣无关时将其删除。
+当购买群组阶段模型处于草稿或已发布状态时，您可以将其删除。如果该文件已发布（实时），则只能在其与解决方案兴趣无关时将其删除。
 
 1. 在左侧导航中，转到&#x200B;**[!UICONTROL 帐户]** > **[!UICONTROL 购买群组]**。
 
@@ -276,7 +277,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. 在右侧的节点属性中，为拆分选择&#x200B;**[!UICONTROL 人员]**。
 
-   将用于条件&#x200B;_的_&#x200B;属性的默认值保留为&#x200B;**[!UICONTROL 仅People属性]**。
+   将用于条件&#x200B;]_的_[!UICONTROL &#x200B;属性的默认值保留为&#x200B;**[!UICONTROL 仅People属性]**。
 
 1. 要定义适用于&#x200B;_[!UICONTROL 路径1]_&#x200B;的条件，请单击&#x200B;**[!UICONTROL 应用条件]**。
 
@@ -320,7 +321,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. 定义操作以更新购买组阶段。
 
-   * 若要对帐户&#x200B;**执行**&#x200B;操作，请选择&#x200B;**[!UICONTROL 更新购买团体阶段]**。
+   * 若要对帐户&#x200B;]**执行**[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 更新购买团体阶段]**。
 
    * 对于&#x200B;**[!UICONTROL 选择解决方案兴趣]**，请选择与购买组阶段模型关联的解决方案。
 
@@ -364,4 +365,4 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3448704/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

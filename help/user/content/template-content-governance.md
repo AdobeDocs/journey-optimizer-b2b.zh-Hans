@@ -1,8 +1,10 @@
 ---
 title: 模板内容管理
 description: 了解如何锁定电子邮件模板中的内容元素，以便您可以控制如何更改这些元素以用于帐户历程。
-feature: Email Authoring, Content
-source-git-commit: 44413c763ca57d04b83ba78df0ae846142180ec3
+feature: Templates, Email Authoring, Content
+role: User
+exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
+source-git-commit: 4905346d8160147f7d71b7b1131ea33f26d3bba0
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 0%
@@ -92,4 +94,3 @@ ht-degree: 0%
      对于锁定的组件，您可以通过打开&#x200B;**[!UICONTROL 允许删除]**&#x200B;选项，允许在电子邮件创作期间删除该组件。
 
    ![将内容锁定应用于子组件](./assets/governance-template-component-locking.png){width="800" zoomable="yes"}
-

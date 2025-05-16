@@ -1,12 +1,13 @@
 ---
 title: 片段创作
 description: 了解如何创作可重复用于您的电子邮件的内容片段和模板设计以提高效率并维护设计和品牌标准。
-feature: Content
+feature: Fragments, Content Design Tools
+role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 81f521cf245ac3d5460e1a8eb768ea2b609cf6fe
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 17%
+source-wordcount: '373'
+ht-degree: 19%
 
 ---
 
@@ -36,7 +37,7 @@ ht-degree: 17%
 
 {{$include /help/_includes/content-design-navigation.md}}
 
-## 使内容个性化
+## 个性化内容
 
 {{$include /help/_includes/content-design-personalization.md}}
 
@@ -52,7 +53,7 @@ ht-degree: 17%
 
 1. 单击&#x200B;**[!UICONTROL 启用版本]**&#x200B;选项切换并设置可编辑的字段。
 
-   ![为片段图像组件启用可编辑字段](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![为片段图像组件启用可编辑字段](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}
 
    您可以为显示的字段启用自定义设置，具体取决于组件类型和片段中定义的参数。
 
@@ -60,7 +61,7 @@ ht-degree: 17%
 
 1. 单击&#x200B;**[!UICONTROL 概述]**&#x200B;查看所有可编辑的字段及其默认值。
 
-   ![查看可编辑字段及其默认值](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![查看可编辑的字段及其默认值](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}
 
 1. 保存更改。
 

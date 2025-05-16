@@ -1,8 +1,10 @@
 ---
 title: 向历程添加电子邮件
 description: 了解如何在Adobe Journey Optimizer B2B中添加、定义和优化电子邮件操作。 通过有针对性的电子邮件通信增强您的帐户历程。
-feature: Email Authoring, Content
-source-git-commit: 6517a953692a56bd31c5b0f2fa5f15f40c6743b5
+feature: Email Authoring, Account Journeys
+role: User
+exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 0%
@@ -21,9 +23,9 @@ ht-degree: 0%
 
 当您[添加&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点](../journeys/action-nodes.md)并执行以下操作时，可以在历程中设置电子邮件投放：
 
-1. 对于&#x200B;_目标上的_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
+1. 对于&#x200B;]_目标上的_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
 
-1. 若要对人员&#x200B;_执行_&#x200B;操作，请选择&#x200B;**[!UICONTROL 发送电子邮件]**。
+1. 若要对人员&#x200B;]_执行_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 发送电子邮件]**。
 
 1. 对于&#x200B;_[!UICONTROL 电子邮件源]_，选择您希望如何发送电子邮件。
 

@@ -1,16 +1,17 @@
 ---
 title: 目的数据
 description: 了解如何汇编和提交关键词以生成Journey Optimizer B2B edition的意图数据。
-feature: Setup, Account Insights
+feature: Setup, Intent, Account Insights
 roles: Admin
-source-git-commit: 55c157483f7b5c5340bc3e0e2cfde29de45a5cc2
+exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
-# 目的数据
+# 意图数据
 
 在Journey Optimizer B2B edition中，意图检测模型根据商机活动预测具有足够高置信度的感兴趣解决方案/产品。 它还利用了其他帐户共同成员的活动，以及标记的内容。 个人的意图可以解释为对产品感兴趣的可能性。
 

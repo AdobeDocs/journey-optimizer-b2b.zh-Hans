@@ -1,10 +1,11 @@
 ---
 title: 登陆页面
 description: 了解登陆页面以及如何创建和管理登陆页面以支持帐户历程和营销活动。
-feature: Content
+feature: Landing Pages, Content
+role: User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2188'
 ht-degree: 2%
@@ -183,7 +184,7 @@ Adobe Journey Optimizer B2B edition提供了一系列&#x200B;_现成的_&#x200B;
    * [添加结构和内容](./landing-page-design.md#add-structure-and-content)
    * [添加Assets](./landing-page-design.md#add-assets)
    * [导航图层、设置和样式](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [使内容个性化](./landing-page-design.md#personalize-content)
+   * [个性化内容](./landing-page-design.md#personalize-content)
    * [编辑链接的URL跟踪](./landing-page-design.md#edit-linked-url-tracking)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**，或单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回登陆页面的详细信息。
@@ -211,7 +212,7 @@ Adobe Journey Optimizer B2B edition提供了一系列&#x200B;_现成的_&#x200B;
    * [添加结构和内容](./landing-page-design.md#add-structure-and-content)
    * [添加Assets](./landing-page-design.md#add-assets)
    * [导航图层、设置和样式](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [使内容个性化](./landing-page-design.md#personalize-content)
+   * [个性化内容](./landing-page-design.md#personalize-content)
    * [编辑链接的URL跟踪](./landing-page-design.md#edit-linked-url-tracking)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**，或单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回登陆页面的详细信息。
@@ -233,7 +234,7 @@ Adobe Journey Optimizer B2B edition提供了一系列&#x200B;_现成的_&#x200B;
    * [添加结构和内容](./landing-page-design.md#add-structure-and-content)
    * [添加Assets](./landing-page-design.md#add-assets)
    * [导航图层、设置和样式](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [使内容个性化](./landing-page-design.md#personalize-content)
+   * [个性化内容](./landing-page-design.md#personalize-content)
    * [编辑链接的URL跟踪](./landing-page-design.md#edit-linked-url-tracking)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**，或单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回登陆页面的详细信息。

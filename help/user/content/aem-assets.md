@@ -1,9 +1,10 @@
 ---
 title: 使用 Experience Manager Assets
 description: 了解如何在Adobe Journey Optimizer B2B edition中创作内容时使用连接的AEM Assets存储库中的图像资源。
-feature: Assets, Content
+feature: Assets, Content, Integrations
+role: User
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 2%
@@ -22,7 +23,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->管理员必须将需要访问Assets的用户添加到Assets Consumer Users或/和Assets Users产品配置文件。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>管理员必须将需要访问Assets的用户添加到Assets Consumer Users或/和Assets Users产品配置文件。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## 访问AEM Assets图像
 
@@ -32,7 +33,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->目前，Adobe Journey Optimizer B2B edition仅支持Adobe Experience Manager Assets中的图像资源。 必须在Adobe Experience Manager Assets中央存储库中更改资源。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>目前，Adobe Journey Optimizer B2B edition仅支持Adobe Experience Manager Assets中的图像资源。 必须在Adobe Experience Manager Assets中央存储库中更改资源。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### 更改显示的存储库
 

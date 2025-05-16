@@ -1,13 +1,14 @@
 ---
 title: 表单设计
 description: 了解如何设计用于收集业务商机信息的可重用表单。
-feature: Content
+feature: Forms, Content Design Tools
+role: User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: 4eaaa8a33ba3ada99a75c43a56508362a2e7287b
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2054'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -128,7 +129,7 @@ ht-degree: 0%
 
 ### 删除或复制字段 {#field-delete-duplicate}
 
-单击工具栏或右侧面板中的&#x200B;_删除_&#x200B;图标（![删除图标](../assets/do-not-localize/icon-delete.svg)）以删除选定的字段。 在确认对话框中，单击&#x200B;**[!UICONTROL 删除]**。
+单击工具栏或右侧面板中的&#x200B;_删除_&#x200B;图标（![删除图标](../assets/do-not-localize/icon-delete.svg)）以删除选定的字段。 在确认对话框中点击&#x200B;**[!UICONTROL 删除]**。
 
 单击工具栏或右侧面板中的&#x200B;_复制_&#x200B;图标（![复制图标](../assets/do-not-localize/icon-duplicate.svg)）以复制所选字段。 新字段显示在原始字段的正下方。 单击&#x200B;**[!UICONTROL 选择字段属性]**&#x200B;以设置该字段的属性。 根据需要设置字段类型、详细信息和样式。
 

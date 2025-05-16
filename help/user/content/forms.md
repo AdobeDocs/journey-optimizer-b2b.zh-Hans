@@ -1,10 +1,11 @@
 ---
 title: 表单
 description: 了解如何创建可包含在登陆页面中的可重用表单。
-feature: Content
+feature: Forms, Content
+role: User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
-source-git-commit: 4eaaa8a33ba3ada99a75c43a56508362a2e7287b
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2350'
 ht-degree: 0%

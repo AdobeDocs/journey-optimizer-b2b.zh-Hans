@@ -1,15 +1,17 @@
 ---
-title: SMS配置
+title: 短信配置
 description: 了解如何配置与支持的短信提供商的连接，以供Journey Optimizer B2B edition短信消息传送使用。
-feature: Setup
-source-git-commit: c3352db2235af08e31ba7e4d8690bc9e330dd41f
+feature: Setup, Channels
+role: Admin
+exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 0%
 
 ---
 
-# SMS配置
+# 短信配置
 
 Adobe Journey Optimizer B2B edition通过短信服务提供商（或短信网关提供商）发送文本消息。 在创建短信消息之前，请从&#x200B;_管理员_&#x200B;设置中配置服务提供商。
 
@@ -21,7 +23,7 @@ Adobe Journey Optimizer B2B edition目前与独立提供短信服务的第三方
 
 >[!IMPORTANT]
 >
->您对短信服务的使用受适用提供商提供的其他条款与条件的约束。 作为第三方解决方案，Adobe Journey Optimizer B2B edition用户可通过集成使用Sinch、Twilio和Infobip。 Adobe不控制，也不对第三方产品负责。 有关短信服务(SMS)的任何问题或协助请求，请与提供商联系。
+>您对短信服务的使用受适用提供商提供的其他条款与条件的约束。 作为第三方解决方案，Adobe Journey Optimizer B2B edition用户可通过集成使用Sinch、Twilio和Infobip。 Adobe不控制，也不负责第三方产品。 有关短信服务(SMS)的任何问题或协助请求，请与提供商联系。
 
 ## 验证现有SMS API配置
 

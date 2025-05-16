@@ -1,17 +1,19 @@
 ---
 title: 在Market Engage中购买组筛选器
 description: 了解使用购买组成员资格在Marketo Engage智能列表中定义筛选器。
-feature: Buying Groups
-source-git-commit: 2c01fed7e50a48b268e0b6aceb4634bdfc895866
+feature: Buying Groups, Integrations
+role: User
+exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 在Market Engage中购买群组过滤器
+# Market Engage 中的购买群组过滤器
 
-作为营销人员，您可能希望在Marketo Engage中禁止参与购买Journey Optimizer B2B edition中的群组的人员参与促销活动。 您还可以使用与购买组关联的潜在客户的相关信息，在Marketo Engage中告知潜在客户评分工作流。 例如：
+作为营销人员，您可能希望在Marketo Engage中禁止参与在Journey Optimizer B2B edition中购买群组的用户的促销活动。 您还可以使用与购买组关联的潜在客户的相关信息，告知Marketo Engage中的潜在客户评分工作流。 例如：
 
 * 此潜在客户是否为购买群体的一部分？
 * 购买团体是否已完成并投入使用？
@@ -20,7 +22,7 @@ ht-degree: 0%
 
 在连接到Journey Optimizer B2B edition的Marketo Engage实例中，您可以在智能列表中使用&#x200B;_[!UICONTROL 购买组成员列表]_&#x200B;筛选器来根据促销活动策略识别这些潜在客户。
 
-1. 在[Marketo Engage](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}中创建智能列表后，选择&#x200B;**[!UICONTROL 智能列表]**&#x200B;选项卡以打开筛选器编辑器。
+1. 在Marketo Engage[创建智能列表](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}后，选择&#x200B;**[!UICONTROL 智能列表]**&#x200B;选项卡以打开筛选器编辑器。
 
 1. 在右侧的筛选器列表中，向下滚动该列表并展开&#x200B;**[!UICONTROL 特殊筛选器]**&#x200B;文件夹。
 

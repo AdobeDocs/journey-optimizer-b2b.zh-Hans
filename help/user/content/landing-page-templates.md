@@ -1,12 +1,13 @@
 ---
 title: 登陆页面模板
 description: 了解如何创建登陆页面模板，您的营销团队可以使用这些模板创建新页面，以支持帐户历程和营销活动。
-feature: Content
+feature: Landing Pages, Templates, Content
+role: User
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: 22112bde7692247d9bc0ea9b79160682b9370f55
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 0%

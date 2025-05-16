@@ -1,9 +1,10 @@
 ---
 title: 帐户受众节点
 description: 了解可用于在Journey Optimizer B2B edition中定义帐户历程输入的帐户受众节点类型。
-feature: Account Journeys
+feature: Account Journeys, Audiences, Account Lists
+role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 5%
@@ -53,4 +54,4 @@ _创建受众区段：_
 
    ![创建受众区段](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. 按照[分段服务指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}中所述的步骤操作。
+1. 按照[分段服务指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}中所述的步骤操作。

@@ -2,8 +2,9 @@
 title: 用于电子邮件创作的AI助手
 description: 了解如何使用AI Assistant优化帐户历程中使用的电子邮件内容。
 feature: AI Assistant, Email Authoring, Content
+role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '3072'
 ht-degree: 0%
@@ -83,7 +84,7 @@ Adobe Journey Optimizer B2B edition提供了五个现成的标准B2B购买团体
 
 1. 在&#x200B;_[!UICONTROL 电子邮件属性]_&#x200B;中，单击&#x200B;**[!UICONTROL 主题行]**&#x200B;字段右侧的AI助手图标（![AI助手访问图标](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}）。
 
-   电子邮件主题行![&#128279;](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}的AI助手访问权限
+   电子邮件主题行](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}的![AI助手访问权限
 
    此时将打开AI Assistant弹出窗口，其中包含电子邮件主题行的生成设置。
 

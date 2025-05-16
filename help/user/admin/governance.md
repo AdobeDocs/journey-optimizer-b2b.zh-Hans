@@ -1,8 +1,10 @@
 ---
 title: 治理功能
 description: 了解Journey Optimizer B2B edition中当前可用的治理功能。
+feature: Setup
+role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-source-git-commit: 3198ba223125c95263d8dcf5ee8cb285a888a26a
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -15,7 +17,7 @@ Journey Optimizer B2B edition是一个集成的Adobe Experience Platform应用�
 
 ## 隐私 — GDPR
 
-Journey Optimizer B2B edition使用Privacy Service和Marketo隐私代理服务提供的现有Marketo EngageGDPR治理功能。
+Journey Optimizer B2B edition使用Privacy Service和Marketo Engage Privacy Broker服务提供的现有Marketo GDPR治理功能。
 
 ## 基于角色的访问控制(RBAC)
 
@@ -23,7 +25,7 @@ Journey Optimizer B2B edition使用Privacy Service和Marketo隐私代理服务�
 
 ## 数据加密
 
-**_静态数据加密_** — 从Adobe Experience Platform传输到Journey Optimizer B2B edition的所有帐户和人员配置文件数据均已加密，以保持Experience Platform的现有合规性。 源自Journey Optimizer B2B edition的所有实体（例如历程和购买群组）也都进行了加密。
+**_静态数据加密_** — 所有从Adobe Experience Platform传输到Journey Optimizer B2B edition的帐户和人员配置文件数据都经过加密，以保持来自Experience Platform的现有合规性。 源自Journey Optimizer B2B edition的所有实体（例如历程和购买群组）也都进行了加密。
 
 **_传输中数据的加密_**（通过公共网络） — 使用TLS 1.2对所有Journey Optimizer B2B edition API和实体进行传输中加密。
 

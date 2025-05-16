@@ -2,7 +2,9 @@
 title: 帐户详细信息
 description: 了解如何在Journey Optimizer B2B edition中访问帐户的详细信息和创作AI摘要。
 feature: Account Insights
-source-git-commit: 55c157483f7b5c5340bc3e0e2cfde29de45a5cc2
+role: User
+exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 9%
@@ -42,7 +44,7 @@ _[!UICONTROL 联系人覆盖范围]_&#x200B;部分显示帐户中具有与解决
 * 列
 * 名称
 * 帐户
-* 职务名称
+* 作业名称
 * 购买群组
 * 人员参与度分数
 * 上一个活动
@@ -60,7 +62,7 @@ _[!UICONTROL 联系人覆盖范围]_&#x200B;部分显示帐户中具有与解决
 _[!UICONTROL 联系人重叠]_&#x200B;部分显示来自帐户的联系人，这些联系人由于与多个解决方案兴趣关联而属于多个购买组。 此信息以表格的形式提供，其中包含以下列：
 
 * 名称
-* 职务名称
+* 作业名称
 * 帐户
 * 解决方案兴趣
 

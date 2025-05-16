@@ -1,8 +1,10 @@
 ---
 title: XDM字段
 description: 查看在Adobe Experience Platform和Journey Optimizer B2B edition之间同步的默认属性字段。
+feature: Data Management, Integrations
+role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1346'
 ht-degree: 12%
@@ -15,7 +17,7 @@ ht-degree: 12%
 
 >[!TIP]
 >
->您可以使用XDM业务帐户人员关系类在多对多关系中对XDM业务人员和XDM业务帐户类建模，如[Experience Platform XDM文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}中所述。
+>您可以使用XDM业务帐户人员关系类在多对多关系中对XDM业务人员和XDM业务帐户类建模，如[Experience Platform XDM文档](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}中所述。
 
 ## XDM业务帐户人员关系属性
 
@@ -79,7 +81,7 @@ ht-degree: 12%
 
 ## XDM业务机会属性
 
-此外，机会数据作为属性存储在XDM业务机会类中，该属性可以通过多对一关系与XDM业务帐户类关联，如[Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}中所述。
+此外，机会数据作为属性存储在XDM业务机会类中，该属性可以通过多对一关系与XDM业务帐户类关联，如[Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}中所述。
 
 | [属性](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} | 显示名称 | Journey Optimizer B2B显示名称 | 数据类型 | 描述 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |

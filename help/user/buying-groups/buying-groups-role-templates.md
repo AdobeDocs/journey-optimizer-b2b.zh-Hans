@@ -2,8 +2,9 @@
 title: 购买组角色模板
 description: 了解如何定义用作购买组组件的角色模板。
 feature: Buying Groups
+role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 3%
@@ -163,4 +164,4 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3453311/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

@@ -1,12 +1,13 @@
 ---
 title: 登陆页面配置
 description: 了解如何访问和配置登陆页面设置，以便您的营销团队可以创作和发布网页来支持其营销活动。
-feature: Setup, Content
+feature: Setup, Landing Pages, Content
+role: Admin
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 47%

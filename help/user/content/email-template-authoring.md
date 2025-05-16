@@ -1,12 +1,13 @@
 ---
 title: 电子邮件模板创作
 description: 了解如何创作可用于帐户历程电子邮件的内容电子邮件模板，以便轻松高效地重复使用您的设计。
-feature: Email Authoring, Content
+feature: Templates, Email Authoring, Content
+role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -42,7 +43,7 @@ ht-degree: 15%
 
 {{$include /help/_includes/content-design-navigation.md}}
 
-### 使内容个性化
+### 个性化内容
 
 {{$include /help/_includes/content-design-personalization.md}}
 

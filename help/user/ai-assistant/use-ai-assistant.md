@@ -2,9 +2,10 @@
 title: 使用 AI 助手
 description: 了解AI Assistant如何帮助您充分利用Journey Optimizer B2B edition功能。
 feature: AI Assistant
+role: User
 level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
-source-git-commit: 62dc7d43f77b2c84b9e0aa27146a7924ee8d7b35
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 0%

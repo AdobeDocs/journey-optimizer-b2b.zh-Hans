@@ -2,8 +2,9 @@
 title: 历程详细信息
 description: 了解历程详细信息页面提供的信息，以及它如何帮助您监控和管理已发布的帐户历程。
 feature: Dashboards, Account Journeys
+role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-source-git-commit: 7667478672de935abc4fda587ce4ba977a5a3168
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%

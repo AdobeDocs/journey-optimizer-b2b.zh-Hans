@@ -1,12 +1,13 @@
 ---
 title: 面向AI助手的问题指南
-description: 占位符
+description: 了解如何在Journey Optimizer B2B edition中为AI助手编写有效的问题。
 feature: AI Assistant
+role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
-source-git-commit: f09f3f5b7d4419ead5308e4c5be3b518b4e16ff5
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '884'
 ht-degree: 1%
 
 ---

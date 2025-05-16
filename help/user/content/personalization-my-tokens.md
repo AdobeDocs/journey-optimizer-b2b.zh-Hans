@@ -1,11 +1,13 @@
 ---
 title: 电子邮件Personalization的自定义令牌
 description: 了解如何使用为帐户历程定义的一组令牌来管理电子邮件内容中的个性化。
-feature: Content, Email Authoring
-source-git-commit: 01c217c928ccb344eaebe471c7b7a8b930c68010
+feature: Personalization, Content, Email Authoring
+role: User
+exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -27,7 +29,7 @@ _访问帐户历程的自定义令牌：_
 
 1. 单击右上方的&#x200B;**[!UICONTROL 更多……]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 我的令牌]**。
 
-   ![单击右上角的“更多”](../journeys/assets/account-journey-draft-more-menu.png){width="450"}
+   ![点击右上角的“更多”](../journeys/assets/account-journey-draft-more-menu.png){width="450"}
 
    _我的令牌_&#x200B;页面列出了为历程定义的所有自定义令牌。
 
@@ -73,7 +75,7 @@ _访问帐户历程的自定义令牌：_
 
 1. 在&#x200B;_[!UICONTROL 我的令牌]_&#x200B;页面中，单击令牌名称旁边的&#x200B;_更多操作_&#x200B;图标(**...**)，然后选择&#x200B;**[!UICONTROL 删除]**。
 
-1. 在确认对话框中，单击&#x200B;**[!UICONTROL 删除]**。
+1. 在确认对话框中点击&#x200B;**[!UICONTROL 删除]**。
 
 ## 在内容中使用自定义令牌
 

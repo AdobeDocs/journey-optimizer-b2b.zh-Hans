@@ -1,16 +1,17 @@
 ---
 title: 购买组详细信息
 description: 了解如何在Journey Optimizer B2B edition中访问有关购买群组的详细信息和创作AI摘要。
-feature: Buying Groups
+feature: Buying Groups, Intelligent Insights
+role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de
-source-git-commit: cfebf3d3a91733261417e338b3ce3c1b80495e5b
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
-# 购买团体详细信息
+# 购买群组详细信息
 
 在Journey Optimizer B2B edition的任何位置单击购买组名称时，都会显示购买组详细信息。 此概述提供了有关购买组的有用信息，包括创作AI摘要。
 
@@ -29,8 +30,8 @@ ht-degree: 5%
 * 购买群组名称
 * 帐户名称（单击该名称可打开帐户详细信息）
 * 购买组的人数
-* 参与度得分
-* 完整性分数
+* 参与度评分
+* 完整性评分
 * 当前购买组阶段
 * 角色模板（单击名称可打开角色模板详细信息）
 * 上次修改/更新日期
@@ -49,7 +50,7 @@ ht-degree: 5%
 * 帐户当前正在使用的最新三个帐户历程（单击名称以打开历程详细信息）
 * 帐户的创作AI摘要
 
-## 购买组成员
+## 购买群组成员
 
 ![购买群组成员](./assets/details-page-buying-group-members.png){width="800" zoomable="yes"}
 
@@ -68,7 +69,7 @@ _[!UICONTROL 购买群成员]_&#x200B;部分显示两个突出显示购买群成
 单击&#x200B;**[!UICONTROL 查看详细信息]**&#x200B;可访问以下成员信息：
 
 * 创作AI摘要
-* 最后一个有趣的时刻
+* 上一个有趣的时刻
 * 最近活动（两个）
 * 潜在客户所属的其他购买组（根据最近添加的数据，仅限于三个购买组）。
 * 电子邮件地址

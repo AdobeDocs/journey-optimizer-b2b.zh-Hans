@@ -2,8 +2,9 @@
 title: 创建购买组
 description: 了解如何使用所需的组件创建购买组。
 feature: Buying Groups
+role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 2%
@@ -59,6 +60,6 @@ Member of buying group.
 Assign a member of the buying group.
 Remove a member of the buying group. -->
 
-## 操作方法视频
+## 操作说明视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3451771/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

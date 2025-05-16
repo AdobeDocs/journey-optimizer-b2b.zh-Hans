@@ -2,8 +2,9 @@
 title: 创建和发布帐户历程
 description: 了解如何创建和发布帐户历程。
 feature: Account Journeys
+role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 5%
@@ -136,4 +137,4 @@ _历程图_&#x200B;是历程设计器中的中心区域。 在此区域中，您
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3443229/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
