@@ -4,20 +4,20 @@ description: 了解如何在Adobe Journey Optimizer B2B中创建电子邮件内�
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 633f23525a6fd2b03460ecbef17379077d6b51d2
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '928'
 ht-degree: 15%
 
 ---
 
 # 电子邮件创作
 
-在您&lbrack;将新的<!-- or duplicated -->电子邮件资产添加到历程操作节点&rbrack;(./add-email.md)后，您可以定义电子邮件的内容。
+在您[将新的<!-- or duplicated -->电子邮件资产添加到历程操作节点](./add-email.md)后，您可以定义电子邮件的内容。
 
-单击&#x200B;_[!UICONTROL 电子邮件]_&#x200B;预览面板顶部的&#x200B;**[!UICONTROL 添加电子邮件内容]**。
+在右侧面板的&#x200B;_[!UICONTROL 详细信息]_&#x200B;选项卡中单击&#x200B;**[!UICONTROL 编辑电子邮件内容]**。
 
-![单击“添加电子邮件内容”](./assets/add-email-content.png){width="700" zoomable="yes"}
+![单击“编辑电子邮件内容”](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 此操作将启动电子邮件设计工具，您可以在其中从以下选项中选择所需的电子邮件设计方式：
 
@@ -26,8 +26,6 @@ ht-degree: 15%
 * [从文件或.zip文件夹导入现有HTML内容](#import-existing-html-content)。
 
 * [从内置或自定义电子邮件模板列表中选择现有模板](#select-a-template)。
-
-要使用表达式编辑器配置和个性化主题行，请单击&#x200B;_Personalization_&#x200B;图标并添加任何Marketo Engage令牌。
 
 创建并个性化电子邮件内容后，可导出内容以供验证或稍后使用。 单击&#x200B;**[!UICONTROL 导出HTML]**，将内容保存为.zip文件，其中包括您的HTML和资源。
 
@@ -47,10 +45,9 @@ ht-degree: 15%
 >title="关于内容组件"
 >abstract="内容组件是空的内容占位符，您可用它来创建登陆页面的版面。"
 
-使用可视内容编辑器定义电子邮件内容的结构。 通过简单的拖放操作添加和移动结构组件，您可以在几秒钟内设计可重用电子邮件内容的形状。
+使用可视内容设计空间来定义电子邮件的结构和内容。 通过简单的拖放操作添加和移动结构组件，您可以在几秒钟内设计可重用电子邮件内容的形状。
 
 1. 从&#x200B;_[!UICONTROL 设计您的模板]_&#x200B;主页中，选择&#x200B;**[!UICONTROL 从头开始设计]**&#x200B;选项。
-
 1. [向电子邮件添加结构和内容](#add-structure-and-content)。
 1. [将图像资源](#add-assets)添加到电子邮件中。
 1. [个性化电子邮件内容](#personalize-content)。
@@ -157,6 +154,6 @@ ht-degree: 15%
 
 定义消息内容后，您可以使用测试用户档案来预览、发送校样，并控制它在常用桌面、移动和基于Web的客户端中的呈现。 如果插入个性化内容，则可以使用测试用户档案数据预览此内容在消息中的显示方式。
 
-若要预览电子邮件内容，请单击“模拟内容”**&#x200B;**，然后添加测试用户档案，以使用测试用户档案数据检查邮件。
+若要预览电子邮件内容，请单击“模拟内容”****，然后添加测试用户档案，以使用测试用户档案数据检查邮件。
 
 ![模拟电子邮件内容以检查您的设计](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
