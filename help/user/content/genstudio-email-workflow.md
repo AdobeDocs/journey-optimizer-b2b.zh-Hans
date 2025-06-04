@@ -72,7 +72,7 @@ ht-degree: 4%
 
 使用HTML文件在GenStudio for Performance Marketing中创建模板。
 
-有关在Adobe GenStudio for Performance Marketing中将HTML模板上传到GenStudio的详细信息，请参阅GenStudio for Performance Marketing文档中的[添加模板](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template)。
+有关在Adobe GenStudio for Performance Marketing中将HTML模板上传到GenStudio的详细信息，请参阅GenStudio for Performance Marketing文档中的[添加模板](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template)。
 
 上传导出的HTML作为模板时，GenStudio for Performance Marketing会扫描HTML文件以查找可识别的字段。 使用预览可查看模板元素，并确认您使用可识别的字段名称正确标识了它们。
 
@@ -80,7 +80,7 @@ ht-degree: 4%
 
 在GenStudio for Performance Marketing中，使用模板创建多个电子邮件体验变体并保存它们。
 
-有关生成品牌电子邮件体验的详细信息，请参阅GenStudio for Performance Marketing文档中的[创建电子邮件体验](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience)。
+有关生成品牌电子邮件体验的详细信息，请参阅GenStudio for Performance Marketing文档中的[创建电子邮件体验](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience)。
 
 ## 将生成的电子邮件体验添加到Journey Optimizer B2B edition
 
