@@ -4,16 +4,16 @@ description: 了解如何创作可用于帐户历程电子邮件的内容电子�
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 45335eeba059ca8b4b390b336fbcb0ef29bd90ca
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 17%
+source-wordcount: '336'
+ht-degree: 16%
 
 ---
 
 # 电子邮件模板创作
 
-在[创建电子邮件模板](./email-templates.md#create-an-email-template)之后，使用可视设计器创作电子邮件模板中的结构组件和内容组件。
+在您[创建电子邮件模板](./email-templates.md#create-an-email-template)之后，请使用可视化设计空间来创作电子邮件模板中的结构和内容组件。
 
 ## 添加结构和内容 {#structure-content}
 
@@ -45,7 +45,7 @@ ht-degree: 17%
 
 ### 个性化内容
 
-{{$include /help/_includes/content-design-personalization.md}}
+{{$include /help/_includes/content-design-personalization-email.md}}
 
 ### 编辑链接的URL跟踪
 
@@ -53,7 +53,7 @@ ht-degree: 17%
 
 ## 查看选项
 
-利用可视设计器中提供的视图和内容验证选项。
+利用可视设计空间中可用的视图和内容验证选项。
 
 * 通过预设缩放选项放大/缩小内容。
 
@@ -63,11 +63,11 @@ ht-degree: 17%
 
 ### 更多选项
 
-从电子邮件设计器顶部的&#x200B;_[!UICONTROL 更多……]_&#x200B;菜单中，可以执行以下操作：
+从电子邮件设计空间顶部的&#x200B;_[!UICONTROL 更多……]_&#x200B;菜单中，可以执行以下操作：
 
 ![单击“更多”以访问模板操作](./assets/visual-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL 重置模板]** — 单击此选项可将可视设计器画布清除为空白并重新启动生成内容。
+* **[!UICONTROL 重置模板]** — 单击此选项可将设计画布清除为空白并重新启动生成内容。
 * **[!UICONTROL 另存为片段]** — 将模板的所有或部分另存为片段，以便在多个电子邮件或电子邮件模板中重复使用。 您可以提供片段的名称和描述，并将其保存到可用片段列表中。
 * **[!UICONTROL 更改您的设计]** — 返回&#x200B;_设计您的模板_&#x200B;页面。 从该位置，您可以选择从头开始设计模板，或使用现有模板重新启动设计过程。
 * **[!UICONTROL 导出HTML]** — 将可视画布中的内容以HTML格式下载到您的本地系统，并打包为zip文件。

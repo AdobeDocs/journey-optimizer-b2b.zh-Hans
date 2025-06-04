@@ -1,11 +1,12 @@
 ---
-title: 发行说明
-description: Adobe Journey Optimizer B2B Edition 的最新发行说明
+title: Journey Optimizer B2B edition发行说明
+description: 了解Adobe Journey Optimizer B2B edition中的最新功能和增强功能。
+role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: c3f2d57da830c46bd1e91d172db14f5400aabfca
-workflow-type: ht
-source-wordcount: '2030'
-ht-degree: 100%
+source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
+workflow-type: tm+mt
+source-wordcount: '2190'
+ht-degree: 89%
 
 ---
 
@@ -17,9 +18,22 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 查看[产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，了解有关权限、性能护栏和限制的信息。
 
+## 2025.5 发行说明
+
+**部署日期**：2025年6月3日
+
+此版本包括以下新功能和增强功能：
+
+| 类型 | 项目 | 描述 |
+| ---- | ---- | ----------- |
+| 功能 | 与GenStudio for Performance Marketing集成 | （限量发布）您现在可以将GenStudio for Performance Marketing电子邮件体验与Journey Optimizer B2B edition集成，以提高营销效率并维护品牌一致性。 利用此集成，您可以将GenStudio AI支持的内容创建与Journey Optimizer B2B edition中的高级编排功能结合使用。 [了解详情](../content/genstudio-email-workflow.md) |
+| 增强功能 | 电子邮件的手柄栏令牌格式 | 电子邮件内容的Personalization令牌现在使用与手柄栏脚本完全兼容的更新格式。 此格式使用&#x200B;_驼峰式大小写_&#x200B;或下划线，消除空格。 [了解详情](../content/email-authoring.md#content-authoring---personalization) |
+| 增强功能 | 列表显示的总数 | _[!UICONTROL Solution Interests]_&#x200B;和&#x200B;_[!UICONTROL Account历程]_&#x200B;列表页已增强，并在搜索栏旁边显示总数。 |
+
+
 ## 2025.4 发行说明
 
-**发布日期**：2025 年 4 月 29 日
+**部署日期**：2025年4月29日
 
 此版本包括以下新功能和增强功能：
 
@@ -34,7 +48,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 ## 2025.3 发行说明
 
-**发布日期**：2025 年 4 月 1 日
+**部署日期**：2025年4月1日
 
 此版本包括以下新功能和增强功能：
 
@@ -47,27 +61,27 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 ## 2025.2 发行说明
 
-**发布日期**：2025 年 3 月 11 日
+**部署日期**：2025年3月11日
 
 此版本包括以下新功能和增强功能：
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | 可自定义字段——内容片段 | 作为内容片段设计者，您可以将片段中组件的参数指定为可编辑。此功能允许电子邮件或模板作者根据自己的需要指定自定义字段值。此自定义标志仅限于图像、文本和按钮可视组件。<a href="../content/fragment-authoring.md#enable-fragment-customization">了解详情</a> |
+| 功能 | 可自定义字段——内容片段 | 在可视化片段设计期间，您可以将片段中组件的参数指定为可编辑。 此功能允许电子邮件或模板作者根据自己的需要指定自定义字段值。此自定义标志仅限于图像、文本和按钮可视组件。<a href="../content/fragment-authoring.md#enable-fragment-customization">了解详情</a> |
 | 功能 | B2B 内置角色和产品权限 | Experience Platform 现在包含一组内置（默认）角色，您可以使用它们来管理对 B2B 产品功能的访问。<a href="../admin/user-management.md#b2b-built-in-roles">了解详情</a> <br/>管理员现在可以在 Adobe Experience Platform 中定义自定义角色，以包含 Journey Optimizer B2B Edition 产品权限。<a href="../admin/user-management.md#b2b-product-permissions">了解详情</a> |
 | 功能 | 历程复制类型 | 当您复制帐户历程时，您可以包含节点详细信息，其中不包括 Journey Optimizer B2B Edition 中创建的电子邮件和 SMS 消息。或者，您可以创建结构和路径流的精简副本，而不包含节点详细信息和设置。<a href="../journeys/journey-overview.md#duplicate-journey">了解详情</a> |
 | 增强功能 | 另外四个电子邮件模板示例 | 示例电子邮件模板库现在包含四个 SecurFinacial 模板，作为重新参与、通知、培养和反馈内容的示例 |
 
 ## 2025.1 发行说明 {#Jan-2025}
 
-**发行日期**：2025 年 2 月 6 日
+**部署日期**：2025年2月6日
 
 此版本包括以下新功能和增强功能：
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
 | 功能 | 体验事件转发 | 管理员可以配置基于 Adobe Experience Platform（AEP）的事件定义。这些配置使营销人员能够创建对 AEP 体验事件做出反应的帐户历程。<a href="../admin/configure-aep-events.md">了解详情</a> |
-| 功能 | 付费媒体目标 | 通过帐户历程确定已知人员是否有资格参与付费媒体营销活动，以便您可以在 LinkedIn 等广告平台上进一步吸引他们。在帐户历程中使用拆分路径节点，根据特定行为细分帐户受众，并确定承诺额外参与的帐户。然后，通过 Real-Time CDP 将这些帐户中的人员添加到外部客户受众中，并将其添加到受支持的付费媒体目标中。<a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">了解详情</a> |
+| 功能 | 付费媒体目标 | 通过帐户历程确定已知人员是否有资格参与付费媒体营销活动，以便您可以在 LinkedIn 等广告平台上进一步吸引他们。在帐户历程中使用拆分路径节点，根据特定行为划分帐户受众，并识别需要额外参与的帐户。 然后，通过 Real-Time CDP 将这些帐户中的人员添加到外部客户受众中，并将其添加到受支持的付费媒体目标中。<a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">了解详情</a> |
 | 功能 | 智能仪表板 | 查看购买群组在帐户历程中的进展情况，包括 AI 生成的洞察，以便进行更智能的分析和准确的帐户优先级排序。<a href="../dashboards/intelligent-dashboard.md">了解详情</a> |
 | 功能 | 购买群组和帐户详细信息 | 查看购买群组和帐户级别的洞察，以便在开始吸引客户时掌握更多的背景信息和历史数据。<p>购买群组详细信息包括识别到的任何第一方意图。<a href="../buying-groups/buying-group-details.md">了解详情</a><p>帐户详细信息帐户突出显示了识别到的参与意图激增，这样您就可以告知销售人员那些愿意参与定制销售互动的帐户。<a href="../accounts/account-details.md">了解详情</a> |
 | 功能 | 历程概述 | 当您访问帐户历程时，“概述”选项卡会提供主要帐户历程的全面情况，使用圆形图和条形图详细说明帐户进度，对完成情况和参与活动进行分类和量化。<a href="../dashboards/journeys-dashboard.md">了解详情</a> |
@@ -78,10 +92,13 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | 增强功能 | 用于历程和角色的 Marketo Engage 列表会员资格过滤器 | 在 Journey Optimizer B2B 中，检查 Marketo Engage 列表会员资格作为&#x200B;_按人员拆分路径_&#x200B;节点的条件，以帮助消除历程活动中的重复。<a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">了解详情</a> <p> 为购买群组角色模板使用列表会员资格作为角色条件。<a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">了解详情</a> |
 | 增强功能 | 参与度概述仪表板 | 此仪表板已更新，提供全面的参与度视图。它通过快照圆形图和显示一段时间内趋势的线形图，展示帐户和个人互动的实时量度。<a href="../dashboards/engagement-dashboard.md">了解详情</a> |
 
+## 2024版
 
-## 2024 年 10 月发行说明 {#Oct-2024}
+展开以下列表，了解2024年发布的Journey Optimizer B2B edition功能和增强功能。
 
-**发行日期**：2024 年 10 月 29 日
++++2024年10月发行说明
+
+**部署日期**：2024年10月29日
 
 此版本包括以下新功能和增强功能：
 
@@ -95,9 +112,11 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | 增强功能 | 自定义字段作为人员属性 | 如果您在 Experience Platform 中的帐户受众架构中定义了自定义人员字段，这些字段也可用作条件中的人员属性。将这些自定义属性用于： <li>角色模板<a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">了解详情</a></li><li>按人员历程节点的拆分路径<a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">了解详情</a></li> |
 | 增强功能 | 电子邮件渠道设置 | 现在可在 Journey Optimizer B2B Edition 界面中看到电子邮件设置。您可以快速查看当前配置，管理员可以单击&#x200B;_[!UICONTROL 编辑设置]_，直接转到 Marketo Engage 中的设置，并根据组织的要求进行更新。<a href="../admin/configure-channels-emails.md">了解详情</a> |
 
-## 2024 年 9 月发行说明 {#Sept-2024}
++++
 
-**发行日期**：2024 年 10 月 7 日
++++2024年9月发行说明
+
+**部署日期**：2024年10月7日
 
 此版本包括以下新功能和增强功能：
 
@@ -108,9 +127,11 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | 增强功能 | 历程拆分节点——重新排序路径 | 在拆分路径节点中，路径筛选按自上而下的顺序进行评估。每个人员或每个帐户都沿着第一条匹配的路径前进。您可以通过单击每个路径卡右上角的上下箭头来重新排序已定义的路径，将其在列表中向上或向下移动。<a href="../journeys/split-merge-paths-nodes.md#split-paths">了解详情</a> |
 | 增强功能 | 历程拆分节点——其他活动历史记录条件属性 | 在使用条件定义按人员拆分节点的路径筛选时，有两个额外的属性：_打开的电子邮件_&#x200B;和&#x200B;_是已送达的电子邮件_。这些额外属性为历程中根据电子邮件活动筛选的人员提供了更大的灵活性。<a href="../journeys/journey-nodes.md#split-paths">了解详情</a> |
 
-## 2024 年 8 月发行说明 {#Aug-2024}
++++
 
-**发行日期**：2024 年 8 月 29 日
++++2024年8月发行说明
+
+**部署日期**：2024年8月29日
 
 此版本包括以下新功能和增强功能：
 
@@ -118,3 +139,5 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | ---- | ---- | ----------- |
 | 功能 | LinkedIn 帐户匹配的受众 | 通过帐户匹配的受众生成 LinkedIn 广告受众，帮助您填充购买群组中的空角色。通过定义一组购买群组过滤器，您可以维护 LinkedIn 匹配的受众，定位与您的购买群组参数相匹配的潜在客户。 <p>此功能利用 Experience Platform Destinations 来管理集成的某些方面。<a href="../data/linkedin-account-matched-audiences.md">了解详情</a> |
 | 增强功能 | 可视内容片段的状态生命周期 | 现在使用状态生命周期来管理可视片段。片段状态决定其是否可用于电子邮件或电子邮件模板，以及您可以对其进行的更改。 <p>这种增强的工作流使您可以根据促销和通信日程表轻松管理重复使用的内容。<a href="../content/fragments.md#fragment-status-and-lifecycle">了解详情</a> |
+
++++

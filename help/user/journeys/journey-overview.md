@@ -1,13 +1,13 @@
 ---
 title: 帐户历程
-description: 了解帐户历程，以及如何进行创建和管理。
+description: 开始使用帐户历程，并了解如何使用帐户历程列表来管理它们。
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '1009'
-ht-degree: 100%
+source-git-commit: a67ab8268676050f0c5f34b94d4aebfd46aaf601
+workflow-type: tm+mt
+source-wordcount: '1027'
+ht-degree: 86%
 
 ---
 
@@ -30,11 +30,13 @@ ht-degree: 100%
 
 ## 访问并浏览帐户历程
 
-在左侧导航栏中单击&#x200B;**[!UICONTROL 帐户历程]**。
+在左侧导航栏中，展开&#x200B;**[!UICONTROL 帐户管理]**，然后单击&#x200B;**[!UICONTROL 帐户历程]**。
 
-![访问帐户历程](./assets/account-journey-browse.png){width="800" zoomable="yes"}
+在列表顶部的&#x200B;_搜索_&#x200B;工具中输入文本，以按名称筛选显示的列表。
 
-显示的历程页面包括以下几列：
+![筛选帐户历程列表](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
+
+_[!UICONTROL 帐户历程]_&#x200B;列表页包含以下列：
 
 * [!UICONTROL 名称]（点击名称可打开历程进行编辑）
 * [!UICONTROL 状态]
@@ -45,7 +47,7 @@ ht-degree: 100%
 * [!UICONTROL 发布日期]
 * [!UICONTROL 发布者]
 
-使用顶部的&#x200B;_搜索_&#x200B;工具按名称查找历程。您可以通过点击列标题按&#x200B;_[!UICONTROL 状态]_&#x200B;对列表进行排序。
+您可以通过点击列标题按&#x200B;_[!UICONTROL 状态]_&#x200B;对列表进行排序。
 
 您可以通过点击右上角的&#x200B;_自定义表格_（![自定义表格](../assets/do-not-localize/icon-column-settings.svg)）图标来自定义表格中显示的列。选择或清除对话框中的复选框，然后单击&#x200B;**[!UICONTROL 应用]**。
 
@@ -60,18 +62,18 @@ ht-degree: 100%
 每个帐户历程图的标头包括：
 
 * 历程名称
-* 访问以编辑历程名称（![编辑图标](../assets/do-not-localize/icon-edit.svg) _编辑_&#x200B;图标）
+* 历程名称的编辑工具（![编辑图标](../assets/do-not-localize/icon-edit.svg) _编辑_&#x200B;图标）
 * 历程的状态
 
 历程的状态会根据您应用的操作而改变。根据历程的状态，标头右侧的某些操作可用/不可用。
 
 | 状态 | 描述 | 可用操作 |
 | ------ | ----------- | ----------------- |
-| _**草稿**_ | 可编辑的未发布历程。 | <ul><li>[发布](./create-publish-journey.md#publish-an-account-journey)</li><li>重复 </li><li>删除 </li></ul> |
-| _**实时**_ | 历程发布后，历程状态就从草稿变为实时。在这种状态下，历程无法再编辑。 | <ul><li>重复 </li><li>对新条目关闭 </li><li>中止 </li></ul> |
-| _**对新条目关闭**_ | 单击顶部导航中的对新条目关闭&#x200B;__，历程状态从&#x200B;_实时_&#x200B;变为[!UICONTROL 对新条目关闭]。 | <ul><li>重复 </li><li>中止 </li></ul> |
-| _**已中止**_ | 历程中止后，历程状态从&#x200B;_实时_&#x200B;或&#x200B;_对新条目关闭_&#x200B;改变。已中止历程无法重新开始。 | <ul><li>重复 </li><li>删除 </li></ul> |
-| _**已完成**_ | 历程中的所有帐户都完成历程后，状态将从“实时”或“对新条目关闭”变为“已完成”。 | <ul><li>重复 </li><li>删除 </li></ul> |
+| _**草稿**_ | 可编辑的未发布历程。 | <li>[发布](./create-publish-journey.md#publish-an-account-journey)<li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
+| _**实时**_ | 历程发布后，历程状态就从草稿变为实时。在这种状态下，历程无法再编辑。 | <li>[重复](#duplicate-journey)<li>[关闭新条目](#close-to-new-entries) <li>[中止](#abort-journey) |
+| _**对新条目关闭**_ | 单击顶部导航中的对新条目关闭&#x200B;__，历程状态从&#x200B;_实时_&#x200B;变为[!UICONTROL 对新条目关闭]。 | <li>[重复](#duplicate-journey) <li>[中止](#abort-journey) |
+| _**已中止**_ | 历程中止后，历程状态从&#x200B;_实时_&#x200B;或&#x200B;_对新条目关闭_&#x200B;改变。已中止历程无法重新开始。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
+| _**已完成**_ | 当历程中的所有帐户完成历程时，状态将从&#x200B;_实时_&#x200B;或&#x200B;_已关闭到新条目_&#x200B;更改为&#x200B;_已完成_。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
 
 ## 管理历程
 
@@ -83,7 +85,7 @@ _帐户历程_&#x200B;列表中包含您的 Journey Optimizer B2B Edition 实例
 
 >[!IMPORTANT]
 >
->如果这个帐户历程被用在从具有&#x200B;_将帐户添加到（其他）历程_&#x200B;操作的&#x200B;_执行操作_&#x200B;节点开始的另一个历程中，中止这个历程就会阻止那个历程中的此操作。
+>当帐户历程用于来自&#x200B;_Take an action_&#x200B;节点的另一个历程时，该节点具有&#x200B;_Add Account to (other)历程_&#x200B;操作，将中止该历程中阻止该操作的历程。
 
 1. 单击历程名称将其打开。
 
@@ -155,4 +157,4 @@ _帐户历程_&#x200B;列表中包含您的 Journey Optimizer B2B Edition 实例
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3443217/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

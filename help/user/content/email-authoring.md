@@ -4,7 +4,7 @@ description: 了解如何在Adobe Journey Optimizer B2B中创建电子邮件内�
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 633f23525a6fd2b03460ecbef17379077d6b51d2
+source-git-commit: 8793e92054f57f64f311b039cc8161281b6269a8
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 15%
@@ -13,7 +13,7 @@ ht-degree: 15%
 
 # 电子邮件创作
 
-在您&lbrack;将新的<!-- or duplicated -->电子邮件资产添加到历程操作节点&rbrack;(./add-email.md)后，您可以定义电子邮件的内容。
+在您[将新的<!-- or duplicated -->电子邮件资产添加到历程操作节点](./add-email.md)后，您可以定义电子邮件的内容。
 
 在右侧面板的&#x200B;_[!UICONTROL 详细信息]_&#x200B;选项卡中单击&#x200B;**[!UICONTROL 编辑电子邮件内容]**。
 
@@ -113,7 +113,7 @@ ht-degree: 15%
 
 ### 个性化内容
 
-{{$include /help/_includes/content-design-personalization.md}}
+{{$include /help/_includes/content-design-personalization-email.md}}
 
 >[!NOTE]
 >
@@ -154,6 +154,6 @@ ht-degree: 15%
 
 定义消息内容后，您可以使用测试用户档案来预览、发送校样，并控制它在常用桌面、移动和基于Web的客户端中的呈现。 如果插入个性化内容，则可以使用测试用户档案数据预览此内容在消息中的显示方式。
 
-若要预览电子邮件内容，请单击“模拟内容”**&#x200B;**，然后添加测试用户档案，以使用测试用户档案数据检查邮件。
+若要预览电子邮件内容，请单击“模拟内容”****，然后添加测试用户档案，以使用测试用户档案数据检查邮件。
 
 ![模拟电子邮件内容以检查您的设计](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
