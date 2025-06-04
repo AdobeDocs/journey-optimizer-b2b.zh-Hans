@@ -4,10 +4,10 @@ description: 查看在Adobe Experience Platform和Journey Optimizer B2B edition�
 feature: Data Management, Integrations
 role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 12%
+source-wordcount: '1004'
+ht-degree: 13%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 >[!TIP]
 >
->您可以使用XDM业务帐户人员关系类在多对多关系中对XDM业务人员和XDM业务帐户类建模，如[Experience Platform XDM文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}中所述。
+>您可以使用XDM业务帐户人员关系类在多对多关系中对XDM业务人员和XDM业务帐户类建模，如[Experience Platform XDM文档](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}中所述。
 
 ## XDM业务帐户人员关系属性
 
@@ -79,27 +79,28 @@ ht-degree: 12%
 | `accountPhone.number` | 不适用 | 帐户电话号码 | 字符串 | 与帐户关联的电话号码。 |
 | `accountSourceType` | 不适用 | 源类型 | 字符串 | 帐户的Source类型。 |
 
-## XDM业务机会属性
+<!-- ## XDM Business Opportunity attributes
 
-此外，机会数据作为属性存储在XDM业务机会类中，该属性可以通过多对一关系与XDM业务帐户类关联，如[Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}中所述。
+Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
-| [属性](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} | 显示名称 | Journey Optimizer B2B显示名称 | 数据类型 | 描述 |
+|[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
-| `expectedCloseDate` | 预计关闭日期 | 预计机会关闭日期 | 字符串 | 商机的预期结束日期。 |
-| `expectedRevenue.amount` | 预期收入 | 总机会预期收入 | 字符串 | 根据金额和概率计算的收入。 |
-| `fiscalQuarter` | 财政季度 | 机会会计季度 | 字符串 | 机会的目标财政季度。 |
-| `fiscalYear` | 会计年度 | 机会会计年度 | 字符串 | 机会的目标财政年度。 |
-| `forecastCategory` | 预测类别 | 机会预测类别 | 字符串 | 由商机阶段值确定的预测类别。 |
-| `forecastCategoryName` | 预测类别名称 | 机会预测类别名称 | 字符串 | 特定预测类别的报表中显示的预测类别名称。 |
-| `isClosed` | 已关闭标志 | 机会已关闭 | 字符串 | 指示商机是否已关闭的标记。 |
-| `isWon` | 赢单标志 | 赢得的机会 | 字符串 | 指示是否赢得了机会的标志。 |
-| `lastActivityDate` | 上次活动日期 | 上次活动日期 | 字符串 | 机会的上次活动日期。 |
-| `leadSource` | 潜在客户来源 | 商机来源 | 字符串 | 机会的Source，如广告、合作伙伴或网络。 |
-| `nextStep` | 下一步 | 机会下一步 | 字符串 | 关闭商机的下一个任务的描述。 |
-| `opportunityAmount.amount` | 机会金额 | 机会总金额 | 字符串 | 商机的估计总销售额。 |
-| `opportunityDescription` | 机会描述 | 机会描述 | 字符串 | 描述机会的附加信息，如可能销售的产品或客户过去的购买。 |
-| `opportunityName` | 机会名称 | 机会名称 | 字符串 | 机会的主题或描述性名称，如预期订单或公司名称。 |
-| `opportunityQuantity` | 机会数量 | 机会数量 | 字符串 | 商机的相关“产品”列表中所有产品的所有数量字段值的总和。 |
-| `opportunityStage` | 机会阶段 | 机会阶段 | 字符串 | 机会的销售阶段，以帮助销售团队赢得销售机会。 |
-| `opportunityType` | 机会类型 | 机会类型 | 字符串 | 分配给机会的类型，如&#x200B;_现有业务_&#x200B;或&#x200B;_新业务_ |
-| `probabilityPercentage` | 概率百分比 | 机会概率百分比 | 字符串 | 关闭机会的可能性，以百分比表示。 |
+|`expectedCloseDate` | Expected Close Date  | Expected opportunity close date   | String | Expected date of closure for the opportunity.   |
+|`expectedRevenue.amount` | Expected Revenue  | Total opportunity expected revenue   | String | Calculated revenue based on the Amount and Probability.   |
+|`fiscalQuarter` | Fiscal Quarter   | Opportunity fiscal quarter  | String | The targeted fiscal quarter for the opportunity.   |
+|`fiscalYear` | Fiscal Year   | Opportunity fiscal year   | String | The targeted fiscal year for the opportunity.   |
+|`forecastCategory`|Forecast Category | Opportunity Forecast category | String | Forecast Category determined by the opportunity Stage value. |
+|`forecastCategoryName`|Forecast Category Name | Opportunity forecast category name | String | Forecast category name that is displayed in reports for a particular forecast category. |
+|`isClosed` | Closed Flag  | Opportunity closed   | String | Flag that indicates if the opportunity is closed.   |
+|`isWon` | Won Flag  | Opportunity won   | String | Flag that indicates if the opportunity is won.  |
+|`lastActivityDate` | Last Activity Date  | Last activity date   | String | Last activity date for the opportunity.  |
+|`leadSource` | Lead Source  | Lead source   | String | Source of the opportunity, such as Advertisement, Partner, or Web.   |
+|`nextStep` | Next Step  | Opportunity next step   | String | Description of the next task for closing the opportunity.   |
+|`opportunityAmount.amount` | Opportunity Amount  | Total Opportunity Amount | String | Estimated total sale amount for the opportunity.   |
+|`opportunityDescription` | Opportunity Description   | Opportunity description  |String  | Additional information to describe the opportunity, such as possible products to sell or past purchases from the customer. |
+|`opportunityName` | Opportunity Name   | Opportunity name |String  | Subject or descriptive name, such as the expected order or company name, for the opportunity. |
+|`opportunityQuantity` | Opportunity Quantity  | Opportunity quantity   | String | Total of all quantity field values for all products in the related Products list for the opportunity.   |
+|`opportunityStage` | Opportunity Stage   | Opportunity stage   | String | Sales stage of the opportunity to aid the sales team in their efforts to win it.  |
+|`opportunityType` | Opportunity Type   | Opportunity type   | String | Type assigned to the opportunity, such as _Existing Business_ or _New Business_  |
+|`probabilityPercentage` | Probability Percentage  | Opportunity probability percentage  | String | Likelihood of closing the opportunity, stated as a percentage.  |
+ -->

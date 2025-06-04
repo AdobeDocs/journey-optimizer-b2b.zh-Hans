@@ -4,10 +4,10 @@ description: 了解可用于在Journey Optimizer B2B edition中编排帐户旅�
 feature: Account Journeys
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
 workflow-type: tm+mt
-source-wordcount: '2141'
-ht-degree: 3%
+source-wordcount: '2083'
+ht-degree: 2%
 
 ---
 
@@ -43,7 +43,6 @@ _按帐户划分的拆分路径如何工作？_
 | --------------- | ----------- |
 | 帐户属性 | 帐户个人资料中的属性，包括： <li>年收入 <li>城市 <li>国家/地区 <li>员工人数 <li>行业 <li>名称 <li>SIC代码 <li>State |
 | [!UICONTROL 特殊筛选器] > [!UICONTROL 有购买群] | 该帐户是否具有购买组的成员。 也可以根据以下一个或多个标准进行评估： <li>解决方案兴趣 <li>购买组状态 <li>完整性分数 <li>参与度评分 |
-| [!UICONTROL 特殊筛选器] > [!UICONTROL 具有机会] | 帐户是否与机会相关。 还可以针对以下一个或多个机会属性进行评估： <li>数量<li>关闭日期<li>描述<li>预期收入<li>财政季度<li>会计年度<li>预测类别<li>预测类别名称<li>为关闭<li>赢得了 <li>上次活动日期 <li>人员来源<li>名称 <li>下一步 <li>概率<li>数量<li>阶段 <li>类型 |
 
 ### 按帐户节点添加拆分路径
 
@@ -133,7 +132,7 @@ _按人员划分的路径如何工作？_
 
 1. 在右侧的节点属性中，为拆分选择&#x200B;**[!UICONTROL 人员]**。
 
-1. 设置用于条件&#x200B;**的**&#x200B;属性。
+1. 设置用于条件&#x200B;]**的**[!UICONTROL &#x200B;属性。
 
    * 选择&#x200B;**[!UICONTROL 仅人员属性]**&#x200B;以使用与人员配置文件相关的条件。
    * 选择&#x200B;**[!UICONTROL 仅限帐户 — 人员属性]**&#x200B;以使用与帐户中人员的角色成员资格相关的条件。
@@ -184,7 +183,7 @@ _按人员划分的路径如何工作？_
 
 >[!BEGINSHADEBOX “非活动筛选”]
 
-对于每个&#x200B;_[!UICONTROL 活动历史记录]_&#x200B;筛选器，您可以启用&#x200B;**[!UICONTROL 切换到非活动筛选器]**&#x200B;选项。 此选项将过滤器更改为缺少该活动类型的评估。 例如，如果要为&#x200B;_&#x200B;**未**&#x200B;_&#x200B;打开历程中早期电子邮件的人创建路径，请添加&#x200B;_[!UICONTROL 电子邮件]_ > _[!UICONTROL 已打开电子邮件]_&#x200B;过滤器。 启用非活动选项并指定电子邮件。 最佳做法是使用活动的&#x200B;_[!UICONTROL 日期]_&#x200B;约束来定义非活动的时段。
+对于每个&#x200B;_[!UICONTROL 活动历史记录]_&#x200B;筛选器，您可以启用&#x200B;**[!UICONTROL 切换到非活动筛选器]**&#x200B;选项。 此选项将过滤器更改为缺少该活动类型的评估。 例如，如果要为&#x200B;_**未**_&#x200B;打开历程中早期电子邮件的人创建路径，请添加&#x200B;_[!UICONTROL 电子邮件]_ > _[!UICONTROL 已打开电子邮件]_&#x200B;过滤器。 启用非活动选项并指定电子邮件。 最佳做法是使用活动的&#x200B;_[!UICONTROL 日期]_&#x200B;约束来定义非活动的时段。
 
 ![按购买组成员资格的人员条件拆分路径](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -234,4 +233,4 @@ _按人员划分的路径如何工作？_
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3443266/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
