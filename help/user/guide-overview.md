@@ -3,9 +3,9 @@ title: Adobe Journey Optimizer B2B Edition 文档
 description: 了解如何使用 Adobe Journey Optimizer B2B Edition 功能，利用内置的生成式 AI 和行业领先的自动化来编排帐户和购买群组历程。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 90%
 
 >[!BEGINTABS]
 
->[!TAB GenStudio电子邮件体验]
+>[!TAB GenStudio 电子邮件体验]
 
-将GenStudio for Performance Marketing电子邮件体验与Journey Optimizer B2B edition集成，以增强营销效率并维护品牌一致性。 利用此集成，您可以将GenStudio AI支持的内容创建与Journey Optimizer B2B edition中的高级编排功能结合使用。
+将 GenStudio for Performance Marketing 电子邮件体验与 Journey Optimizer B2B Edition 集成，以提高营销效率并保持品牌一致性。通过这种集成，您可以将 GenStudio AI 驱动的内容创建与 Journey Optimizer B2B Edition 中的高级编排功能结合起来。
 
-[!BADGE 了解详情]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="了解GenStudio电子邮件体验"}
+[!BADGE 了解详情]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="了解 GenStudio 电子邮件体验"}
 
 >[!TAB 帐户列表]
 
@@ -121,7 +121,7 @@ ht-degree: 90%
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="历程内容"><br/>
-      <strong>历程内容</strong><br/><a href="./content/add-email.md">电子邮件频道</a><br/><a href="./content/ai-assistant-emails.md">电子邮件的AI助手</a><br/><a href="./content/genstudio-email-workflow.md">GenStudio电子邮件体验</a><br/><a href="./content/sales-alert-email.md">销售提醒电子邮件</a><br/><a href="./content/sms-authoring.md">短信频道</a>
+      <strong>历程内容</strong><br/><a href="./content/add-email.md">电子邮件渠道</a><br/><a href="./content/ai-assistant-emails.md">电子邮件 AI 助手</a><br/><a href="./content/genstudio-email-workflow.md">GenStudio 电子邮件体验</a><br/><a href="./content/sales-alert-email.md">销售警报电子邮件</a><br/><a href="./content/sms-authoring.md">SMS 渠道</a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="内容管理"><br/>
@@ -139,10 +139,10 @@ ht-degree: 90%
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a>——<a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a>——<a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/home" target="_blank">文档</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">开发人员资源</a>
+<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/home" target="_blank">文档</a>——<a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">开发人员资源</a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home" target="_blank">文档</a>——<a href="https://experienceleague.adobe.com/zh-hans/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">开发人员教程</a>
