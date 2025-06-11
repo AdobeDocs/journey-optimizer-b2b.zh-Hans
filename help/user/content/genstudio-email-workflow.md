@@ -93,9 +93,9 @@ ht-degree: 8%
 
 1. 在Journey Optimizer B2B edition中，[使用&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点，将电子邮件](./add-email.md)添加到帐户历程。
 
-   * 对于&#x200B;]_目标上的_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
+   * 对于&#x200B;_目标上的_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
 
-   * 若要对人员&#x200B;]_执行_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 发送电子邮件]**。
+   * 若要对人员&#x200B;_执行_&#x200B;操作，请选择&#x200B;**[!UICONTROL 发送电子邮件]**。
 
      ![执行操作 — 发送电子邮件](./assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
