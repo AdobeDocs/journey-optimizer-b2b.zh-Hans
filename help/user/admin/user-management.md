@@ -4,10 +4,10 @@ description: 了解如何将团队成员分配给Journey Optimizer B2B edition�
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae2acbde4fbabb5d49a532e8060005acf04f8b26
 workflow-type: tm+mt
-source-wordcount: '1879'
-ht-degree: 1%
+source-wordcount: '738'
+ht-degree: 2%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 1%
 
 1. [在Admin Console中创建Marketo Engage产品配置文件](#marketo-engage-profile)(仅限新的Marketo Engage实例)。
 1. 在Admin Console中[创建用户组](#create-user-group)。
-1. [编辑内置角色](#edit-roles)或[创建具有Journey Optimizer B2B edition权限的自定义角色](#create-a-custom-role)。
-1. [将用户](#add-users)或[组](#add-user-groups-to-a-role)添加到角色。
+<!-- 1. [Edit built-in roles](#edit-roles) or [create a custom role](#create-a-custom-role) with Journey Optimizer B2B Edition permissions. 
+1. [Add users](#add-users) or [groups](#add-user-groups-to-a-role) to roles. -->
 
 作为管理员，您可以在Adobe Admin Console中完成这些任务，这是管理您的Adobe产品许可证和用户的中心位置。 在Admin Console中，您可以在单个位置而不是在各种单独的解决方案中创建和管理用户。 请参阅[Admin Console概述](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)页面，了解有关其功能和功能的更多信息。
 
@@ -56,13 +56,13 @@ ht-degree: 1%
 
 授予用户访问Adobe解决方案的权限时，您不一定要授予他们完全访问权限。 产品配置文件使每个解决方案都有自己的用户权限集。 使用Admin Console分配产品配置文件。
 
-有关将产品配置文件用于用户权限的详细信息，请参阅Admin Console文档中的[管理企业用户的产品配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-product-profiles.html){target="_blank"}。
+有关将产品配置文件用于用户权限的详细信息，请参阅Admin Console文档中的[管理企业用户的产品配置文件](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"}。
 <!--
 >[!BEGINSHADEBOX]
 
 When you add a user to the Marketo Engage product profile, they are subsequently added to the _Standard User_ role within the Default workspace of the Marketo Engage subscription. This role grants them all _Standard User_ permissions for Marketo Engage in that workspace. Currently, all Journey Optimizer B2B Edition users are required to be Marketo Engage users. A Marketo Engage administrator can restrict access by updating the permissions for the _Standard User_ role or by moving the user to a different Marketo Engage user role with more restrictive permissions.
 
-For more information about managing these permissions within Marketo Engage, see [Managing User Roles and Permissions](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in the Marketo Engage documentation.
+For more information about managing these permissions within Marketo Engage, see [Managing User Roles and Permissions](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in the Marketo Engage documentation.
 
 >[!ENDSHADEBOX]-->
 
@@ -137,175 +137,176 @@ For more information about managing these permissions within Marketo Engage, see
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-## 编辑产品权限的角色 {#edit-roles}
+<!-- ## Edit roles for product permissions {#edit-roles}
 
-权限是单一的权利，可用于定义分配给产品配置文件的授权。 每个权限都是通过某种功能（如历程或购买群组）收集而得，该功能代表Journey Optimizer B2B edition中的不同功能或对象。
+Permissions are unitary rights that allow you to define the authorizations assigned to a product profile. Each permission is gathered under a capability, such as journeys or buying groups, which represents the different functionalities or objects in Journey Optimizer B2B Edition.
 
-在Adobe Experience Platform的&#x200B;_权限_&#x200B;区域，管理员可以定义用户角色和访问策略，以管理产品应用程序内功能和对象的访问权限。 在此应用程序中，您可以创建和管理角色，并为这些角色分配所需的资源权限。 权限还允许您管理与特定角色关联的沙盒和用户。
+The _Permissions_ area of Adobe Experience Platform is where administrators can define user roles and access policies to manage access permissions for features and objects within a product application. In this app, you can create and manage roles, as well as assign the desired resource permissions for these roles. Permissions also allow you to manage the sandboxes and users associated with a specific role.
 
-有关Experience Platform中角色权限的更多信息，请参阅Experience Platform文档中的[管理角色的权限](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
+For more information about role permissions in Experience Platform, see [Manage permissions for a role](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in the Experience Platform documentation.
 
-### B2B产品权限
+### B2B product permissions
 
-以下权限可管理对Journey Optimizer B2B edition功能的访问：
+The following permissions govern access to Journey Optimizer B2B Edition capabilities:
 
-| 类别 | 描述 | 权限 |
+| Category | Description | Permissions |
 | -------- | ----------- | ---------- |
-| B2B帐户列表 | 配置、管理、查看和发布B2B帐户列表的权限。 这些权限包括从帐户列表中添加、删除、导入和删除帐户等操作。 | <li>管理B2B帐户列表 |
-| B2B管理配置 | 配置、管理和查看B2B管理配置的权限。 这些权限包括数字资产管理连接、资产存储库和事件。 | <li>管理B2B管理配置 |
-| B2B Assets | 配置、管理和查看B2B资源的权限。 这些权限包括电子邮件、短信、登陆页面、片段、模板和图像。 | <li>管理B2B Assets <li>管理B2B模板 <li>管理B2B片段 |
-| B2B购买团体 | 配置、管理和查看B2B购买群组的权限。 这些权限包括解决方案兴趣、角色模板和购买群组状态。 | <li>管理B2B购买组 |
-| B2B渠道配置 | 配置、管理和查看B2B渠道配置的权限。 这些权限包括通信限制设置、API凭据和安全设置。 | <li>管理B2B渠道配置 |
-| B2B仪表板 | 配置和查看B2B仪表板的权限。 这些权限包括帐户参与、购买团体阶段、激增的帐户和联系范围。 | <li>管理B2B仪表板 |
-| B2B历程 | 为B2B历程配置管理、查看和发布权限。 这些权限包括帐户和人员操作、事件侦听器以及拆分路径 | <li>管理B2B历程 |
+| B2B Account Lists | Configure, manage, view, and publish permissions for B2B account lists. These permissions include actions such as add, remove, import, and delete accounts from account lists. | <li>Manage B2B Account Lists |
+| B2B Admin Configurations | Configure, manage, and view permissions for B2B administrative configurations. These permissions include digital asset management connections, asset repositories, and events. | <li>Manage B2B Admin Configurations |
+| B2B Assets | Configure, manage, and view permissions for B2B assets. These permissions include emails, SMS, landing pages, fragments, templates, and images. | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments|
+| B2B Buying Groups | Configure, manage, and view permissions for B2B buying groups. These permissions include solution interests, roles templates, and buying group status. | <li>Manage B2B Buying Groups |
+| B2B Channel Configurations | Configure, manage, and view permissions for B2B channel configurations. These permissions include settings for communication limits, API credentials, and security settings. | <li>Manage B2B Channels Configurations |
+| B2B Dashboards |Configure and view permissions for B2B dashboards. These permissions include account engagement, buying group stages, surging accounts, and contact coverage. | <li>Manage B2B Dashboards |
+| B2B Journeys | Configure manage, view, and publish permissions for B2B journeys. These permissions include account and person actions, event listeners, and split paths | <li>Manage B2B Journeys |
 
-### B2B内置角色
+### B2B built-in roles
 
-当您的组织配置了Journey Optimizer B2B edition产品时，Experience Platform包含一组内置（默认）角色，您可以使用这些角色来管理对产品功能的访问：
+When your organization has the Journey Optimizer B2B Edition product provisioned, Experience Platform includes a set of built-in (default) roles that you can use to manage access to the product capabilities:
 
-| 角色 | 权限 |
+| Role | Permissions |
 | ---- | ----------- |
-| B2B历程管理器 | <li>管理B2B历程 <li>管理B2B购买组 <li>管理B2B帐户列表 <li>查看B2B参与仪表板 <li>查看B2B分析仪表板 |
-| B2B渠道管理器 | <li>管理B2B Assets <li>管理B2B模板 <li>管理B2B片段 |
-| B2B系统管理员 | <li>管理B2B渠道配置 <li>管理B2B管理配置 |
-| B2B销售用户 | <li>查看B2B参与仪表板 |
+| B2B Journey Manager | <li>Manage B2B Journeys <li>Manage B2B Buying Groups <li>Manage B2B Account Lists <li>View B2B Engagement Dashboard <li>View B2B Insights Dashboard |
+| B2B Channel Manager | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments |
+| B2B System Administrator | <li>Manage B2B Channels Configurations <li>Manage B2B Admin Configurations |
+| B2B Sales User | <li>View B2B Engagement Dashboard |
 
-### 编辑角色权限
+### Edit role permissions
 
-对于内置或自定义角色，您可以随时决定添加或删除权限。 如果修改默认或自定义角色，则会影响分配给该角色的每个用户。
+For built-in or custom roles, you can decide at any time to add or delete permissions. If you modify a default or custom role, it impacts every user assigned to the role.
 
-在以下示例中，您要为分配给B2B历程管理员角色的用户添加与B2B角色资源相关的权限。 此更改还允许该角色的用户管理帐户历程。
+In the following example, you want to add permissions related to the B2B Journeys resource for users assigned to the B2B Channel Manager role. This change enables users for that role to manage account journeys also.
 
 >[!NOTE]
 >
->Admin Console系统管理员可以执行这些步骤。
+>An Admin Console system administrator can perform these steps.
 
-_要更改角色的权限：_
+_To change the permissions for a role:_
 
-1. 转到[experience.adobe.com](https://experience.adobe.com/)。
+1. Go to [experience.adobe.com](https://experience.adobe.com/).
 
-1. 在&#x200B;_[!UICONTROL 快速访问]_&#x200B;面板中，选择&#x200B;**[!UICONTROL 权限]**。
+1. In the _[!UICONTROL Quick access]_ panel, select **[!UICONTROL Permissions]**.
 
    >[!NOTE]
    >
-   >如果您没有看到&#x200B;_[!UICONTROL 权限]_，您可能需要单击&#x200B;**[!UICONTROL 查看全部]**&#x200B;并从可用应用程序中选择它。
+   >If you don't see _[!UICONTROL Permissions]_, you may need to click **[!UICONTROL View all]** and select it from the available applications.
 
-   ![Experience Platform — 访问权限](./assets/aep-permissions.png){width="700" zoomable="yes"}
+   ![Experience Platform - access Permissions](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
-1. 在左侧导航中选择&#x200B;**[!UICONTROL 角色]**。
+1. Select **[!UICONTROL Roles]** in the left navigation.
 
-1. 单击&#x200B;**_B2B渠道管理器_**&#x200B;角色名称。
+1. Click the **_B2B Channel Manager_** role name.
 
-1. 在详细信息页面中，单击右上方的&#x200B;**[!UICONTROL 编辑]**。
+1. In the details page, click **[!UICONTROL Edit]** at the top right.
 
-   ![Experience Platform — 编辑角色](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
+   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
 
-   在角色编辑器中，_[!UICONTROL 资源]_&#x200B;菜单显示应用于Experience Cloud - Platform支持的应用程序产品的资源列表。
+   In the role editor, the _[!UICONTROL Resources]_ menu displays the list of resources that apply to the Experience Cloud - Platform powered applications products.
 
-   您可以在搜索工具中输入&#x200B;_B2B_&#x200B;以筛选B2B产品权限列表。
+   You can enter _B2B_ in the search tool to filter the list for the B2B product permissions. 
+   
+1. Click the _Add_ icon (**+**) for the B2B Journeys resource.
 
-1. 单击B2B历程资源的&#x200B;_添加_&#x200B;图标(**+**)。
+   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"}
 
-   ![Experience Platform — 编辑角色](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"}
+1. In the _[!UICONTROL B2B Journeys]_ permissions card, select **[!UICONTROL Manage B2B Account Journeys]**.
 
-1. 在&#x200B;_[!UICONTROL B2B历程]_&#x200B;权限卡中，选择&#x200B;**[!UICONTROL 管理B2B帐户历程]**。
+1. Click **[!UICONTROL Save]**.
 
-1. 单击&#x200B;**[!UICONTROL 保存]**。
+   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"}
 
-   ![Experience Platform — 编辑角色](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"}
+1. Click **[!UICONTROL Close]** to return to the details page.
 
-1. 单击&#x200B;**[!UICONTROL 关闭]**&#x200B;以返回详细信息页面。
+### Add users to a role
 
-### 将用户添加到角色
+![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or AEP product administrator can perform the following steps. 
 
-![管理员角色要求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系统管理员或AEP产品管理员可以执行以下步骤。
+1. Open the role details and select the **[!UICONTROL Users]** tab.
 
-1. 打开角色详细信息并选择&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡。
+   This tab displays a list of all users assigned to the role.
 
-   此选项卡显示分配给该角色的所有用户的列表。
+1. Click **[!UICONTROL Add users]**.
 
-1. 单击&#x200B;**[!UICONTROL 添加用户]**。
+   ![Experience Platform - add users to the role](./assets/aep-permissions-role-add-users.png){width="700" zoomable="yes"}
 
-   ![Experience Platform — 将用户添加到角色](./assets/aep-permissions-role-add-users.png){width="700" zoomable="yes"}
+1. In the _[!UICONTROL Add users]_ dialog, locate and select the users that you want to add to the role.
 
-1. 在&#x200B;_[!UICONTROL 添加用户]_&#x200B;对话框中，找到并选择要添加到该角色的用户。
+   * You can use the Search tool to filter the list of users. 
 
-   * 您可以使用搜索工具来筛选用户列表。
+   * Select the checkbox for each user.
 
-   * 选中每个用户的复选框。
+   ![Experience Platform - Add users dialog](./assets/aep-permissions-role-add-users-dialog.png){width="600" zoomable="yes"}
 
-   ![Experience Platform — 添加用户对话框](./assets/aep-permissions-role-add-users-dialog.png){width="600" zoomable="yes"}
+1. Click **[!UICONTROL Save]** when you have selected all the users that you want to add.
 
-1. 选择您要添加的所有用户后，单击&#x200B;**[!UICONTROL 保存]**。
+### Add user groups to a role
 
-### 将用户组添加到角色
+For information about user management, see [Admin Console users](https://helpx.adobe.com/enterprise/using/user-groups.html) in the Admin Console documentation.
 
-有关用户管理的信息，请参阅Admin Console文档中的[Admin Console用户](https://helpx.adobe.com/cn/enterprise/using/user-groups.html)。
+![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or AEP product administrator can perform the following steps. 
 
-![管理员角色要求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系统管理员或AEP产品管理员可以执行以下步骤。
+1. Open the role details and select the **[!UICONTROL User groups]** tab.
 
-1. 打开角色详细信息并选择&#x200B;**[!UICONTROL 用户组]**&#x200B;选项卡。
+   This tab displays a list of all user groups assigned to the role. 
 
-   此选项卡显示分配给该角色的所有用户组的列表。
+1. Click **[!UICONTROL Add Groups]**.
 
-1. 单击&#x200B;**[!UICONTROL 添加群组]**。
+   ![Experience Platform - add users to the role](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
 
-   ![Experience Platform — 将用户添加到角色](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
+1. In the _[!UICONTROL Add groups]_ dialog, locate and select the groups that you want to add to the role.
 
-1. 在&#x200B;_[!UICONTROL 添加组]_&#x200B;对话框中，找到并选择要添加到该角色的组。
+   * You can use the Search tool to filter the list of user groups. 
 
-   * 您可以使用搜索工具筛选用户组列表。
+   * Select the checkbox for each user group.
 
-   * 选中每个用户组的复选框。
+   ![Experience Platform - Add groups dialog](./assets/aep-permissions-role-add-groups-dialog.png){width="600" zoomable="yes"}
 
-   ![Experience Platform — 添加群组对话框](./assets/aep-permissions-role-add-groups-dialog.png){width="600" zoomable="yes"}
+1. Click **[!UICONTROL Save]** when you have selected all the users that you want to add.
 
-1. 选择您要添加的所有用户后，单击&#x200B;**[!UICONTROL 保存]**。
+## Create a custom role
 
-## 创建自定义角色
+![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or AEP product administrator can perform the following steps. 
 
-![管理员角色要求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系统管理员或AEP产品管理员可以执行以下步骤。
+1. Select **[!UICONTROL Roles]** in the left navigation and select **[!UICONTROL Create role]**.
 
-1. 在左侧导航中选择&#x200B;**[!UICONTROL 角色]**，然后选择&#x200B;**[!UICONTROL 创建角色]**。
+1. In the _[!UICONTROL Create new role]_ dialog, enter a name for the role, such as _B2B Marketers_, and a description (optional).
 
-1. 在&#x200B;_[!UICONTROL 创建新角色]_&#x200B;对话框中，输入角色的名称和描述（可选），例如&#x200B;_B2B营销人员_。
+1. Click **[!UICONTROL Confirm]**.
 
-1. 单击&#x200B;**[!UICONTROL 确认]**。
+1. Select your sandboxes.
 
-1. 选择您的沙箱。
+   ![Experience Platform - add sandboxes for the new role](./assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
 
-   ![Experience Platform — 为新角色添加沙盒](./assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
+1. Add the profile permissions:
 
-1. 添加配置文件权限：
+   * In the _[!UICONTROL Resources]_ list on the left, locate the **[!UICONTROL Profile Management]** item and click the _Add_ (**+**) icon to add the attribute.
 
-   * 在左侧的&#x200B;_[!UICONTROL 资源]_&#x200B;列表中，找到&#x200B;**[!UICONTROL 配置文件管理]**&#x200B;项目，然后单击&#x200B;_添加_ (**+**)图标以添加该属性。
+   * For the attribute, add the following permissions:
+      * [!UICONTROL View segments]
+      * [!UICONTROL Manage segments]
+      * [!UICONTROL View profiles]
+      * [!UICONTROL Manage profiles]
+      * [!UICONTROL View B2B profile]
+      * [!UICONTROL Manage B2B profile]
 
-   * 对于属性，添加以下权限：
-      * [!UICONTROL 查看区段]
-      * [!UICONTROL 管理区段]
-      * [!UICONTROL 查看配置文件]
-      * [!UICONTROL 管理配置文件]
-      * [!UICONTROL 查看B2B配置文件]
-      * [!UICONTROL 管理B2B配置文件]
+   ![Experience Platform - add profiles for the new role](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"}
 
-   ![Experience Platform — 为新角色添加配置文件](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"}
+1. Add B2B product permissions:
 
-1. 添加B2B产品权限：
+   Refer to the list of [B2B product permissions](#b2b-product-permissions) to determine which product capabilities that you want for the role.
 
-   请参阅[B2B产品权限](#b2b-product-permissions)列表，确定您希望该角色具有哪些产品功能。
+   In the _[!UICONTROL Resources]_ list on the left, locate the **[!UICONTROL B2B]** items and click the _Add_ (**+**) icon to add each attribute that you want to enable for the role.
 
-   在左侧的&#x200B;_[!UICONTROL 资源]_&#x200B;列表中，找到&#x200B;**[!UICONTROL B2B]**&#x200B;项，然后单击&#x200B;_添加_ (**+**)图标以添加要为该角色启用的每个属性。
+   You can enter _B2B_ in the search tool to filter the list for the B2B product permissions.
 
-   您可以在搜索工具中输入&#x200B;_B2B_&#x200B;以筛选B2B产品权限列表。
+1. Click **[!UICONTROL Save]** at the top right.
 
-1. 单击右上方的&#x200B;**[!UICONTROL 保存]**。
+1. Go to the role details and select the **[!UICONTROL User groups]** tab.
 
-1. 转到角色详细信息并选择&#x200B;**[!UICONTROL 用户组]**&#x200B;选项卡。
+1. Click **[!UICONTROL Add Groups]**.
 
-1. 单击&#x200B;**[!UICONTROL 添加群组]**。
+   ![Experience Platform - add profiles for the new role](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
 
-   ![Experience Platform — 为新角色添加配置文件](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
+1. Select the checkbox next to the user group that you created previously in the Admin Console.
 
-1. 选中您之前在Admin Console中创建的用户组旁边的复选框。
-
-1. 单击&#x200B;**[!UICONTROL 保存]**。
+1. Click **[!UICONTROL Save]**.
+-->
