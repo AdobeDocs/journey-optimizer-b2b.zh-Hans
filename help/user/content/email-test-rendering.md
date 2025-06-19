@@ -4,9 +4,10 @@ description: 了解如何利用您的Litmus帐户在Journey Optimizer B2B editio
 feature: Email Authoring, Integrations
 level: Intermediate
 role: User
-source-git-commit: 23fe51dd0df0b958a61ada25521f35d8acd8bcc4
+exl-id: 26d87a56-6bd1-4d4a-8090-71f5b0a7e9f8
+source-git-commit: 9a8e7e2f36195acad0160456525c00f88cbfcc73
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -19,29 +20,32 @@ ht-degree: 0%
 
 1. 单击右上方的&#x200B;**[!UICONTROL 渲染电子邮件]**。
 
-   ![呈现电子邮件按钮](./assets/email-simulate-render-button.png)
+   ![呈现电子邮件按钮](./assets/email-simulate-render-button.png){width="700" zoomable="yes"}
 
    如果您尚未从Journey Optimizer B2B edition连接到Litmus帐户，则显示的页面将提供一个选项，可用于启动试用帐户或连接到您的现有帐户。
 
 1. 单击右上方的&#x200B;**[!UICONTROL 连接您的Litmus帐户]**，或者使用页面内的链接。
 
-   ![连接您的Litmus帐户](./assets/email-simulate-render-litmus-connect.png)
+   ![连接您的Litmus帐户](./assets/email-simulate-render-litmus-connect.png){width="700" zoomable="yes"}
 
-1. 输入您的凭据，然后单击&#x200B;**[!UICONTROL 登录]**。
+1. 输入您的Litmus帐户凭据，然后单击&#x200B;**[!UICONTROL 登录]**。
+
+1. 单击&#x200B;**[!UICONTROL 连接]**&#x200B;以确认Litmus与Journey Optimizer B2B edition之间的连接并发送用于渲染的电子邮件内容。
 
    >[!IMPORTANT]
    >
-   >将Litmus帐户与Journey Optimizer B2B edition连接后，您同意将测试消息发送至Litmus。 发送后，这些电子邮件不再由Adobe管理。 因此， Litmus数据保留电子邮件策略适用于这些电子邮件，包括可能包含在测试消息中的个性化数据。
+   >将Litmus帐户与Journey Optimizer B2B edition连接后，您同意将测试消息发送至Litmus。 然后，此内容将在Litmus中进行管理，而不是在Adobe中进行管理。 因此， Litmus数据保留电子邮件策略适用于这些电子邮件，包括可能包含在测试消息中的个性化数据。
 
 1. 单击右上方的&#x200B;**[!UICONTROL 运行测试]**&#x200B;以生成电子邮件预览。
 
+   ![运行Litmus渲染测试](./assets/email-simulate-render-litmus-run-test.png){width="700" zoomable="yes"}
+
 1. 在常用的桌面、移动和基于Web的客户端中查看您的电子邮件内容。
 
-   ![Litmus电子邮件预览](./assets/email-simulate-render-litmus-previews.png)
-
    单击显示的缩略图可查看任何渲染的客户端测试的详细信息。
+
+   ![Litmus电子邮件预览](./assets/email-simulate-render-litmus-previews.png){width="700" zoomable="yes"}
 
 1. 完成审阅后，单击左上角的向后箭头（![显示或隐藏过滤器图标](../../assets/do-not-localize/icon_back-arrow.svg) ）以返回到“模拟内容”页面。
 
    您可以选择另一个配置文件并执行另一个渲染测试，或返回电子邮件设计空间根据您的审核做出任何所需的调整。
-
