@@ -4,16 +4,16 @@ description: 使用电子邮件列表在Adobe Journey Optimizer B2B edition中�
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 23fe51dd0df0b958a61ada25521f35d8acd8bcc4
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # 电子邮件
 
-当您[创建电子邮件](./add-email.md)时，将其添加到历程节点的上下文中。 如果要在历程图之外处理电子邮件，请使用&#x200B;_[!UICONTROL 电子邮件]_&#x200B;列表查找并更新电子邮件。 您可以查看电子邮件或更新设置和内容。
+当您[创建电子邮件](./add-email.md)时，将其添加到历程节点的上下文中。 如果要在历程图之外处理电子邮件内容，请使用&#x200B;_[!UICONTROL 电子邮件]_&#x200B;列表查找并更新电子邮件。 您可以查看电子邮件或更新设置和内容。
 
 ## 访问和管理电子邮件
 
