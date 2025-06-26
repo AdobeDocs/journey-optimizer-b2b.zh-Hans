@@ -31,7 +31,7 @@ ht-degree: 84%
 
 1. **创建沙盒**&#x200B;以将实例分割为单独的独立虚拟环境。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
-1. **与您的数据工程师合作**&#x200B;以计划和实施B2B受众和配置文件激活。 查看已发布的Blueprint，并根据您的要求遵循指南。 [了解详情](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+1. **与您的数据工程师合作**&#x200B;以计划和实施B2B受众和配置文件激活。 查看已发布的Blueprint，并根据您的要求遵循指南。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **设置产品轮廓**。产品轮廓是 Adobe Experience Platform 中的一组单一权利，这些权利允许用户访问界面中的某些功能或对象。[了解详情](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
