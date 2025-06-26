@@ -1,20 +1,19 @@
 ---
-title: 开始使用 Journey Optimizer B2B Edition
-description: 作为 Journey Optimizer B2B Edition 的新用户，了解入门的关键领域。
+title: 管理员和营销人员入门指南
+description: 作为Journey Optimizer B2B edition的新管理员或用户，了解载入流程中的关键领域。
 role: Admin, User
+level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '664'
-ht-degree: 100%
+source-git-commit: d0bd2d5153b972df92ff42c6f1eebb25448b222f
+workflow-type: tm+mt
+source-wordcount: '685'
+ht-degree: 84%
 
 ---
 
-# 开始使用 Journey Optimizer B2B Edition
+# 入门指南
 
-您想要在 Adobe Journey Optimizer B2B Edition 中使用的功能和工具取决于您在团队中的角色。
-
-根据您所在的组织，管理员可以定义几种类型的用户，并根据用户的权限授予他们对某些功能的访问权限。
+您希望在Adobe Journey Optimizer B2B edition中处理的功能和工具取决于您在团队中的角色。 根据您所在的组织，管理员可以定义几种类型的用户，并根据用户的权限授予他们对某些功能的访问权限。
 
 >[!TIP]
 >
@@ -22,15 +21,17 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
->[!TAB 管理员快速入门]
+>[!TAB 管理员]
 
 在您的团队开始使用 Adobe Journey Optimizer B2B Edition 功能之前，需要通过几个步骤来准备您的环境。请执行这些步骤，以便数据工程师和营销人员可以开始使用 Adobe Journey Optimizer B2B Edition。
 
-作为系统管理员，您需要了解产品轮廓，以及分配沙盒管理和渠道配置的权限。您还需要设置沙盒，并为可用的产品轮廓管理这些沙盒。然后，您可以将团队成员分配给产品轮廓。这些功能可以由有权访问 Adobe Admin Console 的产品管理员管理。[进一步了解 Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)。
+作为系统管理员，您需要了解产品轮廓，以及分配沙盒管理和渠道配置的权限。您还需要设置沙盒，并为可用的产品轮廓管理这些沙盒。然后，您可以将团队成员分配给产品轮廓。有权访问Adobe Admin Console的产品管理员可以管理这些功能。 [进一步了解 Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)。
 
 在以下页面中了解访问管理：
 
 1. **创建沙盒**&#x200B;以将实例分割为单独的独立虚拟环境。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
+
+1. **与您的数据工程师合作**&#x200B;以计划和实施B2B受众和配置文件激活。 查看已发布的Blueprint，并根据您的要求遵循指南。 [了解详情](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **设置产品轮廓**。产品轮廓是 Adobe Experience Platform 中的一组单一权利，这些权利允许用户访问界面中的某些功能或对象。[了解详情](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
@@ -44,7 +45,7 @@ ht-degree: 100%
 
 1. 为负责创建帐户历程并监听 AEP 体验事件的团队&#x200B;**设置 Adobe Experience Platform (AEP) 体验事件定义**。[了解详情](../admin/configure-aep-events.md)
 
->[!TAB 营销人员快速入门]
+>[!TAB 营销人员]
 
 作为营销人员或&#x200B;_帐户历程实践者_，您负责设计历程和制作内容。系统管理员和数据工程师准备好您的环境并授予您访问权限后，您就可以开始使用 Adobe Journey Optimizer B2B Edition。
 
@@ -66,7 +67,7 @@ ht-degree: 100%
 
    * 使用内置渠道操作（电子邮件和 SMS）发送在 Journey Optimizer B2B Edition 中设计的消息。
 
-   * 在历程设计器中构建多步骤用例、添加条件、发送个性化消息。
+   * 在历程图中，构建分步式用例，添加条件并发送个性化消息。
 
 [了解详情](../journeys/journey-overview.md)
 
