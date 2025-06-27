@@ -4,9 +4,9 @@ description: 了解 Adobe Journey Optimizer B2B Edition 的最新功能和增强
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 91386eb001a8fdd31c2b35879cb47eefd99e97f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2220'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | ---- | ---- | ----------- |
 | 功能 | 与 GenStudio for Performance Marketing 集成 | （数量有限）您现在可以将 GenStudio for Performance Marketing 电子邮件体验与 Journey Optimizer B2B Edition 集成，以提高营销效率并保持品牌一致性。通过这种集成，您可以将 GenStudio AI 驱动的内容创建与 Journey Optimizer B2B Edition 中的高级编排功能结合起来。[了解详情](../content/genstudio-email-workflow.md) |
 | 功能 | 使用 Litmus 进行电子邮件测试 | 通过 [Litmus 帐户](https://www.litmus.com/email-testing){target="_blank"}，您现在可以在 Journey Optimizer B2B Edition 中预览电子邮件在主流电子邮件客户端中的渲染效果。此集成可帮助您确保电子邮件内容在各大邮箱中均呈现良好，并按预期效果运行。[了解详情](../content/email-test-rendering.md) |
-| 增强功能 | 复制电子邮件 | 添加历程节点的电子邮件时，您现在可以复制现有电子邮件。 修改所复制电子邮件的设置或内容，或将其保持原样。  [了解详情](../content/add-email.md#add-an-email-to-your-journey) |
+| 增强功能 | 重复的电子邮件 | 当为历程节点添加电子邮件时，您现在可以复制现有的电子邮件。修改重复电子邮件的设置或内容，也可以保持不变。[了解详情](../content/add-email.md#add-an-email-to-your-journey) |
 | 增强功能 | 电子邮件的 Handlebar 令牌格式 | 电子邮件内容的个性化令牌现在使用一种更新格式，与 Handlebar 脚本完全兼容。此格式使用&#x200B;_驼峰式大小写_&#x200B;或下划线，不使用空格。[了解详情](../content/email-authoring.md#content-authoring---personalization) |
 | 增强功能 | 列表的总数显示 | 改进了&#x200B;_[!UICONTROL 解决方案兴趣]_&#x200B;和&#x200B;_[!UICONTROL 帐户历程]_&#x200B;两个列表页面，在搜索栏旁边显示总数。 |
 
