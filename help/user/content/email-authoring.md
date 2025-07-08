@@ -4,18 +4,18 @@ description: 了解如何在Adobe Journey Optimizer B2B中创建电子邮件内�
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 8793e92054f57f64f311b039cc8161281b6269a8
+source-git-commit: db7be2c76039096a743efca11f528815a0e2a7f7
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '927'
 ht-degree: 15%
 
 ---
 
 # 电子邮件创作
 
-在您&lbrack;将新的<!-- or duplicated -->电子邮件资产添加到历程操作节点&rbrack;(./add-email.md)后，您可以定义电子邮件的内容。
+在您[将新的<!-- or duplicated -->电子邮件资产添加到历程操作节点](./add-email.md)后，您可以定义电子邮件的内容。
 
-在右侧面板的&#x200B;_[!UICONTROL 详细信息]_&#x200B;选项卡中单击&#x200B;**[!UICONTROL 编辑电子邮件内容]**。
+在右侧面板的&#x200B;**[!UICONTROL 详细信息]**&#x200B;选项卡中单击&#x200B;_[!UICONTROL 编辑电子邮件内容]_。
 
 ![单击“编辑电子邮件内容”](./assets/add-email-content.png){width="700" zoomable="yes"}
 
@@ -52,14 +52,13 @@ ht-degree: 15%
 1. [将图像资源](#add-assets)添加到电子邮件中。
 1. [个性化电子邮件内容](#personalize-content)。
 1. [审阅并更新链接](#preview-and-edit-linked-urls)。
+1. [测试电子邮件](#check-and-test-the-email)。
 
 <!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
 >You cannot revert back to the visual designer for this email after switching to the code editor. -->
-
-内容完成后，单击顶部的&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以检查渲染。 您可以选择桌面视图或移动设备视图。
 
 如果对内容满意，请单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -133,7 +132,7 @@ ht-degree: 15%
    * 单击&#x200B;_查看_&#x200B;图标可跨设备预览内容。
    * 选择一个现成的设备或输入自定义维度以预览内容。
 
-### 更多选项
+## 更多选项
 
 从电子邮件设计空间顶部的&#x200B;_[!UICONTROL 更多……]_&#x200B;菜单中，可以执行以下操作：
 
@@ -145,15 +144,21 @@ ht-degree: 15%
 * **[!UICONTROL 另存为内容模板]** — 将电子邮件正文另存为电子邮件模板，以便在多个电子邮件或电子邮件模板中重复使用。 您可以提供模板的名称和描述，并将其保存到已保存电子邮件模板的列表中。
 * **[!UICONTROL 导出HTML]** — 将可视画布中的内容以HTML格式下载到您的本地系统，并打包为zip文件。
 
-## 检查并测试电子邮件 {#preview-test}
+## 检查并测试电子邮件 {#email-testing}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="检查您的内容的渲染方式"
 >abstract="定义内容后可预览它，并根据所使用的渠道检查渲染是否正确。"
 
-定义消息内容后，您可以使用测试用户档案来预览、发送校样，并控制它在常用桌面、移动和基于Web的客户端中的呈现。 如果插入个性化内容，则可以使用测试用户档案数据预览此内容在消息中的显示方式。
+定义消息内容后，您可以使用测试用户档案进行预览、发送校样以及查看其在桌面和移动设备宽高比中的呈现方式。 如果插入个性化内容，则可以使用测试用户档案数据预览此内容在消息中的显示方式。
 
-若要预览电子邮件内容，请单击“模拟内容”**&#x200B;**，然后添加测试用户档案，以使用测试用户档案数据检查邮件。
+要[预览电子邮件内容](./email-simulate-content.md)，请单击&#x200B;**[!UICONTROL 模拟内容]**，然后选择一个测试个人资料以使用人员个人资料数据检查您的邮件。
 
 ![模拟电子邮件内容以检查您的设计](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
+
+您可以访问其他工具来验证和查看电子邮件内容：
+
+* [发送验证](./email-simulate-content.md#send-proofs)
+* [测试电子邮件客户端中的渲染](./email-test-rendering.md)
+<!-- * Generate a spam report -->
