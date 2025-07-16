@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 发行说明
 description: 了解 Adobe Journey Optimizer B2B Edition 的最新功能和增强功能。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 7e9396a7ac029c173fe3d9b0b1bab6b7c4521ee0
+source-git-commit: dbb1c0d57f3d0b9818dc284047bda9562cfb40f6
 workflow-type: tm+mt
-source-wordcount: '2165'
-ht-degree: 100%
+source-wordcount: '2166'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | 使用 Litmus 进行电子邮件测试 | 通过 [Litmus 帐户](https://www.litmus.com/email-testing){target="_blank"}，您现在可以在 Journey Optimizer B2B Edition 中预览电子邮件在主流电子邮件客户端中的渲染效果。此集成可帮助您确保电子邮件内容在各大邮箱中均呈现良好，并按预期效果运行。[了解详情](../content/email-test-rendering.md) |
+| 功能 | 使用 Litmus 进行电子邮件测试 | 使用[Litmus Enterprise帐户](https://www.litmus.com/email-testing){target="_blank"}，您现在可以在Journey Optimizer B2B edition的常见电子邮件客户端中预览电子邮件渲染。 此集成可帮助您确保电子邮件内容在各大邮箱中均呈现良好，并按预期效果运行。[了解详情](../content/email-test-rendering.md) |
 | 增强功能 | 重复的电子邮件 | 当为历程节点添加电子邮件时，您现在可以复制现有的电子邮件。修改重复电子邮件的设置或内容，也可以保持不变。[了解详情](../content/add-email.md#add-an-email-to-your-journey) |
 | 增强功能 | 电子邮件的 Handlebar 令牌格式 | 电子邮件内容的个性化令牌现在使用一种更新格式，与 Handlebar 脚本完全兼容。此格式使用&#x200B;_驼峰式大小写_&#x200B;或下划线，不使用空格。[了解详情](../content/email-authoring.md#content-authoring---personalization) |
 | 增强功能 | 列表的总数显示 | 改进了&#x200B;_[!UICONTROL 解决方案兴趣]_&#x200B;和&#x200B;_[!UICONTROL 帐户历程]_&#x200B;两个列表页面，在搜索栏旁边显示总数。 |

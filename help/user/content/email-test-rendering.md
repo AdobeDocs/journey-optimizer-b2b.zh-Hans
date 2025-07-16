@@ -5,16 +5,20 @@ feature: Email Authoring, Integrations
 level: Intermediate
 role: User
 exl-id: 26d87a56-6bd1-4d4a-8090-71f5b0a7e9f8
-source-git-commit: 9a8e7e2f36195acad0160456525c00f88cbfcc73
+source-git-commit: dbb1c0d57f3d0b9818dc284047bda9562cfb40f6
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
 
 # 使用Litmus测试电子邮件渲染
 
-若要测试电子邮件，您可以将[Litmus帐户](https://www.litmus.com/email-testing){target="_blank"}用于Journey Optimizer B2B edition。 利用此集成，您可以预览电子邮件在常用电子邮件客户端中的渲染方式。 此工具可帮助您确保您的电子邮件内容在各种收件箱中都具有美观的显示效果并正常工作。
+要测试电子邮件，您可以利用Journey Optimizer B2B edition中的[Litmus](https://www.litmus.com/email-testing){target="_blank"}企业帐户。 利用此集成，您可以预览电子邮件在常用电子邮件客户端中的渲染方式。 此工具可帮助您确保您的电子邮件内容在各种收件箱中都具有美观的显示效果并正常工作。
+
+>[!NOTE]
+>
+>此集成仅适用于Litmus Enterprise帐户。 有关详细信息，请参阅Litmus网站[上的](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}解决方案页面。
 
 1. 当您的电子邮件设计完成并准备好进行测试时，请在电子邮件设计空间单击&#x200B;**[!UICONTROL 模拟内容]**。
 
