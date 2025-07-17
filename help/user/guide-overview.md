@@ -53,7 +53,7 @@ ht-degree: 60%
 
 [!BADGE 了解详情]{type=Informative url="/help/user/admin/intent-data.md" tooltip="了解意图关键词映射配置"}
 
->使用Litmus进行[!TAB 电子邮件测试]
+>[!TAB 使用Litmus进行 电子邮件测试]
 
 借助Litmus帐户，您现在可以在Journey Optimizer B2B edition的常见电子邮件客户端中预览电子邮件渲染。 此集成可帮助您确保电子邮件内容看起来不错，并且在每个电子邮件收件箱中都正常工作。
 

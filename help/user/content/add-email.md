@@ -51,7 +51,7 @@ ht-degree: 0%
 
       1. 单击&#x200B;**[!UICONTROL 编辑电子邮件]**&#x200B;以定义电子邮件[设置](#define-the-email-settings)并设计[内容](./email-authoring.md)。
 
-+++
+     +++
 
      +++复制现有电子邮件
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
       1. 如果需要，请单击&#x200B;**[!UICONTROL 编辑电子邮件]**&#x200B;以修改电子邮件[设置](#define-the-email-settings)和[内容](./email-authoring.md)。
 
-+++
+     +++
 
    * 选择&#x200B;**[!UICONTROL 从Adobe Marketo Engage中选择电子邮件]**&#x200B;以使用Marketo Engage中预先编写的电子邮件之一，并将其作为历程的一部分发送。
 
