@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文档
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何使用它通过内置的生成式 AI 和行业领先的自动化来编排帐户和购买群组历程。
-source-git-commit: 2aaecfb1b71e449f0cf82fb77a976389fd22d11c
-workflow-type: ht
-source-wordcount: '272'
-ht-degree: 100%
+source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 95%
 
 ---
 
@@ -51,7 +51,6 @@ ht-degree: 100%
       + [解决方案兴趣](./buying-groups/solution-interests.md)
       + [角色模板](./buying-groups/buying-groups-role-templates.md)
       + [购买群组阶段](./buying-groups/buying-group-stages.md)
-      + [购买群组详细信息](./buying-groups/buying-group-details.md)
       + [创建购买群组](./buying-groups/buying-groups-create.md)
       + [导出帐户列表](./audiences/account-list-export.md)
       + [LinkedIn 帐户匹配的受众](./data/linkedin-account-matched-audiences.md)
@@ -59,14 +58,19 @@ ht-degree: 100%
    + 帐户列表 {#account-lists}
       + [概述](./accounts/account-lists.md)
       + [用于历程和计划](./accounts/account-lists-journeys.md)
-   + [帐户详细信息](./accounts/account-details.md)
    + [XDM 字段](./data/field-mapping.md)
+   + 销售体验 {#sales-experience}
+      + [帐户详细信息](./accounts/account-details.md)
+      + [购买群组详细信息](./buying-groups/buying-group-details.md)
+      + [人员详细信息](./accounts/person-details.md)
+      + [CRM链接](./accounts/crm-linking.md)
 + 内容管理 {#content-management}
    + 电子邮件 {#emails}
       + [处理电子邮件内容](./content/emails-list.md)
-预览和验证 {#preview}
+      + 预览和验证 {#preview}
          + [模拟内容](./content/email-simulate-content.md)
          + [测试电子邮件渲染](./content/email-test-rendering.md)
+         + [垃圾邮件报告](./content/email-spam-report.md)
    + 资产 {#assets}
       + [概述](./content/assets-overview.md)
       + Marketo Engage 资产 {#marketo-engage-dam}
@@ -91,6 +95,7 @@ ht-degree: 100%
       + [概述](./content/landing-pages.md)
       + [登陆页面设计](./content/landing-page-design.md)
    + [条件内容](./content/conditional-content.md)
+   + [自定义CSS](./content/design-custom-css.md)
 + 洞察仪表板  {#dashboards}
    + [智能仪表板](./dashboards/intelligent-dashboard.md)
    + [参与概述](./dashboards/engagement-dashboard.md)

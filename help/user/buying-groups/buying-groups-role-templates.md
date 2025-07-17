@@ -4,9 +4,9 @@ description: 了解如何定义用作购买组组件的角色模板。
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 64e6b19894be749b154720ea542c8b18b9153a07
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1103'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 3%
 
    ![“角色模板”选项卡](assets/roles-templates-tab.png){width="700" zoomable="yes"}
 
-   该选项卡提供了所有现有角色模板的清单列表，这些模板具有以下列：
+   该选项卡提供所有现有角色模板的清单列表，并以列格式显示以下信息：
 
    * [!UICONTROL 名称]
    * [!UICONTROL 状态]
@@ -36,9 +36,7 @@ ht-degree: 3%
    * [!UICONTROL 发布日期]
    * [!UICONTROL 发布者]
 
-   默认情况下，该列表按&#x200B;_[!UICONTROL 上次更新]_&#x200B;列排序。
-
-   _实时_（已发布）角色模板的数量显示在页面的右上方。 所有角色模板的状态均为`Draft`或`Live`。
+   默认情况下，该列表按&#x200B;_[!UICONTROL 上次更新]_&#x200B;排序。 所有角色模板的状态均为`Draft`或`Live`。
 
 1. 要按名称筛选列表，请使用列表顶部的搜索字段。
 
@@ -164,4 +162,4 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3453311/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

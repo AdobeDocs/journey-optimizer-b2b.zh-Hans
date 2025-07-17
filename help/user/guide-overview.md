@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B Edition 文档
 description: 了解如何使用 Adobe Journey Optimizer B2B Edition 功能，利用内置的生成式 AI 和行业领先的自动化来编排帐户和购买群组历程。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
-workflow-type: ht
-source-wordcount: '712'
-ht-degree: 100%
+source-git-commit: ef8f8b4cdea143aec1add8af9b825c36053ccdf0
+workflow-type: tm+mt
+source-wordcount: '610'
+ht-degree: 60%
 
 ---
 
@@ -23,43 +23,41 @@ ht-degree: 100%
 
 [!BADGE 了解详情]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="了解 GenStudio 电子邮件体验"}
 
->[!TAB 帐户列表]
+>[!TAB 垃圾邮件检测报告]
 
-创建一个将已命名帐户收集在一起的帐户列表，营销人员可将其用于有针对性的历程编排。帐户列表可以通过您定义的标准，例如行业、地点或公司规模，将已命名的帐户作为目标。
+有了新的垃圾邮件报告，您可以避免垃圾邮件过滤器，并确保将邮件传递到受众收件箱。 直接在电子邮件设计空间生成&#x200B;_垃圾邮件报告_。
 
-[!BADGE 了解详情]{type=Informative url="/help/user/accounts/account-lists.md" tooltip="了解帐户列表"}
+[!BADGE 了解详情]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="了解垃圾邮件检测报告"}
 
->[!TAB 智能列表的帐户列表过滤器]
+>[!TAB 帐户和购买团体行动]
 
-您现在可以使用帐户列表过滤器来筛选 Marketo Engage 智能列表。通过这些过滤器，您可以从 Journey Optimizer B2B Edition 的帐户历程中抑制或包含 Marketo Engage 营销活动和计划中的帐户列表。
+直接从帐户详细信息和购买团体详细信息页面执行操作，以便及时和有意地参与。
 
-[!BADGE 了解详情]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engage-program---账户列表成员" tooltip="了解 Marketo Engage 智能列表中使用的帐户列表过滤器"}
+使用&#x200B;_发送电子邮件_&#x200B;操作将已批准的Marketo Engage电子邮件发送给选定的帐户联系人或购买群组成员。
 
->[!TAB 非活动状态历史记录过滤器]
+[!BADGE 了解详情]{type=Informative url="/help/user/accounts/account-details.md网站#send-emails" tooltip="了解如何向帐户联系人发送电子邮件"}
 
-根据 Marketo Engage 营销活动和计划中的非活动状态来推进历程，包括电子邮件、有趣的时刻、数据值变化和访问过的网页。
+在购买组详细信息中，操作还包括&#x200B;_分配新成员_、_删除成员_&#x200B;和&#x200B;_编辑角色_。
 
-[!BADGE 了解详情]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md#activity-filtering" tooltip="了解非活动状态历史记录过滤器"}
+[!BADGE 了解详情]{type=Informative url="/help/user/buying-groups/buying-group-details.md网站#members-tab" tooltip="了解购买团体行为"}
 
->[!TAB 历程复制]
+>[!TAB 自定义CSS支持]
 
-复制您的帐户历程结构，以最大限度地减少手动错误并确保一致的设置、流程和路径。在复制的历程中，您可以调整内容或操作，从而更轻松地管理更大、更复杂的营销活动。
+现在，当您在设计空间中创作电子邮件和登陆页面内容时，可以添加您自己的自定义CSS。
 
-[!BADGE 了解详情]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-journey" tooltip="了解历程复制"}
+[!BADGE 了解详情]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="了解如何使用自定义CSS"}
 
->[!TAB 智能洞察仪表板]
+>[!TAB 意图关键词映射]
 
-通过新的智能仪表板，您可以看到购买群组资格筛选在各个阶段的进展情况。了解哪些购买群组发展迅速、哪些购买群组停滞不前，这样您就可以根据需要策划历程来培养他们。您还可以获得购买群组和帐户级别的详细信息，这为客户参与提供了更多的背景信息和历史数据。
+要激活和管理意图检测模型，您现在可以上传电子表格以定义意图数据映射类别。
 
-[!BADGE 了解详情]{type=Informative url="/help/user/dashboards/intelligent-dashboard.md" tooltip="了解智能仪表板"}
+[!BADGE 了解详情]{type=Informative url="/help/user/admin/intent-data.md" tooltip="了解意图关键词映射配置"}
 
->[!TAB 使用 Adobe Express 图像编辑]
+>使用Litmus进行[!TAB 电子邮件测试]
 
-使用 Adobe Express 快速操作，通过裁剪、调整大小、背景去除和格式转化来修饰您的内容。内置直观的 Adobe Express UI，以便您可以快速微调图像资产。
+借助Litmus帐户，您现在可以在Journey Optimizer B2B edition的常见电子邮件客户端中预览电子邮件渲染。 此集成可帮助您确保电子邮件内容看起来不错，并且在每个电子邮件收件箱中都正常工作。
 
-通过 Adobe Express Enterprise 授予许可，您可以利用全套 Adobe Express 功能。使用这些功能来润色和增强图像，同时遵守品牌指南，并移除内容供应链中的障碍。
-
-[!BADGE 了解详情]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="了解如何使用 Adobe Express 进行图像编辑"}
+[!BADGE 了解详情]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="了解Litmus电子邮件测试集成"}
 
 >[!ENDTABS]
 
@@ -139,7 +137,7 @@ ht-degree: 100%
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a>——<a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a>——<a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/home" target="_blank">文档</a>——<a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">开发人员资源</a>

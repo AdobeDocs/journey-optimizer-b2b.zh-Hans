@@ -4,9 +4,9 @@ description: 使用电子邮件列表在Adobe Journey Optimizer B2B edition中�
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 23fe51dd0df0b958a61ada25521f35d8acd8bcc4
+source-git-commit: 4bbe641305065888a59b3e77357e9b39fa6d402e
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,12 @@ ht-degree: 0%
 
 ![访问电子邮件模板库并按名称和日期进行筛选](./assets/emails-list-filtered.png){width="700" zoomable="yes"}
 
-## 编辑电子邮件
+## 打开和编辑电子邮件
 
 单击列表中的电子邮件名称以将其打开。 您可以查看和更改[电子邮件设置](./add-email.md#define-the-email-settings)。 单击&#x200B;**[!UICONTROL 编辑电子邮件内容]**&#x200B;以对该内容[进行更新](./email-authoring.md)。
 
 如果页面右上角显示[警报](./add-email.md#check-alerts)，请单击以查看警告或错误，并根据需要处理这些项目。
 
 ![打开电子邮件以进行更新](./assets/email-open-update.png){width="700" zoomable="yes"}
+
+您还可以访问[_[!UICONTROL 模拟内容]_](./email-simulate-content.md)窗口。 使用这些工具可使用测试用户档案预览内容、发送校样并测试电子邮件的可投放性和电子邮件客户端渲染。

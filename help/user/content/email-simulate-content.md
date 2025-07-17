@@ -4,9 +4,10 @@ description: 了解如何预览和测试电子邮件内容，以确保在内容�
 feature: Email Authoring
 level: Beginner
 role: User
-source-git-commit: c93a294d2e70f9a6c17be9ba9cc6994fb7944ebc
+exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
+source-git-commit: fb243fbbbf897fd40d816995d6bef96480e355c1
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -21,9 +22,11 @@ ht-degree: 0%
 
 ## 显示电子邮件预览
 
-1. 在电子邮件设计空间<!-- or the email properties -->中，单击&#x200B;**[!UICONTROL 模拟内容]**。
+您可以从[电子邮件设计空间](./email-authoring.md)或从&#x200B;_[!UICONTROL 摘要]_&#x200B;访问渲染预览，当您[从电子邮件列表](./emails-list.md#edit-emails)打开电子邮件时。
 
-   ![单击“模拟内容”](assets/email-simulate-content-.png){width="800" zoomable="yes"}
+1. 单击顶部的&#x200B;**[!UICONTROL 模拟内容]**。
+
+   ![单击“模拟内容”](assets/email-simulate-content.png){width="800" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -61,7 +64,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_发送验证_&#x200B;页面中，输入第一个收件人的电子邮件地址。
 
-1. 对于要包含在审核中的其他每个收件人，请单击“添加收件人”**&#x200B;**，然后在“发送至”**[!UICONTROL 字段中输入其电子邮件地址]**。
+1. 对于要包含在审核中的其他每个收件人，请单击“添加收件人”****，然后在“发送至”**[!UICONTROL 字段中输入其电子邮件地址]**。
 
    您最多可以为校样投放添加十个收件人。
 

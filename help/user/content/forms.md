@@ -5,7 +5,7 @@ feature: Forms, Content
 role: User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9b3b6db22e27ceff88be9808a1aaf89b3eee7f17
 workflow-type: tm+mt
 source-wordcount: '2350'
 ht-degree: 0%
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ### 添加新表单
 
-您可以在Journey Optimizer B2B edition中创建表单，方法是单击&#x200B;_[!UICONTROL Forms]_&#x200B;列表页右上角的&#x200B;**[!UICONTROL 创建表单]**。
+您可以在Journey Optimizer B2B edition中创建表单，方法是单击&#x200B;**[!UICONTROL Forms]**&#x200B;列表页右上角的&#x200B;_[!UICONTROL 创建表单]_。
 
 1. 在&#x200B;_[!UICONTROL 创建表单]_&#x200B;对话框中，输入有用的&#x200B;**[!UICONTROL 名称]**（必需）和&#x200B;**[!UICONTROL 描述]**（可选）。
 
@@ -232,7 +232,7 @@ ht-degree: 0%
 
    此时将显示表单内容的预览，表单详细信息位于右侧。
 
-1. 要创建草稿版本以编辑表单，请单击右侧&#x200B;_[!UICONTROL 摘要]_&#x200B;面板中的&#x200B;**[!UICONTROL 编辑表单]**。
+1. 要创建草稿版本以编辑表单，请单击右侧&#x200B;**[!UICONTROL 摘要]**&#x200B;面板中的&#x200B;_[!UICONTROL 编辑表单]_。
 
 1. 在对话框中单击&#x200B;**[!UICONTROL 创建草稿版本]**&#x200B;以在可视设计空间中打开草稿版本。
 
@@ -262,7 +262,7 @@ ht-degree: 0%
 
    ![编辑草稿版本](./assets/form-published-with-draft-edit.png){width="700" zoomable="yes"}
 
-1. 单击右侧&#x200B;_[!UICONTROL 摘要]_&#x200B;窗格中的&#x200B;**[!UICONTROL 编辑表单]**，并根据需要使用可视化设计工具：
+1. 单击右侧&#x200B;**[!UICONTROL 摘要]**&#x200B;窗格中的&#x200B;_[!UICONTROL 编辑表单]_，并根据需要使用可视化设计工具：
 
    * [添加字段](./form-design.md#add-a-field)
    * [更改字段样式](./form-design.md#change-field-styling)

@@ -5,7 +5,7 @@ feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: fd26ecdb0457141f7beb7fd46d01e609da011a38
 workflow-type: tm+mt
 source-wordcount: '2054'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # 表单设计
 
-在您[创建表单](./landing-pages.md#create-a-landing-page)后，可视化设计空间将打开一个草稿，其中包含默认的基本表单定义。 在右侧的&#x200B;_[!UICONTROL 摘要]_&#x200B;面板中，单击&#x200B;**[!UICONTROL 编辑表单]**&#x200B;并使用可视设计空间定义表单样式和字段组件。
+在您[创建表单](./forms.md#create-forms)后，可视化设计空间将打开一个草稿，其中包含默认的基本表单定义。 在右侧的&#x200B;_[!UICONTROL 摘要]_&#x200B;面板中，单击&#x200B;**[!UICONTROL 编辑表单]**&#x200B;并使用可视设计空间定义表单样式和字段组件。
 
 ![访问表单库](./assets/form-new-design-space.png){width="700" zoomable="yes"}
 
@@ -129,7 +129,7 @@ ht-degree: 1%
 
 ### 删除或复制字段 {#field-delete-duplicate}
 
-单击工具栏或右侧面板中的&#x200B;_删除_&#x200B;图标（![删除图标](../assets/do-not-localize/icon-delete.svg)）以删除选定的字段。 在确认对话框中点击&#x200B;**[!UICONTROL 删除]**。
+单击工具栏或右侧面板中的&#x200B;_删除_&#x200B;图标（![删除图标](../assets/do-not-localize/icon-delete.svg)）以删除选定的字段。 在确认对话框中单击&#x200B;**[!UICONTROL 删除]**。
 
 单击工具栏或右侧面板中的&#x200B;_复制_&#x200B;图标（![复制图标](../assets/do-not-localize/icon-duplicate.svg)）以复制所选字段。 新字段显示在原始字段的正下方。 单击&#x200B;**[!UICONTROL 选择字段属性]**&#x200B;以设置该字段的属性。 根据需要设置字段类型、详细信息和样式。
 
@@ -179,7 +179,7 @@ ht-degree: 1%
 
 新表单使用默认的CSS进行样式设置。 如果要通过修改CSS来更改样式，可以复制样式，然后使用它来定义表单的自定义CSS。
 
-_为表单定义自定义CSS：_
+为表单&#x200B;:_定义自定义CSS(_T)
 
 1. 单击右侧面板中的&#x200B;**[!UICONTROL 查看CSS]**&#x200B;以查看CSS代码。
 

@@ -1,13 +1,13 @@
 ---
 title: 创建购买组
-description: 了解如何使用所需的组件创建购买组。
+description: 了解如何使用所需组件创建购买组。
 feature: Buying Groups
 role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: d68d99c56b125b9caff62f69a0b88b142c62e056
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 2%
+source-wordcount: '268'
+ht-degree: 3%
 
 ---
 
@@ -50,9 +50,11 @@ ht-degree: 2%
 
 ![创建购买群组确认对话框](./assets/buying-groups-create-confirm.png){width="400" zoomable="yes"}
 
-您可以将用户导航到解决方案兴趣选项卡，并显示为解决方案兴趣创建的作业计数。
+## 购买群组创建作业
 
-![单击“创建购买群组”](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
+创建作业会自动为帐户受众中的每个新帐户创建购买组。 您可以导航到&#x200B;_[!UICONTROL 解决方案兴趣]_&#x200B;选项卡，该选项卡显示为每个解决方案兴趣创建的创建作业的计数。 单击&#x200B;**[!UICONTROL 购买组创建作业]**&#x200B;列中的数字以查看创建作业列表。
+
+![按解决方案兴趣购买小组工作](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
 
 <!-- Other buying group activities:
 
@@ -62,4 +64,4 @@ Remove a member of the buying group. -->
 
 ## 操作说明视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3451771/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

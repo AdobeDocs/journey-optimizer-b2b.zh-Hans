@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 发行说明
 description: 了解 Adobe Journey Optimizer B2B Edition 的最新功能和增强功能。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: dbb1c0d57f3d0b9818dc284047bda9562cfb40f6
+source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
 workflow-type: tm+mt
-source-wordcount: '2166'
-ht-degree: 99%
+source-wordcount: '2552'
+ht-degree: 87%
 
 ---
 
@@ -17,6 +17,34 @@ Journey Optimizer B2B Edition 不断地提供新功能，对现有功能进行�
 Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] 上，并继承了其最新的创新和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/latest){target="_blank"}中进一步了解这些更改。
 
 查看[产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，了解有关权限、性能护栏和限制的信息。
+<!-- hold for 2025.8 release 
+
+| Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
+| Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
+
+-->
+
+## 2025.6 发行说明
+
+**部署日期**：2025年7月15日
+
+此版本包括以下新功能和增强功能：
+
+| 类型 | 项目 | 描述 |
+| ---- | ---- | ----------- |
+| 功能 | 与 GenStudio for Performance Marketing 集成 | （数量有限）您现在可以将 GenStudio for Performance Marketing 电子邮件体验与 Journey Optimizer B2B Edition 集成，以提高营销效率并保持品牌一致性。通过这种集成，您可以将 GenStudio AI 驱动的内容创建与 Journey Optimizer B2B Edition 中的高级编排功能结合起来。[了解详情](../content/genstudio-email-workflow.md) |
+| 功能 | 垃圾邮件检测报告 | 为避免垃圾邮件过滤器并确保将邮件传递到受众收件箱，您可以直接在电子邮件设计空间生成&#x200B;_垃圾邮件报告_。 [了解详情](../content/email-spam-report.md) |
+| 功能 | 人员详细信息页面 | 现在，当人员姓名显示在智能仪表板、购买群组详细信息页面和帐户详细信息页面中时（作为超链接），您可以单击该人员姓名。 此操作将打开关联的人员详细信息页面，其中包含联系人、其活动和主要参与购买群组的信息。 [了解详情](../accounts/person-details.md) |
+| 功能 | 帐户和购买团体操作 | 直接从帐户详细信息和购买团体详细信息页面执行操作，以便及时和有意地参与。 <li>使用&#x200B;_发送电子邮件_&#x200B;操作将已批准的Marketo Engage电子邮件发送给选定的帐户联系人或购买群组成员。 [了解详情](../accounts/account-details.md#send-emails) <li>在购买组详细信息中，操作还包括&#x200B;_分配新成员_、_删除成员_&#x200B;和&#x200B;_编辑角色_。 [了解详情](../buying-groups/buying-group-details.md#members-tab) |
+| 功能 | 对详细信息页面的CRM内访问权限 | 现在，您可以在客户关系管理(CRM)工具(如Journey Optimizer或Microsoft Dynamics)中配置指向帐户、联系人和潜在客户的Salesforce B2B edition详细信息页面的直接链接。 [了解详情](../accounts/crm-linking.md) |
+| 功能 | 对内容设计的自定义CSS支持 | 现在，当您在设计空间中创作电子邮件和登陆页面内容时，可以添加您自己的自定义CSS。 [了解详情](../content/design-custom-css.md) |
+| 功能 | 意图关键词映射配置 | 要激活和管理意图检测模型，您现在可以上传电子表格以定义意图数据映射类别。 [了解详情](../admin/intent-data.md) |
+| 增强功能 | 从电子邮件摘要模拟内容 | 当您从“电子邮件”列表中打开电子邮件时，现在可以从电子邮件摘要（详细信息和属性）访问&#x200B;_模拟内容_&#x200B;工具。 此访问权限是电子邮件设计空间的补充。 [了解详情](../content/email-simulate-content.md#display-the-email-preview) |
+| 增强功能 | 角色模板列表显示的总数 | _[!UICONTROL 角色模板]_&#x200B;列表页已增强，在搜索栏旁显示总数。 |
+
+<!-- The following capabilities are currently available only for a set of program participants (Beta):
+
+**Brand Kit with AI Assistant** - Maintain brand consistency across email assets by storing and managing brand assets. Add assets, such as colors, fonts, logos, themes, visual content, and compliance guidelines, and use them for your generative AI content creation. -->
 
 ## 2025.5 发行说明
 

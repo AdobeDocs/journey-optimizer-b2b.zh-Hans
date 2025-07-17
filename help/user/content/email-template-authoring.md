@@ -4,10 +4,10 @@ description: 了解如何创作可用于帐户历程电子邮件的内容电子�
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 45335eeba059ca8b4b390b336fbcb0ef29bd90ca
+source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 16%
+source-wordcount: '421'
+ht-degree: 14%
 
 ---
 
@@ -28,6 +28,16 @@ ht-degree: 16%
 >abstract="内容组件是空的内容占位符，您可用它来创建模板的版面。"
 
 {{$include /help/_includes/content-design-components.md}}
+
+### 添加自定义 CSS
+
+您可以直接在电子邮件模板设计空间中添加自己的自定义CSS。 使用自定义CSS可应用高级和特定的样式，以便更加灵活地控制内容的外观。 最好在包含图像、按钮和文本等组件之前添加此最高级别的样式。
+
+如果画布中至少有一个内容组件，请选择左侧导航树中的&#x200B;**[!UICONTROL Body]**&#x200B;组件以访问自定义CSS编辑器。
+
+![访问正文样式](./assets/email-template-body-styles.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
 
 ### 添加片段
 
