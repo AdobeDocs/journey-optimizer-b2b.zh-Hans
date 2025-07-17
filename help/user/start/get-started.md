@@ -4,10 +4,10 @@ description: 作为 Journey Optimizer B2B Edition 的新管理员或用户，请
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: d0bd2d5153b972df92ff42c6f1eebb25448b222f
+source-git-commit: 1e430af82b972dc73178161e64da10d1cdaaefaf
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 100%
+source-wordcount: '713'
+ht-degree: 96%
 
 ---
 
@@ -32,6 +32,8 @@ ht-degree: 100%
 1. **创建沙盒**&#x200B;以将实例分割为单独的独立虚拟环境。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
 1. **与您的数据工程师协作**，共同规划并实施 B2B 受众与轮廓的激活策略。查看已发布的蓝图，并根据您的需求遵循相关指南。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+
+1. **计划和实施Marketo Engage集成**&#x200B;以合并自定义架构、配置文件和帐户的摄取，以及编排购买群组的个性化历程。 [了解详情](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
 1. **设置产品轮廓**。产品轮廓是 Adobe Experience Platform 中的一组单一权利，这些权利允许用户访问界面中的某些功能或对象。[了解详情](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
