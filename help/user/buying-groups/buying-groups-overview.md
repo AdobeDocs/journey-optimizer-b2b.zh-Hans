@@ -4,7 +4,7 @@ description: 了解 Journey Optimizer B2B Edition 中的购买群组如何通过
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 92916a9d018084dd10681cbe9e9e54a5970c3c94
+source-git-commit: ada98f505aad848f958cf8325ed90d66692a6cac
 workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 57%
@@ -114,8 +114,6 @@ _[!UICONTROL 购买群组]_&#x200B;页面分成若干选项卡：
 
 +++ 用于评分的活动
 
->[!BEGINSHADEBOX]
-
 | 活动名称 | 描述 | 参与类型 | 每日最大频率计数 | 活动权重 |
 | --- | --- | --- | --- | --- |
 | [!UICONTROL 访问网页] | 成员访问网页 | Web | 20 | 40 |
@@ -153,9 +151,6 @@ _[!UICONTROL 购买群组]_&#x200B;页面分成若干选项卡：
 | [!UICONTROL 与对话流中的代理接洽] | 成员与Dynamic Chat对话流中的Agent接洽 | 聊天 | 20 | 90 |
 | [!UICONTROL 在对话流中的聊天中单击链接] | 成员单击Dynamic Chat对话流中的链接 | 聊天 | 20 | 90 |
 | [!UICONTROL 单击短信V2中的链接] | 成员单击短信消息中的链接 | 短信 | 20 | 90 |
-
-
->[!ENDSHADEBOX]
 
 >[!NOTE]
 >
@@ -225,4 +220,4 @@ _[!UICONTROL 购买群组]_&#x200B;页面分成若干选项卡：
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3452950/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
