@@ -5,9 +5,9 @@ role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: 1e430af82b972dc73178161e64da10d1cdaaefaf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '713'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 96%
 
 1. **与您的数据工程师协作**，共同规划并实施 B2B 受众与轮廓的激活策略。查看已发布的蓝图，并根据您的需求遵循相关指南。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
-1. **计划和实施Marketo Engage集成**&#x200B;以合并自定义架构、配置文件和帐户的摄取，以及编排购买群组的个性化历程。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
+1. **计划并实施 Marketo Engage 集成**，以纳入自定义架构、轮廓和帐户的摄取以及购买群体的个性化旅程编排。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
 1. **设置产品轮廓**。产品轮廓是 Adobe Experience Platform 中的一组单一权利，这些权利允许用户访问界面中的某些功能或对象。[了解详情](../admin/user-management.md#create-the-marketo-engage-product-profile)
 

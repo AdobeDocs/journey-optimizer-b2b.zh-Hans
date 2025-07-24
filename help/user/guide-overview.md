@@ -3,9 +3,9 @@ title: Adobe Journey Optimizer B2B Edition 文档
 description: 了解如何使用 Adobe Journey Optimizer B2B Edition 功能，利用内置的生成式 AI 和行业领先的自动化来编排帐户和购买群组历程。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: ef8f8b4cdea143aec1add8af9b825c36053ccdf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '610'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -25,39 +25,39 @@ ht-degree: 60%
 
 >[!TAB 垃圾邮件检测报告]
 
-有了新的垃圾邮件报告，您可以避免垃圾邮件过滤器，并确保将邮件传递到受众收件箱。 直接在电子邮件设计空间生成&#x200B;_垃圾邮件报告_。
+使用新的垃圾邮件报告，您可以避开垃圾邮件过滤器，确保消息能够传递到受众的收件箱。直接在电子邮件设计空间中生成&#x200B;_垃圾邮件报告_。
 
 [!BADGE 了解详情]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="了解垃圾邮件检测报告"}
 
->[!TAB 帐户和购买团体行动]
+>[!TAB 帐户和购买群组行动]
 
-直接从帐户详细信息和购买团体详细信息页面执行操作，以便及时和有意地参与。
+直接在帐户详细信息和购买群组详细信息页面上采取行动，有助于意图明确地及时参与。
 
-使用&#x200B;_发送电子邮件_&#x200B;操作将已批准的Marketo Engage电子邮件发送给选定的帐户联系人或购买群组成员。
+使用&#x200B;_发送电子邮件_&#x200B;操作，将已批准的 Marketo Engage 电子邮件发送给选定的帐户联系人或购买群组成员。
 
-[!BADGE 了解详情]{type=Informative url="/help/user/accounts/account-details.md网站#send-emails" tooltip="了解如何向帐户联系人发送电子邮件"}
+[!BADGE 了解详情]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="了解如何向帐户联系人发送电子邮件"}
 
-在购买组详细信息中，操作还包括&#x200B;_分配新成员_、_删除成员_&#x200B;和&#x200B;_编辑角色_。
+在购买群组详细信息中的行动还包括&#x200B;_分配新成员_、_删除成员_&#x200B;和&#x200B;_编辑角色_。
 
-[!BADGE 了解详情]{type=Informative url="/help/user/buying-groups/buying-group-details.md网站#members-tab" tooltip="了解购买团体行为"}
+[!BADGE 了解详情]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="了解购买群组行动"}
 
->[!TAB 自定义CSS支持]
+>[!TAB 自定义 CSS 支持]
 
-现在，当您在设计空间中创作电子邮件和登陆页面内容时，可以添加您自己的自定义CSS。
+现在，您可以在设计空间中创作电子邮件和登陆页面内容时添加自己的自定义 CSS。
 
-[!BADGE 了解详情]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="了解如何使用自定义CSS"}
+[!BADGE 了解详情]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="了解如何使用自定义 CSS"}
 
 >[!TAB 意图关键词映射]
 
-要激活和管理意图检测模型，您现在可以上传电子表格以定义意图数据映射类别。
+如要启用和管理意图检测模型，您现在可以上传一个电子表格来定义意图数据映射类别。
 
 [!BADGE 了解详情]{type=Informative url="/help/user/admin/intent-data.md" tooltip="了解意图关键词映射配置"}
 
->[!TAB 使用Litmus进行 电子邮件测试]
+>[!TAB 使用 Litmus 进行电子邮件测试]
 
-借助Litmus帐户，您现在可以在Journey Optimizer B2B edition的常见电子邮件客户端中预览电子邮件渲染。 此集成可帮助您确保电子邮件内容看起来不错，并且在每个电子邮件收件箱中都正常工作。
+通过 Litmus 帐户，您现在可以在 Journey Optimizer B2B Edition 中预览电子邮件在主流电子邮件客户端中的渲染效果。此集成可帮助您确保电子邮件内容在各大邮箱中均呈现良好，并按预期效果运行。
 
-[!BADGE 了解详情]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="了解Litmus电子邮件测试集成"}
+[!BADGE 了解详情]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="了解 Litmus 电子邮件测试集成"}
 
 >[!ENDTABS]
 
@@ -137,7 +137,7 @@ ht-degree: 60%
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a>——<a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a>——<a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/home" target="_blank">文档</a>——<a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">开发人员资源</a>

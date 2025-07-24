@@ -4,9 +4,9 @@ description: 了解 Adobe Journey Optimizer B2B Edition 的最新功能和增强
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2552'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -26,21 +26,21 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 ## 2025.6 发行说明
 
-**部署日期**：2025年7月15日
+**部署日期**：2025 年 7 月 15 日
 
 此版本包括以下新功能和增强功能：
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
 | 功能 | 与 GenStudio for Performance Marketing 集成 | （数量有限）您现在可以将 GenStudio for Performance Marketing 电子邮件体验与 Journey Optimizer B2B Edition 集成，以提高营销效率并保持品牌一致性。通过这种集成，您可以将 GenStudio AI 驱动的内容创建与 Journey Optimizer B2B Edition 中的高级编排功能结合起来。[了解详情](../content/genstudio-email-workflow.md) |
-| 功能 | 垃圾邮件检测报告 | 为避免垃圾邮件过滤器并确保将邮件传递到受众收件箱，您可以直接在电子邮件设计空间生成&#x200B;_垃圾邮件报告_。 [了解详情](../content/email-spam-report.md) |
-| 功能 | 人员详细信息页面 | 现在，当人员姓名显示在智能仪表板、购买群组详细信息页面和帐户详细信息页面中时（作为超链接），您可以单击该人员姓名。 此操作将打开关联的人员详细信息页面，其中包含联系人、其活动和主要参与购买群组的信息。 [了解详情](../accounts/person-details.md) |
-| 功能 | 帐户和购买团体操作 | 直接从帐户详细信息和购买团体详细信息页面执行操作，以便及时和有意地参与。 <li>使用&#x200B;_发送电子邮件_&#x200B;操作将已批准的Marketo Engage电子邮件发送给选定的帐户联系人或购买群组成员。 [了解详情](../accounts/account-details.md#send-emails) <li>在购买组详细信息中，操作还包括&#x200B;_分配新成员_、_删除成员_&#x200B;和&#x200B;_编辑角色_。 [了解详情](../buying-groups/buying-group-details.md#members-tab) |
-| 功能 | 对详细信息页面的CRM内访问权限 | 现在，您可以在客户关系管理(CRM)工具(如Journey Optimizer或Microsoft Dynamics)中配置指向帐户、联系人和潜在客户的Salesforce B2B edition详细信息页面的直接链接。 [了解详情](../accounts/crm-linking.md) |
-| 功能 | 对内容设计的自定义CSS支持 | 现在，当您在设计空间中创作电子邮件和登陆页面内容时，可以添加您自己的自定义CSS。 [了解详情](../content/design-custom-css.md) |
-| 功能 | 意图关键词映射配置 | 要激活和管理意图检测模型，您现在可以上传电子表格以定义意图数据映射类别。 [了解详情](../admin/intent-data.md) |
-| 增强功能 | 从电子邮件摘要模拟内容 | 当您从“电子邮件”列表中打开电子邮件时，现在可以从电子邮件摘要（详细信息和属性）访问&#x200B;_模拟内容_&#x200B;工具。 此访问权限是电子邮件设计空间的补充。 [了解详情](../content/email-simulate-content.md#display-the-email-preview) |
-| 增强功能 | 角色模板列表显示的总数 | _[!UICONTROL 角色模板]_&#x200B;列表页已增强，在搜索栏旁显示总数。 |
+| 功能 | 垃圾邮件检测报告 | 为了避开垃圾邮件过滤器并确保邮件送达受众收件箱，您可以直接在电子邮件设计空间中生成&#x200B;_垃圾邮件报告_。[了解详情](../content/email-spam-report.md) |
+| 功能 | 人员详细信息页面 | 现在，当某人的姓名（作为超链接）显示在智能仪表板、购买群组详细信息页面和帐户详细信息页面中时，您可以单击该姓名。此操作将打开相关人员详细信息页面，其中包含有关联系方式、他们的活动以及参与度最高的购买群体的信息。[了解详情](../accounts/person-details.md) |
+| 功能 | 帐户和购买群组行动 | 直接在帐户详细信息和购买群组详细信息页面上采取行动，有助于意图明确地及时参与。 <li>使用&#x200B;_发送电子邮件_&#x200B;操作，将已批准的 Marketo Engage 电子邮件发送给选定的帐户联系人或购买群组成员。[了解详情](../accounts/account-details.md#send-emails) <li>在购买群组详细信息中的行动还包括&#x200B;_分配新成员_、_删除成员_&#x200B;和&#x200B;_编辑角色_。[了解详情](../buying-groups/buying-group-details.md#members-tab) |
+| 功能 | CRM 内访问详细信息页面 | 现在，您可以在客户关系管理 (CRM) 工具（例如 Salesforce 或 Microsoft Dynamics）中配置导向帐户、联系人和潜在客户的 Journey Optimizer B2B Edition 详细信息页面的直接链接。[了解详情](../accounts/crm-linking.md) |
+| 功能 | 用于内容设计的自定义 CSS 支持 | 现在，您可以在设计空间中创作电子邮件和登陆页面内容时添加自己的自定义 CSS。[了解详情](../content/design-custom-css.md) |
+| 功能 | 意图关键词映射配置 | 如要启用和管理意图检测模型，您现在可以上传一个电子表格来定义意图数据映射类别。[了解详情](../admin/intent-data.md) |
+| 增强功能 | 模拟电子邮件摘要中的内容 | 当您从电子邮件列表中打开电子邮件时，您现在可以从电子邮件摘要（详细信息和属性）中访问&#x200B;_模拟内容_&#x200B;工具。此访问是电子邮件设计空间之外的补充。[了解详情](../content/email-simulate-content.md#display-the-email-preview) |
+| 增强功能 | 角色模板列表的总数显示 | _[!UICONTROL 角色模板]_&#x200B;列表页面的搜索栏旁边显示总数，进一步得到改进。 |
 
 <!-- The following capabilities are currently available only for a set of program participants (Beta):
 
