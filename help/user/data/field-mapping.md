@@ -4,10 +4,10 @@ description: 查看在Adobe Experience Platform和Journey Optimizer B2B edition�
 feature: Data Management, Integrations
 role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
+source-git-commit: b62891e3d87ac4ff5345dac564d63c0b8aaa9669
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 13%
+source-wordcount: '1097'
+ht-degree: 12%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 13%
 
 >[!TIP]
 >
->您可以使用XDM业务帐户人员关系类在多对多关系中对XDM业务人员和XDM业务帐户类建模，如[Experience Platform XDM文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}中所述。
+>您可以使用XDM业务帐户人员关系类在多对多关系中对XDM业务人员和XDM业务帐户类建模，如[Experience Platform XDM文档](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}中所述。
 
 ## XDM业务帐户人员关系属性
 
@@ -29,7 +29,10 @@ ht-degree: 13%
 
 >[!IMPORTANT]
 >
->`workEmail.Address`属性是必需的。 如果帐户受众成员的该值为空，则不会摄取该人员，并会将其从引用该受众的帐户历程和购买组中忽略。
+>电子邮件地址属性是必需的，必须填充该属性才能正常工作。 默认情况下，系统使用`workEmail.Address`。 如果打算使用其他属性，请在发布任何历程之前联系Adobe支持以确保正确配置。<br/>
+>
+>确保email属性不为null，因为这会影响数据同步和下游进程。
+><ul><li>如果Real-time CDP B2B中的email属性为空，并且人员存在于Journey Optimizer B2B edition中，则在同步期间会使用null值覆盖Journey Optimizer B2B edition中的属性。 然后，它在Marketo Engage中作为空值保留。<li>如果Real-time CDP B2B中的电子邮件属性为空，并且人员在Journey Optimizer B2B edition中不存在，则不会同步人员记录。<ul/>
 
 | [属性](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} | 显示名称 | Journey Optimizer B2B显示名称 | 数据类型 | 描述 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -81,7 +84,7 @@ ht-degree: 13%
 
 <!-- ## XDM Business Opportunity attributes
 
-Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
 |[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
