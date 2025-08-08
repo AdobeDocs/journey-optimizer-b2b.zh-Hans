@@ -324,4 +324,4 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
    * [视觉内容](#visual-content)
 
-1. 在处理草稿更新时单击“保存”****，在准备好替换&#x200B;**[!UICONTROL Live]**&#x200B;版本时单击“发布”__。
+1. 在处理草稿更新时单击“保存”**&#x200B;**，在准备好替换&#x200B;**[!UICONTROL Live]**&#x200B;版本时单击“发布”__。
