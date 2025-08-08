@@ -5,10 +5,10 @@ feature: Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 16%
+source-wordcount: '374'
+ht-degree: 3%
 
 ---
 
@@ -17,16 +17,6 @@ ht-degree: 16%
 在您[创建登陆页面](./landing-pages.md#create-a-landing-page)之后，请使用可视化设计空间在页面中创作结构和内容组件。
 
 ## 添加结构和内容 {#structure-content-landing-page}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_structure"
->title="将结构组件添加到登陆页面"
->abstract="结构组件定义登陆页面的版面。将&#x200B;**结构**&#x200B;组件拖放到画布中，开始设计您的页面内容。"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_content_components"
->title="关于登陆页面的内容组件"
->abstract="内容组件是空的内容占位符，您可用它来创建登陆页面的版面。"
 
 {{$include /help/_includes/content-design-components.md}}
 

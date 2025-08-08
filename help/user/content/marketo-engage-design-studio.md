@@ -4,9 +4,9 @@ description: 了解如何在Journey Optimizer B2B edition中使用Marketo Engage
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2022'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Marketo Engage Design Studio是Journey Optimizer B2B edition的默认资源源�
 
 >[!IMPORTANT]
 >
->无法删除任何电子邮件、电子邮件模板或片段&#x200B;**中当前&#x200B;_正在使用_的任何资产**。
+>无法删除任何电子邮件、电子邮件模板或片段&#x200B;_中当前_&#x200B;正在使用&#x200B;**的任何资产**。
 
 面板按类别显示引用： _电子邮件_、_电子邮件模板_&#x200B;或&#x200B;_片段_。 Journey Optimizer B2B edition中的电子邮件是在历程中嵌入和创作的，因此，使用资源的电子邮件的父历程会显示在引用中。
 
@@ -170,7 +170,7 @@ Marketo Engage Design Studio是Journey Optimizer B2B edition的默认资源源�
 
 1. 在选择横幅上，单击&#x200B;**[!UICONTROL 删除]**。
 
-1. 在确认对话框中点击&#x200B;**[!UICONTROL 删除]**。
+1. 在确认对话框中单击&#x200B;**[!UICONTROL 删除]**。
 
    如果任意选定资源当前正在使用中，将中止删除该资源，并显示一条警报消息。
 
@@ -250,7 +250,7 @@ Marketo Engage Design Studio是Journey Optimizer B2B edition的默认资源源�
 
 1. 选择&#x200B;**[!UICONTROL 删除]**。
 
-1. 在确认对话框中点击&#x200B;**[!UICONTROL 删除]**。
+1. 在确认对话框中单击&#x200B;**[!UICONTROL 删除]**。
 
 如果文件夹中的任何资产当前正在使用中，操作将打开警报对话框，通知您无法删除该资产。 单击&#x200B;**[!UICONTROL 确定]**，这将中止删除。
 
@@ -280,7 +280,7 @@ Marketo Engage Design Studio是Journey Optimizer B2B edition的默认资源源�
 
 * 从左侧导航中拖放图像缩略图。
 
-* 将图像组件添加到画布并单击&#x200B;**[!UICONTROL 浏览]**&#x200B;以打开&#x200B;_[!UICONTROL 从Adobe Marketo Engage中选择资源]_&#x200B;对话框。
+* 将一个图像组件添加到画布中，然后单击该组件中的&#x200B;**[!UICONTROL Marketo Engage Assets]**&#x200B;以打开&#x200B;_[!UICONTROL 从Adobe Marketo Engage中选择资源]_&#x200B;对话框。
 
   ![使用筛选器和搜索字段查找您需要的资源](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 

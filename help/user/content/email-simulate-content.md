@@ -5,14 +5,19 @@ feature: Email Authoring
 level: Beginner
 role: User
 exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
-source-git-commit: fb243fbbbf897fd40d816995d6bef96480e355c1
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 0%
+source-wordcount: '576'
+ht-degree: 5%
 
 ---
 
-# 预览和测试电子邮件内容
+# 预览和测试电子邮件内容 {#preview-simulate}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_email_preview_simulate"
+>title="检查您的内容的渲染方式"
+>abstract="定义内容后可预览它，并根据所使用的渠道检查渲染是否正确。"
 
 使用&#x200B;_模拟内容_&#x200B;功能预览电子邮件内容并向特定收件人发送测试投放。 必须定义必需的电子邮件字段，包括&#x200B;_[!UICONTROL 发件人姓名]_、_[!UICONTROL 发件人地址]_、_[!UICONTROL 回复地址]_&#x200B;和&#x200B;_[!UICONTROL 主题行]_，才能访问预览和测试功能。
 
@@ -64,7 +69,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_发送验证_&#x200B;页面中，输入第一个收件人的电子邮件地址。
 
-1. 对于要包含在审核中的其他每个收件人，请单击“添加收件人”**&#x200B;**，然后在“发送至”**[!UICONTROL 字段中输入其电子邮件地址]**。
+1. 对于要包含在审核中的其他每个收件人，请单击“添加收件人”****，然后在“发送至”**[!UICONTROL 字段中输入其电子邮件地址]**。
 
    您最多可以为校样投放添加十个收件人。
 

@@ -1,20 +1,20 @@
 ---
 title: 内容创作 — 导航
 description: 重用有关使用导航树进行内容创作的部分
-source-git-commit: e041d7eb02d2792f2f8c3526ed80b9d6c6cb1556
+source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '277'
 ht-degree: 1%
 
 ---
 
 # 内容创作 — 导航
 
-在可视设计器中使用内容时，可以使用&#x200B;_导航_&#x200B;树访问层/容器和元素。 单击&#x200B;_导航_&#x200B;图标以在画布左侧显示树。
+在可视化设计空间中使用内容时，可以使用导航树访问组件、列和内容元素。 单击左侧的&#x200B;_[!UICONTROL 导航树]_&#x200B;图标（![导航树图标](../assets/do-not-localize/icon-navigation-tree.svg)）以显示该树。
 
 ![访问内容层](../assets/content-design-shared/content-design-layers.png){width="800" zoomable="yes"}
 
-以下示例概述了在由列组成的结构组件内调整填充和垂直对齐的步骤。
+以下示例概述了在具有列的结构组件内调整填充和垂直对齐的步骤。
 
 1. 直接在画布中选择结构组件中的列，或使用左侧显示的&#x200B;_导航树_。
 

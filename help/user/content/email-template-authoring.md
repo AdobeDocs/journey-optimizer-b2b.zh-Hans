@@ -4,10 +4,10 @@ description: 了解如何创作可用于帐户历程电子邮件的内容电子�
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 14%
+source-wordcount: '373'
+ht-degree: 3%
 
 ---
 
@@ -16,16 +16,6 @@ ht-degree: 14%
 在您[创建电子邮件模板](./email-templates.md#create-an-email-template)之后，请使用可视化设计空间来创作电子邮件模板中的结构和内容组件。
 
 ## 添加结构和内容 {#structure-content}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_template"
->title="添加结构组件"
->abstract="结构组件定义模板的版面。将&#x200B;**结构**&#x200B;组件拖放到画布中，开始设计您的模板内容。"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_template"
->title="关于内容组件"
->abstract="内容组件是空的内容占位符，您可用它来创建模板的版面。"
 
 {{$include /help/_includes/content-design-components.md}}
 

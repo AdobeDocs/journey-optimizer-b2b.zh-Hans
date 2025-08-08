@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文档
-user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何使用它通过内置的生成式 AI 和行业领先的自动化来编排帐户和购买群组历程。
-source-git-commit: 99e859e352cb2682e1d3fb5f0000eb55eacf2642
-workflow-type: ht
-source-wordcount: '292'
-ht-degree: 100%
+user-guide-description: 了解Adobe Journey Optimizer B2B edition，以及如何使用内置的创意AI和行业领先的自动化技术将其用于编排帐户和购买团体旅程。
+source-git-commit: d4fee6639033378ecbbe8836d9f63ce4b81208c5
+workflow-type: tm+mt
+source-wordcount: '300'
+ht-degree: 88%
 
 ---
 
@@ -94,12 +94,15 @@ ht-degree: 100%
    + 登陆页面（Beta 版） {#landing-pages}
       + [概述](./content/landing-pages.md)
       + [登陆页面设计](./content/landing-page-design.md)
+   + 内容设计工具 {#content-design}
+      + [结构组件](./content/structure-components.md)
+      + [内容组件](./content/content-components.md)
+      + [自定义 CSS](./content/design-custom-css.md)
    + 品牌（Beta 版） {#brands}
       + [概述](./content/brands-overview.md)
       + [管理和创建](./content/brands-manage-create.md)
       + [品牌一致性](./content/brand-alignment.md)
    + [条件内容](./content/conditional-content.md)
-   + [自定义 CSS](./content/design-custom-css.md)
 + 洞察仪表板  {#dashboards}
    + [智能仪表板](./dashboards/intelligent-dashboard.md)
    + [参与概述](./dashboards/engagement-dashboard.md)

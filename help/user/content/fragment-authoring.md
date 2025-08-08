@@ -4,10 +4,10 @@ description: 了解如何创作可重复用于您的电子邮件的内容片段�
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 19%
+source-wordcount: '325'
+ht-degree: 7%
 
 ---
 
@@ -16,16 +16,6 @@ ht-degree: 19%
 在[创建片段](./fragments.md#create-fragments)之后，使用可视编辑器在片段中创作结构和内容组件。
 
 ## 添加结构和内容 {#design-fragment}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="添加结构组件"
->abstract="结构组件定义片段的版面。拖放&#x200B;**结构**&#x200B;组件到画布中，开始设计您的片段内容。"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="关于内容组件"
->abstract="内容组件是空的内容占位符，您可用它来创建片段的版面。"
 
 {{$include /help/_includes/content-design-components.md}}
 

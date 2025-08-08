@@ -4,10 +4,10 @@ description: 了解 Journey Optimizer B2B Edition 中的资产管理。
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '981'
-ht-degree: 100%
+source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
+workflow-type: tm+mt
+source-wordcount: '996'
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer B2B Edition 可以连接到 Adobe Experience Manager Ass
 
 在创作电子邮件、电子邮件模板和可视片段时使用资产。通过可视内容编辑器可访问所连接资产存储库中的图像。如果您订阅了 Experience Manager Assets as a Cloud Service 以及默认的 Adobe Marketo Engage Design Studio，就可以选择任一来源的图像资产。您还可以上传图像资产，将其放置在所连接的 Marketo Engage Design Studio 存储库的 Journey Optimizer B2B Edition 工作区中。
 
-您可以在编辑图像组件的设置时选择图像源，也可以直接在画布上选择。
+您可以在编辑图像组件的设置时或直接在画布上选择图像源：
 
 * **_图像组件设置_**——如果您在可视设计器中选择了图像组件，就可以在右侧面板中查看和编辑设置。要添加或更改组件中显示的图像文件，请选择源类型，然后选择一个图像文件。
 
@@ -61,7 +61,7 @@ Adobe Journey Optimizer B2B Edition 可以连接到 Adobe Experience Manager Ass
 
   ![使用工具栏为图像组件选择来源和图像文件](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
-您可以在创作内容时添加图像资产，具体取决于图像资产来源。
+您可以在创作内容时添加图像资源，具体取决于图像资源源。 您还可以在结构组件的背景设置中选择图像资源。
 
 >[!BEGINTABS]
 
