@@ -7,10 +7,11 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: b0b4359128d65c6e765af6d07db1bfeb26d4fbc9
+exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
+source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 10%
+ht-degree: 17%
 
 ---
 
@@ -23,8 +24,8 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
->title="品牌一致性分数"
->abstract="您的品牌一致性得分衡量您的内容遵守品牌准则的程度，确保颜色、字体、徽标、图像和书写风格的一致性。"
+>title="品牌一致性得分"
+>abstract="您的品牌一致性得分衡量了您的内容是否遵循品牌指南，旨在确保颜色、字体、徽标、图像和写作风格的一致性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors"

@@ -7,24 +7,25 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: 91424c334c22bf683cd071afcb0ab0660a9ac832
+exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
+source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
-# 使用品牌来生成内容并保持一致性 {#brands}
+# 使用品牌进行内容生成并确保一致性 {#brands}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="开始使用品牌"
->abstract="创建和自定义您自己的品牌，以定义您独特的视觉和口头特征，同时更轻松地生成与您的品牌风格和声音相匹配的内容。"
+>abstract="创建并定制您自己的品牌，以塑造您独特的视觉风格与语言特征，同时更轻松地创作出符合您品牌风格和声音的内容。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"
 >title="选择您的品牌"
->abstract="选择您的品牌以确保根据您的品牌规范和准则定制所有AI生成的内容。"
+>abstract="选择您的品牌，以确保所有 AI 生成的内容都符合您的品牌规范和指南。"
 
 品牌可帮助定义您的&#x200B;_品牌标识_，并在确保一致而有效的内容创建方面发挥关键作用，以准确表示您的品牌标识、价值和消息。 通过坚持定义清晰的品牌风格，组织可以跨渠道和接触点保持一致和可识别的品牌影响力，并在目标受众中增强其品牌认知度、信任度和忠诚度。
 
@@ -99,4 +100,3 @@ ht-degree: 3%
    * 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以应用更改。
 
 >[!ENDSHADEBOX]
-

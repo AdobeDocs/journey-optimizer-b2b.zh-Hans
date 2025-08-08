@@ -7,10 +7,11 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: 98298c41981de45dfc5d0de430913729f3a92453
+exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
+source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
 workflow-type: tm+mt
 source-wordcount: '2052'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -66,12 +67,12 @@ ht-degree: 5%
 
 ![指定默认品牌标识](./assets/brands-set-default.png){width="350"}
 
-## 创建和定义品牌 {#create-brand}
+## 创建并定义品牌 {#create-brand}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brands_create"
 >title="创建您的品牌"
->abstract="输入您的品牌名称并上传您的品牌指导方针文件。该工具会自动提取关键详细信息，从而更轻松地维护您的品牌识别。"
+>abstract="输入您的品牌名称并上传您的品牌指导方针文件。该工具会自动提取关键细节，使维护品牌形象更加容易。"
 
 要创建和定义品牌指南，您可以输入详细信息或上传品牌指南文档以用于自动提取。
 
@@ -323,4 +324,4 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
    * [视觉内容](#visual-content)
 
-1. 在处理草稿更新时单击“保存”**&#x200B;**，在准备好替换&#x200B;**[!UICONTROL Live]**&#x200B;版本时单击“发布”__。
+1. 在处理草稿更新时单击“保存”****，在准备好替换&#x200B;**[!UICONTROL Live]**&#x200B;版本时单击“发布”__。
