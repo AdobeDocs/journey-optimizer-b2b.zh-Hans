@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # 电子邮件创作
 
-在您[将新的<!-- or duplicated -->电子邮件资产添加到历程操作节点](./add-email.md)后，您可以定义电子邮件的内容。
+在您&lbrack;将新的<!-- or duplicated -->电子邮件资产添加到历程操作节点&rbrack;(./add-email.md)后，您可以定义电子邮件的内容。
 
 在右侧面板的&#x200B;**[!UICONTROL 详细信息]**&#x200B;选项卡中单击&#x200B;_[!UICONTROL 编辑电子邮件内容]_。
 
