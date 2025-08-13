@@ -4,10 +4,10 @@ description: 了解 Journey Optimizer B2B Edition 中的购买群组如何通过
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: ada98f505aad848f958cf8325ed90d66692a6cac
-workflow-type: ht
-source-wordcount: '2151'
-ht-degree: 100%
+source-git-commit: a2917ea8c389c35129a77d427528051be499addf
+workflow-type: tm+mt
+source-wordcount: '2170'
+ht-degree: 97%
 
 ---
 
@@ -102,7 +102,12 @@ _[!UICONTROL 购买群组]_&#x200B;页面分成若干选项卡：
 
 每次创建或更新购买群组时都会重新计算购买群组完整性评分。
 
-### 购买群组参与度评分
+### 购买群组参与度评分 {#engagement-score}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_buying_group_engagement_score"
+>title="参与度评分"
+>abstract="参与度得分确定购买小组成员的参与度级别。"
 
 购买群组参与度评分用于根据购买群组成员所执行的活动来确定购买群组成员参与度。
 
@@ -112,7 +117,7 @@ _[!UICONTROL 购买群组]_&#x200B;页面分成若干选项卡：
 * 每项活动的每日频率上限为 20 次。如果购买群组的成员每天执行相同活动超过 20 次，则该活动计数上限为 20，而不会更高。
 * 评分四舍五入后显示。例如，评分 75.89999 显示为 76。
 
-+++ 用于评分的活动
++++用于评分的活动
 
 | 活动名称 | 描述 | 参与类型 | 每日最大频率计数 | 活动权重 |
 | --- | --- | --- | --- | --- |
@@ -158,9 +163,14 @@ _[!UICONTROL 购买群组]_&#x200B;页面分成若干选项卡：
 
 +++
 
-#### 权重
+#### 权重 {#engagement-score-weighting}
 
-用户可以为角色模板中的每个角色分配&#x200B;_权重_，通过为角色分配不同的权重来计算参与度评分。
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_buying_group_engagement_score_weighting"
+>title="参与度得分权重"
+>abstract="使用权重可自定义参与度分数的计算。"
+
+用户可以为&#x200B;_角色模板_&#x200B;中的每个角色分配[权重](./buying-groups-role-templates.md)，以便为角色分配不同的权重。
 
 ![设置角色模板中每个角色的权重](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
@@ -220,4 +230,4 @@ _[!UICONTROL 购买群组]_&#x200B;页面分成若干选项卡：
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3452950/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
