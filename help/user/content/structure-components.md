@@ -3,10 +3,11 @@ title: 结构组件
 description: 了解如何使用结构组件定义电子邮件、登陆页面和可视化片段内容的布局。
 feature: Content Design Tools
 role: User
-source-git-commit: 592c456ec88bd86f093dcc37862545b180ec0814
+exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
+source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -15,22 +16,22 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_email"
 >title="关于结构组件"
->abstract="结构组件是可用于设计电子邮件结构的布局元素。"
+>abstract="结构组件是一种布局元素，可用于设计电子邮件结构。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
 >title="关于结构组件"
->abstract="结构组件是可用于设计页面结构的布局元素。"
+>abstract="结构组件是一种布局元素，可用于设计页面结构。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_fragment"
 >title="关于结构组件"
->abstract="结构组件是可用于设计片段结构的布局元素。"
+>abstract="结构组件是一种布局元素，可用于设计片段的结构。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_template"
 >title="关于结构组件"
->abstract="结构组件是可用于设计模板结构的布局元素。"
+>abstract="结构组件是一种布局元素，可用于设计模板的结构。"
 
 使用可视化设计空间中的&#x200B;_结构组件_&#x200B;定义内容的结构。 通过简单的拖放操作添加和移动结构元素，您可以快速定义内容布局的形状。 每个结构组件跨越水平空间，您可以栈叠它们以垂直构建布局。 将每个组件划分为列，以形成所需的每个内容块。
 

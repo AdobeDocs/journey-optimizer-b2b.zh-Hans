@@ -1,5 +1,5 @@
 ---
-title: 预览和测试电子邮件内容
+title: 预览和测试您的电子邮件内容
 description: 了解如何预览和测试电子邮件内容，以确保在内容和个性化设置中均无错误。
 feature: Email Authoring
 level: Beginner
@@ -8,11 +8,11 @@ exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
 source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
-# 预览和测试电子邮件内容 {#preview-simulate}
+# 预览和测试您的电子邮件内容 {#preview-simulate}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
@@ -69,7 +69,7 @@ ht-degree: 5%
 
 1. 在&#x200B;_发送验证_&#x200B;页面中，输入第一个收件人的电子邮件地址。
 
-1. 对于要包含在审核中的其他每个收件人，请单击“添加收件人”**&#x200B;**，然后在“发送至”**[!UICONTROL 字段中输入其电子邮件地址]**。
+1. 对于要包含在审核中的其他每个收件人，请单击“添加收件人”****，然后在“发送至”**[!UICONTROL 字段中输入其电子邮件地址]**。
 
    您最多可以为校样投放添加十个收件人。
 
