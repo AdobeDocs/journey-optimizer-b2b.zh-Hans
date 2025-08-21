@@ -5,9 +5,9 @@ feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: a2917ea8c389c35129a77d427528051be499addf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2170'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ _[!UICONTROL 购买群组]_&#x200B;页面分成若干选项卡：
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score"
 >title="参与度评分"
->abstract="参与度得分确定购买小组成员的参与度级别。"
+>abstract="参与度评分决定了购买群组成员的参与度水平。"
 
 购买群组参与度评分用于根据购买群组成员所执行的活动来确定购买群组成员参与度。
 
@@ -167,10 +167,10 @@ _[!UICONTROL 购买群组]_&#x200B;页面分成若干选项卡：
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score_weighting"
->title="参与度得分权重"
->abstract="使用权重可自定义参与度分数的计算。"
+>title="参与度评分权重"
+>abstract="使用权重来自定义参与度分数计算。"
 
-用户可以为&#x200B;_角色模板_&#x200B;中的每个角色分配[权重](./buying-groups-role-templates.md)，以便为角色分配不同的权重。
+用户可以为[角色模板](./buying-groups-role-templates.md)中的每个角色分配&#x200B;_权重_，为一个角色分配不同的权重。
 
 ![设置角色模板中每个角色的权重](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
@@ -230,4 +230,4 @@ _[!UICONTROL 购买群组]_&#x200B;页面分成若干选项卡：
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3452950/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
