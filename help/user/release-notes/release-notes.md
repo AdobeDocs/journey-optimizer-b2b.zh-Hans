@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 发行说明
 description: 了解 Adobe Journey Optimizer B2B Edition 的最新功能和增强功能。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
-workflow-type: ht
-source-wordcount: '2552'
-ht-degree: 100%
+source-git-commit: 3461236ca286982bf8c9c722c84486aa4e8266ab
+workflow-type: tm+mt
+source-wordcount: '2780'
+ht-degree: 92%
 
 ---
 
@@ -17,12 +17,32 @@ Journey Optimizer B2B Edition 不断地提供新功能，对现有功能进行�
 Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] 上，并继承了其最新的创新和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/latest){target="_blank"}中进一步了解这些更改。
 
 查看[产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，了解有关权限、性能护栏和限制的信息。
-<!-- hold for 2025.8 release 
+
+<!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
 | Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
 
 -->
+
+## 2025.8 发行说明
+
+**部署日期**：2025年8月26日
+
+此版本包括以下新功能和增强功能：
+
+| 类型 | 项目 | 描述 |
+| ---- | ---- | ----------- |
+| 功能 | 角色模板和历程的人员参与得分过滤器 | 现在，您可以在用于创建购买群组的角色模板和拆分路径历程节点中使用&#x200B;_人员参与度分数_&#x200B;作为过滤器。 |
+| 功能 | 购买组自定义角色配置 | 现在，您可以灵活地为购买组配置自定义角色，从而定义特定于用例的角色。 |
+| 功能 | 参与度得分加权配置 | 您现在可以为影响购买组参与度分数的活动分配权重。 此功能包括定义您自己的自定义得分模型，以及更改影响参与得分计算的活动模型。 |
+| 增强功能 | 片段的条件内容 | 您现在可以使用条件内容工具进行可视化片段设计。 |
+| 增强功能 | 参与度得分更新 | 购买组参与度得分逻辑已更新，以使得分标准化。 此外，您还可以使用成员级别的参与度分数，以及整个购买组的集体参与度分数。 |
+| 增强功能 | 活动历程可观察性 — 每个节点上的帐户 | 对于活动帐户历程，您可以访问已到达历程中每个帐户节点的帐户列表。 |
+
+>[!NOTE]
+>
+>版本更改从2025年8月26日开始部署，并分阶段推出每个功能。 功能和增强功能的发行日期可能会发生更改。
 
 ## 2025.6 发行说明
 
