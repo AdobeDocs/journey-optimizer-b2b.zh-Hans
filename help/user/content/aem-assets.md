@@ -23,7 +23,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->管理员必须将需要访问Assets的用户添加到Assets Consumer Users或/和Assets Users产品配置文件。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>管理员必须将需要访问Assets的用户添加到Assets Consumer Users或/和Assets Users产品配置文件。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## 访问AEM Assets图像
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->当前，[!DNL Adobe Experience Manager Assets]仅支持[!DNL Adobe Journey Optimizer B2B Edition]中的图像资源。 必须在[!DNL Adobe Experience Manager Assets]中央存储库中更改资源。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>当前，[!DNL Adobe Experience Manager Assets]仅支持[!DNL Adobe Journey Optimizer B2B Edition]中的图像资源。 必须在[!DNL Adobe Experience Manager Assets]中央存储库中更改资源。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### 更改显示的存储库
 
