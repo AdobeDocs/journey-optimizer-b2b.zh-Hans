@@ -4,36 +4,36 @@ description: 了解如何在Adobe Journey Optimizer B2B edition中创作内容�
 feature: Assets, Content, Integrations
 role: User
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ea2093b03ba89f9e8d3f0db60b65cb143603c217
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '559'
 ht-degree: 2%
 
 ---
 
 # 使用Experience Manager资源
 
-当Adobe Experience Manager Assets as a Cloud Service与Adobe Journey Optimizer B2B edition集成时，您可以轻松发现和访问在营销内容中使用的数字资源。 在创作内容时，可从左侧导航栏中的&#x200B;_Experience Manager Assets_&#x200B;项访问资源，以及在创作帐户历程的电子邮件内容时也可访问资源。
+当[!DNL Adobe Experience Manager Assets as a Cloud Service]与[!DNL Adobe Journey Optimizer B2B Edition]集成时，您可以轻松地发现和访问数字资产，以便在营销内容中使用。 在创作内容时，可从左侧导航栏中的&#x200B;_[!UICONTROL Experience Manager Assets]_&#x200B;项访问资源，以及在创作帐户历程的电子邮件内容时也可访问资源。
 
 {{aem-assets-licensing-note}}
 
-当您使用这些数字资源时，Assets as a Cloud Service中的最新更改会通过链接的引用自动传播到实时电子邮件营销活动中。 如果在Adobe Experience Manager Assets as a Cloud Service中删除了图像，则这些图像在电子邮件中显示时带有损坏的引用。 当帐户历程中当前使用的资产被修改或删除时，历程作者会收到有关图像更改和使用图像的历程列表的通知。 对资源的所有更改必须在Adobe Experience Manager Assets中央存储库中完成。
+当您使用这些数字资产时，[!DNL Assets as a Cloud Service]中的最新更改会自动通过链接的引用传播到实时电子邮件营销活动。 如果在[!DNL Adobe Experience Manager Assets as a Cloud Service]中删除了图像，则这些图像在电子邮件中显示时带有损坏的引用。 当帐户历程中当前使用的资产被修改或删除时，历程作者会收到有关图像更改和使用图像的历程列表的通知。 对资源的所有更改必须在[!DNL Adobe Experience Manager Assets]中央存储库中完成。
 
-当您的环境有一个或多个[Assets存储库连接](../admin/configure-aem-repositories.md)时，内容作者在创建电子邮件、电子邮件模板或可视化片段时可以使用AEM Assets作为资源的来源。
+当您的环境有一个或多个[Assets存储库连接](../admin/configure-aem-repositories.md)时，内容作者在创建电子邮件、电子邮件模板或可视化片段时可以使用[!DNL Experience Manager Assets]作为资源的来源。
 
 >[!IMPORTANT]
 >
->管理员必须将需要访问Assets的用户添加到Assets Consumer Users或/和Assets Users产品配置文件。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>管理员必须将需要访问Assets的用户添加到Assets Consumer Users或/和Assets Users产品配置文件。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## 访问AEM Assets图像
 
-在可视内容编辑器中，单击左侧边栏中的&#x200B;_Experience Manager Assets_ (![Experience Manager Assets图标](../../assets/do-not-localize/icon-assets-aem.svg) )图标。 这会将“工具”面板更改为选定存储库中可用资源的列表。
+在内容设计空间中，单击左侧边栏中的&#x200B;_[!UICONTROL Experience Manager Assets]_ (![Experience Manager Assets图标](../../assets/do-not-localize/icon-assets-aem.svg) )图标。 这会将“工具”面板更改为选定存储库中可用资源的列表。
 
 ![单击Assets选择器图标可访问图像资源](./assets/content-assets-selector-aem-assets.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->目前，Adobe Journey Optimizer B2B edition仅支持Adobe Experience Manager Assets中的图像资源。 必须在Adobe Experience Manager Assets中央存储库中更改资源。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>当前，[!DNL Adobe Experience Manager Assets]仅支持[!DNL Adobe Journey Optimizer B2B Edition]中的图像资源。 必须在[!DNL Adobe Experience Manager Assets]中央存储库中更改资源。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### 更改显示的存储库
 
