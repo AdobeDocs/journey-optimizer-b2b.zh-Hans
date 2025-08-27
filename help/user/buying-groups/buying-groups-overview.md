@@ -4,9 +4,9 @@ description: 了解 Journey Optimizer B2B Edition 中的购买群组如何通过
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: eb80b57b0481837a50c7c0985ac4dc5d71f3577e
+source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1194'
 ht-degree: 75%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 75%
 
 在帐户中，其中的一部分人员可能会组成&#x200B;_购买群组_。这些人员最终做出购买决策，因此需要营销人员给予特别关注，并向他们提供与该帐户其他相关人员不同的信息。购买群组可能由负责不同产品线或产品的不同人员组成。例如，网络安全产品通常需要首席信息官或首席安全官以及法律部门的代表批准购买。错误跟踪产品通常可能需要购买群组的成员中有一位工程副总裁和一位 IT 总监。
 
-![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看视频概述](#overview-video)
+![视频图标](../../assets/do-not-localize/icon-video.svg){width="30"} [观看视频概述](#overview-video)
 
 ## 关键组件
 
@@ -112,4 +112,4 @@ _[!UICONTROL 购买群组]_&#x200B;页面分成若干选项卡：
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3452950/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

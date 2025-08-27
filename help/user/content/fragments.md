@@ -4,9 +4,9 @@ description: 了解如何在Adobe Journey Optimizer B2B edition中创建可视�
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: f700f84c55d37ded9980a08286da05011345800c
 workflow-type: tm+mt
-source-wordcount: '2624'
+source-wordcount: '2738'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,11 @@ ht-degree: 2%
 
 **可视片段**
 
-可视化片段是使用可视内容设计器构建的预定义可视化块，您可以在多个电子邮件或电子邮件模板中重复使用它们。 Journey Optimizer B2B edition和本文档的当前范围仅为可视化片段。 Journey Optimizer B2B edition尚不支持基于表达式的片段。
+可视化片段是使用可视化设计工具构建的预定义可视化块，您可以在多个电子邮件或电子邮件模板中重用这些可视化块。 Journey Optimizer B2B edition和本文档的当前范围仅为可视化片段。
+
+>[!NOTE]
+>
+>[!DNL Journey Optimizer B2B Edition]中尚不支持基于表达式的片段。
 
 >[!ENDSHADEBOX]
 
@@ -42,9 +46,9 @@ ht-degree: 2%
 
 | 状态 | 描述 |
 | -------------------- | ----------- |
-| 草稿 | 创建片段时，它处于草稿状态。 在您定义或编辑可视内容时，它保持此状态，直到您发布它以用于电子邮件或电子邮件模板为止。 可用操作： <br/><ul><li>编辑所有详细信息<li>在可视设计器中编辑<li>发布<li>重复<li>删除 |
-| 发布日期 | 发布片段后，该片段将可用于电子邮件或电子邮件模板。 在可视设计器中无法修改已发布的片段内容。 可用操作： <br/><ul><li>编辑描述<li>添加到电子邮件或模板<li>创建草稿版本<li>重复<li>删除（如果未使用） |
-| 以草稿发布 | 从已发布的片段创建草稿时，已发布的版本仍然可用于电子邮件或电子邮件模板，并且草稿内容可以在可视设计器中进行修改。 如果您发布草稿版本，它会替换当前已发布的版本，并且内容会在使用草稿的电子邮件和电子邮件模板中进行更新。 可用操作： <br/><ul><li>编辑描述<li>添加到电子邮件或模板<li>在可视设计器中编辑草稿版本<li>发布草稿版本<li>重复<li>删除（如果未使用） |
+| 草稿 | 创建片段时，它处于草稿状态。 在您定义或编辑可视化设计空间时，它保持此状态，直到您发布它以用于电子邮件或电子邮件模板为止。 可用操作： <br/><ul><li>编辑所有详细信息<li>在可视设计空间中编辑<li>发布<li>重复<li>删除 |
+| 发布日期 | 发布片段后，该片段将可用于电子邮件或电子邮件模板。 无法在可视设计空间中修改已发布的片段内容。 可用操作： <br/><ul><li>编辑描述<li>添加到电子邮件或模板<li>创建草稿版本<li>重复<li>删除（如果未使用） |
+| 以草稿发布 | 从已发布的片段创建草稿时，已发布的版本仍可用于电子邮件或电子邮件模板，并且草稿内容可在可视设计空间中修改。 如果您发布草稿版本，它会替换当前已发布的版本，并且内容会在使用草稿的电子邮件和电子邮件模板中进行更新。 可用操作： <br/><ul><li>编辑描述<li>添加到电子邮件或模板<li>在可视设计空间中编辑草稿版本<li>发布草稿版本<li>重复<li>删除（如果未使用） |
 
 ![片段状态生命周期](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -86,7 +90,7 @@ ht-degree: 2%
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-   此时会打开可视设计器，并显示一个空画布。
+   此时将打开可视化设计空间，并显示一个空画布。
 
 1. 使用内容设计工具创建可视化片段内容：
 
@@ -96,6 +100,18 @@ ht-degree: 2%
    * [个性化内容](./fragment-authoring.md#personalize-content)
    * [启用自定义字段](./fragment-authoring.md#enable-fragment-customization)
    * [编辑链接的URL跟踪](./fragment-authoring.md#edit-linked-url-tracking)
+
+1. （可选）将[品牌主题](./brand-themes.md)应用于片段内容以简化片段创作过程并确保设计符合定义的标准。
+
+   >[!NOTE]
+   >
+   >应用主题时，片段兼容性仅限于在&#x200B;_主题模式_&#x200B;中创建的电子邮件和电子邮件模板。
+
+   单击右侧的&#x200B;_主题_ （ ![主题图标](../assets/do-not-localize/icon-design-themes.svg) ）图标。
+
+   ![片段设计空间 — 已选择“主题”图标](./assets/fragment-design-themes-icon-selected.png){width="600" zoomable="yes"}
+
+   选择&#x200B;**[!UICONTROL 我的主题]**&#x200B;选项卡中列出的自定义主题之一，或者您可以选择&#x200B;**[!UICONTROL Adobe主题]**&#x200B;以使用内置主题。 单击列表外部时，选定的主题将应用画布中所有组件的样式。 您可以根据需要切换颜色变体。
 
 1. 随时单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存草稿片段。
 
@@ -166,9 +182,9 @@ ht-degree: 2%
 
    ![具有草稿状态的片段的详细信息](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
 
-1. 要对可视设计器中的内容进行更改，请单击&#x200B;**[!UICONTROL 编辑片段]**。
+1. 若要更改可视化设计空间中的内容，请单击&#x200B;**[!UICONTROL 编辑片段]**。
 
-   根据需要使用可视设计器工具：
+   根据需要使用可视化设计工具：
 
    * [添加结构和内容](./fragment-authoring.md#add-structure-and-content)
    * [添加Assets](./fragment-authoring.md#add-assets)
@@ -193,11 +209,11 @@ ht-degree: 2%
 
 1. 如果要更新内容，请单击右上方的&#x200B;**[!UICONTROL 创建草稿版本]**。
 
-   在对话框中单击&#x200B;**[!UICONTROL 确定]**&#x200B;以在可视设计器中打开草稿版本。
+   在对话框中单击&#x200B;**[!UICONTROL 确定]**&#x200B;以在可视设计空间中打开草稿版本。
 
    ![创建草稿版本对话框](./assets/fragments-create-draft-version.png){width="300"}
 
-   根据需要使用可视设计器工具：
+   根据需要使用可视化设计工具：
 
    * [添加结构和内容](./fragment-authoring.md#add-structure-and-content)
    * [添加Assets](./fragment-authoring.md#add-assets)
@@ -226,7 +242,7 @@ ht-degree: 2%
 
 要更新内容，请执行以下操作：
 
-1. 单击右上方的&#x200B;**[!UICONTROL 编辑片段]**。 根据需要使用可视设计器工具：
+1. 单击右上方的&#x200B;**[!UICONTROL 编辑片段]**。 根据需要使用可视化设计工具：
 
    * [添加结构和内容](./fragment-authoring.md#add-structure-and-content)
    * [添加Assets](./fragment-authoring.md#add-assets)
@@ -286,9 +302,9 @@ ht-degree: 2%
 
 1. 导航到&#x200B;**[!UICONTROL 帐户历程]**&#x200B;并打开现有历程或创建新历程。
 
-1. 创建[_[!UICONTROL 发送电子邮件&#x200B;]_&#x200B;节点](./add-email.md#add-an-email-action-node-in-a-journey)。
+1. 创建[_[!UICONTROL 发送电子邮件&#x200B;]_节点](./add-email.md#add-an-email-action-node-in-a-journey)。
 
-1. 创建或编辑节点[&#128279;](./email-authoring.md)的电子邮件内容。
+1. 创建或编辑节点[的](./email-authoring.md)电子邮件内容。
 
 1. 从&#x200B;**[!UICONTROL 组件]**&#x200B;菜单拖放项以提供片段的&#x200B;_结构_。
 

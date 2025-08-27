@@ -8,9 +8,9 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
+source-git-commit: 3065dfedc4fa70d102d7d39a413ecd7aaf93f3f8
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2053'
 ht-degree: 6%
 
 ---
@@ -148,7 +148,7 @@ ht-degree: 6%
 
    * **添加或修订您的准则和排除项的示例**。
 
-     在显示的示例拼贴中，单击&#x200B;_编辑_ （![编辑图标](../assets/do-not-localize/icon-edit.svg) ）以更改示例，或单击&#x200B;_删除_ （![删除图标](../assets/do-not-localize/icon-delete.svg) ）图标以将其删除。
+     在显示的示例拼贴中，单击&#x200B;_编辑_ （![编辑图标](../assets/do-not-localize/icon-edit.svg) ）图标以更改示例，或单击&#x200B;_删除_ （![删除图标](../assets/do-not-localize/icon-delete.svg) ）图标以将其删除。
 
 1. 定义完所有内容后，单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -324,4 +324,4 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
    * [视觉内容](#visual-content)
 
-1. 在处理草稿更新时单击“保存”**&#x200B;**，在准备好替换&#x200B;**[!UICONTROL Live]**&#x200B;版本时单击“发布”__。
+1. 在处理草稿更新时单击“保存”****，在准备好替换&#x200B;**[!UICONTROL Live]**&#x200B;版本时单击“发布”__。

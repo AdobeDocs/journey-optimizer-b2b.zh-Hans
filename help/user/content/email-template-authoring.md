@@ -4,9 +4,9 @@ description: 了解如何创作可用于帐户历程电子邮件的内容电子�
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '423'
 ht-degree: 3%
 
 ---
@@ -30,6 +30,10 @@ ht-degree: 3%
 {{$include /help/_includes/content-design-custom-css.md}}
 
 ### 添加片段
+
+>[!NOTE]
+>
+>在电子邮件内容中的&#x200B;_主题模式_&#x200B;和&#x200B;_手动模式_&#x200B;之间，片段不交叉兼容。 要在应用主题的电子邮件内容中使用片段，还必须在&#x200B;_主题模式_&#x200B;中创建片段。
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
@@ -69,5 +73,5 @@ ht-degree: 3%
 
 * **[!UICONTROL 重置模板]** — 单击此选项可将设计画布清除为空白并重新启动生成内容。
 * **[!UICONTROL 另存为片段]** — 将模板的所有或部分另存为片段，以便在多个电子邮件或电子邮件模板中重复使用。 您可以提供片段的名称和描述，并将其保存到可用片段列表中。
-* **[!UICONTROL 更改您的设计]** — 返回&#x200B;_设计您的模板_&#x200B;页面。 从该位置，您可以选择从头开始设计模板，或使用现有模板重新启动设计过程。
+* **[!UICONTROL 更改您的设计]** — 返回&#x200B;_设计您的电子邮件_&#x200B;页面。 从那里，您可以选择另一个模板以重新启动设计过程。 您还可以选择使用空白画布（_经典模式_）或使用[品牌主题](./brand-themes.md)（_主题模式_）从头开始设计内容。
 * **[!UICONTROL 导出HTML]** — 将可视画布中的内容以HTML格式下载到您的本地系统，并打包为zip文件。

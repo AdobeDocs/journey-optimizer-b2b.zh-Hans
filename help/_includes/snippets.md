@@ -1,9 +1,9 @@
 ---
 title: 代码段
 description: 重用注释和可视化元素来注释应用于特定版本的功能或页面
-source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
+source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2376'
 ht-degree: 3%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->AEM Assets as a Cloud Service的许可证和Dynamic Media许可证是进行集成的先决条件。 确保启用了[Dynamic Media withOpen API](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。 该集成仅限于&#x200B;_交付层_&#x200B;中的存储库。 如果您使用&#x200B;_创作层_&#x200B;并想要转换它，请与Adobe Experience Manager支持部门联系。<br/>
->&#x200B;>根据您的合同和配置，在设计可视化内容时，可以直接从Adobe Experience Manager Assets B2B edition访问Adobe Journey Optimizer as a Cloud Service 。
+>AEM Assets as a Cloud Service的许可证和Dynamic Media许可证是进行集成的先决条件。 确保启用了[Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。 该集成仅限于&#x200B;_交付层_&#x200B;中的存储库。 如果您使用&#x200B;_创作层_&#x200B;并想要转换它，请与Adobe Experience Manager支持部门联系。<br/>
+>>根据您的合同和配置，在设计可视化内容时，可以直接从Adobe Experience Manager Assets B2B edition访问Adobe Journey Optimizer as a Cloud Service 。
 
 ## 内容创作 — 组件 — 结构步骤 {#structures-step}
 
@@ -125,7 +125,7 @@ HTML组件的![对齐样式](../assets/content-design-shared/content-components-
 
    * 要设置&#x200B;**[!UICONTROL 边框大小]** （线条宽度），请单击向上和向下箭头图标以增加或减少像素数。
 
-   * 若要设置&#x200B;**[!UICONTROL 边框样式]**，请从列表标准CSS `border-style`值中选择一个值。
+   * 若要设置&#x200B;**[!UICONTROL 边框样式]**，请从标准CSS `border-style`值列表中选择一个值。
 
    * 要确定显示边框的位置，请选中每个&#x200B;**[!UICONTROL 边框位置]**&#x200B;复选框。
 
