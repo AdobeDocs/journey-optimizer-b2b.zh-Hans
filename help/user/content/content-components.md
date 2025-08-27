@@ -3,10 +3,11 @@ title: 内容组件
 description: 了解如何使用内容组件设计电子邮件、登陆页面和可视化片段内容。
 feature: Content Design Tools
 role: User
-source-git-commit: 592c456ec88bd86f093dcc37862545b180ec0814
+exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
+source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
 workflow-type: tm+mt
-source-wordcount: '2841'
-ht-degree: 2%
+source-wordcount: '2844'
+ht-degree: 6%
 
 ---
 
@@ -74,7 +75,7 @@ ht-degree: 2%
 
 +++
 
-+++水平对齐
++++水平对齐方式
 
 <table>
     <tr>
@@ -199,10 +200,9 @@ ht-degree: 2%
 | ---- | ---- | ----- |
 | ![添加个性化内容](../assets/do-not-localize/toolbar-button-add-personalization.png){width="40"} | 添加个性化 | 使用个性化编辑器在组件内容中插入个性化令牌。 [了解详情](./email-authoring.md#personalize-content) |
 | ![显示源代码](../assets/do-not-localize/toolbar-button-show-source-code.png){width="40"} | 显示源代码 | 在只读弹出窗口中显示组件的HTML源代码。 <br/>![显示HTML代码](./assets/content-components-show-source-code.png){width="200"} |
-| ![启用条件内容](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | 启用条件内容 | 为组件启用条件变体。 [了解详情](./conditional-content.md) |
+| ![启用条件内容](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | 启用条件内容 | （电子邮件和片段）为组件启用条件变体。 [了解详情](./conditional-content.md) |
 | ![重复](../assets/do-not-localize/toolbar-button-duplicate.png){width="40"} | 重复 | 创建组件的副本并直接将其添加到下方。 |
 | ![删除](../assets/do-not-localize/toolbar-button-delete.png){width="40"} | 删除 | 删除组件。 |
-
 
 ## 将内容组件添加到您的设计
 
@@ -255,7 +255,7 @@ ht-degree: 2%
 
 +++
 
-+++Size
++++大小
 
 {{styles-size}}
 
@@ -307,7 +307,7 @@ ht-degree: 2%
 
    按钮大小会根据设置的文本和样式进行调整。
 
-1. 对于&#x200B;**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
+1. 对于**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
 
    * _[!UICONTROL 无]_ — 使用默认浏览器或客户端行为（默认）打开链接。
    * _[!UICONTROL 空白]_ — 在新窗口或选项卡中打开链接。
@@ -337,7 +337,7 @@ ht-degree: 2%
 
 +++
 
-+++Size
++++大小
 
 {{styles-size}}
 
@@ -395,7 +395,7 @@ ht-degree: 2%
 
 +++
 
-+++Size
++++大小
 
 {{styles-size}}
 
@@ -431,11 +431,11 @@ ht-degree: 2%
 
 +++
 
-+++行
++++线形图
 
 +++
 
-+++Size
++++大小
 
 {{styles-size}}
 
@@ -493,7 +493,7 @@ ht-degree: 2%
 
 +++
 
-+++Size
++++大小
 
 {{styles-size}}
 
@@ -605,7 +605,7 @@ ht-degree: 2%
 
    按钮大小会根据设置的文本和样式进行调整。
 
-1. 对于&#x200B;**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
+1. 对于**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
 
    * _[!UICONTROL 无]_ — 使用默认浏览器或客户端行为（默认）打开链接。
    * _[!UICONTROL 空白]_ — 在新窗口或选项卡中打开链接。
@@ -629,7 +629,7 @@ ht-degree: 2%
 
 +++
 
-+++Size
++++大小
 
 {{styles-size}}
 
@@ -695,7 +695,7 @@ ht-degree: 2%
 
 +++
 
-+++Size
++++大小
 
 {{styles-size}}
 

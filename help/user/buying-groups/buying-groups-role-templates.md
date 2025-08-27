@@ -4,16 +4,16 @@ description: 了解如何定义用作购买组组件的角色模板。
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 64e6b19894be749b154720ea542c8b18b9153a07
+source-git-commit: 6fb15d8d7f67105f4e53c346091798908c8727bd
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1119'
 ht-degree: 3%
 
 ---
 
 # 购买群组角色模板
 
-在B2B市场中，购买决策通常由多人做出。 这些个人根据其在组织内的作用参与决策过程。 根据每种产品和服务类型或帐户用例，创建包含这些角色定义的购买组角色模板。
+在B2B市场中，购买决策通常由多人做出。 这些个人根据其在组织内的作用参与决策过程。 创建购买组角色模板，这些模板根据每种产品类型或帐户用例包含一组角色定义。
 
 ![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看概述视频](#overview-video)
 
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 1. 在&#x200B;_[!UICONTROL 购买组]_&#x200B;页面中，选择&#x200B;**[!UICONTROL 角色模板]**&#x200B;选项卡。
 
-   ![“角色模板”选项卡](assets/roles-templates-tab.png){width="700" zoomable="yes"}
+   ![“角色模板”选项卡](assets/roles-templates-tab.png){width="800" zoomable="yes"}
 
    该选项卡提供所有现有角色模板的清单列表，并以列格式显示以下信息：
 
@@ -56,13 +56,13 @@ ht-degree: 3%
 
 ### 添加模板角色
 
-创建模板后，该模板将在工作区中打开，并提示您定义角色。 默认情况下，将显示第一个角色卡。
+创建模板后，该模板将在工作区中打开，并提示您添加角色。 默认情况下，将显示第一个角色卡。
 
 您为模板定义的每个角色都使用一组筛选器（即&#x200B;_条件_）来确定分配给该角色的成员。 使用以下过滤器类型定义角色的条件：
 
 | 类型 | 条件 |
 | ---- | --------- |
-| 人员属性 | <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>传真号 <li>名字 <li>推断的状态区域 <li>作业名称 <li>姓氏 <li>中间名 <li>手机号码 <li>电话号码 <li>邮政编码 <li>State <li>退订 <li>取消订阅的原因 |
+| 人员属性 | <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>传真号 <li>名字 <li>推断的状态区域 <li>作业名称 <li>姓氏 <li>中间名 <li>手机号码 <li>人员参与度分数 <li>电话号码 <li>邮政编码 <li>State <li>已取消订阅 <li>取消订阅的原因 |
 | 特殊过滤器 | <li>列表成员 <li>计划成员 |
 | 意图数据 | 类别意图 <li>产品意图 <li>关键字意图<br/>[了解意图数据](../admin/intent-data.md)。 |
 
@@ -70,7 +70,7 @@ ht-degree: 3%
 
    * 从列表中选择&#x200B;**[!UICONTROL 购买团体角色]**。
 
-     对于当前版本，有六个角色：`Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。
+     有六个默认角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 该列表还包括在[角色&#x200B;_列表_&#x200B;中定义的任何](./default-custom-roles.md#custom-roles)自定义角色。
 
      ![购买团体角色列表](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -162,4 +162,4 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3453311/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

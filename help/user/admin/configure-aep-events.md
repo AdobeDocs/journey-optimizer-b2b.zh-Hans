@@ -5,7 +5,7 @@ feature: Setup, Integrations
 role: Admin
 soultion: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a7cf25536ac698f99d9d9a54c574f03d0fe5974b
 workflow-type: tm+mt
 source-wordcount: '1768'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # 配置Experience Platform事件定义
 
-管理员可以配置基于Adobe Experience Platform (AEP)的事件定义，这些定义使营销人员能够创建对[AEP Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反应的帐户历程。
+管理员可以配置基于Adobe Experience Platform (AEP)的事件定义，这些定义使营销人员能够创建对[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反应的帐户历程。
 
 ![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看视频概述](#overview-video)
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >与您的工程团队协调，确保定义所需的架构。 [创建XDM架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition){target="_blank"}是一个复杂的过程，由数据工程师根据您组织中的用例要求执行。
+  >与您的工程团队协调，确保定义所需的架构。 [创建XDM架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}是一个复杂的过程，由数据工程师根据您组织中的用例要求执行。
 
 * **_事件类型_** - XDM ExperienceEvent eventType（每个事件定义最多20个）。
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 1. 单击中间面板上的&#x200B;**[!UICONTROL 事件]**&#x200B;以显示事件定义列表。
 
-   从该页面中，您可以[创建](#create-an-event-definition)、[发布](#publish-an-event-defintion)、[编辑](#publish-an-event-defintion)和[删除](#delete-an-event-definition)事件定义。
+   从该页面中，您可以[创建](#create-an-event-definition)、[发布](#publish-an-event-defintion)、[编辑](#edit-an-event-definition)和[删除](#delete-an-event-definition)事件定义。
 
    ![访问配置的事件定义](./assets/configuration-events-defs-list.png){width="800" zoomable="yes"}
 
@@ -116,7 +116,7 @@ ht-degree: 1%
 
 1. 选择要用于事件定义的&#x200B;**[!UICONTROL 事件类型]**。
 
-   您选择的[事件类型](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"}决定了可用作帐户历程中&#x200B;_侦听事件_&#x200B;节点的约束的事件。
+   您选择的[事件类型](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"}决定了可用作帐户历程中&#x200B;_侦听事件_&#x200B;节点的约束的事件。
 
    * 单击&#x200B;**[!UICONTROL 选择事件类型]**。
    * 在对话框中，从列表中选择一个或多个事件类型（最多20个）。
@@ -156,7 +156,7 @@ ht-degree: 1%
 
    ![打开草稿事件定义](./assets/configuration-events-publish-draft.png){width="600" zoomable="yes"}
 
-   如果需要，请在发布之前查看设置。 如果草稿[&#128279;](#edit-an-event-definition)不符合您的要求，您可以对其进行编辑。
+   如果需要，请在发布之前查看设置。 如果草稿[不符合您的要求，您可以](#edit-an-event-definition)对其进行编辑。
 
 1. 单击右上方的&#x200B;**[!UICONTROL 发布]**。
 
@@ -276,10 +276,10 @@ ht-degree: 1%
 
 1. 在列表中找到事件定义，然后单击名称右侧的&#x200B;_删除_ （![删除图标](../assets/do-not-localize/icon-delete.svg) ）图标。
 
-1. 在确认对话框中点击&#x200B;**[!UICONTROL 删除]**。
+1. 在确认对话框中单击&#x200B;**[!UICONTROL 删除]**。
 
    ![确认删除事件定义](./assets/configuration-events-delete-confirm-dialog.png){width="300"}
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3448693/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

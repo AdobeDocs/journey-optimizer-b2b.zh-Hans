@@ -1,19 +1,19 @@
 ---
-title: 导出帐户列表
+title: 导出帐户
 description: 了解如何基于购买群组过滤器导出帐户列表。
 feature: Account Lists
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '253'
-ht-degree: 100%
+source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 91%
 
 ---
 
-# 导出帐户列表
+# 导出帐户
 
-使用&#x200B;_导出帐户列表_&#x200B;功能可以根据您定义的筛选方式导出所有帐户或一组帐户。导出过程会生成一个 CSV 文件，并在脉冲通知中发送已保存文件的 URL。您可以在需要时使用此功能将帐户转移到第三方平台。
+使用&#x200B;_导出帐户_&#x200B;功能，根据您定义的筛选条件导出所有帐户或一组帐户。 导出过程会生成一个 CSV 文件，并在脉冲通知中发送已保存文件的 URL。您可以在需要时使用此功能将帐户转移到第三方平台。
 
 1. 在 Journey Optimizer B2B Edition 中，前往左侧导航栏中的&#x200B;**[!UICONTROL 帐户]** > **[!UICONTROL 购买群组]**。
 

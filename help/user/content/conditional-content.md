@@ -1,23 +1,23 @@
 ---
 title: 条件内容
-description: 了解如何在为帐户历程创作电子邮件内容时创建内容变体并应用条件规则。
-feature: Email Authoring, Content
+description: 了解如何在为帐户历程创作可视化片段和电子邮件内容时创建内容变体并应用条件规则。
+feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
+source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1259'
 ht-degree: 10%
 
 ---
 
 # 条件内容
 
-条件内容允许您根据条件规则调整电子邮件内容。 这些规则是使用配置文件属性或上下文事件定义的。 您可以在规则生成器中创建条件规则，将其存储后可在您的帐户历程中重复使用。
+条件内容允许您根据条件规则调整电子邮件和片段内容。 这些规则是使用配置文件属性或上下文事件定义的。 您可以在规则生成器中创建条件规则，将其存储后可在您的帐户历程中重复使用。
 
-要在电子邮件中添加条件内容，Adobe Journey Optimizer允许您应用存储在&#x200B;_条件_&#x200B;库中的条件规则。 当您[为帐户历程](./email-authoring.md)创作电子邮件内容时，在电子邮件设计空间中应用条件规则。
+为了向片段和电子邮件添加条件内容，Adobe Journey Optimizer允许您应用存储在&#x200B;_条件_&#x200B;库中的条件规则。 在您为帐户历程[或](./email-authoring.md)可视片段[创作](./fragment-authoring.md)电子邮件内容时，在可视设计空间中应用条件规则。
 
-## 向电子邮件添加条件内容 {#email-content}
+## 添加条件内容 {#email-fragment-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_content"
@@ -29,15 +29,15 @@ ht-degree: 10%
 >title="条件内容"
 >abstract="使用保存在库中的条件规则或创建新规则。"
 
-在电子邮件设计空间中为帐户历程创作电子邮件时，请使用条件规则为内容组件定义多个变体。
+在可视设计空间中创作片段或电子邮件时，请使用条件规则为内容组件定义多个变体。
 
 1. 选择一个内容组件，然后单击组件工具栏中的&#x200B;**[!UICONTROL 启用条件内容]**&#x200B;图标。
 
-   该组件以橙色列出，表示它作为条件组件激活。 **[!UICONTROL 条件内容]**&#x200B;窗格在左侧显示&#x200B;_默认变体_&#x200B;和_Variant - 1。
+   该组件以橙色列出，表示它作为条件组件激活。 **[!UICONTROL 条件内容]**&#x200B;窗格显示在左侧，带有&#x200B;_默认变体_&#x200B;和&#x200B;_变体 — 1_。
 
    ![为文本组件启用条件内容](./assets/conditions-enable.png){width="700" zoomable="yes"}
 
-   所选和激活的原始内容是默认内容，并在任何条件规则都不符合您定义的任何变体时应用。
+   所选并激活的原始内容是默认内容，当您定义的任何变体都不满足任何条件规则时，将应用该内容。
 
    在此窗格中，您可以使用条件规则为所选内容组件定义多个变体。
 
@@ -51,7 +51,7 @@ ht-degree: 10%
 
    ![条件库访问条件详细信息](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
-   如果所需的条件不存在，[通过单击&#x200B;**[!UICONTROL 新建]**&#x200B;创建一个条件规则](#create-condition)。
+   如果所需的条件不存在，[通过单击](#create-condition)新建&#x200B;**[!UICONTROL 创建一个条件规则]**。
 
 1. 选择条件规则并单击&#x200B;**[!UICONTROL 选择]**&#x200B;以将其与变体关联。
 
@@ -94,22 +94,20 @@ ht-degree: 10%
 ## 条件规则
 
 条件规则是一组条件表达式，可以计算为true或false。 您可以使用这些规则根据各种过滤器（如用户档案属性或上下文事件）确定要在电子邮件中显示的内容变体。
-
-条件规则存储在条件库中，可在组织内的历程内容中重复使用。
-<!-- 
-
+规则存储在条件库中，可在电子邮件和片段内容中重复使用它们以供您的组织使用。
+<!--
 >[!NOTE]
 >
->You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization. -->
+>You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization.-->
 
 ### 条件过滤器 {#condition-filters}
 
 | 完成情况类型 | 过滤器 | 描述 |
 | -------------- | ------- | ----------- |
 | **帐户** | 帐户属性 | 帐户个人资料中的属性，包括： <li>年收入</li><li>城市</li><li>国家/地区</li><li>员工人数</li><li>行业</li><li>名称</li><li>SIC代码</li><li>State</li> |
-| | [!UICONTROL 特殊筛选器] > [!UICONTROL 有购买群] | 该帐户是否具有购买组的成员。 也可以根据以下一个或多个标准进行评估： <li>解决方案兴趣</li><li>购买组状态</li><li>完整性分数</li><li>参与度评分</li> |
+| | [!UICONTROL 特殊筛选器] > [!UICONTROL 有购买群] | 该帐户是否具有购买组的成员。 也可以根据以下一个或多个标准来评估过滤器： <li>解决方案兴趣</li><li>购买组状态</li><li>完整性分数</li><li>参与度评分</li> |
 | **人员** | [!UICONTROL 活动历史记录] > [!UICONTROL 电子邮件] | 与历程关联的电子邮件活动： <li>[!UICONTROL 已单击电子邮件中的链接]</li><li>已打开的电子邮件</li><li>已送达电子邮件</li><li>已发送电子邮件</li> 使用历程中早期的选定电子邮件评估这些条件。 |
-|  | [!UICONTROL 人员属性] | 人员配置文件中的属性，包括： <li>城市</li><li>国家/地区</li><li>出生日期</li><li>电子邮件地址</li><li>电子邮件无效</li><li>电子邮件已暂停</li><li>名字</li><li>推断的状态区域</li><li>作业名称</li><li>姓氏</li><li>手机号码</li><li>电话号码</li><li>邮政编码</li><li>State</li><li>退订</li><li>取消订阅的原因</li> |
+|  | [!UICONTROL 人员属性] | 人员配置文件中的属性，包括： <li>城市</li><li>国家/地区</li><li>出生日期</li><li>电子邮件地址</li><li>电子邮件无效</li><li>电子邮件已暂停</li><li>名字</li><li>推断的状态区域</li><li>作业名称</li><li>姓氏</li><li>手机号码</li><li>电话号码</li><li>邮政编码</li><li>State</li><li>已取消订阅</li><li>取消订阅的原因</li> |
 | | [!UICONTROL 特殊筛选器] > [!UICONTROL 购买团体成员] | 人员是否属于根据以下一个或多个标准评估的购买组成员： <li>解决方案兴趣</li><li>购买组状态</li><li>完整性分数</li><li>参与度评分</li><li>角色</li> |
 
 ### 创建条件规则 {#create-condition}
