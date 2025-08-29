@@ -3,18 +3,18 @@ title: 配置Experience Platform事件
 description: 了解可用于在Journey Optimizer B2B edition中编排帐户旅程的等待节点类型。
 feature: Setup, Integrations
 role: Admin
-soultion: Journey Optimizer B2B Edition, Experience Platform
+solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: a7cf25536ac698f99d9d9a54c574f03d0fe5974b
+source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1779'
 ht-degree: 1%
 
 ---
 
 # 配置Experience Platform事件定义
 
-管理员可以配置基于Adobe Experience Platform (AEP)的事件定义，这些定义使营销人员能够创建对[AEP Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反应的帐户历程。
+管理员可以配置基于Adobe Experience Platform (AEP)的事件定义，这些定义使营销人员能够创建对[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反应的帐户历程。
 
 ![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看视频概述](#overview-video)
 
@@ -24,13 +24,13 @@ ht-degree: 1%
 
 2. 在帐户历程中，添加&#x200B;_侦听事件_&#x200B;节点并[选择AEP事件定义作为人员事件](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event)。
 
-每个事件定义都需要以下Experience Platform输入：
+每个事件定义都需要以下Experience Platform输入值：
 
 * **_架构_** — 定义Experience Event数据结构的XDM架构。 必须基于体验事件并且必须启用配置文件。
 
   >[!NOTE]
   >
-  >与您的工程团队协调，确保定义所需的架构。 [创建XDM架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition){target="_blank"}是一个复杂的过程，由数据工程师根据您组织中的用例要求执行。
+  >要确保定义所需的架构，请与工程团队协调。 [创建XDM架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}是一个复杂的过程，由数据工程师根据您组织中的用例要求执行。
 
 * **_事件类型_** - XDM ExperienceEvent eventType（每个事件定义最多20个）。
 
@@ -70,7 +70,7 @@ ht-degree: 1%
 
    ![访问配置的事件定义](./assets/configuration-events-defs-list.png){width="800" zoomable="yes"}
 
-   该表按&#x200B;_[!UICONTROL Modified]_&#x200B;列排序，最近更新的定义默认位于顶部。<!-- Click the column title to change between ascending and descending.-->
+   该表按&#x200B;_[!UICONTROL Modified]_&#x200B;列排序，最近更新的定义在顶部作为默认值。<!-- Click the column title to change between ascending and descending.-->
 
 1. 要访问事件定义的详细信息，请单击名称。
 
@@ -80,9 +80,9 @@ ht-degree: 1%
 
 | 状态 | 描述 |
 | -------------------- | ----------- |
-| 草稿 | 创建事件定义时，该定义处于草稿状态。 在您发布它以用于帐户历程之前，它一直保持此状态。 可用操作： <br/><ul><li>编辑所有详细信息<li>发布<li>删除 |
-| 发布日期 | 发布事件定义时，它将在帐户历程中使用。 无法修改详细信息。 可用操作： <br/><ul><li>可用于&#x200B;_侦听事件_&#x200B;历程节点<li>创建草稿版本<li>删除（如果未使用） |
-| 已发布（草稿） | 从已发布的事件定义创建草稿时，已发布的版本仍可用于帐户历程，并且可以修改草稿版本。 如果您发布草稿版本，它将替换当前已发布的版本，并且事件定义会针对尚未执行的帐户历程进行更新。 可用操作： <br/><ul><li>编辑所有详细信息<li>发布草稿版本<li>放弃草稿版本<li>删除（如果未使用） |
+| 草稿 | 创建事件定义时，该定义处于草稿状态。 在您发布它以用于帐户历程之前，它一直保持此状态。 可用操作： <br/><li>编辑所有详细信息<li>发布<li>删除 |
+| 发布日期 | 发布事件定义时，它将在帐户历程中使用。 无法修改详细信息。 可用操作： <br/><li>可用于&#x200B;_侦听事件_&#x200B;历程节点<li>创建草稿版本<li>删除（如果未使用） |
+| 已发布（草稿） | 从已发布的事件定义创建草稿时，已发布的版本仍可用于帐户历程，并且可以修改草稿版本。 如果您发布草稿版本，它将替换当前已发布的版本，并且事件定义会针对尚未执行的帐户历程进行更新。 可用操作： <br/><li>编辑所有详细信息<li>发布草稿版本<li>放弃草稿版本<li>删除（如果未使用） |
 
 ![片段状态生命周期](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -106,7 +106,7 @@ ht-degree: 1%
 
 1. 设置要用于事件定义的&#x200B;**[!UICONTROL 架构]**。
 
-   您选择的架构决定了可添加到定义的字段，这些字段随后可用作帐户历程中&#x200B;_侦听事件_&#x200B;节点的约束。
+   您选择的架构决定了可添加到定义的字段。 然后，您添加的字段可用作帐户历程中&#x200B;_侦听事件_&#x200B;节点的约束。
 
    * 单击&#x200B;**[!UICONTROL 选择架构]**。
    * 在对话框中，从基于Experience Event的架构列表中选择架构。
@@ -116,7 +116,7 @@ ht-degree: 1%
 
 1. 选择要用于事件定义的&#x200B;**[!UICONTROL 事件类型]**。
 
-   您选择的[事件类型](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"}决定了可用作帐户历程中&#x200B;_侦听事件_&#x200B;节点的约束的事件。
+   您选择的[事件类型](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"}决定了可用作帐户历程中&#x200B;_侦听事件_&#x200B;节点的约束的事件。
 
    * 单击&#x200B;**[!UICONTROL 选择事件类型]**。
    * 在对话框中，从列表中选择一个或多个事件类型（最多20个）。
@@ -146,7 +146,7 @@ ht-degree: 1%
 
 ## 发布事件定义
 
-如果您对草稿事件定义完整且符合您的需求感到满意，则可以发布该定义以供帐户历程使用。 发布事件定义后，如果需要进行更改，可以创建草稿版本。 但是，您不能更改架构，并且只能添加事件类型和字段（不能删除它们）。
+如果您对草稿事件定义的完整性和正确性感到满意，则可以发布该草稿事件定义。 随后，发布的事件定义便可用于帐户历程。 发布事件定义后，如果需要进行更改，可以创建草稿版本。 但是，您不能更改架构，并且只能添加事件类型和字段（不能删除它们）。
 
 1. 在左侧导航中，选择&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 配置]**。
 
@@ -218,7 +218,7 @@ ht-degree: 1%
 
 1. 单击事件定义名称以将其打开。
 
-   对于&#x200B;_Published （含草稿）_&#x200B;事件定义，默认情况下选中&#x200B;_[!UICONTROL Published]_&#x200B;版本选项卡。
+   对于&#x200B;_Published （含草稿）_&#x200B;事件定义，_[!UICONTROL Published]_&#x200B;版本选项卡被选为默认值。
 
 1. 选择&#x200B;**[!UICONTROL 草稿]**&#x200B;版本选项卡。
 
@@ -240,7 +240,7 @@ ht-degree: 1%
 
 >[!TAB 已发布（含草稿）]
 
-打开&#x200B;_Published （含草稿）_&#x200B;事件定义时，默认情况下会选中&#x200B;_[!UICONTROL Published]_&#x200B;版本选项卡。
+打开&#x200B;_Published （含草稿）_&#x200B;事件定义时，将选择&#x200B;_[!UICONTROL Published]_&#x200B;版本选项卡作为默认选项卡。
 
 1. 选择&#x200B;**[!UICONTROL 草稿]**&#x200B;版本选项卡。
 
@@ -282,4 +282,4 @@ ht-degree: 1%
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3448693/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

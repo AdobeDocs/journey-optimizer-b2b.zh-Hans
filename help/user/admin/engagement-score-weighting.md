@@ -6,9 +6,10 @@ hide: true
 hidefromtoc: true
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 role: Admin
-source-git-commit: c17e66ae3bc6344a87cbb3e2d3a971babc9612c3
+exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
+source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 购买团体参与度得分通过评估为购买团体成员记录的各种活动来反映参与度级别。 通过自定义得分权重，营销运营团队可以灵活地定义自己的模型，以便权重确定对参与最有意义的活动。 自定义评分模型通过在销售过程中优先处理最准确地表明购买意图的行为，生成更准确的管道反映。
 
-作为管理员，您可以为组织定义多个参与度得分模型，但在任何时候只能有一个模型处于活动状态。 您可以根据要包含的活动以及应用于每个活动的权重来定义得分模型。
+作为管理员，您可以为组织定义多个参与度得分模型，但在任何时候只能有一个模型处于活动状态。 根据应用于每个参与度评分活动的权重，可定义评分模型。
 
 ## 访问参与度得分加权模型
 
@@ -29,7 +30,7 @@ ht-degree: 0%
 
    ![访问配置的事件定义](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   该表按&#x200B;_[!UICONTROL 上次更新时间]_&#x200B;列排序，最近更新的模型默认位于顶部，并包括按&#x200B;_[!UICONTROL 名称]_&#x200B;进行搜索的功能。 您可以通过单击右上角的&#x200B;_列设置_ （ ![列设置](../assets/do-not-localize/icon-column-settings.svg) ）图标并选中或清除列复选框来自定义显示的表。
+   该表顶部显示最近更新的模型（按&#x200B;_[!UICONTROL 上次更新时间]_&#x200B;排序），并包括按&#x200B;_[!UICONTROL 名称]_&#x200B;进行搜索的功能。 您可以通过单击右上角的&#x200B;_列设置_ （ ![列设置](../assets/do-not-localize/icon-column-settings.svg) ）图标并选中或清除列复选框来自定义显示的表。
 
 要在参与度得分加权列表中显示的![列](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
@@ -78,11 +79,11 @@ ht-degree: 0%
 1. 对于每个权重范围，请根据需要调整一个或多个名称：
 
    * 更改&#x200B;_[!UICONTROL 加权频带]_&#x200B;字段中的名称。
-   * 输入新值，或单击&#x200B;**+**&#x200B;或&#x200B;**-**&#x200B;以增加或减少该值。
+   * 输入新值。 您还可以单击&#x200B;**&amp;amp；加号；**&#x200B;或&#x200B;**−**&#x200B;来增加或减少值。
 
    ![参与权重设置](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
-1. 如果需要，添加另一个加权范围：
+1. 如果需要，请添加另一个加权范围：
 
    单击列表底部的&#x200B;**[!UICONTROL +添加加权带]**。 此操作在列表底部插入一个空白的加权带。
 
@@ -98,7 +99,7 @@ ht-degree: 0%
 
 {{engagement-activities}}
 
-对于列表中的每个活动，设置您要为每个活动发生次数分配的值。 在“权重”字段中单击向下箭头，然后选择在参与权重设置中定义的权重范围。
+对于列表中的每个活动，设置要分配给每个活动实例的值。 单击&#x200B;**[!UICONTROL 权重]**&#x200B;字段中的向下箭头，然后选择参与权重设置中定义的权重范围。
 
 ![设置活动权重](./assets/configuration-engagement-scoring-model-set-activity-weighting.png){width="500"}
 
