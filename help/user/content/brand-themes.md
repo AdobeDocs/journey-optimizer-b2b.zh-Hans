@@ -9,19 +9,20 @@ keywords: 电子邮件主题、可重用性、品牌协调、电子邮件设计
 badge: label="Beta 版" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 9d8aa70c23ce85058a23bbe21c198d6e074923ac
+exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
+source-git-commit: d27a72089e28d0c69ed267e4d9fba3ef44a73542
 workflow-type: tm+mt
 source-wordcount: '3085'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 对电子邮件内容使用品牌主题 {#email-brand-themes}
+# 为电子邮件内容使用品牌主题 {#email-brand-themes}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_brand_theme"
->title="将品牌主题应用于电子邮件或电子邮件模板"
->abstract="选择电子邮件或电子邮件模板的主题以应用适合您的品牌和设计的特定样式。"
+>title="在您的电子邮件或电子邮件模板中应用品牌主题"
+>abstract="为您的电子邮件或电子邮件模板选择一个主题，应用一个适合您的品牌和设计的特定样式。"
 
 通过主题，非技术设计人员能够创建符合特定品牌和样式的可重用电子邮件内容设计准则。 主题使营销人员能够更快地利用具有视觉吸引力、品牌一致的电子邮件，而且所需的工作量更少，并提供高级自定义选项以满足独特的设计需求。
 

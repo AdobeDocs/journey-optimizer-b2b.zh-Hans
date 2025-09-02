@@ -3,15 +3,15 @@ title: 购买群组的参与度分数
 description: 了解购买团体和人员参与度得分的信息，包括确定得分的计算逻辑和活动类型。
 feature: Buying Groups
 role: User
-source-git-commit: 9a70cdf73585a1d55cc973046d91fe15c7e80a02
+exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
+source-git-commit: 75a53661fdfbb65e2652f3365f4c1e907f948bd7
 workflow-type: tm+mt
 source-wordcount: '1139'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
-
-# 参与度分数 {#engagement-scores}
+# 参与度评分 {#engagement-scores}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score"
@@ -30,7 +30,7 @@ ht-degree: 24%
 
 * **人员参与度分数** — 人员参与度分数基于个人购买小组成员的活动。
 
-  每个购买群成员的人员参与分数显示在购买群组详细信息页面[_[!UICONTROL 成员&#x200B;]_&#x200B;选项卡](./buying-group-details.md#buying-group-members)中。 这些得分还会显示在页面和仪表板中，其中包括最常参与的成员和重叠的联系人信息。
+  每个购买群成员的人员参与分数显示在购买群组详细信息页面[_[!UICONTROL 成员&#x200B;]_选项卡](./buying-group-details.md#buying-group-members)中。 这些得分还会显示在页面和仪表板中，其中包括最常参与的成员和重叠的联系人信息。
 
   ![参与次数最多的购买小组成员](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
@@ -100,8 +100,8 @@ ht-degree: 24%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score_weighting"
->title="参与度得分角色权重"
->abstract="使用角色权重可自定义参与度分数的计算。"
+>title="参与度评分角色权重"
+>abstract="使用角色权重来自定义参与度评分计算。"
 
 用户可以为[角色模板](./buying-groups-role-templates.md)中的每个角色分配&#x200B;_权重_，为一个角色分配不同的权重。
 
