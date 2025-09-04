@@ -4,9 +4,9 @@ description: 了解如何在Adobe Journey Optimizer B2B edition中创建可视�
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: f700f84c55d37ded9980a08286da05011345800c
+source-git-commit: 5e0415268ac3423a6d3004338302b2f756c75a9f
 workflow-type: tm+mt
-source-wordcount: '2738'
+source-wordcount: '2736'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 **可视片段**
 
-可视化片段是使用可视化设计工具构建的预定义可视化块，您可以在多个电子邮件或电子邮件模板中重用这些可视化块。 Journey Optimizer B2B edition和本文档的当前范围仅为可视化片段。
+可视化片段是使用可视化设计工具构建的预定义可视化块，您可以在多个电子邮件或电子邮件模板中重用这些可视化块。 Journey Optimizer B2B edition的当前范围，并且本文档仅包含可视化片段。
 
 >[!NOTE]
 >
@@ -302,7 +302,7 @@ ht-degree: 2%
 
 1. 导航到&#x200B;**[!UICONTROL 帐户历程]**&#x200B;并打开现有历程或创建新历程。
 
-1. 创建[_[!UICONTROL 发送电子邮件&#x200B;]_&#x200B;节点](./add-email.md#add-an-email-action-node-in-a-journey)。
+1. 创建[_[!UICONTROL 发送电子邮件&#x200B;]_节点](./add-email.md#add-an-email-action-node-in-a-journey)。
 
 1. 创建或编辑节点[的](./email-authoring.md)电子邮件内容。
 
