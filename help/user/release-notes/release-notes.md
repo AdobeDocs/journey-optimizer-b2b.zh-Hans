@@ -4,9 +4,9 @@ description: 了解 Adobe Journey Optimizer B2B Edition 的最新功能和增强
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: eb8269b481ae7e7a9160f2d17820a81bdcd7f064
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2787'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,11 +33,11 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | 角色模板和历程的人员参与度评分过滤器 | 现在，您可以在用于创建购买群组的角色模板和拆分路径历程节点中使用&#x200B;_人员参与度分数_&#x200B;作为过滤器。 [了解详情](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
-| 功能 | 购买群组自定义角色配置 | 现在，您可以灵活地为购买组配置自定义角色，从而定义特定于用例的角色。 [了解详情](../buying-groups/default-custom-roles.md) |
-| 功能 | 参与度评分权重配置 | 您现在可以为影响购买群体参与度评分的活动分配权重。此功能包括定义您自己的自定义得分模型，以及更改影响参与得分计算的活动模型。<!-- [Learn more](../admin/engagement-score-weighting.md)  --> |
-| 增强功能 | 片段的条件内容 | 您现在可以使用条件内容工具进行可视化片段设计。 [了解详情](../content/conditional-content.md) |
-| 增强功能 | 参与度评分更新 | 更新了购买群组参与度评分逻辑，使评分规范化。此外，您还可以使用成员级别的参与度分数，以及整个购买组的集体参与度分数。 [了解详情](../buying-groups/engagement-scores.md) |
+| 功能 | 角色模板和历程的人员参与度评分过滤器 | 现在，您可以使用&#x200B;_人员参与度评分_&#x200B;作为角色模板中的过滤器，用于创建购买群组和拆分路径历程节点。[了解详情](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| 功能 | 购买群组自定义角色配置 | 您现在可以灵活地为购买群组配置自定义角色，这样您就可以定义您的用例中特有的角色。[了解详情](../buying-groups/default-custom-roles.md) |
+| 功能 | 参与度评分权重配置 | 您现在可以为影响购买群体参与度评分的活动分配权重。此功能包括定义您自己的自定义评分模型以及更改会影响参与度评分计算的活跃模型。<!-- [Learn more](../admin/engagement-score-weighting.md)  --> |
+| 增强功能 | 片段的条件内容 | 您现在可以使用条件内容工具进行视觉片段设计。[了解详情](../content/conditional-content.md) |
+| 增强功能 | 参与度评分更新 | 更新了购买群组参与度评分逻辑，使评分规范化。此外，您还可以使用会员级参与度评分以及整个购买群组的集体参与度评分。[了解详情](../buying-groups/engagement-scores.md) |
 | 增强功能 | 活跃历程可观察性——每个节点的帐户 | 对于活跃的帐户历程，您可以访问那些已到达历程中每个帐户节点的帐户的列表。 |
 
 >[!NOTE]

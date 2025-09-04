@@ -3,9 +3,9 @@ title: Adobe Journey Optimizer B2B Edition 文档
 description: 了解如何使用 Adobe Journey Optimizer B2B Edition 功能，利用内置的生成式 AI 和行业领先的自动化来编排帐户和购买群组历程。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: 59f75834895e73c3ac84a3f01c923eaa202fbad7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '591'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 76%
 
 >[!BEGINTABS]
 
->[!TAB 人员参与度分数]
+>[!TAB 人员参与度评分]
 
-B2B营销人员现在可以使用人员级别的参与度得分作为其历程的分割路径或角色模板中的过滤器来创建购买组。 此得分和筛选功能可对购买组成员进行准确定位，从而个性化正在进行的参与。
+B2B 营销人员现在可以使用个人级别的参与度评分作为某个历程的拆分路径的过滤器，或作为角色模板中的过滤器，来创建购买群组。通过评分和筛选可以精确定位购买群组成员，使持续参与更加个性化。
 
-[!BADGE 了解详情]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="了解人员参与度得分和筛选"}
+[!BADGE 了解详情]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="了解人员参与度评分和筛选"}
 
 >[!TAB 自定义购买群组角色]
 
-B2B营销策划人员现在可以通过自定义购买团体角色来扩大购买团体精准度。 在默认的6个角色之外创建最多20个自定义角色，并在购买组间重复使用它们。 在客户历程中，量身定制消息传送以匹配您独特的角色，并提高购买群体之间的相关性和参与度&#x200B;。
+B2B 营销策略师现在可以通过自定义购买群组角色来扩展购买群组的精确度。除了默认的六个角色外，还可以创建最多 20 个自定义角色，并在所有购买群组中重复使用它们。在帐户历程中定制消息，以匹配您的独特角色并提高所有购买群组的相关性和参与度。&#x200B;
 
 [!BADGE 了解详情]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="了解自定义购买群组角色"}
 
@@ -94,7 +94,7 @@ B2B营销策划人员现在可以通过自定义购买团体角色来扩大购�
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="快速入门"><br/>
-      <strong>开始使用</strong><br/><a href="home-page.md">登录和主页</a><br/><a href="./start/get-started.md">入门指南</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">AI助手</a>
+      <strong>快速入门</strong><br/><a href="home-page.md">登录和主页</a><br/><a href="./start/get-started.md">加入指南</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">AI 助手</a>
     </td>
     <!--
     <td>
@@ -131,7 +131,7 @@ B2B营销策划人员现在可以通过自定义购买团体角色来扩大购�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a>——<a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a>——<a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/home" target="_blank">文档</a>——<a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">开发人员资源</a>

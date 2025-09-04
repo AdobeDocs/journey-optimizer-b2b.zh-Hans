@@ -2,9 +2,9 @@
 user-guide-title: Journey Optimizer B2B Edition 文档
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition 以及如何使用它通过内置的生成式 AI 和行业领先的自动化来编排帐户及购买群组历程。
 source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 96%
       + [解决方案兴趣](./buying-groups/solution-interests.md)
       + [角色模板](./buying-groups/buying-groups-role-templates.md)
       + [默认和自定义角色](./buying-groups/default-custom-roles.md)
-      + [参与度分数](./buying-groups/engagement-scores.md)
+      + [参与度评分](./buying-groups/engagement-scores.md)
       + [购买群组阶段](./buying-groups/buying-group-stages.md)
       + [创建购买群组](./buying-groups/buying-groups-create.md)
       + [导出帐户](./audiences/account-list-export.md)
@@ -119,6 +119,6 @@ ht-degree: 96%
       + [短信配置](./admin/configure-channels-sms.md)
    + [配置 AEM Assets 存储库](./admin/configure-aem-repositories.md)
    + [配置 AEP 事件定义](./admin/configure-aep-events.md)
-   + [配置参与度得分权重](./admin/engagement-score-weighting.md)
+   + [配置参与度评分权重](./admin/engagement-score-weighting.md)
    + [登陆页面设置](./admin/landing-page-settings.md)
    + [监管](./admin/governance.md)
