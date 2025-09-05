@@ -2,14 +2,11 @@
 title: 配置参与度得分权重
 description: 了解如何配置自定义参与度得分权重，以反映与您的业务策略一致的得分逻辑。
 feature: Setup, Engagement, Buying Groups
-hide: true
-hidefromtoc: true
-badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
+source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
