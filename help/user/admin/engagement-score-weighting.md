@@ -4,7 +4,7 @@ description: 了解如何配置自定义参与度得分权重，以反映与您�
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
+source-git-commit: 855e06e07fff9223c607bce9adde5ef4f4f6b97b
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 0%
@@ -27,9 +27,11 @@ ht-degree: 0%
 
    ![访问配置的事件定义](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   该表顶部显示最近更新的模型（按&#x200B;_[!UICONTROL 上次更新时间]_&#x200B;排序），并包括按&#x200B;_[!UICONTROL 名称]_&#x200B;进行搜索的功能。 您可以通过单击右上角的&#x200B;_列设置_ （ ![列设置](../assets/do-not-localize/icon-column-settings.svg) ）图标并选中或清除列复选框来自定义显示的表。
+   该表顶部显示最近更新的模型（按&#x200B;_[!UICONTROL 上次更新时间]_&#x200B;排序），并包括按&#x200B;_[!UICONTROL 名称]_&#x200B;进行搜索的功能。
 
-要在参与度得分加权列表中显示的![列](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+   您可以通过单击右上角的&#x200B;_列设置_ （ ![列设置](../assets/do-not-localize/icon-column-settings.svg) ）图标并选中或清除列复选框来自定义显示的表。
+
+   要在参与度得分加权列表中显示的![列](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
 1. 要访问参与度分数模型的详细信息，请单击名称。
 
