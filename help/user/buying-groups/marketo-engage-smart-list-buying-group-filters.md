@@ -22,7 +22,7 @@ ht-degree: 1%
 
 在连接到Journey Optimizer B2B edition的Marketo Engage实例中，您可以在智能列表中使用&#x200B;_[!UICONTROL 购买组成员列表]_&#x200B;筛选器来根据促销活动策略识别这些潜在客户。
 
-1. 在Marketo Engage[创建智能列表](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}后，选择&#x200B;**[!UICONTROL 智能列表]**&#x200B;选项卡以打开筛选器编辑器。
+1. 在Marketo Engage[创建智能列表](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}后，选择&#x200B;**[!UICONTROL 智能列表]**&#x200B;选项卡以打开筛选器编辑器。
 
 1. 在右侧的筛选器列表中，向下滚动该列表并展开&#x200B;**[!UICONTROL 特殊筛选器]**&#x200B;文件夹。
 
