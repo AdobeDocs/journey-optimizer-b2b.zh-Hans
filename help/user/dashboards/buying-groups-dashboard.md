@@ -1,12 +1,12 @@
 ---
 title: 购买组概述仪表板
-description: 了解购买组概述仪表板以及它如何支持营销团队的销售移交功能。
+description: 使用完成分数、参与量度和解决方案兴趣分析跟踪购买团体进度，以在Journey Optimizer B2B edition中启用销售移交功能。
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '588'
 ht-degree: 3%
 
 ---

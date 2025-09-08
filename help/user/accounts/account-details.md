@@ -1,12 +1,12 @@
 ---
 title: 帐户详细信息
-description: 了解如何在Journey Optimizer B2B edition中访问帐户的详细信息和创作AI摘要。
+description: 在Journey Optimizer B2B edition中通过AI摘要、意图检测、联系人覆盖范围分析和电子邮件通信查看帐户洞察。
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-source-git-commit: 31c79208503e01964475230ea950eb8bdfadd176
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '639'
 ht-degree: 5%
 
 ---

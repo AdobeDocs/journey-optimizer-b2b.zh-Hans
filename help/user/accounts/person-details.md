@@ -1,16 +1,17 @@
 ---
 title: 人员详细信息
-description: 了解如何在Journey Optimizer B2B edition中访问与帐户或购买组关联的人员的详细信息和创作AI摘要。
+description: 在Journey Optimizer B2B edition中，通过AI摘要、参与度分数、活动跟踪和意图检测查看购买小组成员的人员见解。
 feature: Account Insights
 role: User
-source-git-commit: 5382bc89903a567268ee06648a8d6b0bf34695a6
+exl-id: 401d7107-fd20-471e-9adf-a64c590b0080
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 5%
+source-wordcount: '297'
+ht-degree: 6%
 
 ---
 
-# 人员详细信息
+# 个人详细信息
 
 当您从Journey Optimizer B2B edition中的任何位置单击人员名称时，都会显示人员详细信息页面。 此页面包含与帐户或购买组关联的人员的有用信息，包括高亮和意图数据的创作AI摘要（如果已配置）。<!-- There are also [actions](#person-actions) that you can execute for the person. -->
 

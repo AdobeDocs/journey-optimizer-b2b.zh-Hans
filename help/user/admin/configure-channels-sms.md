@@ -1,12 +1,12 @@
 ---
 title: 短信配置
-description: 了解如何配置与支持的短信提供商的连接，以供Journey Optimizer B2B edition短信消息传送使用。
+description: 将Sinch、Twilio和Infobip等SMS提供商连接到API凭据，以在Journey Optimizer B2B edition历程中启用文本消息。
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ Adobe Journey Optimizer B2B edition目前与独立提供短信服务的第三方
 
 >[!TAB Sinch]
 
-_要将Sinch配置为您的Adobe Journey Optimizer B2B edition短信提供商：_
+使用Adobe Journey Optimizer B2B edition将Sinch配置为短信提供商(_T):_
 
 1. 在左侧导航栏中，展开&#x200B;**[!UICONTROL 管理员]**&#x200B;部分，然后单击&#x200B;**[!UICONTROL 配置]**。
 
-1. 单击&#x200B;_[!UICONTROL API凭据]_&#x200B;列表右上角的&#x200B;**[!UICONTROL 创建新API凭据]**。
+1. 单击&#x200B;**[!UICONTROL API凭据]**&#x200B;列表右上角的&#x200B;_[!UICONTROL 创建新API凭据]_。
 
 1. 配置您的SMS API凭据：
 
@@ -71,11 +71,11 @@ _要将Sinch配置为您的Adobe Journey Optimizer B2B edition短信提供商：
 
 >[!TAB Twilio]
 
-_要将Twilio配置为您的Adobe Journey Optimizer B2B edition短信提供商，请执行以下操作：_
+要将Twilio配置为使用Adobe Journey Optimizer B2B edition的短信提供商(_T):_
 
 1. 在左侧导航栏中，展开&#x200B;**[!UICONTROL 管理员]**&#x200B;部分，然后单击&#x200B;**[!UICONTROL 配置]**。
 
-1. 单击&#x200B;_[!UICONTROL API凭据]_&#x200B;列表右上角的&#x200B;**[!UICONTROL 创建新API凭据]**。
+1. 单击&#x200B;**[!UICONTROL API凭据]**&#x200B;列表右上角的&#x200B;_[!UICONTROL 创建新API凭据]_。
 
 1. 配置您的SMS API凭据：
 
@@ -93,11 +93,11 @@ _要将Twilio配置为您的Adobe Journey Optimizer B2B edition短信提供商�
 
 >[!TAB Infobip]
 
-_要将Infobip配置为您的Adobe Journey Optimizer B2B edition短信提供商，请执行以下操作：_
+使用Adobe Journey Optimizer B2B edition将Infobip配置为短信提供商(_T):_
 
 1. 在左侧导航栏中，展开&#x200B;**[!UICONTROL 管理员]**&#x200B;部分，然后单击&#x200B;**[!UICONTROL 配置]**。
 
-1. 单击&#x200B;_[!UICONTROL API凭据]_&#x200B;列表右上角的&#x200B;**[!UICONTROL 创建新API凭据]**。
+1. 单击&#x200B;**[!UICONTROL API凭据]**&#x200B;列表右上角的&#x200B;_[!UICONTROL 创建新API凭据]_。
 
 1. 配置您的SMS API凭据：
 

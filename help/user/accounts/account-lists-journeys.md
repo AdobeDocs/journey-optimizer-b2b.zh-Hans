@@ -1,12 +1,12 @@
 ---
 title: 在历程和程序中使用帐户列表
-description: 了解如何在历程中编排帐户列表成员资格，并根据帐户列表成员资格筛选Marketo Engage智能列表。
+description: 在Journey Optimizer B2B edition中使用Journey Orchestration中的帐户列表、动态添加/删除帐户以及筛选Marketo Engage智能列表。
 feature: Account Lists, Account Journeys
 role: User
 exl-id: 7cda080d-6263-4ccd-b144-432e4e78c298
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 所有帐户历程都以&#x200B;[_帐户受众_&#x200B;节点](../journeys/account-audience-nodes.md)开始。 将此节点设置为使用帐户列表时，成员帐户将在历程上线（发布）时移动历程。
 
-1. 为起始&#x200B;_帐户受众_&#x200B;节点选择&#x200B;**[!UICONTROL 帐户列表]**&#x200B;选项。
+1. 为起始&#x200B;**[!UICONTROL 帐户受众]**&#x200B;节点选择&#x200B;_帐户列表_&#x200B;选项。
 
    ![为帐户受众节点选择帐户列表选项](../journeys/assets/node-audience-account-list.png){width="500"}
 
@@ -35,15 +35,15 @@ ht-degree: 0%
 
 在帐户历程中，使用[a _执行操作_&#x200B;节点](../journeys/action-nodes.md)将帐户添加到静态帐户列表。
 
-例如，您可能有一个发送电子邮件的历程路径，一些帐户会将各种操作作为响应操作。 您将此活动视为历程中的资格点，并希望将它们添加到帐户列表，该帐户列表用于作为另一个历程的受众，该历程具有不同的合格帐户流程。
+例如，您可能有一个发送电子邮件的历程路径，一些帐户会将各种操作作为响应操作。 您将此活动视为历程中的资格点。 利用资格，您希望将它们添加到帐户列表，该帐户列表用于作为另一个历程的受众，该历程具有不同的合格帐户流程。
 
 >[!NOTE]
 >
 >如果执行节点时帐户已位于列表中，则将忽略该操作。
 
-1. 选择&#x200B;_&#x200B;**[!UICONTROL 帐户]**&#x200B;上的_&#x200B;操作选项。
+1. 选择&#x200B;__&#x200B;帐户&#x200B;**[!UICONTROL 上的]**&#x200B;操作选项。
 
-1. 若要对帐户&#x200B;_执行_&#x200B;操作，请选择&#x200B;**[!UICONTROL 添加到帐户列表]**。
+1. 若要对帐户&#x200B;_[!UICONTROL 执行]_&#x200B;操作，请选择&#x200B;**[!UICONTROL 添加到帐户列表]**。
 
    ![选择“添加到帐户列表”](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
 
@@ -57,15 +57,15 @@ ht-degree: 0%
 
 在帐户历程中，使用[a _执行操作_&#x200B;节点](../journeys/action-nodes.md)从静态帐户列表中删除帐户。
 
-例如，您可能有一个发送电子邮件的历程路径，一些帐户会将各种操作作为响应操作。 您将此活动视为历程中的资格认证点，并想要将其从帐户列表中删除，该帐户列表用于作为另一历程的受众，该历程会发送其他电子邮件，以便您不会复制资格认证通信。
+例如，您可能有一个发送电子邮件的历程路径，一些帐户会将各种操作作为响应操作。 您将此活动视为历程中的资格点。 利用此资格，您想要从帐户列表中删除他们，该帐户列表用于作为发送其他电子邮件的另一个历程的受众，以便您不会复制资格通信。
 
 >[!NOTE]
 >
 >如果某个帐户不在计划删除的列表中，则该操作将被忽略。
 
-1. 选择&#x200B;_&#x200B;**[!UICONTROL 帐户]**&#x200B;上的_&#x200B;操作选项。
+1. 选择&#x200B;__&#x200B;帐户&#x200B;**[!UICONTROL 上的]**&#x200B;操作选项。
 
-1. 若要对帐户&#x200B;_执行_&#x200B;操作，请选择&#x200B;**[!UICONTROL 从帐户列表中删除]**。
+1. 若要对帐户&#x200B;_[!UICONTROL 执行]_&#x200B;操作，请选择&#x200B;**[!UICONTROL 从帐户列表中删除]**。
 
    ![选择“添加到帐户列表”](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 作为营销人员，您可能希望在Marketo Engage中为属于Journey Optimizer B2B edition帐户列表的人员禁止显示项目。
 
-在连接到Journey Optimizer B2B edition的Marketo Engage实例中，您可以使用智能列表中的&#x200B;_[!UICONTROL 帐户列表成员]_&#x200B;过滤器根据营销活动策略识别这些潜在客户。 有关智能列表的详细信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}。
+在连接到Journey Optimizer B2B edition的Marketo Engage实例中，您可以使用智能列表中的&#x200B;_[!UICONTROL 帐户列表成员]_&#x200B;过滤器根据营销活动策略识别这些潜在客户。 有关智能列表的详细信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}。
 
 ### 将筛选器添加到智能列表
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 1. 在营销活动流程中，添加&#x200B;**[!UICONTROL 添加到列表]**&#x200B;步骤，并从Journey Optimizer B2B edition帐户列表中选择要填充人员的列表。
 
-   请参阅Marketo Engage文档中的&#x200B;_[将流程步骤添加到智能营销活动](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_，了解有关将步骤添加到流程的详细信息。
+   请参阅Marketo Engage文档中的&#x200B;_[将流程步骤添加到智能营销活动](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_，了解有关将步骤添加到流程的详细信息。
 
 ### 查看成员
 

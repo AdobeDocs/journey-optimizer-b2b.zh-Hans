@@ -1,20 +1,20 @@
 ---
 title: 配置Experience Platform事件
-description: 了解如何配置Experience Platform事件定义以用于Journey Optimizer B2B edition历程。
+description: 配置Experience Platform事件定义，以根据客户行为在Journey Optimizer B2B edition中触发实时帐户历程。
 feature: Setup, Integrations
 role: Admin
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 2cfe830608857206dacb23bb52e41f0b3953b39b
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '1775'
+source-wordcount: '1778'
 ht-degree: 1%
 
 ---
 
 # 配置Experience Platform事件定义
 
-管理员可以配置基于Adobe Experience Platform (AEP)的事件定义，这些定义使营销人员能够创建对[AEP Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反应的帐户历程。
+管理员可以配置基于Adobe Experience Platform (AEP)的事件定义，这些定义使营销人员能够创建对[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反应的帐户历程。
 
 ![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看视频概述](#overview-video)
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >要确保定义所需的架构，请与工程团队协调。 [创建XDM架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition){target="_blank"}是一个复杂的过程，由数据工程师根据您组织中的用例要求执行。
+  >要确保定义所需的架构，请与工程团队协调。 [创建XDM架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}是一个复杂的过程，由数据工程师根据您组织中的用例要求执行。
 
 * **_事件类型_** - XDM ExperienceEvent eventType（每个事件定义最多20个）。
 
@@ -116,7 +116,7 @@ ht-degree: 1%
 
 1. 选择要用于事件定义的&#x200B;**[!UICONTROL 事件类型]**。
 
-   您选择的[事件类型](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"}决定了可用作帐户历程中&#x200B;_侦听事件_&#x200B;节点的约束的事件。
+   您选择的[事件类型](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"}决定了可用作帐户历程中&#x200B;_侦听事件_&#x200B;节点的约束的事件。
 
    * 单击&#x200B;**[!UICONTROL 选择事件类型]**。
    * 在对话框中，从列表中选择一个或多个事件类型（最多20个）。
@@ -282,4 +282,4 @@ ht-degree: 1%
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3448693/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

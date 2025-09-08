@@ -1,12 +1,12 @@
 ---
 title: 目的数据
-description: 了解如何汇编和提交关键词以生成Journey Optimizer B2B edition的意图数据。
+description: 在Journey Optimizer B2B edition中，通过关键词映射配置意图数据以预测客户兴趣和用于基于账户的营销的购买信号。
 feature: Setup, Intent, Account Insights
 roles: Admin
 exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
-source-git-commit: 65c7bdcc998c604125442fbd0a65c2f8ebd3255d
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---

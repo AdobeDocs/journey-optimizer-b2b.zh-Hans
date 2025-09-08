@@ -1,13 +1,13 @@
 ---
 title: 智能仪表板
-description: 了解智能仪表板，它提供了有关购买群组和帐户指标的全面视图
+description: 访问AI支持的见解，了解如何在Journey Optimizer B2B edition中使用参与量度、意图检测和预测分析来购买群组和帐户。
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '1688'
-ht-degree: 15%
+source-wordcount: '1679'
+ht-degree: 16%
 
 ---
 
@@ -66,7 +66,7 @@ _[!UICONTROL 购买组阶段]_&#x200B;图表提供了跨不同阶段的购买组
 
 生成的摘要根据配置的过渡规则，概述了不同阶段中的购买组进展。
 
-### 时间段 {#time-period-stages}
+### 时段 {#time-period-stages}
 
 使用右上角的日期过滤器可更改数据可视化的日期范围。 单击向下箭头可设置相对日期范围，或设置自定义开始日期和结束日期。
 
@@ -136,7 +136,7 @@ _[!UICONTROL 购买群组亮点]_&#x200B;分区分为三行，以显示有关您
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
 
-### 时间段 {#time-period-bg-highlights}
+### 时段 {#time-period-bg-highlights}
 
 使用右上角的日期过滤器可更改数据可视化的日期范围。 单击向下箭头可设置相对日期范围，或设置自定义开始日期和结束日期。
 
@@ -153,7 +153,7 @@ _[!UICONTROL 购买群组亮点]_&#x200B;分区分为三行，以显示有关您
 
 >[!NOTE]
 >
->帐户激增数据仅限于Journey Optimizer B2B edition通过帐户历程或购买团体摄取的帐户受众中的帐户。
+>帐户激增数据仅包括Journey Optimizer B2B edition通过帐户历程或购买团体摄取的帐户。
 
 ![帐户激增数据可视化图表](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -175,7 +175,7 @@ _[!UICONTROL 购买群组亮点]_&#x200B;分区分为三行，以显示有关您
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
 
-### 时间段 {#time-period-acct-surge}
+### 时段 {#time-period-acct-surge}
 
 使用右上角的日期过滤器可更改数据可视化的日期范围。 单击向下箭头可设置相对日期范围，或设置自定义开始日期和结束日期。
 
@@ -197,7 +197,7 @@ _[!UICONTROL 帐户高亮显示]_&#x200B;部分被组织为两行，以显示有
 
 >[!NOTE]
 >
->帐户高亮数据仅限于Journey Optimizer B2B edition通过帐户历程或购买群组在帐户受众中摄取的帐户。
+>帐户突出显示数据仅包括Journey Optimizer B2B edition通过帐户历程或购买组摄取的帐户。
 
 ![帐户亮点](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
@@ -229,7 +229,7 @@ At the top right of the _Buying group highlights_ panel, click **[!UICONTROL Vie
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
 
-### 时间段 {#time-period-acct-highlights}
+### 时段 {#time-period-acct-highlights}
 
 使用右上角的日期过滤器可更改数据可视化的日期范围。 单击向下箭头可设置相对日期范围，或设置自定义开始日期和结束日期。
 

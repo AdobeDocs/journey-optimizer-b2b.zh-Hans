@@ -1,15 +1,15 @@
 ---
 title: 登陆页面配置
-description: 了解如何访问和配置登陆页面设置，以便您的营销团队可以创作和发布网页来支持其营销活动。
+description: 配置登陆页面子域、表单预填充设置和数据流，以在Journey Optimizer B2B edition中启用营销活动网页发布。
 feature: Setup, Landing Pages, Content
 role: Admin
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: 8bd3d696a52a813b88de9e3b58145b1cbfb3fa32
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '506'
 ht-degree: 23%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_missing_datastream"
 >title="缺少数据流ID"
->abstract="子域缺少正确路由所需的数据流ID。 在“设置”中配置以继续"
+>abstract="子域缺少数据流ID，这是正确路由所必需的。 在“设置”中配置以继续"
 
 设置&#x200B;**[!UICONTROL 数据流]**&#x200B;选项以配置用于登陆页面事件收集的数据流。
 

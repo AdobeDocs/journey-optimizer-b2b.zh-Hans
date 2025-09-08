@@ -1,10 +1,10 @@
 ---
 title: 帐户列表
-description: 了解帐户列表以及营销人员如何使用它们通过帐户历程定位帐户。
+description: 在Journey Optimizer B2B edition中，使用自定义过滤器创建静态和动态帐户列表，以实现目标历程编排和基于帐户的营销。
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 40d39ba6d3b4844fe928db5cbf3a990d523aadef
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
 source-wordcount: '1346'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 在Journey Optimizer B2B edition中，帐户列表是营销人员可用于进行目标历程编排的指定帐户集合。 帐户列表可以根据您定义的条件（如行业、位置或公司规模）来定位指定帐户。 帐户列表有两种类型：
 
 * **静态** — 使用静态帐户列表时，该列表仅在您添加帐户时更改。 您可以通过应用过滤器集以根据当前帐户数据填充列表来手动添加帐户，或通过帐户历程添加和删除帐户。
-* **动态** — 使用动态帐户列表，您可以定义用于自动策划列表的过滤器集。 系统使用此筛选器集根据帐户信息的更改添加和删除帐户。 此列表管理类似于Real-time Customer Data Platform[中的](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}受众分段。
+* **动态** — 使用动态帐户列表，您可以定义用于自动策划列表的过滤器集。 系统使用此筛选器集根据帐户信息的更改添加和删除帐户。 此列表管理类似于Real-time Customer Data Platform[中的](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}受众分段。
 
 当帐户列表处于&#x200B;_实时_（已发布）状态时，它可用于[在帐户历程和Marketo Engage程序中使用](./account-lists-journeys.md)。
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->帐户列表利用Marketo Engage中的帐户数据创建帐户区段和列表。 这意味着，如果Adobe Experience Platform中的某个帐户区段未主动同步到Marketo Engage，则该Experience Platform区段中的帐户可能在Journey Optimizer B2B edition帐户列表中不可用。 随后，Experience Platform区段中未同步到Marketo Engage的帐户中的任何人员，都不会包含在人员会员计数中，也不会计入触发事件中。
+>帐户列表利用Marketo Engage中的帐户数据创建帐户区段和列表。 这意味着，如果Adobe Experience Platform中的某个帐户区段未主动同步到Marketo Engage，则该Experience Platform区段中的帐户可能在Journey Optimizer B2B edition帐户列表中不可用。 随后，只有来自Experience Platform区段中同步到Marketo Engage的帐户的人员，才会包含在人员会员计数中，并会触发事件。
 
 ## 访问和浏览帐户列表
 
@@ -180,4 +180,4 @@ ht-degree: 2%
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3448659/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3448636/?learn=on)

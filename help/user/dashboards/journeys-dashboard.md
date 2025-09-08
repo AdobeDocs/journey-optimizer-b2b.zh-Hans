@@ -1,12 +1,12 @@
 ---
 title: 帐户历程概述仪表板
-description: 了解历程概述功能板提供的信息，以及它如何帮助您监控和管理客户历程策略。
+description: 在Journey Optimizer B2B edition中通过完成率、参与量度和渠道效率分析跟踪客户历程表现。
 feature: Dashboards, Account Journeys
 role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '367'
 ht-degree: 2%
 
 ---

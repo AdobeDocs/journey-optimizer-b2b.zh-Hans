@@ -1,13 +1,13 @@
 ---
 title: 购买群组的参与度分数
-description: 了解购买团体和人员参与度得分的信息，包括确定得分的计算逻辑和活动类型。
-feature: Buying Groups
+description: 通过Journey Optimizer B2B edition中的加权活动和基于角色的计算来跟踪购买团体和人员参与度分数。
+feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 75a53661fdfbb65e2652f3365f4c1e907f948bd7
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 25%
+source-wordcount: '1251'
+ht-degree: 30%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 25%
 
 * **人员参与度分数** — 人员参与度分数基于个人购买小组成员的活动。
 
-  每个购买群成员的人员参与分数显示在购买群组详细信息页面[_[!UICONTROL 成员&#x200B;]_&#x200B;选项卡](./buying-group-details.md#buying-group-members)中。 这些得分还会显示在页面和仪表板中，其中包括最常参与的成员和重叠的联系人信息。
+  每个购买群成员的人员参与分数显示在购买群组详细信息页面[_[!UICONTROL 成员&#x200B;]_选项卡](./buying-group-details.md#buying-group-members)中。 这些得分还会显示在页面和仪表板中，其中包括最常参与的成员和重叠的联系人信息。
 
   ![参与次数最多的购买小组成员](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
@@ -50,7 +50,16 @@ ht-degree: 25%
 
 每项活动的每日频率上限为 20 次。如果购买组的成员在一天内执行相同的活动超过20次，则该活动的计数上限为20。
 
-{{engagement-activities}}
+| 活动名称 | 描述 | 参与类型 | 每日最大频率计数 | 默认模型活动权重 |
+|---------------|-------------|-----------------|---------------------------|-------------------------------|
+| 参加活动 | 成员参加了某个活动 | 活动 | 20 | 60 |
+| 电子邮件已点击 | 成员点击电子邮件中的链接 | 电子邮件 | 20 | 30 |
+| 电子邮件已打开 | 成员打开一个电子邮件 | 电子邮件 | 20 | 30 |
+| 表单已填写 | 成员在某个网页上填写并提交一份表单 | Web | 20 | 40 |
+| 重要时刻 | 成员有一个有趣的时刻 | 策划的 | 20 | 60 |
+| 链接点击次数 | 成员点击网页上的某个链接 | Web | 20 | 40 |
+| Page Views | 成员查看网页 | Web | 20 | 40 |
+| 报名参加活动 | 为事件注册的成员 | 活动 | 20 | 60 |
 
 <!-- old list
 

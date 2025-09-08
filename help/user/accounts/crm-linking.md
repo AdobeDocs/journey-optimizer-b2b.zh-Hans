@@ -1,21 +1,22 @@
 ---
-title: 对详细信息页面的CRM内访问权限
-description: 了解销售团队成员如何直接从他们的客户关系管理(CRM)工具(如Salesforce或Microsoft Dynamics)访问有关客户、联系人和潜在客户的详细页面。
+title: CRM 内访问详细信息页面
+description: 添加帐户和联系人详细信息的自定义链接，以便能够从Salesforce和Dynamics CRM直接访问Journey Optimizer B2B分析。
 feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
-source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
+exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 0%
+source-wordcount: '1428'
+ht-degree: 1%
 
 ---
 
-# 对详细信息页面的CRM内访问权限
+# CRM 内访问详细信息页面
 
-Adobe Journey Optimizer B2B edition允许销售团队成员和客户经理直接从他们的客户关系管理(CRM)工具(如Salesforce或Microsoft Dynamics)访问有关帐户和购买群组信息的详细页面。 利用此集成，销售代表可以快速访问实时帐户和购买群组洞察，例如参与历史记录、意图信号和AI生成的推荐。 这一能力使销售团队能够更快地开展外联工作，更明智地确定优先顺序，更好地与营销部门保持一致。
+Adobe Journey Optimizer B2B edition允许销售和客户团队成员直接从他们的客户关系管理(CRM)工具(如Salesforce或Microsoft Dynamics)访问有关帐户和购买群组信息的详细页面。 利用此集成，销售代表可以快速访问实时帐户和购买群组洞察，例如参与历史记录、意图信号和AI生成的推荐。 这一能力使销售团队能够更快地开展外联工作，更明智地确定优先顺序，更好地与营销部门保持一致。
 
-要使销售团队成员能够从CRM中查看Journey Optimizer B2B edition中的[帐户详细信息](account-details.md)和[人员详细信息](person-details.md)页面，Salesforce或Dynamics管理员可以从帐户、联系人或潜在客户视图添加Journey Optimizer B2B edition链接。
+要使销售和帐户团队成员能够从CRM中查看Journey Optimizer B2B edition中的[帐户详细信息](account-details.md)和[人员详细信息](person-details.md)页面，Salesforce或Dynamics管理员可以从帐户、联系人或潜在客户视图添加链接。
 
 当销售团队成员使用CRM实例中的链接时，沙盒应为&#x200B;_Prod_，并根据以下顺序逻辑确定IMS组织：
 
@@ -91,7 +92,7 @@ Salesforce中的![自定义链接](./assets/crm-linking-sfdc-account-examples.pn
 
 +++
 
-+++详细信息页面按钮
++++“详细信息页面”按钮
 
 1. 在Salesforce中，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 对象管理器]** > **[!UICONTROL 帐户]**/**[!UICONTROL 联系人]**/**[!UICONTROL 潜在客户]** > **[!UICONTROL 按钮、链接和操作]**。
 1. 单击右上角的&#x200B;**[!UICONTROL 新建按钮或链接]**&#x200B;并创建详细信息页面按钮。
@@ -319,7 +320,7 @@ Dynamics中的![自定义链接](./assets/crm-linking-dynamics-account-examples.
 
    ![Web资源](./assets//crm-linking-dynamics-web-resource-form-properties.png){width="500" zoomable="yes"}
 
-   有关Web资源属性和格式化的详细信息，请参阅[Power Apps文档](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/web-resource-properties-legacy)。
+   有关Web资源属性和格式的详细信息，请参阅[Power Apps文档](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/web-resource-properties-legacy)。
 
 1. 单击&#x200B;**[!UICONTROL 确定]**。
 

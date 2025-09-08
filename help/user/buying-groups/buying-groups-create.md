@@ -1,12 +1,12 @@
 ---
 title: 创建购买组
-description: 了解如何使用所需组件创建购买组。
+description: 在Journey Optimizer B2B edition中选择用于自动营销的解决方案兴趣和客户受众，以创建购买群组。
 feature: Buying Groups
 role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: d68d99c56b125b9caff62f69a0b88b142c62e056
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '276'
 ht-degree: 3%
 
 ---
@@ -64,4 +64,4 @@ Remove a member of the buying group. -->
 
 ## 操作说明视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3451771/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)
