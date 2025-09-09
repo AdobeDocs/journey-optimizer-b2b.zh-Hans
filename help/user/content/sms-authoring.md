@@ -1,13 +1,13 @@
 ---
 title: 短信创作
-description: 了解如何在其移动设备上向客户发送短信(SMS)，以及通过短信编辑器以文本格式个性化和预览消息。
+description: 为具有个性化、链接和同意管理的帐户历程创建短信消息 — 在Journey Optimizer B2B edition中预览内容并配置投放设置。
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 3%
+source-wordcount: '1362'
+ht-degree: 2%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 3%
 
 使用Adobe Journey Optimizer B2B edition在其移动设备上向客户发送短信(SMS)。 您可以从短信编辑器中创建、个性化和预览文本格式的消息。
 
-在为帐户历程创建短信消息之前，请确保从&#x200B;_[!UICONTROL 管理员]_&#x200B;设置中配置了[短信服务提供程序](../admin/configure-channels-sms.md)。
+在为帐户历程创建短信消息之前，请确保从[管理员](../admin/configure-channels-sms.md)设置中配置了&#x200B;_[!UICONTROL 短信服务提供程序]_。
 
 ## 在帐户历程中添加短信操作
 
 添加&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点并执行以下操作时，您可以在帐户历程中设置短信投放：
 
-1. 对于&#x200B;_目标上的_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
+1. 对于&#x200B;_[!UICONTROL 目标上的]_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
 
-1. 若要对人员&#x200B;_执行_&#x200B;操作，请选择&#x200B;**[!UICONTROL 发送短信]**。
+1. 若要对人员&#x200B;_[!UICONTROL 执行]_&#x200B;操作，请选择&#x200B;**[!UICONTROL 发送短信]**。
 
    ![执行操作 — 发送短信](assets/journey-node-send-sms.png){width="800" zoomable="yes"}
 
@@ -92,7 +92,7 @@ ht-degree: 3%
      >[!NOTE]
      >
      >当您允许跟踪但禁用&#x200B;_[!UICONTROL 包含mkt_tok]_&#x200B;时，目标URL在重定向后不包含`mkt_tok`查询字符串参数。 Marketo Engage登陆页面和Munchkin使用此参数以确保跟踪人员活动（例如，当人员取消订阅电子邮件时）。 除非参数导致您的网站出现问题，否则请勿禁用此选项。<br/>
-     >有关在网站上使用Munchkin跟踪代码的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}。
+     >有关在网站上使用Munchkin跟踪代码的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}。
 
    ![为短信消息添加链接对话框](./assets/sms-add-link-dialog.png){width="470"}
 
@@ -124,7 +124,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
 >title="检查您的内容的渲染方式"
->abstract="定义内容后可进行预览，并根据所使用的渠道检查渲染是否正确。"
+>abstract="定义内容后，您可以预览和检查正在使用的渠道的渲染。"
 
 定义消息内容后，您可以使用测试用户档案来模拟（预览）其内容。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
 

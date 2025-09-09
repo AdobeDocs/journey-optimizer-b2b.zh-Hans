@@ -1,6 +1,6 @@
 ---
 title: 对电子邮件内容使用品牌主题
-description: 了解如何使用可重用主题简化电子邮件内容创建，确保设计一致性和效率。
+description: 为电子邮件和模板创建自定义品牌主题 — 在Journey Optimizer B2B edition中为一致设计定义颜色、字体、间距和按钮。
 feature: Email Authoring, Brand Identity, Content Design Tools
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ badge: label="Beta 版" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: d27a72089e28d0c69ed267e4d9fba3ef44a73542
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '3085'
-ht-degree: 2%
+source-wordcount: '3087'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_brand_theme"
 >title="在您的电子邮件或电子邮件模板中应用品牌主题"
->abstract="为您的电子邮件或电子邮件模板选择一个主题，应用一个适合您的品牌和设计的特定样式。"
+>abstract="选择电子邮件或电子邮件模板的主题以应用适合您的品牌和设计的样式。"
 
 通过主题，非技术设计人员能够创建符合特定品牌和样式的可重用电子邮件内容设计准则。 主题使营销人员能够更快地利用具有视觉吸引力、品牌一致的电子邮件，而且所需的工作量更少，并提供高级自定义选项以满足独特的设计需求。
 
@@ -132,7 +132,7 @@ ht-degree: 2%
 
   | 类型 | 设置 | 描述 |
   | ---- | -------- | ----------- |
-  | [!UICONTROL 常规] | ![变体的常规颜色设置](./assets/email-theme-colors-settings-variant-general.png){width="300"} | 这些设置允许您设置主体、结构、容器、背景、链接、网格和边框的颜色。 |
+  | [!UICONTROL 常规] | ![变体的常规颜色设置](./assets/email-theme-colors-settings-variant-general.png){width="300"} | 这些设置确定主体、结构、容器、背景、链接、网格和边框的颜色。 |
   | [!UICONTROL 标题] | ![变体的标题颜色设置](./assets/email-theme-colors-settings-variant-headings.png){width="300"} | 这些设置适用于`Heading`元素，您可以在其中为六个标题级别中的每一个设置文本和边框颜色。 展开要为变体设置颜色的每个标题级别。 |
   | [!UICONTROL 段落] | ![变体的段落颜色设置](./assets/email-theme-colors-settings-variant-paragraphs.png){width="300"} | 这些设置适用于`Paragraph`元素，您可以在其中为三种段落类型中的每种设置文本和边框颜色。 展开要为变体设置颜色的每个段落类型。 |
   | [!UICONTROL 按钮] | 变体的![按钮颜色设置](./assets/email-theme-colors-settings-variant-buttons.png){width="300"} | 这些设置应用于按钮元素，您可以在其中为三个按钮预设中的每一个设置填充颜色、边框颜色和文本颜色： _Primary_、_Secondary_&#x200B;和&#x200B;_Tertiary_。 |

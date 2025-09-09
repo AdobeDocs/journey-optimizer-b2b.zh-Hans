@@ -1,6 +1,6 @@
 ---
-title: 品牌一致性评分
-description: 了解如何使用品牌一致性得分创建、验证和管理品牌内内容。
+title: 品牌一致性打分
+description: 通过品牌一致性评分评估电子邮件内容 — 根据Journey Optimizer B2B edition中的品牌准则验证颜色、字体、徽标和书写样式。
 badge: label="Beta 版" type="Informative"
 feature: Content, Brand Identity
 hide: true
@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 17%
+source-wordcount: '467'
+ht-degree: 11%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="品牌一致性得分"
->abstract="您的品牌一致性得分衡量了您的内容是否遵循品牌指南，旨在确保颜色、字体、徽标、图像和写作风格的一致性。"
+>abstract="您的品牌协调得分衡量您的内容遵守品牌准则的程度，确保颜色、字体、徽标、图像和书写风格的一致性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors"
