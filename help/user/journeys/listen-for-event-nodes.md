@@ -119,7 +119,7 @@ ht-degree: 8%
 
 ### 收听体验活动
 
-管理员可以配置基于Adobe Experience Platform (AEP)的事件定义，这些定义使营销人员能够创建对[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反应的帐户历程。 在帐户历程中使用AEP体验事件包括两个步骤：
+管理员可以配置基于Adobe Experience Platform (AEP)的事件定义，这些定义使营销人员能够创建对[AEP Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反应的帐户历程。 在帐户历程中使用AEP体验事件包括两个步骤：
 
 1. [创建并发布AEP事件定义](../admin/configure-aep-events.md)。
 
