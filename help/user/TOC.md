@@ -112,7 +112,7 @@ ht-degree: 96%
    + [购买群组概述](./dashboards/buying-groups-dashboard.md)
    + [帐户历程概述](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
-   + [监管](./admin/governance.md)
+   + [治理](./admin/governance.md)
    + [用户管理](./admin/user-management.md)
    + 渠道 {#channels}
       + [电子邮件配置](./admin/configure-channels-emails.md)
