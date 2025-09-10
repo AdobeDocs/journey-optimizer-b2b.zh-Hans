@@ -47,7 +47,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_datastream"
 >title="数据流要求"
->abstract="需要数据流从此域上的登陆页收集页面事件。"
+>abstract="需要通过数据流从此域上的登陆页收集页面事件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_missing_datastream"
