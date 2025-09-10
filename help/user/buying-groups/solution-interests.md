@@ -1,12 +1,12 @@
 ---
 title: 解决方案兴趣
-description: 在Journey Optimizer B2B edition中定义解决方案兴趣，以识别目标产品并自动使用角色模板创建购买组。
+description: 在Journey Optimizer B2B edition中创建目标产品的解决方案兴趣，使用角色模板自动创建购买组，以及管理阶段进展。
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '722'
 ht-degree: 1%
 
 ---
@@ -104,4 +104,4 @@ ht-degree: 1%
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3450123/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

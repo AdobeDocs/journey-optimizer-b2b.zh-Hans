@@ -1,12 +1,12 @@
 ---
-title: Journey Optimizer B2B Edition 发行说明
-description: 了解 Adobe Journey Optimizer B2B Edition 的最新功能和增强功能。
+title: Journey Optimizer B2B edition发行说明
+description: 了解Adobe Journey Optimizer B2B edition中的最新功能、增强功能和错误修复 — 通过新功能和产品改进保持更新。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
+source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
 workflow-type: tm+mt
-source-wordcount: '2789'
-ht-degree: 99%
+source-wordcount: '2795'
+ht-degree: 97%
 
 ---
 
@@ -130,7 +130,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
 | 功能 | 体验事件转发 | 管理员可以配置基于 Adobe Experience Platform（AEP）的事件定义。这些配置使营销人员能够创建对 AEP 体验事件做出反应的帐户历程。<a href="../admin/configure-aep-events.md">了解详情</a> |
-| 功能 | 付费媒体目标 | 通过帐户历程确定已知人员是否有资格参与付费媒体营销活动，以便您可以在 LinkedIn 等广告平台上进一步吸引他们。在帐户历程中使用一个拆分路径节点，根据特定行为细分帐户受众，并识别承诺额外参与的帐户。然后，通过 Real-Time CDP 将这些帐户中的人员添加到外部客户受众中，并将其添加到受支持的付费媒体目标中。<a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">了解详情</a> |
+| 功能 | 付费媒体目标 | 通过帐户历程确定已知人员是否有资格参与付费媒体营销活动，以便您可以在 LinkedIn 等广告平台上进一步吸引他们。使用拆分路径节点根据特定行为划分客户受众，并确定需要额外参与的客户。 然后，通过 Real-Time CDP 将这些帐户中的人员添加到外部客户受众中，并将其添加到受支持的付费媒体目标中。<a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">了解详情</a> |
 | 功能 | 智能仪表板 | 查看购买群组在帐户历程中的进展情况，包括 AI 生成的洞察，以便进行更智能的分析和准确的帐户优先级排序。<a href="../dashboards/intelligent-dashboard.md">了解详情</a> |
 | 功能 | 购买群组和帐户详细信息 | 查看购买群组和帐户级别的洞察，以便在开始吸引客户时掌握更多的背景信息和历史数据。<p>购买群组详细信息包括识别到的任何第一方意图。<a href="../buying-groups/buying-group-details.md">了解详情</a><p>帐户详细信息帐户突出显示了识别到的参与意图激增，这样您就可以告知销售人员那些愿意参与定制销售互动的帐户。<a href="../accounts/account-details.md">了解详情</a> |
 | 功能 | 历程概述 | 当您访问帐户历程时，“概述”选项卡会提供主要帐户历程的全面情况，使用圆形图和条形图详细说明帐户进度，对完成情况和参与活动进行分类和量化。<a href="../dashboards/journeys-dashboard.md">了解详情</a> |

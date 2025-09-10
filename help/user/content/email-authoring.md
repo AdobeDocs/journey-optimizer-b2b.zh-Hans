@@ -1,12 +1,12 @@
 ---
 title: 电子邮件创作
-description: 了解如何在Adobe Journey Optimizer B2B中创建电子邮件内容。 使用模板、HTML导入和AI支持的工具来个性化和优化电子邮件通信。
+description: 使用可视化设计工具、HTML导入或模板创建电子邮件 — 在Journey Optimizer B2B edition中使用AI Assistant内容生成、自定义CSS和个性化。
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1045'
 ht-degree: 2%
 
 ---

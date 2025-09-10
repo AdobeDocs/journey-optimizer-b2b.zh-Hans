@@ -1,11 +1,11 @@
 ---
 title: Adobe Journey Optimizer B2B Edition 文档
-description: 了解如何使用 Adobe Journey Optimizer B2B Edition 功能，利用内置的生成式 AI 和行业领先的自动化来编排帐户和购买群组历程。
+description: Journey Optimizer B2B edition的完整文档 — 探索用于入门培训、创建购买群组、构建客户历程和管理内容的可用资源。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
+source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 92%
+source-wordcount: '636'
+ht-degree: 89%
 
 ---
 
@@ -137,7 +137,7 @@ B2B 营销策略师现在可以通过自定义购买群组角色来扩展购买�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a>——<a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a>——<a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/home" target="_blank">文档</a>——<a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">开发人员资源</a>

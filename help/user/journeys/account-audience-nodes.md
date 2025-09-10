@@ -1,12 +1,12 @@
 ---
 title: 帐户受众节点
-description: 了解可用于在Journey Optimizer B2B edition中定义帐户历程输入的帐户受众节点类型。
+description: 使用帐户受众或帐户列表配置帐户受众节点，以在Journey Optimizer B2B edition中定义目标编排的历程入口点。
 feature: Account Journeys, Audiences, Account Lists
 role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: 82553c9ee6205e0ad47cc5a56112590471c03d0e
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---

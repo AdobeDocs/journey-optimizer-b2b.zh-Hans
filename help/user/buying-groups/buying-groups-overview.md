@@ -1,13 +1,13 @@
 ---
 title: 购买群组
-description: 在Journey Optimizer B2B edition中，通过购买团体来识别关键决策者、跟踪参与度分数和目标客户，从而推动基于帐户的营销。
+description: 通过购买团体优化基于帐户的营销 — 在Journey Optimizer B2B edition中识别决策者、跟踪参与度得分并自动定位。
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 98%
+source-wordcount: '1187'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 ## 关键组件
 
-您可以在 Journey Optimizer B2B Edition 中建立购买群组，确定您的销售团队负责销售的解决方案的目标帐户列表中有哪些成员，从而提高营销效果。在您和您的营销团队开始创建购买群组之前，请先确保您已定义了关键组件。这些组件对于实现您的业务目标和目的至关重要。
+您可以建立购买组，这些购买组可以为您的销售团队负责销售的解决方案的目标帐户列表确定成员，从而提高营销效率。 在您和您的营销团队开始创建购买群组之前，请先确保您已定义了关键组件。这些组件对于实现您的业务目标和目的至关重要。
 
 | 组件 | 用途 |
 | --------- | ------- |
@@ -112,4 +112,4 @@ _[!UICONTROL 购买群组]_&#x200B;页面分成若干选项卡：
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3452950/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

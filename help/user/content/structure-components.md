@@ -1,12 +1,12 @@
 ---
 title: 结构组件
-description: 了解如何使用结构组件定义电子邮件、登陆页面和可视化片段内容的布局。
+description: 使用结构组件构建电子邮件、登陆页和片段的布局 — 在Journey Optimizer B2B edition中拖动列布局、设置样式并配置移动显示。
 feature: Content Design Tools
 role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
-source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1584'
 ht-degree: 6%
 
 ---

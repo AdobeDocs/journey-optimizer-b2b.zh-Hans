@@ -1,12 +1,12 @@
 ---
 title: 购买组角色模板
-description: 创建具有自动分配条件的购买组角色模板，以识别Journey Optimizer B2B edition中的决策者和利益相关者。
+description: 创建具有条件自动分配的角色模板，以识别在Journey Optimizer B2B edition中购买群组的决策者和利益相关者。
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1125'
 ht-degree: 3%
 
 ---
@@ -162,4 +162,4 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3453311/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

@@ -1,12 +1,12 @@
 ---
 title: 默认和自定义角色
-description: 管理默认和自定义购买团体角色 — 在Journey Optimizer B2B edition中创建、编辑和配置符合业务需求的角色定义。
+description: 在Journey Optimizer B2B edition中查看默认购买群组角色并创建自定义角色 — 编辑、删除和配置业务的角色定义。
 feature: Buying Groups
 role: User
 exl-id: 3981f26e-dcee-4d32-b15f-f8e315457bd6
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '313'
 ht-degree: 3%
 
 ---

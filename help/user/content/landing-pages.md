@@ -1,13 +1,13 @@
 ---
 title: 登陆页面
-description: 了解登陆页面以及如何创建和管理登陆页面以支持帐户历程和营销活动。
+description: 创建、设计和发布帐户历程的登陆页面 — 从头开始构建，导入HTML，添加表单，个性化内容，以及Journey Optimizer B2B edition中的电子邮件链接。
 feature: Landing Pages, Content
 role: User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2198'
 ht-degree: 2%
 
 ---

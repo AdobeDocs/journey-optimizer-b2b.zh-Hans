@@ -1,13 +1,13 @@
 ---
 title: 表单设计
-description: 了解如何设计用于收集业务商机信息的可重用表单。
+description: 设计表单，其中包含Journey Optimizer B2B edition中用于业务数据收集的字段类型、验证、样式和XDM架构属性。
 feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: fd26ecdb0457141f7beb7fd46d01e609da011a38
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '2062'
 ht-degree: 1%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 1%
      >
      >_说明与占位符文本_<br/>
      >
-     >使用这两个属性来引导访客填写字段。 将指针悬停在字段上时，说明文本显示为工具提示/弹出文本。 占位符文本在字段中显示&#x200B;_灰显_，当访客将其文本添加到字段中时，该文本将消失。 您可以使用这两种方法，也可以只使用一种方法。
+     >使用这两个属性来引导访客填写字段。 将指针悬停在字段上时，说明文本显示为工具提示/弹出文本。 占位符文本在字段中显示&#x200B;_灰显_，当访客在字段中输入其文本时，该文本将消失。 您可以使用这两种方法，也可以只使用一种方法。
 
    * **[!UICONTROL 默认值]** — 使用此选项为字段指定默认值。
 

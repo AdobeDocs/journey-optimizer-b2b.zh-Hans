@@ -1,12 +1,12 @@
 ---
 title: 购买群组的参与度分数
-description: 通过Journey Optimizer B2B edition中的加权活动和基于角色的计算来跟踪购买团体和人员参与度分数。
+description: 在Journey Optimizer B2B edition中，使用加权活动、基于角色的计算以及30天评分窗口计算购买组和人员参与度分数。
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1254'
 ht-degree: 30%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 30%
 
 * **人员参与度分数** — 人员参与度分数基于个人购买小组成员的活动。
 
-  每个购买群成员的人员参与分数显示在购买群组详细信息页面[_[!UICONTROL 成员&#x200B;]_&#x200B;选项卡](./buying-group-details.md#buying-group-members)中。 这些得分还会显示在页面和仪表板中，其中包括最常参与的成员和重叠的联系人信息。
+  每个购买群成员的人员参与分数显示在购买群组详细信息页面[_[!UICONTROL 成员&#x200B;]_选项卡](./buying-group-details.md#buying-group-members)中。 这些得分还会显示在页面和仪表板中，其中包括最常参与的成员和重叠的联系人信息。
 
   ![参与次数最多的购买小组成员](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 

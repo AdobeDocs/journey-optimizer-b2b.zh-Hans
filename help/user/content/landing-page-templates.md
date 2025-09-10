@@ -1,15 +1,15 @@
 ---
 title: 登陆页面模板
-description: 了解如何创建登陆页面模板，您的营销团队可以使用这些模板创建新页面，以支持帐户历程和营销活动。
+description: 创建、管理和重用登陆页面模板 — 在Journey Optimizer B2B edition中从头开始设计、导入HTML、复制、删除和跟踪营销团队的使用情况。
 feature: Landing Pages, Templates, Content
 role: User
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
@@ -150,13 +150,13 @@ Adobe Journey Optimizer B2B edition允许您导入现有HTML内容以设计登�
 
 ## 从保存的模板创作登陆页面
 
-从&#x200B;_创建登陆页面_&#x200B;页面，使用&#x200B;_选择设计模板_&#x200B;部分开始从模板构建内容。
+从&#x200B;_[!UICONTROL 创建登陆页面]_&#x200B;页面，使用&#x200B;_选择设计模板_&#x200B;部分开始从模板构建内容。
 
 要使用创建的某个登陆页面模板开始构建内容，请执行以下步骤：
 
 1. 从&#x200B;_编辑内容_&#x200B;页面访问可视设计空间。
 
-   在&#x200B;_创建登陆页面_&#x200B;页面上，默认选中&#x200B;_示例模板_&#x200B;选项卡。
+   在&#x200B;_[!UICONTROL 创建登陆页面]_&#x200B;页面上，默认选中&#x200B;_示例模板_&#x200B;选项卡。
 
 1. 要使用自定义登陆页面模板，请选择&#x200B;**[!UICONTROL 保存的模板]**&#x200B;选项卡。
 
@@ -168,4 +168,4 @@ Adobe Journey Optimizer B2B edition允许您导入现有HTML内容以设计登�
 
 1. 单击右上方的&#x200B;**[!UICONTROL 使用此模板]**。
 
-1. 在可视内容设计器中，根据需要编辑内容。
+1. 在可视内容设计空间中，根据需要编辑您的内容。

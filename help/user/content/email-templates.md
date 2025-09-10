@@ -1,12 +1,12 @@
 ---
 title: 电子邮件模板
-description: 了解如何管理和创建用于轻松高效地创作帐户历程电子邮件的电子邮件模板。
+description: 从头开始创建、HTML导入或现有设计创建可重复使用的电子邮件模板 — 在Journey Optimizer B2B edition中管理帐户历程的模板。
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1533'
 ht-degree: 0%
 
 ---

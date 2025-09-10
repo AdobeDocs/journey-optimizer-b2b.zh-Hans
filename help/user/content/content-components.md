@@ -1,12 +1,12 @@
 ---
 title: 内容组件
-description: 了解如何使用内容组件设计电子邮件、登陆页面和可视化片段内容。
+description: 在Journey Optimizer B2B edition中设计包含内容组件的电子邮件、登陆页面和片段 — 添加按钮、文本、图像、表单和容器。
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2844'
+source-wordcount: '2849'
 ht-degree: 6%
 
 ---
@@ -307,7 +307,7 @@ ht-degree: 6%
 
    按钮大小会根据设置的文本和样式进行调整。
 
-1. 对于&#x200B;**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
+1. 对于**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
 
    * _[!UICONTROL 无]_ — 使用默认浏览器或客户端行为（默认）打开链接。
    * _[!UICONTROL 空白]_ — 在新窗口或选项卡中打开链接。
@@ -605,7 +605,7 @@ ht-degree: 6%
 
    按钮大小会根据设置的文本和样式进行调整。
 
-1. 对于&#x200B;**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
+1. 对于**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
 
    * _[!UICONTROL 无]_ — 使用默认浏览器或客户端行为（默认）打开链接。
    * _[!UICONTROL 空白]_ — 在新窗口或选项卡中打开链接。

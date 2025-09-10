@@ -1,12 +1,12 @@
 ---
 title: 侦听事件
-description: 了解侦听事件节点类型，可用于在Journey Optimizer B2B edition中编排帐户历程。
+description: 为帐户和人员触发器配置事件节点 — 监听Journey Optimizer B2B edition中的购买组更改、电子邮件点击、表单填写和Experience Platform事件。
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1374'
 ht-degree: 8%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 8%
 
 ### 收听Marketo Engage活动
 
-如果您在连接的Marketo Engage实例中创建了网页，则可以根据访问/未访问Marketo Engage网页以及未填写的Marketo Engage表单触发事件。
+如果您在连接的Marketo Engage实例中有网页，则可以根据对这些网页的访问次数/未访问次数以及未填写的Marketo Engage表单触发事件。
 
 1. 在历程映射中选择&#x200B;**[!UICONTROL 侦听事件]**&#x200B;节点。
 
@@ -119,7 +119,7 @@ ht-degree: 8%
 
 ### 收听体验活动
 
-管理员可以配置基于Adobe Experience Platform (AEP)的事件定义，这些定义使营销人员能够创建对[AEP Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反应的帐户历程。 在帐户历程中使用AEP体验事件包括两个步骤：
+管理员可以配置基于Adobe Experience Platform (AEP)的事件定义，这些定义使营销人员能够创建对[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反应的帐户历程。 在帐户历程中使用AEP体验事件包括两个步骤：
 
 1. [创建并发布AEP事件定义](../admin/configure-aep-events.md)。
 
@@ -127,7 +127,7 @@ ht-degree: 8%
 
 ![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看视频概述](../admin/configure-aep-events.md#overview-video)
 
-_要在您的历程中包含体验事件，请执行以下操作：_
+要在历程中包含体验事件(_T):_
 
 1. 在历程映射中选择&#x200B;**[!UICONTROL 侦听事件]**&#x200B;节点。
 
@@ -183,4 +183,4 @@ _要在您的历程中包含体验事件，请执行以下操作：_
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3443244/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)

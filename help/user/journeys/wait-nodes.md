@@ -1,12 +1,12 @@
 ---
 title: 等待节点
-description: 了解可用于在Journey Optimizer B2B edition中编排帐户旅程的等待节点类型。
+description: 添加等待节点以在Journey Optimizer B2B edition中暂停具有相对持续时间或特定日期的战略计时旅程进度。
 feature: Account Journeys
 role: User
 exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 * 相对持续时间（分钟数、小时数、天数、周数或月数）
 * 要前进到历程中的下一个节点的特定日期
 
-_要为帐户历程定义等待节点：_
+为帐户历程定义等待节点(_T):_
 
 1. 导航到历程图。
 

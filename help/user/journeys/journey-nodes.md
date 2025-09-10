@@ -1,14 +1,14 @@
 ---
 title: 帐户历程节点
-description: 了解可用于在Journey Optimizer B2B edition中构建帐户历程的节点类型。
+description: 在Journey Optimizer B2B edition中，通过操作、事件和编排节点（受众、等待、拆分和合并）构建帐户历程，以实现跨渠道营销。
 feature: Account Journeys
 hide: true
 hidefromtoc: true
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 9438b1472df38eddc3e1fa6cd5bc3992af0c9eec
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 2%
+source-wordcount: '114'
+ht-degree: 12%
 
 ---
 

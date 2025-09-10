@@ -1,17 +1,17 @@
 ---
-title: 用于电子邮件创作的AI助手
-description: 了解如何使用AI Assistant优化帐户历程中使用的电子邮件内容。
+title: 用于生成电子邮件内容的AI助手
+description: 使用AI Assistant生成电子邮件内容 — 在Journey Optimizer B2B edition中使用Brand Assets和购买群组角色定位创建邮件内容、主题行和标题。
 feature: AI Assistant, Email Authoring, Content
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '3072'
+source-wordcount: '3089'
 ht-degree: 0%
 
 ---
 
-# 电子邮件创作的 AI 助手
+# 用于生成电子邮件内容的AI助手
 
 随着营销行业的竞争日益激烈，各大品牌都在寻求高效的方法来快速高效地生成有影响力的内容。 用于Adobe Journey Optimizer B2B edition中电子邮件创作的AI Assistant是Adobe提供的AI支持的内容生成功能，它彻底改变了营销人员创建专业且品牌一致的电子邮件内容的方式。 借助高级GenAI模型以及对品牌准则的深入了解，AI Assistant可根据营销目标自动生成个性化、引人入胜且有效的内容，其内容针对品牌概述的样式、布局、色调等进行了优化。 AI Assistant使电子邮件营销活动的创建和执行变得直观、简单而轻松。 将此功能添加到工作流可以节省时间、提高效率并取得更好的结果。
 
@@ -82,9 +82,9 @@ Adobe Journey Optimizer B2B edition提供了五个现成的标准B2B购买团体
 
 以下步骤描述了使用AI Assistant为您的电子邮件生成优化主题行的任务序列：
 
-1. 在&#x200B;_[!UICONTROL 电子邮件属性]_&#x200B;中，单击&#x200B;**[!UICONTROL 主题行]**&#x200B;字段右侧的AI助手图标（![AI助手访问图标](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}）。
+1. 在&#x200B;_[!UICONTROL 电子邮件属性]_&#x200B;中，单击![主题行](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}字段右侧的AI助手图标（**[!UICONTROL AI助手访问图标]**）。
 
-   电子邮件主题行![&#128279;](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}的AI助手访问权限
+   电子邮件主题行![的](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}AI助手访问权限
 
    此时将打开AI Assistant弹出窗口，其中包含电子邮件主题行的生成设置。
 
@@ -204,11 +204,11 @@ Adobe Journey Optimizer B2B edition提供了五个现成的标准B2B购买团体
 
 在您[创建并个性化您的电子邮件](./email-authoring.md)后，请使用由创作AI提供支持的Adobe Journey Optimizer B2B edition中的AI助手，将您的电子邮件正文内容提升到新的级别。
 
-在Email Designer中，AI Assistant通过生成完整的电子邮件正文、有针对性的文本内容以及可与受众引起共鸣的图像推荐，帮助您优化投放的影响。 这种电子邮件促销活动优化旨在提高参与度。
+在电子邮件设计空间中，AI Assistant可以通过生成完整的电子邮件正文、有针对性的文本内容以及可与受众引起共鸣的图像推荐来帮助您优化投放的影响。 这种电子邮件促销活动优化旨在提高参与度。
 
 1. 从帐户历程创建电子邮件，然后单击&#x200B;**[!UICONTROL 打开电子邮件Designer]**&#x200B;或&#x200B;**[!UICONTROL 添加电子邮件内容]**。
 
-1. 在可视电子邮件设计器中选择并打开电子邮件模板。
+1. 在可视电子邮件设计空间中选择并打开电子邮件模板。
 
 1. 根据历程节点的需要个性化电子邮件。
 
@@ -220,7 +220,7 @@ Adobe Journey Optimizer B2B edition提供了五个现成的标准B2B购买团体
 
 以下步骤描述了使用AI Assistant优化现有电子邮件模板的任务序列：
 
-1. 在电子邮件设计器中，通过单击右侧的图标（![AI助手菜单切换](../assets/button-ai-assistant.png){width="30" zoomable="no"} ）访问AI助手菜单。
+1. 在电子邮件设计空间中，通过单击右侧的图标（![AI助手菜单切换](../assets/button-ai-assistant.png){width="30" zoomable="no"} ）访问AI助手菜单。
 
    电子邮件设计器中的![AI助手切换](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -259,15 +259,15 @@ Adobe Journey Optimizer B2B edition提供了五个现成的标准B2B购买团体
 
      ![AI助手 — 文本设置](./assets/email-designer-ai-assistant-feedback.png){width="600" zoomable="yes"}
 
-1. 单击&#x200B;**[!UICONTROL 选择]**&#x200B;以将模板内容替换为所选变体并返回电子邮件设计器。
+1. 单击&#x200B;**[!UICONTROL 选择]**&#x200B;将模板内容替换为选定的变体并返回电子邮件设计空间。
 
-   在电子邮件设计器中，您可以使用画布上的编辑和格式化工具来更改内容，以及右侧的&#x200B;_[!UICONTROL 设置]_&#x200B;和&#x200B;_[!UICONTROL 样式]_&#x200B;选项。
+   在电子邮件设计空间中，您可以使用画布上的编辑和格式化工具来更改内容，以及右侧的&#x200B;_[!UICONTROL 设置]_&#x200B;和&#x200B;_[!UICONTROL 样式]_&#x200B;选项。
 
 >[!TAB 文本生成]
 
 以下步骤描述了使用AI助手优化或增强现有电子邮件的文本内容的任务序列：
 
-1. 在电子邮件设计器中，通过单击右侧的图标（![AI助手菜单切换](../assets/button-ai-assistant.png){width="30" zoomable="no"} ）访问AI助手菜单。
+1. 在电子邮件设计空间中，通过单击右侧的图标（![AI助手菜单切换](../assets/button-ai-assistant.png){width="30" zoomable="no"} ）访问AI助手菜单。
 
    电子邮件设计器中的![AI助手切换](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -315,9 +315,9 @@ Adobe Journey Optimizer B2B edition提供了五个现成的标准B2B购买团体
 
    ![文本变量和细化选项的AI Assistant预览](./assets/email-designer-ai-assistant-text-refine.png){width="700" zoomable="yes"}
 
-1. 获得所需的内容后，单击&#x200B;**[!UICONTROL 选择]**&#x200B;以使用选定的变体替换文本并返回电子邮件设计器。
+1. 获得所需的内容后，单击&#x200B;**[!UICONTROL 选择]**&#x200B;以使用选定的变体替换文本并返回电子邮件设计空间。
 
-   在电子邮件设计器中，您可以使用画布上的编辑和格式化工具来更改文本，以及右侧的&#x200B;_[!UICONTROL 设置]_&#x200B;和&#x200B;_[!UICONTROL 样式]_&#x200B;选项。
+   在电子邮件设计空间中，您可以使用画布上的编辑和格式化工具来更改文本，以及右侧的&#x200B;_[!UICONTROL 设置]_&#x200B;和&#x200B;_[!UICONTROL 样式]_&#x200B;选项。
 
 >[!TAB 图像推荐]
 
@@ -345,7 +345,7 @@ Adobe Journey Optimizer B2B edition提供了五个现成的标准B2B购买团体
 
 1. 使用图像设置优化提示：
 
-   * **[!UICONTROL 宽高比]** — 此设置确定资源的宽度和高度。 您可以选择常用比率，如16:9、4:3、3:2或1:1，也可以输入自定义大小。
+   * **[!UICONTROL 宽高比]** — 此设置确定资源的宽度和高度。 您可以选择通用比率，如16:9、4:3、3:2或1:1，也可以输入自定义大小。
    * **[!UICONTROL 颜色和色调]** — 此设置会影响图像内颜色的整体外观及其传达的气氛或氛围。
    * **[!UICONTROL 内容类型]** — 此设置对可视元素的性质进行分类，区分不同的可视表示形式，如照片、图形或艺术品。
    * **[!UICONTROL 照明]** — 此设置可调整图像中存在的闪电，该闪电会塑造图像的大气并突出显示特定元素。
@@ -363,8 +363,8 @@ Adobe Journey Optimizer B2B edition提供了五个现成的标准B2B购买团体
 
    要查看所选变体的全屏版本，请单击&#x200B;**[!UICONTROL 预览]**。
 
-1. 突出显示所需的图像，然后单击&#x200B;**[!UICONTROL 选择]**&#x200B;将图像或占位符替换为选定项，并返回电子邮件设计器。
+1. 突出显示所需的图像，然后单击&#x200B;**[!UICONTROL 选择]**&#x200B;将图像或占位符替换为选定项，并返回到电子邮件设计空间。
 
-   在电子邮件设计器中，您可以使用画布上的编辑和格式化工具来更改内容，以及右侧的&#x200B;_[!UICONTROL 设置]_&#x200B;和&#x200B;_[!UICONTROL 样式]_&#x200B;选项。
+   在电子邮件设计空间中，您可以使用画布上的编辑和格式化工具来更改内容，以及右侧的&#x200B;_[!UICONTROL 设置]_&#x200B;和&#x200B;_[!UICONTROL 样式]_&#x200B;选项。
 
 >[!ENDTABS]

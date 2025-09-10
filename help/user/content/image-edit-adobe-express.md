@@ -1,12 +1,12 @@
 ---
 title: 使用Adobe Express编辑图像
-description: 了解如何使用Adobe Express在Journey Optimizer B2B edition工作区中编辑图像。
+description: 在Journey Optimizer B2B edition中使用Adobe Express以原生方式编辑图像 — 调整大小、裁切、删除背景、转换格式并保存到工作区。
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '894'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Adobe Journey Optimizer B2B edition与Adobe Express原生集成，允许您访�
 
 Adobe Express函数支持PNG和JPEG图像文件格式。
 
-_要修改图像：_
+修改图像(_T):_
 
 1. 转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL Assets]**。
 
@@ -50,13 +50,13 @@ _要修改图像：_
 
    >[!TIP]
    >
-   >在继续编辑图像文件之前，最佳做法是选择图像详细信息中的[由&#x200B;]_使用的_[[!UICONTROL &#x200B;选项卡]](./marketo-engage-design-studio.md#view-asset-used-by-references)并查看当前使用该图像的内容。
+   >在继续编辑图像文件之前，最佳做法是选择图像详细信息中的[由&#x200B;_[!UICONTROL 使用的]_&#x200B;选项卡](./marketo-engage-design-studio.md#view-asset-used-by-references)并查看当前使用该图像的内容。
 
 1. 在右侧的图像&#x200B;_[!UICONTROL 详细信息]_&#x200B;中，单击&#x200B;**[!UICONTROL 使用Adobe Express编辑]**。
 
    ![在Adobe Express编辑器中打开图像](./assets/assets-edit-adobe-express.png){width="600" zoomable="yes"}
 
-   如果该图像正在使用中，则会出现一个警报对话框，通知您所做的任何更改都将影响该内容。 单击&#x200B;**[!UICONTROL 继续]**&#x200B;以进入Adobe Express编辑器。
+   如果图像正在使用中，将显示一个警报对话框，通知您所做的更改会影响该内容。 单击&#x200B;**[!UICONTROL 继续]**&#x200B;以进入Adobe Express编辑器。
 
    ![警报提供有关映像使用情况的信息](./assets/assets-edit-adobe-express-usage-alert.png){width="300"}
 
@@ -66,11 +66,11 @@ _要修改图像：_
 
 >[!NOTE]
 >
->必须在同一IMS组织下购买您的Adobe Express Enterprise许可证，才能从Journey Optimizer B2B edition访问这些完整的编辑器功能。 作为IMS组织的个人成员，您需要在Adobe Express实例中分配许可证。 否则，您的Adobe Express访问权限将被限制为Journey Optimizer B2B edition中针对Adobe Express[&#128279;](#quick-actions-in-adobe-express)的快速操作。
+>必须在同一IMS组织下购买您的Adobe Express Enterprise许可证，才能从Journey Optimizer B2B edition访问这些完整的编辑器功能。 作为IMS组织的个人成员，您需要在Adobe Express实例中分配许可证。 否则，您的Adobe Express访问权限将被限制为Journey Optimizer B2B edition中针对Adobe Express[的](#quick-actions-in-adobe-express)快速操作。
 
 ![在Adobe Express Enterprise编辑器中打开图像](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-[Adobe Express用户指南](https://helpx.adobe.com/cn/express/user-guide.html){target="_blank"}提供了有关可用编辑功能的详细信息。
+[Adobe Express用户指南](https://helpx.adobe.com/express/web.html){target="_blank"}提供了有关可用编辑功能的详细信息。
 
 ## Adobe Express中的快速操作
 

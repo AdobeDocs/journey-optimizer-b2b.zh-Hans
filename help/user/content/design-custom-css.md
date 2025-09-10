@@ -1,12 +1,12 @@
 ---
 title: 为内容添加自定义CSS
-description: 了解如何将自定义CSS添加到您的电子邮件和登陆页面内容中。
+description: 向电子邮件和登陆页添加自定义CSS，以便实现Journey Optimizer B2B edition中标准组件以外的高级样式和精确设计控制。
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
 exl-id: 5a961190-8a65-41b0-90d0-5dd44e5cdf8a
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -192,7 +192,7 @@ body {
 
 * 如果导入包括CSS的外部HTML内容，则<!-- unless converting that content, -->该内容将在[!UICONTROL 兼容模式]中填充，并且[!UICONTROL CSS样式]部分不可用。
 
-* 如果导入最初在电子邮件或登陆页设计空间中创建的内容，包括通过[!UICONTROL 添加自定义CSS]选项应用的CSS，则应用的CSS将通过同一选项显示和编辑。
+* 如果导入最初在电子邮件或登陆页设计空间中使用[!UICONTROL 添加自定义CSS]选项创建的内容，则应用的CSS将通过同一选项显示和编辑。
 
 ## 故障排除
 

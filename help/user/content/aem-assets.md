@@ -1,12 +1,12 @@
 ---
 title: 使用 Experience Manager Assets
-description: 了解如何在Adobe Journey Optimizer B2B edition中创作内容时使用连接的AEM Assets存储库中的图像资源。
+description: 在内容创作中访问和使用AEM Assets图像 — 在Journey Optimizer B2B edition中自动拖放、搜索、筛选和同步更改。
 feature: Assets, Content, Integrations
 role: User
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: ea2093b03ba89f9e8d3f0db60b65cb143603c217
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '560'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->管理员必须将需要访问Assets的用户添加到Assets Consumer Users或/和Assets Users产品配置文件。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>管理员必须将需要访问Assets的用户添加到Assets Consumer Users或/和Assets Users产品配置文件。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## 访问AEM Assets图像
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->当前，[!DNL Adobe Experience Manager Assets]仅支持[!DNL Adobe Journey Optimizer B2B Edition]中的图像资源。 必须在[!DNL Adobe Experience Manager Assets]中央存储库中更改资源。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>当前，[!DNL Adobe Experience Manager Assets]仅支持[!DNL Adobe Journey Optimizer B2B Edition]中的图像资源。 必须在[!DNL Adobe Experience Manager Assets]中央存储库中更改资源。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### 更改显示的存储库
 

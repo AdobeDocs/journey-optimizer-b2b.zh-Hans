@@ -1,12 +1,12 @@
 ---
 title: 模板内容管理
-description: 了解如何锁定电子邮件模板中的内容元素，以便您可以控制如何更改这些元素以用于帐户历程。
+description: 锁定电子邮件模板组件以实现品牌合规性 — 在Journey Optimizer B2B edition中设置治理模式、控制内容编辑并管理帐户历程作者的权限。
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
-source-git-commit: 4905346d8160147f7d71b7b1131ea33f26d3bba0
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 ## 激活模板的内容管理
 
-使用可视设计器[创作电子邮件模板的结构组件和内容组件](./email-template-authoring.md)后，请启用管理并根据需要应用特定内容锁定。
+在使用该可视设计空间[创作电子邮件模板的结构组件和内容组件](./email-template-authoring.md)后，启用治理并根据需要应用特定内容锁定。
 
-1. 在可视设计器中，使用&#x200B;_导航树_&#x200B;访问层/容器和元素。
+1. 在可视设计空间中，使用&#x200B;_导航树_&#x200B;访问层/容器和元素。
 
    单击画布左侧的&#x200B;_导航树_&#x200B;图标（![链接图标](../assets/do-not-localize/icon-navigation-tree.svg)）以显示树。
 

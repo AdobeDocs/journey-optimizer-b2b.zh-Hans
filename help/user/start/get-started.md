@@ -1,13 +1,13 @@
 ---
 title: 管理员和营销人员入门指南
-description: 作为 Journey Optimizer B2B Edition 的新管理员或用户，请了解入门流程中的关键环节。
+description: 管理员和营销人员入门指南 — 在Journey Optimizer B2B edition中设置沙盒、配置渠道、创建购买组和设计帐户历程。
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 1e430af82b972dc73178161e64da10d1cdaaefaf
-workflow-type: ht
-source-wordcount: '713'
-ht-degree: 100%
+source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 96%
 
 ---
 

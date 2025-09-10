@@ -1,6 +1,6 @@
 ---
 title: 创建内容生成和一致性品牌
-description: 了解如何创建和自定义您自己的品牌，以生成和优化与您的品牌风格和声音相匹配的内容。
+description: 通过从文档自动提取或手动输入来创建和管理品牌指南 — 在Journey Optimizer B2B edition中设置默认品牌以实现内容一致。
 badge: label="Beta 版" type="Informative"
 feature: Content, Brand Identity
 hide: true
@@ -8,9 +8,9 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: 3065dfedc4fa70d102d7d39a413ecd7aaf93f3f8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2053'
+source-wordcount: '2056'
 ht-degree: 6%
 
 ---
@@ -324,4 +324,4 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
    * [视觉内容](#visual-content)
 
-1. 在处理草稿更新时单击“保存”**&#x200B;**，在准备好替换&#x200B;**[!UICONTROL Live]**&#x200B;版本时单击“发布”__。
+1. 在处理草稿更新时单击“保存”****，在准备好替换&#x200B;**[!UICONTROL Live]**&#x200B;版本时单击“发布”__。

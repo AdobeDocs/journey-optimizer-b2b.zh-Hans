@@ -1,15 +1,15 @@
 ---
 title: 使用GenStudio for Performance Marketing创建电子邮件内容
-description: 了解如何与GenStudio工作流集成以简化电子邮件体验设计。
+description: 将GenStudio for Performance Marketing与Journey Optimizer B2B edition集成 — 导出HTML、创建支持AI的电子邮件体验和导入品牌内容。
 feature: Email Authoring, Content, Integrations
 topic: Content Supply Chain
 level: Intermediate
 role: User
 badge: label="限量发布版" type="Informative"
 exl-id: 13f45e8f-9d49-4ec2-90ef-689475c629f1
-source-git-commit: 82bfb3b425bc7a3931b5ce8b925b860ef70d11fe
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '794'
 ht-degree: 8%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 8%
 
 使用HTML文件在GenStudio for Performance Marketing中创建模板。
 
-有关在Adobe GenStudio for Performance Marketing中将HTML模板上传到GenStudio的详细信息，请参阅GenStudio for Performance Marketing文档中的[添加模板](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template)。
+有关在Adobe GenStudio for Performance Marketing中将HTML模板上传到GenStudio的详细信息，请参阅GenStudio for Performance Marketing文档中的[添加模板](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template)。
 
 上传导出的HTML作为模板时，GenStudio for Performance Marketing会扫描HTML文件以查找可识别的字段。 使用预览可查看模板元素，并确认您使用可识别的字段名称正确标识了它们。
 
@@ -81,7 +81,7 @@ ht-degree: 8%
 
 在GenStudio for Performance Marketing中，使用模板创建多个电子邮件体验变体并保存它们。
 
-有关生成品牌电子邮件体验的详细信息，请参阅GenStudio for Performance Marketing文档中的[创建电子邮件体验](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience)。
+有关生成品牌电子邮件体验的详细信息，请参阅GenStudio for Performance Marketing文档中的[创建电子邮件体验](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience)。
 
 ## 将生成的电子邮件体验添加到Journey Optimizer B2B edition
 
@@ -91,11 +91,11 @@ ht-degree: 8%
 
 要使用从导出的GenStudio B2B edition电子邮件HTML文件创建的Journey Optimizer电子邮件变体，请执行以下步骤：
 
-1. 在Journey Optimizer B2B edition中，[使用&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点，将电子邮件](./add-email.md)添加到帐户历程。
+1. 在Journey Optimizer B2B edition中，[使用](./add-email.md)执行操作&#x200B;_[!UICONTROL 节点，将电子邮件]_&#x200B;添加到帐户历程。
 
-   * 对于&#x200B;_目标上的_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
+   * 对于&#x200B;_[!UICONTROL 目标上的]_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
 
-   * 若要对人员&#x200B;_执行_&#x200B;操作，请选择&#x200B;**[!UICONTROL 发送电子邮件]**。
+   * 若要对人员&#x200B;_[!UICONTROL 执行]_&#x200B;操作，请选择&#x200B;**[!UICONTROL 发送电子邮件]**。
 
      ![执行操作 — 发送电子邮件](./assets/journey-node-send-email.png){width="700" zoomable="yes"}
 

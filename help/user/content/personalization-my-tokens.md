@@ -1,12 +1,12 @@
 ---
 title: 电子邮件Personalization的自定义令牌
-description: 了解如何使用为帐户历程定义的一组令牌来管理电子邮件内容中的个性化。
+description: 创建和管理用于动态电子邮件个性化的自定义我的令牌 — 在Journey Optimizer B2B edition中为帐户历程定义文本和数字变量。
 feature: Personalization, Content, Email Authoring
 role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '603'
 ht-degree: 2%
 
 ---
@@ -23,13 +23,13 @@ _我的令牌_&#x200B;是您为处于草稿状态的帐户历程创建或修改�
 
 向电子邮件添加自定义令牌时，会显示为`{{my.TokenName}}`。 例如，您可能创建了`{{my.EventDate}}`或`{{my.WebinarSpeaker}}`个令牌以管理与即将召开的网络研讨会相关的电子邮件内容。
 
-_访问帐户历程的自定义令牌：_
+要访问帐户历程&#x200B;:_的自定义令牌(_T)
 
 1. 打开草稿帐户历程。
 
 1. 单击右上方的&#x200B;**[!UICONTROL 更多……]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 我的令牌]**。
 
-   ![点击右上角的“更多”](../journeys/assets/account-journey-draft-more-menu.png){width="450"}
+   ![单击右上角的“更多”](../journeys/assets/account-journey-draft-more-menu.png){width="450"}
 
    _我的令牌_&#x200B;页面列出了为历程定义的所有自定义令牌。
 
@@ -75,7 +75,7 @@ _访问帐户历程的自定义令牌：_
 
 1. 在&#x200B;_[!UICONTROL 我的令牌]_&#x200B;页面中，单击令牌名称旁边的&#x200B;_更多操作_&#x200B;图标(**...**)，然后选择&#x200B;**[!UICONTROL 删除]**。
 
-1. 在确认对话框中点击&#x200B;**[!UICONTROL 删除]**。
+1. 在确认对话框中单击&#x200B;**[!UICONTROL 删除]**。
 
 ## 在内容中使用自定义令牌
 

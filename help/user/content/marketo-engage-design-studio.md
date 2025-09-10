@@ -1,12 +1,12 @@
 ---
 title: 使用Marketo Engage Assets
-description: 了解如何在Journey Optimizer B2B edition中使用Marketo Engage Design Studio资产管理集成。
+description: 在Journey Optimizer B2B edition中浏览、管理和使用Marketo Engage Design Studio资源 — 组织工作区、编辑图像和创建帐户历程的内容。
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2026'
 ht-degree: 1%
 
 ---
@@ -128,7 +128,7 @@ Marketo Engage Design Studio是Journey Optimizer B2B edition的默认资源源�
 
 若要继续，请单击&#x200B;**[!UICONTROL 替换]**。 单击&#x200B;**[!UICONTROL 取消]**&#x200B;可中止该进程。
 
-如果要替换的文件正在使用中，则会显示一个信息对话框，提醒您新的图像文件会在所有使用位置（电子邮件、电子邮件模板和片段）替换图像。
+如果要替换的文件正在使用中，则会有一个对话框提醒您，新的图像文件会替换正在使用它的图像（电子邮件、电子邮件模板和片段）。
 
 ## 下载资产
 
@@ -270,7 +270,7 @@ Marketo Engage Design Studio是Journey Optimizer B2B edition的默认资源源�
 
 通过可视内容编辑器，可在您团队的电子邮件、电子邮件模板或可视片段创作中使用Assets。
 
-从可视设计器UI中，选择左侧边栏上的&#x200B;_Marketo Engage Assets_&#x200B;图标(![Marketo Engage Assets图标](../../assets/do-not-localize/icon-assets-me.svg))。
+从可视化设计空间中选择左侧边栏上的&#x200B;_Marketo Engage Assets_&#x200B;图标(![Marketo Engage Assets图标](../../assets/do-not-localize/icon-assets-me.svg))。
 
 此操作更改工具面板，该面板显示选定工作区中可用资源的结构化列表。 选择要显示用于选择资源的工作区。
 

@@ -1,12 +1,12 @@
 ---
 title: 购买组详细信息
-description: 在Journey Optimizer B2B edition中通过AI见解查看购买群组详细信息、管理成员和跟踪参与度分数。
+description: 在Journey Optimizer B2B edition中通过AI见解查看购买组详细信息、管理成员角色、跟踪参与度得分并分析意图数据。
 feature: Buying Groups, Intelligent Insights
 role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '785'
 ht-degree: 4%
 
 ---

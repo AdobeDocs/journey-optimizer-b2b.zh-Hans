@@ -1,12 +1,12 @@
 ---
 title: 销售警报电子邮件
-description: 了解如何在帐户历程中包含自动销售警报电子邮件。
+description: 在帐户历程中配置销售警报电子邮件以通知销售团队，包括在Journey Optimizer B2B edition中购买群组摘要、AI见解和成员详细信息。
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '533'
 ht-degree: 5%
 
 ---
@@ -55,9 +55,9 @@ _销售提醒电子邮件_&#x200B;表示将购买组移交给销售人员。 该
 
 添加&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点并执行以下操作时，您可以在帐户历程中设置销售警报电子邮件投放：
 
-1. 对于&#x200B;_目标上的_&#x200B;操作，请选择&#x200B;**[!UICONTROL 帐户]**。
+1. 对于&#x200B;_[!UICONTROL 目标上的]_&#x200B;操作，请选择&#x200B;**[!UICONTROL 帐户]**。
 
-1. 若要对帐户&#x200B;_执行_&#x200B;操作，请选择&#x200B;**[!UICONTROL 发送销售警报]**。
+1. 若要对帐户&#x200B;_[!UICONTROL 执行]_&#x200B;操作，请选择&#x200B;**[!UICONTROL 发送销售警报]**。
 
 1. 对于&#x200B;**[!UICONTROL 选择感兴趣的解决方案]**，请选择要用于生成的电子邮件内容的感兴趣的解决方案。
 
@@ -65,4 +65,4 @@ _销售提醒电子邮件_&#x200B;表示将购买组移交给销售人员。 该
 
    ![新建电子邮件对话框](assets/sales-alert-email-journey-node.png){width="600" zoomable="yes"}
 
-   发布客户历程后，将根据这些参数发送销售警报。
+   当客户历程处于实时状态时，将根据这些参数发送销售警报。

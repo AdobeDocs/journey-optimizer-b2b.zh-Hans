@@ -1,13 +1,13 @@
 ---
 title: 帐户历程
-description: 开始使用帐户历程并了解如何使用帐户历程列表来管理这些历程。
+description: 通过客户历程简化需求生成 — 在Journey Optimizer B2B edition中跨电子邮件、短信和事件创建、发布和管理购买团体参与。
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: a67ab8268676050f0c5f34b94d4aebfd46aaf601
-workflow-type: ht
-source-wordcount: '1027'
-ht-degree: 100%
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 97%
 
 ---
 
@@ -157,4 +157,4 @@ _帐户历程_&#x200B;列表中包含您的 Journey Optimizer B2B Edition 实例
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3443217/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

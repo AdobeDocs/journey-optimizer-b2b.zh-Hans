@@ -1,13 +1,13 @@
 ---
 title: 登陆页面设计
-description: 了解如何为支持帐户历程和营销活动的登陆页面设计和创作内容。
+description: 使用可视化工具设计登陆页面 — 为Journey Optimizer B2B edition中的帐户历程添加内容组件、表单、自定义CSS、个性化和设备预览。
 feature: Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '381'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 ### 添加自定义 CSS
 
-您可以直接在登陆页面设计空间中添加自己的自定义CSS。 使用自定义CSS可应用高级和特定的样式，以便更加灵活地控制内容的外观。 最好在包含图像、按钮和文本等组件之前添加此最高级别的样式。
+您可以直接在登陆页面设计空间中添加自己的自定义CSS。 使用自定义CSS可应用高级和特定的样式，以便更加灵活地控制内容的外观。 最佳实践是在包含组件（如图像、按钮和文本）之前添加此最高级别的样式。
 
 如果画布中至少有一个内容组件，请选择左侧导航树中的&#x200B;**[!UICONTROL Body]**&#x200B;组件以访问自定义CSS编辑器。
 

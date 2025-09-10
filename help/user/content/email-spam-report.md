@@ -1,12 +1,13 @@
 ---
 title: 查看垃圾邮件报告
-description: 了解如何在专用垃圾邮件报告中检查您的电子邮件内容垃圾邮件评分，该报告会预测ISP或邮箱提供商是否将其视为垃圾邮件。
+description: 生成带有SpamAssassin评分的垃圾邮件报告，以检查电子邮件是否触发垃圾邮件过滤器，并改进Journey Optimizer B2B edition中的可投放性。
 feature: Email Authoring
 level: Beginner
 role: User
-source-git-commit: 7992df497182b69c5103b603d69a70e1a40e903a
+exl-id: 0ab2a85c-fbab-4681-9964-74b7fd1d574f
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -40,6 +41,3 @@ ht-degree: 0%
 1. 如果电子邮件内容中存在可以改进的元素，请编辑您的内容以应用必要的更新。
 
 1. 完成更改后，返回到&#x200B;_[!UICONTROL 模拟]_&#x200B;页面并再次单击&#x200B;**[!UICONTROL 垃圾邮件报告]**&#x200B;以检查所得得分改进。
-
-
-

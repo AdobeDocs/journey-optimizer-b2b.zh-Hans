@@ -1,12 +1,12 @@
 ---
 title: 创建和发布帐户历程
-description: 了解如何创建和发布帐户历程。
+description: 在可视画布中创建帐户历程、添加操作和事件节点、配置计划，以及在Journey Optimizer B2B edition中发布实时编排。
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: b88b4d45b8697b24c120f58bf7f85fd298bcfb8d
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '806'
 ht-degree: 4%
 
 ---
@@ -141,4 +141,4 @@ _历程图_&#x200B;是历程工作区的中心区域。 在此区域中，您可
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3443229/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

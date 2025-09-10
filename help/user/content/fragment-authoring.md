@@ -1,10 +1,10 @@
 ---
 title: 片段创作
-description: 了解如何创作可重复用于您的电子邮件的内容片段和模板设计以提高效率并维护设计和品牌标准。
+description: 在Journey Optimizer B2B edition中，使用可视化设计工具创作可重用内容片段 — 为电子邮件和模板添加组件、个性化、条件内容和可自定义字段。
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 6028a1ac7989212624be2813d7961f6711080f4e
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 6%
