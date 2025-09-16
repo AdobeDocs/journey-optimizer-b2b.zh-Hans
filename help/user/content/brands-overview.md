@@ -11,7 +11,7 @@ exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="开始使用品牌"
->abstract="创建并自定义您的品牌以定义您的独特视觉和语言标识，同时更轻松地生成与您的品牌风格和声音相匹配的内容。"
+>abstract="创建并自定义您自己的品牌，以塑造您独特的视觉风格与语言特征，同时更轻松地生成符合您品牌风格和声音的内容。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"

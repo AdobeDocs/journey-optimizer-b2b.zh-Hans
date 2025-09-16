@@ -10,7 +10,7 @@ exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
 source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 28%
+ht-degree: 31%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_missing_datastream"
 >title="缺少数据流 ID"
->abstract="子域缺少数据流ID，这是正确路由所必需的。 在“设置”中配置以继续"
+>abstract="子域缺少正确路由所需的数据流 ID。在“设置”中配置以继续"
 
 设置&#x200B;**[!UICONTROL 数据流]**&#x200B;选项以配置用于登陆页面事件收集的数据流。
 
