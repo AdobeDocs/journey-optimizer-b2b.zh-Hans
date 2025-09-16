@@ -1,21 +1,21 @@
 ---
 title: 资产
-description: 从Marketo Engage Design Studio和AEM Assets中管理Journey Optimizer B2B edition中的电子邮件、模板和片段的图像资源。
+description: 管理来自 Marketo Engage Design Studio 和 AEM Assets 的图像资产，用于 Journey Optimizer B2B Edition 中的电子邮件、模板和片段。
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '883'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # 资产
 
-在 [!DNL Adobe Journey Optimizer B2B Edition] 中，资产通常是为了支持帐户历程而设计内容时所使用的图像。您可以在电子邮件、电子邮件模板以及资产选择器中的片段中使用这些图像，也可以在可视设计空间中使用简单的拖放界面。
+在 [!DNL Adobe Journey Optimizer B2B Edition] 中，资产通常是为了支持帐户历程而设计内容时所使用的图像。您可以通过资产选择器或可视化设计空间中的简单拖放界面在电子邮件、电子邮件模板和片段中使用这些图像。
 
-[!DNL Journey Optimizer B2B Edition] 为营销人员提供两种类型的资产库：[!DNL Adobe Marketo Engage] [!DNL Design Studio] 和 [!DNL Adobe Experience Manager Assets as a Cloud Service]。您可以仅使用Adobe Marketo Engage Design Studio，或使用同时配置的两个库（基于您拥有的[!DNL Experience Manager Assets]许可证）。
+[!DNL Journey Optimizer B2B Edition] 为营销人员提供两种类型的资产库：[!DNL Adobe Marketo Engage] [!DNL Design Studio] 和 [!DNL Adobe Experience Manager Assets as a Cloud Service]。您可以只使用 Adobe Marketo Engage Design Studio，或者同时使用配置的两种库（基于您拥有的 [!DNL Experience Manager Assets] 许可证）。
 
 ## 资产管理
 

@@ -1,13 +1,13 @@
 ---
 title: 导出帐户
-description: 在Journey Optimizer B2B edition中将筛选后的帐户列表导出到CSV，以供具有购买组和参与度得分过滤器的第三方平台使用。
+description: 将筛选的帐户列表导出为 CSV 文件，供 Journey Optimizer B2B Edition 中配备购买群组和参与度评分过滤器的第三方平台使用。
 feature: Audiences
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
 source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 

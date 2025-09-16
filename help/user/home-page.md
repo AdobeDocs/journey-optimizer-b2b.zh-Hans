@@ -1,13 +1,13 @@
 ---
 title: 登录和主页
-description: 访问Journey Optimizer B2B edition并导航个性化主页 — 通过快速访问和AI助手，面向营销人员和管理员的不同视图。
+description: 访问 Journey Optimizer B2B Edition 并导航个性化主页——为营销人员和管理员提供快速访问和 AI 助手的不同视图。
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '416'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 59%
 
 ![Adobe Experience Platform 应用程序](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
-登录Adobe Experience Platform并选择Adobe Journey Optimizer B2B edition应用程序时，将显示主页。 本页以<!-- refined insights and-->个指向相关资源的快速访问链接的形式概述了Journey Optimizer B2B计划的当前状态。<!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
+当您登录 Adobe Experience Platform 并选择 Adobe Journey Optimizer B2B Edition 应用程序时，将显示主页。此页面以<!-- refined insights and-->相关资源的快速访问链接形式概述了 Journey Optimizer B2B 计划的当前状态。<!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
 ![Journey Optimizer B2B Edition 主页](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B Edition 有两个主要用户角色：_&#x200B;**营销人员**&#x200B;_&#x200B;和&#x200B;_&#x200B;**管理员**&#x200B;_。每个角色都有针对不同成熟度阶段（新用户或高级用户）的特定主页。页面内容基于每个角色所需的信息以及接下来要执行的操作。
+Journey Optimizer B2B Edition 有两个主要用户角色：_**营销人员**_&#x200B;和&#x200B;_**管理员**_。每个角色都有针对不同成熟度阶段（新用户或高级用户）的特定主页。页面内容基于每个角色所需的信息以及接下来要执行的操作。
 
-* **营销人员 — 新用户** — 新用户的&#x200B;_营销人员_&#x200B;主页可帮助他们熟悉Journey Optimizer B2B及其功能。 它包括为新营销人员在新加入时进行指导性讲解，以便他们能够了解系统的细微差别，并有效地制定 B2B 营销策略和计划。
-* **营销人员 — 高级用户** — 高级营销人员的&#x200B;_营销人员_&#x200B;主页显示当前计划进度、建议的后续行动，并提供对相关部分的快速访问。
-* **管理员 — 新用户** — 新管理员的&#x200B;_管理员_&#x200B;主页可帮助他们熟悉Journey Optimizer B2B edition及其功能。 它包括一个指导性讲解，逐步引导新管理员，以便他们能够了解系统的细微差别，并有效地制定 B2B 营销策略和计划。
-* **管理员 — 高级用户** — 高级管理员的&#x200B;_管理员_&#x200B;主页显示当前实例状态和可操作的步骤，以提高管理员的效率和有效性。
+* **营销人员 - 新用户**——针对新用户的&#x200B;_营销人员_&#x200B;主页可帮助他们熟悉 Journey Optimizer B2B 及其功能。它包括为新营销人员在新加入时进行指导性讲解，以便他们能够了解系统的细微差别，并有效地制定 B2B 营销策略和计划。
+* **营销人员 - 高级用户**——针对高级营销人员的&#x200B;_营销人员_&#x200B;主页显示当前计划进度、建议的后续操作，并提供相关部分的快速访问。
+* **管理员 - 新用户**——针对新管理员的&#x200B;_管理员_&#x200B;主页可帮助他们熟悉 Journey Optimizer B2B Edition 及其功能。它包括一个指导性讲解，逐步引导新管理员加入历程，以便他们能够了解系统的细微差别，并有效地制定 B2B 营销策略和计划。
+* **管理员 - 高级用户** ——针对高级管理员的&#x200B;_管理员_&#x200B;主页显示当前实例状态和可操作步骤，以提高管理员的工作效率与成效。
 
 _[!UICONTROL 最近访问的]_&#x200B;部分提供了营销人员或管理员最近访问的资产列表。使用此列表可直接前往您最近使用过的资产，而无需浏览一系列资产页面进行搜索。
 

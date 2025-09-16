@@ -1,13 +1,13 @@
 ---
 title: 帐户历程
-description: 通过客户历程简化需求生成 — 在Journey Optimizer B2B edition中跨电子邮件、短信和事件创建、发布和管理购买团体参与。
+description: 通过帐户历程简化需求开发——在 Journey Optimizer B2B Edition 中创建、发布、管理购买群组参与度，覆盖电子邮件、短信及线下活动。
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1032'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,11 +69,11 @@ _[!UICONTROL 帐户历程]_&#x200B;列表页面包括以下几列：
 
 | 状态 | 描述 | 可用操作 |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**草稿**&#x200B;_ | 可编辑的未发布历程。 | <li>[发布](./create-publish-journey.md#publish-an-account-journey)<li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
-| _&#x200B;**实时**&#x200B;_ | 历程发布后，历程状态就从草稿变为实时。在这种状态下，历程无法再编辑。 | <li>[重复](#duplicate-journey)<li>[对新条目关闭](#close-to-new-entries) <li>[中止](#abort-journey) |
-| _&#x200B;**对新条目关闭**&#x200B;_ | 单击顶部导航中的[!UICONTROL 对新条目关闭]，历程状态从&#x200B;_实时_&#x200B;变为&#x200B;_对新条目关闭_。 | <li>[重复](#duplicate-journey) <li>[中止](#abort-journey) |
-| _&#x200B;**已中止**&#x200B;_ | 历程中止后，历程状态从&#x200B;_实时_&#x200B;或&#x200B;_对新条目关闭_&#x200B;改变。已中止历程无法重新开始。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
-| _&#x200B;**已完成**&#x200B;_ | 历程中的所有帐户都完成该历程后，状态将从&#x200B;_实时_&#x200B;或&#x200B;_对新条目关闭_&#x200B;变为&#x200B;_已完成_。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
+| _**草稿**_ | 可编辑的未发布历程。 | <li>[发布](./create-publish-journey.md#publish-an-account-journey)<li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
+| _**实时**_ | 历程发布后，历程状态就从草稿变为实时。在这种状态下，历程无法再编辑。 | <li>[重复](#duplicate-journey)<li>[对新条目关闭](#close-to-new-entries) <li>[中止](#abort-journey) |
+| _**对新条目关闭**_ | 单击顶部导航中的[!UICONTROL 对新条目关闭]，历程状态从&#x200B;_实时_&#x200B;变为&#x200B;_对新条目关闭_。 | <li>[重复](#duplicate-journey) <li>[中止](#abort-journey) |
+| _**已中止**_ | 历程中止后，历程状态从&#x200B;_实时_&#x200B;或&#x200B;_对新条目关闭_&#x200B;改变。已中止历程无法重新开始。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
+| _**已完成**_ | 历程中的所有帐户都完成该历程后，状态将从&#x200B;_实时_&#x200B;或&#x200B;_对新条目关闭_&#x200B;变为&#x200B;_已完成_。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
 
 ## 管理历程
 
@@ -157,4 +157,4 @@ _帐户历程_&#x200B;列表中包含您的 Journey Optimizer B2B Edition 实例
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3443217/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
