@@ -30,7 +30,7 @@ Journey Optimizer B2B edition中的AI助手是基于Adobe Experience Platform[�
 
 ## Journey Optimizer B2B edition中的AI助手功能
 
-为了制定对您提交问题的响应，AI Assistant查询数据库并将数据库中的数据转换为人类可读的答案。 此响应是基础数据的内部表示形式，也称为&#x200B;_&#x200B;**_知识图_**&#x200B;_ — 给定答案的概念、数据和元数据的综合网络。 知识图由每次提交查询时引用的子图组成：
+为了制定对您提交问题的响应，AI Assistant查询数据库并将数据库中的数据转换为人类可读的答案。 此响应是基础数据的内部表示形式，也称为&#x200B;_**_知识图_**_ — 给定答案的概念、数据和元数据的综合网络。 知识图由每次提交查询时引用的子图组成：
 
 * Experience League文档。
 * 操作构件，例如架构、字段、受众和历程。
@@ -92,7 +92,7 @@ Journey Optimizer B2B edition中的AI助手以隐私、安全和治理为原则�
 
 * 您必须具有显式权限才能与AI助手交互。
 
-   * 管理员可以使用[权限UI](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}和[Admin Console](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/ui/browse){target="_blank"}设置权限。
+   * 管理员可以使用[权限UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}和[Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}设置权限。
 
    * 权限是细粒度的，您的沙盒管理员可以配置哪些用户能够提出不同类别的问题（使用AI助手基于产品知识的问题或有关操作见解的问题）。
 
