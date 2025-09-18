@@ -3,7 +3,7 @@ title: Adobe Journey Optimizer B2B Edition 概述
 description: 了解 Adobe Journey Optimizer B2B Edition——通过购买群组、AI 洞察和 Experience Platform 集成，为 B2B 营销编排帐户历程。
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 100%
 
