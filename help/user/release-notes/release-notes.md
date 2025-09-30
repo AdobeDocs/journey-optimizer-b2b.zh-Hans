@@ -4,9 +4,9 @@ description: 了解 Adobe Journey Optimizer B2B Edition 中的最新功能、增
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: ac67766c80394b3f00fa8ce713b441a34574b583
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3016'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,20 +27,20 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 ## 2025.9 发行说明
 
-**部署日期**：2025年9月30日
+**部署日期**：2025 年 9 月 30 日
 
 此版本包括以下新功能和增强功能：
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | 电子邮件内容协作 | 现在，您可以在电子邮件资源的上下文中对与Journey Optimizer B2B edition同事进行协作进行评论。 您可以标记团队成员，以便他们收到包含评论详细信息的电子邮件通知。 通知也可用作脉冲通知。<!-- [Learn more](../admin/engagement-score-weighting.md) --> |
-| 功能 | 用于电子邮件设计的深色模式 | 电子邮件设计空间现在包括切换到&#x200B;_深色模式_&#x200B;的功能。 在深色模式下，您可以预览电子邮件内容，并定义要专门为在深色模式下查看电子邮件的收件人显示的自定义设置。<!-- [Learn more](../content/email-dark-mode.md) --> |
-| 增强功能 | 历程 — 按角色中的人数拆分路径 | 使用按帐户节点划分的拆分路径来定位具有一个或多个购买群组角色中人数的帐户。 在此路径中，您可以根据角色深度评估购买组对销售警报和其他参与情况的准备情况。<!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
-| 增强功能 | 历程 — 事件的人员过滤器 | 使用人员筛选器来侦听人员事件。 这些过滤器包括定位匹配购买组的特定角色的能力。<!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
+| 功能 | 电子邮件内容协作 | 现在，您可以在电子邮件资产的上下文中评论与 Journey Optimizer B2B Edition 用户同事的合作。您可以标记您的团队成员，这样他们就会收到包含评论详细信息的电子邮件通知。也可以使用推送通知的方式。<!-- [Learn more](../admin/engagement-score-weighting.md) --> |
+| 功能 | 用于电子邮件设计的深色模式 | 电子邮件设计空间现在包含能够切换到&#x200B;_深色模式_&#x200B;的功能。在深色模式下，您可以预览电子邮件内容，并定义要专门为在深色模式下查看电子邮件的收件人显示的自定义设置。<!-- [Learn more](../content/email-dark-mode.md) --> |
+| 增强功能 | 历程 - 按角色的人数拆分路径 | 使用一个通过帐户节点拆分的路径来针对一个具有一个或多个购买群组角色的人数的帐户。在这个路径中，您可以根据角色深度评估购买群组对销售警报和其他参与行动的意愿。<!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
+| 增强功能 | 历程 - 事件的人员过滤器 | 使用人员过滤器来侦听人员事件。这些过滤器可以针对一个匹配的购买群组的某个特定角色。<!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
 
 >[!NOTE]
 >
->版本更改将于2025年9月30日开始部署，并分阶段推出每个功能。 功能及增强功能的发布时间可能会有变动。
+>发行版变更将于 2025 年 9 月 30 日开始部署，将分阶段推出每个功能。功能及增强功能的发布时间可能会有变动。
 
 ## 2025.8 发行说明
 
