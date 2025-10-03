@@ -28,6 +28,7 @@ ht-degree: 0%
 >此页面旨在使所有收件人都能够访问您的内容，以确保残障人士能够阅读、理解您使用[!DNL Journey Optimizer B2B Edition]设计的电子邮件和登陆页面并与之交互。
 >
  
+
 ## 确保文本可读性 {#text-readability}
 
 利用&#x200B;**[!UICONTROL 文本]**&#x200B;组件的&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡确保文本可读，例如使用适当的颜色对比度和简单字体。 [了解详情](content-components.md#text)
