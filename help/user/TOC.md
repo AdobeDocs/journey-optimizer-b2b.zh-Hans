@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文档
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition 以及如何使用它通过内置的生成式 AI 和行业领先的自动化来编排帐户及购买群组历程。
-source-git-commit: 68afc2a865a7640f4fd4d5a08ca2299bdc134887
+source-git-commit: e66d4fe77152ed4edb1c929fd1d38ac693e83ed2
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 99%
+source-wordcount: '329'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 99%
    + [使用 AI 助手](./ai-assistant/use-ai-assistant.md)
 + 帐户历程 {#account-journeys}
    + [概述](./journeys/journey-overview.md)
+   + [历程生成代理](./agents/journey-agent.md)
    + [创建和发布历程](./journeys/create-publish-journey.md)
    + [历程节点](./journeys/journey-nodes.md)
    + 历程节点 {#journey-nodes}
@@ -40,12 +41,14 @@ ht-degree: 99%
       + [电子邮件创作](./content/email-authoring.md)
       + [电子邮件创作的 AI 助手](./content/ai-assistant-emails.md)
       + [GenStudio 工作流](./content/genstudio-email-workflow.md)
+      + [用于电子邮件设计的深色模式](./content/email-dark-mode.md)
       + [受监管的模板](./content/email-authoring-governance.md)
       + [销售警报电子邮件](./content/sales-alert-email.md)
    + [自定义个性化令牌](./content/personalization-my-tokens.md)
    + [短信创作](./content/sms-authoring.md)
 + 帐户 {#accounts}
    + [受众](./audiences/account-audience-overview.md)
+   + [Audience 代理](./agents/audience-agent-b2b.md)
    + 购买群组 {#buying-groups}
       + [概述](./buying-groups/buying-groups-overview.md)
       + [解决方案兴趣](./buying-groups/solution-interests.md)
@@ -74,6 +77,7 @@ ht-degree: 99%
          + [模拟内容](./content/email-simulate-content.md)
          + [测试电子邮件渲染](./content/email-test-rendering.md)
          + [垃圾邮件报告](./content/email-spam-report.md)
+      + [电子邮件协作](./content/email-collaboration-tools.md)
    + 资产 {#assets}
       + [概述](./content/assets-overview.md)
       + Marketo Engage 资产 {#marketo-engage-dam}
