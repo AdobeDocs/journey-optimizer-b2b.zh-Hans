@@ -3,7 +3,8 @@ title: 向Collaboration工具发送电子邮件
 description: 在Journey Optimizer B2B edition中协作处理电子邮件。 添加评论、邀请审阅人、解决反馈并简化团队的审阅工作流。
 feature: Email Authoring, Content
 role: User
-source-git-commit: cdc5963c1222fe2e225ad53467bdba83ccd3207b
+hidefromtoc: true
+source-git-commit: 9cb77da73778c313392af1c42632d6b9e7e92f3b
 workflow-type: tm+mt
 source-wordcount: '1187'
 ht-degree: 1%
