@@ -4,7 +4,7 @@ description: 在Journey Optimizer B2B edition中，使用加权活动、基于�
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: 859e96ce0d450b52a8216f767c595938c23a9d50
 workflow-type: tm+mt
 source-wordcount: '1254'
 ht-degree: 30%
@@ -30,13 +30,13 @@ ht-degree: 30%
 
 * **人员参与度分数** — 人员参与度分数基于个人购买小组成员的活动。
 
-  每个购买群成员的人员参与分数显示在购买群组详细信息页面[_[!UICONTROL 成员&#x200B;]_&#x200B;选项卡](./buying-group-details.md#buying-group-members)中。 这些得分还会显示在页面和仪表板中，其中包括最常参与的成员和重叠的联系人信息。
+  每个购买群成员的人员参与分数显示在购买群组详细信息页面[_[!UICONTROL 成员&#x200B;]_选项卡](./buying-group-details.md#buying-group-members)中。 这些得分还会显示在页面和仪表板中，其中包括最常参与的成员和重叠的联系人信息。
 
   ![参与次数最多的购买小组成员](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
-人员参与度得分是一个属性，可用于在[角色模板](./buying-groups-role-templates.md#add-the-template-roles)和[按人员划分历程的路径](../journeys/split-merge-paths-nodes.md#people-path-conditions)节点中进行筛选。
+人员参与度得分是一个属性，可用于在[角色模板](./buying-groups-role-templates.md#add-the-template-roles)和[按人员划分历程的路径](../journeys/split-merge-paths-nodes.md#people-path-filters)节点中进行筛选。
 
 ![访问配置的事件定义](./assets/most-engaged-buying-groups.png){width="550" zoomable="yes"}
 

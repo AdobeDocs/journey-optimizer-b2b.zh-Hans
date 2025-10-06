@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 发行说明
 description: 了解 Adobe Journey Optimizer B2B Edition 中的最新功能、增强功能和错误修复——随时了解新功能和产品改进动态。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: ac67766c80394b3f00fa8ce713b441a34574b583
-workflow-type: ht
-source-wordcount: '3016'
-ht-degree: 100%
+source-git-commit: 93a5b236c9d6f4e11d18704f1feb4804a79989f6
+workflow-type: tm+mt
+source-wordcount: '3000'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,6 @@ Journey Optimizer B2B Edition 不断地提供新功能，对现有功能进行�
 Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] 上，并继承了其最新的创新和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/latest){target="_blank"}中进一步了解这些更改。
 
 查看[产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，了解有关权限、性能护栏和限制的信息。
-
 <!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
@@ -33,10 +32,10 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | 电子邮件内容协作 | 现在，您可以在电子邮件资产的上下文中评论与 Journey Optimizer B2B Edition 用户同事的合作。您可以标记您的团队成员，这样他们就会收到包含评论详细信息的电子邮件通知。也可以使用推送通知的方式。<!-- [Learn more](../admin/engagement-score-weighting.md) --> |
-| 功能 | 用于电子邮件设计的深色模式 | 电子邮件设计空间现在包含能够切换到&#x200B;_深色模式_&#x200B;的功能。在深色模式下，您可以预览电子邮件内容，并定义要专门为在深色模式下查看电子邮件的收件人显示的自定义设置。<!-- [Learn more](../content/email-dark-mode.md) --> |
-| 增强功能 | 历程 - 按角色的人数拆分路径 | 使用一个通过帐户节点拆分的路径来针对一个具有一个或多个购买群组角色的人数的帐户。在这个路径中，您可以根据角色深度评估购买群组对销售警报和其他参与行动的意愿。<!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
-| 增强功能 | 历程 - 事件的人员过滤器 | 使用人员过滤器来侦听人员事件。这些过滤器可以针对一个匹配的购买群组的某个特定角色。<!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
+| 功能 | 电子邮件内容协作 | 现在，您可以在电子邮件资产的上下文中评论与 Journey Optimizer B2B Edition 用户同事的合作。您可以标记您的团队成员，这样他们就会收到包含评论详细信息的电子邮件通知。通知也可用作脉冲通知。 [了解详情](../content/email-collaboration-tools.md) |
+| 功能 | 用于电子邮件设计的深色模式 | 电子邮件设计空间现在包含能够切换到&#x200B;_深色模式_&#x200B;的功能。在深色模式下，您可以预览电子邮件内容，并定义要专门为在深色模式下查看电子邮件的收件人显示的自定义设置。 [了解详情](../content/email-dark-mode.md) |
+| 增强功能 | 历程 - 按角色的人数拆分路径 | 使用一个通过帐户节点拆分的路径来针对一个具有一个或多个购买群组角色的人数的帐户。在此路径中，您可以根据角色深度评估购买组对销售警报和其他参与情况的准备情况。 [了解详情](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
+| 增强功能 | 历程 - 事件的人员过滤器 | 使用人员过滤器来侦听人员事件。这些过滤器包括定位匹配购买组的特定角色的能力。 [了解详情](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
 >[!NOTE]
 >
@@ -56,10 +55,6 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | 增强功能 | 片段的条件内容 | 您现在可以使用条件内容工具进行视觉片段设计。[了解详情](../content/conditional-content.md) |
 | 增强功能 | 参与度评分更新 | 更新了购买群组参与度评分逻辑，使评分规范化。此外，您还可以使用会员级参与度评分以及整个购买群组的集体参与度评分。[了解详情](../buying-groups/engagement-scores.md) |
 | 增强功能 | 活跃历程可观察性——每个节点的帐户 | 对于活跃的帐户历程，您可以访问那些已到达历程中每个帐户节点的帐户的列表。 |
-
->[!NOTE]
->
->发行版变更将于 2025 年 8 月 26 日开始部署，将分阶段推出每个功能。功能及增强功能的发布时间可能会有变动。
 
 ## 2025.6 发行说明
 
@@ -108,7 +103,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | 功能 | 帐户列表历程编排 | 使用历程操作节点来添加和移除静态帐户列表的帐户。<a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">了解详情</a> |
 | 增强功能 | 在 Marketo Engage 中筛选历程会员资格 | 为历程受众使用 Adobe Journey Optimizer B2B Edition 帐户列表，然后使用 Marketo Engage 智能列表中的&#x200B;_帐户列表会员_&#x200B;过滤器。<a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">了解详情</a> |
 | 功能 | 非活动状态过滤器 | 根据 Marketo Engage 营销活动和计划中的非活动状态来编排历程，包括电子邮件非活动状态、有趣的时刻、数据值变化和访问过的网页。<a href="../journeys/split-merge-paths-nodes.md#activity-filtering">了解详情</a> |
-| 增强功能 | 访问过的网页过滤器 | 根据与 Marketo Engage 营销活动和计划相关联的访问过的网页的活动状态来编排历程。<a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">了解详情</a> |
+| 增强功能 | 访问过的网页过滤器 | 根据与 Marketo Engage 营销活动和计划相关联的访问过的网页的活动状态来编排历程。<a href="../journeys/split-merge-paths-nodes.md#people-path-filters">了解详情</a> |
 | 增强功能 | 电子邮件列表 | 查看活跃电子邮件和草稿电子邮件的全局列表，以便在相关联的帐户历程中搜索、审查和更新它们。<a href="../content/emails-list.md">了解详情</a> |
 
 ## 2025.3 发行说明

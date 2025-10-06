@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B Edition 文档
 description: Journey Optimizer B2B Edition 的完整文档——浏览可用于加入、创建购买群组、生成帐户历程和管理内容的资源。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: ht
-source-wordcount: '636'
-ht-degree: 100%
+source-git-commit: b60efa2fb448b6c5542ad0d7894f762ca2372990
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 78%
 
 ---
 
@@ -16,6 +16,18 @@ ht-degree: 100%
 以下是 Journey Optimizer B2B Edition 应用和文档中最近新增功能和增强功能举例。
 
 >[!BEGINTABS]
+
+>[!TAB 电子邮件内容协作]
+
+电子邮件设计空间包括用于评论和解决的协作工具，以便营销团队可以直接在[!DNL Journey Optimizer B2B Edition]内无缝审查、讨论和最终确定电子邮件资产。 用户可以在电子邮件设计空间内评论、建议编辑和解决反馈，而不是通过外部工具（如聊天、电子邮件线程或电子表格）共享草稿。 您可以为团队成员添加标签，以便他们收到包含评论详细信息的电子邮件或Pulse通知。
+
+[!BADGE 了解详情]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="了解电子邮件内容协作工具"}
+
+>[!TAB 深色模式电子邮件设计]
+
+电子邮件设计空间现在包含&#x200B;_深色模式_&#x200B;预览和设置。 深色模式允许支持此功能的电子邮件客户端或应用程序为文本、按钮和其他可视化元素显示具有更暗背景和更浅颜色的电子邮件。 跨电子邮件客户端预览渲染、自定义设置、确保可访问性和测试。
+
+[!BADGE 了解详情]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="了解深色模式电子邮件设计"}
 
 >[!TAB 人员参与度评分]
 
@@ -35,12 +47,6 @@ B2B 营销策略师现在可以通过自定义购买群组角色来扩展购买�
 
 [!BADGE 了解详情]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="了解自定义参与度评分权重"}
 
->[!TAB GenStudio 电子邮件体验]
-
-将 GenStudio for Performance Marketing 电子邮件体验与 Journey Optimizer B2B Edition 集成，以提高营销效率并保持品牌一致性。通过这种集成，您可以将 GenStudio AI 驱动的内容创建与 Journey Optimizer B2B Edition 中的高级编排功能结合起来。
-
-[!BADGE 了解详情]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="了解 GenStudio 电子邮件体验"}
-
 >[!TAB 自定义 CSS 支持]
 
 现在，您可以在设计空间中创作电子邮件和登陆页面内容时添加自己的自定义 CSS。
@@ -52,12 +58,6 @@ B2B 营销策略师现在可以通过自定义购买群组角色来扩展购买�
 如要启用和管理意图检测模型，您现在可以上传一个电子表格来定义意图数据映射类别。
 
 [!BADGE 了解详情]{type=Informative url="/help/user/admin/intent-data.md" tooltip="了解意图关键词映射配置"}
-
->[!TAB 垃圾邮件检测报告]
-
-使用新的垃圾邮件报告，您可以避开垃圾邮件过滤器，确保消息能够传递到受众的收件箱。直接在电子邮件设计空间中生成&#x200B;_垃圾邮件报告_。
-
-[!BADGE 了解详情]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="了解垃圾邮件检测报告"}
 
 >[!ENDTABS]
 
@@ -137,7 +137,7 @@ B2B 营销策略师现在可以通过自定义购买群组角色来扩展购买�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a>——<a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a>——<a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/home" target="_blank">文档</a>——<a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">开发人员资源</a>

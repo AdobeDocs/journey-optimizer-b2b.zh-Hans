@@ -4,9 +4,9 @@ description: 使用可视化设计工具、HTML导入或模板创建电子邮件
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 9f8953423e3b6d578155431c7638e4fec9abf86a
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1163'
 ht-degree: 2%
 
 ---
@@ -107,7 +107,7 @@ ht-degree: 2%
 
 保存电子邮件后，当您在摘要中选择&#x200B;_[!UICONTROL 使用者]_&#x200B;选项卡时，该电子邮件会显示在片段详细信息页面中。
 
-### 添加资源
+### 添加图像资源
 
 {{$include /help/_includes/content-design-assets.md}}
 
@@ -126,6 +126,14 @@ ht-degree: 2%
 ### 编辑链接的URL跟踪
 
 {{$include /help/_includes/content-design-links.md}}
+
+### 应用深色模式样式
+
+使用&#x200B;_深色模式_&#x200B;查看电子邮件客户端中深色主题的电子邮件显示。 深色模式或主题允许支持的电子邮件客户端或应用程序显示具有更暗背景和更浅颜色的电子邮件，用于文本、按钮和其他视觉元素。 在设计画布的右上方，将选择器更改为&#x200B;_深色模式_ （ ![深色模式图标](../assets/do-not-localize/icon-content-dark-mode.svg) ）。 然后，预览和定义支持电子邮件的客户端在启用其深色主题时用于显示的特定自定义设置。
+
+![电子邮件设计画布显示深色模式选择器和以深色模式显示的电子邮件内容](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
+
+有关深色模式样式和最佳实践的详细信息，请参阅电子邮件内容的[深色模式](./email-dark-mode.md)。
 
 ### 查看选项
 
