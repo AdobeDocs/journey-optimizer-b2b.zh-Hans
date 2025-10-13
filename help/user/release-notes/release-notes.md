@@ -4,9 +4,9 @@ description: 了解 Adobe Journey Optimizer B2B Edition 中的最新功能、增
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: fbb949da360e1e80e92fa34b2dd43a4de10011b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2996'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 -->
 
-## 2025.9 发行说明
+## 2025.9 版发行说明
 
 **部署日期**：2025 年 9 月 30 日
 
@@ -32,16 +32,16 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | 电子邮件内容协作 | 现在，您可以在电子邮件资产的上下文中评论与 Journey Optimizer B2B Edition 用户同事的合作。您可以标记您的团队成员，这样他们就会收到包含评论详细信息的电子邮件通知。通知也可用作脉冲通知。 |
+| 功能 | 电子邮件内容协作 | 现在，您可以在电子邮件资产的上下文中评论与 Journey Optimizer B2B Edition 用户同事的合作。您可以标记您的团队成员，这样他们就会收到包含评论详细信息的电子邮件通知。也可以使用推送通知的方式。 |
 | 功能 | 用于电子邮件设计的深色模式 | 电子邮件设计空间现在包含能够切换到&#x200B;_深色模式_&#x200B;的功能。在深色模式下，您可以预览电子邮件内容，并定义要专门为在深色模式下查看电子邮件的收件人显示的自定义设置。 |
-| 增强功能 | 历程 - 按角色的人数拆分路径 | 使用一个通过帐户节点拆分的路径来针对一个具有一个或多个购买群组角色的人数的帐户。在此路径中，您可以根据角色深度评估购买组对销售警报和其他参与情况的准备情况。 [了解详情](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
-| 增强功能 | 历程 - 事件的人员过滤器 | 使用人员过滤器来侦听人员事件。这些过滤器包括定位匹配购买组的特定角色的能力。 [了解详情](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
+| 增强功能 | 历程 - 按角色的人数拆分路径 | 使用一个通过帐户节点拆分的路径来针对一个具有一个或多个购买群组角色的人数的帐户。在这个路径中，您可以根据角色深度评估购买群组对销售警报和其他参与行动的意愿。[了解详情](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
+| 增强功能 | 历程 - 事件的人员过滤器 | 使用人员过滤器来侦听人员事件。这些筛选条件可以针对一个匹配的购买群组的某个特定角色。[了解详情](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
 >[!NOTE]
 >
 >发行版变更将于 2025 年 9 月 30 日开始部署，将分阶段推出每个功能。功能及增强功能的发布时间可能会有变动。
 
-## 2025.8 发行说明
+## 2025.8 版发行说明
 
 **部署日期**：2025 年 8 月 26 日
 
@@ -56,7 +56,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | 增强功能 | 参与度评分更新 | 更新了购买群组参与度评分逻辑，使评分规范化。此外，您还可以使用会员级参与度评分以及整个购买群组的集体参与度评分。[了解详情](../buying-groups/engagement-scores.md) |
 | 增强功能 | 活跃历程可观察性——每个节点的帐户 | 对于活跃的帐户历程，您可以访问那些已到达历程中每个帐户节点的帐户的列表。 |
 
-## 2025.6 发行说明
+## 2025.6 版发行说明
 
 **部署日期**：2025 年 7 月 15 日
 
@@ -78,7 +78,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 **Brand Kit with AI Assistant** - Maintain brand consistency across email assets by storing and managing brand assets. Add assets, such as colors, fonts, logos, themes, visual content, and compliance guidelines, and use them for your generative AI content creation. -->
 
-## 2025.5 发行说明
+## 2025.5 版发行说明
 
 **部署日期**：2025 年 6 月 3 日
 
@@ -91,7 +91,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | 增强功能 | 电子邮件的 Handlebar 令牌格式 | 电子邮件内容的个性化令牌现在使用一种更新格式，与 Handlebar 脚本完全兼容。此格式使用&#x200B;_驼峰式大小写_&#x200B;或下划线，不使用空格。[了解详情](../content/email-authoring.md#content-authoring---personalization) |
 | 增强功能 | 列表的总数显示 | 改进了&#x200B;_[!UICONTROL 解决方案兴趣]_&#x200B;和&#x200B;_[!UICONTROL 帐户历程]_&#x200B;两个列表页面，在搜索栏旁边显示总数。 |
 
-## 2025.4 发行说明
+## 2025.4 版发行说明
 
 **部署日期**：2025 年 4 月 29 日
 
@@ -106,7 +106,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | 增强功能 | 访问过的网页过滤器 | 根据与 Marketo Engage 营销活动和计划相关联的访问过的网页的活动状态来编排历程。<a href="../journeys/split-merge-paths-nodes.md#people-path-filters">了解详情</a> |
 | 增强功能 | 电子邮件列表 | 查看活跃电子邮件和草稿电子邮件的全局列表，以便在相关联的帐户历程中搜索、审查和更新它们。<a href="../content/emails-list.md">了解详情</a> |
 
-## 2025.3 发行说明
+## 2025.3 版发行说明
 
 **部署日期**：2025 年 4 月 1 日
 
@@ -119,7 +119,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | 功能 | 删除购买群组阶段 | 当购买群组阶段模型处于草稿或已发布状态时，您可以将其删除。如果它已发布（上线），则只有当它与任何解决方案兴趣都无关联时，您才能删除。<a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">了解详情</a> |
 | 增强功能 | 历程节点数 | 在节点层面提高了已发布历程会员资格数量的可见性。在&#x200B;_历程图_&#x200B;中，节点会显示&#x200B;_[!UICONTROL 已进入的帐户总数]_。当您选择并操作节点时，右侧的详细信息还包括&#x200B;_[!UICONTROL 尚未执行操作的帐户]_。_监听事件_&#x200B;节点的详细信息包括&#x200B;_[!UICONTROL 此步骤中的帐户]_。使用此信息来验证您正在进行的、已完成的和已中止的历程中的帐户进展。 |
 
-## 2025.2 发行说明
+## 2025.2 版发行说明
 
 **部署日期**：2025 年 3 月 11 日
 
@@ -133,7 +133,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 <!-- | Feature | B2B built-in roles and product permissions | Experience Platform now includes a set of built-in (default) roles that you can use to manage access to the B2B product capabilities. <a href="../admin/user-management.md#b2b-built-in-roles">Learn more</a> <br/>Administrators can now define custom roles in Adobe Experience Platform to include Journey Optimizer B2B Edition product permissions.  <a href="../admin/user-management.md#b2b-product-permissions">Learn more</a> | -->
 
-## 2025.1 发行说明 {#Jan-2025}
+## 2025.1 版发行说明 {#Jan-2025}
 
 **部署日期**：2025 年 2 月 6 日
 
