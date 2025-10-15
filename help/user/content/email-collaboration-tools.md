@@ -3,17 +3,16 @@ title: 向Collaboration工具发送电子邮件
 description: 在Journey Optimizer B2B edition中协作处理电子邮件。 添加评论、邀请审阅人、解决反馈并简化团队的审阅工作流。
 feature: Email Authoring, Content
 role: User
-hidefromtoc: true
-source-git-commit: 9cb77da73778c313392af1c42632d6b9e7e92f3b
+source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
 workflow-type: tm+mt
 source-wordcount: '1187'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 # 电子邮件协作工具
 
-[电子邮件设计空间](./email-authoring.md)包括用于评论和解决的协作工具，以便营销团队可以直接在[!DNL Journey Optimizer B2B Edition]内无缝审查、讨论和最终确定电子邮件资产。 用户可以在电子邮件设计空间内评论、建议编辑和解决反馈，而不是通过外部工具（如聊天、电子邮件线程或电子表格）共享草稿。 在帐户历程中启动电子邮件促销活动之前，请使用以下工具简化工作流、减少错误并确保利益相关者保持一致：
+[电子邮件设计空间](./email-authoring.md)包括用于评论和解决的协作工具，以便营销团队可以直接在[!DNL Journey Optimizer B2B Edition]内无缝审查、讨论和最终确定电子邮件资产。 用户无需通过外部工具（如聊天、电子邮件会话或电子表格）共享草稿，即可在邮件设计空间内直接进行评论、提出修改建议并处理反馈。在帐户历程中启动电子邮件促销活动之前，请使用以下工具简化工作流、减少错误并确保利益相关者保持一致：
 
 * **_集中式反馈_** — 在一个位置收集和跟踪所有反馈。
 
