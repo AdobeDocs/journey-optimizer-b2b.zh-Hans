@@ -35,7 +35,7 @@ ht-degree: 8%
 
 ## GenStudio内容生成功能
 
-[Adobe GenStudio for Performance Marketing](https://business.adobe.com/products/genstudio-for-performance-marketing.html){target="_blank"}是一个创新型人工智能优先应用程序，它使营销团队能够创建符合品牌标准并遵守其企业政策的有影响力的个性化广告和电子邮件。 通过利用Adobe AI技术，它提供了一套全面的工具，可简化内容创建和管理过程，以便创意人员可以专注于创新。
+[Adobe GenStudio for Performance Marketing](https://business.adobe.com/cn/products/genstudio-for-performance-marketing.html){target="_blank"}是一个创新型人工智能优先应用程序，它使营销团队能够创建符合品牌标准并遵守其企业政策的有影响力的个性化广告和电子邮件。 通过利用Adobe AI技术，它提供了一套全面的工具，可简化内容创建和管理过程，以便创意人员可以专注于创新。
 
 ![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [创建品牌内营销电子邮件](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
