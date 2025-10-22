@@ -2,11 +2,10 @@
 title: 角色映射
 description: 了解如何通过映射人员属性来为购买组创建简化的角色模板，为基于帐户的营销配置角色。
 feature: Setup, Buying Groups
-hide: true
 hidefromtoc: true
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 role: Admin
-source-git-commit: e301dfd5ac1421eb73e80b1d772d1b17f9ef3a1e
+source-git-commit: 05c70d7b27ba47633ec131782bcb7d269f809239
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 1%
