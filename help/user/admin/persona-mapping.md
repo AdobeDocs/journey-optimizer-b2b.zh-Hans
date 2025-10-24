@@ -5,9 +5,9 @@ feature: Setup, Buying Groups
 hidefromtoc: true
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 role: Admin
-source-git-commit: 05c70d7b27ba47633ec131782bcb7d269f809239
+source-git-commit: 521bfb3870e98dab85fbcabe711ed662e9b748d4
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '904'
 ht-degree: 1%
 
 ---
@@ -76,10 +76,7 @@ _角色映射_&#x200B;列表包含根据作业标题属性定义的五个默认�
 
   ![筛选显示的事件定义](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
 
-* 单击左上角的&#x200B;_筛选器_ （![筛选器图标](../assets/do-not-localize/icon-filter.svg) ）图标，使用以下任一属性筛选显示的列表：
-
-   * ？
-   * ?
+* 单击左上角的&#x200B;_筛选器_ （![筛选器图标](../assets/do-not-localize/icon-filter.svg)）图标，以按属性筛选显示的列表。
 
 ## 创建角色
 
@@ -114,7 +111,6 @@ _角色映射_&#x200B;列表包含根据作业标题属性定义的五个默认�
 ## 编辑角色
 
 1. 要访问角色的详细信息，请单击名称。
-
 
 ## 删除角色
 
