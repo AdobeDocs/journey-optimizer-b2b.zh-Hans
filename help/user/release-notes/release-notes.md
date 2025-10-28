@@ -1,12 +1,12 @@
 ---
 title: Journey Optimizer B2B Edition 发行说明
-description: 了解 Adobe Journey Optimizer B2B Edition 中的最新功能、增强功能和错误修复——随时了解新功能和产品改进动态。
+description: 了解Adobe Journey Optimizer B2B edition中的最新功能、增强功能和错误修复。 了解最新功能和产品改进。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 4bf03f99f146454658422d5b1dac184a108c802b
 workflow-type: tm+mt
-source-wordcount: '3384'
-ht-degree: 90%
+source-wordcount: '3490'
+ht-degree: 86%
 
 ---
 
@@ -24,15 +24,16 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | 基于模型的自定义架构 | 从基于模型的类创建自定义架构。 |
-| 功能 | 激活到目标 | 使用新的&#x200B;_激活到目标_&#x200B;公司帐户操作直接激活到公司，而不是个人。 （仅限此版本的LinkedIn公司。） |
+| 功能 | 关系数据模型 | 利用链接到B2B帐户的关系数据来过滤帐户历程中的帐户或个性化电子邮件内容。 此关系数据可以表示真实世界的商业实体，如购买记录、事件注册、软件许可证、服务订阅或预订。 |
+| 功能 | 激活到历程的目标 | 使用新的&#x200B;_激活到目标_&#x200B;公司帐户操作直接激活到公司，而不是个人。 （仅限此版本的LinkedIn公司。） |
+| 功能 | 多个Marketo Engage激活 | 配置与远程Marketo Engage实例的连接，并使用这些连接设置与Marketo Engage相关的历程操作。 这些操作（如在列表中添加或删除人员，或将人员添加到请求营销活动）适用于指定的Marketo Engage实例。 |
 | 功能 | 品牌主题 | 对于品牌主题，非技术用户现在能够通过添加标准模板上的自定义样式来创建符合特定品牌和设计语言的可重用内容。 [了解详情](../content/brand-themes.md) |
 | 功能 | 用户画像映射 | 将帐户成员与已建立的角色与属性映射关联起来。 [了解详情](../admin/persona-mapping.md) |
+| 功能 | Salesforce和Dynamics的销售分析 | 销售团队成员现在可以在Salesforce或Dynamics集成中查看到期的购买组和相关见解，以识别新的商机。 包括购买组详细信息，如阶段、分数和相关成员。 |
+| 增强功能 | 电子邮件疲劳重复数据删除 | 您现在可以启用电子邮件重复数据删除，以确保在历程中不会将同一电子邮件多次发送到同一地址。 重复的地址将被阻止，直到使用该电子邮件地址的第一条记录完成历程。 |
+| 增强功能 | 通信限制 | 现在，系统尊重了Marketo Engage和Journey Optimizer B2B edition的组合通信限制。 |
 | 增强功能 | 购买团体维护作业 | 购买组维护作业频率从每周更新到每天。 |
 | 增强功能 | 帐户历程进展 | _更多信息_&#x200B;链接对访问帐户计数和列表的历程进程可见。 |
-
-<!-- M1.5 changes
-| Enhancement | Buying group scoring | The Buying Group completeness score is improved, including the ability to customize how the score is calculated. | -->
 
 以下代理AI功能现在可在AI Assistant界面中用于Journey Optimizer B2B edition：
 
@@ -43,7 +44,6 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 >[!NOTE]
 >
 >版本更改从2025年10月31日开始部署，并分阶段推出每个功能。 功能及增强功能的发布时间可能会有变动。
-
 
 <!-- hold for later release 
 
@@ -62,8 +62,6 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | ---- | ---- | ----------- |
 | 功能 | 电子邮件内容协作 | 现在，您可以在电子邮件资产的上下文中评论与 Journey Optimizer B2B Edition 用户同事的合作。您可以标记您的团队成员，这样他们就会收到包含评论详细信息的电子邮件通知。也可以使用推送通知的方式。 |
 | 功能 | 用于电子邮件设计的深色模式 | 电子邮件设计空间现在包含能够切换到&#x200B;_深色模式_&#x200B;的功能。在深色模式下，您可以预览电子邮件内容，并定义要专门为在深色模式下查看电子邮件的收件人显示的自定义设置。 |
-| 功能 | 电子邮件疲劳重复数据删除 | 您现在可以启用电子邮件重复数据删除，以确保在历程中不会将同一电子邮件多次发送到同一地址。 重复的地址将被阻止，直到使用该电子邮件地址的第一条记录完成历程。 |
-| 功能 | Salesforce和Dynamics的销售分析 | 销售团队成员现在可以在Salesforce或Dynamics集成中查看到期的购买组和相关见解，以识别新的商机。 包括购买组详细信息，如阶段、分数和相关成员。 |
 | 增强功能 | 历程 - 按角色的人数拆分路径 | 使用一个通过帐户节点拆分的路径来针对一个具有一个或多个购买群组角色的人数的帐户。在这个路径中，您可以根据角色深度评估购买群组对销售警报和其他参与行动的意愿。[了解详情](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | 增强功能 | 历程 - 事件的人员过滤器 | 使用人员过滤器来侦听人员事件。这些筛选条件可以针对一个匹配的购买群组的某个特定角色。[了解详情](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 

@@ -4,9 +4,9 @@ description: 配置电子邮件投放设置、通信限制和身份验证协议�
 feature: Setup, Channels
 role: Admin
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 6f226c806d321cae27483df02a130bd4d8180702
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,11 @@ Journey Optimizer B2B edition中的设置是只读的。 单击右上角的&#x20
 
 ![访问品牌策略域设置](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-此设置为连接的Marketo Engage实例中的一个或多个工作区定义主域。 新电子邮件使用此域作为默认域，但营销人员可以[基于每封电子邮件](../content/add-email.md#define-the-email-settings)覆盖此域。 有关定义默认品牌策略域的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}。
+此设置为连接的Marketo Engage实例中的一个或多个工作区定义主域。 新电子邮件使用此域作为默认域，但营销人员可以[基于每封电子邮件](../content/add-email.md#define-the-email-settings)覆盖此域。 有关定义默认品牌策略域的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}。
 
 >[!NOTE]
 >
->如果您要营销多个品牌，并且希望每个品牌都有自己的品牌跟踪链接，则可以添加额外的品牌推广域。 有关添加多个品牌化域的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}。
+>如果您要营销多个品牌，并且希望每个品牌都有自己的品牌跟踪链接，则可以添加额外的品牌推广域。 有关添加多个品牌化域的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}。
 
 ### [!UICONTROL 自定义标头选项] {#custom-header-options}
 
@@ -73,13 +73,13 @@ Journey Optimizer B2B edition中的设置是只读的。 单击右上角的&#x20
 
 ![访问通信限制设置](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
 
-Journey Optimizer B2B edition中的设置是只读的。 单击右上角的&#x200B;**[!UICONTROL 编辑设置]**&#x200B;可访问连接的Marketo Engage实例中的配置选项。
+单击右上角的&#x200B;**[!UICONTROL 编辑设置]**&#x200B;可访问连接的Marketo Engage实例中的配置选项。
 
 >[!NOTE]
 >
 >要在Adobe Marketo Engage中访问和编辑这些设置，您必须具有产品管理员权限。
 
-有关配置通信限制的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}。
+有关配置通信限制的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}。
 
 ## SPF/DKIM
 
@@ -146,4 +146,4 @@ Journey Optimizer B2B edition中的设置是只读的。 单击右上角的&#x20
 >
 >要在Adobe Marketo Engage中访问和编辑这些设置，您必须具有产品管理员权限。
 
-有关配置机器人活动选项的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}。
+有关配置机器人活动选项的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}。
