@@ -1,18 +1,16 @@
 ---
 title: 角色映射
-description: 了解如何通过映射人员属性来为购买组创建简化的角色模板，为基于帐户的营销配置角色。
+description: 了解如何为B2B营销设置角色映射。 在Journey Optimizer B2B edition中映射人员属性以创建角色模板并优化购买群组定位。
 feature: Setup, Buying Groups
-hidefromtoc: true
-badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 role: Admin
-source-git-commit: 521bfb3870e98dab85fbcabe711ed662e9b748d4
+source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '901'
 ht-degree: 1%
 
 ---
 
-# 角色映射
+# 用户画像映射
 
 角色是基于帐户的营销(ABM)方法中的关键方面，因为它们帮助营销人员根据目标帐户中个人的特定需求、偏好和棘手问题调整其策略。 营销人员可以为每个角色创建详细的配置文件，包括其背景、职责、棘手问题和首选通信渠道。 借助这些定义，管理员可以根据Journey Optimizer B2B edition中的人员属性配置角色，以便角色模板可以使用简化且一致的角色条件来捕获这些角色。
 
@@ -92,7 +90,7 @@ _角色映射_&#x200B;列表包含根据作业标题属性定义的五个默认�
 
    * 单击&#x200B;**[!UICONTROL 选择人员属性]**。
 
-   * 在&#x200B;_[!UICONTROL 选择人员属性]_&#x200B;对话框中，选中要映射的每个属性的复选框（最多五个）。
+   * 在对话框中，选中要映射的每个属性的复选框（最多五个）。
 
      您可以通过单击右上角的&#x200B;_列设置_ （ ![列设置](../assets/do-not-localize/icon-column-settings.svg) ）图标来自定义显示的表。
 
@@ -110,7 +108,7 @@ _角色映射_&#x200B;列表包含根据作业标题属性定义的五个默认�
 
 ## 编辑角色
 
-1. 要访问角色的详细信息，请单击名称。
+单击角色名称以访问和编辑角色的详细信息，
 
 ## 删除角色
 
