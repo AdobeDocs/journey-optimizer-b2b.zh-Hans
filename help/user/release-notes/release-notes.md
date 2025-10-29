@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 发行说明
 description: 了解Adobe Journey Optimizer B2B edition中的最新功能、增强功能和错误修复。 了解最新功能和产品改进。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 4bf03f99f146454658422d5b1dac184a108c802b
+source-git-commit: 5a18826c9739bcf3ee86f995700d2a209e9b6ae1
 workflow-type: tm+mt
-source-wordcount: '3490'
-ht-degree: 86%
+source-wordcount: '3494'
+ht-degree: 85%
 
 ---
 
@@ -60,8 +60,8 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | 电子邮件内容协作 | 现在，您可以在电子邮件资产的上下文中评论与 Journey Optimizer B2B Edition 用户同事的合作。您可以标记您的团队成员，这样他们就会收到包含评论详细信息的电子邮件通知。也可以使用推送通知的方式。 |
-| 功能 | 用于电子邮件设计的深色模式 | 电子邮件设计空间现在包含能够切换到&#x200B;_深色模式_&#x200B;的功能。在深色模式下，您可以预览电子邮件内容，并定义要专门为在深色模式下查看电子邮件的收件人显示的自定义设置。 |
+| 功能 | 电子邮件内容协作 | 现在，您可以在电子邮件资产的上下文中评论与 Journey Optimizer B2B Edition 用户同事的合作。您可以标记您的团队成员，这样他们就会收到包含评论详细信息的电子邮件通知。通知也可用作脉冲通知。 [了解详情](../content/email-collaboration-tools.md) |
+| 功能 | 用于电子邮件设计的深色模式 | 电子邮件设计空间现在包含能够切换到&#x200B;_深色模式_&#x200B;的功能。在深色模式下，您可以预览电子邮件内容，并定义要专门为在深色模式下查看电子邮件的收件人显示的自定义设置。 [了解详情](../content/email-dark-mode.md) |
 | 增强功能 | 历程 - 按角色的人数拆分路径 | 使用一个通过帐户节点拆分的路径来针对一个具有一个或多个购买群组角色的人数的帐户。在这个路径中，您可以根据角色深度评估购买群组对销售警报和其他参与行动的意愿。[了解详情](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | 增强功能 | 历程 - 事件的人员过滤器 | 使用人员过滤器来侦听人员事件。这些筛选条件可以针对一个匹配的购买群组的某个特定角色。[了解详情](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
