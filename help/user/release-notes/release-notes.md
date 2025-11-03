@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 发行说明
 description: 了解Adobe Journey Optimizer B2B edition中的最新功能、增强功能和错误修复。 了解最新功能和产品改进。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 5a18826c9739bcf3ee86f995700d2a209e9b6ae1
+source-git-commit: 7b36124cf830b5cdb980a1288d3870843a10fed2
 workflow-type: tm+mt
-source-wordcount: '3494'
-ht-degree: 88%
+source-wordcount: '3522'
+ht-degree: 87%
 
 ---
 
@@ -26,8 +26,9 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | ---- | ---- | ----------- |
 | 功能 | 关系数据模型 | 利用链接到B2B帐户的关系数据来过滤帐户历程中的帐户或个性化电子邮件内容。 此关系数据可以表示真实世界的商业实体，如购买记录、事件注册、软件许可证、服务订阅或预订。 |
 | 功能 | 激活到历程的目标 | 使用新的&#x200B;_激活到目标_&#x200B;公司帐户操作直接激活到公司，而不是个人。 （仅限此版本的LinkedIn公司。） |
-| 功能 | 多个Marketo Engage激活 | 配置与远程Marketo Engage实例的连接，并使用这些连接设置与Marketo Engage相关的历程操作。 这些操作（如在列表中添加或删除人员，或将人员添加到请求营销活动）适用于指定的Marketo Engage实例。 |
+| 功能 | 多个Marketo Engage激活 | 配置与远程Marketo Engage实例的连接，并使用这些连接从历程设置Marketo Engage操作。 这些操作（例如从列表中添加/删除人员，或将人员添加到请求营销活动）适用于指定的Marketo Engage实例。 |
 | 功能 | 品牌主题 | 对于品牌主题，非技术用户现在能够通过添加标准模板上的自定义样式来创建符合特定品牌和设计语言的可重用内容。 [了解详情](../content/brand-themes.md) |
+| 功能 | 电子邮件模板 — 将图像转换为HTML | 您现在可以使用存储为JPG或PNG图像文件的设计文件并自动生成电子邮件模板。 [了解详情](../content/email-template-image-convert.md) |
 | 功能 | 用户画像映射 | 将帐户成员与已建立的角色与属性映射关联起来。 [了解详情](../admin/persona-mapping.md) |
 | 功能 | Salesforce和Dynamics的销售分析 | 销售团队成员现在可以在Salesforce或Dynamics集成中查看到期的购买组和相关见解，以识别新的商机。 包括购买组详细信息，如阶段、分数和相关成员。 |
 | 增强功能 | 电子邮件疲劳重复数据删除 | 您现在可以启用电子邮件重复数据删除，以确保在历程中不会将同一电子邮件多次发送到同一地址。 重复的地址将被阻止，直到使用该电子邮件地址的第一条记录完成历程。 |

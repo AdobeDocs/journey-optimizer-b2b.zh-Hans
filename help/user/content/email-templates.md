@@ -4,7 +4,7 @@ description: 从头开始创建、HTML导入或现有设计创建可重复使用
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: d97a05899e4fff784924c3db0aa941232d169944
 workflow-type: tm+mt
 source-wordcount: '1533'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 要按名称搜索模板，请在搜索栏中输入文本字符串。 单击左上角的&#x200B;_筛选器_&#x200B;图标可根据创建或修改日期以及您创建或修改的模板筛选列表。
 
-![访问电子邮件模板库并按名称和日期进行筛选](./assets/templates-list-search-filter.png){width="700" zoomable="yes"}
+![访问电子邮件模板库并按名称和日期进行筛选](./assets/templates-list-search-filter.png){width="800" zoomable="yes"}
 
 通过单击右上角的&#x200B;_自定义表_&#x200B;图标（![自定义表图标](../assets/do-not-localize/icon-column-settings.svg)）自定义要在表中显示的列。 选择要显示的列，然后单击&#x200B;**[!UICONTROL 应用]**。
 
