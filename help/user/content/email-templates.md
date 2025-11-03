@@ -4,7 +4,7 @@ description: 从头开始创建、HTML导入或现有设计创建可重复使用
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: d97a05899e4fff784924c3db0aa941232d169944
+source-git-commit: b27b4485e5d778f0d4cbcad7392ab19c42a79e14
 workflow-type: tm+mt
 source-wordcount: '1533'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 电子邮件模板
 
-为了加快并改进设计过程，您可以创建独立的电子邮件模板以在[!DNL Adobe Journey Optimizer B2B Edition]帐户历程中重用自定义内容。 通过模板，您的以内容为导向的团队成员可以在历程之外处理电子邮件内容。 然后，营销策划人员可以在他们的帐户历程中重复使用和调整这些独立的模板。 例如，一个团队成员仅负责内容，无权访问帐户历程。 但是，他们可以创建一个电子邮件模板，营销人员可以选择该模板作为电子邮件通信的起点，并根据历程的要求对其进行自定义。
+为了加快并改进设计过程，您可以创建独立的电子邮件模板以在[!DNL Adobe Journey Optimizer B2B Edition]帐户历程中重用您的自定义内容。 通过模板，您的以内容为导向的团队成员可以在历程之外处理电子邮件内容。 然后，营销策划人员可以在他们的历程中重复使用和调整这些独立模板。 例如，一个团队成员仅负责内容，无权访问帐户历程。 但是，他们可以创建一个电子邮件模板，营销人员可以选择该模板作为电子邮件通信的起点，并根据历程的要求对其进行自定义。
 
 ## 访问和管理电子邮件模板
 

@@ -2,7 +2,7 @@
 title: 将图像转换为电子邮件模板
 description: 使用Journey Optimizer B2B edition将图像文件转换为HTML电子邮件模板。 上传PNG/JPEG文件并自动生成可重用的电子邮件内容。
 feature: Email Authoring, Content
-source-git-commit: afac631110f27c59f73aaf4761e3739c772258be
+source-git-commit: b27b4485e5d778f0d4cbcad7392ab19c42a79e14
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -11,11 +11,9 @@ ht-degree: 0%
 
 # 将图像转换为电子邮件模板
 
-您可以轻松地将另存为图像(PNG或JPEG)的设计文件转换为支持电子邮件模板的HTML，从而节省您的Web团队宝贵的时间和资源。
-
 创建和更新电子邮件模板是营销内容supply chain中的基本组件，但由于需要手动进行HTML编码，这些任务通常需要大量时间和资源。 传统上，营销团队依靠代理或IT团队来开发这些模板。 新的用于电子邮件模板的图像到HTML工具通过允许营销人员将设计文件转换为HTML代码模板来简化此过程。 转换后的HTML已准备好在电子邮件设计空间中进行进一步编辑。 此工具支持JPEG和PNG文件类型，并具有拖放界面。
 
-直观的模板生成器将图像转换为HTML代码模板，以便使用电子邮件设计工具进行修改。 营销人员或设计专业人士可以上传图像并快速生成电子邮件模板，而无需手动HTML编码。 此工具支持从JPEG和PNG文件类型转换为HTML编码的电子邮件模板。
+您可以轻松地将另存为图像(PNG或JPEG)的设计文件转换为支持电子邮件模板的HTML，从而节省您的Web团队宝贵的时间和资源。 直观的模板生成器将图像转换为HTML编码的电子邮件模板，以便使用电子邮件设计工具进行修改。 营销人员或设计专业人士可以上传图像并快速生成电子邮件模板，而无需手动HTML编码。 此工具支持从JPEG和PNG文件类型转换为HTML编码的电子邮件模板。
 
 >[!BEGINSHADEBOX]
 
