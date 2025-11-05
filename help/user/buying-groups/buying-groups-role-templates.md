@@ -4,9 +4,9 @@ description: 创建具有条件自动分配的角色模板，以识别在Journey
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1303'
 ht-degree: 3%
 
 ---
@@ -120,6 +120,26 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 
 您的更改将自动保存为&#x200B;_草稿_&#x200B;状态。 如果您还未准备好发布角色模板，请单击页面顶部的左（后）箭头，并返回到&#x200B;_[!UICONTROL 角色模板]_&#x200B;列表。
 
+### 更改完整性得分设置
+
+默认情况下，角色的完整性定义为分配给角色的一个成员。 如果要使用购买组完整性作为销售准备情况或成功<!-- journey decisioning coming later-->的指标，则可以使用这些设置使分数与关闭商机所需的每个角色的成员数保持一致。
+
+例如，要完成您的解决方案&#x200B;_X_&#x200B;的交易，需要确定并参与多个营销决策者，因为一个组织的多个营销团队将使用该解决方案。 在这种情况下，您需要提高阈值以至少需要两名营销决策人来计算&#x200B;_完成_&#x200B;购买组。
+
+有关完整性评分和计算的详细信息，请参阅[完整性得分](./completeness-scores.md)。
+
+1. 在角色模板页面的右上角，单击&#x200B;**[!UICONTROL 完整性得分设置]**。
+
+   ![角色模板 — 完整性得分设置按钮](./assets/buying-group-details-edit-roles-completeness-settings.png){width="700" zoomable="yes"}
+
+1. 在该对话框中，根据需要更改每个已定义角色所需的&#x200B;**[!UICONTROL 成员]**&#x200B;值。
+
+   您可以输入值，或单击&#x200B;**&amp;amp；加号；**&#x200B;或&#x200B;**−**&#x200B;来增加或减少值。
+
+   ![角色模板 — 完整性得分设置按钮](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
+
+1. 单击&#x200B;**[!UICONTROL 保存]**。
+
 ### 发布角色模板
 
 如果模板已准备就绪，请单击右上方的&#x200B;**[!UICONTROL 发布]**。
@@ -162,4 +182,4 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3453311/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

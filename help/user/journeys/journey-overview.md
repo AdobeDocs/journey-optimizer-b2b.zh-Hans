@@ -4,10 +4,10 @@ description: 通过帐户历程简化需求开发——在 Journey Optimizer B2B
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
-workflow-type: ht
-source-wordcount: '1032'
-ht-degree: 100%
+source-git-commit: 5ba2531a287143bd1111f764aa9eba8089111bc9
+workflow-type: tm+mt
+source-wordcount: '1130'
+ht-degree: 91%
 
 ---
 
@@ -85,7 +85,7 @@ _帐户历程_&#x200B;列表中包含您的 Journey Optimizer B2B Edition 实例
 
 >[!IMPORTANT]
 >
->如果这个帐户历程被用在从具有&#x200B;_将帐户添加到（其他）历程_&#x200B;操作的&#x200B;_执行操作_&#x200B;节点开始的另一个历程中，中止这个历程就会阻止那个历程中的此操作。
+>如果这个帐户历程被用在从具有&#x200B;_[!UICONTROL 将帐户添加到（其他）历程]_&#x200B;操作的&#x200B;_执行操作_&#x200B;节点开始的另一个历程中，中止这个历程就会阻止那个历程中的此操作。
 
 1. 单击历程名称将其打开。
 
@@ -101,7 +101,7 @@ _帐户历程_&#x200B;列表中包含您的 Journey Optimizer B2B Edition 实例
 
 >[!IMPORTANT]
 >
->如果这个帐户历程被用在从具有&#x200B;_将帐户添加到（其他）历程_&#x200B;操作的&#x200B;_执行操作_&#x200B;节点开始的另一个历程中，对新条目关闭会阻止那个历程中的此操作。
+>如果这个帐户历程被用在从具有&#x200B;_将帐户添加到（其他）历程_&#x200B;操作的&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点开始的另一个历程中，对新条目关闭会阻止那个历程中的此操作。
 
 1. 单击历程名称将其打开。
 
@@ -155,6 +155,16 @@ _帐户历程_&#x200B;列表中包含您的 Journey Optimizer B2B Edition 实例
 
 1. 在确认对话框中单击&#x200B;**[!UICONTROL 删除]**。
 
+## 审查帐户进展
+
+对于处于&#x200B;_实时_、_对新条目关闭_、_已中止_&#x200B;或&#x200B;_已完成_&#x200B;状态的已发布历程，您可以打开历程映射以查看历程节点的帐户进度。 映射中的每个节点会显示到达该节点的帐户数，对于实时历程，会显示当前在该节点的帐户数。
+
+![历程的节点帐户进程信息](./assets/node-account-progression-observability.png){width="400"}
+
+选择节点后，单击编号可查看进入该节点或当前处于历程该步骤的帐户列表。
+
+![历程的节点帐户进程信息](./assets/node-accounts-entered-list.png){width="700" zoomable="yes"}
+
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3443217/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
