@@ -4,7 +4,7 @@ user-guide-description: 了解 Adobe Journey Optimizer B2B Edition 以及如何�
 source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 95%
 + 帐户 {#accounts}
    + [Audiences](./audiences/account-audience-overview.md)
    + [Audience 代理](./agents/audience-agent-b2b.md)
-   + [Account Qualification Agent](agents/account-qualification-agent.md)
+   + [Account Qualification 代理](agents/account-qualification-agent.md)
    + 购买群组 {#buying-groups}
       + [概述](./buying-groups/buying-groups-overview.md)
       + [解决方案兴趣](./buying-groups/solution-interests.md)
