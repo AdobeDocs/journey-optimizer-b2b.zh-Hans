@@ -1,11 +1,11 @@
 ---
 title: 适用于B2B的历程构建代理
-description: 了解如何操作
+description: 了解如何使用AI支持的历程构建代理来帮助快速构建强大历程
 feature: Account Journeys, AI Assistant
 role: User
-source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
+source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---

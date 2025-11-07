@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文档
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition 以及如何使用它通过内置的生成式 AI 和行业领先的自动化来编排帐户及购买群组历程。
-source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
+source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 96%
+source-wordcount: '346'
+ht-degree: 95%
 
 ---
 
@@ -23,9 +23,12 @@ ht-degree: 96%
    + [启用 AI 助手访问](./ai-assistant/enable-ai-assistant-access.md)
    + [问题指导](./ai-assistant/question-guidance.md)
    + [使用 AI 助手](./ai-assistant/use-ai-assistant.md)
+   + 代理 {#ai-agents}
+      + [Audience 代理](./agents/audience-agent-b2b.md)
+      + [历程生成代理](./agents/journey-agent.md)
+      + [销售限定词](./agents/sales-qualifier.md)
 + 帐户历程 {#account-journeys}
    + [概述](./journeys/journey-overview.md)
-   + [历程生成代理](./agents/journey-agent.md)
    + [创建和发布历程](./journeys/create-publish-journey.md)
    + [历程节点](./journeys/journey-nodes.md)
    + 历程节点 {#journey-nodes}
@@ -47,9 +50,7 @@ ht-degree: 96%
    + [自定义个性化令牌](./content/personalization-my-tokens.md)
    + [短信创作](./content/sms-authoring.md)
 + 帐户 {#accounts}
-   + [Audiences](./audiences/account-audience-overview.md)
-   + [Audience 代理](./agents/audience-agent-b2b.md)
-   + [Account Qualification 代理](agents/account-qualification-agent.md)
+   + [受众](./audiences/account-audience-overview.md)
    + 购买群组 {#buying-groups}
       + [概述](./buying-groups/buying-groups-overview.md)
       + [解决方案兴趣](./buying-groups/solution-interests.md)
@@ -63,6 +64,7 @@ ht-degree: 96%
       + [导出帐户](./audiences/account-list-export.md)
       + [LinkedIn 帐户匹配的受众](./data/linkedin-account-matched-audiences.md)
       + [Marketo Engage 中的购买群组过滤器](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
+      + [In-CRM Insights](./buying-groups/incrm-insights.md)
    + 帐户列表 {#account-lists}
       + [概述](./accounts/account-lists.md)
       + [用于历程和计划](./accounts/account-lists-journeys.md)

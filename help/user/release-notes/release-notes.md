@@ -3,7 +3,7 @@ title: Journey Optimizer B2B Edition 发行说明
 description: 探索 Adobe Journey Optimizer B2B Edition 中的最新功能、增强功能和错误修复。随时掌握最新功能与产品改进信息。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
+source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
 source-wordcount: '3690'
 ht-degree: 92%
@@ -26,7 +26,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | ----- | ------ | ----------- |
 | 历程生成代理 | 新 | 历程生成代理可实时分析、构思并联合创建历程，使营销人员能够更快启动、提高参与度、促进更高转化率。[了解详情](../agents/journey-agent.md) |
 | Audience 代理 | 新 | Audience 代理使用结构化和非结构化数据自动识别和构建购买群组。这可以帮助营销人员更快、更准确地针对适当的人员。[了解详情](../agents/audience-agent-b2b.md) |
-| Account Qualification 代理 | 新 | 通过 AI 助手中的 Account Qualification 代理，可识别哪些帐户已准备进入下一阶段。该代理通过自动化资格评估流程并突出高价值潜在客户，帮助销售团队专注于最具潜力的帐户。[了解详情](../agents/account-qualification-agent.md) |
+| Account Qualification 代理 | 新 | 通过 AI 助手中的 Account Qualification 代理，可识别哪些帐户已准备进入下一阶段。该代理通过自动化资格评估流程并突出高价值潜在客户，帮助销售团队专注于最具潜力的帐户。[了解详情](../agents/sales-qualifier.md) |
 
 ## 2025.10 版本发行说明
 
