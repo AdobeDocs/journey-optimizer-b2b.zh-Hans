@@ -3,8 +3,8 @@ user-guide-title: Journey Optimizer B2B Edition 文档
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition 以及如何使用它通过内置的生成式 AI 和行业领先的自动化来编排帐户及购买群组历程。
 source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -56,9 +56,9 @@ ht-degree: 95%
       + [解决方案兴趣](./buying-groups/solution-interests.md)
       + [角色模板](./buying-groups/buying-groups-role-templates.md)
       + [默认和自定义角色](./buying-groups/default-custom-roles.md)
-      + 购买团体得分 {#scoring}
+      + 购买群组评分 {#scoring}
          + [参与度评分](./buying-groups/engagement-scores.md)
-         + [完整性分数](./buying-groups/completeness-scores.md)
+         + [完整性评分](./buying-groups/completeness-scores.md)
       + [购买群组阶段](./buying-groups/buying-group-stages.md)
       + [创建购买群组](./buying-groups/buying-groups-create.md)
       + [导出帐户](./audiences/account-list-export.md)
@@ -95,7 +95,7 @@ ht-degree: 95%
          + [概述](./content/email-templates.md)
          + [电子邮件模板创作](./content/email-template-authoring.md)
          + [将图像转换为模板](./content/email-template-image-convert.md)
-      + 登陆页面模板(Beta) {#landing-page-templates}
+      + 登陆页面模板 (Beta) {#landing-page-templates}
          + [概述](./content/landing-page-templates.md)
          + [登陆页面模板设计](./content/landing-page-template-design.md)
    + 片段 {#visual-fragments}

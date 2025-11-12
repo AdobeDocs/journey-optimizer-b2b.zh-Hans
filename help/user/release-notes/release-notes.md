@@ -5,8 +5,8 @@ role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
-source-wordcount: '3690'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 查看[产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，了解有关权限、性能护栏和限制的信息。
 
-## Agentic-AI功能
+## 代理式 AI 功能
 
 现在，AI 助手界面中提供以下代理式 AI 功能用于 Journey Optimizer B2B edition：
 
@@ -34,33 +34,33 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | 关系型数据模型 | 利用与 B2B 账户关联的关系型数据，可在帐户历程中筛选账户，或个性化电子邮件内容。此类关系型数据可表示真实的业务实体，如采购记录、活动注册、软件许可、服务订阅或预订信息。 |
-| 功能 | 将历程激活至目标 | 使用新的&#x200B;_激活至目标_&#x200B;公司帐户操作，可直接面向公司进行激活，而非个人。（仅限此版本的LinkedIn公司。）[了解详情](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
+| 功能 | 关系型数据模型 | 利用与 B2B 帐户关联的关系型数据，可在帐户历程中筛选帐户，或个性化电子邮件内容。此类关系型数据可表示真实的业务实体，如采购记录、活动注册、软件许可、服务订阅或预订信息。 |
+| 功能 | 将历程激活至目标 | 使用新的&#x200B;_激活至目标_&#x200B;公司帐户操作，可直接面向公司进行激活，而非个人。（本版本仅支持领英公司。）[了解更多](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
 | 功能 | 品牌主题 | 借助品牌主题功能，非技术用户可在标准模板基础上添加自定义样式，创建符合特定品牌与设计语言的可复用内容。[了解详情](../content/brand-themes.md) |
-| 功能 | 电子邮件模板 — 将图像转换为HTML | 您现在可以使用存储为JPG或PNG图像文件的设计文件并自动生成电子邮件模板。 [了解详情](../content/email-template-image-convert.md) |
+| 功能 | 电子邮件模板 – 将图像转换为 HTML | 您现在可以使用以 JPG 或 PNG 格式保存的设计文件，自动生成电子邮件模板。[了解详情](../content/email-template-image-convert.md) |
 | 功能 | 人物角色映射 | 通过属性映射，将帐户成员与已建立的人物角色关联。[了解详情](../admin/persona-mapping.md) |
 | 功能 | 适用于 Salesforce 和 Dynamics 的销售洞察 | 销售团队成员现在可在 Salesforce 或 Dynamics 集成中查看正在成熟的购买群体及相关洞察，从而发现新的销售机会。系统会显示购买群体的阶段、评分及相关成员等详细信息。 |
 | 功能 | 多 Marketo Engage 实例激活 | 可配置与远程 Marketo Engage 实例的连接，并使用这些连接设置 Marketo Engage 相关的历程操作。这些操作（如将人员添加或移出名单，或将人员添加至请求营销活动）均适用于指定的 Marketo Engage 实例。 |
 | 增强功能 | 电子邮件疲劳重复数据删除 | 您现在可以启用电子邮件重复数据删除功能，确保同一历程中不会向同一邮箱地址重复发送相同邮件。重复地址将在首次记录完成该历程之前被阻止发送。 |
-| 增强功能 | 改进了购买群组完整性评分 | 您现在可以确保购买组通过可自定义的角色成员阈值来反映真正的决策，以进行完整性评分。  [了解详情](../buying-groups/completeness-scores.md) |
+| 增强功能 | 改进的购买群组完整性评分 | 您现在可以通过为完整性评分自定义角色成员阈值，确保购买群体能够反映真实的决策过程。[了解详情](../buying-groups/completeness-scores.md) |
 | 增强功能 | 通信限制 | 系统现会同时遵循 Marketo Engage 与 Journey Optimizer B2B Edition 的综合通信限制。 |
 | 增强功能 | 购买群组维护作业 | 购买群组维护作业的执行频率已由每周一次更新为每日一次。 |
-| 增强功能 | 帐户历程进度 | 对于处于&#x200B;_实时_、_对新条目关闭_、_已中止_&#x200B;或&#x200B;_已完成_&#x200B;状态的已发布历程，您可以打开历程映射以查看每个历程节点的帐户列表。 |
+| 增强功能 | 帐户历程进度 | 对于状态为&#x200B;_运行中_、_对新条目关闭_、_已中止_&#x200B;或&#x200B;_已完成_&#x200B;的已发布历程，您可以打开历程图以查看各节点的帐户列表。 |
 
 >[!NOTE]
 >
->这些版本更改从2025年10月31日开始部署，并分阶段推出每个功能。 功能及增强功能的发布时间可能会有变动。
+>这些版本更新于 2025 年 10 月 31 日开始部署，并将分阶段逐步推出各项功能。功能及增强功能的发布时间可能会有变动。
 
-### 简化的架构
+### 简化的系统架构
 
-Adobe Journey Optimizer B2B edition现已使用简化的架构推出。 凭借此更新的架构，Journey Optimizer B2B edition和Marketo Engage将不再位于同一系统和同一数据存储中。 Journey Optimizer B2B edition仅从Adobe Experience Platform接收数据。 但是，它继续依赖Marketo Engage权利和某些配置功能来配置和配置系统。
+Adobe Journey Optimizer B2B Edition 现已采用简化架构。通过此更新，Journey Optimizer B2B Edition 与 Marketo Engage 不再共享同一系统或数据存储库。Journey Optimizer B2B Edition 仅从 Adobe Experience Platform 接收数据。但仍依赖 Marketo Engage 的使用权限及部分配置功能来完成系统的部署与设置。
 
-此更新的体系结构提供了多种好处：
+此更新后的架构带来以下优势：
 
-* **轻松统一和扩展您的数据**：更新的平台支持复杂的数据模型，包括自定义对象、购买群组和帐户事件。
-* **连接多个Adobe Marketo Engage实例**：在一个位置管理并统一多个Adobe Marketo Engage环境中的数据。
-* **保护您的数据安全**：高级隐私和安全功能有助于保护您的客户信息。
-* **为未来构建**：此更新为您的组织做好了持续改进和创新的准备。
+* **轻松统一并扩展数据**：更新后的平台支持复杂的数据模型，包括自定义对象、购买群组和帐户事件。
+* **连接多个 Adobe Marketo Engage 实例**：可在同一位置管理并统一多个 Adobe Marketo Engage 环境中的数据。
+* **保障数据安全**：高级隐私与安全功能有助于保护客户信息。
+* **面向未来**：此更新为您的组织持续改进与创新奠定基础。
 
 <!-- hold for later release 
 
@@ -84,7 +84,7 @@ Adobe Journey Optimizer B2B edition现已使用简化的架构推出。 凭借�
 
 >[!NOTE]
 >
->这些版本更改从2025年9月30日开始部署，并分阶段推出每个功能。 功能及增强功能的发布时间可能会有变动。
+>这些版本更新于 2025 年 9 月 30 日开始部署，并将分阶段逐步推出各项功能。功能及增强功能的发布时间可能会有变动。
 
 ## 2025.8 版发行说明
 
@@ -160,7 +160,7 @@ Adobe Journey Optimizer B2B edition现已使用简化的架构推出。 凭借�
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
 | 功能 | 重复的帐户历程 | 现在为帐户历程提供重复操作。您可以复制帐户历程的详细信息，或者仅复制流程和路径结构的简单框架。<a href="../journeys/journey-overview.md#duplicate-journey">了解详情</a> |
-| 功能 | 我的账户历程令牌 | 您现在可以定义一组具有帐户历程特定值的自定义令牌。这组自定义令牌被称为&#x200B;_我的令牌_，所有这些自定义令牌都可以在创作历程电子邮件时用于进行个性化。<a href="../content/personalization-my-tokens.md">了解详情</a> |
+| 功能 | 我的帐户历程令牌 | 您现在可以定义一组具有帐户历程特定值的自定义令牌。这组自定义令牌被称为&#x200B;_我的令牌_，所有这些自定义令牌都可以在创作历程电子邮件时用于进行个性化。<a href="../content/personalization-my-tokens.md">了解详情</a> |
 | 功能 | 删除购买群组阶段 | 当购买群组阶段模型处于草稿或已发布状态时，您可以将其删除。如果它已发布（上线），则只有当它与任何解决方案兴趣都无关联时，您才能删除。<a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">了解详情</a> |
 | 增强功能 | 历程节点数 | 在节点层面提高了已发布历程会员资格数量的可见性。在&#x200B;_历程图_&#x200B;中，节点会显示&#x200B;_[!UICONTROL 已进入的帐户总数]_。当您选择并操作节点时，右侧的详细信息还包括&#x200B;_[!UICONTROL 尚未执行操作的帐户]_。_监听事件_&#x200B;节点的详细信息包括&#x200B;_[!UICONTROL 此步骤中的帐户]_。使用此信息来验证您正在进行的、已完成的和已中止的历程中的帐户进展。 |
 
