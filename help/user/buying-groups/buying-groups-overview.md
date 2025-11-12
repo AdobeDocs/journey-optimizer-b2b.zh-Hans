@@ -5,9 +5,9 @@ feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1193'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->从2025.10版本开始，每天都会运行自动购买组维护作业。
+>自动化购买群组维护作业自 2025.10 版本起每日运行。
 
 ## 购买群组工作流
 
@@ -100,11 +100,11 @@ _[!UICONTROL 购买群组]_&#x200B;页面分成若干选项卡：
 
 ### 购买群组完整性评分
 
-完整性得分用于确定购买组是否具有分配给所需角色的正确数量的成员，以及是否准备好在帐户历程中使用。 此得分是一个百分比，它基于购买组中的角色数量以及每个已定义角色的完整性。
+完整性评分用于判断购买群组是否为各所需角色分配了正确数量的成员，并已准备好用于帐户历程。该评分是一个百分比，依据购买群组中角色的数量及各定义角色的完整性计算。
 
-最初完整度得分计算在您创建购买组后立即开始，每天重新计算一次，每次创建或更新购买组时都重新计算。
+在您创建购买群组后即开始首次完整性评分计算，系统会在每日及每次购买群组创建或更新时重新计算。
 
-有关完整性评分和计算的详细信息，请参阅[完整性得分](./completeness-scores.md)。
+详细计算方式请参阅[完整性评分](./completeness-scores.md)。
 
 ### 购买群组参与度评分 {#engagement-score}
 
@@ -116,4 +116,4 @@ _[!UICONTROL 购买群组]_&#x200B;页面分成若干选项卡：
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3452950/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

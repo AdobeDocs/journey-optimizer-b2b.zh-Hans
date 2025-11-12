@@ -5,9 +5,9 @@ feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: 5ba2531a287143bd1111f764aa9eba8089111bc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1130'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -69,11 +69,11 @@ _[!UICONTROL 帐户历程]_&#x200B;列表页面包括以下几列：
 
 | 状态 | 描述 | 可用操作 |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**草稿**&#x200B;_ | 可编辑的未发布历程。 | <li>[发布](./create-publish-journey.md#publish-an-account-journey)<li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
-| _&#x200B;**实时**&#x200B;_ | 历程发布后，历程状态就从草稿变为实时。在这种状态下，历程无法再编辑。 | <li>[重复](#duplicate-journey)<li>[对新条目关闭](#close-to-new-entries) <li>[中止](#abort-journey) |
-| _&#x200B;**对新条目关闭**&#x200B;_ | 单击顶部导航中的[!UICONTROL 对新条目关闭]，历程状态从&#x200B;_实时_&#x200B;变为&#x200B;_对新条目关闭_。 | <li>[重复](#duplicate-journey) <li>[中止](#abort-journey) |
-| _&#x200B;**已中止**&#x200B;_ | 历程中止后，历程状态从&#x200B;_实时_&#x200B;或&#x200B;_对新条目关闭_&#x200B;改变。已中止历程无法重新开始。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
-| _&#x200B;**已完成**&#x200B;_ | 历程中的所有帐户都完成该历程后，状态将从&#x200B;_实时_&#x200B;或&#x200B;_对新条目关闭_&#x200B;变为&#x200B;_已完成_。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
+| _**草稿**_ | 可编辑的未发布历程。 | <li>[发布](./create-publish-journey.md#publish-an-account-journey)<li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
+| _**实时**_ | 历程发布后，历程状态就从草稿变为实时。在这种状态下，历程无法再编辑。 | <li>[重复](#duplicate-journey)<li>[对新条目关闭](#close-to-new-entries) <li>[中止](#abort-journey) |
+| _**对新条目关闭**_ | 单击顶部导航中的[!UICONTROL 对新条目关闭]，历程状态从&#x200B;_实时_&#x200B;变为&#x200B;_对新条目关闭_。 | <li>[重复](#duplicate-journey) <li>[中止](#abort-journey) |
+| _**已中止**_ | 历程中止后，历程状态从&#x200B;_实时_&#x200B;或&#x200B;_对新条目关闭_&#x200B;改变。已中止历程无法重新开始。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
+| _**已完成**_ | 历程中的所有帐户都完成该历程后，状态将从&#x200B;_实时_&#x200B;或&#x200B;_对新条目关闭_&#x200B;变为&#x200B;_已完成_。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
 
 ## 管理历程
 
@@ -155,16 +155,16 @@ _帐户历程_&#x200B;列表中包含您的 Journey Optimizer B2B Edition 实例
 
 1. 在确认对话框中单击&#x200B;**[!UICONTROL 删除]**。
 
-## 审查帐户进展
+## 查看帐户进程
 
-对于处于&#x200B;_实时_、_对新条目关闭_、_已中止_&#x200B;或&#x200B;_已完成_&#x200B;状态的已发布历程，您可以打开历程映射以查看历程节点的帐户进度。 映射中的每个节点会显示到达该节点的帐户数，对于实时历程，会显示当前在该节点的帐户数。
+对于状态为&#x200B;_运行中_、_对新条目关闭_、_已中止_&#x200B;或&#x200B;_已完成_&#x200B;的已发布历程，您可以打开历程图查看各节点的帐户进程。历程图中的每个节点都会显示达到该节点的帐户数量，以及（对于运行中的历程）当前停留在该节点的帐户数量。
 
-![历程的节点帐户进程信息](./assets/node-account-progression-observability.png){width="400"}
+![历程节点帐户进程信息](./assets/node-account-progression-observability.png){width="400"}
 
-选择节点后，单击编号可查看进入该节点或当前处于历程该步骤的帐户列表。
+选择节点后，单击数字即可查看进入该节点或当前停留在该历程步骤的帐户列表。
 
-![历程的节点帐户进程信息](./assets/node-accounts-entered-list.png){width="700" zoomable="yes"}
+![历程节点帐户进程信息](./assets/node-accounts-entered-list.png){width="700" zoomable="yes"}
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3443217/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
