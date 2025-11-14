@@ -4,9 +4,9 @@ description: 配置电子邮件投放设置、通信限制和身份验证协议�
 feature: Setup, Channels
 role: Admin
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
-source-git-commit: 6f226c806d321cae27483df02a130bd4d8180702
+source-git-commit: 7d150069e7af582d837411aa52f6e8caa2b5e89e
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1648'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,11 @@ Journey Optimizer B2B edition中的设置是只读的。 单击右上角的&#x20
 
 ![访问品牌策略域设置](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-此设置为连接的Marketo Engage实例中的一个或多个工作区定义主域。 新电子邮件使用此域作为默认域，但营销人员可以[基于每封电子邮件](../content/add-email.md#define-the-email-settings)覆盖此域。 有关定义默认品牌策略域的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}。
+此设置为连接的Marketo Engage实例中的一个或多个工作区定义主域。 新电子邮件使用此域作为默认域，但营销人员可以[基于每封电子邮件](../content/add-email.md#define-the-email-settings)覆盖此域。 有关定义默认品牌策略域的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}。
 
 >[!NOTE]
 >
->如果您要营销多个品牌，并且希望每个品牌都有自己的品牌跟踪链接，则可以添加额外的品牌推广域。 有关添加多个品牌化域的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}。
+>如果您要营销多个品牌，并且希望每个品牌都有自己的品牌跟踪链接，则可以添加额外的品牌推广域。 有关添加多个品牌化域的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}。
 
 ### [!UICONTROL 自定义标头选项] {#custom-header-options}
 
@@ -67,19 +67,67 @@ Journey Optimizer B2B edition中的设置是只读的。 单击右上角的&#x20
 
 ## 通信限制
 
-通信限制控制贵组织发送的电子邮件数量。 最佳做法是设置限制，这样您就不会让收件人对来自贵组织的过多电子邮件感到不知所措。
+通信限制控制联系人从您的组织收到的电子邮件数量。 您设置的限制在Journey Optimizer B2B edition和连接的Marketo Engage实例之间共享。 设置这些限制可确保某个潜在客户在给定时间段内收到的电子邮件数量不会超过最大数量。
 
-若要查看当前设置，请转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**。 在导航面板中的&#x200B;_[!UICONTROL 电子邮件]_&#x200B;下，选择&#x200B;**[!UICONTROL 通信限制]**。
-
-![访问通信限制设置](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
-
-单击右上角的&#x200B;**[!UICONTROL 编辑设置]**&#x200B;可访问连接的Marketo Engage实例中的配置选项。
-
->[!NOTE]
+>[!AVAILABILITY]
 >
->要在Adobe Marketo Engage中访问和编辑这些设置，您必须具有产品管理员权限。
+>通信限制适用于在[简化架构](../simplified-architecture.md)上配置的Joureny Optimizer B2B edition环境。
 
-有关配置通信限制的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}。
+例如，系统规定每天只能收到五封电子邮件，通过禁止第六封电子邮件，可确保某位联系人在一天内不会收到第六封电子邮件。 利用Journey Optimizer B2B edition和Marketo Engage之间的共享通信限制，可以在一个位置定义通信限制规则。 无论来自Journey Optimizer B2B edition或Marketo Engage的发送操作如何，都会禁止发送第六封电子邮件。
+
+所有Marketo Engage生产实例默认定义了通信限制(有关详细信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"})。 要使用共享通信限制，请在Journey Optimizer B2B edition中定义规则，并将这些限制的共享扩展到Marketo Munchkin代码。
+
+>[!IMPORTANT]
+>
+>要将通信规则集扩展到Marketo Munchkin代码，请联系您的Adobe客户管理团队。 此配置通常是载入流程的一部分。
+
+若要查看或设置通信限制规则，请转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**。 在导航面板中的&#x200B;_[!UICONTROL 电子邮件]_&#x200B;下，选择&#x200B;**[!UICONTROL 通信限制]**。
+
+![访问通信限制配置](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
+
+默认情况下，有一个全局规则集，您可以在其中根据自己的要求定义、激活和停用多个规则。 单击规则集名称以显示规则列表。
+
+### 创建规则
+
+1. 单击右上方的&#x200B;**[!UICONTROL 创建规则]**。
+
+   ![访问通信限制配置](./assets/config-email-communication-limits-create-rule-select.png){width="600" zoomable="yes"}
+
+1. 输入&#x200B;**[!UICONTROL 规则名称]**。
+
+1. 设置&#x200B;**[!UICONTROL 上限金额]**。
+
+   输入值，或单击右侧的&#x200B;_向上_&#x200B;或&#x200B;_向下_&#x200B;箭头增加或减少值。
+
+1. 根据您想要为限制定义时间周期的方式，选择&#x200B;**[!UICONTROL 重置上限频率]**&#x200B;值。
+
+   您可以选择每小时&#x200B;_[!UICONTROL 、]_&#x200B;每日&#x200B;_[!UICONTROL 、]_&#x200B;每周&#x200B;_[!UICONTROL 或]_&#x200B;每月&#x200B;_[!UICONTROL 。]_
+
+   ![访问通信限制配置](./assets/config-email-communication-limits-create-rule-settings.png){width="600" zoomable="yes"}
+
+1. 根据周期中要包含的频率单位数设置&#x200B;**[!UICONTROL Every]**&#x200B;值。
+
+   例如，如果您使用&#x200B;_每日_&#x200B;作为频率，并将此值设置为`3`，则周期定义为三天。
+
+1. 单击右上方的&#x200B;**[!UICONTROL 创建规则]**。
+
+新规则处于&#x200B;_草稿_&#x200B;状态，除非您选择激活它，否则不会应用于通信限制。
+
+### 管理规则
+
+只要规则处于&#x200B;_草稿_&#x200B;状态，您就可以编辑定义或删除规则。 当您希望应用规则时，可以激活它。 单击列表中草稿规则名称旁边的&#x200B;_更多菜单_ (***...***)图标，然后选择&#x200B;**[!UICONTROL 激活]**。
+
+![单击草稿通信限制规则的“更多”菜单](./assets/config-email-communication-limits-draft-more-menu.png){width="400" zoomable="yes"}
+
+然后，在确认对话框中单击&#x200B;**[!UICONTROL 激活]**。
+
+无法编辑或删除活动规则，只能将其停用。 对于要从应用的通信限制中移除的活动规则，请单击活动规则名称旁边的&#x200B;_停用_ （![停用图标](../assets/do-not-localize/icon-deactivate.svg) ）图标。
+
+![单击有效通信限制规则的“停用”图标](./assets/config-email-communication-limits-active-deactivate.png){width="400" zoomable="yes"}
+
+然后，在确认对话框中单击&#x200B;**[!UICONTROL 停用]**。
+
+该规则显示为&#x200B;_不活动_&#x200B;状态。 它类似于草稿规则，您可以根据需要编辑、删除或激活它。
 
 ## SPF/DKIM
 
@@ -146,4 +194,4 @@ Journey Optimizer B2B edition中的设置是只读的。 单击右上角的&#x20
 >
 >要在Adobe Marketo Engage中访问和编辑这些设置，您必须具有产品管理员权限。
 
-有关配置机器人活动选项的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}。
+有关配置机器人活动选项的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}。
