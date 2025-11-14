@@ -34,7 +34,7 @@ ht-degree: 2%
 
   >[!NOTE]
   >
-  >在[Adobe Experience Platform XDM架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中定义了属性结构。
+  >在[Adobe Experience Platform XDM架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home){target="_blank"}中定义了属性结构。
 
 * 标识符可以是除以下字符之外的任意Unicode字符：
 

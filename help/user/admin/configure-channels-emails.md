@@ -51,11 +51,11 @@ Journey Optimizer B2B edition中的设置是只读的。 单击右上角的&#x20
 
 ![访问品牌策略域设置](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-此设置为连接的Marketo Engage实例中的一个或多个工作区定义主域。 新电子邮件使用此域作为默认域，但营销人员可以[基于每封电子邮件](../content/add-email.md#define-the-email-settings)覆盖此域。 有关定义默认品牌策略域的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}。
+此设置为连接的Marketo Engage实例中的一个或多个工作区定义主域。 新电子邮件使用此域作为默认域，但营销人员可以[基于每封电子邮件](../content/add-email.md#define-the-email-settings)覆盖此域。 有关定义默认品牌策略域的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}。
 
 >[!NOTE]
 >
->如果您要营销多个品牌，并且希望每个品牌都有自己的品牌跟踪链接，则可以添加额外的品牌推广域。 有关添加多个品牌化域的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}。
+>如果您要营销多个品牌，并且希望每个品牌都有自己的品牌跟踪链接，则可以添加额外的品牌推广域。 有关添加多个品牌化域的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}。
 
 ### [!UICONTROL 自定义标头选项] {#custom-header-options}
 
@@ -75,7 +75,7 @@ Journey Optimizer B2B edition中的设置是只读的。 单击右上角的&#x20
 
 例如，系统规定每天只能收到五封电子邮件，通过禁止第六封电子邮件，可确保某位联系人在一天内不会收到第六封电子邮件。 利用Journey Optimizer B2B edition和Marketo Engage之间的共享通信限制，可以在一个位置定义通信限制规则。 无论来自Journey Optimizer B2B edition或Marketo Engage的发送操作如何，都会禁止发送第六封电子邮件。
 
-所有Marketo Engage生产实例默认定义了通信限制(有关详细信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"})。 要使用共享通信限制，请在Journey Optimizer B2B edition中定义规则，并将这些限制的共享扩展到Marketo Munchkin代码。
+所有Marketo Engage生产实例默认定义了通信限制(有关详细信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"})。 要使用共享通信限制，请在Journey Optimizer B2B edition中定义规则，并将这些限制的共享扩展到Marketo Munchkin代码。
 
 >[!IMPORTANT]
 >
@@ -194,4 +194,4 @@ Journey Optimizer B2B edition中的设置是只读的。 单击右上角的&#x20
 >
 >要在Adobe Marketo Engage中访问和编辑这些设置，您必须具有产品管理员权限。
 
-有关配置机器人活动选项的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}。
+有关配置机器人活动选项的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}。
