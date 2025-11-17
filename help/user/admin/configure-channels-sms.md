@@ -4,9 +4,9 @@ description: 将Sinch、Twilio和Infobip等SMS提供商连接到API凭据，以�
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 325ae8e8c1f3bbf25e0d96907ede6cb9f2e76e3d
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Adobe Journey Optimizer B2B edition目前与独立提供短信服务的第三方
 
    * **[!UICONTROL 服务ID]**&#x200B;和&#x200B;**[!UICONTROL API令牌]** — 从你的Sinch帐户访问API页面（你可以在“短信”选项卡下找到你的凭据）。
 
-   有关查找你的Sinch帐户的此信息的详细信息，请参阅[Sinch开发人员文档](https://developers.sinch.com/docs/sms/getting-started/#2-get-credentials)
+   有关查找你的Sinch帐户的此信息的详细信息，请参阅[Sinch开发人员文档](https://developers.sinch.com/docs/sms/getting-started)
 
 1. 完成API凭据的配置详细信息后，单击&#x200B;**[!UICONTROL 提交]**。
 

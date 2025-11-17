@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 发行说明
 description: 探索 Adobe Journey Optimizer B2B Edition 中的最新功能、增强功能和错误修复。随时掌握最新功能与产品改进信息。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: 8ddd69584f834517c9f4cea14ed4417f14020254
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3729'
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | ----- | ------ | ----------- |
 | 历程生成代理 | 新 | 历程生成代理可实时分析、构思并联合创建历程，使营销人员能够更快启动、提高参与度、促进更高转化率。[了解详情](../agents/journey-agent.md) |
 | Audience 代理 | 新 | Audience 代理使用结构化和非结构化数据自动识别和构建购买群组。这可以帮助营销人员更快、更准确地针对适当的人员。[了解详情](../agents/audience-agent-b2b.md) |
-| Account Qualification 代理 | 新 | 通过 AI 助手中的 Account Qualification 代理，可识别哪些帐户已准备进入下一阶段。该代理通过自动化资格评估流程并突出高价值潜在客户，帮助销售团队专注于最具潜力的帐户。[了解详情](../agents/sales-qualifier.md) |
+| 销售限定词 | 新 | Sales Qualifier是Adobe Journey Optimizer B2B edition的AI驱动附加应用程序，它包含Account Qualification Agent，旨在简化业务开发代表(BDR)的工作流。 它跨渠道自动执行潜在客户鉴别、外联和买方参与工作流程[了解详情](../agents/sales-qualifier.md) |
 
 ## 2025.10 版本发行说明
 
@@ -34,16 +34,12 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | 关系型数据模型 | 利用与 B2B 帐户关联的关系型数据，可在帐户历程中筛选帐户，或个性化电子邮件内容。此类关系型数据可表示真实的业务实体，如采购记录、活动注册、软件许可、服务订阅或预订信息。 |
 | 功能 | 将历程激活至目标 | 使用新的&#x200B;_激活至目标_&#x200B;公司帐户操作，可直接面向公司进行激活，而非个人。（本版本仅支持领英公司。）[了解更多](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
 | 功能 | 品牌主题 | 借助品牌主题功能，非技术用户可在标准模板基础上添加自定义样式，创建符合特定品牌与设计语言的可复用内容。[了解详情](../content/brand-themes.md) |
 | 功能 | 电子邮件模板 – 将图像转换为 HTML | 您现在可以使用以 JPG 或 PNG 格式保存的设计文件，自动生成电子邮件模板。[了解详情](../content/email-template-image-convert.md) |
 | 功能 | 人物角色映射 | 通过属性映射，将帐户成员与已建立的人物角色关联。[了解详情](../admin/persona-mapping.md) |
-| 功能 | 适用于 Salesforce 和 Dynamics 的销售洞察 | 销售团队成员现在可在 Salesforce 或 Dynamics 集成中查看正在成熟的购买群体及相关洞察，从而发现新的销售机会。系统会显示购买群体的阶段、评分及相关成员等详细信息。 |
-| 功能 | 多 Marketo Engage 实例激活 | 可配置与远程 Marketo Engage 实例的连接，并使用这些连接设置 Marketo Engage 相关的历程操作。这些操作（如将人员添加或移出名单，或将人员添加至请求营销活动）均适用于指定的 Marketo Engage 实例。 |
-| 增强功能 | 电子邮件疲劳重复数据删除 | 您现在可以启用电子邮件重复数据删除功能，确保同一历程中不会向同一邮箱地址重复发送相同邮件。重复地址将在首次记录完成该历程之前被阻止发送。 |
+| 功能 | 适用于 Salesforce 和 Dynamics 的销售洞察 | 销售团队成员现在可在 Salesforce 或 Dynamics 集成中查看正在成熟的购买群体及相关洞察，从而发现新的销售机会。包括购买组详细信息，如阶段、分数和相关成员。 [了解详情](../buying-groups/incrm-insights.md) |
 | 增强功能 | 改进的购买群组完整性评分 | 您现在可以通过为完整性评分自定义角色成员阈值，确保购买群体能够反映真实的决策过程。[了解详情](../buying-groups/completeness-scores.md) |
-| 增强功能 | 通信限制 | 系统现会同时遵循 Marketo Engage 与 Journey Optimizer B2B Edition 的综合通信限制。 |
 | 增强功能 | 购买群组维护作业 | 购买群组维护作业的执行频率已由每周一次更新为每日一次。 |
 | 增强功能 | 帐户历程进度 | 对于状态为&#x200B;_运行中_、_对新条目关闭_、_已中止_&#x200B;或&#x200B;_已完成_&#x200B;的已发布历程，您可以打开历程图以查看各节点的帐户列表。 |
 
@@ -61,6 +57,17 @@ Adobe Journey Optimizer B2B Edition 现已采用简化架构。通过此更新�
 * **连接多个 Adobe Marketo Engage 实例**：可在同一位置管理并统一多个 Adobe Marketo Engage 环境中的数据。
 * **保障数据安全**：高级隐私与安全功能有助于保护客户信息。
 * **面向未来**：此更新为您的组织持续改进与创新奠定基础。
+
+通过简化的架构，2025.10版本中提供了以下新增功能和增强功能：
+
+| 类型 | 项目 | 描述 |
+| ---- | ---- | ----------- |
+| 功能 | 关系型数据模型 | 利用链接到B2B帐户的关系数据来过滤帐户历程中的帐户或个性化电子邮件内容。 此类关系型数据可表示真实的业务实体，如采购记录、活动注册、软件许可、服务订阅或预订信息。 |
+| 功能 | 多 Marketo Engage 实例激活 | 配置与远程Marketo Engage实例的连接，并使用这些连接设置历程的Marketo Engage操作。 这些操作（如将人员添加或移出名单，或将人员添加至请求营销活动）均适用于指定的 Marketo Engage 实例。 |
+| 功能 | 电子邮件疲劳重复数据删除 | 您现在可以启用电子邮件重复数据删除功能，确保同一历程中不会向同一邮箱地址重复发送相同邮件。重复地址将在首次记录完成该历程之前被阻止发送。 |
+| 增强功能 | 通信限制 | 现在，系统尊重了Marketo Engage和Journey Optimizer B2B edition的组合通信限制。 [了解详情](../admin/configure-channels-emails.md#communication-limits) |
+
+如果在此架构上配置了您的环境，请查看有关配置的[准则](../simplified-architecture.md)。
 
 <!-- hold for later release 
 
@@ -210,8 +217,8 @@ Adobe Journey Optimizer B2B Edition 现已采用简化架构。通过此更新�
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | 电子邮件中的条件内容 | 根据收件人的行为和轮廓特征个性化您的电子邮件内容——无论是在帐户级别还是潜在客户级别。 <p>当您在电子邮件可视设计空间中为您的帐户历程创作电子邮件时，使用条件规则为任何内容组件定义多个变体。<a href="../content/conditional-content.md">了解详情</a> |
-| 功能 | 在历程中将人员操作&#x200B;_添加到列表_&#x200B;以及&#x200B;_从列表中移除_ | 根据收件人的行为和轮廓特征个性化您的电子邮件内容——无论是在帐户级别还是潜在客户级别。<a href="../journeys/action-nodes.md">了解详情</a> |
+| 功能 | 电子邮件中的条件内容 | 根据帐户和潜在客户级别的收件人行为和用户档案特征，个性化您的电子邮件内容。 <p>当您在电子邮件可视设计空间中为您的帐户历程创作电子邮件时，使用条件规则为任何内容组件定义多个变体。<a href="../content/conditional-content.md">了解详情</a> |
+| 功能 | 在历程中将人员操作&#x200B;_添加到列表_&#x200B;以及&#x200B;_从列表中移除_ | 根据帐户和潜在客户级别的收件人行为和用户档案特征，个性化您的电子邮件内容。 <a href="../journeys/action-nodes.md">了解详情</a> |
 | 功能 | 内容监管和组件锁定 | 要确保遵守批准的内容设计，请使用内容监管功能锁定电子邮件模板内容组件。在电子邮件模板中激活内容监管后，营销人员只能更改允许的元素，使其与内容策略保持一致。<a href="../content/template-content-governance.md">了解详情</a> |
 | 功能 | 购买群组阶段 | 您定义并发布了自定义购买群组暂存模型后，可以在各个购买群组生命周期阶段跟踪购买群组进展情况。使用这些阶段来确定购买群组成员的下一步最佳操作。您可以配置过渡规则和历程节点，确定阶段进展情况并根据变化触发操作。<a href="../buying-groups/buying-group-stages.md">了解详情</a> |
 | 增强功能 | 新的现成电子邮件模板 | 示例模板库现在包括专为 B2B 营销人员设计的额外电子邮件模板。使用这些示例模板作为起点，添加您自己的品牌和消息。<a href="../content/email-templates.md#select-a-design-template">了解详情</a> |

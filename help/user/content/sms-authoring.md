@@ -4,9 +4,9 @@ description: 为具有个性化、链接和同意管理的帐户历程创建短�
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: aa79e0655737541f122801f28db73d9f31ebb2f7
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1299'
 ht-degree: 3%
 
 ---
@@ -49,15 +49,15 @@ ht-degree: 3%
 
 您可以创建最多1600个字符的消息，每160个字符即被视为一条短信消息。
 
-![单击“个性化”图标向邮件添加令牌](./assets/sms-message-compose.png){width="800" zoomable="yes"}
+![撰写短信消息](./assets/sms-message-compose.png){width="800" zoomable="yes"}
 
 #### 个性化设置短信
 
-1. 在创作文本消息时，随时单击文本消息框右侧的&#x200B;_个性化_&#x200B;图标（![个性化图标](../assets/do-not-localize/icon-personalize.svg)）。
+1. 将光标放在消息中要添加个性化令牌的位置。
 
-   显示的页面提供了对Adobe Marketo Engage潜在客户和系统令牌的访问权限。 包括标准令牌和自定义令牌。 您可以使用&#x200B;_搜索_&#x200B;栏找到所需的令牌，或者浏览文件夹树查找并选择任何潜在客户/系统令牌。
+1. 单击文本消息框右侧的&#x200B;_个性化_&#x200B;图标（![个性化图标](../assets/do-not-localize/icon-personalize.svg)）。
 
-1. 将光标放在要添加令牌的消息中的位置。
+   通过对话框可访问帐户令牌、人员令牌和系统令牌。 包括标准令牌和自定义令牌。 您可以使用&#x200B;_搜索_&#x200B;栏找到所需的令牌，或者浏览文件夹树查找并选择任何令牌。
 
 1. 通过单击令牌旁边的加号( **+**)符号添加令牌。
 
@@ -77,13 +77,15 @@ ht-degree: 3%
 
 1. 输入消息文本后，单击文本消息框右侧的&#x200B;_链接_&#x200B;图标（![链接图标](../assets/do-not-localize/icon-link.svg)）。
 
-1. 在对话框中，选择要链接的URL类型：
+1. 输入链接的&#x200B;**[!UICONTROL URL]**。
+<!--    
+1. In the dialog, choose the type of URLs to link:
 
-   * **[!UICONTROL 登陆页面]** — 选择此选项可从Marketo Engage实例中选择任何已批准的Adobe Marketo Engage登陆页面。 选择工作区，然后选择登陆页面。
+   * **[!UICONTROL Landing Page]** - Choose this option to select any of the approved Adobe Marketo Engage landing pages from your Marketo Engage instance. Select the workspace, and then select the landing page.
 
-   * **[!UICONTROL 外部URL]** — 此类型是您在文本框中输入的任何外部URL。
+   * **[!UICONTROL External URL]** - This type is any external URL that you enter in the text box. -->
 
-1. 如果选择使用登陆页面，请设置跟踪选项。
+1. 如果您选择使用Marketo Engage登陆页面，请设置跟踪选项。
 
    * **[!UICONTROL 启用跟踪]** — 选中此复选框可启用跟踪，这需要&#x200B;_缩短_ URL。 对于登陆页面，它会使用缩短URL的Marketo Engage子域。 此时将显示缩短的URL格式的示例。 实际URL是在将短信发送给收件人时创建的。
 
@@ -92,7 +94,7 @@ ht-degree: 3%
      >[!NOTE]
      >
      >当您允许跟踪但禁用&#x200B;_[!UICONTROL 包含mkt_tok]_&#x200B;时，目标URL在重定向后不包含`mkt_tok`查询字符串参数。 Marketo Engage登陆页面和Munchkin使用此参数以确保跟踪人员活动（例如，当人员取消订阅电子邮件时）。 除非参数导致您的网站出现问题，否则请勿禁用此选项。<br/>
-     >有关在网站上使用Munchkin跟踪代码的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}。
+     >有关在网站上使用Munchkin跟踪代码的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}。
 
    ![为短信消息添加链接对话框](./assets/sms-add-link-dialog.png){width="470"}
 
@@ -109,15 +111,15 @@ ht-degree: 3%
    * 将`Marketing`用于需要用户同意的促销短信。
    * 将`Transactional`用于非商业邮件，如订单确认、密码重置通知或投放信息。
 
-1. 对于&#x200B;**[!UICONTROL SMS配置]**，请选择预定义的API配置之一。
+1. 对于&#x200B;**[!UICONTROL SMS配置]**，请选择预定义的[SMS API配置](../admin/configure-channels-sms.md#create-new-api-credentials-for-an-sms-service-provider)之一。
 
    此设置确定用于传递消息的SMS网关服务提供商和帐户。
 
 1. 输入要&#x200B;用于通信的&#x200B;**[!UICONTROL 发件人号码]**。
 
-   ![执行操作 — 发送短信](./assets/sms-properties.png){width="700" zoomable="yes"}
+   ![短信消息属性](./assets/sms-properties.png){width="700" zoomable="yes"}
 
-   收件人号码始终映射到Marketo Engage中的`Lead.mobilePhone`字段。
+   收件人号码始终映射到Experience Platform中的`profile.mobilePhone.number`字段。
 
 ### 模拟短信内容 {#preview-test}
 
@@ -160,7 +162,7 @@ ht-degree: 3%
 
 向收件人提供取消订阅以停止从品牌接收通信的功能，并遵守此选择是一项法律要求。 未能遵守这些法规会为您的品牌带来法律风险。 此功能还可帮助您避免向收件人发送未经请求的通信，这种通信可能会导致他们将您的邮件标记为垃圾邮件并损害您的声誉。
 
-提供此选项后，短信收件人可以使用选择启用和选择禁用关键词进行回复。 支持并接受所有标准的选择加入和选择退出关键词，以及短信服务提供商配置的任何自定义关键词。 取消订阅后，用户档案将自动从未来营销消息的受众中删除。
+提供此选项后，短信收件人可以使用选择启用和选择禁用关键词进行回复。 支持并接受所有标准的选择加入和选择退出关键词，以及使用SMS服务提供商配置的任何自定义关键词。 取消订阅后，用户档案将自动从未来营销消息的受众中删除。
 
 Journey Optimizer B2B edition提供了使用以下逻辑管理短信消息中的选择退出的功能：
 

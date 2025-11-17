@@ -1,11 +1,11 @@
 ---
 title: 销售限定词
-description: 了解如何使用Sales Qualifier应用程序加快和维护您的历程。
-feature: Account Journeys, AI Assistant
+description: 通过Sales Qualifier自动化B2B潜在客户鉴定和推广。 它为BDR提供AI支持的研究、电子邮件起草、CRM集成和参与计划。
+feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: dc6495a65b89cb3993c4b72706298181a3b555db
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1290'
 ht-degree: 1%
 
 ---
@@ -17,16 +17,16 @@ ht-degree: 1%
 >此功能当前处于“有限可用”状态，并非对所有用户都可用。
 >
 
-Sales Qualifier是Adobe Journey Optimizer B2B edition的AI驱动附加应用程序，它包含Account Qualification Agent，旨在简化业务开发代表(BDR)的工作流。 Sales Qualifier跨渠道自动化了潜在客户资格鉴定、外联和买方参与工作流程，减少了手动BDR负载，加快了企业B2B公司的销售线速度。
+Sales Qualifier是Adobe Journey Optimizer B2B edition的AI驱动附加应用程序，它包含Account Qualification Agent，旨在简化业务开发代表(BDR)的工作流。 Sales Qualifier跨渠道自动执行潜在客户鉴别、外联和买方参与工作流程。 它减少了手动BDR负载，加快了企业B2B公司的管道速度。
 使用浏览器和电子邮件插件直接在CRM或Outlook中访问商业智能。
 
-Sales Qualifier包含在AJO B2B中，但它是AEP Experience Cloud中的一个独立应用程序。
+Sales Qualifier包含在Journey Optimizer B2B edition中，但它是Experience Platform Experience Cloud中的一个单独应用程序。
 
 ![销售限定词主页](assets/home-screen.png)
 
 ## Account Qualification 代理
 
-Account Qualification Agent (AQA)是Sales Qualifier的核心。 AQA使用人工智能读取您的帐户，并确定哪些帐户已准备好执行下一步。  它有助于研究、电子邮件草稿和CRM更新。
+Account Qualification Agent (AQA)是Sales Qualifier的核心。 AQA使用人工智能读取您的帐户，并确定哪些帐户已准备好执行下一步。 它有助于研究、电子邮件草稿和CRM更新。
 
 ![Account Qualification Agent](assets/acc-qualification-agent.png)
 
@@ -52,11 +52,11 @@ Adobe AI代理使用&#x200B;_自然语言查询_，这意味着它们在文本�
 
 使用自然语言，您可以要求代理：
 
-* 向我显示我分配但尚未参与的潜在客户
-* 向我显示我所有不属于任何自主参与的销售线索
-* 给我有关`<company>`的详细摘要，包括他们的购买团体、最近的意图信号以及我们过去的参与。
+* `Show me my assigned leads with no engagement yet`
+* `Show me all my leads that are not part of any autonomous engagement`
+* `Give me a detailed summary on Acme company, including their buying group, recent intent signals, and our past engagement.`
 
-您可以立即了解哪些客户和潜在客户最活跃并显示最高的意图，这样您可以将精力集中在最具影响力的地方。
+您可以立即了解哪些客户和潜在客户最活跃并显示最高的意图，这样您可以将精力集中到最具影响力的地方。
 
 通过优化提示以获取所需结果来循环访问您的历程。 例如：
 
@@ -66,11 +66,11 @@ Adobe AI代理使用&#x200B;_自然语言查询_，这意味着它们在文本�
 
 ## 潜在客户
 
-此窗口列出了您有权访问的所有潜在客户。 它可快速检查潜在客户状态和上次活动等内容。
+此窗口列出了您有权访问的所有潜在客户。 它可快速检查各项指标，如商机状态和上次活动。
 
 ![在潜在客户表中查看您的所有潜在客户](assets/prospects.png)
 
-单击“筛选器”图标![筛选器图标](../assets/icon-filter.png)以按潜在客户状态筛选。
+单击&#x200B;_筛选器_ ![筛选器图标](../../assets/do-not-localize/icon_filter-outline.svg)图标可按潜在客户状态筛选显示的列表。
 
 ## 参与计划
 
@@ -80,10 +80,10 @@ Adobe AI代理使用&#x200B;_自然语言查询_，这意味着它们在文本�
 
 要制定新的参与计划，请单击&#x200B;**[!UICONTROL 创建参与计划]**。
 
-1. 在详细信息阶段，提供名称和可选描述。 单击&#x200B;**[!UICONTROL 保存并继续]**。
-1. 在“选择潜在客户”阶段中，选择应属于此计划的潜在客户。
-1. 在“定义节奏”阶段中，设置计划的参数。
-1. 在“预览”阶段中，确保一切按预期进行。
+1. 在&#x200B;_详细信息_&#x200B;阶段，提供名称和可选描述。 单击&#x200B;**[!UICONTROL 保存并继续]**。
+1. 在&#x200B;_选择潜在客户_&#x200B;阶段中，选择应属于此计划的潜在客户。
+1. 在&#x200B;_定义节奏_&#x200B;阶段，设置计划的参数。
+1. 在&#x200B;_预览_&#x200B;阶段中，确保一切按预期运行。
 
 ## 电子邮件发件箱
 
@@ -99,7 +99,7 @@ Adobe AI代理使用&#x200B;_自然语言查询_，这意味着它们在文本�
 
 ![聊天收件箱](assets/chat-inbox.png)
 
-您不仅可以与客户端进行交互，还可以查看联系人的摘要和线程的摘要，以便快速了解您在线程中的位置。
+您可以与客户进行交互，并查看联系人和跟帖的摘要，以便快速了解您在跟帖中的位置。
 
 ## 集成
 
@@ -116,7 +116,7 @@ Adobe AI代理使用&#x200B;_自然语言查询_，这意味着它们在文本�
 
 ![集成详细信息](assets/integration-details.png)
 
-我们在此处定义集成的URL，并建立要发送的有效负载。
+定义集成的URL，并建立要发送的有效负载：
 
 1. 为集成提供唯一名称和描述（可选）。
 1. 将URL字段设置为集成站点的集成身份验证端点。
@@ -130,27 +130,28 @@ Adobe AI代理使用&#x200B;_自然语言查询_，这意味着它们在文本�
    * API密钥
    * 基本身份验证
 
-1. 在“有效负载配置”部分中设置限制和缓存值。
-1. 在Payload configuration下，单击铅笔图标。 在粘贴有效负载对话框中，粘贴或输入您的JSON有效负载对象。
-   * 请求有效负载：包含要发送集成网站的数据的JSON对象。
-   * 响应有效负载：您希望获得的数据结构。
-1. 单击[!UICONTROL 测试连接]以确保您的设置正确。
+1. 在&#x200B;**[!UICONTROL 有效负载配置]**&#x200B;分区中设置限制和缓存值。
+   * 单击铅笔图标。
+   * 在&#x200B;_粘贴有效负载_&#x200B;对话框中，粘贴或输入您的JSON有效负载对象。
+
+      * **[!UICONTROL 请求有效负载]** — 包含要发送到集成站点的数据的JSON对象。
+      * **[!UICONTROL 响应有效负载]** — 您希望返回的数据结构。
+
+1. 单击&#x200B;**[!UICONTROL 测试连接]**&#x200B;以确保您的设置正确。
 
 当连接设置有效时，单击&#x200B;**[!UICONTROL 另存为草稿]**。
 
-返回主集成表后，选择集成并单击&#x200B;**[!UICONTROL 激活]**&#x200B;以启用集成，或单击&#x200B;**[!UICONTROL 另存为草稿]**。
-
-
+当您返回主&#x200B;_[!UICONTROL 集成]_&#x200B;表时，请选择该集成，然后单击&#x200B;**[!UICONTROL 激活]**&#x200B;以启用该集成。 如果您尚未准备好激活它，请单击&#x200B;**[!UICONTROL 另存为草稿]**。
 
 #### 管理访问权限
 
-您可以管理对用户的访问以及与不同用户组共享哪些类型的数据。
+您可以管理对用户的访问以及与不同用户组共享的数据类型。
 
-单击&#x200B;**[!UICONTROL 管理访问权限]**&#x200B;以打开“管理访问权限”对话框。
+单击&#x200B;**[!UICONTROL 管理访问权限]**&#x200B;以打开&#x200B;_[!UICONTROL 管理访问权限]_&#x200B;对话框。
 
-此对话框列出了您的组织已建立的所有标签。 选择要应用于此集成的标签。
+此对话框列出了为您的组织建立的所有标签。 选择要应用于此集成的标签。
 
-如果需要新标签，请单击&#x200B;**[!UICONTROL 创建标签]**&#x200B;并填写：
+如果需要新标签，请单击&#x200B;**[!UICONTROL 创建标签]**，然后输入标签信息：
 
 * 名称
 * 友好名称
@@ -158,56 +159,45 @@ Adobe AI代理使用&#x200B;_自然语言查询_，这意味着它们在文本�
 
 ## 代表性设置
 
-您可以在此输入与您本人相关的信息：个人详细信息、电子邮件和日历设置以及聊天可用性。
+代表设置指定与您本人相关的信息，包括个人详细信息、电子邮件和日历设置以及聊天可用性。
 
 ### 详细信息
 
-您可以在“详细信息”选项卡中输入有关您自己的信息：
+**[!UICONTROL 详细信息]**&#x200B;选项卡是您输入自己相关信息的位置：
 
 ![销售限定词详细信息设置](assets/details.png)
 
 ### 电子邮件设置
 
-在电子邮件设置选项卡中，设置电子邮件连接。
+在&#x200B;**[!UICONTROL 电子邮件设置]**&#x200B;选项卡中，设置您的电子邮件连接。
 
 ![电子邮件设置](assets/email-settings.png)
 
-#### 电子邮件连接
+* **[!UICONTROL 电子邮件连接]** — 单击&#x200B;**[!UICONTROL 连接]**&#x200B;并遵循Microsoft登录过程。
 
-单击&#x200B;**[!UICONTROL 连接]**&#x200B;并按照Microsoft登录过程操作。
-
-#### 电子邮件签名
-
-配置在自动生成电子邮件中使用的电子邮件签名。
+* **[!UICONTROL 电子邮件签名]** — 配置在自动生成电子邮件中使用的电子邮件签名。
 
 ### 日历设置
 
-在“日历设置”选项卡中，设置您的时区和可用性。
+在&#x200B;**[!UICONTROL 日历设置]**&#x200B;选项卡中，设置您的时区和可用性。
 
 ![日历设置](assets/calendar-settings.png)
 
-#### 日历连接
+* **[!UICONTROL 日历连接]** — 单击&#x200B;**[!UICONTROL 连接]**&#x200B;并按照Microsoft登录过程集成您的日历。
 
-单击&#x200B;**[!UICONTROL 连接]**&#x200B;并按照Microsoft登录过程集成您的日历。
+* **[!UICONTROL 会议确认电子邮件]** — 当客户确认与您进行会议时，他们将收到确认电子邮件作为回复。 使用这些设置定义电子邮件主题和正文。
 
-#### 会议确认电子邮件
-
-当客户确认与您进行会议时，他们将收到确认电子邮件作为回复。
-使用这些设置定义电子邮件主题和正文。
-
-#### 偏好设置
-
-设置您的默认会议时长，以及您希望在连续会议之间间隔的时间。
+* **[!UICONTROL 首选项]** — 设置您的默认会议时长，以及您希望在连续会议之间间隔的时间。
 
 ### 聊天设置
 
-在此选项卡中，设置您的时区实时聊天可用性。
+在&#x200B;**[!UICONTROL 聊天设置]**&#x200B;选项卡中，设置您的时区实时聊天可用性。
 
 ![聊天设置](assets/chat-settings.png)
 
 ## 代表管理
 
-在此面板中，将显示一个表格，其中包含所有已定义的代表及其日历状态。
+_[!UICONTROL 代表管理]_&#x200B;面板显示定义的代表及其日历状态。
 
 ## 会议性能
 
@@ -233,4 +223,4 @@ AI Assistant Chrome插件在[Google Store](https://chromewebstore.google.com/det
 
 以下视频简要演示了Sales Qualifier和Account Qualification Agent。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476571?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)

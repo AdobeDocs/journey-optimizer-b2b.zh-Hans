@@ -5,9 +5,9 @@ feature: AI Assistant
 role: User, Admin
 level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
-source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
+source-git-commit: dc6495a65b89cb3993c4b72706298181a3b555db
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1265'
 ht-degree: 4%
 
 ---
@@ -30,7 +30,7 @@ Journey Optimizer B2B edition中的AI助手是基于Adobe Experience Platform[�
 
 ## Journey Optimizer B2B edition中的AI助手功能
 
-为了制定对您提交问题的响应，AI Assistant查询数据库并将数据库中的数据转换为人类可读的答案。 此响应是基础数据的内部表示形式，也称为&#x200B;_&#x200B;**_知识图_**&#x200B;_ — 给定答案的概念、数据和元数据的综合网络。 知识图由每次提交查询时引用的子图组成：
+为了制定对您提交问题的响应，AI Assistant查询数据库并将数据库中的数据转换为人类可读的答案。 此响应是基础数据的内部表示形式，也称为&#x200B;_**_知识图_**_ — 给定答案的概念、数据和元数据的综合网络。 知识图由每次提交查询时引用的子图组成：
 
 * Experience League文档。
 * 操作构件，例如架构、字段、受众和历程。
@@ -59,13 +59,13 @@ _操作分析_&#x200B;是指AI助手生成的有关元数据对象（属性、�
 
 | 域 | 支持的元数据 | 不支持的元数据 |
 | --- | --- | --- |
-| 属性/字段 | <li>属性名称搜索 <li>属性 — 架构关系 <li>属性 — 数据集关系 <li>属性 — 受众关系 <li>属性 — 目标关系 | <li>属性类 <li>审核 <li>弃用状态 <li>标记 <li>存储在属性中的值 |
-| 帐户受众&#x200B;<br><br>**_Note:_** AJO B2B AI助手只能回答帐户受众的受众问题，而Experience Platform AI助手只能回答人员受众的问题 | <li>受众人数 <li>受众类型（流式传输或批处理） <li>创建/修改日期 <li>激活状态 <li>成员计数 <li>复制受众 <li>名称和ID搜索 | <li>受众重叠 <li>Audience Activation <li>审核 <li>创建/修改 <li>标记 <li>成员资格趋势 |
+| 属性/字段 | <li>属性名称搜索 <li>属性 — 架构关系 <li>属性 — 数据集关系 <li>属性 — 受众关系 <li>属性 — 目标关系 | <li>属性类 <li>审核 <li>弃用状态 <li>标签 <li>存储在属性中的值 |
+| 帐户受众&#x200B;<br><br>**_Note:_**&#x200B;在Journey Optimizer B2B edition上下文中，AI助手只能回答帐户受众的受众问题。 在Experience Platform上下文中，AI助手只能回答人员受众的问题。 | <li>受众人数 <li>受众类型（流式传输或批处理） <li>创建/修改日期 <li>激活状态 <li>成员计数 <li>复制受众 <li>名称和ID搜索 | <li>受众重叠 <li>Audience Activation <li>审核 <li>创建/修改 <li>标签 <li>成员资格趋势 |
 | 数据流 | <li>数据流计数 <li>数据流状态 <li>数据流 — 数据集关系 <li>数据流 — 源关系 | <li>创建/修改 <li>数据流 — 批次关系 <li>摄取配置文件计数 |
 | 数据集 | <li>数据集计数 <li>配置文件启用状态 <li>创建/修改日期 <li>数据集 — 架构关系 <li>数据集 — 受众关系 <li>数据集 — 属性关系 <li>数据集 — 数据流关系 <li>名称搜索 <li>名称和ID搜索 | <li>审核 <li>创建者 <li>数据集 — 批次关系 <li>数据集创建/修改 <li>数据集大小 <li>配置文件数 <li>行数 <li>值搜索 |
 | 目标 | <li>已配置的目标计数 <li>目标 — 受众关系 <li>目标属性关系 | <li>帐户设置 <li>帐户凭据信息 <li>独特配置文件已激活 |
 | 历程(帐户历程) | <li>计数 <li>名称和ID搜索 <li>历程状态 <li>创建/修改日期 | <li>属性 — 历程关系审核 <li>创建/修改 <li>创建者 |
-| 架构 | <li>架构计数 <li>创建/修改日期 <li>架构 — 属性关系 <li>架构 — 数据集关系 <li>架构 — 受众关系 <li>配置文件启用状态 <li>名称搜索 <li>名称和ID搜索 | <li>审核 <li>创建/修改 <li>创建者 <li>字段组 <li>身份标识 <li>身份标识命名空间 <li>标记 <li>配置文件数 |
+| 架构 | <li>架构计数 <li>创建/修改日期 <li>架构 — 属性关系 <li>架构 — 数据集关系 <li>架构 — 受众关系 <li>配置文件启用状态 <li>名称搜索 <li>名称和ID搜索 | <li>审核 <li>创建/修改 <li>创建者 <li>字段组 <li>身份标识 <li>身份标识命名空间 <li>标签 <li>配置文件数 |
 | 源 | <li>帐户计数 <li>帐户状态 <li>每个帐户的活动/不活动数据流 <li>Source连接器 — 数据流关系 <li>Source帐户 — 数据流关系 | <li>帐户凭据信息 <li>帐户设置数据摄取量度 <li>配置文件数来源 — 批次关系 |
 | 购买组模板 | <li>计数 <li>状态 <li>角色 <li>名称和ID搜索 | <li>角色规则 |
 | 解决方案兴趣 | <li>计数 <li>状态 <li>解决方案兴趣 — 购买组模板关系 <li>名称和ID搜索 | <li>解决方案兴趣 — 购买团体关系 |
@@ -92,7 +92,7 @@ Journey Optimizer B2B edition中的AI助手以隐私、安全和治理为原则�
 
 * 您必须具有显式权限才能与AI助手交互。
 
-   * 管理员可以使用[权限UI](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}和[Admin Console](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/ui/browse){target="_blank"}设置权限。
+   * 管理员可以使用[权限UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}和[Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}设置权限。
 
    * 权限是细粒度的，您的沙盒管理员可以配置哪些用户能够提出不同类别的问题（使用AI助手基于产品知识的问题或有关操作见解的问题）。
 
