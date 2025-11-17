@@ -30,7 +30,7 @@ Adobe Journey Optimizer B2B Edition 现已采用简化架构。通过此更新�
 
 ## 命名空间和架构
 
-有关概述，请参阅Experience Platform文档中的[B2B命名空间和架构](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces)。
+有关概述，请参阅Experience Platform文档中的[B2B命名空间和架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces)。
 
 ### 环境设置
 
@@ -40,9 +40,9 @@ Adobe Journey Optimizer B2B Edition 现已采用简化架构。通过此更新�
 
 * 有关如何使用Experience Platform API的信息，包括有关如何收集所需标头的值和读取示例API调用的详细信息，请参阅[Experience Platform API快速入门](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/platform-apis/api-guide)指南。
 
-* 有关如何生成Experience Platform API凭据的信息，请参阅有关[身份验证和访问Experience Platform API](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication)的教程。
+* 有关如何生成Experience Platform API凭据的信息，请参阅有关[身份验证和访问Experience Platform API](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/platform-apis/api-authentication)的教程。
 
-* 有关为Experience Platform API设置Postman的信息，请参阅Adobe Experience Platform中[Postman](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/postman)的详细步骤。
+* 有关为Experience Platform API设置Postman的信息，请参阅Adobe Experience Platform中[Postman](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/platform-apis/postman)的详细步骤。
 
 通过设置Experience Platform开发人员控制台和Postman，您现在可以开始将相应的环境值应用于您的Postman环境。
 
@@ -110,7 +110,7 @@ Adobe Journey Optimizer B2B Edition 现已采用简化架构。通过此更新�
 
 ### 关系架构
 
-选择[关系架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)以在&#x200B;**_历程决策_**&#x200B;和&#x200B;**_个性化_**&#x200B;中使用。 目前，这些架构适用于自定义对象用例。 将来，关系架构也可用于其他对象用例。
+选择[关系架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/relational)以在&#x200B;**_历程决策_**&#x200B;和&#x200B;**_个性化_**&#x200B;中使用。 目前，这些架构适用于自定义对象用例。 将来，关系架构也可用于其他对象用例。
 
 1. 选择&#x200B;**[!UICONTROL 关系]**&#x200B;选项卡。
 
@@ -155,27 +155,27 @@ Adobe Journey Optimizer B2B Edition 现已采用简化架构。通过此更新�
 
 应将以下内容配置为从Journey Optimizer B2B edition发送电子邮件。  
 
-[https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols)
+[https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/get-started/email-protocols](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/get-started/email-protocols)
 
 ### 跟踪和电子邮件传递协议
 
-1. [为电子邮件创建DNS记录](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#create-dns-records-for-landing-pages-and-email)
+1. [为电子邮件创建DNS记录](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/get-started/email-protocols#create-dns-records-for-landing-pages-and-email)
 
-1. [设置SPF和DKIM](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-spf-and-dkim)
+1. [设置SPF和DKIM](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-spf-and-dkim)
 
-1. [设置DMARC](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-dmarc)
+1. [设置DMARC](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-dmarc)
 
-1. [为您的域设置MX记录](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-mx-records-for-your-domain)
+1. [为您的域设置MX记录](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-mx-records-for-your-domain)
 
-1. 列入允许列表 [将出站IP地址添加到](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses)
+1. 列入允许列表 [将出站IP地址添加到](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses)
 
 1. 如果您需要共享专用IP池，请联系可投放性团队以了解可行性和辅助设置。
 
 ### 电子邮件渠道配置
 
-在简化的架构中，可从Marketo Engage UI配置电子邮件设置。 完成与电子邮件相关的设置步骤：[https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps)
+在简化的架构中，可从Marketo Engage UI配置电子邮件设置。 完成与电子邮件相关的设置步骤：[https://experienceleague.adobe.com/zh-hans/docs/marketo/using/getting-started/initial-setup/setup-steps](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/getting-started/initial-setup/setup-steps)
 
-[https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails)
+[https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails)
 
 ### 通信限制
 
@@ -187,7 +187,7 @@ Adobe Journey Optimizer B2B Edition 现已采用简化架构。通过此更新�
 
    如果未创建全局规则集，则没有通信限制。
 
-<!-- In the future, you can also add local communication limit rule sets (AJO B2C doc can be found here [https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets). We may need a small update for our B2B version.) -->
+<!-- In the future, you can also add local communication limit rule sets (AJO B2C doc can be found here [https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets). We may need a small update for our B2B version.) -->
 
 ### 共享通信限制
 
@@ -210,7 +210,7 @@ curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_mun
 
 ## 短信渠道配置
 
-有关详细信息，请参阅&#x200B;[_短信配置_](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-sms)。
+有关详细信息，请参阅&#x200B;[_短信配置_](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-sms)。
 
 ## 历程中的Marketo Engage操作
 
@@ -240,7 +240,7 @@ curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_mun
 
 ## 用户载入
 
-有关概述，请参阅[用户管理](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management)页面。
+有关概述，请参阅[用户管理](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/admin/user-management)页面。
 
 ### 现有用户组
 
@@ -250,7 +250,7 @@ curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_mun
 
 1. 将现有用户组添加到创建的产品配置文件。
 
-配置文件会授予已分配给该用户组的所有角色和权限，这些角色和权限应已配置为用户能够访问Journey Optimizer B2B edition。 如果只有部分用户应访问新架构，请完成下面列出的步骤。 [当前文档](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management)中提供了更多详细信息。
+配置文件会授予已分配给该用户组的所有角色和权限，这些角色和权限应已配置为用户能够访问Journey Optimizer B2B edition。 如果只有部分用户应访问新架构，请完成下面列出的步骤。 [当前文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/admin/user-management)中提供了更多详细信息。
 
 ### 创建新用户组
 
