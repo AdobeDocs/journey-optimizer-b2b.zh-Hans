@@ -1,31 +1,31 @@
 ---
 title: 资产
-description: 管理来自 Marketo Engage Design Studio 和 AEM Assets 的图像资产，用于 Journey Optimizer B2B Edition 中的电子邮件、模板和片段。
+description: 从Journey Optimizer B2B edition和AEM Assets管理电子邮件、模板和片段的图像资源。
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
-workflow-type: ht
-source-wordcount: '883'
-ht-degree: 100%
+source-git-commit: 9c4f2fd95d60eb98deb256cbbb382da694a1a1cf
+workflow-type: tm+mt
+source-wordcount: '858'
+ht-degree: 70%
 
 ---
 
 # 资产
 
-在 [!DNL Adobe Journey Optimizer B2B Edition] 中，资产通常是为了支持帐户历程而设计内容时所使用的图像。您可以通过资产选择器或可视化设计空间中的简单拖放界面在电子邮件、电子邮件模板和片段中使用这些图像。
+在 [!DNL Adobe Journey Optimizer B2B Edition] 中，资产通常是为了支持帐户历程而设计内容时所使用的图像。您可以在电子邮件、电子邮件模板以及资产选择器中的片段中使用这些图像，也可以在可视设计空间中使用简单的拖放界面。
 
-[!DNL Journey Optimizer B2B Edition] 为营销人员提供两种类型的资产库：[!DNL Adobe Marketo Engage] [!DNL Design Studio] 和 [!DNL Adobe Experience Manager Assets as a Cloud Service]。您可以只使用 Adobe Marketo Engage Design Studio，或者同时使用配置的两种库（基于您拥有的 [!DNL Experience Manager Assets] 许可证）。
+[!DNL Journey Optimizer B2B Edition]使设计人员和营销人员能够访问两种类型的资源库：内部[!DNL Journey Optimizer B2B Edition]资源存储库和[!DNL Adobe Experience Manager Assets as a Cloud Service]。 您可以仅使用内置存储库，或同时使用这两种库类型（基于您拥有的[!DNL Experience Manager Assets]许可证）。
 
 ## 资产管理
 
-如果您已配置 [!DNL Adobe Experience Manager as a Cloud Services]，当您的用户帐户具有必需的权限时，您就可以访问 [!DNL Marketo Engage Design Studio] 和 [!DNL Adobe Experience Manager Assets as a Cloud Service] 的存储库。这两个存储库是独立的，且不同步。您可以使用两者中任一来源的图像。
+如果您已配置[!DNL Adobe Experience Manager as a Cloud Services]并在[!DNL Journey Optimizer B2B Edition]中将其配置为资产源，则当您的用户帐户具有所需的权限时，您可以访问这两种存储库类型。 这两个存储库是独立的，且不同步。您可以使用两者中任一来源的图像。
 
-### Adobe Marketo Engage 资产
+### 内部资产
 
-每个 [!DNL Journey Optimizer B2B Edition] 订阅都默认提供 [!DNL Adobe Marketo Engage Design Studio] 资产存储库。这意味着您可以访问存储在 [!DNL Adobe Marketo Engage]（[!UICONTROL Design Studio] > [!UICONTROL 图像和文件]）中的任何图像资产。您可以将该存储库用作您的本地资产库，包含上传和下载资产功能。您还可以在历程内容中使用这些资产。
+默认情况下，每[!DNL Journey Optimizer B2B Edition]订阅都会提供内部资源存储库。 这意味着您有权访问所连接[!DNL Adobe Marketo Engage]资源文件系统中存储的任何图像资源。 您可以将该存储库用作您的本地资产库，包含上传和下载资产功能。您还可以在历程内容中使用这些资产。
 
-内置防护栏可防止对来自 [!DNL Journey Optimizer B2B Edition] 的 [!DNL Marketo Engage] 资产进行编辑，以及防止删除和移动操作。这些保护措施可确保源资产（Marketo Engage Design Studio）得到维护，同时允许在 [!DNL Journey Optimizer B2B Edition] 中无缝读取和重复使用。
+您可以[使用Adobe Express](./image-edit-adobe-express.md)编辑这些资源，并将它们移动到文件夹中，以整理它们以供在电子邮件、模板和片段中使用。
 
 支持的文件格式：JPG、JPEG、GIF、PNG、EPS、SVG 和 RGB
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 ## 使用资产进行内容创作
 
-在创作电子邮件、电子邮件模板和可视片段时使用资产。通过可视内容编辑器可访问所连接资产存储库中的图像。如果您订阅了 Experience Manager Assets as a Cloud Service 以及默认的 Adobe Marketo Engage Design Studio，就可以选择任一来源的图像资产。您还可以上传图像资产，将其放置在已连接的 [!DNL Marketo Engage Design Studio] 存储库的 [!DNL Journey Optimizer B2B Edition] 工作区中。
+在创作电子邮件、电子邮件模板和可视片段时使用资产。通过可视内容编辑器可访问所连接资产存储库中的图像。如果您还订阅了Experience Manager Assets as a Cloud Service，则可以从任一源选择图像资源。 您还可以上传图像资产，并将其放置在内部资产存储库中。
 
 您可以在编辑图像组件的设置时选择图像源，也可以直接在画布上选择：
 
@@ -65,15 +65,15 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
->[!TAB Marketo Engage Assets]
+>[!TAB 选择资源]
 
-点击 **[!UICONTROL Marketo Engage Assets]** 打开资产选择器，您可以从 [!DNL Marketo Engage] 工作区或 Journey Optimizer B2B Edition 工作区中选择图像。
+单击&#x200B;**[!UICONTROL 选择资源]**&#x200B;以打开资源选择器，您可以从中从Journey Optimizer B2B edition资源存储库中选择图像。
 
-![从工作区中选择图像资产](./assets/content-assets-image-me-selected.png){width="700" zoomable="yes"}
+![选择图像资源](./assets/content-assets-internal-image-selected.png){width="700" zoomable="yes"}
 
 您可以使用搜索和过滤器来找到所需的图像资产。选择资产，然后单击&#x200B;**[!UICONTROL 选择]**，将其用于图像组件。
 
-有关使用 [!DNL Marketo Engage] 图像资产的详细信息，请参阅[在您的内容中使用资产](./marketo-engage-design-studio.md#use-assets-in-your-content)。
+有关使用内部图像资源的更多详细信息，请参阅[在内容中使用资源](./internal-image-assets.md#use-assets-in-your-content)。
 
 >[!TAB Experience Manager Assets]
 
@@ -89,8 +89,8 @@ ht-degree: 100%
 
 单击&#x200B;**[!UICONTROL 导入媒体]**，选择图像文件，并将其导入为可用于 Journey Optimizer B2B Edition 内容的资产。
 
-![选择您自己的图像文件导入为资产](./assets/content-assets-image-import-file-selected.png){width="500" zoomable="yes"}
+![选择您自己的图像文件导入为资产](./assets/content-assets-image-import-file-selected.png){width="450" zoomable="yes"}
 
-拖放文件或从文件系统中选择文件后，单击&#x200B;**[!UICONTROL 导入]**。导入的资产被存储在 [!DNL Adobe Marketo Engage Design Studio] 存储库的 [!DNL Journey Optimizer B2B Edition] 工作区中。
+拖放文件或从文件系统中选择文件后，单击&#x200B;**[!UICONTROL 导入]**。导入的资源存储在[!DNL Journey Optimizer B2B Edition]资源存储库中。
 
 >[!ENDTABS]

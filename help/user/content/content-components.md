@@ -4,9 +4,9 @@ description: 在Journey Optimizer B2B edition中设计包含内容组件的电�
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
 workflow-type: tm+mt
-source-wordcount: '2849'
+source-wordcount: '2843'
 ht-degree: 6%
 
 ---
@@ -293,7 +293,7 @@ ht-degree: 6%
 
    * **[!UICONTROL 外部链接]** — 选择此类型以使用标准URL作为链接目标。
 
-     在&#x200B;**[!UICONTROL Url]**&#x200B;中，输入链接目标的URL。 单击&#x200B;_个性化_&#x200B;图标（![个性化图标](../assets/do-not-localize/icon-personalize.svg)）以将个性化令牌用作URL中的参数。
+     在&#x200B;**[!UICONTROL Url]**&#x200B;中，输入链接目标的URL。 单击&#x200B;_个性化_ （![个性化图标](../assets/do-not-localize/icon-personalize.svg) ）图标，将个性化令牌用作URL中的参数。
 
      ![为按钮组件定义外部链接](./assets/component-button-link-options-external.png){width="200"}
 
@@ -307,7 +307,7 @@ ht-degree: 6%
 
    按钮大小会根据设置的文本和样式进行调整。
 
-1. 对于&#x200B;**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
+1. 对于**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
 
    * _[!UICONTROL 无]_ — 使用默认浏览器或客户端行为（默认）打开链接。
    * _[!UICONTROL 空白]_ — 在新窗口或选项卡中打开链接。
@@ -537,7 +537,7 @@ ht-degree: 6%
 
   ![浏览可用的图像资源](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
-  从该对话框中，您可以从所选存储库和工作区中选择图像。 单击&#x200B;**[!UICONTROL 选择]**&#x200B;以添加资产。
+  从该对话框中，可以从所选存储库中选择图像。 单击&#x200B;**[!UICONTROL 选择]**&#x200B;以添加资产。
 
   有多种工具可帮助您找到所需的资源：
 
@@ -591,7 +591,7 @@ ht-degree: 6%
 
    * **[!UICONTROL 外部链接]** — 选择此类型以使用标准URL作为链接目标。
 
-     在&#x200B;**[!UICONTROL Url]**&#x200B;中，输入链接目标的URL。 单击&#x200B;_个性化_&#x200B;图标（![个性化图标](../assets/do-not-localize/icon-personalize.svg)）以将个性化令牌用作URL中的参数。
+     在&#x200B;**[!UICONTROL Url]**&#x200B;中，输入链接目标的URL。 单击&#x200B;_个性化_ （![个性化图标](../assets/do-not-localize/icon-personalize.svg) ）图标，将个性化令牌用作URL中的参数。
 
      ![为按钮组件定义外部链接](./assets/component-button-link-options-external.png){width="250"}
 
@@ -605,7 +605,7 @@ ht-degree: 6%
 
    按钮大小会根据设置的文本和样式进行调整。
 
-1. 对于&#x200B;**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
+1. 对于**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
 
    * _[!UICONTROL 无]_ — 使用默认浏览器或客户端行为（默认）打开链接。
    * _[!UICONTROL 空白]_ — 在新窗口或选项卡中打开链接。
