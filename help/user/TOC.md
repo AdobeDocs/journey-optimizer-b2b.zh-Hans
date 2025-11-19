@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文档
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition 以及如何使用它通过内置的生成式 AI 和行业领先的自动化来编排帐户及购买群组历程。
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 96%
+source-wordcount: '361'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 96%
    + [使用 AI 助手](./ai-assistant/use-ai-assistant.md)
    + 代理 {#ai-agents}
       + [Audience 代理](./agents/audience-agent-b2b.md)
-      + [历程生成代理](./agents/journey-agent.md)
+      + [历程生成代理B2B](./agents/journey-agent.md)
       + [销售限定词](./agents/sales-qualifier.md)
 + 帐户历程 {#account-journeys}
    + [概述](./journeys/journey-overview.md)
@@ -68,7 +68,6 @@ ht-degree: 96%
    + 帐户列表 {#account-lists}
       + [概述](./accounts/account-lists.md)
       + [用于历程和计划](./accounts/account-lists-journeys.md)
-   + [XDM 字段](./data/field-mapping.md)
    + 销售体验 {#sales-experience}
       + [帐户详细信息](./accounts/account-details.md)
       + [购买群组详细信息](./buying-groups/buying-group-details.md)
@@ -128,8 +127,11 @@ ht-degree: 96%
    + [帐户历程概述](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
    + [治理](./admin/governance.md)
+   + [Marketo操作配置](./admin/marketo-actions-connect.md)
    + [用户画像映射](./admin/persona-mapping.md)
    + [用户管理](./admin/user-management.md)
+   + [XDM 字段](./admin/field-mapping.md)
+   + [XDM字段选择](admin/xdm-field-management.md)
    + 渠道 {#channels}
       + [电子邮件配置](./admin/configure-channels-emails.md)
       + [短信配置](./admin/configure-channels-sms.md)
