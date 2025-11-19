@@ -4,16 +4,16 @@ description: 浏览、管理和使用Journey Optimizer B2B edition资源 — 组
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: ddc0c68c5d2fb3c1260100bb4686bcff16aafdff
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1758'
 ht-degree: 1%
 
 ---
 
 # 使用内部图像资产
 
-内部图像资产存储库是设计内容的默认资产源，您可以轻松管理和使用可用资产来设计支持帐户历程的内容。
+内部图像资产存储库是默认的图像资产源，您可以轻松管理和使用可用资产来设计支持帐户历程的内容。
 
 您可以在Journey Optimizer B2B edition中使用各种资产管理功能。 这些功能包括：
 
