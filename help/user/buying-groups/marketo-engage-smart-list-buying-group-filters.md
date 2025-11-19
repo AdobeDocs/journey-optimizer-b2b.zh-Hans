@@ -1,17 +1,25 @@
 ---
-title: 在Market Engage中购买组筛选器
+title: 在Marketo Engage中购买组筛选器
 description: 通过在Marketo Engage智能列表中购买具有完整性分数等约束的群组成员资格来过滤潜在客户，以优化活动和潜在客户评分。
 feature: Buying Groups, Integrations
 role: User
 exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
 
-# Market Engage 中的购买群组过滤器
+# Marketo Engage 中的购买群组过滤器
+
+>[!IMPORTANT]
+>
+>**功能弃用**</br></br>
+>
+>由于Journey Optimizer B2B edition的[简化架构](../simplified-architecture.md)，在连接的Marketo Engage实例中不再提供购买组筛选器。</br></br>
+>
+>作为替代方法，您可以为每个感兴趣的解决方案创建静态列表，然后[使用历程节点中的&#x200B;_添加到Marketo列表_&#x200B;操作](../journeys/action-nodes.md#marketo-engage-actions)。 此操作将购买组成员添加到连接的Marketo Engage实例中的特定静态列表。 然后，将解决方案以兴趣为中心的静态列表用于智能列表过滤器。
 
 作为营销人员，您可能希望在Marketo Engage中禁止参与在Journey Optimizer B2B edition中购买群组的用户的促销活动。 您还可以使用与购买组关联的潜在客户的相关信息，告知Marketo Engage中的潜在客户评分工作流。 例如：
 
@@ -22,7 +30,7 @@ ht-degree: 1%
 
 在连接到Journey Optimizer B2B edition的Marketo Engage实例中，您可以在智能列表中使用&#x200B;_[!UICONTROL 购买组成员列表]_&#x200B;筛选器来根据促销活动策略识别这些潜在客户。
 
-1. 在Marketo Engage[创建智能列表](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}后，选择&#x200B;**[!UICONTROL 智能列表]**&#x200B;选项卡以打开筛选器编辑器。
+1. 在Marketo Engage[创建智能列表](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}后，选择&#x200B;**[!UICONTROL 智能列表]**&#x200B;选项卡以打开筛选器编辑器。
 
 1. 在右侧的筛选器列表中，向下滚动该列表并展开&#x200B;**[!UICONTROL 特殊筛选器]**&#x200B;文件夹。
 
