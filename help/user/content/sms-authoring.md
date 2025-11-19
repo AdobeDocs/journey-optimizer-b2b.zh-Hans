@@ -4,7 +4,7 @@ description: 为具有个性化、链接和同意管理的帐户历程创建短�
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: aa79e0655737541f122801f28db73d9f31ebb2f7
+source-git-commit: 9a97682590d779c8b5f5b385efd912ee1f56ed31
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 3%
@@ -67,7 +67,7 @@ ht-degree: 3%
 
 1. 在&#x200B;_[!UICONTROL 输入回退值]_&#x200B;对话框中，输入显示为回退的文本，然后单击&#x200B;**[!UICONTROL 添加]**。
 
-   ![输入令牌的回退文本](./assets/sms-message-personalize-fallback-text.png){width="400"}
+   ![输入令牌的回退文本](./assets/sms-message-personalize-fallback-text.png){width="450"}
 
 1. 放置个性化令牌后，单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存更改并返回主短信创作工作区。
 
@@ -89,12 +89,12 @@ ht-degree: 3%
 
    * **[!UICONTROL 启用跟踪]** — 选中此复选框可启用跟踪，这需要&#x200B;_缩短_ URL。 对于登陆页面，它会使用缩短URL的Marketo Engage子域。 此时将显示缩短的URL格式的示例。 实际URL是在将短信发送给收件人时创建的。
 
-   * **[!UICONTROL 包含mkt_tok]** — 选中此复选框可跟踪针对用户的活动。
+   * **[!UICONTROL 包含mkt_tok]** — 选中此复选框可跟踪针对用户的活动。</br>
 
      >[!NOTE]
      >
      >当您允许跟踪但禁用&#x200B;_[!UICONTROL 包含mkt_tok]_&#x200B;时，目标URL在重定向后不包含`mkt_tok`查询字符串参数。 Marketo Engage登陆页面和Munchkin使用此参数以确保跟踪人员活动（例如，当人员取消订阅电子邮件时）。 除非参数导致您的网站出现问题，否则请勿禁用此选项。<br/>
-     >有关在网站上使用Munchkin跟踪代码的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}。
+     >有关在网站上使用Munchkin跟踪代码的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}。
 
    ![为短信消息添加链接对话框](./assets/sms-add-link-dialog.png){width="470"}
 
@@ -117,7 +117,7 @@ ht-degree: 3%
 
 1. 输入要&#x200B;用于通信的&#x200B;**[!UICONTROL 发件人号码]**。
 
-   ![短信消息属性](./assets/sms-properties.png){width="700" zoomable="yes"}
+   ![短信消息属性](./assets/sms-properties.png){width="500" zoomable="yes"}
 
    收件人号码始终映射到Experience Platform中的`profile.mobilePhone.number`字段。
 
