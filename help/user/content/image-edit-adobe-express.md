@@ -4,9 +4,9 @@ description: 在Journey Optimizer B2B edition中使用Adobe Express以本机方�
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '856'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 >title="在 Adobe Express 中编辑图像"
 >abstract="可直接在 Adobe Journey Optimizer B2B Edition 中使用简单而直观的受 Adobe Express 支持的图像编辑工具，以提高内容速度。"
 
-Adobe Journey Optimizer B2B edition与Adobe Express原生集成，允许您访问一组Adobe Express图像编辑工具。 您可以使用这些工具来修改存储在Journey Optimizer B2B edition资源存储库中的图像。 该集成具有以下主要优势：
+[!DNL Adobe Journey Optimizer B2B Edition]与Adobe Express本机集成，使您能够访问一组[!DNL Adobe Express]图像编辑工具。 您可以使用这些工具来修改存储在[!DNL Journey Optimizer B2B Edition]资源存储库中的图像。 该集成具有以下主要优势：
 
 * 通过在Journey Optimizer B2B edition中编辑和保存新图像资源来提高内容重复使用率。
 
@@ -28,7 +28,7 @@ Adobe Journey Optimizer B2B edition与Adobe Express原生集成，允许您访�
 >
 >所有Adobe ExpressB2B edition订阅都包含Journey Optimizer编辑功能的权限。
 
-Adobe Express函数支持PNG和JPEG图像文件格式。
+[!DNL Adobe Express]函数支持PNG和JPEG图像文件格式。
 
 修改图像(_T):_
 
@@ -70,7 +70,7 @@ Adobe Express函数支持PNG和JPEG图像文件格式。
 
 ![在Adobe Express Enterprise编辑器中打开图像](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-[Adobe Express用户指南](https://helpx.adobe.com/cn/express/web.html){target="_blank"}提供了有关可用编辑功能的详细信息。
+[Adobe Express用户指南](https://helpx.adobe.com/express/web.html){target="_blank"}提供了有关可用编辑功能的详细信息。
 
 ## Adobe Express中的快速操作
 
