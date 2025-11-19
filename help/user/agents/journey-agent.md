@@ -1,16 +1,16 @@
 ---
-title: 适用于B2B的历程构建代理
+title: 历程生成代理B2B
 description: 了解如何使用AI支持的历程构建代理来帮助快速构建强大历程
 feature: Account Journeys, AI Assistant
 role: User
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
-# 适用于B2B的历程构建代理
+# 历程生成代理B2B
 
 历程生成器代理B2B是一个AI代理，它通过自动化和数据驱动型推荐帮助您进行历程设计/创建、执行和优化。 适用于B2B的历程生成器代理可自动执行并缩短创建新B2B历程所需的时间。
 
