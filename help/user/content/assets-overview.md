@@ -4,10 +4,10 @@ description: 从Journey Optimizer B2B edition和AEM Assets管理电子邮件、�
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 9c4f2fd95d60eb98deb256cbbb382da694a1a1cf
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 70%
+source-wordcount: '852'
+ht-degree: 60%
 
 ---
 
@@ -49,15 +49,15 @@ ht-degree: 70%
 
 您可以在编辑图像组件的设置时选择图像源，也可以直接在画布上选择：
 
-* **_图像组件设置_**——如果您在可视化设计空间中选择了图像组件，就可以在右侧面板中查看和编辑设置。要添加或更改组件中显示的图像文件，请选择源类型，然后选择一个图像文件。
+* **_图像组件设置_** — 在画布中选择了图像组件后，您可以在右侧面板中查看和编辑设置。 要添加或更改组件中显示的图像文件，请选择源类型，然后选择一个图像文件。
 
   ![在右侧面板中编辑图像组件设置](./assets/content-assets-image-settings.png){width="350"}
 
-* **_空组件_**——如果您在可视化设计空间中添加了图像组件，该组件是空的，您可以通过它轻松选择来源和图像文件。
+* **_空组件_** — 将图像组件添加到画布时，该组件是空的，因此可以方便地选择源并选择图像文件。
 
   ![为空图像组件选择来源和图像文件](./assets/content-assets-image-component-empty.png){width="500"}
 
-* **_图像组件工具栏_**——如果您在可视化设计空间中选择了图像组件，您就可以在工具栏中轻松选择来源和图像文件。
+* **_图像组件工具栏_** — 在画布中选择了图像组件后，可通过工具栏轻松选择源并选择图像文件。
 
   ![使用工具栏为图像组件选择来源和图像文件](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
