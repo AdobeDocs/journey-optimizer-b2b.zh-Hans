@@ -5,7 +5,7 @@ feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
 source-wordcount: '2062'
 ht-degree: 1%
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 1. 在&#x200B;_[!UICONTROL 选择字段属性]_&#x200B;对话框中，选中要用于字段的人员配置文件属性的复选框，然后单击&#x200B;**[!UICONTROL 选择]**。
 
-   [XDM业务架构](../data/field-mapping.md#xdm-business-person-attributes)确定可用的属性。  还可使用为Journey Optimizer B2B edition实例定义的任何自定义字段。 使用“搜索”文本框按名称筛选列表，或单击“筛选”图标按架构/数据类型筛选列表。
+   [XDM业务架构](../admin/field-mapping.md#xdm-business-person-attributes)确定可用的属性。  还可使用为Journey Optimizer B2B edition实例定义的任何自定义字段。 使用“搜索”文本框按名称筛选列表，或单击“筛选”图标按架构/数据类型筛选列表。
 
    ![将字段组件添加到表单](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"}
 
