@@ -4,7 +4,7 @@ description: 为帐户和人员操作配置操作节点 — 发送电子邮件�
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 559725b4a1c789085fa241b9a19dc666a457c77b
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 2%
@@ -174,7 +174,7 @@ Journey Optimizer B2B基于人员的操作旨在通过配置的渠道管理通�
 
 +++[!UICONTROL 更改数据值]
 
-使用此操作更改[人员配置文件属性](../data/field-mapping.md#xdm-business-person-attributes)的值。 选择属性，然后设置新值。
+使用此操作更改[人员配置文件属性](../admin/field-mapping.md#xdm-business-person-attributes)的值。 选择属性，然后设置新值。
 
 ![执行操作 — 更改数据值](./assets/node-action-change-data-value.png){width="300"}
 
