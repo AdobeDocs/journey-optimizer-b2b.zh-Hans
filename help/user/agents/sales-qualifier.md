@@ -223,4 +223,4 @@ AI Assistant Chrome插件在[Google Store](https://chromewebstore.google.com/det
 
 以下视频简要演示了Sales Qualifier和Account Qualification Agent。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476571?captions=chi_hans)
