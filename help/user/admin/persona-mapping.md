@@ -3,14 +3,14 @@ title: 角色映射
 description: 了解如何为B2B营销设置角色映射。 在Journey Optimizer B2B edition中映射人员属性以创建角色模板并优化购买群组定位。
 feature: Setup, Buying Groups
 role: Admin
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 278add74cc8d1aedd7809fd4675627f26501b0df
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '907'
 ht-degree: 1%
 
 ---
 
-# 用户画像映射
+# 人物角色映射
 
 角色是基于帐户的营销(ABM)方法中的关键方面，因为它们帮助营销人员根据目标帐户中个人的特定需求、偏好和棘手问题调整其策略。 营销人员可以为每个角色创建详细的配置文件，包括其背景、职责、棘手问题和首选通信渠道。 借助这些定义，管理员可以根据Journey Optimizer B2B edition中的人员属性配置角色，以便角色模板可以使用简化且一致的角色条件来捕获这些角色。
 
@@ -39,13 +39,13 @@ Then based on what agent informed, users can create a template with those person
 
 1. 单击中间面板上的&#x200B;**[!UICONTROL 角色映射]**&#x200B;以显示角色列表。
 
-   ![访问配置的角色](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
+   ![访问配置的角色](./assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
 
-   在此页面中，您可以[创建](#create-an-engagement-score-model)、[编辑](#change-the-engagement-weighting-settings)或[删除](#delete-a-persona)角色。
+   在此页面中，您可以[创建](#create-a-persona)、[编辑](#edit-a-persona)或[删除](#delete-a-persona)角色。
 
-   角色映射列表。 以表格形式组织，并在顶部显示最近更新的角色（按&#x200B;_[!UICONTROL 上次更新]_&#x200B;排序）。 您可以通过单击右上角的&#x200B;_列设置_ （ ![列设置](../assets/do-not-localize/icon-column-settings.svg) ）图标并选中或清除列复选框来自定义显示的表。
+   角色映射列表以表格形式组织，并在顶部显示最近更新的角色（按&#x200B;_[!UICONTROL 上次更新]_&#x200B;排序）。 您可以通过单击右上角的&#x200B;_列设置_ （ ![列设置](../assets/do-not-localize/icon-column-settings.svg) ）图标并选中或清除列复选框来自定义显示的表。
 
-要在角色映射列表中显示的![列](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+要在角色映射列表中显示的![列](./assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. 要访问角色的详细信息，请单击名称。
 
@@ -68,13 +68,9 @@ _角色映射_&#x200B;列表包含根据作业标题属性定义的五个默认�
 
 ### 列表筛选
 
-要找到所需的角色，请使用搜索和筛选工具：
+要查找所需的角色，请在搜索栏中输入文本字符串，以按名称匹配角色，
 
-* 在搜索栏中输入文本字符串以按名称匹配角色，
-
-  ![筛选显示的事件定义](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
-
-* 单击左上角的&#x200B;_筛选器_ （![筛选器图标](../assets/do-not-localize/icon-filter.svg)）图标，以按属性筛选显示的列表。
+![筛选显示的角色映射](./assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
 
 ## 创建角色
 
@@ -86,6 +82,8 @@ _角色映射_&#x200B;列表包含根据作业标题属性定义的五个默认�
 
 1. 输入角色的唯一的&#x200B;**[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**（可选）。
 
+   ![创建角色映射](./assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
+
 1. 选择用于匹配角色的属性。
 
    * 单击&#x200B;**[!UICONTROL 选择人员属性]**。
@@ -96,6 +94,8 @@ _角色映射_&#x200B;列表包含根据作业标题属性定义的五个默认�
 
      要按名称筛选属性列表，请在搜索栏中输入文本字符串。 您还可以单击左上角的&#x200B;_筛选器_（![筛选器图标](../assets/do-not-localize/icon-filter.svg)）图标，以按类型&#x200B;_标准_&#x200B;或&#x200B;_自定义_&#x200B;筛选显示的列表。
 
+     ![选择角色属性对话框](./assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
+
    * 单击&#x200B;**[!UICONTROL 保存]**。
 
      选定的属性填充在&#x200B;_[!UICONTROL 角色属性]_&#x200B;部分。
@@ -104,11 +104,13 @@ _角色映射_&#x200B;列表包含根据作业标题属性定义的五个默认�
 
    您还可以添加用于标识匹配项的提示，以代替值。 例如，您可以输入
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。
+1. 单击&#x200B;**[!UICONTROL 提交]**。
 
 ## 编辑角色
 
 单击角色名称以访问和编辑角色的详细信息，
+
+您可以更改名称或说明、添加属性或更新属性值。 完成更改后，单击&#x200B;**[!UICONTROL 提交]**。
 
 ## 删除角色
 

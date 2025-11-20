@@ -1,28 +1,27 @@
 ---
-title: XDM字段
+title: 默认XDM字段
 description: 查看在Adobe Experience Platform和Journey Optimizer B2B edition之间同步的默认属性字段。
 feature: Data Management, Integrations
 role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
+source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1155'
 ht-degree: 11%
 
 ---
 
-# XDM 字段
+# 默认XDM字段
 
 帐户受众数据同时作为属性存储在XDM业务帐户和XDM业务人员类中。 数据定期在Adobe Experience Platform和Journey Optimizer B2B edition之间同步。 以下部分列出了缺省属性集。
 
 >[!TIP]
 >
->您可以使用XDM业务帐户人员关系类在多对多关系中对XDM业务人员和XDM业务帐户类建模，如[Experience Platform XDM文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}中所述。
+>您可以使用XDM业务帐户人员关系类在多对多关系中对XDM业务人员和XDM业务帐户类建模，如[Experience Platform XDM文档](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}中所述。
 
 >[!NOTE]
->Data Mirror和关系架构适用于Adobe Journey Optimizer Orchestrated营销活动许可证持有者。 它们还以限量版的形式提供给Customer Journey Analytics用户，具体取决于您的许可和功能启用。 请联系您的Adobe代表以获取访问权限。 关系架构也作为受限版本提供，适用于Adobe Journey Optimizer B2B edition。
 >
-
+>Data Mirror和关系架构适用于Adobe Journey Optimizer Orchestrated营销活动许可证持有者。 它们还以限量版的形式提供给Customer Journey Analytics用户，具体取决于您的许可和功能启用。 请联系您的Adobe代表以获取访问权限。 关系架构也作为受限版本提供，适用于Adobe Journey Optimizer B2B edition。
 
 ## XDM业务帐户人员关系属性
 
@@ -89,7 +88,7 @@ ht-degree: 11%
 
 <!-- ## XDM Business Opportunity attributes
 
-Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
 |[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |

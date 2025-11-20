@@ -4,9 +4,9 @@ description: 为帐户和人员触发器配置事件节点 — 监听Journey Opt
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: f5fc362d52ff83335c71b5efe7ea2915d6a7e330
+source-git-commit: 53875f5b1b61b5a4a87e3361eacae80a5c14d878
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1810'
 ht-degree: 4%
 
 ---
@@ -117,7 +117,7 @@ ht-degree: 4%
 
 1. 单击&#x200B;**[!UICONTROL 编辑事件]**&#x200B;并定义一个或多个要匹配的网页以及该事件的任何其他约束。
 
-   * （必需）在&#x200B;_[!UICONTROL 编辑事件]_&#x200B;对话框中，定义&#x200B;**[!UICONTROL 网页]**&#x200B;或&#x200B;**[!UICONTROL 填写表单]**&#x200B;约束。 使用&#x200B;**[!UICONTROL 是]**（默认值）匹配一个或多个选定的页面或表单。 使用&#x200B;**[!UICONTROL 不是]**&#x200B;在所有页面访问/表单上匹配，排除一个或多个选定的页面/表单。 或者，在任何Marketo Engage网页访问或填写的表单中，使用&#x200B;**[!UICONTROL 为任何]**&#x200B;进行匹配。
+   * （必需）在&#x200B;_[!UICONTROL 编辑事件]_&#x200B;对话框中，定义&#x200B;**[!UICONTROL 网页]**&#x200B;或&#x200B;**[!UICONTROL 填写表单]**&#x200B;约束。 使用&#x200B;**[!UICONTROL 是]**（默认值）匹配一个或多个选定的页面或表单。 使用&#x200B;**[!UICONTROL 不是]**&#x200B;在所有页面访问/表单上匹配，排除一个或多个选定的页面/表单。 或者，在任何Marketo Engage网页访问或填写的表单上使用&#x200B;**[!UICONTROL 是any]**&#x200B;运算符进行匹配。
 
    * （可选）单击&#x200B;**[!UICONTROL 添加约束]**，然后选择要用于约束的字段。 设置字段的运算符和值。
 
@@ -135,13 +135,14 @@ ht-degree: 4%
 
 ### 收听体验活动
 
-管理员可以配置基于Adobe Experience Platform (AEP)的事件定义，这些定义使营销人员能够创建对[AEP Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反应的帐户历程。 在帐户历程中使用AEP体验事件包括两个步骤：
+管理员可以选择[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，这样营销人员就可以创建对事件做出近乎实时反应的历程。 在历程中使用体验事件包括两个步骤：
 
-1. [创建并发布AEP事件定义](../admin/configure-aep-events.md)。
+1. 管理员[选择事件类型和感兴趣的字段](../admin/configure-aep-events.md#select-an-event)，以便在历程中可用。
 
-2. 在帐户历程中，添加&#x200B;_侦听事件_&#x200B;节点，并为基于人员的事件选择Experience Platform事件定义。
+2. 在历程中，添加&#x200B;_侦听事件_&#x200B;节点，并为基于人员的事件选择Experience Platform事件类型。
 
-![视频](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;， vertical-align=&quot;middle&quot;} [观看视频概述](../admin/configure-aep-events.md#overview-video)
+<!--
+![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) -->
 
 要在历程中包含体验事件(_T):_
 
@@ -159,21 +160,21 @@ ht-degree: 4%
 
    ![编辑事件](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
 
-1. 单击&#x200B;**[!UICONTROL 编辑事件]**&#x200B;并定义该事件的事件类型和任何其他约束。
+1. 单击&#x200B;**[!UICONTROL 编辑事件]**&#x200B;并为该事件定义一个或多个约束。
 
-   * （必需）在&#x200B;_[!UICONTROL 编辑事件]_&#x200B;对话框中，定义事件类型。 您可以使用默认的&#x200B;**[!UICONTROL is]**&#x200B;运算符匹配一个或多个选定的事件类型。 或者，您可以使用&#x200B;**[!UICONTROL is not]**&#x200B;运算符在所有事件类型上进行匹配，并排除一个或多个选定的事件类型。
+   可用的约束定义为事件配置的托管字段。
 
-   * （可选）单击&#x200B;**[!UICONTROL 添加约束]**，然后选择要用于约束的字段。 设置字段的运算符和值。
+   * 单击&#x200B;**[!UICONTROL 添加约束]**，然后选择要用于约束的字段。
+
+   * 完成约束的条件。
+
+     您可以使用默认的&#x200B;**[!UICONTROL 是]**&#x200B;运算符匹配一个或多个字段值。 或者，您可以使用&#x200B;**[!UICONTROL is not]**&#x200B;运算符来匹配所有值，并排除一个或多个指定的值。
 
      ![收听体验活动](./assets/node-listen-events-people-aep-events-edit-dialog.png){width="700" zoomable="yes"}
 
-     >[!NOTE]
-     >
-     >不支持活动&#x200B;_的_&#x200B;日期和&#x200B;_最小次数_&#x200B;的约束。
-
-     您可以根据需要重复此操作以包含其他字段约束。
-
    * 如果需要，请选择&#x200B;**[!UICONTROL 筛选器]**&#x200B;选项卡以[添加事件筛选器](#add-a-filter-to-the-people-event)。
+
+   * （可选）单击&#x200B;**[!UICONTROL 添加约束]**&#x200B;并重复这些步骤以根据需要包含其他字段约束。
 
    * 定义约束和筛选器后，单击&#x200B;**[!UICONTROL 完成]**。
 
@@ -219,6 +220,6 @@ ht-degree: 4%
 
    ![历程事件节点 — 设置超时路径](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
-## 概述视频
+<!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443244/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->
