@@ -23,7 +23,7 @@ Adobe Experience Platform (AEP)架构通常包含复杂层次结构中的许多�
 了解XDM并与数据工程师或B2B客户数据平台(CDP)数据建模利益相关者进行协作的管理员遵循本指南中的操作步骤。
 
 >[!NOTE]
->[关系架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#)可用于[!DNL Journey Optimizer B2B Edition]的有限版本。 Data Mirror和关系架构适用于Journey Optimizer Orchestrated营销活动许可证持有者。 关系架构也以受限版本的形式提供给Customer Journey Analytics用户，具体取决于您的许可和功能启用。 请联系您的Adobe代表以获取访问权限。
+>[关系架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/relational#)可用于[!DNL Journey Optimizer B2B Edition]的有限版本。 Data Mirror和关系架构适用于Journey Optimizer Orchestrated营销活动许可证持有者。 关系架构也以受限版本的形式提供给Customer Journey Analytics用户，具体取决于您的许可和功能启用。 请联系您的Adobe代表以获取访问权限。
 
 ## 访问XDM类
 

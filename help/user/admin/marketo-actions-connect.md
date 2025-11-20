@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Marketo Engage操作是&#x200B;_基于人员的_&#x200B;操作，通过此类操作，可在Journey Optimizer B2B edition和Marketo Engage中基于&#x200B;_潜在客户_&#x200B;的营销工作之间，协调您的&#x200B;_基于帐户的_&#x200B;营销编排。 使用这些操作可编排静态列表成员资格并将人员放入营销策划。
 
-要使用Marketo Engage操作，管理员首先在Marketo Engage中创建[自定义服务](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#)，该服务提供身份验证所需的凭据。
+要使用Marketo Engage操作，管理员首先在Marketo Engage中创建[自定义服务](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/rest/custom-services#)，该服务提供身份验证所需的凭据。
 然后，Journey Optimizer B2B edition的产品管理员通过输入凭据创建与Marketo Engage的连接。
 然后，Journey Optimizer B2B edition用户可引用连接以在<!-- Person and -->帐户历程中配置Marketo Engage操作，例如从Marketo Engage列表中添加或删除人员，或将他们添加到请求营销活动。
 
