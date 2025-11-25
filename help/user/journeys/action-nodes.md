@@ -4,9 +4,9 @@ description: 为帐户和人员操作配置操作节点 — 发送电子邮件�
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
+source-git-commit: 3013da8c7178c68ec07bf8d8b56f4ca06c043486
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1674'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 2%
 
 | 操作 | 约束 |
 | ------ | ----------- |
-| [!UICONTROL 帐户更改数据值] | 选择属性<br/>新值 |
 | [!UICONTROL 帐户有趣的时刻] | 类型（电子邮件、里程碑或Web）<br/>描述（可选） |
 | [!UICONTROL 激活到目标] | 选择一个目标 |
 | [!UICONTROL 将帐户添加到（其他）历程] | 选择实时帐户历程 |
@@ -33,8 +32,15 @@ ht-degree: 2%
 | [!UICONTROL 从历程中删除帐户] | 选择实时帐户历程 |
 | [!UICONTROL 从帐户列表中删除] | 选择实时静态帐户列表 |
 | [!UICONTROL 发送销售警报] | 选择感兴趣的解决方案<br/>发送电子邮件至 |
+| [!UICONTROL 更新帐户配置文件] | 选择属性<br/>新值 |
 | [!UICONTROL 更新购买团体阶段] | 选择解决方案兴趣<br/>选择购买团体阶段 |
 | [!UICONTROL 更新购买团体状态] | 选择感兴趣的解决方案<br/>状态（必需，最多50个字符） |
+
+>[!NOTE]
+>
+>2025.10版本弃用&#x200B;_[!UICONTROL 帐户更改数据值]_&#x200B;操作。 已由&#x200B;_[!UICONTROL 简化的体系结构]_.[的](../simplified-architecture.md)更新帐户配置文件<br/>替换
+>
+>管理员可以通过更新&#x200B;_[!UICONTROL XDM类]_ > _[!UICONTROL 标准类]_&#x200B;中的字段来配置XDM业务帐户的可用属性。 有关详细信息，请参阅[标准类](../admin/xdm-field-management.md#standard-classes)。
 
 ### 添加基于帐户的操作
 
@@ -90,19 +96,21 @@ ht-degree: 2%
 | ------- | ------ | ----------- |
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL 添加到外部客户受众] | 选择外部客户受众 |
 | | [!UICONTROL 分配给购买组] | 选择感兴趣的解决方案<br/>选择角色 |
-| | [!UICONTROL 更改数据值] | 选择人员属性<br/>设置新值 |
 | | [!UICONTROL 更改得分] | 得分名称<br/>得分更改 |
 | | [!UICONTROL 个人有趣的时刻] | 类型<br/>描述 |
 | | [!UICONTROL 从购买群中删除] | 选择解决方案兴趣 |
 | | [!UICONTROL 发送电子邮件] | 从Marketo Engage创建新电子邮件<br/>选择电子邮件 |
 | | [!UICONTROL 发送短信] | 创建短信 |
+| | [!UICONTROL 更新人员配置文件] | 选择人员属性<br/>设置新值 |
 | [Marketo Engage](#marketo-engage-actions) | [!UICONTROL 添加到Marketo Engage请求营销活动] | 选择Marketo Engage工作区<br/>选择请求营销活动 |
 | | [!UICONTROL 添加到Marketo列表] | 选择外部Marketo连接的名称<br/>列表名称 |
 | | [!UICONTROL 从Marketo列表中删除] | 选择外部Marketo连接的名称<br/>列表名称 |
 
 >[!NOTE]
 >
->Marketo Engage中的&#x200B;_[!UICONTROL 更改人员分区]_&#x200B;操作在2025.10版本中已弃用，并且在Journey Optimizer B2B edition的简化架构中不可用。
+>Marketo Engage中的&#x200B;_[!UICONTROL 更改人员分区]_&#x200B;操作在2025.10版本中已弃用，并且在Journey Optimizer B2B edition的[简化架构](../simplified-architecture.md)中不可用。<br/>
+>
+>2025.10版本弃用&#x200B;_[!UICONTROL 更改数据值]_&#x200B;操作。 在简化的架构中，它已被替换为&#x200B;_[!UICONTROL 更新人员配置文件]_。
 
 ### 添加基于人员的操作
 
@@ -130,7 +138,7 @@ Journey Optimizer B2B基于人员的操作旨在通过配置的渠道管理通�
 
 ![执行操作 — 添加到外部客户受众](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
-选择此基于人员的操作时，您可以创建新外部受众或从现有外部受众中选择。 对于现有受众，您可以从仅在Journey Optimizer B2B edition中创建的外部客户受众中进行选择。 在创建受众并将其用于此历程操作时，请确保连接目标。 有关详细信息，请参阅Experience Platform文档中的[创建新的目标连接](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}和[激活概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}。
+选择此基于人员的操作时，您可以创建新外部受众或从现有外部受众中选择。 对于现有受众，您可以从仅在Journey Optimizer B2B edition中创建的外部客户受众中进行选择。 在创建受众并将其用于此历程操作时，请确保连接目标。 有关详细信息，请参阅Experience Platform文档中的[创建新的目标连接](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}和[激活概述](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}。
 
 ![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看付费媒体编排的视频概述](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -172,17 +180,9 @@ Journey Optimizer B2B基于人员的操作旨在通过配置的渠道管理通�
 
 +++
 
-+++[!UICONTROL 更改数据值]
-
-使用此操作更改[人员配置文件属性](../admin/field-mapping.md#xdm-business-person-attributes)的值。 选择属性，然后设置新值。
-
-![执行操作 — 更改数据值](./assets/node-action-change-data-value.png){width="300"}
-
-+++
-
 +++[!UICONTROL 更改得分]
 
-使用此操作可更改Marketo Engage中的人员得分。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+使用此操作可更改Marketo Engage中的人员得分。 [了解详情](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![执行操作 — 更改得分](./assets/node-action-change-score.png){width="300"}
 
@@ -206,7 +206,7 @@ Journey Optimizer B2B基于人员的操作旨在通过配置的渠道管理通�
 
 +++[!UICONTROL 发送电子邮件]
 
-使用此操作发送电子邮件。 在您[为节点](../content/add-email.md#add-an-email-to-your-journey)创建电子邮件后，您可以在电子邮件设计空间设计、个性化和预览电子邮件（请参阅[电子邮件创作](../content/email-authoring.md)）。 您还可以从Marketo Engage[发送](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}电子邮件。 选择Marketo Engage工作区，然后选择要发送的电子邮件。
+使用此操作发送电子邮件。 在您[为节点](../content/add-email.md#add-an-email-to-your-journey)创建电子邮件后，您可以在电子邮件设计空间设计、个性化和预览电子邮件（请参阅[电子邮件创作](../content/email-authoring.md)）。 您还可以从Marketo Engage[发送](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}电子邮件。 选择Marketo Engage工作区，然后选择要发送的电子邮件。
 
 ![执行操作 — 发送电子邮件](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -217,6 +217,20 @@ Journey Optimizer B2B基于人员的操作旨在通过配置的渠道管理通�
 使用此操作可发送短信消息。 您可以在可视设计空间创建、个性化和预览短信消息（请参阅[短信创作](../content/sms-authoring.md)）。
 
 ![执行操作 — 发送短信](./assets/node-action-send-sms.png){width="300"}
+
++++
+
++++[!UICONTROL 更新人员配置文件]
+
+使用此操作更改[人员配置文件属性](../admin/field-mapping.md#xdm-business-person-attributes)的值。 选择属性，然后设置新值。
+
+![执行操作 — 更新人员配置文件](./assets/node-action-update-person-profile.png){width="300"}
+
+>[!NOTE]
+>
+>_[!UICONTROL 更新人员配置文件]_&#x200B;替换了&#x200B;_[!UICONTROL 简化架构]_.[上的](../simplified-architecture.md)更改数据值<br/>操作
+>
+>管理员可以通过更新&#x200B;_[!UICONTROL XDM类]_ > [!UICONTROL 标准类]中的字段来配置XDM个人配置文件的可用属性。 有关详细信息，请参阅[标准类](../admin/xdm-field-management.md#standard-classes)。
 
 +++
 
@@ -232,7 +246,7 @@ Marketo Engage基于人员的操作可协调您在Journey Optimizer B2B edition�
 
 +++[!UICONTROL 添加到Marketo Engage请求营销活动]
 
-使用此操作可将人员配置文件添加到Marketo Engage中的[请求营销活动](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"}。
+使用此操作可将人员配置文件添加到Marketo Engage中的[请求营销活动](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"}。
 
 首先，选择一个连接的Marketo Engage实例。 接下来，选择请求营销活动名称。
 
@@ -242,7 +256,7 @@ Marketo Engage基于人员的操作可协调您在Journey Optimizer B2B edition�
 
 +++[!UICONTROL 添加到Marketo列表]
 
-使用此操作将人员添加到Marketo Engage中的[静态列表](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}。
+使用此操作将人员添加到Marketo Engage中的[静态列表](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}。
 
 首先，选择一个连接的Marketo Engage实例。 接下来，选择列表名称。
 
@@ -252,7 +266,7 @@ Marketo Engage基于人员的操作可协调您在Journey Optimizer B2B edition�
 
 +++[!UICONTROL 从Marketo列表中删除]
 
-使用此操作可从Marketo Engage中的[静态列表](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}中删除人员。
+使用此操作可从Marketo Engage中的[静态列表](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}中删除人员。
 
 首先，选择一个连接的Marketo Engage实例。 接下来，选择列表名称。
 
@@ -262,4 +276,4 @@ Marketo Engage基于人员的操作可协调您在Journey Optimizer B2B edition�
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3443255/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
