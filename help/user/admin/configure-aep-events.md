@@ -6,16 +6,16 @@ role: Admin
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为测试版"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
+source-git-commit: 5f3d7bb8eb72c48409273de43b03114d273cb80c
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 0%
+source-wordcount: '1463'
+ht-degree: 7%
 
 ---
 
 # 选择体验事件和字段
 
-管理员可以在Experience Event合并架构中选择特定的[AEP Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其关联字段。 选择后，用户可以配置决策规则以侦听这些Experience事件，以基于近乎实时的事件数据启用动态和针对性的营销活动操作。
+管理员可以在Experience Event合并架构中选择特定的[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其关联字段。 选择后，用户可以配置决策规则以侦听这些Experience事件，以基于近乎实时的事件数据启用动态和针对性的营销活动操作。
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 在历程中使用AEP体验事件包括两个步骤：
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在测试版中，您无法从列表中删除事件。 确保您添加的每个事件均可供您的组织使用。
+>在测试版中，您无法从列表中删除事件。 确保您添加的每个事件都是组织打算使用的事件。
 
 1. 单击右上方的&#x200B;**[!UICONTROL 选择体验事件]**。
 
@@ -125,6 +125,343 @@ ht-degree: 0%
 >
 >对于此功能的Beta版本，您无法从选定事件的列表中删除事件。 计划在GA版本中删除事件。
 
+## 事件和字段
+
+对于[!DNL Journey Optimizer B2B Edition]，某些人员级别的活动被捕获为[!DNL Experience Platform]体验事件。 这些事件存储在使用XDM体验事件架构的系统数据集中，其中包括特定于历程的字段组。 您可以在[!UICONTROL Journey Optimizer B2B edition]中像任何其他体验事件一样使用这些事件。
+
+每个事件都公开一组定义的字段，这些字段可用于历程&#x200B;_侦听事件_&#x200B;节点（基于事件进行决策）。 查看可用的事件类型及其字段，以确定要在这些历程节点中使用的事件和字段：
+
+### 电子邮件已发送
+
+此事件可跟踪营销电子邮件何时发送给人员。
+
+事件类型： `directMarketing.emailSent`
+
++++字段
+
+| 字段 | 字段类型 |
+| ----- | ---------- |
+| 标识符 | `_id` |
+| 事件类型 | `eventType` |
+| 时间戳 | `timestamp` |
+| 人员 ID | `personID` |
+| 人员源ID | `personKey.sourceID` |
+| 人员来源类型 | `personKey.sourceType` |
+| 人员源实例ID | `personKey.sourceInstanceID` |
+| 人员源密钥 | `personKey.sourceKey` |
+| 电子邮件源ID | `directMarketing.emailSent.mailingKey.sourceID` |
+| 电子邮件源类型 | `directMarketing.emailSent.mailingKey.sourceType` |
+| 电子邮件源实例ID | `directMarketing.emailSent.mailingKey.sourceInstanceID ` |
+| 电子邮件源密钥 | `directMailing.emailSent.mailingKey.sourceKey` |
+| 邮件名称 | `directMarketing.emailSent.mailingName` |
+| 历程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 节点Id | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
+
+### 电子邮件已投放
+
+此事件跟踪电子邮件何时成功发送到人员的电子邮件服务。
+
+事件类型： `directMarketing.emailDelivered `
+
++++字段
+
+| 字段 | 字段类型 |
+| ----- | ---------- |
+| 标识符 | `_id` |
+| 事件类型 | `eventType` |
+| 时间戳 | `timestamp` |
+| 人员 ID | `personID` |
+| 人员源ID | `personKey.sourceID` |
+| 人员来源类型 | `personKey.sourceType` |
+| 人员源实例ID | `personKey.sourceInstanceID` |
+| 人员源密钥 | `personKey.sourceKey` |
+| 邮件源ID | `directMarketing.mailingKey.sourceID` |
+| 邮件源类型 | `directMarketing.mailingKey.sourceType` |
+| 邮件源实例ID | `directMarketing.mailingKey.sourceInstanceID` |
+| 邮件源密钥 | `directMarketing.mailingKey.sourceKey` |
+| 邮件名称 | `directMarketing.mailingName` |
+| 历程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 节点Id | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
+
+### 电子邮件已打开
+
+此事件可跟踪人员何时打开营销电子邮件。
+
+事件类型： `directMarketing.emailOpened`
+
++++字段
+
+| 字段 | 字段类型 |
+| ----- | ---------- |
+| 标识符 | `_id` |
+| 事件类型 | `eventType` |
+| 时间戳 | `timestamp` |
+| 人员 ID | `personID` |
+| 人员源ID | `personKey.sourceID` |
+| 人员来源类型 | `personKey.sourceType` |
+| 人员源实例ID | `personKey.sourceInstanceID` |
+| 人员源密钥 | `personKey.sourceKey` |
+| 邮件源ID | `directMarketing.mailingKey.sourceID` |
+| 邮件源类型 | `directMarketing.mailingKey.sourceType` |
+| 邮件源实例ID | `directMarketing.mailingKey.sourceInstanceID` |
+| 邮件源密钥 | `directMarketing.mailingKey.sourceKey` |
+| 邮件名称 | `directMarketing.mailingName` |
+| 是移动设备 | `device.isMobileDevice` |
+| 设备型号 | `device.model` |
+| 用户代理 | `environment.browserDetails.userAgent` |
+| Operating system | `environment.operatingSystem` |
+| 历程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 节点Id | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
+
+### 已单击电子邮件
+
+此事件可跟踪用户何时单击营销电子邮件中的链接。
+
+事件类型： `directMarketing.emailClicked`
+
++++字段
+
+| 字段 | 字段类型 |
+| ----- | ---------- |
+| 标识符 | `_id` |
+| 事件类型 | `eventType` |
+| 时间戳 | `timestamp` |
+| 人员 ID | `personID` |
+| 人员源ID | `personKey.sourceID` |
+| 人员来源类型 | `personKey.sourceType` |
+| 人员源实例ID | `personKey.sourceInstanceID` |
+| 人员源密钥 | `personKey.sourceKey` |
+| 邮件源ID | `directMarketing.mailingKey.sourceID` |
+| 邮件源类型 | `directMarketing.mailingKey.sourceType` |
+| 邮件源实例ID | `directMarketing.mailingKey.sourceInstanceID` |
+| 邮件源密钥 | `directMarketing.mailingKey.sourceKey` |
+| 邮件名称 | `directMarketing.mailingName` |
+| 链接URL | `directMarketing.linkURL` |
+| 是移动设备 | `device.isMobileDevice` |
+| 模型 | `device.model` |
+| 用户代理 | `environment.browserDetails.userAgent` |
+| Operating system | `environment.operatingSystem` |
+| 历程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 节点Id | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
+
+### 电子邮件退回
+
+此事件可跟踪发送给人员的电子邮件何时退回。
+
+事件类型： `directMarketing.emailBounced`
+
++++字段
+
+| 字段 | 字段类型 |
+| ----- | ---------- |
+| 标识符 | `_id` |
+| 事件类型 | `eventType` |
+| 时间戳 | `timestamp` |
+| 人员 ID | `personID` |
+| 人员源ID | `personKey.sourceID` |
+| 人员来源类型 | `personKey.sourceType` |
+| 人员源实例ID | `personKey.sourceInstanceID` |
+| 人员源密钥 | `personKey.sourceKey` |
+| 邮件源ID | `directMarketing.mailingKey.sourceID` |
+| 邮件源类型 | `directMarketing.mailingKey.sourceType` |
+| 邮件源实例ID | `directMarketing.mailingKey.sourceInstanceID` |
+| 邮件源密钥 | `directMarketing.mailingKey.sourceKey` |
+| 邮件名称 | `directMarketing.mailingName` |
+| 电子邮件 | `directMarketing.email` |
+| 电子邮件退回代码 | `directMarketing.emailBouncedCode` |
+| 电子邮件退回详细信息 | `directMarketing.emailBouncedDetails` |
+| 历程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 节点Id | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
+
+### 电子邮件软退回
+
+此事件可跟踪发送给人员的电子邮件何时软退回。
+
+事件类型： `directMarketing.emailBouncedSoft`
+
++++字段
+
+| 字段 | 字段类型 |
+| ----- | ---------- |
+| 标识符 | `_id` |
+| 事件类型 | `eventType` |
+| 时间戳 | `timestamp` |
+| 人员 ID | `personID` |
+| 人员源ID | `personKey.sourceID` |
+| 人员来源类型 | `personKey.sourceType` |
+| 人员源实例ID | `personKey.sourceInstanceID` |
+| 人员源密钥 | `personKey.sourceKey` |
+| 邮件源ID | `directMarketing.mailingKey.sourceID` |
+| 邮件源类型 | `directMarketing.mailingKey.sourceType` |
+| 邮件源实例ID | `directMarketing.mailingKey.sourceInstanceID` |
+| 邮件源密钥 | `directMarketing.mailingKey.sourceKey` |
+| 邮件名称 | `directMarketing.mailingName` |
+| 电子邮件 | `directMarketing.email` |
+| 电子邮件退回代码 | `directMarketing.emailBouncedCode` |
+| 电子邮件退回详细信息 | `directMarketing.emailBouncedDetails` |
+| 历程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 节点Id | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
+
+### 电子邮件已取消订阅
+
+此事件跟踪人员何时取消订阅营销电子邮件。
+
+事件类型： `directMarketing.emailUnsubscribed `
+
++++字段
+
+| 字段 | 字段类型 |
+| ----- | ---------- |
+| 标识符 | `_id` |
+| 事件类型 | `eventType` |
+| 时间戳 | `timestamp` |
+| 人员 ID | `personID` |
+| 人员源ID | `personKey.sourceID` |
+| 人员来源类型 | `personKey.sourceType` |
+| 人员源实例ID | `personKey.sourceInstanceID` |
+| 人员源密钥 | `personKey.sourceKey` |
+| 邮件源ID | `directMarketing.mailingKey.sourceID` |
+| 邮件源类型 | `directMarketing.mailingKey.sourceType` |
+| 邮件源实例ID | `directMarketing.mailingKey.sourceInstanceID` |
+| 邮件源密钥 | `directMarketing.mailingKey.sourceKey` |
+| 邮件名称 | `directMarketing.mailingName` |
+| 历程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 节点Id | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
+
+### 访问网页
+
+此事件类型是将点击标记为页面查看的标准方法。
+
+事件类型： `web.webpagedetails.pageViews`
+
++++字段
+
+| 字段 | 字段类型 |
+| ----- | ---------- |
+| 标识符 | `_id` |
+| 事件类型 | `eventType` |
+| 时间戳 | `timestamp` |
+| 人员 ID | `personID` |
+| 人员源ID | `personKey.sourceID` |
+| 人员来源类型 | `personKey.sourceType` |
+| 人员源实例ID | `personKey.sourceInstanceID` |
+| 人员源密钥 | `personKey.sourceKey` |
+| 网页源ID | `web.webPageDetails.webPageKey.sourceID` |
+| 网页源类型 | `web.webPageDetails.webPageKey.sourceType` |
+| 网页源实例ID | `web.webPageDetails.webPageKey.sourceInstanceID` |
+| 网页源密钥 | `web.webPageDetails.webPageKey.sourceKey` |
+| 网页名称 | `web.webPageDetails.name` |
+| 网页URL | `web.webPageDetails.URL` |
+| 网页查询参数 | `web.webPageDetails.queryParameters` |
+| 网页ID | `web.webPageDetails.webPageID` |
+| 用户代理 | `environment.browserDetails.userAgent` |
+| 反向链接URL | `web.webReferrer.URL` |
+
++++
+
+### 表单已填写
+
+此事件跟踪人员在网页上填写表单的时间。
+
+事件类型： `web.formFilledOut`
+
++++字段
+
+| 字段 | 字段类型 |
+| ----- | ---------- |
+| 标识符 | `_id` |
+| 事件类型 | `eventType` |
+| 时间戳 | `timestamp` |
+| 人员 ID | `personID` |
+| 人员源ID | `personKey.sourceID` |
+| 人员来源类型 | `personKey.sourceType` |
+| 人员源实例ID | `personKey.sourceInstanceID` |
+| 人员源密钥 | `personKey.sourceKey` |
+| Web窗体源ID | `web.fillOutForm.webFormKey.sourceID` |
+| Web窗体源类型 | `web.fillOutForm.webFormKey.sourceType` |
+| Web窗体源实例ID | `web.fillOutForm.webFormKey.sourceInstanceID` |
+| Web窗体源密钥 | `web.fillOutForm.webFormKey.sourceKey` |
+| Web窗体ID | `web.fillOutForm.webFormID` |
+| Web窗体名称 | `web.fillOutForm.webFormName` |
+| 网页查询参数 | `web.webPageDetails.queryParameters` |
+| 网页ID | `web.webPageDetails.webPageID` |
+| 用户代理 | `environment.browserDetails.userAgent` |
+| 反向链接URL | `web.webReferrer.URL` |
+
++++
+
+### 已单击Web链接
+
+事件表示Web SDK自动记录了链接点击。
+
+事件类型： `web.webinteraction.linkClicks`
+
++++字段
+
+| 字段 | 字段类型 |
+| ----- | ---------- |
+| 标识符 | `_id` |
+| 事件类型 | `eventType` |
+| 时间戳 | `timestamp` |
+| 人员 ID | `personID` |
+| 人员源ID | `personKey.sourceID` |
+| 人员来源类型 | `personKey.sourceType` |
+| 人员源实例ID | `personKey.sourceInstanceID` |
+| 人员源密钥 | `personKey.sourceKey` |
+| Web交互源ID | `web.webInteraction.webInteractionKey.sourceID` |
+| Web交互源类型 | `web.webInteraction.webInteractionKey.sourceType` |
+| Web交互源实例ID | `web.webInteraction.webInteractionKey.sourceInstanceID` |
+| Web交互源密钥 | `web.webInteraction.webInteractionKey.sourceKey` |
+| Web交互链接ID | `web.webInteraction.linkID` |
+| Web交互链接URL | `web.webInteraction.linkURL` |
+| 网页查询参数 | `web.webPageDetails.queryParameters` |
+| 网页ID | `web.webPageDetails.webPageID` |
+| 用户代理 | `environment.browserDetails.userAgent` |
+| 反向链接URL | `web.webReferrer.URL` |
+
++++
+
+### 有趣的时刻
+
+此事件跟踪何时为人员录制了有趣的时刻。
+
+事件类型： `leadOperation.interestingMoment `
+
++++字段
+
+| 字段 | 字段类型 |
+| ----- | ---------- |
+| 标识符 | `_id` |
+| 事件类型 | `eventType` |
+| 时间戳 | `timestamp` |
+| 人员 ID | `personID` |
+| 人员源ID | `personKey.sourceID` |
+| 人员来源类型 | `personKey.sourceType` |
+| 人员源实例ID | `personKey.sourceInstanceID` |
+| 人员源密钥 | `personKey.sourceKey` |
+| 时刻日期 | `leadOperation.interestingMoment.date` |
+| 时刻描述 | `leadOperation.interestingMoment.description` |
+| 力矩源 | `leadOperation.interestingMoment.source` |
+| 力矩类型 | `leadOperation.interestingMoment.type` |
+| 历程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 节点Id | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
+
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448693/?captions=chi_hans&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) -->
