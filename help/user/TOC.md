@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文档
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition 以及如何使用它通过内置的生成式 AI 和行业领先的自动化来编排帐户及购买群组历程。
-source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
+source-git-commit: ab6445c36e6287e04015b2b1f7dd9dd8cb8d1287
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 91%
+source-wordcount: '371'
+ht-degree: 88%
 
 ---
 
@@ -49,8 +49,11 @@ ht-degree: 91%
       + [销售警报电子邮件](./content/sales-alert-email.md)
    + [自定义个性化令牌](./content/personalization-my-tokens.md)
    + [短信创作](./content/sms-authoring.md)
++ Audiences {#audiences}
+   + [Experience Platform受众](./audiences/account-audience-overview.md)
+   + [定位外部受众](./audiences/target-external-audience.md)
+   + [LinkedIn帐户匹配的受众](./data/linkedin-account-matched-audiences.md)
 + 帐户 {#accounts}
-   + [受众](./audiences/account-audience-overview.md)
    + 购买群组 {#buying-groups}
       + [概述](./buying-groups/buying-groups-overview.md)
       + [解决方案兴趣](./buying-groups/solution-interests.md)
@@ -62,7 +65,6 @@ ht-degree: 91%
       + [购买群组阶段](./buying-groups/buying-group-stages.md)
       + [创建购买群组](./buying-groups/buying-groups-create.md)
       + [导出帐户](./audiences/account-list-export.md)
-      + [LinkedIn 帐户匹配的受众](./data/linkedin-account-matched-audiences.md)
       + [Marketo Engage 中的购买群组过滤器](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
       + [In-CRM Insights](./buying-groups/incrm-insights.md)
    + 帐户列表 {#account-lists}
