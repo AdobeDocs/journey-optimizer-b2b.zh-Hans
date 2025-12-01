@@ -106,5 +106,5 @@ ht-degree: 1%
 
    ![Experience Platform — 目标 — 激活目标 — 审核](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}
 
-激活后，您可以在[Adobe Target受众](https://experienceleague.adobe.com/en/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"}中看到该受众，并在Adobe Target活动中使用它们。
+激活后，您可以在[Adobe Target受众](https://experienceleague.adobe.com/zh-hans/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"}中看到该受众，并在Adobe Target活动中使用它们。
 

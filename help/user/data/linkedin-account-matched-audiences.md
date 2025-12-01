@@ -17,7 +17,7 @@ ht-degree: 12%
 
 此功能利用 Experience Platform Destinations 来管理集成的某些方面。数据流上限为10个。
 
-在从Journey Optimizer B2B edition启动数据流之前，必须至少有一个[（公司） LinkedIn匹配的受众目标连接器](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}的实例具有在Experience Platform应用程序中配置的LinkedIn营销活动管理器帐户。
+在从Journey Optimizer B2B edition启动数据流之前，必须至少有一个[（公司） LinkedIn匹配的受众目标连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}的实例具有在Experience Platform应用程序中配置的LinkedIn营销活动管理器帐户。
 
 ## 配置新的 LinkedIn 帐户连接 {#linkedin-destination-setup}
 
