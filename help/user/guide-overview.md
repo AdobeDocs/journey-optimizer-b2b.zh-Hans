@@ -2,24 +2,28 @@
 title: Adobe Journey Optimizer B2B Edition 文档
 description: Journey Optimizer B2B Edition 的完整文档——浏览可用于加入、创建购买群组、生成帐户历程和管理内容的资源。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: b794194191ea41d91402db643aafbeb0df5d9809
+source-git-commit: ae903f25327d7ac9d7b47e4b5f736a164b2d2d4b
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 73%
+source-wordcount: '803'
+ht-degree: 62%
 
 ---
 
 # Adobe Journey Optimizer B2B Edition 文档
 
+[!DNL Adobe Journey Optimizer B2B Edition]是首创的应用程序，它允许营销和销售团队在整个客户生命周期中编排基于帐户的体验，并使购买组有资格购买特定产品。 它利用AI吸引和授权目标客户中的购买群体，帮助您的团队形成更高质量的管道，设计更好的收购、扩展和保留策略。 它还支持在销售和营销团队之间共享见解。
+
+本文档提供了有关如何掌握应用程序的信息。 它专为营销人员、业务开发代表、数据分析师和运营管理员而设计。
+
 ## 新增功能
 
-以下是[!DNL Journey Optimizer B2B Edition]应用程序和文档中的最新添加和增强功能的示例。
+查看[!DNL Journey Optimizer B2B Edition]应用程序和文档中的最新添加和增强功能的此抽样。
 
 >[!BEGINTABS]
 
 >[!TAB AI代理]
 
-借助[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}，AI助手界面可自动调用专业代理以获取正确的答案和见解。 Agent Orchestrator 会记住您的对话历史，使您能够自然地延续以前的问题，无需重复上下文，它还会结合来自多个代理的洞察，为您提供清晰、统一的回答。在[!DNL Journey Optimizer B2B Edition]上下文中，有三个针对特定B2B任务和域的专门构建代理：
+借助[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}，AI Assistant界面可自动调用专业代理以获取正确的答案和见解。 Agent Orchestrator 会记住您的对话历史，使您能够自然地延续以前的问题，无需重复上下文，它还会结合来自多个代理的洞察，为您提供清晰、统一的回答。在[!DNL Journey Optimizer B2B Edition]上下文中，有三个针对特定B2B任务和域的专门构建代理：
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [历程生成代理B2B](./agents/journey-agent.md)
@@ -45,7 +49,7 @@ ht-degree: 73%
 
 >[!TAB 电子邮件内容协作]
 
-电子邮件设计空间包含用于评论和决策的协作工具，使营销团队能够直接在 [!DNL Journey Optimizer B2B Edition] 中无缝审阅、讨论并最终确定电子邮件资产。用户无需通过外部工具（如聊天、电子邮件会话或电子表格）共享草稿，即可在邮件设计空间内直接进行评论、提出修改建议并处理反馈。您可以标记您的团队成员，这样他们就会收到包含评论详细信息的电子邮件或推送通知。
+电子邮件设计空间包括用于提供反馈和解决问题的协作工具，以便营销团队可以直接在[!DNL Journey Optimizer B2B Edition]内无缝审查、讨论和最终确定电子邮件资产。 用户无需通过外部工具（如聊天、电子邮件会话或电子表格）共享草稿，即可在邮件设计空间内直接进行评论、提出修改建议并处理反馈。您可以标记您的团队成员，这样他们就会收到包含评论详细信息的电子邮件或推送通知。
 
 [!BADGE 了解详情]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="了解电子邮件内容协作工具"}
 
@@ -139,7 +143,7 @@ B2B 营销人员现在可以使用个人级别的参与度评分作为某个历�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a>——<a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a>——<a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/home" target="_blank">文档</a>——<a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">开发人员资源</a>
