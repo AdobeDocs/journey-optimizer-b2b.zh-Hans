@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B Edition 文档
 description: Journey Optimizer B2B Edition 的完整文档——浏览可用于加入、创建购买群组、生成帐户历程和管理内容的资源。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: b60efa2fb448b6c5542ad0d7894f762ca2372990
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+source-git-commit: b794194191ea41d91402db643aafbeb0df5d9809
+workflow-type: tm+mt
+source-wordcount: '720'
+ht-degree: 73%
 
 ---
 
@@ -13,9 +13,35 @@ ht-degree: 100%
 
 ## 新增功能
 
-以下是 Journey Optimizer B2B Edition 应用和文档中最近新增功能和增强功能举例。
+以下是[!DNL Journey Optimizer B2B Edition]应用程序和文档中的最新添加和增强功能的示例。
 
 >[!BEGINTABS]
+
+>[!TAB AI代理]
+
+借助[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}，AI助手界面可自动调用专业代理以获取正确的答案和见解。 Agent Orchestrator 会记住您的对话历史，使您能够自然地延续以前的问题，无需重复上下文，它还会结合来自多个代理的洞察，为您提供清晰、统一的回答。在[!DNL Journey Optimizer B2B Edition]上下文中，有三个针对特定B2B任务和域的专门构建代理：
+
+* [Audience Agent B2B](./agents/audience-agent-b2b.md)
+* [历程生成代理B2B](./agents/journey-agent.md)
+* [Account Qualification 代理](./agents/sales-qualifier.md#account-qualification-agent)
+
+>[!TAB 品牌主题]
+
+通过主题，非技术设计人员能够创建符合特定品牌和样式的可重用电子邮件内容设计准则。 主题使营销人员能够更快地利用具有视觉吸引力、品牌一致的电子邮件，而且所需的工作量更少，并提供高级自定义选项以满足独特的设计需求。
+
+[!BADGE 了解详情]{type=Informative url="/help/user/content/brand-themes.md" tooltip="了解品牌主题"}
+
+>[!TAB 角色映射]
+
+营销人员可以定义详细的用户档案，包括背景、职责、棘手问题和首选通信渠道。 使用这些定义，管理员可以根据[!DNL Journey Optimizer B2B Edition]中的人员属性配置角色，以便角色模板可以使用简化且一致的角色条件来捕获这些角色。
+
+[!BADGE 了解详情]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="了解角色映射"}
+
+>[!TAB In-CRM销售分析]
+
+销售团队成员现在可在 Salesforce 或 Dynamics 集成中查看正在成熟的购买群体及相关洞察，从而发现新的销售机会。系统会显示购买群体的阶段、评分及相关成员等详细信息。
+
+[!BADGE 了解详情]{type=Informative url="/help/user/buying-groups/incrm-insights.md" tooltip="了解In-CRM销售分析"}
 
 >[!TAB 电子邮件内容协作]
 
@@ -34,30 +60,6 @@ ht-degree: 100%
 B2B 营销人员现在可以使用个人级别的参与度评分作为某个历程的拆分路径的过滤器，或作为角色模板中的过滤器，来创建购买群组。通过评分和筛选可以精确定位购买群组成员，使持续参与更加个性化。
 
 [!BADGE 了解详情]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="了解人员参与度评分和筛选"}
-
->[!TAB 自定义购买群组角色]
-
-B2B 营销策略师现在可以通过自定义购买群组角色来扩展购买群组的精确度。除了默认的六个角色外，还可以创建最多 20 个自定义角色，并在所有购买群组中重复使用它们。在帐户历程中定制消息，以匹配您的独特角色并提高所有购买群组的相关性和参与度。&#x200B;
-
-[!BADGE 了解详情]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="了解自定义购买群组角色"}
-
->[!TAB 自定义参与度评分权重]
-
-为参与活动分配自定义权重，以便参与度评分能够反映您的最高价值活动。通过强调高意向信号，您的团队可以更好地识别并优先考虑具有最强购买潜力的帐户。
-
-[!BADGE 了解详情]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="了解自定义参与度评分权重"}
-
->[!TAB 自定义 CSS 支持]
-
-现在，您可以在设计空间中创作电子邮件和登陆页面内容时添加自己的自定义 CSS。
-
-[!BADGE 了解详情]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="了解如何使用自定义 CSS"}
-
->[!TAB 意图关键词映射]
-
-如要启用和管理意图检测模型，您现在可以上传一个电子表格来定义意图数据映射类别。
-
-[!BADGE 了解详情]{type=Informative url="/help/user/admin/intent-data.md" tooltip="了解意图关键词映射配置"}
 
 >[!ENDTABS]
 
@@ -123,11 +125,11 @@ B2B 营销策略师现在可以通过自定义购买群组角色来扩展购买�
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="内容管理"><br/>
-      <strong>内容管理</strong><br/><a href="./content/assets-overview.md">资产概述</a><br/><a href="./content/email-templates.md">电子邮件模板</a><br/><a href="./content/fragments.md">可视片段</a><br/><a href="./content/conditional-content.md">条件内容</a>
+      <strong>内容管理</strong><br/><a href="./content/assets-overview.md">Assets概述</a><br/><a href="./content/email-templates.md">电子邮件模板</a><br/><a href="./content/fragments.md">视觉片段</a><br/><a href="./content/conditional-content.md">条件内容</a><br/><a href="./content/brand-themes.md">品牌主题</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="洞察和仪表板"><br/>
-      <strong>洞察</strong><br/><a href="./dashboards/intelligent-dashboard.md">智能仪表板</a><br/><a href="./dashboards/engagement-dashboard.md">参与仪表板</a><br/><a href="./dashboards/buying-groups-dashboard.md">购买群组仪表板</a><br/><a href="./dashboards/journeys-dashboard.md">历程仪表板</a>
+      <strong>Insights</strong><br/><a href="./dashboards/intelligent-dashboard.md">智能仪表板</a><br/><a href="./dashboards/engagement-dashboard.md">参与仪表板</a><br/><a href="./dashboards/buying-groups-dashboard.md">购买团体仪表板</a><br/><a href="./dashboards/journeys-dashboard.md">历程仪表板</a><br/><a href="./buying-groups/incrm-insights.md">In-CRM Insights</a>
     </td>
 
 </tr>
@@ -137,7 +139,7 @@ B2B 营销策略师现在可以通过自定义购买群组角色来扩展购买�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a>——<a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a>——<a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/home" target="_blank">文档</a>——<a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">开发人员资源</a>

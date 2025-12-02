@@ -3,7 +3,7 @@ title: 销售限定词
 description: 通过Sales Qualifier自动化B2B潜在客户鉴定和推广。 它为BDR提供AI支持的研究、电子邮件起草、CRM集成和参与计划。
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
+source-git-commit: bae61706c0bee7f2d2e90f6f5f32712ba1adf3eb
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 1%
@@ -14,13 +14,13 @@ ht-degree: 1%
 # 销售限定词
 
 >[!NOTE]
->此功能当前处于“有限可用”状态，并非对所有用户都可用。
 >
+>此功能当前处于“有限可用”状态，并非对所有用户都可用。
 
 Sales Qualifier是Adobe Journey Optimizer B2B edition的AI驱动附加应用程序，它包含Account Qualification Agent，旨在简化业务开发代表(BDR)的工作流。 Sales Qualifier跨渠道自动执行潜在客户鉴别、外联和买方参与工作流程。 它减少了手动BDR负载，加快了企业B2B公司的管道速度。
 使用浏览器和电子邮件插件直接在CRM或Outlook中访问商业智能。
 
-Sales Qualifier包含在Journey Optimizer B2B edition中，但它是Experience Platform Experience Cloud中的一个单独应用程序。
+销售限定符包含在[!UICONTROL Journey Optimizer B2B edition]中，但它是Experience Platform Experience Cloud中的单独应用程序。
 
 ![销售鉴定表仪表板自动执行企业B2B的BDR潜在客户鉴定和推广](assets/home-screen.png)
 
@@ -223,4 +223,4 @@ AI Assistant Chrome插件在[Google Store](https://chromewebstore.google.com/det
 
 以下视频简要演示了Sales Qualifier和Account Qualification Agent。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476571?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)

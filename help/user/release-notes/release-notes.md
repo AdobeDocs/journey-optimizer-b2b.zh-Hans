@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 发行说明
 description: 探索 Adobe Journey Optimizer B2B Edition 中的最新功能、增强功能和错误修复。随时掌握最新功能与产品改进信息。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: af71f00fa4be24ed8c594f3e5823bc0c9db17c6d
+source-git-commit: 4033d0eb711120d615851d614aa6abbcf07f6ea0
 workflow-type: tm+mt
-source-wordcount: '3729'
-ht-degree: 95%
+source-wordcount: '3778'
+ht-degree: 92%
 
 ---
 
@@ -39,6 +39,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | 功能 | 电子邮件模板 – 将图像转换为 HTML | 您现在可以使用以 JPG 或 PNG 格式保存的设计文件，自动生成电子邮件模板。[了解详情](../content/email-template-image-convert.md) |
 | 功能 | 人物角色映射 | 通过属性映射，将帐户成员与已建立的人物角色关联。[了解详情](../admin/persona-mapping.md) |
 | 功能 | 适用于 Salesforce 和 Dynamics 的销售洞察 | 销售团队成员现在可在 Salesforce 或 Dynamics 集成中查看正在成熟的购买群体及相关洞察，从而发现新的销售机会。包括购买组详细信息，如阶段、分数和相关成员。 [了解详情](../buying-groups/incrm-insights.md) |
+| 功能 | 将受众激活到[!DNL Adobe Target] | 您现在可以将受众从帐户历程激活到外部客户受众，并将其推送[!DNL Adobe Target]。 通过此集成，您可以交付通过历程序列有资格参与在[!DNL Target]中设计的Web体验的受众。 [了解详情](../audiences/target-external-audience.md) |
 | 增强功能 | 改进的购买群组完整性评分 | 您现在可以通过为完整性评分自定义角色成员阈值，确保购买群体能够反映真实的决策过程。[了解详情](../buying-groups/completeness-scores.md) |
 | 增强功能 | 购买群组维护作业 | 购买群组维护作业的执行频率已由每周一次更新为每日一次。 |
 | 增强功能 | 帐户历程进度 | 对于状态为&#x200B;_运行中_、_对新条目关闭_、_已中止_&#x200B;或&#x200B;_已完成_&#x200B;的已发布历程，您可以打开历程图以查看各节点的帐户列表。 |
@@ -66,8 +67,8 @@ Adobe Journey Optimizer B2B Edition 现已采用简化架构。通过此更新�
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | 关系型数据模型 | 利用链接到B2B帐户的关系数据来过滤帐户历程中的帐户或个性化电子邮件内容。 此类关系型数据可表示真实的业务实体，如采购记录、活动注册、软件许可、服务订阅或预订信息。 |
-| 功能 | 多 Marketo Engage 实例激活 | 配置与远程Marketo Engage实例的连接，并使用这些连接设置历程的Marketo Engage操作。 这些操作（如将人员添加或移出名单，或将人员添加至请求营销活动）均适用于指定的 Marketo Engage 实例。 |
+| 功能 | 关系型数据模型 | 利用链接到B2B帐户的关系数据来过滤帐户历程中的帐户或个性化电子邮件内容。 此关系数据可以表示真实世界的商业实体，如购买记录、事件注册、软件许可证、服务订阅或预订。 [了解详情](../admin/xdm-field-management.md#relational-schemas) |
+| 功能 | 多个Marketo Engage激活 | 配置与远程Marketo Engage实例的连接，并使用这些连接设置历程的Marketo Engage操作。 这些操作（如在列表中添加或删除人员，或将人员添加到请求营销活动）适用于指定的Marketo Engage实例。 [了解详情](../admin/marketo-actions-connect.md) |
 | 功能 | 电子邮件疲劳重复数据删除 | 您现在可以启用电子邮件重复数据删除功能，确保同一历程中不会向同一邮箱地址重复发送相同邮件。重复地址将在首次记录完成该历程之前被阻止发送。 |
 | 增强功能 | 通信限制 | 现在，系统尊重了Marketo Engage和Journey Optimizer B2B edition的组合通信限制。 [了解详情](../admin/configure-channels-emails.md#communication-limits) |
 
