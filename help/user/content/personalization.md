@@ -6,9 +6,9 @@ topic: Personalization
 role: User, Developer
 level: Intermediate
 keywords: 表达式、编辑器、开始、个性化
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+source-git-commit: 5063f9a924aef0a54b05e9bf223fc2d4898bc5a5
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -42,19 +42,21 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home){target="_blank"}中了解有关XDM架构的更多信息。
+>在[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中了解有关XDM架构的更多信息。
 
 ## Personalization编辑器
 
 个性化编辑器适用于您需要在电子邮件内容中定义个性化的每个上下文。 在编辑器中，您可以选择、排列、自定义和验证所有数据，以创建内容的自定义个性化设置。
 
->[!NOTE]
->
->个性化编辑器的以下信息反映了在[简化架构](../simplified-architecture.md)上配置的Journey Optimizer B2B edition环境可用的更改。
-
 通过单击&#x200B;_添加个性化_ （ ![添加个性化图标](../../assets/do-not-localize/icon-personalization-field.svg) ）图标，在任何字段或内容组件中添加个性化。
 
 ![Personalization编辑器](./assets/personalization-editor.png){width="800" zoomable="yes"}
+
+>[!NOTE]
+>
+>以下有关个性化编辑器的信息反映了在[!DNL Journey Optimizer B2B Edition]简化架构[上配置的](../simplified-architecture.md)环境可用的更改。
+
+### 令牌和辅助函数
 
 若要使用个性化令牌或辅助函数，请在左侧导航窗格中找到它，然后单击&#x200B;**+**&#x200B;以将其添加到表达式中。
 
@@ -74,6 +76,18 @@ ht-degree: 0%
 
 当表达式完成且没有错误时，单击&#x200B;**[!UICONTROL 保存]**。
 
+### 自定义数据集
+
+可以使用关系架构（基于模型的类）进行电子邮件个性化。 自定义对象是在&#x200B;_关系架构_&#x200B;中定义的，产品管理员可以在[中](../admin/xdm-field-management.md#relational-schemas)配置关系架构字段[!DNL Journey Optimizer B2B Edition]。 可在个性化编辑器中访问这些字段。 只有与帐户:M具有一对多(1<!-- (M1.5 Beta) or Person (M1.5 GA) -->)关系的自定义对象才可用。
+
+>[!IMPORTANT]
+>
+>在将自定义对象用于脚本式个性化之前，请确保查看并了解[Handlebar模板语言](https://handlebarsjs.com/guide/)、[个性化语法](./personalization-syntax.md)和内置[帮助程序函数](./personalization-helper-functions.md)。
+
+使用自定义对象定义个性化时，您可以跨&#x200B;**[!UICONTROL Personalization令牌]**（人员/潜在客户、帐户、系统和我的令牌）以及&#x200B;**[!UICONTROL 基于模型的类]**（关系架构）访问可脚本访问对象中的所有变量。 选择基于模型的类后，可通过单击自定义对象文件夹来查看字段。 对于要将其添加到表达式的每个字段，单击&#x200B;**+**。
+
+![Personalization编辑器 — 基于模型的类 — 添加自定义对象字段](./assets/personalization-editor-custom-object-fields.png){width="800" zoomable="yes"}
+
 <!-- ## Personalization experimentation {#playground}
 
 **[!DNL Adobe Journey Optimizer]** includes an interactive tool designed to help you learn and experiment with personalization capabilities.
@@ -82,18 +96,18 @@ This playground provides a simulated environment to write and test personalizati
 
 ![personalization playground](assets/playground.png)
 
-➡️ [Access the personalization playground](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ajo-personalization){target="_blank"} 
+➡️ [Access the personalization playground](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"} 
 
 ## How-to videos{#video-perso}
 
 Learn how to use contextual event information from a journey to personalize a message.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448150?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Learn how to add profile-based personalization to a message and how to use audience membership as a pre-condition to a personalization block.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416235?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 Learn how to leverage the personalization editor playground to write and test personalization code using sample data.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475962?captions=chi_hans&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12) -->
