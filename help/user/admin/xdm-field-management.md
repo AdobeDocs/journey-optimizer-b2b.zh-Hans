@@ -23,7 +23,7 @@ Adobe Experience Platform (AEP)架构通常包含复杂层次结构中的许多�
 了解XDM并与数据工程师或B2B客户数据平台(CDP)数据建模利益相关者进行协作的管理员应使用本页上的过程。
 
 >[!NOTE]
->[关系架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#)可作为[!DNL Journey Optimizer B2B Edition]的有限可用性版本使用。 Data Mirror和关系架构适用于Journey Optimizer Orchestrated营销活动许可证持有者。 关系架构也以受限版本的形式提供给Customer Journey Analytics用户，具体取决于您的许可和功能启用。 请联系您的Adobe代表以获取访问权限。
+>[关系架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/relational#)可作为[!DNL Journey Optimizer B2B Edition]的有限可用性版本使用。 Data Mirror和关系架构适用于Journey Optimizer Orchestrated营销活动许可证持有者。 关系架构也以受限版本的形式提供给Customer Journey Analytics用户，具体取决于您的许可和功能启用。 请联系您的Adobe代表以获取访问权限。
 
 ## 访问XDM类
 
@@ -89,7 +89,7 @@ Adobe Experience Platform (AEP)架构通常包含复杂层次结构中的许多�
 
 #### 可更新字段
 
-在配置可更新字段之前，它们必须驻留在自定义数据集中。 有关自定义数据集工作流的演练，请参阅[创建数据集并摄取数据](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}，并使用&#x200B;**[!UICONTROL 从架构创建数据集]**&#x200B;选项。 此数据集用于隔离可更新字段。 所有可更新字段都必须在此数据集中。
+在配置可更新字段之前，它们必须驻留在自定义数据集中。 有关自定义数据集工作流的演练，请参阅[创建数据集并摄取数据](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}，并使用&#x200B;**[!UICONTROL 从架构创建数据集]**&#x200B;选项。 此数据集用于隔离可更新字段。 所有可更新字段都必须在此数据集中。
 
 为个人资料创建数据集，并为企业帐户创建另一个数据集。 在配置过程中选择每个新数据集：
 
