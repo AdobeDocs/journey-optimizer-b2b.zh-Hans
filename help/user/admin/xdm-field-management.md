@@ -3,10 +3,10 @@ title: XDM字段管理
 description: 使用XDM字段管理可控制Journey Optimizer B2B edition可用的数据。
 feature: Data Management, Integrations
 role: User
-badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
-source-git-commit: 0497f44336cdd6bfed5bac9f6f579a97f6be585a
+badgeBeta: label="Beta 版" type="informative" tooltip="此功能目前在简化架构上的有限测试版中发布"
+source-git-commit: 7d57fa1154eceff81dedda7e9412a2d57ead3d6b
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1111'
 ht-degree: 1%
 
 ---
@@ -20,10 +20,11 @@ ht-degree: 1%
 
 Adobe Experience Platform (AEP)架构通常包含复杂层次结构中的许多字段。 遍历XDM架构树需要时间。 XDM字段管理通过仅显示与每个历程相关的字段而简化字段选择。 管理员控制向历程创建者显示的字段。 管理员还会将字段设置为只读或可编辑。 这些操作可在旅程设计期间提高效率。
 
-了解XDM并与数据工程师或B2B客户数据平台(CDP)数据建模利益相关者进行协作的管理员应使用本页上的过程。
+了解XDM并与数据工程师或B2B客户数据平台(CDP)数据建模利益相关者进行协作的管理员应使用以下步骤为[!DNL Journey Optimizer B2B Edition]配置XDM类。
 
 >[!NOTE]
->[关系架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/relational#)可作为[!DNL Journey Optimizer B2B Edition]的有限可用性版本使用。 Data Mirror和关系架构适用于Journey Optimizer Orchestrated营销活动许可证持有者。 关系架构也以受限版本的形式提供给Customer Journey Analytics用户，具体取决于您的许可和功能启用。 请联系您的Adobe代表以获取访问权限。
+>
+>XDM字段管理适用于在[简化架构](../simplified-architecture.md)上配置的Journey Optimizer B2B edition环境。
 
 ## 访问XDM类
 
@@ -89,7 +90,7 @@ Adobe Experience Platform (AEP)架构通常包含复杂层次结构中的许多�
 
 #### 可更新字段
 
-在配置可更新字段之前，它们必须驻留在自定义数据集中。 有关自定义数据集工作流的演练，请参阅[创建数据集并摄取数据](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}，并使用&#x200B;**[!UICONTROL 从架构创建数据集]**&#x200B;选项。 此数据集用于隔离可更新字段。 所有可更新字段都必须在此数据集中。
+在配置可更新字段之前，它们必须驻留在自定义数据集中。 有关自定义数据集工作流的演练，请参阅[创建数据集并摄取数据](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}，并使用&#x200B;**[!UICONTROL 从架构创建数据集]**&#x200B;选项。 此数据集用于隔离可更新字段。 所有可更新字段都必须在此数据集中。
 
 为个人资料创建数据集，并为企业帐户创建另一个数据集。 在配置过程中选择每个新数据集：
 
@@ -104,7 +105,11 @@ Adobe Experience Platform (AEP)架构通常包含复杂层次结构中的许多�
 
 关系架构允许您创建自定义数据类。 通过访问多个数据集，您可以创建专门针对您的数据需求定制的类。 在历程决策和电子邮件个性化中将关系架构用于业务实体，例如购买、许可和事件注册。 您最多可以选择50个架构，每个架构最多可以选择100个字段。
 
-有关如何将所选字段用于高级电子邮件个性化的信息，请参阅[内容个性化](../content/personalization.md#custom-datasets)。
+有关如何将所选字段用于高级电子邮件个性化的信息，请参阅[内容个性化](../content/personalization.md#custom-datasets)。 有关如何将所选字段用于历程决策（按帐户拆分路径）的信息，请参阅[自定义数据筛选](../journeys/split-merge-paths-nodes.md#custom-data-filtering)。<!-- add link to split path by people in M 1.5 GA release -->
+
+>[!NOTE]
+>
+>[关系架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#)可作为[!DNL Journey Optimizer B2B Edition]的有限可用性版本使用。 Data Mirror和关系架构可供[!DNL Journey Optimizer Orchestrated Campaigns]许可证持有人使用。 关系架构也以受限版本形式提供给[!DNL Customer Journey Analytics]用户，具体取决于您的许可证和功能启用。 请联系您的Adobe代表以获取访问权限。
 
 >[!NOTE]
 >
