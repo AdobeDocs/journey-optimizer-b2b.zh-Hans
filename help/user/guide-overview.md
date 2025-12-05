@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B Edition 文档
 description: Journey Optimizer B2B Edition 的完整文档——浏览可用于加入、创建购买群组、生成帐户历程和管理内容的资源。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: ae903f25327d7ac9d7b47e4b5f736a164b2d2d4b
+source-git-commit: 32b36690e76a4920a87bdd6c2fff85158c22d0e7
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 62%
+source-wordcount: '873'
+ht-degree: 48%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 62%
 
 >[!TAB AI代理]
 
-借助[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}，AI Assistant界面可自动调用专业代理以获取正确的答案和见解。 Agent Orchestrator 会记住您的对话历史，使您能够自然地延续以前的问题，无需重复上下文，它还会结合来自多个代理的洞察，为您提供清晰、统一的回答。在[!DNL Journey Optimizer B2B Edition]上下文中，有三个针对特定B2B任务和域的专门构建代理：
+借助[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}，AI Assistant界面可自动调用专业代理以获取正确的答案和见解。 Agent Orchestrator 会记住您的对话历史，使您能够自然地延续以前的问题，无需重复上下文，它还会结合来自多个代理的洞察，为您提供清晰、统一的回答。在[!DNL Journey Optimizer B2B Edition]上下文中，有三个针对特定B2B任务和域的专门构建代理：
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [历程生成代理B2B](./agents/journey-agent.md)
@@ -67,32 +67,83 @@ B2B 营销人员现在可以使用个人级别的参与度评分作为某个历�
 
 >[!ENDTABS]
 
-有关新功能和改进的完整列表，请参阅[发行说明](../user/release-notes/release-notes.md)。<!-- Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates page](using/rn/documentation-updates.md).-->
+有关新功能和改进的完整列表，请参阅[发行说明](../user/release-notes/release-notes.md)。
 
-## 从基础知识开始
+## 开始浏览 {#section-explore}
 
-<table style="table-layout:fixed">
-  <tr style="border: 0;">
-    <td>
-    <a href="home-page.md"><img width="140px" src="./assets/launch.png" alt="产品使用启动"></a>
-    <div><strong>从您的主页启动</strong><br/>，了解如何在 Journey Optimizer B2B Edition 中通过基于您的角色的个性化主页更快地实现您的目标。</div>
-    </td>
-      <td>
-    <a href="buying-groups/buying-groups-overview.md"><img width="140px" src="./assets/communication.png" alt="购买群组"></a>
-    <div><strong>构建您的第一个购买群组</strong><br/>在 Journey Optimizer B2B Edition 中创建您的第一个购买群组，以自动执行吸引和鉴定联系人的过程。</div>
-    </td>
-    <td>
-    <a href="journeys/journey-overview.md"><img width="140px" src="./assets/flow.png" alt="帐户历程"></a>
-    <div><strong>创建您的第一个帐户历程</strong><br/>设计和编排个性化的帐户历程，以协调营销推广与目标参与。 
-    </div>
-    </td>
-  </tr>
-  <tr style="border: 0;">
-    <td align="center"><a href="home-page.md"><img src="../assets/learn-more.svg" alt="了解详情"></a></td>
-    <td align="center"><a href="buying-groups/buying-groups-overview.md"><img src="../assets/learn-more.svg" alt="了解详情"></a></td>
-    <td align="center"><a href="journeys/journey-overview.md"><img src="../assets/learn-more.svg" alt="了解详情"></a></td>
-    </tr>
-</table>
+:::: landing-cards-container
+:::
+![列表图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+最新发行说明
+
+了解Adobe Journey Optimizer B2B edition中的最新发行说明、新增功能和改进。
+
+[查看发行说明](./release-notes/release-notes.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+快速入门
+
+查看Journey Optimizer B2B edition管理员和营销人员入门指南。
+
+[快速入门](./start/get-started.md)
+:::
+
+:::
+![配置图标](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+配置XDM字段
+
+实施系统配置以激活要在Adobe Journey Optimizer B2B edition中使用的XDM架构和字段。
+
+[查看XDM字段管理](./admin/xdm-field-management.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+
+通信渠道
+
+配置和管理电子邮件、短信和其他渠道，以提供个性化的客户互动。
+
+[配置电子邮件渠道](./admin/configure-channels-emails.md)
+[配置短信渠道](./admin/configure-channels-sms.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
+
+设计内容
+
+了解如何创作和管理内容，以提供通过历程创建的个性化客户体验。
+
+[浏览内容组件](./content/content-components.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+
+创建帐户历程
+
+设计、编排、管理和优化个性化的帐户历程。
+
+[探索历程](./journeys/journey-overview.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+
+了解购买组
+
+有关创建、管理和优化购买群体以实现有效定位的详细指导。
+
+[了解购买群组](./buying-groups/buying-groups-overview.md)
+:::
+
+::::
 
 ## 概述演示
 
@@ -100,7 +151,7 @@ B2B 营销人员现在可以使用个人级别的参与度评分作为某个历�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432054?quality=12)
 
-## 浏览文档
+## 深入了解文档
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
@@ -143,7 +194,7 @@ B2B 营销人员现在可以使用个人级别的参与度评分作为某个历�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a>——<a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a>——<a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/home" target="_blank">文档</a>——<a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">开发人员资源</a>
