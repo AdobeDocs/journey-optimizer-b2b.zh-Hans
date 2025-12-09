@@ -136,11 +136,11 @@ Adobe Journey Optimizer B2B Edition 现已采用简化架构。通过此更新�
 >请注意，关系架构必须具有以下配置：
 >
 ><li>行为：记录
-&gt; <li>分段：已启用
-&gt; <li>关系类型：多对一
-&gt; <li>引用架构： <a href="https://experienceleague.adobe.com/zh-hans/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data">B2B帐户 — XDM业务帐户架构</a>
-&gt; <li>必填字段：主键、外键和版本描述符
-&gt; <li>关联的数据集：已定义并映射到架构
+>&gt; <li>分段：已启用
+>&gt; <li>关系类型：多对一
+>&gt; <li>引用架构： <a href="https://experienceleague.adobe.com/zh-hans/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data">B2B帐户 — XDM业务帐户架构</a>
+>&gt; <li>必填字段：主键、外键和版本描述符
+>&gt; <li>关联的数据集：已定义并映射到架构
 
 ### 事件
 
