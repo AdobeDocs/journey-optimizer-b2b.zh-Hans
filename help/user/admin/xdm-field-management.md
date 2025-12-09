@@ -90,7 +90,7 @@ Adobe Experience Platform (AEP)架构通常包含复杂层次结构中的许多�
 
 #### 可更新字段
 
-在配置可更新字段之前，它们必须驻留在自定义数据集中。 有关自定义数据集工作流的演练，请参阅[创建数据集并摄取数据](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}，并使用&#x200B;**[!UICONTROL 从架构创建数据集]**&#x200B;选项。 此数据集用于隔离可更新字段。 所有可更新字段都必须在此数据集中。
+在配置可更新字段之前，它们必须驻留在自定义数据集中。 有关自定义数据集工作流的演练，请参阅[创建数据集并摄取数据](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}，并使用&#x200B;**[!UICONTROL 从架构创建数据集]**&#x200B;选项。 此数据集用于隔离可更新字段。 所有可更新字段都必须在此数据集中。
 
 >[!IMPORTANT]
 >
@@ -117,7 +117,7 @@ Adobe Experience Platform (AEP)架构通常包含复杂层次结构中的许多�
 
 >[!NOTE]
 >
->[关系架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#)可作为[!DNL Journey Optimizer B2B Edition]的有限可用性版本使用。 Data Mirror和关系架构可供[!DNL Journey Optimizer Orchestrated Campaigns]许可证持有人使用。 关系架构也以受限版本形式提供给[!DNL Customer Journey Analytics]用户，具体取决于您的许可证和功能启用。 请联系您的Adobe代表以获取访问权限。
+>[关系架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/relational#)可作为[!DNL Journey Optimizer B2B Edition]的有限可用性版本使用。 Data Mirror和关系架构可供[!DNL Journey Optimizer Orchestrated Campaigns]许可证持有人使用。 关系架构也以受限版本形式提供给[!DNL Customer Journey Analytics]用户，具体取决于您的许可证和功能启用。 请联系您的Adobe代表以获取访问权限。
 
 >[!NOTE]
 >
