@@ -3,9 +3,9 @@ title: Journey Optimizer B2B Edition 发行说明
 description: 探索 Adobe Journey Optimizer B2B Edition 中的最新功能、增强功能和错误修复。随时掌握最新功能与产品改进信息。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 4033d0eb711120d615851d614aa6abbcf07f6ea0
+source-git-commit: b7940e98c8370c65c7ef6b795ef27fd4b23eee7a
 workflow-type: tm+mt
-source-wordcount: '3778'
+source-wordcount: '3780'
 ht-degree: 92%
 
 ---
@@ -69,7 +69,7 @@ Adobe Journey Optimizer B2B Edition 现已采用简化架构。通过此更新�
 | ---- | ---- | ----------- |
 | 功能 | 关系型数据模型 | 利用链接到B2B帐户的关系数据来过滤帐户历程中的帐户或个性化电子邮件内容。 此关系数据可以表示真实世界的商业实体，如购买记录、事件注册、软件许可证、服务订阅或预订。 [了解详情](../admin/xdm-field-management.md#relational-schemas) |
 | 功能 | 多个Marketo Engage激活 | 配置与远程Marketo Engage实例的连接，并使用这些连接设置历程的Marketo Engage操作。 这些操作（如在列表中添加或删除人员，或将人员添加到请求营销活动）适用于指定的Marketo Engage实例。 [了解详情](../admin/marketo-actions-connect.md) |
-| 功能 | 电子邮件疲劳重复数据删除 | 您现在可以启用电子邮件重复数据删除功能，确保同一历程中不会向同一邮箱地址重复发送相同邮件。重复地址将在首次记录完成该历程之前被阻止发送。 |
+| 功能 | 电子邮件疲劳重复数据删除 | 您现在可以启用电子邮件重复数据删除功能，确保同一历程中不会向同一邮箱地址重复发送相同邮件。重复的地址将被阻止，直到使用该电子邮件地址的第一条记录完成历程。  [了解详情](../content/email-deduplication.md) |
 | 增强功能 | 通信限制 | 现在，系统尊重了Marketo Engage和Journey Optimizer B2B edition的组合通信限制。 [了解详情](../admin/configure-channels-emails.md#communication-limits) |
 
 <!-- There are additional functional changes with the simplified architecture:
