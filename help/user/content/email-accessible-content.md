@@ -1,61 +1,55 @@
 ---
-title: 设计无障碍内容
+title: 设计可访问的内容
 description: 了解如何在Journey Optimizer B2B edition中为您的电子邮件和登陆页面设计无障碍内容
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、设计、辅助功能
-source-git-commit: 68afc2a865a7640f4fd4d5a08ca2299bdc134887
+source-git-commit: 09391f6d7c3360d0624edd7dae6c25a8616046d9
 workflow-type: tm+mt
-source-wordcount: '1580'
+source-wordcount: '1645'
 ht-degree: 0%
 
 ---
 
-# 设计无障碍内容 {#accessible-content}
+# 设计可访问的内容 {#accessible-content}
 
 [欧洲无障碍法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}是一项指令，旨在通过消除因成员国之间国家规则不同而造成的障碍，增强无障碍产品和服务的内部市场。
 
 此法规规定，所有数字通信（包括电子邮件、新闻稿、PDF和可下载内容）都应可供访问。 因此，在为收件人创建内容时，您需要遵循特定准则，例如使用无障碍字体、可读格式并为图像提供替换文本。
 
-[!DNL Journey Optimizer B2B Edition]电子邮件Designer允许营销人员为&#x200B;**电子邮件**&#x200B;和&#x200B;**登陆页面**&#x200B;生成内容，它允许您根据Web内容无障碍准则(WCAG) 2.1和AA级轻松遵守此指令。
+通过[!DNL Journey Optimizer B2B Edition]设计工具，营销人员可以为&#x200B;**电子邮件**&#x200B;和&#x200B;**登陆页面**&#x200B;生成内容。 根据Web内容无障碍准则(WCAG) 2.1 （级别AA），使用这些工具遵守此指令。
 
-因此，下面列出了使用[!DNL Journey Optimizer B2B Edition]设计无障碍内容的最佳实践。
-
->[!NOTE]
->
->此页面旨在使所有收件人都能够访问您的内容，以确保残障人士能够阅读、理解您使用[!DNL Journey Optimizer B2B Edition]设计的电子邮件和登陆页面并与之交互。
->
+以下部分概述了使用[!DNL Journey Optimizer B2B Edition]设计辅助功能内容的最佳实践。 此信息侧重于设计可供所有收件人访问的内容，以便残障人士能够阅读、理解您的电子邮件和登陆页面并与之交互。
  
-
 ## 确保文本可读性 {#text-readability}
 
-利用&#x200B;**[!UICONTROL 文本]**&#x200B;组件的&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡确保文本可读，例如使用适当的颜色对比度和简单字体。 [了解详情](content-components.md#text)
+利用&#x200B;**[!UICONTROL 文本]**&#x200B;组件的&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡确保文本可读，例如使用适当的颜色对比度和简单字体。 有关文本组件样式设置的详细信息，请参阅[内容组件](content-components.md#text)
 
-![](assets/accessible-text-styles.png){width="80%"}
+![文本组件“样式”选项卡显示字体、大小和颜色选项](assets/accessible-text-styles.png){width="700" zoomable="yes"}
 
 对于字体和文本，请确保遵循以下准则：
 
-**字体选择**
+### 字体选择
 
-* 使用Arial、Verdana、Tahoma、Helvetica或Open Sans等无衬线字体。
+* 使用无衬线字体，如Arial、Verdana、Tahoma、Helvetica或Open Sans。
 * 避免在正文内容中使用衬线、草稿或装饰性字体。
 * 为了一致性和回退，请粘贴到有限的字体集（例如： `font-family: Arial, Helvetica, sans-serif;`）。
 
-**字体大小**
+### 字体大小
 
 * 确保正文的最小字体大小为16px。
 * 为标题使用正确的层次结构。
 
-**颜色对比度**
+### 颜色对比度
 
 * 保持文本与背景之间的对比度至少为4.5:1。
 * 对于大文本(≥24px或粗体18px)，请确保对比度至少为3:1。
 * 避免在白色背景上使用浅灰色或淡色文本。
 * 不要只依靠颜色来传达含义，而是要使用下划线、图标等。
 
-**文本辅助功能**
+### 文本辅助功能
 
 * 避免在图像中使用文本。
 * 请勿在正文中使用所有大写字母。
@@ -74,11 +68,11 @@ ht-degree: 0%
 
 例如，您可以更新背景或更改边距、填充和对齐方式，以改善内容的可视访问性。
 
-![](assets/accessible-styles.png){width="80%"}
+![样式窗格，带有背景、边距、填充和对齐设置](assets/accessible-styles.png){width="700" zoomable="yes"}
 
-此外，[!DNL Journey Optimizer B2B Edition]电子邮件Designer允许您预览和优化不同设备和屏幕大小的设计。 您随时可以&#x200B;**[!UICONTROL 切换到实时视图]**&#x200B;以查看您的内容在各种设备大小上呈现的方式。
+此外，[!DNL Journey Optimizer B2B Edition]电子邮件Designer允许您预览和优化不同设备和屏幕大小的设计。 您可以随时&#x200B;**[!UICONTROL 切换到实时视图]**，以查看内容在各种设备大小上的呈现方式。
 
-![](assets/accessible-live-view.png){width="80%"}
+![显示桌面、平板电脑和移动设备预览选项的实时视图切换](assets/accessible-live-view.png){width="700" zoomable="yes"}
 
 >[!CAUTION]
 >
@@ -86,9 +80,9 @@ ht-degree: 0%
 
 ## 对图像使用替换文本 {#alt-text}
 
-使用&#x200B;**[!UICONTROL 图像]**&#x200B;组件为图像提供替换文本。 [了解详情](content-components.md#image)
+使用&#x200B;**[!UICONTROL 图像]**&#x200B;组件为图像提供替换文本。 有关图像组件设置的详细信息，请参阅[内容组件](content-components.md#image)
 
-![](assets/accessible-alt-text.png){width="90%"}
+![突出显示替换文本字段的图像组件设置面板](assets/accessible-alt-text.png){width="700" zoomable="yes"}
 
 要在数字产品中使用有效的替换文本，请遵循以下准则：
 
@@ -100,7 +94,7 @@ ht-degree: 0%
 
 使用Email Designer相关结构和[内容组件](content-components.md)，以及&#x200B;**[!UICONTROL 样式]**&#x200B;窗格中的选项，以清晰、逻辑和简洁的方式整理您的内容，使所有人都可以访问。
 
-![](assets/accessible-components.png){width="100%"}
+![向Designer发送电子邮件，显示有条理布局的结构和内容组件](assets/accessible-components.png){width="800" zoomable="yes"}
 
 * 使用结构化、语义化的HTML，并带有适当的标题、段落、列表和表。
 * 确保内容遵循从左至右、从上至下的逻辑流程。
@@ -117,7 +111,7 @@ ht-degree: 0%
 * 使用主动语态使句子结构更简单。
 * 避免使用某些人可能不熟悉的俚语、行话或地区性用语。
 
-为了评估您的电子邮件可读性，您可以使用常用的[Flesch Reading Ease测试](https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"}，该测试可在Microsoft Word中找到，并以0至100的级数计算内容的阅读方便程度。
+要评估您的电子邮件可读性，请使用Microsoft Word中常用的[Flesch阅读简易测试](https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"}。 它按0-100的数值计算内容的读取难易程度。
 
 ## 测试您的内容 {#test}
 
@@ -129,7 +123,7 @@ ht-degree: 0%
 
 * 在将内容发送到实际受众之前，请发送校样以测试内容的渲染。
 
-![](assets/accessible-simulate.png){width="90%"}
+![具有测试配置文件预览选项的内容模拟界面](assets/accessible-simulate.png){width="800" zoomable="yes"}
 
 如果内容可可靠访问，要以更一致的方式签入，请访问特定的外部工具，例如：
 
@@ -139,13 +133,12 @@ ht-degree: 0%
 
 ## 使用深色模式 {#dark-mode}
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
 
 深色模式增强了对光线敏感或视觉障碍的用户的可视访问性，从而改善了观看体验。
 
-![](assets/accessible-dark-mode.png){width="90%"}
+![比较浅色模式和深色模式渲染的电子邮件预览](assets/accessible-dark-mode.png){width="800" zoomable="yes"}
 
-在深色模式下设计内容的最佳实践中，使用透明PNG或SVG，设置适当的元标记和CSS，并在不支持深色模式时提供可访问的回退样式。 最后，通过在浅色和深色模式下测试所有电子邮件内容和UI元素，确保电子邮件在深色模式下正确呈现。
+针对深色模式进行设计时，请使用透明的PNG或SVG图像，并设置相应的元标记和CSS。 如果不支持深色模式，请提供可访问的回退样式。 最后，在浅色和深色模式下测试所有电子邮件内容和UI元素。
 
 ## 使用特定属性进行辅助功能 {#attributes}
 
@@ -189,7 +182,7 @@ ht-degree: 0%
 
   +++
 
-屏幕阅读器依赖于`lang`属性来应用正确的发音规则，而文本方向可确保从左到右或从右到左语言的内容自然流动。 如果没有这些属性，用户可能会遇到阅读顺序混乱或发音错误的情况。 因此，请始终使用适当的`lang`和`dir`属性来封装电子邮件正文。
+屏幕阅读器依赖`lang`属性来应用正确的发音规则。 文本方向可确保内容自然地以从左至右或从右至左的语言流动。 如果没有这些属性，用户可能会遇到阅读顺序混乱或发音错误的情况。 因此，请始终使用适当的`lang`和`dir`属性来封装电子邮件正文。
 
 >[!TIP]
 >
@@ -197,7 +190,7 @@ ht-degree: 0%
 
 ### 表格 {#tables}
 
-在HTML内容中，表格通常用于布局。 默认情况下，屏幕阅读器将每`<table>`视为数据表，声明行、列和结构。 如果表仅用于格式化，这可能会造成混淆。
+在HTML内容中，表格通常用于布局。 默认情况下，屏幕阅读器将每`<table>`视为数据表，声明行、列和结构。 如果表仅用于格式化，则此结构可能会混淆。
 
 将`role="presentation"`（或`role="none"`）添加到布局表，以确保辅助型技术跳过其结构并仅关注实际内容。
 
@@ -215,7 +208,7 @@ ht-degree: 0%
 ```
 
 屏幕阅读器显示：
-“你好，世界。 欢迎收看我们的新闻稿。” *（未提及行、列或表）*
+“你好，世界。 欢迎收看此新闻稿。” *（未提及行、列或表）*
 
 +++
 
@@ -253,11 +246,11 @@ ht-degree: 0%
 
 ### 链接文本 {#links}
 
-屏幕阅读器使用文本阅读链接。 如果链接仅标记为“单击此处”或“了解更多”，则使用辅助技术的用户将无法知道目标。 为确保辅助功能，他们需要清晰地指示目标或操作的描述性文本。
+屏幕阅读器使用文本阅读链接。 如果链接仅标记为&#x200B;_单击此处_&#x200B;或&#x200B;_了解更多_，则使用辅助技术的用户不知道目标。 为确保辅助功能，他们需要清晰地指示目标或操作的描述性文本。
 
-使用电子邮件Designer添加指向内容的链接并编辑标签，使其可见（可见）且具有描述性（清除用途）。 避免使用模糊的标签，如“此处”或“更多”。
+使用电子邮件Designer添加指向内容的链接并编辑标签，使其可见（可见）且具有描述性（清除用途）。 避免&#x200B;_此处_&#x200B;或&#x200B;_更多_&#x200B;之类的模糊标签。
 
-![](assets/accessible-link.png){width="70%"}
+![显示URL字段和描述性标签选项的链接设置面板](assets/accessible-link.png){width="600" zoomable="yes"}
 
 +++示例 — 良好链接（描述性）： 
 
@@ -289,7 +282,7 @@ ht-degree: 0%
 
 <!--for landing pages-->
 
-提供键盘导航和焦点支持使无法使用鼠标的用户能够完全访问内容并与之交互。 它还通过为所有用户提供清晰、一致的信息浏览方式，提高了总体可用性。
+提供键盘导航和焦点支持使无法使用鼠标访问内容并与内容交互的用户能够访问。 它还通过为所有用户提供清晰、一致的信息浏览方式，提高了总体可用性。
 
 * 通过键盘聚焦
    * 确保所有交互式元素（如按钮、复选框、链接）均具有`tabindex="0"`，以便它们按自然选项卡顺序包含。
