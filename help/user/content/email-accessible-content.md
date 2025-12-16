@@ -23,6 +23,7 @@ ht-degree: 0%
 
 以下部分概述了使用[!DNL Journey Optimizer B2B Edition]设计辅助功能内容的最佳实践。 此信息侧重于设计可供所有收件人访问的内容，以便残障人士能够阅读、理解您的电子邮件和登陆页面并与之交互。
  
+
 ## 确保文本可读性 {#text-readability}
 
 利用&#x200B;**[!UICONTROL 文本]**&#x200B;组件的&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡确保文本可读，例如使用适当的颜色对比度和简单字体。 有关文本组件样式设置的详细信息，请参阅[内容组件](content-components.md#text)
