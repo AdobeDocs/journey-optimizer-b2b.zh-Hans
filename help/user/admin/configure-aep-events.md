@@ -6,7 +6,7 @@ role: Admin
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为测试版"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 5f3d7bb8eb72c48409273de43b03114d273cb80c
+source-git-commit: cefd98099bf6524d1d559a47d502990852de1468
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 7%
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # 选择体验事件和字段
 
-管理员可以在Experience Event合并架构中选择特定的[AEP Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其关联字段。 选择后，用户可以配置决策规则以侦听这些Experience事件，以基于近乎实时的事件数据启用动态和针对性的营销活动操作。
+管理员可以在Experience Event合并架构中选择特定的[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其关联字段。 选择后，用户可以配置决策规则以侦听这些Experience事件，以基于近乎实时的事件数据启用动态和针对性的营销活动操作。
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 在历程中使用AEP体验事件包括两个步骤：
@@ -139,8 +139,8 @@ ht-degree: 7%
 
 +++字段
 
-| 字段 | 字段类型 |
-| ----- | ---------- |
+| 显示名称 | 路径 |
+| ------------ | ---- |
 | 标识符 | `_id` |
 | 事件类型 | `eventType` |
 | 时间戳 | `timestamp` |
@@ -167,8 +167,8 @@ ht-degree: 7%
 
 +++字段
 
-| 字段 | 字段类型 |
-| ----- | ---------- |
+| 显示名称 | 路径 |
+| ------------ | ---- |
 | 标识符 | `_id` |
 | 事件类型 | `eventType` |
 | 时间戳 | `timestamp` |
@@ -195,8 +195,8 @@ ht-degree: 7%
 
 +++字段
 
-| 字段 | 字段类型 |
-| ----- | ---------- |
+| 显示名称 | 路径 |
+| ------------ | ---- |
 | 标识符 | `_id` |
 | 事件类型 | `eventType` |
 | 时间戳 | `timestamp` |
@@ -227,8 +227,8 @@ ht-degree: 7%
 
 +++字段
 
-| 字段 | 字段类型 |
-| ----- | ---------- |
+| 显示名称 | 路径 |
+| ------------ | ---- |
 | 标识符 | `_id` |
 | 事件类型 | `eventType` |
 | 时间戳 | `timestamp` |
@@ -260,8 +260,8 @@ ht-degree: 7%
 
 +++字段
 
-| 字段 | 字段类型 |
-| ----- | ---------- |
+| 显示名称 | 路径 |
+| ------------ | ---- |
 | 标识符 | `_id` |
 | 事件类型 | `eventType` |
 | 时间戳 | `timestamp` |
@@ -291,8 +291,8 @@ ht-degree: 7%
 
 +++字段
 
-| 字段 | 字段类型 |
-| ----- | ---------- |
+| 显示名称 | 路径 |
+| ------------ | ---- |
 | 标识符 | `_id` |
 | 事件类型 | `eventType` |
 | 时间戳 | `timestamp` |
@@ -322,8 +322,8 @@ ht-degree: 7%
 
 +++字段
 
-| 字段 | 字段类型 |
-| ----- | ---------- |
+| 显示名称 | 路径 |
+| ------------ | ---- |
 | 标识符 | `_id` |
 | 事件类型 | `eventType` |
 | 时间戳 | `timestamp` |
@@ -350,8 +350,8 @@ ht-degree: 7%
 
 +++字段
 
-| 字段 | 字段类型 |
-| ----- | ---------- |
+| 显示名称 | 路径 |
+| ------------ | ---- |
 | 标识符 | `_id` |
 | 事件类型 | `eventType` |
 | 时间戳 | `timestamp` |
@@ -381,8 +381,8 @@ ht-degree: 7%
 
 +++字段
 
-| 字段 | 字段类型 |
-| ----- | ---------- |
+| 显示名称 | 路径 |
+| ------------ | ---- |
 | 标识符 | `_id` |
 | 事件类型 | `eventType` |
 | 时间戳 | `timestamp` |
@@ -412,8 +412,8 @@ ht-degree: 7%
 
 +++字段
 
-| 字段 | 字段类型 |
-| ----- | ---------- |
+| 显示名称 | 路径 |
+| ------------ | ---- |
 | 标识符 | `_id` |
 | 事件类型 | `eventType` |
 | 时间戳 | `timestamp` |
@@ -443,8 +443,8 @@ ht-degree: 7%
 
 +++字段
 
-| 字段 | 字段类型 |
-| ----- | ---------- |
+| 显示名称 | 路径 |
+| ------------ | ---- |
 | 标识符 | `_id` |
 | 事件类型 | `eventType` |
 | 时间戳 | `timestamp` |
@@ -464,4 +464,4 @@ ht-degree: 7%
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448693/?captions=chi_hans&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) -->
