@@ -19,7 +19,7 @@ Web配置是由交付内容的URL标识的Web属性。 它可以匹配单个页�
 
 **先决条件**
 
-要使用Web渠道，您的网站必须实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以便进行访客识别和内容交付。 确保Adobe Experience Platform Web SDK的版本为2.16或更高版本。
+要使用Web渠道，您的网站必须实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以便进行访客识别和内容交付。 确保Adobe Experience Platform Web SDK的版本为2.16或更高版本。
 
 Journey Optimizer B2B edition中的Web渠道配置需要以下[权限](../admin/user-management.md#b2b-product-permissions)：
 
