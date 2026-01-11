@@ -103,7 +103,7 @@ Journey Optimizer B2B edition中的Web渠道配置需要以下[权限](../admin/
 
    ![定义与Web渠道配置匹配的页面规则](./assets/config-web-channel-pages-matching-rules.png){width="600" zoomable="yes"}
 
-1. 如果您的用例需要多个规则，请单击“添加其他页面规则”****&#x200B;并重复上一步。
+1. 如果您的用例需要多个规则，请单击“添加其他页面规则”**&#x200B;**&#x200B;并重复上一步。
 
    * 您最多可以定义10个规则。
 
