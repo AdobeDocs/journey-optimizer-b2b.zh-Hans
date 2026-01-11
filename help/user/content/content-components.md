@@ -4,9 +4,9 @@ description: 在Journey Optimizer B2B edition中设计包含内容组件的电�
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: 30bb44f9c308cd144a53a60b4f420380df5528e4
 workflow-type: tm+mt
-source-wordcount: '2843'
+source-wordcount: '2825'
 ht-degree: 6%
 
 ---
@@ -307,7 +307,7 @@ ht-degree: 6%
 
    按钮大小会根据设置的文本和样式进行调整。
 
-1. 对于&#x200B;**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
+1. 对于**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
 
    * _[!UICONTROL 无]_ — 使用默认浏览器或客户端行为（默认）打开链接。
    * _[!UICONTROL 空白]_ — 在新窗口或选项卡中打开链接。
@@ -371,7 +371,7 @@ ht-degree: 6%
 
 ### 文本
 
-使用文本组件在内容中插入文本块。 在画布中选择文本组件后，输入文本并使用工具栏选项添加内联格式和选项，包括个性化令牌和条件变体。 有关设计空间中的工艺文本（包括内联样式和选项）的详细信息，请参阅文本创作。
+使用文本组件在内容中插入文本块。 在画布中选择文本组件后，输入文本并使用工具栏选项添加内联格式和选项，包括个性化令牌和条件变体。<!-- For detailed information about crafting text, including inline styling and options, in the design space, see [Text authoring](#). -->
 
 在&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡中自定义文本组件样式。
 
@@ -605,7 +605,7 @@ ht-degree: 6%
 
    按钮大小会根据设置的文本和样式进行调整。
 
-1. 对于&#x200B;**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
+1. 对于**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
 
    * _[!UICONTROL 无]_ — 使用默认浏览器或客户端行为（默认）打开链接。
    * _[!UICONTROL 空白]_ — 在新窗口或选项卡中打开链接。
@@ -727,7 +727,7 @@ ht-degree: 6%
 
 ### 表单（登陆页面）
 
-[!BADGE Beta]{type=Informative url="/help/user/content/forms.md" tooltip="Beta功能"}
+[!BADGE Beta 版]{type=Informative url="/help/user/content/forms.md" tooltip="Beta功能"}
 
 使用&#x200B;_表单_&#x200B;组件将已发布的表单添加到登陆页面或登陆页面模板。 有关创建和发布表单的更多信息，请参阅[Forms](./forms.md)。
 

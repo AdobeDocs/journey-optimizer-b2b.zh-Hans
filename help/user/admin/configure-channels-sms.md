@@ -1,17 +1,17 @@
 ---
-title: 短信配置
+title: 短信渠道配置
 description: 将Sinch、Twilio和Infobip等SMS提供商连接到API凭据，以在Journey Optimizer B2B edition历程中启用文本消息。
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 325ae8e8c1f3bbf25e0d96907ede6cb9f2e76e3d
+source-git-commit: ee6000d8527222a246f715de033ee99ea49f47fd
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
-# 短信配置
+# SMS渠道配置
 
 Adobe Journey Optimizer B2B edition通过短信服务提供商（或短信网关提供商）发送文本消息。 在创建短信消息之前，请从&#x200B;_管理员_&#x200B;设置中配置服务提供商。
 
