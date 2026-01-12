@@ -23,7 +23,7 @@ ht-degree: 0%
 
 * 产品管理员已配置一个或多个Web渠道来定义要用于Web体验的URL（页面）。 有关详细信息，请参阅[Web渠道配置](../admin/configure-channels-web.md)。
 
-* 您的网站已实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，用于访客识别和内容交付。 需要Adobe Experience Platform Web SDK版本2.16或更高版本。
+* 您的网站已实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，用于访客识别和内容交付。 需要Adobe Experience Platform Web SDK版本2.16或更高版本。
 
 * 您拥有在历程中创建和管理Web体验所需的[权限](../admin/user-management.md#b2b-product-permissions)：
    * _[!UICONTROL 营销活动]_ > _[!UICONTROL 管理营销活动]_ — 添加或更新Web个性化操作节点是必需的。
@@ -326,7 +326,7 @@ Drag and drop modifications in the list to change the order. The preview updates
 
 激活（实时）Web体验后，您还可以使用Adobe Customer Journey Analytics（需要产品订阅）构建报表。 为了改进Web体验监控，您还可以跟踪网站任何特定元素的点击量。 通过跟踪，可在Web报表中显示该元素的点击次数。
 
-有关Customer Journey Analytics和构建Web报表的更多信息，请参阅[Customer Journey Analytics文档](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)。
+有关Customer Journey Analytics和构建Web报表的更多信息，请参阅[Customer Journey Analytics文档](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-landing)。
 
 1. 在Web体验编辑器中选择元素，例如图像或链接。
 
