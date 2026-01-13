@@ -3,9 +3,9 @@ title: In-CRM Insights
 description: 直接在CRM中访问Journey Optimizer B2B edition购买群组。 销售团队成员可以使用In-CRM Insights查看参与数据并识别销售机会。
 feature: Sales Insights, Buying Groups
 role: User
-source-git-commit: b5173345f5dfb879b36726ca27e164d9a267dac4
+source-git-commit: 2eb5b6226730a1948b480a9dee0c6f2786e01cc5
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,6 @@ ht-degree: 0%
 # In-CRM Insights
 
 [!DNL In-CRM Insights]是一个集成到Salesforce和Microsoft Dynamics 365中的基于Web的应用程序，它允许您直接在CRM中访问[!DNL Journey Optimizer B2B Edition]购买团体。 它汇集了销售数据源，使得更容易发现提高参与度和销售潜力的机会。
-
-[!DNL In-CRM Insights]应用程序在[Marketo Sales Insights包](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange)中可用。
 
 ## 安装
 
@@ -33,8 +31,8 @@ ht-degree: 0%
 
 如果要将用户限制为仅[!DNL In-CRM Insights]：
 
-1. 创建一个[自定义角色](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role)并为其分配&#x200B;**销售分析：查看销售分析**&#x200B;权限。
-1. 创建新的[用户组](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group)。
+1. 创建一个[自定义角色](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role)并为其分配&#x200B;**销售分析：查看销售分析**&#x200B;权限。
+1. 创建新的[用户组](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group)。
 1. 将Experience Platform产品配置文件添加到组。
 
 ### 安装包
@@ -73,4 +71,4 @@ ht-degree: 0%
 
 按照提示登录Adobe帐户。 您的购买组已加载并可供查看。
 
-选择购买组后，您可以浏览[组详细信息](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#)。 这与Journey Optimizer B2B edition中显示的数据和分析相同，但数据通过[!DNL In-CRM Insights]是只读的。
+选择购买组后，您可以浏览[组详细信息](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#)。 这与Journey Optimizer B2B edition中显示的数据和分析相同，但数据通过[!DNL In-CRM Insights]是只读的。
