@@ -31,8 +31,8 @@ ht-degree: 0%
 
 如果要将用户限制为仅[!DNL In-CRM Insights]：
 
-1. 创建一个[自定义角色](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role)并为其分配&#x200B;**销售分析：查看销售分析**&#x200B;权限。
-1. 创建新的[用户组](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group)。
+1. 创建一个[自定义角色](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role)并为其分配&#x200B;**销售分析：查看销售分析**&#x200B;权限。
+1. 创建新的[用户组](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group)。
 1. 将Experience Platform产品配置文件添加到组。
 
 ### 安装包
@@ -71,4 +71,4 @@ ht-degree: 0%
 
 按照提示登录Adobe帐户。 您的购买组已加载并可供查看。
 
-选择购买组后，您可以浏览[组详细信息](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#)。 这与Journey Optimizer B2B edition中显示的数据和分析相同，但数据通过[!DNL In-CRM Insights]是只读的。
+选择购买组后，您可以浏览[组详细信息](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#)。 这与Journey Optimizer B2B edition中显示的数据和分析相同，但数据通过[!DNL In-CRM Insights]是只读的。
