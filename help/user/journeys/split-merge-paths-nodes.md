@@ -284,4 +284,4 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443266/?captions=chi_hans&learn=on)
