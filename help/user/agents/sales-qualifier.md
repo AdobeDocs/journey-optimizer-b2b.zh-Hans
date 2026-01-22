@@ -3,9 +3,9 @@ title: 销售限定词
 description: 通过Sales Qualifier自动化B2B潜在客户鉴定和推广。 它为BDR提供AI支持的研究、电子邮件起草、CRM集成和参与计划。
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: 467a8d824b9a21ff7b80c3a170265c591fc94f9e
+source-git-commit: 38c4d68a9c21ca4d6b5f55d59a31becbf73642e7
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1325'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Sales Qualifier是Adobe Journey Optimizer B2B edition的AI驱动附加应用程�
 
 以下视频简要演示了Sales Qualifier和Account Qualification Agent。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476571?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 销售限定符包含在[!UICONTROL Journey Optimizer B2B edition]中，但它是Experience Platform Experience Cloud中的单独应用程序。
 
@@ -95,7 +95,7 @@ Adobe AI代理使用&#x200B;_自然语言查询_，这意味着他们在文本�
 
 电子邮件发件箱面板列出了您发送的所有自动电子邮件。
 
-## 会议预订
+## 会议预约
 
 此面板显示通过自动化设置的所有会议。
 
@@ -209,17 +209,18 @@ _[!UICONTROL 代表管理]_&#x200B;面板显示定义的代表及其日历状态
 
 此面板提供有关已完成会议的分析。
 
-## 设置Chrome插件
+<!-- SHPHR-24341 remove section 
+## Set up the Chrome plugin
 
-AI Assistant Chrome插件在[Google Store](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en)上可用。
+The AI Assistant Chrome plugin is available on the [Google Store](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en).
 
-在Chrome中安装该插件后，当您位于集成站点时，Adobe徽标将显示在中间：
+When the plugin is installed in Chrome, the Adobe logo appears on the middle right when you are on an integrated site:
 
-* Adobe Web应用程序
+* Adobe web applications
 * Salesforce
 * Outlook
-* Microsoft Dynamics和Web应用程序
-* Google应用程序
+* Microsoft Dynamics and web applications
+* Google applications -->
 
 ## 编辑左侧导航栏
 
