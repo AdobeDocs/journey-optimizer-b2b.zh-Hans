@@ -4,7 +4,7 @@ description: 使用帐户受众或帐户列表配置帐户受众节点，以在J
 feature: Account Journeys, Audiences, Account Lists
 role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 帐户受众历程节点
 
-帐户受众节点指定哪些帐户进入历程。 当您[创建帐户历程](./journey-overview.md#create-an-account-journey)时，该历程始终以定义其输入的帐户受众节点开始。
+帐户受众节点指定哪些帐户进入历程。 当您[创建帐户历程](./create-publish-journey.md#create-a-journey)时，该历程始终以定义其输入的帐户受众节点开始。
 
 对此历程节点使用以下输入选项之一：
 
@@ -55,4 +55,4 @@ ht-degree: 0%
 
    ![创建受众区段](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. 按照[分段服务指南](https://experienceleague.adobe.com/zh-hans/docs/ experience-platform/segmentation/types/account-audiences){target="_blank"}中的步骤操作。
+1. 按照[分段服务指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}中的步骤操作。

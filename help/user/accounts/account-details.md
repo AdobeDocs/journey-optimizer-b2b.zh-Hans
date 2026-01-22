@@ -4,7 +4,7 @@ description: 在Journey Optimizer B2B edition中通过AI摘要、意图检测、
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 5%
@@ -33,7 +33,7 @@ ht-degree: 5%
 * 帐户中的人数
 * 行业
 * 打开机会
-* 帐户当前正在使用中的最近三次帐户历程（单击历程名称以打开[历程概述](../journeys/journey-overview.md)）
+* 帐户当前正在使用中的最近三次帐户历程（单击历程名称以打开[历程概述](../journeys/journeys-overview.md)）
 * 帐户的创作AI摘要，其中包括有关最热门的购买群体的信息。
 
 ### 意图数据

@@ -5,9 +5,9 @@ feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 1dbcdfd67e90a37774287d8d1a18aa5ba502befe
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
-source-wordcount: '2502'
+source-wordcount: '2509'
 ht-degree: 2%
 
 ---
@@ -26,9 +26,11 @@ _拆分路径_&#x200B;节点根据&#x200B;**__**&#x200B;帐户或人员筛选器
 
 ## 按帐户拆分路径
 
+（仅限帐户历程）
+
 按帐户拆分路径可以同时包含帐户和人员操作及事件。 这些路径可以进一步拆分。
 
-_&#x200B;**按帐户划分的拆分路径节点的工作方式**&#x200B;_
+_**按帐户划分的拆分路径节点的工作方式**_
 
 * 您添加的每个路径都包含一个能够向每个边缘添加节点的结束节点。
 * 可以嵌套“按帐户拆分”节点（可以重复按帐户拆分路径）。
@@ -120,7 +122,7 @@ _&#x200B;**按帐户划分的拆分路径节点的工作方式**&#x200B;_
 
 ### 自定义数据筛选
 
-[!BADGE Beta]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="作为测试版功能在简化的架构上提供"}
+[!BADGE Beta 版]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="作为测试版功能在简化的架构上提供"}
 
 可以使用关系架构（基于模型的类）按帐户拆分路径。 自定义对象是在&#x200B;_关系架构_&#x200B;中定义的，产品管理员可以在[中](../admin/xdm-field-management.md#relational-schemas)配置关系架构字段[!DNL Journey Optimizer B2B Edition]。 条件编辑器中提供了选定的架构字段以用于按帐户节点拆分路径中。
 
@@ -137,7 +139,7 @@ This will also be available for split paths by people (under special filters) fo
 
 按人员拆分路径只能包含人员操作。 这些路径无法再次拆分并自动连接回来。
 
-_&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
+_**按人员节点划分的拆分路径的工作方式**_
 
 * 在&#x200B;_分组节点_&#x200B;拆分合并组合中按人员节点进行拆分的功能。 拆分路径会自动合并，以便所有人员能够前进到下一步而不会丢失其帐户上下文。
 * 无法嵌套按人员节点拆分（无法为位于此分组节点中的路径上的人员添加拆分路径）。
@@ -145,7 +147,7 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 * 该节点支持使用&#x200B;_帐户 — 人员关系_，这允许您根据关系中定义的角色（如承包商或全职员工）筛选人员。
 * 该节点支持&#x200B;_[!UICONTROL 其他人员]_&#x200B;路径的定义，您可以在其中添加与定义的区段/路径之一不匹配的人员的操作或事件。
 
-![历程节点 — 按人员拆分路径](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
+![帐户历程节点 — 按人员拆分路径](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
 ### 人员路径过滤器
 
@@ -181,7 +183,7 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 
 1. 在右侧的节点属性中，为拆分选择&#x200B;**[!UICONTROL 人员]**。
 
-1. 设置用于条件&#x200B;**[!UICONTROL 的]**&#x200B;属性。
+1. （仅限帐户历程）设置用于条件&#x200B;**[!UICONTROL 的]**&#x200B;属性。
 
    * 选择&#x200B;**[!UICONTROL 仅人员属性]**&#x200B;以使用与人员配置文件相关的条件。
    * 选择&#x200B;**[!UICONTROL 仅限帐户 — 人员属性]**&#x200B;以使用与帐户中人员的角色成员资格相关的条件。
@@ -232,7 +234,7 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 
 >[!BEGINSHADEBOX “非活动筛选”]
 
-对于每个&#x200B;_[!UICONTROL 活动历史记录]_&#x200B;筛选器，您可以启用&#x200B;**[!UICONTROL 切换到非活动筛选器]**&#x200B;选项。 此选项将过滤器更改为缺少该活动类型的评估。 例如，添加&#x200B;_[!UICONTROL 电子邮件]_ > _[!UICONTROL 已打开电子邮件]_&#x200B;筛选器以创建&#x200B;_&#x200B;**未**&#x200B;_&#x200B;打开历程中早期电子邮件的人的路径。 启用非活动选项并指定电子邮件。 最佳做法是使用活动的&#x200B;_[!UICONTROL 日期]_&#x200B;约束来定义非活动的时段。
+对于每个&#x200B;_[!UICONTROL 活动历史记录]_&#x200B;筛选器，您可以启用&#x200B;**[!UICONTROL 切换到非活动筛选器]**&#x200B;选项。 此选项将过滤器更改为缺少该活动类型的评估。 例如，添加&#x200B;_[!UICONTROL 电子邮件]_ > _[!UICONTROL 已打开电子邮件]_&#x200B;筛选器以创建&#x200B;_**未**_&#x200B;打开历程中早期电子邮件的人的路径。 启用非活动选项并指定电子邮件。 最佳做法是使用活动的&#x200B;_[!UICONTROL 日期]_&#x200B;约束来定义非活动的时段。
 
 ![按购买组成员资格的人员条件拆分路径](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -282,4 +284,4 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3443266/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

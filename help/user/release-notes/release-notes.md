@@ -3,7 +3,7 @@ title: Journey Optimizer B2B Edition 发行说明
 description: 探索 Adobe Journey Optimizer B2B Edition 中的最新功能、增强功能和错误修复。随时掌握最新功能与产品改进信息。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: eabef3060f200d35c6914bc8fecfa8e0960d745d
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '3841'
 ht-degree: 91%
@@ -178,7 +178,7 @@ Adobe Journey Optimizer B2B Edition 现已采用简化架构。通过此更新�
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | 重复的帐户历程 | 现在为帐户历程提供重复操作。您可以复制帐户历程的详细信息，或者仅复制流程和路径结构的简单框架。<a href="../journeys/journey-overview.md#duplicate-journey">了解详情</a> |
+| 功能 | 重复的帐户历程 | 现在为帐户历程提供重复操作。您可以复制帐户历程的详细信息，或者仅复制流程和路径结构的简单框架。<a href="../journeys/journeys-overview.md#duplicate-journey">了解详情</a> |
 | 功能 | 我的帐户历程令牌 | 您现在可以定义一组具有帐户历程特定值的自定义令牌。这组自定义令牌被称为&#x200B;_我的令牌_，所有这些自定义令牌都可以在创作历程电子邮件时用于进行个性化。<a href="../content/personalization-my-tokens.md">了解详情</a> |
 | 功能 | 删除购买群组阶段 | 当购买群组阶段模型处于草稿或已发布状态时，您可以将其删除。如果它已发布（上线），则只有当它与任何解决方案兴趣都无关联时，您才能删除。<a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">了解详情</a> |
 | 增强功能 | 历程节点数 | 在节点层面提高了已发布历程会员资格数量的可见性。在&#x200B;_历程图_&#x200B;中，节点会显示&#x200B;_[!UICONTROL 已进入的帐户总数]_。当您选择并操作节点时，右侧的详细信息还包括&#x200B;_[!UICONTROL 尚未执行操作的帐户]_。_监听事件_&#x200B;节点的详细信息包括&#x200B;_[!UICONTROL 此步骤中的帐户]_。使用此信息来验证您正在进行的、已完成的和已中止的历程中的帐户进展。 |
@@ -192,7 +192,7 @@ Adobe Journey Optimizer B2B Edition 现已采用简化架构。通过此更新�
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
 | 功能 | 可自定义字段——内容片段 | 在设计可视片段的过程中，您可以将片段中某个组件的参数指定为可编辑。此功能允许电子邮件或模板作者根据自己的需要指定自定义字段值。此自定义标志仅限于图像、文本和按钮可视组件。<a href="../content/fragment-authoring.md#enable-fragment-customization">了解详情</a> |
-| 功能 | 历程复制类型 | 当您复制帐户历程时，您可以包含节点详细信息，其中不包括 Journey Optimizer B2B Edition 中创建的电子邮件和 SMS 消息。或者，您可以创建结构和路径流的精简副本，而不包含节点详细信息和设置。<a href="../journeys/journey-overview.md#duplicate-journey">了解详情</a> |
+| 功能 | 历程复制类型 | 当您复制帐户历程时，您可以包含节点详细信息，其中不包括 Journey Optimizer B2B Edition 中创建的电子邮件和 SMS 消息。或者，您可以创建结构和路径流的精简副本，而不包含节点详细信息和设置。<a href="../journeys/journeys-overview.md#duplicate-journey">了解详情</a> |
 | 增强功能 | 另外四个电子邮件模板示例 | 示例电子邮件模板库现在包含四个 SecurFinacial 模板，作为重新参与、通知、培养和反馈内容的示例 |
 
 <!-- | Feature | B2B built-in roles and product permissions | Experience Platform now includes a set of built-in (default) roles that you can use to manage access to the B2B product capabilities. <a href="../admin/user-management.md#b2b-built-in-roles">Learn more</a> <br/>Administrators can now define custom roles in Adobe Experience Platform to include Journey Optimizer B2B Edition product permissions.  <a href="../admin/user-management.md#b2b-product-permissions">Learn more</a> | -->

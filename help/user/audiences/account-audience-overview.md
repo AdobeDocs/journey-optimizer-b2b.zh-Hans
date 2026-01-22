@@ -4,8 +4,8 @@ description: 通过分段生成帐户受众，精准定位特定帐户，并在 
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
-workflow-type: ht
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 100%
 
@@ -64,4 +64,4 @@ Journey Optimizer B2B Edition 允许您直接从左侧导航栏生成 Adobe Expe
 
 1. 单击右上角的&#x200B;**[!UICONTROL 保存并关闭]**。
 
-要激活 Journey Optimizer B2B Edition 的帐户受众，您必须[将其添加到帐户历程](../journeys/journey-overview.md#add-the-account-audience-for-your-journey)，然后[发布历程](../journeys/journey-overview.md)。
+要激活 Journey Optimizer B2B Edition 的帐户受众，您必须[将其添加到帐户历程](../journeys/journeys-overview.md#add-the-account-audience-for-your-journey)，然后[发布历程](../journeys/journeys-overview.md)。

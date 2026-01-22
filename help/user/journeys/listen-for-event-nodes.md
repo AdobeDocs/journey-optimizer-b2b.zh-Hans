@@ -4,26 +4,26 @@ description: 为帐户和人员触发器配置事件节点 — 监听Journey Opt
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 53875f5b1b61b5a4a87e3361eacae80a5c14d878
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1843'
 ht-degree: 4%
 
 ---
 
 # 侦听事件
 
-添加&#x200B;_侦听事件_&#x200B;节点，以便在事件发生时将受众前进到帐户历程中的下一步。
+添加&#x200B;_侦听事件_&#x200B;节点，以便在事件发生时将受众前进到历程中的下一步。
 
 ![视频](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;， vertical-align=&quot;middle&quot;} [观看概述视频](#overview-video)
 
 >[!NOTE]
 >
->无法按人员将此节点类型添加到拆分路径中。
+>对于帐户历程，您无法按人员在拆分路径中添加此节点类型。
 
 ## 帐户事件
 
-当您想要根据帐户活动触发的事件在历程中向前移动帐户时，请根据帐户侦听事件。
+在帐户历程中，当您想要根据帐户活动触发的事件在历程中向前移动帐户时，可以根据帐户侦听事件。
 
 ### 事件和约束
 
@@ -52,7 +52,7 @@ ht-degree: 4%
 
 ## 人员活动
 
-根据人员活动触发的事件，侦听基于人员的事件，同时要根据人员活动在历程中向前移动帐户。 您还可以根据人员属性筛选事件，
+在帐户历程中，当您想要根据人员活动触发的事件在历程中向前移动帐户时，可以根据人员侦听事件。 您还可以根据人员属性筛选事件，
 
 ### 事件和约束
 
@@ -135,7 +135,7 @@ ht-degree: 4%
 
 ### 收听体验活动
 
-管理员可以选择[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，这样营销人员就可以创建对事件做出近乎实时反应的历程。 在历程中使用体验事件包括两个步骤：
+管理员可以选择[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，这样营销人员就可以创建对事件做出近乎实时反应的帐户和人员历程。 在历程中使用体验事件包括两个步骤：
 
 1. 管理员[选择事件类型和感兴趣的字段](../admin/configure-aep-events.md#select-an-event)，以便在历程中可用。
 
@@ -148,19 +148,19 @@ ht-degree: 4%
 
 1. 在历程映射中选择&#x200B;**[!UICONTROL 侦听事件]**&#x200B;节点。
 
-1. 在右侧的节点属性中，为事件类型选择&#x200B;**[!UICONTROL 人员]**。
-
-1. 单击&#x200B;**[!UICONTROL 选择人员事件]**&#x200B;选择器的箭头，并将菜单滚动到&#x200B;**[!UICONTROL Adobe Experience Platform]**&#x200B;部分。
-
-   ![收听体验活动](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
+1. （仅限帐户历程）在右侧的节点属性中，为事件类型选择&#x200B;**[!UICONTROL 人员]**。
 
 1. 选择事件。
 
-   事件类型在节点详细信息中显示为空。
+   对于&#x200B;**_帐户历程_**，单击&#x200B;**[!UICONTROL 选择人员事件]**&#x200B;选择器的箭头，并将菜单滚动到&#x200B;**[!UICONTROL Adobe Experience Platform]**&#x200B;部分。
 
-   ![编辑事件](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
+   ![收听体验活动](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
+
+   对于人员历程，单击&#x200B;**[!UICONTROL 选择事件]**&#x200B;选择器的箭头并选择该事件。
 
 1. 单击&#x200B;**[!UICONTROL 编辑事件]**&#x200B;并为该事件定义一个或多个约束。
+
+   ![编辑事件](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
 
    可用的约束定义为事件配置的托管字段。
 
@@ -182,11 +182,13 @@ ht-degree: 4%
 
 1. 在历程映射中，添加下一个要在事件发生时执行的节点。
 
-1. 完成历程的其余节点，并[发布它](./journey-overview.md)。
+1. 完成历程的其余节点，并[发布它](./journeys-overview.md)。
 
    当历程处于实时状态（已发布）并到达&#x200B;_侦听事件_&#x200B;节点时，它将开始侦听AEP体验事件。
 
 ### 将过滤器添加到人员事件
+
+（仅限帐户历程）
 
 1. 定义事件后，在&#x200B;**[!UICONTROL 编辑事件]**&#x200B;对话框中选择&#x200B;_[!UICONTROL 筛选器]_&#x200B;选项卡。
 
@@ -222,4 +224,4 @@ ht-degree: 4%
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443244/?captions=chi_hans&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->

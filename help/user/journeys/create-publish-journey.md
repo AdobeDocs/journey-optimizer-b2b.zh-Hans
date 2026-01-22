@@ -1,25 +1,32 @@
 ---
-title: 创建和发布帐户历程
-description: 在可视画布中创建帐户历程、添加操作和事件节点、配置计划，以及在Journey Optimizer B2B edition中发布实时编排。
+title: 构建和发布历程
+description: 在可视画布中创建帐户和人员历程、添加操作和事件节点、配置计划以及在Journey Optimizer B2B edition中发布实时编排。
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 433b08efbb24453f318bbce989ce18c9d96dea05
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '857'
 ht-degree: 4%
 
 ---
 
-# 创建和发布帐户历程
+# 构建和发布历程
 
-要开始帐户历程，请创建历程，然后在历程图中构建节点和历程流。
+要开始使用历程，请创建历程，然后在历程图中构建节点和历程流。
 
 ![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看概述视频](#overview-video)
 
-## 创建帐户历程
+## 创建历程
 
-1. 在左侧导航栏中单击&#x200B;**[!UICONTROL 帐户历程]**。
+在左侧导航栏中的&#x200B;**[!UICONTROL 历程管理]**&#x200B;下，选择要创建的历程类型：
+
+* **[!UICONTROL 帐户历程]**
+* **[!UICONTROL 人员历程]** (Beta)
+
+添加新历程(_T):_
+
++++帐户历程
 
 1. 单击页面右上角的&#x200B;**[!UICONTROL 创建帐户历程]**。
 
@@ -29,9 +36,26 @@ ht-degree: 4%
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-## 历程的构建基块
++++
 
-_历程图_&#x200B;是历程工作区的中心区域。 在此区域中，您可以添加并配置历程节点。 单击某个节点可打开其位于画布右侧的属性窗格，并根据您的设计设置这些窗格。 帐户历程始终以[帐户受众节点](./account-audience-nodes.md)开始，您可以在其中向历程添加输入。
++++人员历程(Beta)
+
+1. 单击页面右上角的&#x200B;**[!UICONTROL 创建历程]**。
+
+1. 在对话框中，输入唯一的&#x200B;**[!UICONTROL Name]**（必需）和&#x200B;**[!UICONTROL Description]**（可选）。
+
+   ![创建历程对话框](./assets/person-journey-create-dialog.png){width="400"}
+
+1. 单击&#x200B;**[!UICONTROL 创建]**。
+
++++
+
+## 历程设计的构建基块
+
+_历程图_&#x200B;是历程工作区的中心区域。 在此区域中，您可以添加并配置历程节点。 单击某个节点可打开其位于画布右侧的属性窗格，并根据您的设计设置这些窗格。 历程始终以受众节点开始，您可以在其中定义历程的输入：
+
+* [帐户受众节点](./account-audience-nodes.md)
+* [人员受众节点](./person-audience-nodes.md)
 
 创建帐户历程并添加受众后，使用节点构建历程。 历程图提供了一个画布，您可以在其中使用以下节点类型构建多步骤B2B营销用例以构建帐户历程：
 
@@ -109,7 +133,7 @@ _历程图_&#x200B;是历程工作区的中心区域。 在此区域中，您可
 
    当您准备好发布历程时，您可以在单击&#x200B;_[!UICONTROL 发布]_&#x200B;时查看这些设置。
 
-## 发布帐户历程
+## 发布历程
 
 如果没有阻止程序错误，则可以发布历程。 发布后，历程状态更改为&#x200B;_实时_。如果历程有错误，_[!UICONTROL 发布]_&#x200B;按钮将灰显，内容信息为： `Resolve errors before publishing`。
 
@@ -141,4 +165,4 @@ _历程图_&#x200B;是历程工作区的中心区域。 在此区域中，您可
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3443229/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

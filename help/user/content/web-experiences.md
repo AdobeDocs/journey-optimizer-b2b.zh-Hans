@@ -4,7 +4,7 @@ description: 创建、设计和发布帐户历程的个性化Web体验 — 在Jo
 feature: Content, Channels
 role: User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
-source-git-commit: 6eae855a1e20b3a4350353940cb3ea82fd84933b
+source-git-commit: e3c00ab4657c7bf05573e049bbcb4bb3628e751e
 workflow-type: tm+mt
 source-wordcount: '1497'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Adobe Journey Optimizer B2B edition中的Web渠道使您能够在您的网站上
 
 * 产品管理员已配置一个或多个Web渠道来定义要用于Web体验的URL（页面）。 有关详细信息，请参阅[Web渠道配置](../admin/configure-channels-web.md)。
 
-* 您的网站已实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，用于访客识别和内容交付。 确保Adobe Experience Platform Web SDK的版本为2.16或更高版本。
+* 您的网站已实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，用于访客识别和内容交付。 确保Adobe Experience Platform Web SDK的版本为2.16或更高版本。
 
 * 您拥有在历程中创建和管理Web体验所需的[权限](../admin/user-management.md#b2b-product-permissions)：
    * _[!UICONTROL 营销活动]_ > _[!UICONTROL 管理营销活动]_ — 添加或更新Web个性化操作节点是必需的。
@@ -53,7 +53,7 @@ Adobe Journey Optimizer B2B edition中的Web渠道使您能够在您的网站上
 
    如果您使用的是[!DNL Microsoft Edge]，请选择顶部横幅上其他商店中的&#x200B;_允许扩展_。 启用此选项可让您将扩展从[!DNL Chrome Web Store]添加到[!DNL Microsoft Edge]。
 
-1. 搜索并导航到&#x200B;_[!DNL Adobe Experience Cloud Visual Editing Helper]_&#x200B;浏览器扩展。
+1. 搜索并导航到&#x200B;_[!DNL Adobe Experience Cloud Visual Editing Helper]_浏览器扩展。
 
    ![适用于Adobe Experience Cloud Chrome的Google可视化编辑帮助程序扩展](./assets/web-experience-google-chrome-adobe-visual-editing-extension.png){width="800" zoomable="yes"}
 
@@ -177,7 +177,7 @@ Adobe Journey Optimizer B2B edition中的Web渠道使您能够在您的网站上
 
 ## 激活您的Web体验
 
-当您[发布历程](../journeys/create-publish-journey.md#publish-an-account-journey)时，您的Web体验已激活并对受众可见。 在通过历程激活Web体验之前，请考虑以下事项：
+当您[发布历程](../journeys/create-publish-journey.md#publish-a-journey)时，您的Web体验已激活并对受众可见。 在通过历程激活Web体验之前，请考虑以下事项：
 
 * 如果您发布一个历程，其中的Web体验与另一个已上线的历程影响相同的页面，则所有更改都将应用于网页。
 
@@ -189,13 +189,13 @@ Adobe Journey Optimizer B2B edition中的Web渠道使您能够在您的网站上
 
 * 在Adobe Experience Platform数据收集中，确保在Adobe Experience Platform服务下启用Adobe Journey Optimizer B2B edition选项的情况下定义数据流。
 
-  此配置可确保Adobe Experience Platform Edge能够正确处理入站事件。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)
+  此配置可确保Adobe Experience Platform Edge能够正确处理入站事件。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * 在Adobe Experience Platform中，确保您有一个启用了&#x200B;_[!UICONTROL Active-On-Edge合并策略]_&#x200B;选项的合并策略。
 
-  在Customer > Profiles > Merge Policies Experience Platform菜单下选择策略。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  在Customer > Profiles > Merge Policies Experience Platform菜单下选择策略。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Journey Optimizer B2B edition入站渠道使用此合并策略，以便在边缘上正确激活和发布入站Web体验。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/ui-guide)
+  Journey Optimizer B2B edition入站渠道使用此合并策略，以便在边缘上正确激活和发布入站Web体验。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### 故障排除
 
