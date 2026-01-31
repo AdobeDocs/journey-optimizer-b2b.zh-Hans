@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 发行说明
 description: 探索 Adobe Journey Optimizer B2B Edition 中的最新功能、增强功能和错误修复。随时掌握最新功能与产品改进信息。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+source-git-commit: cca9f2faab779b073d3d0801f8ec4b67116a29a5
 workflow-type: tm+mt
-source-wordcount: '3841'
-ht-degree: 91%
+source-wordcount: '4087'
+ht-degree: 86%
 
 ---
 
@@ -24,9 +24,29 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 | 代理 | 更新 | 描述 |
 | ----- | ------ | ----------- |
-| 历程生成代理 | 新 | 历程生成代理可实时分析、构思并联合创建历程，使营销人员能够更快启动、提高参与度、促进更高转化率。[了解详情](../agents/journey-agent.md) |
+| 历程生成代理 | 新增的和更新的 | 历程生成代理可实时分析、构思并联合创建历程，使营销人员能够更快启动、提高参与度、促进更高转化率。[了解详情](../agents/journey-agent.md) |
 | Audience 代理 | 新 | Audience 代理使用结构化和非结构化数据自动识别和构建购买群组。这可以帮助营销人员更快、更准确地针对适当的人员。[了解详情](../agents/audience-agent-b2b.md) |
 | 销售限定词 | 新 | Sales Qualifier是Adobe Journey Optimizer B2B edition的AI驱动附加应用程序，它包含Account Qualification Agent，旨在简化业务开发代表(BDR)的工作流。 它跨渠道自动执行潜在客户鉴别、外联和买方参与工作流程[了解详情](../agents/sales-qualifier.md) |
+
+## 2026.1 版本发行说明
+
+**部署日期**：2025年2月3日
+
+| 类型 | 项目 | 描述 |
+| ---- | ---- | ----------- |
+| 功能 | 品牌套件 | (Beta)在Journey Optimizer B2B edition中定义品牌，为创意团队创建任何可视或书面内容提供真实来源。 在编译这些指南并共享品牌资产后，任何团队成员或协作者都可以为您的产品创建品牌上内容。 |
+| 功能 | 用于生成电子邮件内容的品牌 | 您可以定义品牌指南，并使用此信息生成电子邮件内容。 利用此功能，电子邮件内容将符合您特定品牌的版面制作准则、样式和语调。 |
+| 增强功能 | 历程&#x200B;_等待_&#x200B;节点 — 高级设置 | 对于历程中的&#x200B;_等待_&#x200B;节点，您现在可以指定退出日期和时间，并选择时区。 此增强功能可让您更好地控制历程编排和活动计时。 |
+| 增强功能 | 购买组成员过滤器 — 已删除 | 对于由人员&#x200B;_节点拆分的_&#x200B;路径，_[!UICONTROL 购买群组成员]_&#x200B;筛选器现在包含&#x200B;_Is Removed_&#x200B;约束。 选择该筛选器后，该筛选器可以包含或排除已移除的购买组成员。 Marketo Engage智能列表中也支持此功能，您可以在其中的&#x200B;_[!UICONTROL 购买组成员]_&#x200B;筛选器中使用此新限制。 |
+| 增强功能 | 电子邮件设计 — 多级项目符号 | 电子邮件内容设计空间工具现在支持子项目符号（项目符号级别）。 |
+
+<!--
+| Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. | 
+| -->
+
+>[!NOTE]
+>
+>这些版本更改从2025年2月3日开始部署，并分阶段推出每个功能。 功能及增强功能的发布时间可能会有变动。
 
 ## 2025.10 版本发行说明
 
