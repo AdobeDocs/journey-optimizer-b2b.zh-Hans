@@ -4,10 +4,10 @@ description: 创建具有条件自动分配的角色模板，以识别在Journey
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
+source-git-commit: bd6dff55621943dc349b47b99f24afefe5b9a514
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 3%
+source-wordcount: '1329'
+ht-degree: 4%
 
 ---
 
@@ -62,9 +62,9 @@ ht-degree: 3%
 
 | 类型 | 条件 |
 | ---- | --------- |
-| 人员属性 | <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>传真号 <li>名字 <li>推断的状态区域 <li>作业名称 <li>姓氏 <li>中间名 <li>手机号码 <li>人员参与度分数 <li>电话号码 <li>邮政编码 <li>State <li>已取消订阅 <li>取消订阅的原因 |
+| 人员属性 | <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>传真号 <li>名字 <li>推断的状态区域 <li>作业名称 <li>姓氏 <li>中间名 <li>手机号码 <li>人员参与度分数 <li>电话号码 <li>邮政编码 <li>State <li>取消订阅 <li>取消订阅的原因 |
 | 特殊过滤器 | <li>列表成员 <li>计划成员 |
-| 意图数据 | 类别意图 <li>产品意图 <li>关键字意图<br/>[了解意图数据](../admin/intent-data.md)。 |
+| 意图数据 | <li>类别意图 <li>产品意图 <li>关键字意图<br/>[了解意图数据](../admin/intent-data.md) |
 
 1. 对于第一个角色信息卡，定义角色属性。
 
@@ -115,6 +115,13 @@ ht-degree: 3%
 要将列表成员资格用作角色条件，请展开&#x200B;**[!UICONTROL 特殊筛选器]**，并将&#x200B;**[!UICONTROL 列表成员]**&#x200B;条件拖入筛选器空间。 然后完成筛选器定义以评估一个或多个Marketo Engage列表中的成员资格。
 
 Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+<br/>
+
+>[!NOTE]
+>
+>**功能弃用**</br></br>
+>
+>使用Journey Optimizer B2B edition的[简化架构](../simplified-architecture.md)，不支持根据Marketo Engage实例中的列表或项目成员资格进行筛选。
 
 >[!ENDSHADEBOX]
 
@@ -126,7 +133,7 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 
 例如，要完成您的解决方案&#x200B;_X_&#x200B;的交易，需要确定并参与多个营销决策者，因为一个组织的多个营销团队将使用该解决方案。 在这种情况下，您需要提高阈值以至少需要两名营销决策人来计算&#x200B;_完成_&#x200B;购买组。
 
-有关完整性评分和计算的详细信息，请参阅[完整性得分](./completeness-scores.md)。
+详细计算方式请参阅[完整性评分](./completeness-scores.md)。
 
 1. 在角色模板页面的右上角，单击&#x200B;**[!UICONTROL 完整性得分设置]**。
 
@@ -182,4 +189,4 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3453311/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
