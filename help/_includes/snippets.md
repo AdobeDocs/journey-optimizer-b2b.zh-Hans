@@ -1,9 +1,9 @@
 ---
 title: 代码段
 description: 重用注释和可视化元素来注释应用于特定版本的功能或页面
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: 9ff6a9ded077ed9556cc01e48341379ff2a1b3c0
 workflow-type: tm+mt
-source-wordcount: '2374'
+source-wordcount: '2365'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->AEM Assets as a Cloud Service的许可证和Dynamic Media许可证是进行集成的先决条件。 确保启用了[Dynamic Media withOpen API](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。 该集成仅限于&#x200B;_交付层_&#x200B;中的存储库。 如果您使用&#x200B;_创作层_&#x200B;并想要转换它，请与Adobe Experience Manager支持部门联系。<br/>
+>AEM Assets as a Cloud Service的许可证和Dynamic Media许可证是进行集成的先决条件。 确保启用了[Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。 该集成仅限于&#x200B;_交付层_&#x200B;中的存储库。 如果您使用&#x200B;_创作层_&#x200B;并想要转换它，请与Adobe Experience Manager支持部门联系。<br/>
 >根据您的合同和配置，在设计可视化内容时，可以直接从Adobe Experience Manager Assets B2B edition访问Adobe Journey Optimizer as a Cloud Service 。
 
 ## 内容创作 — 组件 — 结构步骤 {#structures-step}
@@ -263,15 +263,15 @@ HTML组件的![对齐样式](../assets/content-design-shared/content-components-
 
 单击&#x200B;**[!UICONTROL 导入]**。
 
-## 参与度得分活动 {#engagement-activities}
+## 参与度得分活动 — Marketo {#engagement-activities-me}
 
-| 活动名称 | 描述 | 参与类型 | 每日最大频率计数 | 默认模型活动权重 |
-| --- | --- | --- | --- | --- |
-| [!UICONTROL 出席活动] | 成员参加了某个活动 | 活动 | 20 | 60 |
-| 已单击[!UICONTROL 电子邮件] | 成员点击电子邮件中的链接 | 电子邮件 | 20 | 30 |
-| [!UICONTROL 电子邮件已打开] | 成员打开一个电子邮件 | 电子邮件 | 20 | 30 |
-| [!UICONTROL 表单已填写] | 成员在某个网页上填写并提交一份表单 | Web | 20 | 40 |
-| [!UICONTROL 有趣的时刻] | 成员有一个有趣的时刻 | 策划的 | 20 | 60 |
-| [!UICONTROL 链接点击次数] | 成员点击网页上的某个链接 | Web | 20 | 40 |
-| [!UICONTROL 页面查看次数] | 成员查看网页 | Web | 20 | 40 |
-| [!UICONTROL 注册事件] | 为事件注册的成员 | 活动 | 20 | 60 |
+| 活动名称 | 描述 | 每日最大频率计数 | 默认模型活动权重 |
+| --- | --- | --- | --- |
+| [!UICONTROL 出席活动] | 成员参加了某个活动 | 20 | 60 |
+| 已单击[!UICONTROL 电子邮件] | 成员点击电子邮件中的链接 | 20 | 30 |
+| [!UICONTROL 电子邮件已打开] | 成员打开一个电子邮件 | 20 | 30 |
+| [!UICONTROL 表单已填写] | 成员在某个网页上填写并提交一份表单 | 20 | 40 |
+| [!UICONTROL 有趣的时刻] | 成员有一个有趣的时刻 | 20 | 60 |
+| [!UICONTROL 链接点击次数] | 成员点击网页上的某个链接 | 20 | 40 |
+| [!UICONTROL 页面查看次数] | 成员查看网页 | 20 | 40 |
+| [!UICONTROL 注册事件] | 为事件注册的成员 | 20 | 60 |
