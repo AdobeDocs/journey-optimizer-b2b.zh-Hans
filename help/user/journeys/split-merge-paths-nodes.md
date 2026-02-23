@@ -5,9 +5,9 @@ feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: bd6dff55621943dc349b47b99f24afefe5b9a514
+source-git-commit: 863265860a59abac4a73971bf923fa4cc1456e8d
 workflow-type: tm+mt
-source-wordcount: '2593'
+source-wordcount: '2743'
 ht-degree: 2%
 
 ---
@@ -26,11 +26,11 @@ _拆分路径_&#x200B;节点根据&#x200B;**__**&#x200B;帐户或人员筛选器
 
 ## 按帐户拆分路径
 
-（仅限帐户历程）
+_（仅限帐户历程）_
 
 按帐户拆分路径可以同时包含帐户和人员操作及事件。 这些路径可以进一步拆分。
 
-_&#x200B;**按帐户划分的拆分路径节点的工作方式**&#x200B;_
+_**按帐户划分的拆分路径节点的工作方式**_
 
 * 您添加的每个路径都包含一个能够向每个边缘添加节点的结束节点。
 * 可以嵌套“按帐户拆分”节点（可以重复按帐户拆分路径）。
@@ -44,7 +44,8 @@ _&#x200B;**按帐户划分的拆分路径节点的工作方式**&#x200B;_
 
 | 路径条件 | 描述 |
 | --------------- | ----------- |
-| 帐户属性 | 帐户个人资料中的属性，包括： <li>年收入 <li>城市 <li>国家/地区 <li>员工人数 <li>行业 <li>名称 <li>SIC代码 <li>State <li>具有`<relational schema>` （请参阅[自定义数据筛选](#custom-data-filtering)） |
+| [!UICONTROL 帐户属性] | 帐户个人资料中的属性，包括： <li>年收入 <li>城市 <li>国家/地区 <li>员工人数 <li>行业 <li>名称 <li>SIC代码 <li>State |
+| [!UICONTROL 帐户属性] >具有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}该帐户具有或不具有关系架构记录。 也可以根据[XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中配置的任何所选自定义对象条件对其进行评估。 （请参阅[自定义数据筛选](#custom-data-filtering)。） |
 | [!UICONTROL 特殊筛选器] > [!UICONTROL 帐户与购买团体匹配] | 该帐户与一个或多个购买群体匹配。 对于匹配的购买组，可以根据以下一个或多个约束对其进行评估： <li>解决方案兴趣 <li>购买组阶段 <li>购买组状态 <li>参与度评分 <li>完整性分数 <li> 购买群组角色中的人数 |
 | [!UICONTROL 特殊筛选器] > [!UICONTROL 有购买群] | 该帐户是否具有购买组的成员。 也可以根据以下一个或多个标准对其进行评估： <li>解决方案兴趣 <li>购买组阶段 <li>购买组状态 <li>参与度评分 <li>完整性分数 |
 
@@ -120,26 +121,13 @@ _&#x200B;**按帐户划分的拆分路径节点的工作方式**&#x200B;_
 
 对于已标识的帐户，您可能需要在路径中添加操作节点，以更新购买组或阶段的状态，或者发送销售警报电子邮件。
 
-### 自定义数据筛选
-
-[!BADGE Beta 版]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="作为测试版功能在简化的架构上提供"}
-
-可以使用关系架构（基于模型的类）按帐户拆分路径。 自定义对象是在&#x200B;_关系架构_&#x200B;中定义的，产品管理员可以在[中](../admin/xdm-field-management.md#relational-schemas)配置关系架构字段[!DNL Journey Optimizer B2B Edition]。 条件编辑器中提供了选定的架构字段以用于按帐户节点拆分路径中。
-
-选件![的关系架构的](./assets/node-split-paths-account-relational-schema.png){width="700" zoomable="yes"}条件示例
-
-<!-- SPHR-23746
-
-Note: These are currently going under Account Attributes folder, which is a bug (SPHR-21734). This will move to Special filters when resolved (January release).
-
-This will also be available for split paths by people (under special filters) for the M 1.5 GA release.
--->
-
 ## 按人员拆分路径
+
+_（帐户和人员历程）_
 
 按人员拆分路径只能包含人员操作。 这些路径无法再次拆分并自动连接回来。
 
-_&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
+_**按人员节点划分的拆分路径的工作方式**_
 
 * 在&#x200B;_分组节点_&#x200B;拆分合并组合中按人员节点进行拆分的功能。 拆分路径会自动合并，以便所有人员能够前进到下一步而不会丢失其帐户上下文。
 * 无法嵌套按人员节点拆分（无法为位于此分组节点中的路径上的人员添加拆分路径）。
@@ -158,7 +146,8 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 | [!UICONTROL 活动历史记录] > [!UICONTROL 数据值已更改] | 对于选定的人员属性，发生值更改。 这些更改类型包括： <li>新值<li>上一个值<li>原因<li>来源<li>活动日期<li>最低 <br>**[!UICONTROL 切换到非活动筛选器的次数&#x200B;]**— 使用此选项可根据缺少活动（人员没有数据值更改）进行筛选。 |
 | [!UICONTROL 活动历史记录] > [!UICONTROL 快乐时光] | 在关联的[!DNL Marketo Engage]实例中定义的有趣时刻活动。 限制包括： <li>里程碑<li>电子邮件<li>Web <br>**[!UICONTROL 切换到非活动筛选器&#x200B;]**— 使用此选项可基于缺少活动（人员没有快乐的时光）进行筛选。 |
 | [!UICONTROL 活动历史记录] > [!UICONTROL 访问的网页] | 由关联的[!DNL Marketo Engage]实例管理的一个或多个网页的网页活动。 限制包括： <li>网页（必填）<li>活动日期<li>客户端IP地址 <li>查询字符串 <li>反向链接 <li>用户代理 <li>搜索引擎 <li>搜索查询 <li>个性化URL <li>令牌 <li>浏览器 <li>平台 <li>设备 <li>最低 <br>**[!UICONTROL 切换到非活动筛选器的次数&#x200B;]**— 使用此选项可根据缺少活动（用户未访问网页）进行筛选。 |
-| [!UICONTROL 人员属性] | 人员配置文件中的属性，包括： <li>城市 <li>国家/地区 <li>出生日期 <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>名字 <li>推断的状态区域<li>作业名称 <li>姓氏 <li>手机号码 <li>人员参与度分数 <li>电话号码 <li>邮政编码 <li>State <li>取消订阅 <li>取消订阅的原因 |
+| [!UICONTROL 人员属性] | 人员配置文件中的属性，包括： <li>城市 <li>国家/地区 <li>出生日期 <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>名字 <li>推断的状态区域<li>作业名称 <li>姓氏 <li>手机号码 <li>人员参与度分数 <li>电话号码 <li>邮政编码 <li>State <li>取消订阅 <li>取消订阅的原因 <li>具有`<custom object>` （请参阅[自定义数据筛选](#custom-data-filtering)。） |
+| [!UICONTROL 人员属性] >具有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}此人是否具有关系架构记录。 也可以根据[XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中配置的任何所选自定义对象条件对其进行评估。 （请参阅[自定义数据筛选](#custom-data-filtering)） |
 | [!UICONTROL 特殊筛选器] > [!UICONTROL 购买团体成员] | 人员是否属于根据以下一个或多个标准评估的购买组成员： <li>解决方案兴趣</li><li>购买组状态</li><li>完整性分数</li><li>参与度评分</li><li>已删除</li><li>角色</li> |
 | [!UICONTROL 特殊筛选器] > [!UICONTROL 列表成员] | 此人是否为一个或多个[!DNL Marketo Engage]列表的成员。 |
 | [!UICONTROL 特殊筛选器] > [!UICONTROL 计划成员] | 此人是否为一个或多个[!DNL Marketo Engage]项目的成员。 |
@@ -234,7 +223,7 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 
 >[!BEGINSHADEBOX “非活动筛选”]
 
-对于每个&#x200B;_[!UICONTROL 活动历史记录]_&#x200B;筛选器，您可以启用&#x200B;**[!UICONTROL 切换到非活动筛选器]**&#x200B;选项。 此选项将过滤器更改为缺少该活动类型的评估。 例如，添加&#x200B;_[!UICONTROL 电子邮件]_ > _[!UICONTROL 已打开电子邮件]_&#x200B;筛选器以创建&#x200B;_&#x200B;**未**&#x200B;_&#x200B;打开历程中早期电子邮件的人的路径。 启用非活动选项并指定电子邮件。 最佳做法是使用活动的&#x200B;_[!UICONTROL 日期]_&#x200B;约束来定义非活动的时段。
+对于每个&#x200B;_[!UICONTROL 活动历史记录]_&#x200B;筛选器，您可以启用&#x200B;**[!UICONTROL 切换到非活动筛选器]**&#x200B;选项。 此选项将过滤器更改为缺少该活动类型的评估。 例如，添加&#x200B;_[!UICONTROL 电子邮件]_ > _[!UICONTROL 已打开电子邮件]_&#x200B;筛选器以创建&#x200B;_**未**_&#x200B;打开历程中早期电子邮件的人的路径。 启用非活动选项并指定电子邮件。 最佳做法是使用活动的&#x200B;_[!UICONTROL 日期]_&#x200B;约束来定义非活动的时段。
 
 ![按购买组成员资格的人员条件拆分路径](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -277,9 +266,28 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 
 >[!ENDSHADEBOX]
 
+## 自定义数据筛选
+
+[!BADGE Beta 版]{type=Informative tooltip="Beta功能"}
+
+可以使用关系架构（基于模型的类）按帐户或人员拆分路径。 自定义对象是在&#x200B;_关系架构_&#x200B;中定义的，产品管理员可以在[中](../admin/xdm-field-management.md#relational-schemas)配置关系架构字段[!DNL Journey Optimizer B2B Edition]。 选定的架构字段在条件编辑器中可用，可用于按帐户&#x200B;_拆分路径中_&#x200B;和按人员&#x200B;_节点拆分路径中_。
+
+对于&#x200B;**[!UICONTROL 按帐户拆分路径]**&#x200B;条件，请使用搜索字段按&#x200B;_[!UICONTROL 帐户属性]_&#x200B;下的自定义对象名称筛选列表。 添加条件并将值设置为`true`或`false`。
+
+![关系架构自定义对象的“人员”属性条件示例](./assets/node-split-paths-account-relational-schema.png){width="600" zoomable="yes"}
+
+对于&#x200B;**[!UICONTROL 按人员拆分路径]**&#x200B;条件，请使用搜索字段按&#x200B;_[!UICONTROL 人员属性]_&#x200B;下的自定义对象名称筛选列表。
+
+![关系架构自定义对象的“人员”属性条件示例](./assets/node-split-paths-people-relational-schema.png){width="600" zoomable="yes"}
+
+<!-- SPHR-21734
+
+Note: These are currently going under Account Attributes/Person Attributes folder, which is a bug. This will move to Special filters when resolved (? release).
+-->
+
 ## 合并路径
 
-添加&#x200B;_合并路径_&#x200B;节点以在您的历程中按帐户组合不同的拆分路径。
+添加一个&#x200B;_合并路径_&#x200B;节点以在您的历程中按帐户&#x200B;_组合不同的_&#x200B;拆分路径。
 
 1. 导航到历程图。
 
@@ -305,4 +313,4 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3443266/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

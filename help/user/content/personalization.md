@@ -6,7 +6,8 @@ topic: Personalization
 role: User, Developer
 level: Intermediate
 keywords: 表达式、编辑器、开始、个性化
-source-git-commit: 5063f9a924aef0a54b05e9bf223fc2d4898bc5a5
+exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
+source-git-commit: 10e02b821609c48b82ea0248501daa60de6daa12
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 [!DNL Adobe Journey Optimizer B2B Edition]个性化功能允许您利用有关每个特定收件人的数据和信息，根据他们调整电子邮件。 它可以是他们的名字、行业、头衔等。
 
-使用&#x200B;_个性化编辑器_，您可以选择、排列、自定义和验证所有数据，以便为您的内容创建自定义个性化。 使用各种工具（如辅助函数）定制消息。 编辑器使用基于&#x200B;_Handlebars_&#x200B;的内联个性化语法，其中表达式由双大括号`{{}}`括起来的内容构建。
+使用&#x200B;_个性化编辑器_，您可以选择、排列、自定义和验证所有数据，以便为您的内容创建自定义的个性化设置。 使用各种工具（如辅助函数）定制消息。 编辑器使用基于&#x200B;_Handlebars_&#x200B;的内联个性化语法，其中表达式由双大括号`{{}}`括起来的内容构建。
 
 在处理消息时，Journey Optimizer B2B edition会使用Adobe Experience Platform数据集中包含的数据和本地系统值替换表达式。 例如，`Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`动态变为`Hello John Doe`。
 
@@ -42,7 +43,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home){target="_blank"}中了解有关XDM架构的更多信息。
+>在[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中了解有关XDM架构的更多信息。
 
 ## Personalization编辑器
 
@@ -78,36 +79,14 @@ ht-degree: 0%
 
 ### 自定义数据集
 
-可以使用关系架构（基于模型的类）进行电子邮件个性化。 自定义对象是在&#x200B;_关系架构_&#x200B;中定义的，产品管理员可以在[中](../admin/xdm-field-management.md#relational-schemas)配置关系架构字段[!DNL Journey Optimizer B2B Edition]。 可在个性化编辑器中访问这些字段。 只有与帐户:M具有一对多(1<!-- (M1.5 Beta) or Person (M1.5 GA) -->)关系的自定义对象才可用。
+[!BADGE Beta 版]{type=Informative tooltip="Beta功能"}
+
+您可以使用关系架构进行电子邮件个性化。 自定义对象是在&#x200B;_关系架构_&#x200B;中定义的，产品管理员可以在[中](../admin/xdm-field-management.md#relational-schemas)配置关系架构字段[!DNL Journey Optimizer B2B Edition]。 可在个性化编辑器中访问这些字段。 只有与人员或帐户具有一对多(1:M)关系的自定义对象才可用。
 
 >[!IMPORTANT]
 >
->在将自定义对象用于脚本式个性化之前，请确保查看并了解[Handlebar模板语言](https://handlebarsjs.com/guide/)、[个性化语法](./personalization-syntax.md)和内置[帮助程序函数](./personalization-helper-functions.md)。
+>在将自定义对象用于脚本式个性化之前，请确保查看并了解[Handlebars模板语言](https://handlebarsjs.com/guide/)、[个性化语法](./personalization-syntax.md)和内置[帮助程序函数](./personalization-helper-functions.md)。
 
-使用自定义对象定义个性化时，您可以跨&#x200B;**[!UICONTROL Personalization令牌]**（人员/潜在客户、帐户、系统和我的令牌）以及&#x200B;**[!UICONTROL 基于模型的类]**（关系架构）访问可脚本访问对象中的所有变量。 选择基于模型的类后，可通过单击自定义对象文件夹来查看字段。 对于要将其添加到表达式的每个字段，单击&#x200B;**+**。
+使用自定义对象定义个性化时，您可以跨&#x200B;**[!UICONTROL Personalization令牌]**（人员/潜在客户、帐户、系统和我的令牌）和&#x200B;**[!UICONTROL 自定义对象]**（关系架构）访问可脚本访问对象中的所有变量。 选择自定义对象后，您可以通过单击自定义对象文件夹来查看字段。 对于要添加到表达式的每个字段，单击&#x200B;**+**。
 
-![Personalization编辑器 — 基于模型的类 — 添加自定义对象字段](./assets/personalization-editor-custom-object-fields.png){width="800" zoomable="yes"}
-
-<!-- ## Personalization experimentation {#playground}
-
-**[!DNL Adobe Journey Optimizer]** includes an interactive tool designed to help you learn and experiment with personalization capabilities.
-
-This playground provides a simulated environment to write and test personalization code using sample data without requiring live datasets. You can leverage predefined code samples, edit dummy profile payloads, and preview the output of your personalization code in real-time. 
-
-![personalization playground](assets/playground.png)
-
-➡️ [Access the personalization playground](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ajo-personalization){target="_blank"} 
-
-## How-to videos{#video-perso}
-
-Learn how to use contextual event information from a journey to personalize a message.
-
->[!VIDEO](https://video.tv.adobe.com/v/3448150?captions=chi_hans&quality=12)
-
-Learn how to add profile-based personalization to a message and how to use audience membership as a pre-condition to a personalization block.
-
->[!VIDEO](https://video.tv.adobe.com/v/3416235?captions=chi_hans&quality=12)
-
-Learn how to leverage the personalization editor playground to write and test personalization code using sample data.
-
->[!VIDEO](https://video.tv.adobe.com/v/3475962?captions=chi_hans&quality=12) -->
+![Personalization编辑器 — 基于模型的类 — 添加自定义对象字段](./assets/personalization-editor-custom-object-fields.png){width="700" zoomable="yes"}
