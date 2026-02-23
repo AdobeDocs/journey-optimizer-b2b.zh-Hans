@@ -6,9 +6,10 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: 表达式、编辑器、语法、个性化
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
+source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
 workflow-type: tm+mt
-source-wordcount: '4857'
+source-wordcount: '4853'
 ht-degree: 6%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->辅助函数适用于在[简化架构](../simplified-architecture.md)上配置的Journey Optimizer B2B edition环境。
+>辅助函数可用于在[!DNL Journey Optimizer B2B Edition]简化架构[上配置的](../simplified-architecture.md)环境。
 
 ## 聚合函数
 
@@ -954,7 +955,7 @@ The following operation gets all the values for the map `identityMap`.
 |---------|---------|--------------------------------------|
 | `y` | 日历年（标准年） | `2023` |
 | `Y` | 基于周的年份(ISO 8601)。 年度边界可能不同。 | `2024` （2023年12月31日为2024年的第一周） |
-| `M` | 月份（1-12或文本，如`Jan`、`January`） | `12`或`Dec` |
+| `M` | 月份（1-12或文本，如`Jan`、`January`） | `12` 或 `Dec` |
 | `m` | 小时制的分钟(0-59) | `15` |
 | `d` | 日期(1-31) | `31` |
 | `D` | 每年的某一日(1-366) | `365` |

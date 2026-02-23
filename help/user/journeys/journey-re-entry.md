@@ -4,19 +4,19 @@ description: 控制帐户重新进入同一帐户历程的时间和频率。
 feature: Account Journeys
 role: User
 level: Intermediate
-source-git-commit: 696d3a57a1c086a25670ffb41cd095d4da011615
+exl-id: e5153125-6d5b-4835-bd19-c9b7ce67e46a
+source-git-commit: 5adf65f3c48c17f73e4897fb9ce027631bf196a7
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '432'
 ht-degree: 1%
 
 ---
-
 
 # 历程重新进入
 
 _仅限帐户历程_
 
-为帐户历程启用重新进入后，您可以控制帐户何时以及多久重新进入一次同一历程。 使用重新进入设置设置来设置标准、限制和等待时间，以便帐户以可控方式重新进行资格。
+为帐户历程启用重新进入后，您可以控制帐户何时以及多久重新进入一次同一历程。 使用重新进入设置来设置标准、限制和等待时间，以便帐户需要以可控方式完成历程。
 
 当以下项为true时，帐户可以重新符合历程的资格：
 
