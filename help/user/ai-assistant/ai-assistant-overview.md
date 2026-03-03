@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # Journey Optimizer B2B edition中的AI助手
 
-Journey Optimizer B2B edition中的AI助手是基于Adobe Experience Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target="_blank"}中的[AI助手所基于的相同技术创建的。 它是一种对话式体验，可用于加快Adobe Journey Optimizer B2B edition中的工作流程。 您可以使用AI Assistant进一步了解产品功能、排除问题或搜索信息并查找Journey Optimizer B2B edition的操作见解。
+Journey Optimizer B2B edition中的AI助手是基于Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target="_blank"}中的AI助手所基于的相同技术创建的。 它是一种对话式体验，可用于加快Adobe Journey Optimizer B2B edition中的工作流程。 您可以使用AI Assistant进一步了解产品功能、排除问题或搜索信息并查找Journey Optimizer B2B edition的操作见解。
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ Journey Optimizer B2B edition中的AI助手是基于Adobe Experience Platform](h
 
 ## Journey Optimizer B2B edition中的AI助手功能
 
-为了制定对您提交问题的响应，AI Assistant查询数据库并将数据库中的数据转换为人类可读的答案。 此响应是基础数据的内部表示形式，也称为&#x200B;_**_知识图_**_ — 给定答案的概念、数据和元数据的综合网络。 知识图由每次提交查询时引用的子图组成：
+为了制定对您提交问题的响应，AI Assistant查询数据库并将数据库中的数据转换为人类可读的答案。 此响应是基础数据的内部表示形式，也称为&#x200B;_&#x200B;**_知识图_**&#x200B;_ — 给定答案的概念、数据和元数据的综合网络。 知识图由每次提交查询时引用的子图组成：
 
 * Experience League文档。
 * 操作构件，例如架构、字段、受众和历程。
