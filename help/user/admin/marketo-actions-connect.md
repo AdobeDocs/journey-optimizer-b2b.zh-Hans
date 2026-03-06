@@ -3,39 +3,39 @@ title: 激活Marketo Engage以支持历程操作
 description: 激活Marketo Engage连接以支持历程操作，以便营销人员能够在Marketo Engage和Journey Optimizer B2B edition之间协调营销活动。
 feature: Integrations, Audiences, Buying Groups
 role: User, Admin
-source-git-commit: 9b77570ddb9b416251f38db51a57507a935a526a
+exl-id: e324a11b-1025-4850-865f-ef8886a6b2bb
+source-git-commit: cd11d96c80a8015fedd82d2c4db12e559da37f2c
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 1%
+source-wordcount: '525'
+ht-degree: 6%
 
 ---
-
 
 # 激活Marketo Engage实例以支持操作
 
 Marketo Engage操作是&#x200B;_基于人员的_&#x200B;操作，通过此类操作，可在Journey Optimizer B2B edition和Marketo Engage中基于&#x200B;_潜在客户_&#x200B;的营销工作之间，协调您的&#x200B;_基于帐户的_&#x200B;营销编排。 使用这些操作可编排静态列表成员资格并将人员放入营销策划。
 
-要使用Marketo Engage历程操作，管理员首先在Marketo Engage中创建[自定义服务](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/rest/custom-services){target="_blank"}，该服务提供身份验证所需的凭据。 然后，Journey Optimizer B2B edition的产品管理员使用这些凭据创建与Marketo Engage的连接。 然后，Journey Optimizer B2B edition用户可引用连接以在<!-- person and -->帐户历程中配置Marketo Engage操作，例如从Marketo Engage列表中添加或删除人员，或将他们添加到请求营销活动。
+要使用Marketo Engage历程操作，管理员首先在Marketo Engage中创建[自定义服务](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services){target="_blank"}，该服务提供身份验证所需的凭据。 然后，Journey Optimizer B2B edition的产品管理员使用这些凭据创建与Marketo Engage的连接。 然后，Journey Optimizer B2B edition用户可引用连接以在<!-- person and -->帐户历程中配置Marketo Engage操作，例如从Marketo Engage列表中添加或删除人员，或将他们添加到请求营销活动。
 
-## 配置Marketo Engage连接 {#external-marketo-configure}
+## 配置 Marketo Engage 连接 {#external-marketo-configure}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_marketo-configure-connections"
->title="外部Marketo Engage连接"
->abstract="产品管理员可以配置与外部Marketo Engage实例的连接，以便执行历程操作。"
+>title="外部 Marketo Engage 连接"
+>abstract="产品管理员可以配置与外部 Marketo Engage 实例的连接，使其可用于历程操作。"
 
 完成以下任务以配置外部Marketo Engage实例用于历程操作。
 
 ### 创建Marketo Engage自定义服务
 
-1. 以管理员身份登录Marketo Engage并[创建自定义服务](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}。
+1. 以管理员身份登录Marketo Engage并[创建自定义服务](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}。
 1. 复制以下值以用于Journey Optimizer B2B edition连接：
 
    * Munchkin ID
    * 客户端 ID
    * 客户端密码
 
-资产（如列表和营销活动）的Marketo Engage工作区可见性受自定义服务中分配的[角色权限](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}控制。 营销人员可以在一个历程中多次使用同一连接，并在同一历程中使用不同的Marketo Engage连接。
+资产（如列表和营销活动）的Marketo Engage工作区可见性受自定义服务中分配的[角色权限](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}控制。 营销人员可以在一个历程中多次使用同一连接，并在同一历程中使用不同的Marketo Engage连接。
 
 ### 添加集成
 
@@ -55,7 +55,7 @@ Marketo Engage操作是&#x200B;_基于人员的_&#x200B;操作，通过此类操
 
    >[!NOTE]
    >
-   >除了发生错误外，无论是否匹配，人员都会继续历程。
+   >人员/商机无论匹配项是什么，都会继续完成历程，但出现错误时除外。 当不存在匹配记录时，历程操作不会在Marketo Engage中创建新的人员记录。
 
 1. 输入在外部Munchkin实例中创建的服务的Marketo Engage ID、客户端ID和客户端密钥。
 1. 单击&#x200B;**[!UICONTROL 连接到Marketo]**。
