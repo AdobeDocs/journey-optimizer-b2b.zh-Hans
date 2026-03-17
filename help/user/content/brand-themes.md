@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件主题、可重用性、品牌协调、电子邮件设计
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 0440afada2cb17268ee265c07e4646ca244bf2a6
 workflow-type: tm+mt
-source-wordcount: '3086'
+source-wordcount: '3107'
 ht-degree: 2%
 
 ---
@@ -113,7 +113,11 @@ ht-degree: 2%
 
   单击&#x200B;_返回_&#x200B;箭头关闭调色板工具。
 
-* 单击&#x200B;**[!UICONTROL 添加变体]**&#x200B;以创建多个颜色变体，如&#x200B;_浅色_&#x200B;和&#x200B;_深色_&#x200B;模式，其中每个变体都有自己的调色板和细微控件。 您最多可以有6种变体。
+* 单击&#x200B;**[!UICONTROL 添加变体]**&#x200B;以创建多个颜色变体，如&#x200B;_浅色_&#x200B;和&#x200B;_深色_&#x200B;模式，其中每个变体都有自己的调色板和细微控件。
+
+  >[!NOTE]
+  >
+  >对于每个品牌主题，您最多可以定义四个变体。
 
   对于每个变体，单击&#x200B;_编辑_ （ ![编辑图标](../assets/do-not-localize/icon-edit.svg) ）图标。 您可以使用默认调色板或任何自定义颜色。
 
@@ -193,7 +197,7 @@ ht-degree: 2%
 | 类型 | 设置 | 描述 |
 | ---- | -------- | ----------- |
 | [!UICONTROL 文本] | ![按钮文本设置](./assets/email-theme-button-settings-text.png){width="300"} | 将&#x200B;**[!UICONTROL 字体库]**&#x200B;设置为&#x200B;_[!UICONTROL 标准]_&#x200B;或&#x200B;_[!UICONTROL Google字体]_。 然后，选择字体系列、大小和样式。 选择&#x200B;**[!UICONTROL 文本对齐方式]**：_左_、_居中_、_右_&#x200B;或&#x200B;_两端对齐_。 |
-| [!UICONTROL 边框] | ![按钮边框设置](./assets/email-theme-button-settings-border.png){width="300"} | 将&#x200B;**[!UICONTROL 边框]**&#x200B;切换开关向右移动以启用按钮边框显示选项，并根据您的设计条件进行设置。 通过增加或减少像素数来设置&#x200B;**[!UICONTROL 边框大小]**（线条宽度）。 通过从标准CSS **[!UICONTROL 值列表中选择一个值（如]** Solid`border-style`、_点线_&#x200B;和&#x200B;_虚线_）来设置&#x200B;_边框样式_。 |
+| [!UICONTROL 边框] | ![按钮边框设置](./assets/email-theme-button-settings-border.png){width="300"} | 将&#x200B;**[!UICONTROL 边框]**&#x200B;切换开关向右移动以启用按钮边框显示选项，并根据您的设计条件进行设置。 通过增加或减少像素数来设置&#x200B;**[!UICONTROL 边框大小]**（线条宽度）。 通过从标准CSS `border-style`值列表中选择一个值（如&#x200B;_Solid_、_点线_&#x200B;和&#x200B;_虚线_）来设置&#x200B;**[!UICONTROL 边框样式]**。 |
 | [!UICONTROL 大小] | ![按钮大小设置](./assets/email-theme-button-settings-size.png){width="300"} | 对于&#x200B;**[!UICONTROL 高度]**&#x200B;选项，单击向上和向下箭头图标以增加或减少像素数。 缺省值为空值（自动），并根据按钮的内容调整按钮的高度。 对于&#x200B;**[!UICONTROL 宽度]**，请使用切换开关以像素或百分比设置宽度。 对于百分比宽度，使用滑块设置百分比值。 百分比根据包含块的内容框确定按钮大小，其中不包括填充和边框。 例如，值50将按钮宽度设置为其包含的块内容宽度的50%。 对于基于像素的宽度，单击向上和向下箭头图标可增加或减少像素数。 默认值(_Auto_)为空值，并根据按钮的内容调整按钮的宽度。 |
 
 +++
@@ -208,7 +212,7 @@ ht-degree: 2%
 
 | 类型 | 设置 | 描述 |
 | ---- | -------- | ----------- |
-| [!UICONTROL 行] | ![分隔线设置](./assets/email-theme-divider-settings-line.png){width="300"} | 通过从标准CSS **[!UICONTROL 值列表中选择一个值（如]** Solid`border-style`、_点线_&#x200B;和&#x200B;_虚线_）来设置&#x200B;_边框样式_。 |
+| [!UICONTROL 行] | ![分隔线设置](./assets/email-theme-divider-settings-line.png){width="300"} | 通过从标准CSS `border-style`值列表中选择一个值（如&#x200B;_Solid_、_点线_&#x200B;和&#x200B;_虚线_）来设置&#x200B;**[!UICONTROL 边框样式]**。 |
 | [!UICONTROL 容器大小] | ![分隔线容器大小设置](./assets/email-theme-divider-settings-container-size.png){width="300"} | 对于&#x200B;**[!UICONTROL 高度]**&#x200B;选项，单击向上和向下箭头图标以增加或减少组件/元素的像素数。 缺省值为空值（自动），并根据其内容（行样式）调整高度。 对于&#x200B;**[!UICONTROL 宽度]**，请使用切换开关以像素或百分比设置宽度。 对于百分比宽度，使用滑块设置百分比值。 百分比根据包含块的内容框来确定元素宽度。 例如，如果值为50，则会将分隔符宽度设置为其包含的块内容宽度的50%。 对于基于像素的宽度，单击向上和向下箭头图标可增加或减少像素数。 默认值(_Auto_)为空值，并根据分隔线的内容调整其宽度。 |
 | [!UICONTROL 对齐方式] | ![分隔线对齐设置](./assets/email-theme-divider-settings-alignment.png){width="300"} | 选择包含块中的水平对齐方式： _左_、_居中_&#x200B;或&#x200B;_右_。 |
 
@@ -286,7 +290,7 @@ ht-degree: 2%
 
 ### 删除或复制主题
 
-找到主题后，单击主题卡右下角的&#x200B;_更多菜单_ (**...**)图标，然后选择要执行的操作：
+找到主题后，单击&#x200B;_更多菜单_ (**...**) 图标，然后选择要执行的操作：
 
 ![编辑主题 — 选择要编辑的自定义主题](./assets/email-theme-edit-more-menu.png){width="220"}
 
@@ -314,7 +318,7 @@ ht-degree: 2%
      >
      >如果选择&#x200B;_[!UICONTROL 手动样式设置]_&#x200B;模式，则必须重置电子邮件设计以应用主题。
      >
-     >如果选择&#x200B;_[!UICONTROL 主题]_&#x200B;模式，则只有也在[主题](./fragments.md)模式下创建的&#x200B;_片段_&#x200B;可用于添加到电子邮件内容。
+     >如果选择&#x200B;_[!UICONTROL 主题]_&#x200B;模式，则只有也在&#x200B;_主题_&#x200B;模式下创建的[片段](./fragments.md)可用于添加到电子邮件内容。
 
 1. 在电子邮件设计空间中，单击右侧的&#x200B;_主题_ （ ![主题图标](../assets/do-not-localize/icon-design-themes.svg) ）图标。
 
