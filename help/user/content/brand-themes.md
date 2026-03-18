@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件主题、可重用性、品牌协调、电子邮件设计
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: 0440afada2cb17268ee265c07e4646ca244bf2a6
+source-git-commit: 5e8dc7e2da8f27950e9c05c66943317669a5361b
 workflow-type: tm+mt
 source-wordcount: '3107'
 ht-degree: 2%
@@ -84,7 +84,7 @@ ht-degree: 2%
 
 1. 单击&#x200B;**[!UICONTROL 关闭]**&#x200B;以返回&#x200B;_[!UICONTROL 创建主题]_&#x200B;页面，然后单击&#x200B;**[!UICONTROL 取消]**&#x200B;以返回设计页面。
 
-   然后，您可以选择&#x200B;**[!UICONTROL 从头开始设计]**&#x200B;以打开可视化设计空间，并[将主题](#use-your-theme-for-email-content-authoring)用于电子邮件或模板。
+   然后，您可以选择&#x200B;**[!UICONTROL 从头开始设计]**&#x200B;以打开可视化设计空间，并[将主题](#use-email-theme)用于电子邮件或模板。
 
 ### 常规设置
 
@@ -152,7 +152,7 @@ ht-degree: 2%
 | ---- | -------- | ----------- |
 | [!UICONTROL 全局] | ![为全局文本设置选择库](./assets/email-theme-text-settings-global-library.png){width="300"} | 将&#x200B;**[!UICONTROL 字体库]**&#x200B;设置为&#x200B;_[!UICONTROL 标准]_&#x200B;或&#x200B;_[!UICONTROL Google字体]_。 然后，选择要使用的字体系列。 除非您为标题级别和段落类型设置了不同的文本样式，否则将始终应用这些全局文本设置。 |
 | [!UICONTROL 标题] | ![标题H1的文本样式](./assets/email-theme-text-settings-headings.png){width="300"} | 对于要设置的标题级别，请选择&#x200B;**[!UICONTROL H1]**、**[!UICONTROL H2]**&#x200B;等。 将&#x200B;**[!UICONTROL 字体库]**&#x200B;设置为&#x200B;_[!UICONTROL 标准]_&#x200B;或&#x200B;_[!UICONTROL Google字体]_。 然后，选择字体系列、大小和样式。 选择&#x200B;**[!UICONTROL 文本对齐方式]**：_左_、_居中_、_右_&#x200B;或&#x200B;_两端对齐_。 |
-| [!UICONTROL 段落] | ![类型P1的段落文本样式](./assets/email-theme-text-settings-headings.png){width="300"} | 对于要设置的标题级别，请选择&#x200B;**[!UICONTROL P1]**、**[!UICONTROL HP]**&#x200B;等。 将&#x200B;**[!UICONTROL 字体库]**&#x200B;设置为&#x200B;_[!UICONTROL 标准]_&#x200B;或&#x200B;_[!UICONTROL Google字体]_。 然后，选择字体系列、大小和样式。 根据需要调整&#x200B;**[!UICONTROL 行高]**。 选择&#x200B;**[!UICONTROL 文本对齐方式]**：_左_、_居中_、_右_&#x200B;或&#x200B;_两端对齐_。 |
+| [!UICONTROL 段落] | ![类型P1的段落文本样式](./assets/email-theme-text-settings-paragraphs.png){width="300"} | 对于要设置的段落类型，请选择&#x200B;**[!UICONTROL P1]**、**[!UICONTROL P2]**&#x200B;等。 将&#x200B;**[!UICONTROL 字体库]**&#x200B;设置为&#x200B;_[!UICONTROL 标准]_&#x200B;或&#x200B;_[!UICONTROL Google字体]_。 然后，选择字体系列、大小和样式。 根据需要调整&#x200B;**[!UICONTROL 行高]**。 选择&#x200B;**[!UICONTROL 文本对齐方式]**：_左_、_居中_、_右_&#x200B;或&#x200B;_两端对齐_。 |
 
 +++
 
@@ -166,8 +166,8 @@ ht-degree: 2%
 
 | 类型 | 设置 | 描述 |
 | ---- | -------- | ----------- |
-| [!UICONTROL 边距] | ![边距设置](./assets/email-theme-spacing-settings-margins.png){width="300"} | 选择&#x200B;_边距_&#x200B;图标以显示复制CSS `margin`参数的设置，该参数控制组件边框外部的空间并将它与其他组件/元素分开。 它会在组件周围创建一个间隙，以影响其定位和周围内容的布局。 根据设计需要设置边距值（像素）。 您可以单独设置组件的所有边、上边框、左右边或每侧的边距。 单击&#x200B;_锁定_&#x200B;和&#x200B;_解锁_&#x200B;图标以同步或取消同步上下和左右边距值。 |
-| [!UICONTROL 填充] | ![填充设置](./assets/email-theme-spacing-settings-paddings.png){width="300"} | 选择&#x200B;_填充_&#x200B;图标以显示复制CSS `padding`参数的设置，该参数是组件/元素的内容与其边框之间的空间。 内边距提供了内部间距，可用于控制内容与组件边框之间的距离。 根据设计需要设置以像素为单位的填充值。 您可以单独设置组件的所有边、上边框、左右边或每侧的边距。 单击&#x200B;_锁定_&#x200B;和&#x200B;_解锁_&#x200B;图标以同步或取消同步上下和左右填充值。 |
+| [!UICONTROL 边距] | ![边距设置](./assets/email-theme-spacing-settings-margins.png){width="300"} | 选择&#x200B;_边距_&#x200B;图标以显示复制CSS `margin`参数的设置，该参数控制组件边框外部的空间并将其与其他组件/元素分开。 它会在组件周围创建一个间隙，以影响其定位和周围内容的布局。 根据设计需要设置边距值（像素）。 可以单独设置组件所有侧、上下、左右或每侧的边距。 单击&#x200B;_锁定_&#x200B;和&#x200B;_解锁_&#x200B;图标以同步或取消同步上下和左右边距值。 |
+| [!UICONTROL 填充] | ![填充设置](./assets/email-theme-spacing-settings-paddings.png){width="300"} | 选择&#x200B;_填充_&#x200B;图标以显示复制CSS `padding`参数的设置，该参数是组件/元素的内容与其边框之间的空间。 内边距提供了内部间距，可用于控制内容与组件边框之间的距离。 根据设计需要设置以像素为单位的填充值。 可以单独设置组件所有侧、上下、左右或每侧的填充。 单击&#x200B;_锁定_&#x200B;和&#x200B;_解锁_&#x200B;图标以同步或取消同步上下和左右填充值。 |
 | [!UICONTROL 角] | ![边角设置](./assets/email-theme-spacing-settings-corners.png){width="300"} | 选择&#x200B;_角_&#x200B;图标以显示复制CSS `border-radius`参数的设置，该参数定义组件/元素角的半径。 根据拐角所需的曲线设置数值。 值为0（默认）会产生一个方形角。 |
 
 +++
