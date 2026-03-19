@@ -3,14 +3,12 @@ title: 登陆页面配置
 description: 配置登陆页面子域、表单预填充设置和数据流，以在Journey Optimizer B2B edition中启用营销活动网页发布。
 feature: Setup, Landing Pages, Content
 role: Admin
-hide: true
-hidefromtoc: true
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 6719755db59ed79a4bd32e4f0df0ebb8207aecda
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 31%
+source-wordcount: '500'
+ht-degree: 35%
 
 ---
 
@@ -20,7 +18,7 @@ ht-degree: 31%
 
 ## 设置
 
-若要查看登陆页面配置，请转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**。 在导航面板中的&#x200B;_[!UICONTROL 登录页面]_&#x200B;下，选择&#x200B;**[!UICONTROL 设置]**。
+若要查看登陆页面配置，请转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**。 在导航窗格中的&#x200B;_[!UICONTROL 登录页面]_&#x200B;下，选择&#x200B;**[!UICONTROL 设置]**。
 
 ![登陆页面设置](./assets/config-landing-pages-settings.png){width="800" zoomable="yes"}
 
@@ -31,7 +29,7 @@ ht-degree: 31%
 >title="登陆页面帐户字符串"
 >abstract="帐户字符串用于标识托管登录页面的 Adobe Journey Optimizer B2B Edition 实例。"
 
-帐户字符串标识托管登陆页面的Adobe Journey Optimizer B2B edition实例。 确保您的系统团队添加并配置DNS条目。
+帐户字符串用于标识托管登录页面的 Adobe Journey Optimizer B2B Edition 实例。 确保您的系统团队添加并配置DNS条目。
 
 ### 表单预填充 {#form-prefill}
 
@@ -52,7 +50,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_missing_datastream"
 >title="缺少数据流 ID"
->abstract="子域缺少正确路由所需的数据流 ID。在“设置”中配置以继续"
+>abstract="子域缺少正确路由所需的数据流 ID。 在“设置”中配置以继续"
 
 设置&#x200B;**[!UICONTROL 数据流]**&#x200B;选项以配置用于登陆页面事件收集的数据流。
 
@@ -61,18 +59,18 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_add_subdomain"
 >title="添加登陆页面子域"
->abstract="最多可以添加 50 个子域。为您要在 Adobe Journey Optimizer B2B Edition 上托管的每个唯一品牌 URL 设置一个新的子域。"
+>abstract="最多可以添加 50 个子域。 为您要在 Adobe Journey Optimizer B2B Edition 上托管的每个唯一品牌 URL 设置一个新的子域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_configure_subdomain"
 >title="配置登陆页面子域"
->abstract="需要配置子域才能发布登陆页面。可使用已委派给 Adobe 的子域或创建新的子域。"
+>abstract="需要配置子域才能发布登陆页面。 可使用已委派给 Adobe 的子域或创建新的子域。"
 
 登陆页面子域应该有助于识别内容类型、产品名称或促销活动，并强化页面真实性。 在配置子域之前，请定义一个或多个CNAME以用于登陆页面。 例如：
 
-* **产品**。[公司域].com
-* **转到**。[公司域].com
-* **注册**。[公司域].com
+* **产品**.[CompanyDomain].com
+* **转到**。[CompanyDomain].com
+* **注册**.[CompanyDomain].com
 
 在这些示例中，第一部分（粗体部分）是`LandingPageCNAME`。
 

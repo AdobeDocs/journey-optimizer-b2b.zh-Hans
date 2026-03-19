@@ -1,22 +1,22 @@
 ---
-title: 用户管理
+title: 用户访问和权限
 description: 使用Experience Cloud Admin Console管理用户访问权限 — 为Journey Optimizer B2B edition创建用户组、分配产品配置文件并配置基于角色的权限。
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: de509c4c3678fa55584dda4b6d23035de7641c91
+source-git-commit: 7027e028922dae2a2dff64ab966886af7b6a8c49
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2135'
 ht-degree: 2%
 
 ---
 
-# 用户管理
+# 用户访问和权限
 
 完成配置并绑定沙盒后，请完成以下步骤以为您的团队和用户提供对Adobe Journey Optimizer B2B edition的访问权限。
 
-1. [在Admin Console中创建Marketo Engage产品配置文件](#marketo-engage-profile)(仅限新的Marketo Engage实例)。
-1. 在Admin Console中[创建用户组](#create-user-group)。
+1. [在Admin Console中创建Marketo Engage产品配置文件](#create-the-marketo-engage-product-profile)（仅限新的Marketo Engage实例）。
+1. 在Admin Console中[添加用户组](#add-a-user-group-for-the-profile)。
 1. [编辑内置角色](#edit-roles-for-product-permissions)或[创建具有Journey Optimizer B2B edition权限的自定义角色](#create-a-custom-role)。
 1. [将用户](#add-users)或[组](#add-user-groups-to-a-role)添加到角色。
 
@@ -56,13 +56,13 @@ ht-degree: 2%
 
 授予用户访问Adobe解决方案的权限时，您不一定要授予他们完全访问权限。 产品配置文件使每个解决方案都有自己的用户权限集。 使用Admin Console分配产品配置文件。
 
-有关将产品配置文件用于用户权限的详细信息，请参阅Admin Console文档中的[管理企业用户的产品配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-product-profiles.html){target="_blank"}。
+有关将产品配置文件用于用户权限的详细信息，请参阅Admin Console文档中的&#x200B;[_管理企业用户的产品配置文件_](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"}。
 
 >[!BEGINSHADEBOX]
 
-将用户添加到Marketo Engage产品配置文件后，这些用户随后将添加到Marketo Engage订阅的默认工作区中的&#x200B;_标准用户_&#x200B;角色。 此角色将授予该工作区中Marketo Engage的所有&#x200B;_标准用户_&#x200B;权限。 目前，所有Journey Optimizer B2B edition用户都必须是Marketo Engage用户。 Marketo Engage管理员可以通过更新&#x200B;_Standard User_&#x200B;角色的权限或使用更严格的权限将用户移动到其他Marketo Engage用户角色来限制访问。
+将用户添加到Marketo Engage产品配置文件后，这些用户随后将添加到Marketo Engage订阅的默认工作区中的&#x200B;_标准用户_&#x200B;角色。 此角色向他们授予该工作区中Marketo Engage的所有&#x200B;_x_&#x200B;权限。 目前，所有Journey Optimizer B2B edition用户都必须是Marketo Engage用户。 Marketo Engage管理员可以通过更新&#x200B;_Standard User_&#x200B;角色的权限或使用更严格的权限将用户移动到其他Marketo Engage用户角色来限制访问。
 
-有关在Marketo Engage中管理这些权限的详细信息，请参阅Marketo Engage文档中的[管理用户角色和权限](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}。
+有关在Marketo Engage中管理这些权限的详细信息，请参阅Marketo Engage文档中的[管理用户角色和权限](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -76,13 +76,17 @@ ht-degree: 2%
 
    ![Admin Console - Marketo Engage实例 — 新配置文件](./assets/admin-console-marketo-engage-instance-new-profile.png){width="700" zoomable="yes"}
 
-1. 输入产品配置文件名称，如&#x200B;_标准用户_。
+1. 输入产品配置文件名称，如&#x200B;_B2B用户_。
 
-1. 单击&#x200B;**下一步**，然后单击&#x200B;**保存**。
+1. 单击&#x200B;**[!UICONTROL 下一步]**，然后单击&#x200B;**[!UICONTROL 保存]**。
 
-## 创建用户组 {#create-user-group}
+## 为配置文件添加用户组 {#add-user-group}
 
 用户组是指一组被授予共享权限的用户。 您可以在用户组中添加或删除用户。 当组内的用户发生更改时，组权限保持不变。
+
+>[!TIP]
+>
+>如果您要迁移到简化的架构，并且希望将现有Journey Optimizer B2B edition用户添加到Marketo Engage，则可以跳过用户组创建步骤，而只需打开现有用户组并添加Marketo Engage产品配置文件即可。
 
 有关如何使用用户组管理权限的更多信息，请参阅Admin Console文档中的[管理用户组](https://helpx.adobe.com/cn/enterprise/using/user-groups.html){target="_blank"}。
 
@@ -96,7 +100,7 @@ ht-degree: 2%
 
 1. 单击右上方的&#x200B;**[!UICONTROL 新建用户组]**。
 
-1. 输入用户组的名称，如&#x200B;_标准用户_，然后单击&#x200B;**[!UICONTROL 保存]**。
+1. 输入用户组的名称，如&#x200B;_B2B用户_，然后单击&#x200B;**[!UICONTROL 保存]**。
 
 1. 单击刚刚创建的用户组。
 
@@ -113,7 +117,7 @@ ht-degree: 2%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-## 将用户添加到组
+## 将用户添加到新组
 
 有关用户管理的信息，请参阅Admin Console文档中的[Admin Console用户](https://helpx.adobe.com/cn/enterprise/using/user-groups.html)。
 
@@ -143,7 +147,7 @@ ht-degree: 2%
 
 在Adobe Experience Platform的&#x200B;_权限_&#x200B;区域，管理员可以定义用户角色和访问策略，以管理产品应用程序内功能和对象的访问权限。 在此应用程序中，您可以创建和管理角色，并为这些角色分配所需的资源权限。 权限还允许您管理与特定角色关联的沙盒和用户。
 
-有关Experience Platform中角色权限的更多信息，请参阅Experience Platform文档中的[管理角色的权限](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
+有关Experience Platform中角色权限的更多信息，请参阅Experience Platform文档中的[管理角色的权限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
 
 ### B2B产品权限
 

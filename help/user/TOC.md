@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文档
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition 以及如何使用它通过内置的生成式 AI 和行业领先的自动化来编排帐户及购买群组历程。
-source-git-commit: 51bb47fe4f494095f1c598639f02f273b9a125ae
+source-git-commit: 2e63606151c41a4fcdb632c367e3f41ca04c6ecb
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 76%
+source-wordcount: '423'
+ht-degree: 74%
 
 ---
 
@@ -15,9 +15,18 @@ ht-degree: 76%
 + [发行说明](./release-notes/release-notes.md)
 + 快速入门 {#get-started}
    + [Journey Optimizer B2B Edition 概述](about-journey-optimizer-b2b-edition.md)
+   + 简化的系统架构 {#simplified-architecture}
+      + [设置核对清单](./simplified-architecture.md)
+      + [命名空间和架构](./data/namespaces-schemas.md)
+      + [XDM字段选择](./admin/xdm-field-management.md)
+      + [体验事件和字段](./admin/configure-aep-events.md)
+      + [品牌化域](./start/branding-domains.md)
+      + [电子邮件跟踪和投放](./start/email-protocols.md)
+      + [电子邮件设置](./start/email-setup.md)
+      + [Marketo Engage历程操作](./admin/marketo-actions-connect.md)
+      + [用户管理](./admin/user-management.md)
+   + [用户入门指南](./start/get-started.md)
    + [登录和主页](home-page.md)
-   + [入门指南](./start/get-started.md)
-   + [跟踪和电子邮件协议](./start/email-protocols.md)
 + AI 助手 {#ai-assistant}
    + [概述](./ai-assistant/ai-assistant-overview.md)
    + [启用 AI 助手访问](./ai-assistant/enable-ai-assistant-access.md)
@@ -61,6 +70,7 @@ ht-degree: 76%
    + [Experience Platform受众](./audiences/account-audience-overview.md)
    + [定位外部受众](./audiences/target-external-audience.md)
    + [LinkedIn帐户匹配的受众](./data/linkedin-account-matched-audiences.md)
+   + [默认XDM字段](./admin/field-mapping.md)
 + 帐户 {#accounts}
    + 购买群组 {#buying-groups}
       + [概述](./buying-groups/buying-groups-overview.md)
@@ -140,13 +150,7 @@ ht-degree: 76%
    + [帐户历程仪表板](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
    + [治理](./admin/governance.md)
-   + [Marketo操作配置](./admin/marketo-actions-connect.md)
-   + [用户画像映射](./admin/persona-mapping.md)
-   + [用户管理](./admin/user-management.md)
-   + XDM字段管理 {#xdm-field-management}
-      + [XDM类](admin/xdm-field-management.md)
-      + [体验事件和字段](./admin/configure-aep-events.md)
-      + [默认XDM字段](./admin/field-mapping.md)
+   + [人物角色映射](./admin/persona-mapping.md)
    + 渠道 {#channels}
       + [电子邮件配置](./admin/configure-channels-emails.md)
       + [短信配置](./admin/configure-channels-sms.md)
@@ -157,4 +161,3 @@ ht-degree: 76%
       + [AEM Assets 存储库](./admin/configure-aem-repositories.md)
       + [意图数据](./admin/intent-data.md)
       + [参与度评分权重](./admin/engagement-score-weighting.md)
-   + [简化的架构设置](simplified-architecture.md)
