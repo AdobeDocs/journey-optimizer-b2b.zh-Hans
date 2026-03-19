@@ -117,7 +117,7 @@ curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_mun
 
 1. 根据您想要为限制定义时间周期的方式，选择&#x200B;**[!UICONTROL 重置上限频率]**&#x200B;值。
 
-   您可以选择每小时&#x200B;_[!UICONTROL 、_[!UICONTROL &#x200B;每日&#x200B;]_、_[!UICONTROL &#x200B;每周&#x200B;]_或_[!UICONTROL &#x200B;每月&#x200B;]_。]_
+   您可以选择每小时&#x200B;_[!UICONTROL 、_[!UICONTROL &#x200B;每日&#x200B;]_、_[!UICONTROL &#x200B;每周&#x200B;]_&#x200B;或_[!UICONTROL &#x200B;每月&#x200B;]_。]_
 
    ![访问通信限制配置](./assets/config-email-communication-limits-create-rule-settings.png){width="600" zoomable="yes"}
 
