@@ -135,7 +135,7 @@ ht-degree: 4%
 
 ### 收听体验活动
 
-管理员可以选择[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，这样营销人员就可以创建对事件做出近乎实时反应的帐户和人员历程。 在历程中使用体验事件包括两个步骤：
+管理员可以选择[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，这样营销人员就可以创建对事件做出近乎实时反应的帐户和人员历程。 在历程中使用体验事件包括两个步骤：
 
 1. 管理员[选择事件类型和感兴趣的字段](../admin/configure-aep-events.md#select-an-event)，以便在历程中可用。
 
