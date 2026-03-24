@@ -4,9 +4,9 @@ description: 为帐户和人员触发器配置事件节点 — 监听Journey Opt
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
+source-git-commit: a9f38d6d38233a974d640f83e5940d16fec50632
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1844'
 ht-degree: 4%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 4%
 
 | 活动 | 约束 |
 | ----- | ----------- |
-| [!UICONTROL 帐户有有趣的时刻] | 类型（电子邮件、里程碑或Web）<br/>其他约束（可选）： <li>描述</li><li>来源</li><li>活动日期</li> <br/>超时（可选） |
+| [!UICONTROL 帐户有有趣的时刻] | 类型（电子邮件、里程碑或Web）<br/>其他约束（可选）： <li>描述</li><li>源</li><li>活动日期</li> <br/>超时（可选） |
 | [!UICONTROL 更改帐户数据值] | 属性<br/>其他约束（可选）： <li>新值</li><li>上一个值</li><li>活动日期</li> <br/>超时（可选） |
 | 购买团体阶段[!UICONTROL 更改] | 解决方案兴趣<br/>其他约束（可选）： <li>新阶段</li><li>上一阶段</li><li>活动日期</li><br/>超时（可选） |
 | [!UICONTROL 购买群组状态更改] | 解决方案兴趣<br/>其他约束（可选）： <li>新状态</li><li>以前的状态</li><li>活动日期</li><br/>超时（可选） |
@@ -61,13 +61,13 @@ ht-degree: 4%
 | Journey Optimizer B2B | [!UICONTROL 已分配给购买组] | 解决方案兴趣<br/><br/>其他约束（可选）： <li>角色</li><li>活动日期</li><br/>超时（可选） |
 | | [!UICONTROL 点击电子邮件中的链接] | 电子邮件<br/><br/>其他约束（可选）： <li>链接</li><li>链接Id</li><li>是移动设备</li><li>设备</li><li>平台</li><li>浏览器</li><li>是预测内容</li><li>是机器人活动</li><li>机器人活动模式</li><li>浏览器</li><li>活动日期</li><li>最低 次数</li><br/>超时（可选） |
 | | 短信中的[!UICONTROL 点击链接] | 电子邮件<br/><br/>其他约束（可选）： <li>链接</li><li>设备</li><li>平台</li><li>活动日期</li><li>最低 次数</li><br/>超时（可选） |
-| | [!UICONTROL 数据值更改] | 人员属性<br/><br/>其他约束（可选）： <li>新值</li><li>上一个值</li><li>原因</li><li>来源</li><li>活动日期</li><li>最低 次数</li><br/>超时（可选） |
+| | [!UICONTROL 数据值更改] | 人员属性<br/><br/>其他约束（可选）： <li>新值</li><li>上一个值</li><li>原因</li><li>源</li><li>活动日期</li><li>最低 次数</li><br/>超时（可选） |
 | | [!UICONTROL 打开电子邮件] | 电子邮件<br/><br/>其他约束（可选）： <li>链接</li><li>链接Id</li><li>是移动设备</li><li>设备</li><li>平台</li><li>浏览器</li><li>是预测内容</li><li>是机器人活动</li><li>机器人活动模式</li><li>浏览器</li><li>活动日期</li><li>最低 次数</li><br/>超时（可选） |
 | | [!UICONTROL 已从购买群组中移除] | 解决方案兴趣<br/>活动日期（可选）<br/>超时（可选） |
 | | [!UICONTROL 分数已更改] | 得分名称<br/><br/>其他约束（可选）：<li>更改</li><li>新得分</li><li>紧急</li><li>优先级</li><li>相对分数</li><li>相对紧迫性</li><li>活动日期</li><li>最低 次数</li><br/>超时（可选） |
 | | [!UICONTROL 短信退回] | SMS消息<br/><br/>其他约束（可选）： <li>活动日期</li><li>最小次数</li><br/>超时（可选） |
-| Marketo Engage | [!UICONTROL 访问网页] | 网页<br/>选择一个或多个Marketo Engage页面进行匹配。 <br/><br/>其他约束（可选）： <li>查询字符串</li><li>客户端IP地址</li><li>反向链接</li><li>用户代理</li><li>搜索引擎</li><li>搜索查询</li><li>令牌</li><li>浏览器</li><li>平台</li><li>设备</li><li>活动日期</li> |
-| | [!UICONTROL 填写表单] | 表单<br/>选择要匹配的一个或多个Marketo Engage表单。 <br/><br/>其他约束（可选）： <li>活动日期</li><li>查询字符串</li><li>客户端IP地址</li><li>反向链接</li><li>用户代理</li><li>平台</li><li>设备</li><br/>超时（可选） |
+| Marketo Engage | [!UICONTROL 访问网页] | 网页<br/>选择一个或多个Marketo Engage页面进行匹配。<br/><br/>其他约束（可选）： <li>查询字符串</li><li>客户端IP地址</li><li>反向链接</li><li>用户代理</li><li>搜索引擎</li><li>搜索查询</li><li>令牌</li><li>浏览器</li><li>平台</li><li>设备</li><li>活动日期</li> |
+| | [!UICONTROL 填写表单] | 表单<br/>选择要匹配的一个或多个Marketo Engage表单。<br/><br/>其他约束（可选）： <li>活动日期</li><li>查询字符串</li><li>客户端IP地址</li><li>反向链接</li><li>用户代理</li><li>平台</li><li>设备</li><br/>超时（可选） |
 | Adobe Experience Platform | [!UICONTROL 事件定义] | 事件类型<br/><br/>其他约束（可选）： <li>字段</li> <br/>其他约束（不支持）： <li>活动日期</li><li>最低 次数</li><br/>超时（可选） |
 
 ### 人员事件过滤器
@@ -76,10 +76,10 @@ ht-degree: 4%
 | ------------ | ----------- |
 | [!UICONTROL 活动历史记录] > [!UICONTROL 电子邮件] | 电子邮件活动基于使用历程中早期的一个或多个选定电子邮件评估的条件： <li>[!UICONTROL 已单击电子邮件中的链接] <li>打开了电子邮件 <li>是通过电子邮件传递的 <li>已发送电子邮件<!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the email activity).--> |
 | [!UICONTROL 活动历史记录] > [!UICONTROL 短信消息] | 短信活动基于使用历程中较早时间的一个或多个选定短信消息评估的条件： <li>[!UICONTROL 点击短信中的链接] <li>[!UICONTROL 短信已退回] <!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the SMS activity). --> |
-| [!UICONTROL 活动历史记录] > [!UICONTROL 数据值已更改] | 对于选定的人员属性，发生值更改。 这些更改类型包括： <li>新值<li>上一个值<li>原因<li>来源<li>活动日期<li>最低 次数<!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change). --> |
+| [!UICONTROL 活动历史记录] > [!UICONTROL 数据值已更改] | 对于选定的人员属性，发生值更改。 这些更改类型包括： <li>新值<li>上一个值<li>原因<li>源<li>活动日期<li>最低 次数<!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change). --> |
 | [!UICONTROL 活动历史记录] > [!UICONTROL 快乐时光] | 在关联的Marketo Engage实例中定义的有趣时刻活动。 限制包括： <li>里程碑<li>电子邮件<li>Web <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).--> |
 | [!UICONTROL 活动历史记录] > [!UICONTROL 访问的网页] | 针对由关联的Marketo Engage实例管理的一个或多个网页的网页活动。 限制包括： <li>网页（必填）<li>活动日期<li>客户端IP地址 <li>查询字符串 <li>反向链接 <li>用户代理 <li>搜索引擎 <li>搜索查询 <li>个性化URL <li>令牌 <li>浏览器 <li>平台 <li>设备 <li>最低 次数<!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> |
-| [!UICONTROL 人员属性] | 人员配置文件中的属性，包括： <li>城市 <li>国家/地区 <li>出生日期 <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>名字 <li>推断的状态区域<li>作业名称 <li>姓氏 <li>手机号码 <li>人员参与度分数 <li>电话号码 <li>邮政编码 <li>State <li>取消订阅 <li>取消订阅的原因 |
+| [!UICONTROL 人员属性] | 人员配置文件中的属性，包括： <li>城市 <li>国家 <li>出生日期 <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>名 <li>推断的状态区域<li>职务名称 <li>姓 <li>手机号码 <li>人员参与度分数 <li>电话号码 <li>邮政编码 <li>州 <li>取消订阅 <li>取消订阅的原因 |
 | [!UICONTROL 特殊筛选器] > [!UICONTROL 购买团体成员] | 人员是否属于根据以下一个或多个标准评估的购买组成员： <li>解决方案兴趣</li><li>购买组状态</li><li>完整性分数</li><li>参与度评分</li><li>已删除</li><li>角色</li> |
 | [!UICONTROL 特殊筛选器] > [!UICONTROL 列表成员] | 此人是否为一个或多个Marketo Engage列表的成员。 |
 | [!UICONTROL 特殊筛选器] > [!UICONTROL 计划成员] | 此人是否为一个或多个Marketo Engage项目的成员。 |
@@ -98,7 +98,7 @@ ht-degree: 4%
 
 1. 单击&#x200B;**[!UICONTROL 编辑事件]**&#x200B;并定义该事件的详细信息。
 
-### 收听Marketo Engage活动
+### 收听Marketo Engage活动 {#listen-for-marketo-engage-event}
 
 如果您在连接的Marketo Engage实例中有网页，则可以根据对这些网页的访问次数/未访问次数以及未填写的Marketo Engage表单触发事件。
 
@@ -135,7 +135,7 @@ ht-degree: 4%
 
 ### 收听体验活动
 
-管理员可以选择[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，这样营销人员就可以创建对事件做出近乎实时反应的帐户和人员历程。 在历程中使用体验事件包括两个步骤：
+管理员可以选择[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，这样营销人员就可以创建对事件做出近乎实时反应的帐户和人员历程。 在历程中使用体验事件包括两个步骤：
 
 1. 管理员[选择事件类型和感兴趣的字段](../admin/configure-aep-events.md#select-an-event)，以便在历程中可用。
 
@@ -190,7 +190,7 @@ ht-degree: 4%
 
 （仅限帐户历程）
 
-1. 定义事件后，在&#x200B;**[!UICONTROL 编辑事件]**&#x200B;对话框中选择&#x200B;_[!UICONTROL 筛选器]_&#x200B;选项卡。
+1. 定义事件后，在&#x200B;_[!UICONTROL 编辑事件]_&#x200B;对话框中选择&#x200B;**[!UICONTROL 筛选器]**&#x200B;选项卡。
 
    ![按人员侦听事件节点 — 选择“筛选器”选项卡以编辑事件](./assets/node-listen-event-people-edit-event-filters.png){width="700" zoomable="yes"}
 
@@ -224,4 +224,4 @@ ht-degree: 4%
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443244/?captions=chi_hans&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->

@@ -4,10 +4,10 @@ description: 通过历程简化需求生成 — 在Journey Optimizer B2B edition
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 6511f40329df34db665ed6f971fa20670be0ae32
+source-git-commit: a9f38d6d38233a974d640f83e5940d16fec50632
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 44%
+source-wordcount: '1525'
+ht-degree: 43%
 
 ---
 
@@ -70,7 +70,7 @@ Journey Optimizer B2B edition支持两种历程类型：
 
 在左侧导航栏中，展开&#x200B;**[!UICONTROL 历程管理]**，然后单击&#x200B;**[!UICONTROL 人员历程]**。
 
-在列表顶部的&#x200B;_搜索_&#x200B;工具中输入文本，以按名称筛选显示的列表。
+在列表顶部的&#x200B;_搜索_&#x200B;工具中输入文本，按名称筛选所显示的列表。
 
 ![筛选人员历程列表](./assets/person-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
@@ -99,15 +99,15 @@ Journey Optimizer B2B edition支持两种历程类型：
 
 ### 历程状态
 
-历程的状态会根据您应用的操作而改变。根据历程的状态，标头右侧的某些操作可用/不可用。
+历程的状态会根据您应用的操作而改变。 根据历程的状态，标头右侧的某些操作可用/不可用。
 
 | 状态 | 描述 | 可用操作 |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**草稿**&#x200B;_ | 可编辑的未发布历程。 | <li>[发布](./create-publish-journey.md#publish-a-journey)<li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
-| _&#x200B;**实时**&#x200B;_ | 历程发布后，历程状态从&#x200B;_草稿_&#x200B;更改为&#x200B;_实时_。 在这种状态下，历程无法再编辑。 | <li>[重复](#duplicate-journey)<li>[对新条目关闭](#close-to-new-entries) <li>[中止](#abort-journey) |
-| _&#x200B;**对新条目关闭**&#x200B;_ | 单击顶部导航中的[!UICONTROL 对新条目关闭]，历程状态从&#x200B;_实时_&#x200B;变为&#x200B;_对新条目关闭_。 | <li>[重复](#duplicate-journey) <li>[中止](#abort-journey) |
-| _&#x200B;**已中止**&#x200B;_ | 历程中止后，历程状态从&#x200B;_实时_&#x200B;或&#x200B;_对新条目关闭_&#x200B;改变。已中止历程无法重新开始。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
-| _&#x200B;**已完成**&#x200B;_ | 当历程中的所有帐户或人员受众成员完成历程时，状态将从&#x200B;_实时_&#x200B;或&#x200B;_已关闭到新条目_&#x200B;更改为&#x200B;_已完成_。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
+| _**草稿**_ | 可编辑的未发布历程。 | <li>[发布](./create-publish-journey.md#publish-a-journey)<li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
+| _**实时**_ | 历程发布后，历程状态从&#x200B;_草稿_&#x200B;更改为&#x200B;_实时_。 在这种状态下，历程无法再编辑。 | <li>[重复](#duplicate-journey)<li>[对新条目关闭](#close-to-new-entries) <li>[中止](#abort-journey) |
+| _**对新条目关闭**_ | 单击顶部导航中的[!UICONTROL 对新条目关闭]，历程状态从&#x200B;_实时_&#x200B;变为&#x200B;_对新条目关闭_。 | <li>[重复](#duplicate-journey) <li>[中止](#abort-journey) |
+| _**已中止**_ | 历程中止后，历程状态从&#x200B;_实时_&#x200B;或&#x200B;_对新条目关闭_&#x200B;改变。 已中止历程无法重新开始。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
+| _**已完成**_ | 当历程中的所有帐户或人员受众成员完成历程时，状态将从&#x200B;_实时_&#x200B;或&#x200B;_已关闭到新条目_&#x200B;更改为&#x200B;_已完成_。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
 
 ## 历程映射
 
@@ -145,7 +145,7 @@ Journey Optimizer B2B edition支持两种历程类型：
 
 ### 对新条目关闭
 
-如果关闭一个实时历程，当前在该历程中的帐户将继续其在历程中的路径，该历程无法再被进入。已关闭历程无法重新开始。您可以重复一个已关闭的历程。
+如果关闭一个实时历程，当前在该历程中的帐户将继续其在历程中的路径，该历程无法再被进入。 已关闭历程无法重新开始。 您可以重复一个已关闭的历程。
 
 >[!IMPORTANT]
 >
@@ -157,15 +157,15 @@ Journey Optimizer B2B edition支持两种历程类型：
 
 1. 在确认对话框中单击&#x200B;**[!UICONTROL 对新条目关闭]**。
 
-### 复制历程
+### 复制历程 {#duplicate-journey}
 
-复制操作类似于克隆功能，但复制的历程不包含任何已创建的历程内容资产。您可以复制历程的详细信息，或仅复制流量和路径结构的简单&#x200B;_框架_。
+复制操作类似于克隆功能，但复制的历程不包含任何已创建的历程内容资产。 您可以复制历程的详细信息，或仅复制流量和路径结构的简单&#x200B;_框架_。
 
 >[!NOTE]
 >
 >此操作当前不适用于人员历程。
 
-1. 单击历程名称旁边的&#x200B;_更多_&#x200B;图标 (**...**)，然后选择&#x200B;**[!UICONTROL 复制]**。
+1. 单击&#x200B;_更多_&#x200B;图标(**...**) 在历程名称旁边，然后选择&#x200B;**[!UICONTROL 复制]**。
 
    ![单击 ... 图标，然后选择“复制”](./assets/account-journeys-list-more-menu.png){width="450"}
 
@@ -179,15 +179,15 @@ Journey Optimizer B2B edition支持两种历程类型：
 
 1. 在&#x200B;_复制历程_&#x200B;对话框中，设置新历程的&#x200B;**[!UICONTROL 名称]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
-   在默认情况下，该对话框会使用所复制历程的名称加上 __copy_。根据需要为历程输入另一个唯一名称。
+   在默认情况下，该对话框会使用所复制历程的名称加上 __ copy_。 根据需要为历程输入另一个唯一名称。
 
    ![复制历程对话框](./assets/account-journey-duplicate-dialog.png){width="400"}
 
 1. 选择复制&#x200B;**[!UICONTROL 类型]**：
 
-   * **[!UICONTROL 部分内容复制]** - 使用此类型来复制历程中的所有内容，但不包括任何已创建的电子邮件或 SMS 消息。引用 Marketo Engage 电子邮件或 SMS 消息的节点会被完整保留。
+   * **[!UICONTROL 部分内容复制]** - 使用此类型来复制历程中的所有内容，但不包括任何已创建的电子邮件或 SMS 消息。 引用 Marketo Engage 电子邮件或 SMS 消息的节点会被完整保留。
 
-   * **[!UICONTROL 复制但不包含详细信息]** - 使用此类型仅复制节点结构和路径。所有节点设置和路径条件均未定义（默认），以便您可以重复使用具有不同受众、操作和路径分段设置的基本流程。所有&#x200B;_等待_&#x200B;节点默认设置为五天。
+   * **[!UICONTROL 复制但不包含详细信息]** - 使用此类型仅复制节点结构和路径。 所有节点设置和路径条件均未定义（默认），以便您可以重复使用具有不同受众、操作和路径分段设置的基本流程。 所有&#x200B;_等待_&#x200B;节点默认设置为五天。
 
 1. 单击&#x200B;**[!UICONTROL 复制]**。
 
@@ -195,9 +195,9 @@ Journey Optimizer B2B edition支持两种历程类型：
 
 ### 删除历程
 
-使用删除操作来永久删除历程。您不能删除正在进行或已计划的历程。
+使用删除操作来永久删除历程。 您不能删除正在进行或已计划的历程。
 
-1. 单击历程名称旁边的&#x200B;_更多_&#x200B;图标 (**...**)，然后选择&#x200B;**[!UICONTROL 删除]**。
+1. 单击&#x200B;_更多_&#x200B;图标(**...**) 在历程名称旁边，然后选择&#x200B;**[!UICONTROL 删除]**。
 
    根据历程的状态，您还可以从历程详细信息或历程图访问删除操作：
 
@@ -219,4 +219,4 @@ Journey Optimizer B2B edition支持两种历程类型：
 
 ## 帐户历程概述视频 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443217/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
