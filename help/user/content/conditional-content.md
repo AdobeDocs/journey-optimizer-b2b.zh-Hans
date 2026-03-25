@@ -15,14 +15,14 @@ ht-degree: 10%
 
 条件内容允许您根据条件规则调整电子邮件和片段内容。 这些规则是使用配置文件属性或上下文事件定义的。 您可以在规则生成器中创建条件规则，将其存储后可在您的帐户历程中重复使用。
 
-为了向片段和电子邮件添加条件内容，Adobe Journey Optimizer允许您应用存储在&#x200B;_条件_&#x200B;库中的条件规则。 在您为帐户历程[或](./email-authoring.md)可视片段[创作](./fragment-authoring.md)电子邮件内容时，在可视设计空间中应用条件规则。
+要向片段和电子邮件添加条件内容，Adobe Journey Optimizer允许您应用存储在&#x200B;_条件_&#x200B;库中的条件规则。 当您为帐户历程](./email-authoring.md)或[可视化片段](./fragment-authoring.md)创作[电子邮件内容时，在可视化设计空间中应用条件规则。
 
 ## 添加条件内容 {#email-fragment-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_content"
 >title="条件内容"
->abstract="使用条件规则创建内容组件的多个变体。如果在发送消息时不满足任何条件，则会显示默认变体中的内容。"
+>abstract="使用条件规则创建内容组件的多个变体。 如果在发送消息时不满足任何条件，则会显示默认变体中的内容。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_rule_select"
@@ -33,7 +33,7 @@ ht-degree: 10%
 
 1. 选择一个内容组件，然后单击组件工具栏中的&#x200B;**[!UICONTROL 启用条件内容]**&#x200B;图标。
 
-   该组件以橙色列出，表示它作为条件组件激活。 **[!UICONTROL 条件内容]**&#x200B;窗格显示在左侧，带有&#x200B;_默认变体_&#x200B;和&#x200B;_变体 — 1_。
+   该组件以橙色列出，表示它作为条件组件激活。 **[!UICONTROL 条件内容]**&#x200B;窗格在左侧显示，带有&#x200B;_默认变体_&#x200B;和&#x200B;_变体 — 1_。
 
    ![为文本组件启用条件内容](./assets/conditions-enable.png){width="700" zoomable="yes"}
 
@@ -43,27 +43,27 @@ ht-degree: 10%
 
 1. 将鼠标悬停在第一个变体（_变体 — 1_）上，然后单击&#x200B;_选择条件_&#x200B;图标（![条件图标](../assets/do-not-localize/icon-select-condition.svg)）。
 
-   ![为变体](./assets/conditions-variant-select.png){width="700" zoomable="yes"}选择条件
+   ![选择变体的条件](./assets/conditions-variant-select.png){width="700" zoomable="yes"}
 
    _[!UICONTROL 选择条件]_&#x200B;对话框打开并显示条件库。
 
-   如果要查看条件的详细信息以确保它是您想要的，请单击&#x200B;_更多菜单_&#x200B;图标(**...**)，然后选择&#x200B;**[!UICONTROL 查看信息]**。
+   如果要查看条件的详细信息以确保所需内容，请单击&#x200B;_更多菜单_&#x200B;图标(**...**) 并选择&#x200B;**[!UICONTROL 查看信息]**。
 
    ![条件库访问条件详细信息](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
-   如果所需的条件不存在，[通过单击](#create-condition)新建&#x200B;**[!UICONTROL 创建一个条件规则]**。
+   如果所需的条件不存在，请[通过单击&#x200B;**[!UICONTROL 新建]**&#x200B;创建一个条件规则](#create-condition)。
 
 1. 选择条件规则并单击&#x200B;**[!UICONTROL 选择]**&#x200B;以将其与变体关联。
 
-   您可以通过单击变体的&#x200B;_更多菜单_&#x200B;图标(**...**)并选择&#x200B;**[!UICONTROL 查看条件]**&#x200B;来查看关联的条件。
+   您可以通过单击&#x200B;_更多菜单_&#x200B;图标(**...**)查看关联的条件 ，然后选择&#x200B;**[!UICONTROL 查看条件]**。
 
    ![查看与变体关联的条件](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}
 
    单击右上方的X关闭弹出窗口。
 
-   ![查看关联条件的详细信息](./assets/conditions-info-popup.png){width="500"}
+   ![查看相关条件的详细信息](./assets/conditions-info-popup.png){width="500"}
 
-1. 为了提高可读性，请单击变体的&#x200B;_更多菜单_&#x200B;图标(**...**)并选择&#x200B;**[!UICONTROL 重命名]**&#x200B;以重命名变体。
+1. 为了提高可读性，请单击&#x200B;_更多菜单_&#x200B;图标(**...**)以重命名变体 ，然后选择&#x200B;**[!UICONTROL 重命名]**。
 
    为变体输入一个有意义的名称，以帮助您识别变体及其意图。
 
@@ -75,7 +75,7 @@ ht-degree: 10%
 
    ![更改变体的组件](./assets/conditions-variant-component-edit.png){width="600" zoomable="yes"}
 
-1. 如果需要，单击&#x200B;**[!UICONTROL 添加变体]**&#x200B;以定义另一个变体。
+1. 如果需要，请单击&#x200B;**[!UICONTROL 添加变体]**&#x200B;以定义另一个变体。
 
    重复步骤2 - 5以选择条件、重命名变体并更改变体的组件。
 
@@ -85,9 +85,9 @@ ht-degree: 10%
    >
    >条件内容将按照变体的列出顺序根据关联的规则进行评估。 组件的第一个变量具有评估为true的条件。
    >
-   >如果在发送电子邮件时，没有已定义的变体条件的计算结果为true，则内容组件将根据&#x200B;**[!UICONTROL 默认变体]**&#x200B;显示。
+   >如果在发送电子邮件时，未定义任何变体条件的计算结果为true，则内容组件将根据&#x200B;**[!UICONTROL 默认变体]**&#x200B;显示。
 
-1. 要删除变体，请单击变体的&#x200B;_更多菜单_&#x200B;图标(**...**)，然后选择&#x200B;**[!UICONTROL 删除]**。
+1. 要删除变体，请单击&#x200B;_更多菜单_&#x200B;图标(**...**) ，然后选择&#x200B;**[!UICONTROL 删除]**。
 
    在确认对话框中，单击&#x200B;**[!UICONTROL 删除]**。
 
@@ -104,10 +104,10 @@ ht-degree: 10%
 
 | 完成情况类型 | 过滤器 | 描述 |
 | -------------- | ------- | ----------- |
-| **帐户** | 帐户属性 | 帐户个人资料中的属性，包括： <li>年收入</li><li>城市</li><li>国家/地区</li><li>员工人数</li><li>行业</li><li>名称</li><li>SIC代码</li><li>State</li> |
+| **帐户** | 帐户属性 | 帐户个人资料中的属性，包括： <li>年收入</li><li>城市</li><li>国家</li><li>员工人数</li><li>行业</li><li>名称</li><li>SIC代码</li><li>State</li> |
 | | [!UICONTROL 特殊筛选器] > [!UICONTROL 有购买群] | 该帐户是否具有购买组的成员。 也可以根据以下一个或多个标准来评估过滤器： <li>解决方案兴趣</li><li>购买组状态</li><li>完整性分数</li><li>参与度评分</li> |
 | **人员** | [!UICONTROL 活动历史记录] > [!UICONTROL 电子邮件] | 与历程关联的电子邮件活动： <li>[!UICONTROL 已单击电子邮件中的链接]</li><li>已打开的电子邮件</li><li>已送达电子邮件</li><li>已发送电子邮件</li> 使用历程中早期的选定电子邮件评估这些条件。 |
-|  | [!UICONTROL 人员属性] | 人员配置文件中的属性，包括： <li>城市</li><li>国家/地区</li><li>出生日期</li><li>电子邮件地址</li><li>电子邮件无效</li><li>电子邮件已暂停</li><li>名字</li><li>推断的状态区域</li><li>作业名称</li><li>姓氏</li><li>手机号码</li><li>电话号码</li><li>邮政编码</li><li>State</li><li>取消订阅</li><li>取消订阅的原因</li> |
+|  | [!UICONTROL 人员属性] | 人员配置文件中的属性，包括： <li>城市</li><li>国家</li><li>出生日期</li><li>电子邮件地址</li><li>电子邮件无效</li><li>电子邮件已暂停</li><li>名</li><li>推断的状态区域</li><li>职务名称</li><li>姓</li><li>手机号码</li><li>电话号码</li><li>邮政编码</li><li>州</li><li>取消订阅</li><li>取消订阅的原因</li> |
 | | [!UICONTROL 特殊筛选器] > [!UICONTROL 购买团体成员] | 人员是否属于根据以下一个或多个标准评估的购买组成员： <li>解决方案兴趣</li><li>购买组状态</li><li>完整性分数</li><li>参与度评分</li><li>已删除</li><li>角色</li> |
 
 ### 创建条件规则 {#create-condition}
@@ -151,7 +151,7 @@ ht-degree: 10%
 
 无法修改保存到库的条件规则。 但是，您可以复制现有规则并对其进行更改以创建新规则。
 
-1. 单击变体的&#x200B;_更多菜单_&#x200B;图标(**...**)，然后选择&#x200B;**[!UICONTROL 复制]**。
+1. 单击&#x200B;_更多菜单_&#x200B;图标(**...**) 为变体选择&#x200B;**[!UICONTROL 复制]**。
 
    将在规则生成器中打开规则的副本。 使用副本作为要构建的规则的起点。
 

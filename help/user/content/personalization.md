@@ -9,8 +9,8 @@ keywords: 表达式、编辑器、开始、个性化
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
 source-git-commit: 10e02b821609c48b82ea0248501daa60de6daa12
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 0%
+source-wordcount: '771'
+ht-degree: 6%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aj-b2b_personalization"
 >title="个性化内容体验"
->abstract="使用&#x200B;**Adobe Journey Optimizer B2B edition**，利用您拥有的关于每个特定收件人的数据和信息调整您的邮件。 它可以是他们的名字、行业、头衔等。"
+>abstract="使用 **Adobe Journey Optimizer B2B Edition**，利用您掌握的相关数据和信息，将消息调整为适合每位特定收件人的内容。 例如其名字、所属行业、职位等信息。"
 
-[!DNL Adobe Journey Optimizer B2B Edition]个性化功能允许您利用有关每个特定收件人的数据和信息，根据他们调整电子邮件。 它可以是他们的名字、行业、头衔等。
+[!DNL Adobe Journey Optimizer B2B Edition]个性化功能允许您利用所拥有的关于每个特定收件人的数据和信息，根据他们调整电子邮件。 例如其名字、所属行业、职位等信息。
 
-使用&#x200B;_个性化编辑器_，您可以选择、排列、自定义和验证所有数据，以便为您的内容创建自定义的个性化设置。 使用各种工具（如辅助函数）定制消息。 编辑器使用基于&#x200B;_Handlebars_&#x200B;的内联个性化语法，其中表达式由双大括号`{{}}`括起来的内容构建。
+使用&#x200B;_个性化编辑器_，您可以选择、排列、自定义和验证所有数据，以便为您的内容创建自定义的个性化。 使用各种工具（如辅助函数）定制消息。 编辑器使用基于&#x200B;_Handlebars_&#x200B;的内联个性化语法，其中表达式是用双大括号`{{}}`括起来的内容构造的。
 
-在处理消息时，Journey Optimizer B2B edition会使用Adobe Experience Platform数据集中包含的数据和本地系统值替换表达式。 例如，`Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`动态变为`Hello John Doe`。
+在处理消息时，Journey Optimizer B2B edition会使用Adobe Experience Platform数据集中包含的数据和本地系统值替换表达式。 例如，`Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`会动态变成`Hello John Doe`。
 
 使用此语法，您可以跨多个字段个性化消息，包括电子邮件主题行、消息正文和发件人信息。
 
@@ -33,17 +33,17 @@ ht-degree: 0%
 
 在[!DNL Journey Optimizer B2B Edition]中，您可以使用个性化令牌构建动态电子邮件内容：
 
-* **帐户令牌** — 这些令牌基于帐户属性，如&#x200B;_帐户名称_、_行业_&#x200B;和&#x200B;_员工人数_。 使用这些令牌填充由&#x200B;**_XDM业务帐户详细信息_**&#x200B;架构(在Adobe Experience Platform中定义)管理的属性数据。
+* **帐户令牌** — 这些令牌基于帐户属性，如&#x200B;_帐户名称_、_行业_&#x200B;和&#x200B;_员工数量_。 使用这些令牌填充由&#x200B;**_XDM商业帐户详细信息_**&#x200B;架构（在Adobe Experience Platform中定义）管理的属性数据。
 
-* **人员令牌** — 这些令牌基于业务人员属性，如&#x200B;_名字_、_职务_&#x200B;和&#x200B;_公司名称_。 使用这些令牌填充由&#x200B;**_XDM业务人员详细信息_**&#x200B;架构管理的属性数据，该架构在Adobe Experience Platform中定义。
+* **人员令牌** — 这些令牌基于业务人员属性，如&#x200B;_名字_、_职务_&#x200B;和&#x200B;_公司名称_。 使用这些令牌填充由&#x200B;**_XDM业务人员详细信息_**&#x200B;架构（在Adobe Experience Platform中定义）管理的属性数据。
 
-* **系统令牌** — 这些令牌基于系统字段值，如&#x200B;_date_、_time_&#x200B;和&#x200B;_取消订阅链接_。
+* **系统令牌** — 这些令牌基于系统字段值，如&#x200B;_日期_、_时间_&#x200B;和&#x200B;_取消订阅链接_。
 
-* **我的令牌**（为历程定义时） — 为电子邮件所在的历程[定义的](./personalization-my-tokens.md)自定义令牌。
+* **我的令牌** （为历程定义时） — 为电子邮件所在的历程](./personalization-my-tokens.md)定义的[自定义令牌。
 
 >[!NOTE]
 >
->在[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home){target="_blank"}中了解有关XDM架构的更多信息。
+>在[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中了解有关XDM架构的更多信息。
 
 ## Personalization编辑器
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->以下有关个性化编辑器的信息反映了在[!DNL Journey Optimizer B2B Edition]简化架构[上配置的](../simplified-architecture.md)环境可用的更改。
+>以下有关个性化编辑器的信息反映了在[简化架构](../simplified-architecture.md)上配置的[!DNL Journey Optimizer B2B Edition]环境可用的更改。
 
 ### 令牌和辅助函数
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 [!BADGE Beta 版]{type=Informative tooltip="Beta功能"}
 
-您可以使用关系架构进行电子邮件个性化。 自定义对象是在&#x200B;_关系架构_&#x200B;中定义的，产品管理员可以在[中](../admin/xdm-field-management.md#relational-schemas)配置关系架构字段[!DNL Journey Optimizer B2B Edition]。 可在个性化编辑器中访问这些字段。 只有与人员或帐户具有一对多(1:M)关系的自定义对象才可用。
+您可以使用关系架构进行电子邮件个性化。 自定义对象是在&#x200B;_关系架构_&#x200B;中定义的，产品管理员可以在[!DNL Journey Optimizer B2B Edition]中[配置关系架构字段](../admin/xdm-field-management.md#relational-schemas)。 可在个性化编辑器中访问这些字段。 只有与人员或帐户具有一对多(1:M)关系的自定义对象才可用。
 
 >[!IMPORTANT]
 >
