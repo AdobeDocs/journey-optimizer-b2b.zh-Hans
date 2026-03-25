@@ -71,12 +71,12 @@ The buying group completeness score is available to use for filtering in [journe
 >title="角色完整度计算"
 >abstract="角色完整度评分基于分配到某一角色的成员数量，以百分比形式计算。"
 
-Journey Optimizer B2B edition按百分比计算每个购买团体角色的完整性分数。 根据分配给角色的成员数量来计算此分数，而完成任务所需的角色模板](./buying-groups-role-templates.md#change-the-completeness-score-settings)数量为[。
+Journey Optimizer B2B edition按百分比计算每个购买团体角色的完整性分数。 根据分配给角色的成员数量来计算此分数，而完成任务所需的角色模板[&#128279;](./buying-groups-role-templates.md#change-the-completeness-score-settings)数量为。
 
 角色完整性计算是介于零和指定阈值（需要成员）之间的线性百分比：
 
 * 如果分配的成员数为&#x200B;**零**，则角色完整性为&#x200B;**0%**。
-* 如果分配的成员数等于或大于阈值&#x200B;****，则角色完整性为&#x200B;**100%**。
+* 如果分配的成员数等于或大于阈值&#x200B;**&#x200B;**，则角色完整性为&#x200B;**100%**。
 * 如果分配的成员数介于&#x200B;**和阈值**&#x200B;之间，则将按比例计算完整性。
 
 ### 角色完整性公式
