@@ -125,7 +125,7 @@ To view this email as a web page, go to the following address:
 
 1. 转到附加的Marketo Engage实例中的&#x200B;**[!UICONTROL 管理员]**&#x200B;区域，然后选择&#x200B;**[!UICONTROL 电子邮件]**。
 
-1. 滚动到&#x200B;_[!UICONTROL 自定义对象检索限制]_&#x200B;面板，然后在&#x200B;**[!UICONTROL 父检索限制]**中输入一个新值
+1. 滚动到&#x200B;_[!UICONTROL 自定义对象检索限制]_&#x200B;面板，然后在&#x200B;**[!UICONTROL 父检索限制]**&#x200B;中输入一个新值
 字段。
 
    ![Marketo Engage电子邮件管理员 — 自定义对象检索限制默认值](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
@@ -158,8 +158,8 @@ To view this email as a web page, go to the following address:
 
 电子邮件机器人活动(也称为非人工交互(NHI))可能会夸大您的电子邮件&#x200B;_打开_&#x200B;和&#x200B;_点击_&#x200B;数据，扭曲您的参与量度，并触发基于事件的历程进程。 使用电子邮件机器人筛选来维护点击参与量度和分析的完整性。 识别可疑机器人活动的方法有两种：
 
-* _**[!UICONTROL 与IAB机器人列表匹配]**_ — 与[Interactive Advertising Bureau机器人列表](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"}（用户代理/IP地址）上的任何内容匹配的活动将被标记为机器人。
-* _**[!UICONTROL 与邻近模式匹配]**_ — 将同时发生的两个或多个活动（在一秒之内）识别为机器人。 比较过程中考虑的属性包括：
+* _&#x200B;**[!UICONTROL 与IAB机器人列表匹配]**&#x200B;_ — 与[Interactive Advertising Bureau机器人列表](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"}（用户代理/IP地址）上的任何内容匹配的活动将被标记为机器人。
+* _&#x200B;**[!UICONTROL 与邻近模式匹配]**&#x200B;_ — 将同时发生的两个或多个活动（在一秒之内）识别为机器人。 比较过程中考虑的属性包括：
    * 商机ID（应相同）
    * 电子邮件资源（应相同）
    * 链接点击或电子邮件打开
