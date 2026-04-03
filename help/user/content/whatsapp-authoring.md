@@ -49,9 +49,9 @@ WhatsApp支持以下消息类型：
 
 当您[添加&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点](../journeys/action-nodes.md)并执行以下操作时，可以在帐户历程中设置WhatsApp消息投放：
 
-1. 对于&#x200B;]_目标上的_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
+1. 对于&#x200B;_目标上的_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
 
-1. 若要对人员&#x200B;]_执行_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 发送WhatsApp]**。
+1. 若要对人员&#x200B;_执行_&#x200B;操作，请选择&#x200B;**[!UICONTROL 发送WhatsApp]**。
 
    ![执行操作 — 发送WhatsApp](./assets/whatsapp-journey-node.png){width="500" zoomable="yes"}
 
