@@ -1,5 +1,5 @@
 ---
-title: 品牌一致性打分
+title: 品牌一致性评分
 description: 通过品牌一致性评分评估电子邮件内容 — 根据Journey Optimizer B2B edition中的品牌准则验证颜色、字体、徽标和书写样式。
 badge: label="Beta 版" type="Informative"
 feature: Content, Brand Identity
@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 5824f311da00468b3e85c4e212f81c5d9657c5f7
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 16%
+source-wordcount: '472'
+ht-degree: 19%
 
 ---
 
@@ -42,11 +42,11 @@ ht-degree: 16%
 >title="徽标得分"
 >abstract="徽标得分"
 
-品牌一致性评估和分数可帮助您创建、审阅和管理符合所选品牌[中定义的准则](./brands-manage-create.md#brand-definitions)的内容。 它可确保电子邮件促销活动在语气、消息传递和视觉身份方面保持一致，同时在内容上线之前用作质量检查。
+品牌一致性评估和分数可帮助您创建、审阅和管理符合所选品牌](./brands-manage-create.md#brand-definitions)中定义的准则[的内容。 它可确保电子邮件促销活动在语气、消息传递和视觉身份方面保持一致，同时在内容上线之前用作质量检查。
 
 >[!AVAILABILITY]
 >
->此功能目前作为专用测试版提供，计划在未来版本中逐步提供给所有客户。
+>此功能目前作为公共测试版提供。
 >
 >在Adobe Journey Optimizer B2B edition中使用AI支持的功能之前，需要[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
 >
@@ -81,7 +81,7 @@ ht-degree: 16%
 * 60-79 =公平 — 一些重大违反行为
 * 60以下=差 — 严重违规需要注意
 
-您可以更详细地查看评估结果，以帮助您识别违规并提高类别一致性分数(_高_、_Medium_&#x200B;和&#x200B;_低_)并查看详细信息。 对于&#x200B;**[!UICONTROL 写入样式]**&#x200B;或&#x200B;**[!UICONTROL 可视内容]**，单击&#x200B;_展开_ （![展开箭头](../assets/do-not-localize/icon-expand-right.svg)）箭头以显示评估的详细信息。
+您可以更详细地查看评估结果，以帮助您识别违规并提高类别一致性分数（_高_、_Medium_&#x200B;和&#x200B;_低_）并查看详细信息。 对于&#x200B;**[!UICONTROL 写入样式]**&#x200B;或&#x200B;**[!UICONTROL 可视内容]**，单击&#x200B;_展开_ （![展开箭头](../assets/do-not-localize/icon-expand-right.svg)）箭头以显示评估的详细信息。
 
 ![品牌一致性评估详细信息](./assets/brands-alignment-evaluation-details.png){width="600" zoomable="yes"}
 

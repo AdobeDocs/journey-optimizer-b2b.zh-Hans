@@ -3,14 +3,12 @@ title: 创建内容生成和一致性品牌
 description: 通过从文档自动提取或手动输入来创建和管理品牌指南 — 在Journey Optimizer B2B edition中设置默认品牌以实现内容一致。
 badge: label="Beta 版" type="Informative"
 feature: Content, Brand Identity
-hide: true
-hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
 workflow-type: tm+mt
-source-wordcount: '2079'
+source-wordcount: '2069'
 ht-degree: 7%
 
 ---
@@ -23,7 +21,7 @@ ht-degree: 7%
 
 >[!AVAILABILITY]
 >
->此功能目前作为专用测试版提供，计划在未来版本中逐步提供给所有客户。
+>此功能目前作为公共测试版提供。
 >
 ><br>
 >
@@ -35,37 +33,37 @@ ht-degree: 7%
 
 ## 访问您的品牌库
 
-要在Adobe Journey Optimizer B2B edition中访问品牌工具包，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 品牌]**。 此操作将打开一个页面，其中创建的品牌将显示为卡片。
+要在Adobe Journey Optimizer B2B edition中访问品牌套件，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 品牌]**。 此操作将打开一个页面，其中创建的品牌将显示为卡片。
 
 ![访问品牌库](./assets/brands-library.png){width="800" zoomable="yes"}
 
-如果尚未创建任何品牌，则会显示单个图形，其中包含[创建您的第一个品牌](#create-and-define-a-brand)的按钮。
+如果尚未创建任何品牌，则显示单个图形，其中包含用于[创建您的第一个品牌](#create-and-define-a-brand)的按钮。
 
 ### 品牌管理操作
 
 对于每个卡片，您可以单击&#x200B;_更多菜单_ （![更多菜单图标](../../assets/do-not-localize/icon-more-menu.svg) ）图标并为品牌选择操作：
 
 * **[!UICONTROL 查看品牌]** — 打开品牌页面并显示定义。
-* **[!UICONTROL 标记为默认品牌]** （仅限实时模式） - [将该品牌标记为默认品牌](#default-brand)以进行内容对齐和生成。
+* **[!UICONTROL 标记为默认品牌]**（仅限实时模式） - [将品牌标记为默认品牌](#default-brand)以进行内容对齐和生成。
 * **[!UICONTROL 编辑]** — 打开品牌页面并编辑品牌指南、排除项和示例。
 * **[!UICONTROL 复制]** — 创建一个副本作为新的草稿品牌。
 * **[!UICONTROL 发布]** （仅限草稿） - [发布品牌](#publish-the-brand)，使其可用于内容对齐和生成。
-* **[!UICONTROL 取消发布]** （仅限实时模式） — 取消发布品牌以将其从用于内容对齐和生成的内容中移除。
+* **[!UICONTROL 取消发布]**（仅限实时模式） — 取消发布品牌以将其从用于内容对齐和生成的内容中移除。
 * **[!UICONTROL 删除]** — 从品牌库中移除品牌。
 
-![Access the More menu for the brand](./assets/brands-library-card-more-menu.png){width="440"}
+![访问品牌的“更多”菜单](./assets/brands-library-card-more-menu.png){width="440"}
 
-### Default brand
+### 默认品牌
 
-You can designate a default brand to be automatically applied when generating content and calculating alignment scores during content creation. Only a published (_Live_) brand can be the default.
+您可以在内容创建期间指定在生成内容并计算对齐分数时自动应用的默认品牌。 只有已发布的(_Live_)品牌可以是默认品牌。
 
-In the Brands library, the default brand card is displayed with a flag.
+在品牌库中，默认品牌卡显示有标志。
 
-![Default brand flag](./assets/brands-default-flag.png){width="200"}
+![默认品牌标志](./assets/brands-default-flag.png){width="200"}
 
-You can set any published (_Live_) brand as the default brand. On the brand card, click the _More menu_ ( ![More menu icon](../../assets/do-not-localize/icon-more-menu.svg) ) icon and choose **[!UICONTROL Mark as default brand]**.
+您可以将任何已发布的（_实时_）品牌设置为默认品牌。 在品牌卡上，单击&#x200B;_更多菜单_ （![更多菜单图标](../../assets/do-not-localize/icon-more-menu.svg) ）图标，然后选择&#x200B;**[!UICONTROL 标记为默认品牌]**。
 
-![Designate the default brand identity](./assets/brands-set-default.png){width="350"}
+![指定默认品牌标识](./assets/brands-set-default.png){width="350"}
 
 ## 创建并定义品牌 {#create-brand}
 
@@ -74,41 +72,41 @@ You can set any published (_Live_) brand as the default brand. On the brand card
 >title="创建您的品牌"
 >abstract="输入您的品牌名称并上传您的品牌指导方针文件。 该工具会自动提取关键细节，使维护品牌形象更加容易。"
 
-To create and define your brand guidelines, you can either enter the details or upload your brand guideline documents to use for automatic extraction.
+要创建和定义品牌指南，您可以输入详细信息或上传品牌指南文档以用于自动提取。
 
-### Add the brand
+### 添加品牌
 
-1. At the top-right of the _[!UICONTROL Brands]_ page, click **[!UICONTROL Create brand]**.
+1. 在&#x200B;_[!UICONTROL 品牌]_&#x200B;页面的右上角，单击&#x200B;**[!UICONTROL 创建品牌]**。
 
-1. Enter a **[!UICONTROL Name]** for your brand.
+1. 为您的品牌输入&#x200B;**[!UICONTROL 名称]**。
 
-1. Drag and drop or select your file to upload your brand guidelines and extract automatically relevant brand information.
+1. 拖放或选择您的文件以上传品牌指南并自动提取相关的品牌信息。
 
-   ![Define a new brand](./assets/brands-create-new.png){width="500"}
+   ![定义新品牌](./assets/brands-create-new.png){width="500"}
 
    >[!NOTE]
    >
-   >If you don&#39;t have a document saved in PDF format, you can manually add the guidelines and upload individual visual assets after brand creation.
+   >如果您没有以PDF格式保存文档，则可以在创建品牌后手动添加准则并上传单个可视资产。
 
-1. Click **[!UICONTROL Create brand]**.
+1. 单击&#x200B;**[!UICONTROL 创建品牌]**。
 
-   If you include one or more files to create the brand, the information extraction process begins. It may take several minutes to complete.
+   如果包含一个或多个创建品牌的文件，将开始信息提取过程。 它可能需要几分钟才能完成。
 
-   When the extraction process is complete, your content and visual creation standards are automatically populated.
+   提取过程完成后，将自动填充您的内容和可视化创建标准。
 
-   ![Initial brand guidelines from uploaded document](./assets/brands-create-new-page.png){width="700" zoomable="yes"}
+   ![上传文档中的初始品牌指南](./assets/brands-create-new-page.png){width="700" zoomable="yes"}
 
-### Refine and update the brand guidelines
+### 优化并更新品牌指南
 
-1. Browse through the different tabs to adapt and define more detailed information as needed.
+1. 浏览不同的选项卡，以根据需要调整和定义更详细的信息。
 
    * [!UICONTROL 概述]
 
-   * [[!UICONTROL About the brand]](#about-the-brand)
+   * [[!UICONTROL 关于品牌]](#about-the-brand)
 
-   * [[!UICONTROL Writing style]](#writing-style)
+   * [[!UICONTROL 写入样式]](#writing-style)
 
-   * [[!UICONTROL 视觉内容]](#visual-content)
+   * [[!UICONTROL 可视内容]](#visual-content)
 
    如果在创建品牌时包括一个或多个文档，则信息提取流程会创建选项卡和部分的定义。 完整性取决于任何文档中包含的范围和详细信息。 查看结果时，可以更改或删除任何信息。
 
@@ -122,21 +120,21 @@ To create and define your brand guidelines, you can either enter the details or 
 
 1. 在每个详细信息选项卡中，查看类别并通过添加、删除和更改定义来改进品牌。
 
-   标记为&#x200B;**[!UICONTROL 待办事项]**&#x200B;的子部分概述了该类别的准则。 使用此区域可添加准则的说明和示例。
+   标有&#x200B;**[!UICONTROL Do&#39;s]**&#x200B;的子部分概述了该类别的准则。 使用此区域可添加准则的说明和示例。
 
-   ![定义的准则及示例](./assets/brands-guidelines-examples.png){width="500" zoomable="yes"}
+   ![带有示例的已定义准则](./assets/brands-guidelines-examples.png){width="500" zoomable="yes"}
 
-   标记为&#x200B;**[!UICONTROL 不要]**&#x200B;的子部分概述了排除项。 使用此区域可添加排除项描述和排除项示例。
+   标记为&#x200B;**[!UICONTROL 不包含]**&#x200B;的子部分概述了排除项。 使用此区域可添加排除项描述和排除项示例。
 
-   ![定义了包含示例的排除项](./assets/brands-exclusions-examples.png){width="500" zoomable="yes"}
+   ![已定义具有示例的排除项](./assets/brands-exclusions-examples.png){width="500" zoomable="yes"}
 
    * **添加准则或排除项**。
 
-     在要添加准则的部分，单击右侧的&#x200B;_添加_ （ ![添加图标](../assets/do-not-localize/icon-add-components.svg) ）图标。 在弹出对话框中，输入准则并选中相应的复选框，以指定该准则适用的渠道和元素。 然后，单击&#x200B;**[!UICONTROL 添加]**。
+     在要添加准则的部分，单击右侧的&#x200B;_添加_ （![添加图标](../assets/do-not-localize/icon-add-components.svg) ）图标。 在弹出对话框中，输入准则并选中相应的复选框，以指定该准则适用的渠道和元素。 然后，单击&#x200B;**[!UICONTROL 添加]**。
 
      ![添加指南](./assets/brands-guideline-add.png){width="600" zoomable="yes"}
 
-   * **更改指南或排除项**。
+   * **更改准则或排除项**。
 
      在要删除准则的部分中，单击准则构件。 在弹出对话框中，根据需要更改准则的内容和选定的复选框。 然后，单击&#x200B;**[!UICONTROL 更新]**。
 
@@ -144,11 +142,11 @@ To create and define your brand guidelines, you can either enter the details or 
 
    * **删除准则或排除项**。
 
-     在要删除准则的部分中，单击准则构件。 在弹出对话框中，单击顶部的&#x200B;_删除_ （ ![删除图标](../assets/do-not-localize/icon-delete.svg) ）图标。
+     在要删除准则的部分中，单击准则构件。 在弹出对话框中，单击顶部的&#x200B;_删除_ （![删除图标](../assets/do-not-localize/icon-delete.svg) ）图标。
 
-   * **添加或修订您的指南和排除项示例**。
+   * **添加或修订您的准则和排除项的示例**。
 
-     在显示的示例拼贴中，单击&#x200B;_编辑_ （ ![编辑图标](../assets/do-not-localize/icon-edit.svg) ）图标以更改示例，或单击&#x200B;_删除_ （ ![删除图标](../assets/do-not-localize/icon-delete.svg) ）图标以将其删除。
+     在显示的示例拼贴中，单击&#x200B;_编辑_ （![编辑图标](../assets/do-not-localize/icon-edit.svg) ）图标以更改示例，或单击&#x200B;_删除_ （![删除图标](../assets/do-not-localize/icon-delete.svg) ）图标以将其删除。
 
 1. 定义完所有内容后，单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -156,9 +154,9 @@ To create and define your brand guidelines, you can either enter the details or 
 
 ### 发布品牌
 
-当您的品牌包含完整的定义集并符合要求时，请单击&#x200B;**[!UICONTROL 发布]**&#x200B;以使您的品牌准则可用于内容对齐和生成。
+当您的品牌包含完整的定义集并符合您的要求时，请单击&#x200B;**[!UICONTROL 发布]**&#x200B;以使您的品牌准则可用于内容对齐和生成。
 
-已发布的品牌可通过AI [品牌一致性](./brand-alignment.md)和内容生成工具中的&#x200B;**[!UICONTROL 品牌]**&#x200B;选项访问。<!-- [Learn more about content generation](gs-generative.md) -->
+已发布的品牌可从AI [品牌一致性](./brand-alignment.md)和内容生成工具中的&#x200B;**[!UICONTROL 品牌]**&#x200B;选项访问。<!-- [Learn more about content generation](gs-generative.md) -->
 
 内容的![品牌选项](./assets/brand-menu-content-ai-tools.png){width="300"}
 
@@ -178,7 +176,7 @@ To create and define your brand guidelines, you can either enter the details or 
 
    * **[!UICONTROL 品牌名称]** — 输入品牌的正式名称。
 
-   * **[!UICONTROL 该品牌的说明]** — 提供该品牌代表的概述。
+   * **[!UICONTROL 此品牌的说明]** — 提供此品牌代表的概述。
 
    * **[!UICONTROL 标语（默认）]** — 添加与品牌关联的主要标语。
 
@@ -186,17 +184,17 @@ To create and define your brand guidelines, you can either enter the details or 
 
 1. 在&#x200B;**[!UICONTROL 指导原则]**&#x200B;类别中，阐明品牌的核心方向和理念：
 
-   * **[!UICONTROL 任务]** — 详细了解品牌目的。
+   * **[!UICONTROL 任务]** — 详细描述品牌目的。
 
-   * **[!UICONTROL 愿景]** — 描述长期目标或所需的未来状态。
+   * **[!UICONTROL 愿景]** — 描述长期目标或期望的未来状态。
 
    * **[!UICONTROL 市场定位]** — 说明品牌在市场中的定位。
 
    ![关于品牌 — 指导原则](./assets/brands-about-guiding-principles.png){width="600" zoomable="yes"}
 
-   从&#x200B;**[!UICONTROL 核心品牌值]**&#x200B;类别中，查看定义的品牌值并根据需要对其进行调整。
+   从&#x200B;**[!UICONTROL 核心品牌价值]**&#x200B;类别中，查看定义的品牌价值并根据需要对其进行调整。
 
-   * 要定义新的核心值，请单击右侧的&#x200B;_添加_ （ ![添加图标](../assets/do-not-localize/icon-add-components.svg) ）图标并完成详细信息：
+   * 要定义新的核心值，请单击右侧的&#x200B;_添加_ （![添加图标](../assets/do-not-localize/icon-add-components.svg) ）图标并完成详细信息：
 
      ![关于品牌 — 指导原则 — 增加核心价值](./assets/brands-about-guiding-principles-add-core-values.png){width="500" zoomable="yes"}
 
@@ -204,9 +202,9 @@ To create and define your brand guidelines, you can either enter the details or 
 
       * **[!UICONTROL 描述]** — 说明此值对您的品牌意味着什么。
 
-      * **[!UICONTROL 行为]** — 概述在实践中反映此值的行为或态度。
+      * **[!UICONTROL 行为]** — 概述在实践中反映此值的操作或态度。
 
-      * **[!UICONTROL 表现形式]** — 提供此值在真实世界品牌中的表示方式示例。
+      * **[!UICONTROL 表现形式]** — 提供如何在真实世界品牌中表示此值的示例。
 
    * 要更改或删除核心值，请单击&#x200B;_编辑_ （![编辑图标](../assets/do-not-localize/icon-edit.svg) ）图标以更新或删除核心品牌值。
 
@@ -214,16 +212,16 @@ To create and define your brand guidelines, you can either enter the details or 
 
      更改详细信息，然后单击&#x200B;**[!UICONTROL 更新]**。 或者，单击顶部的&#x200B;_删除_ （![删除图标](../assets/do-not-localize/icon-delete.svg) ）图标以删除核心值。
 
-1. 在&#x200B;**[!UICONTROL 品牌指南文档]**&#x200B;类别中，查看用于生成品牌指南的文档。
+1. 在&#x200B;**[!UICONTROL 品牌准则文档]**&#x200B;类别中，查看用于生成品牌准则的文档。
 
    单击更多菜单图标，然后选择使用上传的参考文档更新品牌指南的选项：
 
-   * **[!UICONTROL 重新提取准则]** — 选择此项可使用当前文档运行提取作业。
-   * **[!UICONTROL 添加提取引用]** — 选择此操作可上传其他文档并运行提取作业。
+   * **[!UICONTROL 重新提取准则]** — 选择此操作以使用当前文档运行提取作业。
+   * **[!UICONTROL 添加提取引用]** — 选择此操作上传其他文档并运行提取作业。
 
    ![关于品牌 — 品牌指南文档](./assets/brands-about-documents.png){width="600" zoomable="yes"}
 
-您可以继续改进[写作样式](#writing-style)或[视觉内容](#visual-content)指南、排除项和示例，或者您可以[发布您的品牌](#publish-the-brand)。
+您可以继续优化[书写样式](#writing-style)或[视觉内容](#visual-content)指南、排除项和示例，也可以[发布您的品牌](#publish-the-brand)。
 
 ### 写作风格 {#writing-style}
 
@@ -234,16 +232,16 @@ To create and define your brand guidelines, you can either enter the details or 
 
 _[!UICONTROL 书写样式]_&#x200B;定义概述了书写内容的标准，并详细说明了如何使用语言、格式和结构来保持所有材料的清晰度、一致性和一致性。
 
-选择&#x200B;**[!UICONTROL 书写样式]**&#x200B;选项卡，并查看每个类别。
+选择&#x200B;**[!UICONTROL 写入样式]**&#x200B;选项卡，并查看每个类别。
 
 ![正在写入样式选项卡](./assets/brands-writing-style-tab.png){width="600" zoomable="yes"}
 
 | 类别 | 子类别 | 准则示例 | 排除项示例 |
 |----------------------------|----------------|-----------------------|-----------------------|
-| [!UICONTROL 品牌交流风格] | [!UICONTROL 品牌个性特征] | 友好平易近人。 | 别失败了。 |
-|                            | [!UICONTROL 正在编写机制] | 保持句子简短并有影响力。 | 不要用过多的行话。 |
+| [!UICONTROL 品牌通信样式] | [!UICONTROL 品牌个性特征] | 友好平易近人。 | 别失败了。 |
+|                            | [!UICONTROL 正在写入机制] | 保持句子简短并有影响力。 | 不要用过多的行话。 |
 |                            | [!UICONTROL 情景色调] | 在危机沟通中保持专业语调。 | 在支持性通信中不要轻视。 |
-|                            | [!UICONTROL Word选择指南] | 使用诸如&#x200B;_创新_&#x200B;和&#x200B;_智能_&#x200B;之类的词。 | 避免使用&#x200B;_廉价_&#x200B;或&#x200B;_黑客攻击_&#x200B;之类的词语。 |
+|                            | [!UICONTROL Word选择准则] | 使用诸如&#x200B;_创新_&#x200B;和&#x200B;_智能_&#x200B;之类的词。 | 避免使用&#x200B;_便宜_&#x200B;或&#x200B;_黑客_&#x200B;之类的词。 |
 |                            | [!UICONTROL 语言标准] | 遵循美式英语惯例。 | 不要混用英美两种语言。 |
 | [!UICONTROL 品牌讯息标准] | [!UICONTROL 品牌讯息标准] | 强调创新和客户至上的报文传送。 | 不要过度承诺产品功能。 |
 |                            | [!UICONTROL 标语用法] | 在所有数字营销资源上的徽标下放置标语。 | 请勿修改或翻译标语。 |
@@ -275,9 +273,9 @@ Supplement your work choice guidelines by adding preferred and avoided terms.
 >title="视觉内容一致性得分"
 >abstract="视觉内容一致性得分表明您的内容与配置的品牌指南的匹配程度。 从高到低进行评分，可以帮助您一目了然地评估一致性。 浏览不同的类别以确定需要改进的领域，并找出可能不符合品牌的元素。"
 
-_[!UICONTROL 可视化内容]_&#x200B;定义概述了图像和设计的标准，并详细说明了保持统一一致的品牌外观所需的规范。
+_[!UICONTROL 可视内容]_&#x200B;定义概述了图像和设计的标准，并详细说明了保持统一一致的品牌外观所需的规范。
 
-选择&#x200B;**[!UICONTROL 可视化内容]**&#x200B;选项卡，并查看每个类别。
+选择&#x200B;**[!UICONTROL 可视内容]**&#x200B;选项卡，并查看每个类别。
 
 ![可视化内容选项卡](./assets/brands-visual-content-tab.png){width="600" zoomable="yes"}
 
@@ -300,7 +298,7 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
 #### 示例图像
 
-要添加显示正确或不正确用法的图像，请在&#x200B;_[!UICONTROL 添加指南]_&#x200B;或&#x200B;_[!UICONTROL 添加排除项]_&#x200B;弹出对话框中选择&#x200B;**[!UICONTROL 示例]**。 单击&#x200B;**[!UICONTROL 选择图像]**，从您的系统中选择并生成图像文件。 单击&#x200B;**[!UICONTROL 添加]**&#x200B;以上传图像并显示区域的缩略图。
+要添加显示正确或不正确用法的图像，请在&#x200B;_[!UICONTROL 添加准则]_&#x200B;或&#x200B;_[!UICONTROL 添加排除项]_&#x200B;弹出对话框中选择&#x200B;**[!UICONTROL 示例]**。 单击&#x200B;**[!UICONTROL 选择映像]**&#x200B;以从您的系统中选择映像文件。 单击&#x200B;**[!UICONTROL 添加]**&#x200B;以上传图像并显示区域的缩略图。
 
 ![添加示例图像](./assets/brands-guidelines-example-image.png){width="500" zoomable="yes"}
 
@@ -324,4 +322,4 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
    * [视觉内容](#visual-content)
 
-1. 在处理草稿更新时单击&#x200B;**[!UICONTROL 保存]**，在准备好替换&#x200B;_实时_&#x200B;版本时单击&#x200B;**[!UICONTROL 发布]**。
+1. 在处理草稿更新时单击“保存”****，在准备好替换&#x200B;_Live_&#x200B;版本时单击“发布”****。

@@ -3,15 +3,13 @@ title: 使用品牌来生成内容并保持一致性
 description: 为一致的内容创建定义品牌准则 — 在Journey Optimizer B2B edition中维护视觉标识、消息传递一致性和真实语调。
 badge: label="Beta 版" type="Informative"
 feature: Content, Brand Identity
-hide: true
-hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 9%
+source-wordcount: '868'
+ht-degree: 12%
 
 ---
 
@@ -27,7 +25,7 @@ ht-degree: 9%
 >title="选择您的品牌"
 >abstract="选择您的品牌，以确保所有 AI 生成的内容都符合您的品牌规范和指南。"
 
-品牌可帮助定义您的&#x200B;_品牌标识_，并在确保一致而有效的内容创建方面发挥关键作用，以准确表示您的品牌标识、价值和消息。 通过坚持定义清晰的品牌风格，组织可以跨渠道和接触点保持一致和可识别的品牌影响力，并在目标受众中增强其品牌认知度、信任度和忠诚度。
+品牌可帮助定义您的&#x200B;_品牌标识_，并在确保一致而有效的内容创建方面发挥关键作用，以准确表示您的品牌标识、价值和消息。 通过坚持定义清晰的品牌风格，企业可以跨渠道和接触点保持一致和可识别的品牌存在感，并增强其在目标受众中的品牌认知度、信任度和忠诚度。
 
 +++使用品牌的优势
 
@@ -47,7 +45,7 @@ ht-degree: 9%
 
 >[!AVAILABILITY]
 >
->此功能目前作为专用测试版提供，计划在未来版本中逐步提供给所有客户。
+>此功能目前作为公共测试版提供。
 >
 >在Adobe Journey Optimizer B2B edition中使用AI支持的功能之前，需要[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
 
@@ -73,7 +71,7 @@ ht-degree: 9%
 
 ## 品牌相关权限
 
-产品管理员可以通过在Adobe Experience Cloud中通过&#x200B;**[!UICONTROL 权限]** UI分配&#x200B;**[!UICONTROL 管理品牌套件]**&#x200B;或&#x200B;_启用AI助手_&#x200B;资源权限，来启用对品牌管理和品牌协调功能的访问。
+产品管理员可以通过在Adobe Experience Cloud中通过&#x200B;_权限_ UI分配&#x200B;**[!UICONTROL 管理品牌套件]**&#x200B;或&#x200B;**[!UICONTROL 启用AI助手]**&#x200B;资源权限，来启用对品牌管理和品牌协调功能的访问。
 
 1. 在权限应用程序中，转到&#x200B;**[!UICONTROL 角色]**&#x200B;选项卡，然后选择所需的[角色](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}。
 
@@ -91,7 +89,7 @@ ht-degree: 9%
 
    已分配给该角色的任何用户的权限都会自动更新。
 
-1. 要将此角色分配给新用户，请选择“**[!UICONTROL 角色]**”仪表板中的“_[!UICONTROL 用户]_”选项卡，然后单击“**[!UICONTROL 添加用户]**”。
+1. 要将此角色分配给新用户，请选择“_[!UICONTROL 角色]_”仪表板中的“**[!UICONTROL 用户]**”选项卡，然后单击“**[!UICONTROL 添加用户]**”。
 
    * 输入用户名和电子邮件地址，或从列表中选择现有用户。
 
