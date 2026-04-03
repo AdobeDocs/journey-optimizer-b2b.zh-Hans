@@ -4,16 +4,16 @@ description: 创建具有条件自动分配的角色模板，以识别在Journey
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: bd6dff55621943dc349b47b99f24afefe5b9a514
+source-git-commit: 40043117de44d158f21890ce267790a6ccbc0436
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 4%
+source-wordcount: '1410'
+ht-degree: 5%
 
 ---
 
 # 购买群组角色模板
 
-在B2B市场中，购买决策通常由多人做出。 这些个人根据其在组织内的作用参与决策过程。 创建购买组角色模板，这些模板根据每种产品类型或帐户用例包含一组角色定义。
+在B2B市场中，购买决策通常由多人做出。 这些个人根据其在组织内的作用参与决策过程。 创建购买组角色模板，这些模板根据每种产品和服务类型或帐户用例包含一组角色定义。
 
 ![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看概述视频](#overview-video)
 
@@ -62,15 +62,16 @@ ht-degree: 4%
 
 | 类型 | 条件 |
 | ---- | --------- |
-| 人员属性 | <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>传真号 <li>名字 <li>推断的状态区域 <li>作业名称 <li>姓氏 <li>中间名 <li>手机号码 <li>人员参与度分数 <li>电话号码 <li>邮政编码 <li>State <li>取消订阅 <li>取消订阅的原因 |
-| 特殊过滤器 | <li>列表成员 <li>计划成员 |
-| 意图数据 | <li>类别意图 <li>产品意图 <li>关键字意图<br/>[了解意图数据](../admin/intent-data.md) |
+| [!UICONTROL 人员属性] | [个人资料](../admin/field-mapping.md#xdm-business-person-attributes)中的属性，包括： <li>城市 <li>国家 <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>名 <li>推断的州区域 <li>职务名称 <li>姓 <li>手机号码 <li>人员参与度分数 <li>电话号码 <li>邮政编码 <li>State |
+| [!UICONTROL 自定义对象] >具有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}该帐户具有或不具有关系架构记录。 也可以根据[XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中配置的任何所选自定义对象条件对其进行评估。 |
+| 特殊筛选条件 | <li>列表的成员（已弃用） <li>计划成员（已弃用） |
+| 意图数据 | <li>类别意图 <li>产品意图 <li>关键字意图<br/>（请参阅&#x200B;[_意图数据_](../admin/intent-data.md)） |
 
 1. 对于第一个角色信息卡，定义角色属性。
 
    * 从列表中选择&#x200B;**[!UICONTROL 购买团体角色]**。
 
-     有六个默认角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 该列表还包括在[角色&#x200B;_列表_&#x200B;中定义的任何](./default-custom-roles.md#custom-roles)自定义角色。
+     有六个默认角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 该列表还包括在&#x200B;_角色_&#x200B;列表](./default-custom-roles.md#custom-roles)中定义的任何[自定义角色。
 
      ![购买团体角色列表](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -92,21 +93,27 @@ ht-degree: 4%
 
      >[!NOTE]
      >
-     >如果您在Experience Platform的帐户受众架构中定义了自定义人员字段，则这些字段也可用作条件中的人员属性。
+     >如果您在Experience Platform的业务人员架构中定义了自定义人员字段，则这些字段也可用作条件中的人员属性。
 
-   * 使用属性可使用一个或多个值创建匹配过滤器。
+     使用属性可使用一个或多个值创建匹配过滤器。
 
      在以下示例中，职称属性用于标识决策者的匹配项。 任何以`Director`或`Sr Director`开头的标题值都会将该条件的评估为true。
 
      使用工作标题的![角色模板条件示例](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-   * 如果需要，可添加其他属性和条件，以进一步优化与角色的匹配条件。
+   * 如果已配置与XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中定义的人员[相关的自定义对象，请展开&#x200B;**[!UICONTROL 自定义对象]**&#x200B;的列表以在角色条件中使用它们。
+
+     ![角色模板添加自定义对象条件](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
+
+   * 如果需要，可添加其他属性/对象和条件，以进一步优化与角色的匹配条件。
 
    * 单击&#x200B;**[!UICONTROL 完成]**。
 
 1. 对于要为模板包括的每个其他角色，单击&#x200B;**[!UICONTROL 添加其他角色]**&#x200B;并重复步骤1和2以定义该角色。
 
    ![定义了多个角色的角色模板](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+
+   您的更改将自动保存为&#x200B;_草稿_&#x200B;状态。 如果您还未准备好发布角色模板，请单击页面顶部的左（后）箭头，并返回到&#x200B;_[!UICONTROL 角色模板]_&#x200B;列表。
 
 >[!BEGINSHADEBOX “Marketo Engage列表成员资格”]
 
@@ -125,8 +132,6 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 
 >[!ENDSHADEBOX]
 
-您的更改将自动保存为&#x200B;_草稿_&#x200B;状态。 如果您还未准备好发布角色模板，请单击页面顶部的左（后）箭头，并返回到&#x200B;_[!UICONTROL 角色模板]_&#x200B;列表。
-
 ### 更改完整性得分设置
 
 默认情况下，角色的完整性定义为分配给角色的一个成员。 如果要使用购买组完整性作为销售准备情况或成功<!-- journey decisioning coming later-->的指标，则可以使用这些设置使分数与关闭商机所需的每个角色的成员数保持一致。
@@ -141,7 +146,7 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 
 1. 在该对话框中，根据需要更改每个已定义角色所需的&#x200B;**[!UICONTROL 成员]**&#x200B;值。
 
-   您可以输入值，或单击&#x200B;**&amp;amp；加号；**&#x200B;或&#x200B;**−**&#x200B;来增加或减少值。
+   您可以输入值，或单击&#x200B;**&amp;plus；**&#x200B;或&#x200B;**−**&#x200B;来增加或减少值。
 
    ![角色模板 — 完整性得分设置按钮](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -189,4 +194,4 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3453311/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
