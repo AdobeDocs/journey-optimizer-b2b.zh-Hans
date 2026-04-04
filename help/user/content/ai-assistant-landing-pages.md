@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ## 准则和限制
 
-在开始使用此功能之前，请查看[准则和限制](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)。 在[!DNL Journey Optimizer B2B Edition]中使用AI功能之前，还需要用户同意[](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
+在开始使用此功能之前，请查看[准则和限制](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)。 在[!DNL Journey Optimizer B2B Edition]中使用AI功能之前，还需要用户同意[&#128279;](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
 
 Adobe承诺在媒体创建中使用创作AI工具时提高透明度，有鉴于此，Adobe在下载或导出包含Firefly生成的资源的任何内容或项目时应用[内容凭据](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}。
 
