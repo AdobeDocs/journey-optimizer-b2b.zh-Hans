@@ -6,9 +6,9 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
+source-git-commit: 4aa4340b17aec143b11d71a2eda64b6b57d14a17
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '875'
 ht-degree: 12%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 12%
 >title="选择您的品牌"
 >abstract="选择您的品牌，以确保所有 AI 生成的内容都符合您的品牌规范和指南。"
 
-品牌可帮助定义您的&#x200B;_品牌标识_，并在确保一致而有效的内容创建方面发挥关键作用，以准确表示您的品牌标识、价值和消息。 通过坚持定义清晰的品牌风格，企业可以跨渠道和接触点保持一致和可识别的品牌存在感，并增强其在目标受众中的品牌认知度、信任度和忠诚度。
+品牌可帮助定义&#x200B;_品牌标识_，并在确保一致而有效的内容创建方面发挥关键作用，以准确表示您的品牌标识、价值和消息。 通过坚持定义清晰的品牌风格，企业可以跨渠道和接触点保持一致和可识别的品牌存在感，并增强其在目标受众中的品牌认知度、信任度和忠诚度。
 
 +++使用品牌的优势
 
@@ -64,8 +64,8 @@ ht-degree: 12%
 1. 当它可以使用时，[发布品牌](./brands-manage-create.md#publish-the-brand)。
 
 1. 使用品牌进行[电子邮件内容对齐](./brand-alignment.md)。
-<!-- 
-1. Use the brand to generate content. -->
+
+1. 使用品牌[生成电子邮件内容](./ai-assistant-emails.md)。
 
 >[!BEGINSHADEBOX]
 
