@@ -3,7 +3,8 @@ title: WhatsApp渠道设置
 description: 通过Meta的Cloud API连接您的WhatsApp Business帐户，以便在Journey Optimizer B2B edition帐户历程中启用WhatsApp消息传送。
 feature: Setup, Channels
 role: Admin
-source-git-commit: 6313d097634af92450e6dd107fc5ba8040170e88
+exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
+source-git-commit: ce039c5e2a7dc836b434d9ab373ebdfe1d19fc3b
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 11%
