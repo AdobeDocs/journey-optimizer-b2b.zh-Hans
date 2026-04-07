@@ -6,9 +6,9 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 4aa4340b17aec143b11d71a2eda64b6b57d14a17
+source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '868'
 ht-degree: 12%
 
 ---
@@ -63,9 +63,9 @@ ht-degree: 12%
 
 1. 当它可以使用时，[发布品牌](./brands-manage-create.md#publish-the-brand)。
 
-1. 使用品牌进行[电子邮件内容对齐](./brand-alignment.md)。
-
-1. 使用品牌[生成电子邮件内容](./ai-assistant-emails.md)。
+1. 使用品牌进行[电子邮件内容对齐](./content-evaluation.md#brand-alignment-score)。
+<!-- 
+1. Use the brand to generate content. -->
 
 >[!BEGINSHADEBOX]
 

@@ -6,9 +6,9 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
+source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
 workflow-type: tm+mt
-source-wordcount: '2069'
+source-wordcount: '2070'
 ht-degree: 7%
 
 ---
@@ -156,7 +156,7 @@ ht-degree: 7%
 
 当您的品牌包含完整的定义集并符合您的要求时，请单击&#x200B;**[!UICONTROL 发布]**&#x200B;以使您的品牌准则可用于内容对齐和生成。
 
-已发布的品牌可从AI [品牌一致性](./brand-alignment.md)和内容生成工具中的&#x200B;**[!UICONTROL 品牌]**&#x200B;选项访问。<!-- [Learn more about content generation](gs-generative.md) -->
+已发布的品牌可从AI [品牌一致性分数](./content-evaluation.md#brand-alignment-score)和[内容生成工具](../ai-assistant/generative-ai-content.md)中的&#x200B;**[!UICONTROL 品牌]**&#x200B;选项访问。
 
 内容的![品牌选项](./assets/brand-menu-content-ai-tools.png){width="300"}
 
@@ -322,4 +322,4 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
    * [视觉内容](#visual-content)
 
-1. 在处理草稿更新时单击“保存”**&#x200B;**，在准备好替换&#x200B;_Live_&#x200B;版本时单击“发布”**&#x200B;**。
+1. 在处理草稿更新时单击“保存”****，在准备好替换&#x200B;_Live_&#x200B;版本时单击“发布”****。
