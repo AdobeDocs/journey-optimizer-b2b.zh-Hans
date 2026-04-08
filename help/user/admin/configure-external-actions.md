@@ -39,7 +39,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->回调函数需要持有者令牌。 通过在Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)中为您的IMS组织设置[OAuth服务器到服务器凭据来检索此项。
+>回调函数需要持有者令牌。 通过在Adobe Developer Console[&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)中为您的IMS组织设置OAuth服务器到服务器凭据来检索此项。
 
 服务启动后，将指向OpenAPI规范的URL和身份验证凭据提供给负责配置该操作的产品管理员。
 
