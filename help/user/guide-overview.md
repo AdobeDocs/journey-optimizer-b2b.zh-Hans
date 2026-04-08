@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B Edition 文档
 description: Journey Optimizer B2B Edition 的完整文档——浏览可用于加入、创建购买群组、生成帐户历程和管理内容的资源。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 51bb47fe4f494095f1c598639f02f273b9a125ae
+source-git-commit: 0e79785bd8baf3914127cc650b8e503a8d461a3d
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 47%
+source-wordcount: '917'
+ht-degree: 29%
 
 ---
 
@@ -23,11 +23,29 @@ ht-degree: 47%
 
 >[!TAB AI代理]
 
-借助[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}，AI Assistant界面可自动调用专业代理以获取正确的答案和见解。 Agent Orchestrator 会记住您的对话历史，使您能够自然地延续以前的问题，无需重复上下文，它还会结合来自多个代理的洞察，为您提供清晰、统一的回答。 在[!DNL Journey Optimizer B2B Edition]上下文中，有三个针对特定B2B任务和域的专门构建代理：
+借助[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}，AI Assistant界面可自动调用专业代理以获取正确的答案和见解。 Agent Orchestrator 会记住您的对话历史，使您能够自然地延续以前的问题，无需重复上下文，它还会结合来自多个代理的洞察，为您提供清晰、统一的回答。 在[!DNL Journey Optimizer B2B Edition]上下文中，有三个针对特定B2B任务和域的专门构建代理：
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Agent B2B](./agents/journey-agent.md)
 * [Account Qualification 代理](./agents/sales-qualifier.md#account-qualification-agent)
+
+>[!TAB WhatsApp渠道]
+
+当开发人员和产品管理员配置与Meta Business Manager帐户的集成时，营销人员可以使用Meta Cloud API将WhatsApp消息作为内容渠道包含在帐户历程中。 WhatsApp将电子邮件和短信作为直接将历程内容交付给帐户成员的可用渠道。
+
+[!BADGE 了解详情]{type=Informative url="/help/user/admin/configure-channels-whatsapp.md" tooltip="了解WhatsApp渠道"}
+
+>[!TAB 生成AI模型]
+
+在为电子邮件内容生成图像时，电子邮件设计人员现在可以从标准[!DNL Firefly]模型、基于品牌特定资产培训的自定义[!DNL Firefly]模型和批准的第三方图像模型中进行选择。 从一般内容需求到品牌或专业用例，此选择使团队能够控制哪些模型适合其特定设计情景。
+
+[!BADGE 了解详情]{type=Informative url="/help/user/content/generative-ai-models.md" tooltip="了解创作AI模型选择"}
+
+>[!TAB 发送时间优化]
+
+对于个人历程中的&#x200B;_发送电子邮件_&#x200B;操作节点，您现在可以使用发送时间优化来个性化电子邮件投放时间。 该系统预测每个人何时最有可能参与并相应地计划投放，而不是同时发送给所有收件人。
+
+[!BADGE 了解详情]{type=Informative url="/help/user/content/email-send-time-optimization.md" tooltip="了解发送时间优化"}
 
 >[!TAB 历程重新进入]
 
@@ -47,31 +65,13 @@ ht-degree: 47%
 
 [!BADGE 了解详情]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="了解角色映射"}
 
->[!TAB In-CRM销售分析]
-
-销售团队成员现在可在 Salesforce 或 Dynamics 集成中查看正在成熟的购买群体及相关洞察，从而发现新的销售机会。 系统会显示购买群体的阶段、评分及相关成员等详细信息。
-
-[!BADGE 了解详情]{type=Informative url="/help/user/buying-groups/incrm-insights.md" tooltip="了解In-CRM销售分析"}
-
->[!TAB 电子邮件内容协作]
-
-电子邮件设计空间包括用于提供反馈和解决问题的协作工具，以便营销团队可以直接在[!DNL Journey Optimizer B2B Edition]内无缝审查、讨论和最终确定电子邮件资产。 用户无需通过外部工具（如聊天、电子邮件会话或电子表格）共享草稿，即可在邮件设计空间内直接进行评论、提出修改建议并处理反馈。 您可以标记您的团队成员，这样他们就会收到包含评论详细信息的电子邮件或推送通知。
-
-[!BADGE 了解详情]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="了解电子邮件内容协作工具"}
-
->[!TAB 深色模式电子邮件设计]
-
-电子邮件设计空间现在包含&#x200B;_深色模式_&#x200B;预览和设置。 深色模式允许支持该功能的电子邮件客户端或应用程序以深色背景显示邮件，同时采用浅色文字、按钮及其他视觉元素。 预览渲染、自定义设置、确保无障碍访问，并在不同电子邮件客户端中进行测试。
-
-[!BADGE 了解详情]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="了解深色模式电子邮件设计"}
-
 >[!ENDTABS]
 
 ## 开始浏览 {#section-explore}
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 最新发行说明
 
@@ -81,7 +81,7 @@ ht-degree: 47%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 快速入门
 
@@ -91,7 +91,7 @@ ht-degree: 47%
 :::
 
 :::
-![配置图标](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans){width="25"}
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 配置XDM字段
 
@@ -101,18 +101,19 @@ ht-degree: 47%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 通信渠道
 
-配置和管理电子邮件、短信和其他渠道，以提供个性化的客户互动。
+配置和管理电子邮件、短信、WhatsApp和其他渠道，以提供个性化的客户互动。
 
 [配置电子邮件渠道](./admin/configure-channels-emails.md)
 [配置短信渠道](./admin/configure-channels-sms.md)
+[配置WhatsApp渠道](./admin/configure-channels-whatsapp.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 创建帐户历程
 
@@ -122,7 +123,7 @@ ht-degree: 47%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 了解购买组
 
@@ -135,11 +136,11 @@ ht-degree: 47%
 
 <!-- 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Design Content
 
-Learn how to author and manage content for personalized customer experiences orchestarted through journeys.
+Learn how to author and manage content for personalized customer experiences orchestrated through journeys.
 
 [Explore Content Components](./content/content-components.md)
 ::: 
@@ -170,7 +171,7 @@ Learn how to author and manage content for personalized customer experiences orc
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="帐户历程"><br/>
-      <strong>帐户历程</strong><br/><a href="./journeys/journeys-overview.md">历程概述</a><br/><a href="./journeys/journeys-overview.md#create-an-account-journey">创建帐户历程</a><br/><a href="./journeys/journey-nodes.md">历程节点</a>
+      <strong>帐户历程</strong><br/><a href="./journeys/journeys-overview.md">历程概述</a><br/><a href="./journeys/create-publish-journey.md#create-a-journey">创建帐户历程</a><br/><a href="./journeys/journey-nodes.md">历程节点</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -192,17 +193,17 @@ Learn how to author and manage content for personalized customer experiences orc
 
 ## 其他资源
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a>——<a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品描述</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<table style="table-layout:fixed">
+<tr><td><strong>Adobe Journey Optimizer B2B edition</strong><br/>
+<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">视频和教程</a> - <a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">产品说明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/home" target="_blank">文档</a>——<a href="https://business.adobe.com/cn/products/experience-platform/documentation-and-developer-resources.html" target="_blank">开发人员资源</a>
+<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/home" target="_blank">文档</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">开发人员资源</a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home" target="_blank">文档</a>——<a href="https://experienceleague.adobe.com/zh-hans/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">开发人员教程</a>
+<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home" target="_blank">文档</a> - <a href="https://experienceleague.adobe.com/zh-hans/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">开发人员教程</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/marketo/using/home" target="_blank">用户文档</a>——<a href="https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/home" target="_blank">开发人员文档</a>
+<a href="https://experienceleague.adobe.com/zh-hans/docs/marketo/using/home" target="_blank">用户文档</a> - <a href="https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/home" target="_blank">开发人员文档</a>
 </td>
 </tr></table>
 
