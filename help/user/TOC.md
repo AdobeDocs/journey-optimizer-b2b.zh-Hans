@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文档
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition 以及如何使用它通过内置的生成式 AI 和行业领先的自动化来编排帐户及购买群组历程。
-source-git-commit: 36bcf61bd7188495e188e408e2faf9b9f24c7724
+source-git-commit: e770b40ebe15a9fe8addd2876d34a0f7800affd2
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 96%
+source-wordcount: '439'
+ht-degree: 95%
 
 ---
 
@@ -49,6 +49,7 @@ ht-degree: 96%
       + [侦听事件](./journeys/listen-for-event-nodes.md)
       + [拆分和合并路径](./journeys/split-merge-paths-nodes.md)
       + [等待](./journeys/wait-nodes.md)
+      + [外部节点](./journeys/external-nodes.md)
    + [历程详细信息](./journeys/journey-details.md)
 + 历程内容 {#journey-content}
    + [短信渠道](./content/sms-authoring.md)
@@ -155,6 +156,11 @@ ht-degree: 96%
 + 管理 {#admin}
    + [治理](./admin/governance.md)
    + [人物角色映射](./admin/persona-mapping.md)
+   + 配置 {#configurations}
+      + [AEM Assets 存储库](./admin/configure-aem-repositories.md)
+      + [意图数据](./admin/intent-data.md)
+      + [参与度评分权重](./admin/engagement-score-weighting.md)
+      + [外部操作](./admin/configure-external-actions.md)
    + 渠道 {#channels}
       + [电子邮件配置](./admin/configure-channels-emails.md)
       + [短信配置](./admin/configure-channels-sms.md)
@@ -162,7 +168,3 @@ ht-degree: 96%
       + [Web渠道配置(Beta)](./admin/configure-channels-web.md)
       + [登陆页面设置(Beta)](./admin/landing-page-settings.md)
       + [配置数据流以进行事件收集](./data/aep-event-collection.md)
-   + 配置 {#configurations}
-      + [AEM Assets 存储库](./admin/configure-aem-repositories.md)
-      + [意图数据](./admin/intent-data.md)
-      + [参与度评分权重](./admin/engagement-score-weighting.md)
