@@ -7,9 +7,9 @@ role: Developer
 level: Intermediate
 keywords: 表达式、编辑器、语法、个性化
 exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
-source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '4853'
+source-wordcount: '4943'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->辅助函数可用于在[!DNL Journey Optimizer B2B Edition]简化架构[上配置的](../simplified-architecture.md)环境。
+>辅助函数可用于在[简化架构](../simplified-architecture.md)上配置的[!DNL Journey Optimizer B2B Edition]环境。
 
 ## 聚合函数
 
@@ -326,7 +326,7 @@ ht-degree: 6%
 
 **示例**
 
-以下操作将返回价格最高的前五个订单中的第一个。 有关`topN`函数的更多信息，请参见[数组`n`中的第一个](#first-n)。
+以下操作将返回价格最高的前五个订单中的第一个。 有关`topN`函数的更多信息，请参见[数组](#first-n)中的第一个`n`。
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
@@ -420,7 +420,9 @@ ht-degree: 6%
 
 +++
 
-<!-- ## Intersection{#intersection}
+<!--
+
+## Intersection{#intersection}
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
@@ -450,7 +452,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 
 | 参数 | 描述 |
-| --------- | ----------- | 
+| --------- | ----------- |
 | `{ARRAY}` | 要排序的数组或列表。 |
 | `{VALUE}` | 用于对数组或列表进行排序的属性。 |
 | `{AMOUNT}` | 要返回的项目数。 |
@@ -1447,7 +1449,7 @@ not (homeAddress.countryISO = "CA")
 Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
-在此示例中，如果此配置文件的`there`属性为空或null，则显示值`firstName`。
+在此示例中，如果此配置文件的`firstName`属性为空或null，则显示值`there`。
 
 +++
 
@@ -1592,7 +1594,7 @@ Some edu specific content
 
 +++
 
-### 替换为 {#with}
+### 包含 {#with}
 
 使用`with`帮助程序更改模板部分的评估令牌。
 
@@ -1808,7 +1810,7 @@ Some edu specific content
 
 **示例**
 
-此查询返回一个阿拉伯文格式字符串(对应于123456.789)作为输入数字。
+此查询返回一个阿拉伯文格式字符串（对应于123456.789）作为输入数字。
 
 ```sql
 {%= formatNumber(123456.789, "ar_EG") %}
@@ -2675,7 +2677,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ### replaceAll {#replaceAll}
 
-使用`replaceAll`函数将匹配正则表达式的所有文本子字符串替换为指定的文本替换字符串。 正则表达式对`\`和`+`具有特殊处理，并且所有正则表达式都遵循PQL转义策略。 替换过程从字符串的开头到结尾进行，例如，将字符串`aa`中的`b`替换为`aaa`将导致`ba`而不是`ab`。
+使用`replaceAll`函数将匹配正则表达式的所有文本子字符串替换为指定的文本替换字符串。 正则表达式对`\`和`+`具有特殊处理，并且所有正则表达式都遵循PQL转义策略。 替换过程从字符串的开头到结尾进行，例如，将字符串`aaa`中的`aa`替换为`b`将导致`ba`而不是`ab`。
 
 +++句法
 

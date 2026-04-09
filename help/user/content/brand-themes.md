@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件主题、可重用性、品牌协调、电子邮件设计
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: 5e8dc7e2da8f27950e9c05c66943317669a5361b
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '3107'
 ht-degree: 2%
@@ -34,7 +34,7 @@ ht-degree: 2%
 * 对自定义主题的更改不会自动级联到已使用该主题的所有电子邮件或电子邮件模板。 编辑每个主题的内容以刷新主题。
 
 * 如果删除主题，则不会影响已应用该主题的任何电子邮件或电子邮件模板。
-<!-- 
+<!--
 * If using a content created in HTML, you will be in [compatibility mode](existing-content.md) and you cannot apply themes to this content.
 -->
 
@@ -379,4 +379,5 @@ ht-degree: 2%
 - The theme is saved and reused by marketers to author multiple emails.
 
 ### 2. Switching Themes
-- A marketer applies a holiday-themed design to an existing email by switching to a pre-designed holiday theme.-->
+- A marketer applies a holiday-themed design to an existing email by switching to a pre-designed holiday theme.
+-->

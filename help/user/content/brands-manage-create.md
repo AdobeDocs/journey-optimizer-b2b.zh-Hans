@@ -6,7 +6,7 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
+source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 7%
@@ -251,7 +251,8 @@ _[!UICONTROL 书写样式]_&#x200B;定义概述了书写内容的标准，并详
 |                            | [!UICONTROL 版权标准] | 在营销材料中包含版权声明。 | 未经许可，请勿使用第三方内容。 |
 |                            | [!UICONTROL 免责声明标准] | 在数字资产上清楚地显示免责声明。 | 请勿隐藏非可见区域中的免责声明。 |
 
-<!-- #### Preferred and avoided terms
+<!--
+ #### Preferred and avoided terms
 
 Supplement your work choice guidelines by adding preferred and avoided terms. 
 
@@ -286,14 +287,14 @@ _[!UICONTROL 可视内容]_&#x200B;定义概述了图像和设计的标准，并
 | [!UICONTROL 图标标准] | 使用一致的24像素网格系统。 | 请勿混合图标尺寸、使用不一致的描边粗细或偏离网格规则。 |
 | [!UICONTROL 使用指南] | 选择反映真实客户在专业环境中使用该产品的生活方式形象。 | 请勿使用与品牌风格相抵触或看起来与上下文不相干的图像。 |
 
-<!-- #### Styles
+<!--
+ #### Styles
 
 To define the overall style for the category, click **[!UICONTROL Add style]**. In the popup dialog, enter the style type and description. 
 
 ![Add style for visual content category](./assets/brands-visual-content-add-style.png){width="500" zoomable="yes"}
 
 #### Specifications
-
 -->
 
 #### 示例图像
@@ -322,4 +323,4 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
    * [视觉内容](#visual-content)
 
-1. 在处理草稿更新时单击“保存”**&#x200B;**，在准备好替换&#x200B;_Live_&#x200B;版本时单击“发布”**&#x200B;**。
+1. 在处理草稿更新时单击“保存”****，在准备好替换&#x200B;_Live_&#x200B;版本时单击“发布”****。

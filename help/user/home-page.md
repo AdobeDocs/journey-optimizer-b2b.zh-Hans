@@ -4,10 +4,10 @@ description: 访问 Journey Optimizer B2B Edition 并导航个性化主页——
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 93%
 
 ---
 
@@ -15,28 +15,31 @@ ht-degree: 100%
 
 借助 Adobe Journey Optimizer B2B Edition，您可以使用内置的生成式 AI 和行业领先的自动化功能来协调帐户和购买群组历程，以使用符合营销资格的购买群组来最大限度地满足特定产品的需求。
 
-<!-- Requirements?
+<!--
+ Requirements?
 -->
+
 要访问 [!DNL Adobe Journey Optimizer B2B Edition]，请使用 Adobe ID 连接到 Adobe Experience Cloud，然后选择 [!DNL Journey Optimizer B2B Edition]。
 
 ![Adobe Experience Platform 应用程序](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
-当您登录 Adobe Experience Platform 并选择 Adobe Journey Optimizer B2B Edition 应用程序时，将显示主页。此页面以<!-- refined insights and-->相关资源的快速访问链接形式概述了 Journey Optimizer B2B 计划的当前状态。<!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
+当您登录 Adobe Experience Platform 并选择 Adobe Journey Optimizer B2B Edition 应用程序时，将显示主页。 本页以<!-- refined insights and-->个指向相关资源的快速访问链接的形式概述了Journey Optimizer B2B计划的当前状态。
+<!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
 ![Journey Optimizer B2B Edition 主页](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B Edition 有两个主要用户角色：_**营销人员**_&#x200B;和&#x200B;_**管理员**_。每个角色都有针对不同成熟度阶段（新用户或高级用户）的特定主页。页面内容基于每个角色所需的信息以及接下来要执行的操作。
+Journey Optimizer B2B Edition 有两个主要的用户画像：_**营销人员**_&#x200B;和&#x200B;_**管理员**_。 每个用户画像都有针对不同成熟度阶段（新用户或高级用户）的特定主页。 页面内容基于每个用户画像所需的信息以及接下来要执行的操作。
 
-* **营销人员 - 新用户**——针对新用户的&#x200B;_营销人员_&#x200B;主页可帮助他们熟悉 Journey Optimizer B2B 及其功能。它包括为新营销人员在新加入时进行指导性讲解，以便他们能够了解系统的细微差别，并有效地制定 B2B 营销策略和计划。
+* **营销人员 - 新用户**——针对新用户的&#x200B;_营销人员_&#x200B;主页可帮助他们熟悉 Journey Optimizer B2B 及其功能。 它包括为新营销人员在新加入时进行指导性讲解，以便他们能够了解系统的细微差别，并有效地制定 B2B 营销策略和计划。
 * **营销人员 - 高级用户**——针对高级营销人员的&#x200B;_营销人员_&#x200B;主页显示当前计划进度、建议的后续操作，并提供相关部分的快速访问。
-* **管理员 - 新用户**——针对新管理员的&#x200B;_管理员_&#x200B;主页可帮助他们熟悉 Journey Optimizer B2B Edition 及其功能。它包括一个指导性讲解，逐步引导新管理员加入历程，以便他们能够了解系统的细微差别，并有效地制定 B2B 营销策略和计划。
+* **管理员 - 新用户**——针对新管理员的&#x200B;_管理员_&#x200B;主页可帮助他们熟悉 Journey Optimizer B2B Edition 及其功能。 它包括一个指导性讲解，逐步引导新管理员加入历程，以便他们能够了解系统的细微差别，并有效地制定 B2B 营销策略和计划。
 * **管理员 - 高级用户** ——针对高级管理员的&#x200B;_管理员_&#x200B;主页显示当前实例状态和可操作步骤，以提高管理员的工作效率与成效。
 
-_[!UICONTROL 最近访问的]_&#x200B;部分提供了营销人员或管理员最近访问的资产列表。使用此列表可直接前往您最近使用过的资产，而无需浏览一系列资产页面进行搜索。
+_[!UICONTROL 最近访问的]_&#x200B;部分提供了营销人员或管理员最近访问的资产列表。 使用此列表可直接前往您最近使用过的资产，而无需浏览一系列资产页面进行搜索。
 
 通过该页面还可以访问 [AI 助手](./ai-assistant/ai-assistant-overview.md)，帮助用户快速获取他们需要的任何特定问题或主题的信息。<!-- and to obtain specific recommendations for their challenges or objectives-->
 
-<!-- 
+<!--
 
 ## Marketer - new user
 
@@ -81,5 +84,4 @@ The second row consists of the recent assets used by the B2B marketers in a sing
 The third row consists of the Key Performance Indicators that would help the administrators gauge the progress of the instance in terms of operational parameters such as users and usage.
 
 The fourth row consists of the learning resources that would help the administrator gain more information on a specific topic.
-
 -->

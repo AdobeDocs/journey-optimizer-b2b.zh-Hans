@@ -1,10 +1,10 @@
 ---
-title: Completeness Scores for Buying Groups
-description: Calculate buying group completeness scores using role-based thresholds, customizable member requirements, and completeness settings in Journey Optimizer B2B Edition.
+title: 购买组的完整性分数
+description: 在Journey Optimizer B2B edition中使用基于角色的阈值、可自定义的成员要求和完整性设置来计算购买组完整性分数。
 feature: Buying Groups
 role: User
 exl-id: 6f54d4ac-9d1a-4009-b9bf-8bc80e4cc63c
-source-git-commit: b369ef39715f327fcff7237e827bebf4e82c27f6
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 9%
@@ -18,29 +18,29 @@ ht-degree: 9%
 >title="完整性评分"
 >abstract="完整度评分反映销售就绪型购买群组的成员匹配程度。"
 
-A completeness score is a percentage that indicates how well a buying group is populated with the required members across its defined roles. These scores are based on role member thresholds that you configure in the roles template and the actual number of members assigned to each role in the buying group. The resulting scores help marketers evaluate sales readiness and identify gaps in buying group composition. Score calculation occurs automatically as buying group membership changes.
+完整性得分是一个百分比，它指明了购买组在其定义的角色中填充所需成员的程度。 这些得分基于您在角色模板中配置的角色成员阈值以及分配给购买组中每个角色的实际成员数。 由此得到的分数可帮助营销人员评估销售准备情况，并找出购买群体构成方面的差距。 当购买组成员资格发生变化时，会自动计算得分。
 
-![Buying group completeness scores](./assets/buying-group-details-page-completeness-scores.png){width="800" zoomable="yes"}
+![购买群组完整性分数](./assets/buying-group-details-page-completeness-scores.png){width="800" zoomable="yes"}
 
-There are two types of completeness scores:
+完整性得分有两种类型：
 
-* **Buying group completeness score** - The buying group completeness score is a percentage between 0% to 100% and represents the overall completeness of the buying group based on role-level completeness calculations.
+* **购买群组完整性分数** — 购买群组完整性分数是一个介于0%到100%之间的百分比，表示购买群组的整体完整性（基于角色级别完整性计算）。
 
-  The buying group completeness score is displayed in the [Buying group details](./buying-group-details.md) page. This score provides an at-a-glance view of whether the buying group has the required stakeholders in place for sales engagement.
+  购买群组完整性分数显示在[购买群组详细信息](./buying-group-details.md)页面中。 此得分提供了购买组是否有销售参与所必需的利益相关者的概览。
 
-* **Role completeness score** - The role completeness score is a percentage for each individual role within a buying group, based on the number of members assigned to that role.
+* **角色完整性分数** — 角色完整性分数是购买组中每个角色的百分比，基于分配给该角色的成员数。
 
-  The role completeness score for each role is displayed in the buying group details page when you edit roles and adjust completeness settings. These scores help you identify which specific roles need additional members to reach the sales-ready threshold.
+  当您编辑角色并调整完整性设置时，每个角色的角色完整性得分会显示在购买组详细信息页面中。 这些分数可帮助您确定哪些特定角色需要额外的成员才能达到销售就绪阈值。
 
-  The details page displays the first two role completeness scores with an n_+ link for any additional roles. Click the link to view the additional role completeness scores.
+  详细信息页面显示前两个角色完整性分数，并带有用于任何其他角色的n_+链接。 单击链接可查看其他角色完整性分数。
 
-Completeness scores reflect the current state of buying group membership and update automatically as members are added or removed. Displayed scores are shown as whole percentages (for example, a score of 66.67% is displayed as 67%).
+完整性得分反映购买组成员资格的当前状态，并在添加或删除成员时自动更新。 显示的分数显示为全部百分比（例如，66.67%的分数显示为67%）。
 
-## Evaluate sales readiness
+## 评估销售就绪性
 
-Adobe Journey Optimizer B2B Edition equips marketers with tools that ensure buying groups align with real decision-making processes. You can define complete buying groups using customizable role member thresholds that reflect your organization&#39;s sales methodology. By setting minimum and maximum member requirements for each role, you establish clear criteria for what constitutes a sales-ready buying group.
+Adobe Journey Optimizer B2B edition为营销人员提供了确保购买群组与真实决策流程一致的工具。 您可以使用可自定义的角色成员阈值来定义完整的购买组，这些阈值反映了贵组织的销售方法。 通过为每个角色设置最低和最高成员要求，您可以为构成销售就绪采购组的内容建立明确的标准。
 
-The buying group completeness score provides an accurate measure of sales readiness for the group. For example, to complete an opportunity for a specific solution, you might need at least two decision makers, one influencer, and at least one practitioner. The completeness score calculation accounts for each of these role-specific requirements, providing a view of overall buying group readiness.
+购买群体完整度得分为本集团提供准确的销售准备程度衡量。 例如，要完成特定解决方案的opportunity ，您可能需要至少两位决策者、一位影响者和一位实践者。 完整性得分计算考虑了每个特定于角色的要求，提供了购买组整体准备情况的视图。
 
 ## 衡量历程有效性
 
@@ -50,7 +50,8 @@ The buying group completeness score provides an accurate measure of sales readin
 
 在分析当前购买组的完整性之后，您可以调整角色模板中每个角色的所需联系人数。 这些调整允许您根据实际模式和销售结果调整购买组策略。
 
-<!-- ## Analyze audiences for journey optimization
+<!--
+ ## Analyze audiences for journey optimization
 
 Marketers can view the starting buying group completeness score of target account audiences to find the best performance indicators for a solution. This visibility enables marketers to:
 
@@ -62,7 +63,8 @@ Marketers can view the starting buying group completeness score of target accoun
 
 The buying group completeness score is available to use for filtering in [journey split-path-by-account nodes](../journeys/split-merge-paths-nodes.md#account-path-filters) and for audience segmentation. Role completeness can be used to create personalized content that addresses specific gaps in buying group composition.
 
->[!ENDSHADEBOX] -->
+>[!ENDSHADEBOX] 
+-->
 
 ## 角色完整度计算 {#role-completeness-calculation}
 
@@ -71,13 +73,13 @@ The buying group completeness score is available to use for filtering in [journe
 >title="角色完整度计算"
 >abstract="角色完整度评分基于分配到某一角色的成员数量，以百分比形式计算。"
 
-Journey Optimizer B2B edition按百分比计算每个购买团体角色的完整性分数。 根据分配给角色的成员数量来计算此分数，而完成任务所需的角色模板[&#128279;](./buying-groups-role-templates.md#change-the-completeness-score-settings)数量为。
+Journey Optimizer B2B edition按百分比计算每个购买团体角色的完整性分数。 根据分配给角色的成员数量来计算此分数，而完成任务所需的成员数量是角色模板](./buying-groups-role-templates.md#change-the-completeness-score-settings)中的[数量。
 
 角色完整性计算是介于零和指定阈值（需要成员）之间的线性百分比：
 
 * 如果分配的成员数为&#x200B;**零**，则角色完整性为&#x200B;**0%**。
-* 如果分配的成员数等于或大于阈值&#x200B;**&#x200B;**，则角色完整性为&#x200B;**100%**。
-* 如果分配的成员数介于&#x200B;**和阈值**&#x200B;之间，则将按比例计算完整性。
+* 如果分配的成员数等于或大于阈值&#x200B;**，则角色完整性为** 100%**。**
+* 如果分配的成员数介于1和阈值&#x200B;**之间**，则按比例计算完整性。
 
 ### 角色完整性公式
 
@@ -90,7 +92,7 @@ Role Completeness % = ((Assigned Members - Threshold) / (Threshold)) × 100
 其中：
 
 * `Assigned Members` =角色中的当前成员数
-* `Threshold` =在角色模板中设置成员必需值
+* `Threshold` =在角色模板中设置成员所需的值
 
 ### 角色完整性示例
 
@@ -151,5 +153,4 @@ Set up journey events that trigger specific actions when buying groups reach com
 * Trigger an automated assessment when a buying group stalls at the same completeness level for an extended period.
 
 By leveraging completeness scores throughout the journey, you create more targeted, efficient campaigns that align with the actual composition and maturity of your buying groups.
-
 -->

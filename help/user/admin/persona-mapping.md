@@ -4,7 +4,7 @@ description: 了解如何为B2B营销设置角色映射。 在Journey Optimizer 
 feature: Setup, Buying Groups
 role: Admin
 exl-id: cb3a57fa-6fe0-4876-87f3-da440f1c6239
-source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
+source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 2%
@@ -15,9 +15,11 @@ ht-degree: 2%
 
 角色是基于帐户的营销(ABM)方法中的关键方面，因为它们帮助营销人员根据目标帐户中个人的特定需求、偏好和棘手问题调整其策略。 营销人员可以为每个角色创建详细的配置文件，包括其背景、职责、棘手问题和首选通信渠道。 借助这些定义，管理员可以根据Journey Optimizer B2B edition中的人员属性配置角色，以便角色模板可以使用简化且一致的角色条件来捕获这些角色。
 
-<!-- Currently there is no insight into what persona goes into what role. With buying group agent, when asked questions about, what should be the size of the buying group, what persona should be in that buying group, what role do they play, etc, then agent will analyze all the data, (opportunity data, engagement data, sales conversation, etc) and informs the user that the buying group needs 7 persona, e.g.CMO, VP of marketing, marketing leader, Marketing ops, etc. 
+<!--
+ Currently there is no insight into what persona goes into what role. With buying group agent, when asked questions about, what should be the size of the buying group, what persona should be in that buying group, what role do they play, etc, then agent will analyze all the data, (opportunity data, engagement data, sales conversation, etc) and informs the user that the buying group needs 7 persona, e.g.CMO, VP of marketing, marketing leader, Marketing ops, etc.
 
-Then based on what agent informed, users can create a template with those personas. -->
+Then based on what agent informed, users can create a template with those personas. 
+-->
 角色定义和使用限制：
 
 * 您最多可以在&#x200B;_[!UICONTROL 角色映射]_&#x200B;列表中定义20个角色。

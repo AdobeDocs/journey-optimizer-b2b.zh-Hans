@@ -6,10 +6,11 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: 表达式、编辑器、语法、个性化
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+exl-id: 91bbead6-aca0-4f39-9ab5-798b26ab81ee
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 2%
+source-wordcount: '361'
+ht-degree: 3%
 
 ---
 
@@ -34,7 +35,7 @@ ht-degree: 2%
 
   >[!NOTE]
   >
-  >在[Adobe Experience Platform XDM架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home){target="_blank"}中定义了属性结构。
+  >在[Adobe Experience Platform XDM架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中定义了属性结构。
 
 * 标识符可以是除以下字符之外的任意Unicode字符：
 
@@ -48,9 +49,11 @@ ht-degree: 2%
 
 * 在Handlebars中，{\{expression}\}返回的值是&#x200B;_HTML转义_。 如果表达式包含`&`，则返回的HTML转义输出将生成为`&amp;`。 如果不希望Handlebars转义值，请使用+triple-stash_。
 
-<!-- For example:
+<!--
+ For example:
 
-    If the value of the field `profile.person.name` is _Mark & Mary_, the `{\{profile.person.name}\}` value generates as `Mark &amp; Mary` and `{\{\{profile.person.name}}}` renders as `Mark & Mary`. -->
+    If the value of the field `profile.person.name` is _Mark & Mary_, the `{\{profile.person.name}\}` value generates as `Mark &amp; Mary` and `{\{\{profile.person.name}}}` renders as `Mark & Mary`. 
+-->
 
 * 对于文本函数参数，模板化语言解析器不支持单个未转义的反斜杠(`\`)符号。 此字符必须使用额外的反斜杠(`\`)符号进行转义。 例如：
 
@@ -68,9 +71,11 @@ Handlebars辅助函数是可以附加参数的简单标识符。 每个参数都
 {{/each }}
 ```
 
-<!-- These block helpers are identified with a `#` preceding the helper name and require a matching closing `/`, of the same name. 
+<!--
+ These block helpers are identified with a `#` preceding the helper name and require a matching closing `/`, of the same name.
 
-Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/} } ). -->
+Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/} } ). 
+-->
 
 有关这些函数的更多详细信息，请参阅[辅助函数](./personalization-helper-functions.md)。
 
@@ -83,7 +88,7 @@ Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/
 | 字符串 | 由双引号括起来的字符组成的数据类型。 <br>示例： `"prospect"`，`"jobs"`，`"articles"` |
 | 布尔值 | true或false的数据类型。 |
 | 整数 | 表示整数的数据类型。 它可以是正数、负数或零。 <br>示例： `-201`，`0`，`412` |
-| 数组 | 由一组其他文字值组成的数据类型。 它使用方括号将不同的值分组，并使用逗号分隔不同的值。<br> **注意：**&#x200B;您不能直接访问数组中项的属性。 <br>示例： `[1, 4, 7]`，`["US", "FR"]` |
+| 数组 | 由一组其他文字值组成的数据类型。 它使用方括号将不同的值分组，并使用逗号分隔不同的值。<br> **注意：**&#x200B;您不能直接访问数组中项的属性。<br> 示例： `[1, 4, 7]`，`["US", "FR"]` |
 
 >[!CAUTION]
 >

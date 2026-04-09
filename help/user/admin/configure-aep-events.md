@@ -6,16 +6,16 @@ role: Admin
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为测试版"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: cefd98099bf6524d1d559a47d502990852de1468
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 7%
+source-wordcount: '1477'
+ht-degree: 12%
 
 ---
 
 # 选择体验事件和字段
 
-管理员可以在Experience Event合并架构中选择特定的[AEP Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其关联字段。 选择后，用户可以配置决策规则以侦听这些Experience事件，以基于近乎实时的事件数据启用动态和针对性的营销活动操作。
+管理员可以在Experience Event合并架构中选择特定的[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其关联字段。 选择后，用户可以配置决策规则以侦听这些Experience事件，以基于近乎实时的事件数据启用动态和针对性的营销活动操作。
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 在历程中使用AEP体验事件包括两个步骤：
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 * 您最多可以选择50个事件，每个事件最多可以选择100个字段。
 
-* 历程可以收听使用Experience Platform流功能(如Web SDK或HTTP API)引入的Experience事件。
+* 历程可以收听使用Experience Platform流功能（如Web SDK或HTTP API）引入的Experience事件。
 
 * 您可以使用体验事件在历程中进行决策，但不会保留这些事件。 因此，您无法利用Journey Optimizer B2B edition中体验事件的历史记录。
 
@@ -252,7 +252,7 @@ ht-degree: 7%
 
 +++
 
-### 电子邮件退回
+### 电子邮件已退回
 
 此事件可跟踪发送给人员的电子邮件何时退回。
 
@@ -462,6 +462,8 @@ ht-degree: 7%
 
 +++
 
-<!-- ## Overview video
+<!--
+ ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448693/?captions=chi_hans&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
+-->

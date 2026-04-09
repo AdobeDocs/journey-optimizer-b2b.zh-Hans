@@ -4,7 +4,7 @@ description: 锁定电子邮件模板组件以实现品牌合规性 — 在Journ
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -48,14 +48,15 @@ ht-degree: 0%
    ![启用内容添加](./assets/governance-template-content-additions.png){width="600" zoomable="yes"}
 
    在根级别设置此模式后，模板中的所有元素都会被锁定。 左侧的树结构在根元素和所有子元素旁显示&#x200B;_只读_&#x200B;图标（![只读图标](../assets/do-not-localize/icon-tree-lock.svg)）。
-<!-- 
+<!--
 
    
 - ![Link icon](../assets/do-not-localize/icon-navigation-tree.svg)
 - ![Read only icon](../assets/do-not-localize/icon-tree-lock.svg)
 - ![Content edit icon](../assets/do-not-localize/icon-tree-content-lock.svg)
 - ![Content edit icon](../assets/do-not-localize/icon-tree-edit-text.svg)
-- ![Edit element](../assets/do-not-localize/icon-edit.svg) -->
+- ![Edit element](../assets/do-not-localize/icon-edit.svg) 
+-->
 
 ## 对结构应用锁定
 

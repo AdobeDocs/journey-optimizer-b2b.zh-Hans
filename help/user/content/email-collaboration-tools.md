@@ -3,16 +3,17 @@ title: 向Collaboration工具发送电子邮件
 description: 在Journey Optimizer B2B edition中协作处理电子邮件。 添加评论、邀请审阅人、解决反馈并简化团队的审阅工作流。
 feature: Email Authoring, Content
 role: User
-source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
+exl-id: 2694200e-44c1-41a3-b460-3abe6a341a55
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 3%
+source-wordcount: '1213'
+ht-degree: 4%
 
 ---
 
 # 电子邮件协作工具
 
-[电子邮件设计空间](./email-authoring.md)包括用于评论和解决的协作工具，以便营销团队可以直接在[!DNL Journey Optimizer B2B Edition]内无缝审查、讨论和最终确定电子邮件资产。 用户无需通过外部工具（如聊天、电子邮件会话或电子表格）共享草稿，即可在邮件设计空间内直接进行评论、提出修改建议并处理反馈。在帐户历程中启动电子邮件促销活动之前，请使用以下工具简化工作流、减少错误并确保利益相关者保持一致：
+[电子邮件设计空间](./email-authoring.md)包括用于评论和解决的协作工具，以便营销团队可以直接在[!DNL Journey Optimizer B2B Edition]内无缝审查、讨论和最终确定电子邮件资产。 用户无需通过外部工具（如聊天、电子邮件会话或电子表格）共享草稿，即可在邮件设计空间内直接进行评论、提出修改建议并处理反馈。 在帐户历程中启动电子邮件促销活动之前，请使用以下工具简化工作流、减少错误并确保利益相关者保持一致：
 
 * **_集中式反馈_** — 在一个位置收集和跟踪所有反馈。
 
@@ -24,15 +25,17 @@ ht-degree: 3%
 
 * **_上下文中的Collaboration_** — 查看布局中的电子邮件正文副本、图像和call-to-action (CTA)元素。
 
-<!-- Enable asynchronous collaboration between team members for an email asset
+<!--
+ Enable asynchronous collaboration between team members for an email asset
 Allow users to attach comments to specific design elements
 Provide a unified interface for viewing and managing all comments within a project
 Support comment placement, editing, deleting, and navigation
-Display visual indicators (badges) for elements with associated comments -->
+Display visual indicators (badges) for elements with associated comments 
+-->
 
 ## 为审阅人启用电子邮件协作工具
 
-产品管理员可以通过在Adobe Experience Cloud中通过&#x200B;**[!UICONTROL 权限]** UI分配&#x200B;_管理B2B电子邮件_&#x200B;权限，来启用对电子邮件协作工具的访问。
+产品管理员可以通过在Adobe Experience Cloud中通过&#x200B;_权限_ UI分配&#x200B;**[!UICONTROL 管理B2B电子邮件]**&#x200B;权限，来启用对电子邮件协作工具的访问。
 
 +++ 启用电子邮件权限
 
@@ -48,7 +51,7 @@ Display visual indicators (badges) for elements with associated comments -->
 
    已分配给该角色的任何用户的权限都会自动更新。
 
-1. 要将此角色分配给新用户，请选择“**[!UICONTROL 角色]**”仪表板中的“_[!UICONTROL 用户]_”选项卡，然后单击“**[!UICONTROL 添加用户]**”。
+1. 要将此角色分配给新用户，请选择“_[!UICONTROL 角色]_”仪表板中的“**[!UICONTROL 用户]**”选项卡，然后单击“**[!UICONTROL 添加用户]**”。
 
    * 输入用户名和电子邮件地址，或从列表中选择现有用户。
 
@@ -62,7 +65,7 @@ Display visual indicators (badges) for elements with associated comments -->
 
 在电子邮件设计空间创建、编辑或查看内容时，您可以访问&#x200B;_Collaboration_&#x200B;面板以添加或管理电子邮件内容的注释。
 
-单击右侧导航中的&#x200B;_Collaboration_ (![Collaboration图标](../assets/do-not-localize/icon-comments.svg) )图标。
+单击右侧导航中的&#x200B;_Collaboration_ （![Collaboration图标](../assets/do-not-localize/icon-comments.svg) ）图标。
 
 电子邮件设计右侧导航中的![Collaboration面板图标](./assets/email-comments-right-nav-icon.png){width="700" zoomable="yes"}
 
@@ -93,7 +96,7 @@ Display visual indicators (badges) for elements with associated comments -->
 
 1. 选择电子邮件的正文。
 
-1. 单击右侧导航中的&#x200B;_Collaboration_ (![Collaboration图标](../assets/do-not-localize/icon-comments.svg) )图标。
+1. 单击右侧导航中的&#x200B;_Collaboration_ （![Collaboration图标](../assets/do-not-localize/icon-comments.svg) ）图标。
 
 1. 在右侧面板的顶部，输入邀请文本，以便用户进行协作并提供反馈。
 

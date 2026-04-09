@@ -4,9 +4,9 @@ description: 使用可视化设计工具、HTML导入或模板创建电子邮件
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9f8953423e3b6d578155431c7638e4fec9abf86a
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1175'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 在您[将电子邮件资产添加到历程操作节点](./add-email.md)后，您可以定义电子邮件的内容。
 
-在右侧面板的&#x200B;**[!UICONTROL 详细信息]**&#x200B;选项卡中单击&#x200B;_[!UICONTROL 编辑电子邮件内容]_。
+在右侧面板的&#x200B;_[!UICONTROL 详细信息]_&#x200B;选项卡中单击&#x200B;**[!UICONTROL 编辑电子邮件内容]**。
 
 ![单击“编辑电子邮件内容”](./assets/add-email-content.png){width="700" zoomable="yes"}
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 * [使用Designer电子邮件界面从头开始设计电子邮件](#design-your-email-from-scratch)。
 
-* [从文件或.zip文件夹导入现有HTML内容](#import-existing-html-content)。
+* 从文件或 .zip 文件夹[导入现有 HTML 内容](#import-existing-html-content)。
 
 * [从内置或自定义电子邮件模板列表中选择现有模板](#select-a-template)。
 
@@ -51,11 +51,13 @@ ht-degree: 2%
 
 1. [测试电子邮件](#check-and-test-the-email)。
 
-<!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
+<!--
+ If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->You cannot revert back to the visual design space for this email after switching to the code editor. -->
+>You cannot revert back to the visual design space for this email after switching to the code editor. 
+-->
 
 如果对内容满意，请单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -91,7 +93,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您的电子邮件是使用包含锁定内容[的](./template-content-governance.md)模板设计的，则无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
+>如果您的电子邮件是使用包含锁定内容](./template-content-governance.md)的[模板设计的，则无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
 
 ![访问正文样式](./assets/email-body-styles.png){width="800" zoomable="yes"}
 

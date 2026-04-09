@@ -4,10 +4,10 @@ description: 使用结构组件构建电子邮件、登陆页和片段的布局 
 feature: Content Design Tools
 role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1584'
-ht-degree: 6%
+source-wordcount: '1603'
+ht-degree: 7%
 
 ---
 
