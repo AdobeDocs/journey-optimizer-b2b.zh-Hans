@@ -4,7 +4,7 @@ description: 使用可视化设计工具、HTML导入或模板创建电子邮件
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 2%
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 此操作将启动电子邮件设计工具，您可以在其中从以下选项中选择所需的电子邮件设计方式：
 
-* [使用Designer电子邮件界面从头开始设计电子邮件](#design-your-email-from-scratch)。
+* [使用可视化设计界面从头开始设计电子邮件](#design-your-email-from-scratch)。
 
 * 从文件或 .zip 文件夹[导入现有 HTML 内容](#import-existing-html-content)。
 
@@ -93,7 +93,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您的电子邮件是使用包含锁定内容[&#128279;](./template-content-governance.md)的模板设计的，则无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
+>如果您的电子邮件是使用包含锁定内容](./template-content-governance.md)的[模板设计的，则无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
 
 ![访问正文样式](./assets/email-body-styles.png){width="800" zoomable="yes"}
 

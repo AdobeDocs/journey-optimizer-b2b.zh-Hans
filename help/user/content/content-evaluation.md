@@ -1,21 +1,21 @@
 ---
-title: 内容得分
+title: 内容评估和评分
 description: 通过品牌一致性评分评估电子邮件内容 — 根据Journey Optimizer B2B edition中的品牌准则验证颜色、字体、徽标和书写样式。
 badge: label="Beta 版" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-source-git-commit: 37e4a7976d716f24edf2c2e92cbfa4c149aa66ec
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 8%
 
 ---
 
-# 内容得分 {#content-scoring}
+# 内容评估和评分 {#content-scoring}
 
-内容评估和评分可帮助您创建、审查和管理符合选定品牌[&#128279;](./brands-manage-create.md#brand-definitions)中定义的准则和一般质量标准的内容。 运行评估确保电子邮件促销活动在语气、消息传递和视觉身份方面保持一致，同时在内容上线之前充当质量检查。
+内容评估和评分可帮助您创建、审查和管理符合选定品牌](./brands-manage-create.md#brand-definitions)中定义的准则[和一般质量标准的内容。 运行评估确保电子邮件促销活动在语气、消息传递和视觉身份方面保持一致，同时在内容上线之前充当质量检查。
 
 >[!AVAILABILITY]
 >
@@ -41,7 +41,7 @@ ht-degree: 8%
 
    ![右侧面板中的评估分数](./assets/brands-alignment-evaluation.png){width="600" zoomable="yes"}
 
-## 品牌一致性得分 {#brand-score}
+## 品牌一致性得分 {#brand-alignment-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score_overview"
@@ -81,7 +81,7 @@ ht-degree: 8%
 * 60-79 =公平 — 一些重大违反行为
 * 60以下=差 — 严重违规需要注意
 
-您可以更详细地查看评估结果，以帮助您识别违规并提高类别一致性分数（_高_、_Medium_&#x200B;和&#x200B;_低_）并查看详细信息。
+您可以更详细地查看评估结果，以帮助您识别违规并提高类别对齐分数（_高_、_Medium_&#x200B;和&#x200B;_低_）。
 
 对于&#x200B;**[!UICONTROL 写入样式]**&#x200B;或&#x200B;**[!UICONTROL 可视内容]**，单击&#x200B;_展开_ （![展开箭头](../assets/do-not-localize/icon-expand-right.svg)）箭头以显示评估的详细信息。
 
