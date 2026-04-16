@@ -1,10 +1,10 @@
 ---
 title: 购买组角色模板
-description: 创建具有条件自动分配的角色模板，以识别在Journey Optimizer B2B edition中购买群组的决策者和利益相关者。
+description: 创建具有条件自动分配的角色模板，以识别在Journey Optimizer B2B Edition中购买群组的决策者和利益相关者。
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 40043117de44d158f21890ce267790a6ccbc0436
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
 source-wordcount: '1410'
 ht-degree: 5%
@@ -71,7 +71,7 @@ ht-degree: 5%
 
    * 从列表中选择&#x200B;**[!UICONTROL 购买团体角色]**。
 
-     有六个默认角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 该列表还包括在&#x200B;_角色_&#x200B;列表[&#128279;](./default-custom-roles.md#custom-roles)中定义的任何自定义角色。
+     有六个默认角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 该列表还包括在&#x200B;_角色_&#x200B;列表](./default-custom-roles.md#custom-roles)中定义的任何[自定义角色。
 
      ![购买团体角色列表](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -101,7 +101,7 @@ ht-degree: 5%
 
      使用工作标题的![角色模板条件示例](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-   * 如果已配置与XDM关系架构[&#128279;](../admin/xdm-field-management.md#relational-schemas)中定义的人员相关的自定义对象，请展开&#x200B;**[!UICONTROL 自定义对象]**&#x200B;的列表以在角色条件中使用它们。
+   * 如果已配置与XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中定义的人员[相关的自定义对象，请展开&#x200B;**[!UICONTROL 自定义对象]**&#x200B;的列表以在角色条件中使用它们。
 
      ![角色模板添加自定义对象条件](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
 
@@ -128,7 +128,7 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 >
 >**功能弃用**</br></br>
 >
->使用Journey Optimizer B2B edition的[简化架构](../simplified-architecture.md)，不支持根据Marketo Engage实例中的列表或项目成员资格进行筛选。
+>在当前Journey Optimizer B2B Edition版本中，不再支持在Marketo Engage实例中根据列表或项目成员资格进行筛选。
 
 >[!ENDSHADEBOX]
 
@@ -194,4 +194,4 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3453311/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

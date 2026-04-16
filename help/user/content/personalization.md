@@ -7,9 +7,9 @@ role: User, Developer
 level: Intermediate
 keywords: 表达式、编辑器、开始、个性化
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
-source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '751'
 ht-degree: 6%
 
 ---
@@ -39,11 +39,11 @@ ht-degree: 6%
 
 * **系统令牌** — 这些令牌基于系统字段值，如&#x200B;_date_、_time_&#x200B;和&#x200B;_取消订阅链接_。
 
-* **我的令牌**（为历程定义时） — 为电子邮件所在的历程[&#128279;](./personalization-my-tokens.md)定义的自定义令牌。
+* **我的令牌**（为历程定义时） — 为电子邮件所在的历程](./personalization-my-tokens.md)定义的[自定义令牌。
 
 >[!NOTE]
 >
->在[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home){target="_blank"}中了解有关XDM架构的更多信息。
+>在[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中了解有关XDM架构的更多信息。
 
 ## Personalization编辑器
 
@@ -52,10 +52,6 @@ ht-degree: 6%
 通过单击&#x200B;_添加个性化_ （ ![添加个性化图标](../../assets/do-not-localize/icon-personalization-field.svg) ）图标，在任何字段或内容组件中添加个性化。
 
 ![Personalization编辑器](./assets/personalization-editor.png){width="800" zoomable="yes"}
-
->[!NOTE]
->
->以下有关个性化编辑器的信息反映了在[简化架构](../simplified-architecture.md)上配置的[!DNL Journey Optimizer B2B Edition]环境可用的更改。
 
 ### 令牌和辅助函数
 

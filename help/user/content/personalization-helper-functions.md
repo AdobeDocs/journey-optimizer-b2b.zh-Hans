@@ -7,9 +7,9 @@ role: Developer
 level: Intermediate
 keywords: 表达式、编辑器、语法、个性化
 exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '4943'
+source-wordcount: '4930'
 ht-degree: 6%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 6%
 # 辅助函数
 
 使用个性化编辑器中的帮助程序功能，通过操作数据、执行计算和格式化内容，准确高效地定义个性化内容体验。 探索并尝试使用这些功能、操作员和助手，了解他们如何协同工作，帮助您打造量身定制的数据驱动历程。
-
->[!AVAILABILITY]
->
->辅助函数可用于在[简化架构](../simplified-architecture.md)上配置的[!DNL Journey Optimizer B2B Edition]环境。
 
 ## 聚合函数
 

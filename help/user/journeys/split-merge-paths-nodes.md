@@ -5,9 +5,9 @@ feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '2745'
+source-wordcount: '2744'
 ht-degree: 4%
 
 ---
@@ -30,7 +30,7 @@ _（仅限帐户历程）_
 
 按帐户拆分路径可以同时包含帐户和人员操作及事件。 这些路径可以进一步拆分。
 
-_&#x200B;**按帐户划分的拆分路径节点的工作方式**&#x200B;_
+_**按帐户划分的拆分路径节点的工作方式**_
 
 * 您添加的每个路径都包含一个能够向每个边缘添加节点的结束节点。
 * 可以嵌套“按帐户拆分”节点（可以重复按帐户拆分路径）。
@@ -127,7 +127,7 @@ _（帐户和人员历程）_
 
 按人员拆分路径只能包含人员操作。 这些路径无法再次拆分并自动连接回来。
 
-_&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
+_**按人员节点划分的拆分路径的工作方式**_
 
 * 在&#x200B;_分组节点_&#x200B;拆分合并组合中按人员节点进行拆分的功能。 拆分路径会自动合并，以便所有人员能够前进到下一步而不会丢失其帐户上下文。
 * 无法嵌套按人员节点拆分（无法为位于此分组节点中的路径上的人员添加拆分路径）。
@@ -172,7 +172,7 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 
 1. 在右侧的节点属性中，为拆分选择&#x200B;**[!UICONTROL 人员]**。
 
-1. （仅限帐户历程）设置用于条件&#x200B;**的**&#x200B;属性。
+1. （仅限帐户历程）设置用于条件&#x200B;]**的**[!UICONTROL &#x200B;属性。
 
    * 选择&#x200B;**[!UICONTROL 仅人员属性]**&#x200B;以使用与人员配置文件相关的条件。
    * 选择&#x200B;**[!UICONTROL 仅限帐户 — 人员属性]**&#x200B;以使用与帐户中人员的角色成员资格相关的条件。
@@ -223,7 +223,7 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 
 >[!BEGINSHADEBOX “非活动筛选”]
 
-对于每个&#x200B;_[!UICONTROL 活动历史记录]_&#x200B;筛选器，您可以启用&#x200B;**[!UICONTROL 切换到非活动筛选器]**&#x200B;选项。 此选项将过滤器更改为缺少该活动类型的评估。 例如，添加&#x200B;_[!UICONTROL 电子邮件]_ > _[!UICONTROL 已打开电子邮件]_&#x200B;筛选器以创建&#x200B;_&#x200B;**未**&#x200B;_&#x200B;打开历程中早期电子邮件的人的路径。 启用非活动选项并指定电子邮件。 最佳做法是使用活动的&#x200B;_[!UICONTROL 日期]_&#x200B;约束来定义非活动的时段。
+对于每个&#x200B;_[!UICONTROL 活动历史记录]_&#x200B;筛选器，您可以启用&#x200B;**[!UICONTROL 切换到非活动筛选器]**&#x200B;选项。 此选项将过滤器更改为缺少该活动类型的评估。 例如，添加&#x200B;_[!UICONTROL 电子邮件]_ > _[!UICONTROL 已打开电子邮件]_&#x200B;筛选器以创建&#x200B;_**未**_&#x200B;打开历程中早期电子邮件的人的路径。 启用非活动选项并指定电子邮件。 最佳做法是使用活动的&#x200B;_[!UICONTROL 日期]_&#x200B;约束来定义非活动的时段。
 
 ![按购买组成员资格的人员条件拆分路径](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -262,7 +262,7 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 >
 >**功能弃用**</br></br>
 >
->使用Journey Optimizer B2B edition的[简化架构](../simplified-architecture.md)，不支持根据Marketo Engage实例中的列表或项目成员资格进行筛选。
+>在当前Journey Optimizer B2B Edition版本中，不支持根据Marketo Engage实例中的列表或项目成员资格进行筛选。
 
 >[!ENDSHADEBOX]
 
@@ -314,4 +314,4 @@ Note: These are currently going under Account Attributes/Person Attributes folde
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3443266/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
