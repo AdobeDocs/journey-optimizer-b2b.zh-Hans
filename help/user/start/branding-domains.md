@@ -3,10 +3,11 @@ title: 配置品牌策略域
 description: 配置品牌推广域，使您的每个品牌都有自己的品牌推广跟踪链接。
 feature: Setup, Channels
 role: Admin
-source-git-commit: 023e44e1ad2baed2a5586d95a26ef8693020667a
+exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 1%
+source-wordcount: '1014'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +23,7 @@ Marketo Engage中的品牌策略域是一个自定义子域（如`links.yourcomp
 
 **用于跟踪链接的唯一CNAME**
 
-电子邮件跟踪链接必须是新的，并且对于附加的Marketo Engage实例必须是唯一的。 如果您有用于跟踪链接的现有CNAME指向预先存在的（生产）Marketo Engage实例，则它们不能按&#x200B;_原样_&#x200B;重复使用。
+电子邮件跟踪链接必须是新的，并且对于附加的Marketo Engage实例必须是唯一的。 如果您有现有的CNAME用于跟踪指向预先存在的（生产）Marketo Engage实例的链接，则未经修改便无法重复使用它们。
 
 您可以在生产Marketo Engage实例和附加实例之间共享返回路径域品牌化，但这是后端更改。 打开支持工单并提供您的Marketo Engage前缀(Munchkin ID)和新的Journey Optimizer B2B edition前缀(Munchkin ID)，以请求共享返回路径域品牌化。
 
@@ -30,9 +31,9 @@ Marketo Engage中的品牌策略域是一个自定义子域（如`links.yourcomp
 
 >[!PREREQUISITES]
 >
->在UI中编辑或添加域之前，必须将[CNAME映射到Adobe提供的Marketo Engage域](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}。
+>在UI中编辑或添加域之前，必须将[CNAME映射到Adobe提供的Marketo Engage域](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}。
 >
->添加域时，系统会检查预先存在的SSL，这些SSL可能在之前已手动创建。 如果遇到此验证，请在不选择SSL创建的情况下创建域，然后将它们作为单独的过程连接。
+>添加域时，系统会检查预先存在的SSL，这些SSL可能在之前已手动创建。 如果遇到此验证，请在不选择SSL创建的情况下创建域，然后将其作为单独的过程连接。
 
 ## 访问Marketo Engage中的品牌化域
 
@@ -70,7 +71,7 @@ Marketo Engage中的品牌策略域是一个自定义子域（如`links.yourcomp
 
 ## 定义其他域
 
-编辑默认域后，当您想要在Journey Optimizer B2B edition环境中运行多个品牌时，可以添加另一个品牌域，其中每个品牌都有自己的品牌跟踪链接。 添加域时，有以下选项：
+在编辑默认域后，您可以添加另一个品牌域来支持您的Journey Optimizer B2B Edition环境中的多个品牌，其中每个品牌都有自己的品牌跟踪链接。 添加域时，有以下选项：
 
 >* _使主域_：使它成为工作区的主域。 选择此选项时，所有现有未发送电子邮件都会设置为默认主域，所有新创建的电子邮件都会自动默认到此主域。 营销人员可以根据需要选择替代品牌推广域。
 >
@@ -92,7 +93,7 @@ Marketo Engage中的品牌策略域是一个自定义子域（如`links.yourcomp
 
    >[!NOTE]
    >
-   >**_自定义SSL_**：如果您需要自定义SSL，则可以提交[支持票证](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}。 请勿将复选框用于SSL创建。
+   >**_自定义SSL_**：如果您需要自定义SSL，则可以提交[支持票证](https://experienceleague.adobe.com/en/support){target="_blank"}。 请勿将复选框用于SSL创建。
 
 1. 如果您为Marketo Engage实例定义了多个工作区，请单击&#x200B;**[!UICONTROL 下一步]**。
 
