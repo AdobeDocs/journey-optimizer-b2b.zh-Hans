@@ -1,10 +1,11 @@
 ---
 title: 用于电子邮件模板设计的高级HTML模式
-description: 使用高级HTML模式直接在Journey Optimizer B2B edition的电子邮件设计空间中查看和编辑电子邮件模板内容的原始HTML源。
+description: 使用高级HTML模式直接在Journey Optimizer B2B Edition的电子邮件设计空间中查看和编辑电子邮件模板内容的原始HTML源。
 feature: Email Authoring, Templates, Content Design Tools
 level: Experienced
 role: User
-source-git-commit: 95dba963e08125370f998cf3960d51ede94c2fb9
+exl-id: 92af078b-29b4-4507-ae43-55dc4dd4b748
+source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 0%
@@ -15,10 +16,12 @@ ht-degree: 0%
 
 _高级HTML模式_&#x200B;提供了一个视图，通过该视图，经验丰富的用户可以直接查看和编辑电子邮件模板内容的原始源代码。 当您想要将复杂的表达式（如条件逻辑）直接插入源时，此模式非常理想。 对于进行超出可视设计工具所展示范围的结构调整而言，它也很有用。
 
-<!-- We don't have the code editor at this point 
+<!-- 
+We don't have the code editor at this point 
 >[!NOTE]
 >
->_Advanced HTML mode_ is different from the code editor option that is available when you start a new design. The code editor does not allow you to change to the visual design space. With _advanced HTML mode_, you can toggle back and forth between the HTML source view and the visual design view at any time. -->
+>_Advanced HTML mode_ is different from the code editor option that is available when you start a new design. The code editor does not allow you to change to the visual design space. With _advanced HTML mode_, you can toggle back and forth between the HTML source view and the visual design view at any time. 
+-->
 
 >[!AVAILABILITY]
 >

@@ -1,12 +1,12 @@
 ---
 title: 使用品牌来生成内容并保持一致性
-description: 为一致的内容创建定义品牌准则 — 在Journey Optimizer B2B edition中维护视觉标识、消息传递一致性和真实语调。
+description: 为一致的内容创建定义品牌准则 — 在Journey Optimizer B2B Edition中维护视觉标识、消息传递一致性和真实声音。
 badge: label="Beta 版" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
+source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 12%
@@ -47,9 +47,9 @@ ht-degree: 12%
 >
 >此功能目前作为公共测试版提供。
 >
->在Adobe Journey Optimizer B2B edition中使用AI支持的功能之前，需要[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
+>在Adobe Journey Optimizer B2B Edition中使用AI支持的功能之前，需要[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
 
-定义的品牌为您的创意团队在创作任何视觉或书面内容时提供了&#x200B;_真实来源_。 在编译这些指南并共享品牌资产后，任何团队成员或协作者都可以为您的产品创建品牌上内容。 要在Journey Optimizer B2B edition中启用品牌内内容创建，请完成以下任务：
+定义的品牌为您的创意团队在创作任何视觉或书面内容时提供了&#x200B;_真实来源_。 在编译这些指南并共享品牌资产后，任何团队成员或协作者都可以为您的产品创建品牌上内容。 要在Journey Optimizer B2B Edition中启用品牌内内容创建，请完成以下任务：
 
 1. 准备品牌定义。
 
@@ -59,13 +59,14 @@ ht-degree: 12%
 
 1. 在一个或多个PDF文件中组合此信息。
 
-1. 使用PDF文件在Journey Optimizer B2B edition中[创建品牌](./brands-manage-create.md#create-and-define-a-brand)。
+1. 使用PDF文件在Journey Optimizer B2B Edition中[创建品牌](./brands-manage-create.md#create-and-define-a-brand)。
 
 1. 当它可以使用时，[发布品牌](./brands-manage-create.md#publish-the-brand)。
 
 1. 使用品牌进行[电子邮件内容对齐](./content-evaluation.md#brand-alignment-score)。
 <!-- 
-1. Use the brand to generate content. -->
+1. Use the brand to generate content. 
+-->
 
 >[!BEGINSHADEBOX]
 
