@@ -1,13 +1,13 @@
 ---
 title: 电子邮件内容的深色模式
-description: 了解Journey Optimizer B2B edition中的深色模式电子邮件设计。 预览渲染、自定义设置、确保无障碍访问，并在不同电子邮件客户端中进行测试。
+description: 了解Journey Optimizer B2B Edition中的深色模式电子邮件设计。 预览渲染、自定义设置、确保无障碍访问，并在不同电子邮件客户端中进行测试。
 feature: Email Authoring
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 深色模式，电子邮件，颜色，设计
 exl-id: c9ffb883-d37f-48bc-b23d-6eccf7a04d9a
-source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
+source-git-commit: 781a1043d2da8fb8e2eb14936dea209bd2ff0f2e
 workflow-type: tm+mt
 source-wordcount: '1606'
 ht-degree: 6%
@@ -28,9 +28,9 @@ ht-degree: 6%
 
 _深色模式_&#x200B;允许支持此功能的电子邮件客户端或应用程序为文本、按钮和其他可视元素显示具有更暗背景和较浅颜色的电子邮件。 这种显示器可以减轻眼睛疲劳，节省电池寿命，并改善在弱光环境中的可读性，以获得更舒适的观看体验。 作为主流操作系统和应用程序中的一种发展趋势，它现在是现代电子邮件设计中的一个重要考虑事项，以确保内容清晰易读，并且对于所有用户来说都具有吸引力。
 
-![浅色和深色模式概念图，显示浅色和深色主题的内容渲染](../assets/do-not-localize/light-dark-mode.svg){width="50%"}
+![浅色和深色模式概念图，显示浅色和深色主题的内容渲染](../assets/do-not-localize/light-dark-mode.png){width="550"}
 
-当您在[!DNL Journey Optimizer B2B Edition]视觉设计空间中[创建您的电子邮件内容](./email-authoring.md)时，您可以切换到&#x200B;_&#x200B;**[!UICONTROL 深色模式]**&#x200B;_&#x200B;视图。 在此视图中，您还可以定义特定的自定义设置，以便在启用电子邮件客户端的深色模式时支持这些客户端。
+当您在[!DNL Journey Optimizer B2B Edition]视觉设计空间中[创建您的电子邮件内容](./email-authoring.md)时，您可以切换到&#x200B;_**[!UICONTROL 深色模式]**_&#x200B;视图。 在此视图中，您还可以定义特定的自定义设置，以便在启用电子邮件客户端的深色模式时支持这些客户端。
 
 ## 电子邮件客户端注意事项 {#email-client-considerations}
 
