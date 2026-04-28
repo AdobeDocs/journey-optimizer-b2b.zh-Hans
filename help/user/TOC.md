@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文档
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition 以及如何使用它通过内置的生成式 AI 和行业领先的自动化来编排帐户及购买群组历程。
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+source-git-commit: 230933fe205b565aa55f4a1fb371704f996d1bb3
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 94%
    + [帐户和人员历程](./journeys/journeys-overview.md)
    + [创建和发布历程](./journeys/create-publish-journey.md)
    + [历程重新进入](./journeys/journey-re-entry.md)
-   + [历程节点](./journeys/journey-nodes.md)
+   + {hide-from-toc}[历程节点](./journeys/journey-nodes.md)
    + 历程节点 {#journey-nodes}
       + [帐户受众](./journeys/account-audience-nodes.md)
       + [人员受众(Beta)](./journeys/person-audience-nodes.md)
@@ -119,7 +119,7 @@ ht-degree: 94%
          + [高级HTML编辑](./content/email-template-advanced-html.md)
          + [将图像转换为模板](./content/email-template-image-convert.md)
       + 登陆页面模板 (Beta) {#landing-page-templates}
-         + [概述](./content/landing-page-templates.md)
+         + {hide-from-toc}[概述](./content/landing-page-templates.md)
          + [登陆页面模板设计](./content/landing-page-template-design.md)
    + 片段 {#visual-fragments}
       + [概述](./content/fragments.md)
@@ -167,4 +167,4 @@ ht-degree: 94%
       + [WhatsApp配置](./admin/configure-channels-whatsapp.md)
       + [Web渠道配置(Beta)](./admin/configure-channels-web.md)
       + [登陆页面设置(Beta)](./admin/landing-page-settings.md)
-      + [配置数据流以进行事件收集](./data/aep-event-collection.md)
+      + {hide-from-toc}[为事件集合配置数据流](./data/aep-event-collection.md)
