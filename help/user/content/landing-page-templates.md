@@ -1,13 +1,12 @@
 ---
 title: 登陆页面模板
-description: 创建、管理和重用登陆页面模板 — 从头开始设计，导入HTML，复制、删除和跟踪Journey Optimizer B2B Edition中营销团队的使用情况。
+description: 创建、管理和重用登陆页面模板 — 在Journey Optimizer B2B edition中从头开始设计、导入HTML、复制、删除和跟踪营销团队的使用情况。
 feature: Landing Pages, Templates, Content
 role: User
 hide: true
-hidefromtoc: true
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
+source-git-commit: 230933fe205b565aa55f4a1fb371704f996d1bb3
 workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 1%
@@ -20,7 +19,7 @@ ht-degree: 1%
 
 ## 访问和管理登陆页面模板
 
-要在Adobe Journey Optimizer B2B Edition中访问登陆页面模板，请转到&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 模板]**。 在导航面板中的&#x200B;_[!UICONTROL WEB]_&#x200B;下，选择&#x200B;**[!UICONTROL 登陆页面模板]**。
+要在Adobe Journey Optimizer B2B edition中访问登陆页面模板，请转到&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 模板]**。 在导航面板中的&#x200B;_[!UICONTROL WEB]_&#x200B;下，选择&#x200B;**[!UICONTROL 登陆页面模板]**。
 
 显示的列表页包括以表格式列出的实例中创建的所有登陆页模板。 默认情况下，该表按&#x200B;_[!UICONTROL 已修改]_&#x200B;列排序，最近更新的模板位于顶部。 单击列标题可在升序和降序之间更改。
 
@@ -64,7 +63,7 @@ _[!UICONTROL 创建您的主登陆页面]_&#x200B;页面将打开，并提供用
 
 ### 导入HTML
 
-通过Adobe Journey Optimizer B2B Edition，您可以导入现有HTML内容以设计登陆页面模板。
+Adobe Journey Optimizer B2B edition允许您导入现有HTML内容以设计登陆页模板。
 
 {{$include /help/_includes/content-design-import.md}}
 
