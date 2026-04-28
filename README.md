@@ -29,7 +29,7 @@ ht-degree: 46%
 1. 在&#x200B;_中，此内容是否有帮助？_ 浏览器窗口底部的横幅，单击&#x200B;**详细的反馈选项**。
 1. 单击&#x200B;**建议编辑**，并在GitHub UI中提交包含所做更改的拉取请求(PR)。
 
-   有关更多信息，请参阅 [Adobe Docs 参与者指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)。
+   有关更多信息，请参阅 [Adobe Docs 参与者指南](https://experienceleague.adobe.com/zh-hans/docs/contributor/contributor-guide/introduction)。
 
 您对本存储库中文档和代码示例提交的细微更正或说明均受 Adobe 使用条款的约束。
 
@@ -43,7 +43,7 @@ ht-degree: 46%
 
 社区参与者可以使用 GitHub UI 进行基本编辑或创建存储库分支，以做出主要更改。
 
-有关详细信息，请参阅 [Adobe Docs 参与者指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)。
+有关详细信息，请参阅 [Adobe Docs 参与者指南](https://experienceleague.adobe.com/zh-hans/docs/contributor/contributor-guide/introduction)。
 
 ## 内部投稿人
 
