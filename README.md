@@ -1,8 +1,8 @@
 ---
 source-git-commit: 14ce84c26dc292c33479ca60841dafd1ab20db53
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 49%
+source-wordcount: '517'
+ht-degree: 46%
 
 ---
 # 贡献文章
@@ -11,13 +11,13 @@ ht-degree: 49%
 
 ## Adobe Open Source 行为准则
 
-本项目已采用 [Adobe 开源行为准则](code-of-conduct.md)或 [.NET Foundation 行为准则](https://dotnetfoundation.org/about/policies/code-of-conduct)。有关更多信息，请参阅[贡献](contributing.md)文章。
+该项目采用了 [Adobe Open Source 行为准则](code-of-conduct.md)或 [.NET Foundation 行为准则](https://dotnetfoundation.org/about/policies/code-of-conduct)。 有关更多信息，请参阅[参与](contributing.md)文章。
 
 ## 如何为 Adobe 内容做贡献
 
 **如果您不是Adobe员工**，则可以提交外部社区贡献。 社区投稿将导入到内部系统，并在公共存储库中进行编辑和合并。 然后，公共存储库会与最新的更改同步并合并到专用存储库中。
 
-**如果您是 Adobe 员工**，您可以直接向专用 [Adobe GitHub 存储库](https://git.corp.adobe.com/AdobeDocs/)做出贡献。有关详细信息，请参阅针对 Adobe 员工的 Adobe Experience League 创作指南。
+**如果您是 Adobe 员工**，您可以直接向专用 [Adobe GitHub 存储库](https://git.corp.adobe.com/AdobeDocs/)做出贡献。 有关详细信息，请参阅针对 Adobe 员工的 Adobe Experience League 创作指南。
 
 ## 外部投稿人
 
@@ -26,10 +26,10 @@ ht-degree: 49%
 如果您要贡献一项次要更新：
 
 1. 导航到要编辑的主题。
-1. 在&#x200B;_中，此内容是否有帮助？浏览器窗口底部的_&#x200B;横幅，单击&#x200B;**详细的反馈选项**。
+1. 在&#x200B;_中，此内容是否有帮助？_ 浏览器窗口底部的横幅，单击&#x200B;**详细的反馈选项**。
 1. 单击&#x200B;**建议编辑**，并在GitHub UI中提交包含所做更改的拉取请求(PR)。
 
-   有关更多信息，请参阅 [Adobe Docs 参与者指南](https://experienceleague.adobe.com/zh-hans/docs/contributor/contributor-guide/introduction)。
+   有关更多信息，请参阅 [Adobe Docs 参与者指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)。
 
 您对本存储库中文档和代码示例提交的细微更正或说明均受 Adobe 使用条款的约束。
 
@@ -43,7 +43,7 @@ ht-degree: 49%
 
 社区参与者可以使用 GitHub UI 进行基本编辑或创建存储库分支，以做出主要更改。
 
-有关详细信息，请参阅 [Adobe Docs 参与者指南](https://experienceleague.adobe.com/zh-hans/docs/contributor/contributor-guide/introduction)。
+有关详细信息，请参阅 [Adobe Docs 参与者指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)。
 
 ## 内部投稿人
 
@@ -51,7 +51,7 @@ ht-degree: 49%
 
 ## 格式化主题
 
-此存储库中的所有文章都使用 GitHub 风格的 Markdown。如果您不熟悉 Markdown，请参阅：
+此存储库中的所有文章都使用 GitHub 风格的 Markdown。 如果您不熟悉 Markdown，请参阅：
 
 * [Markdown 基础知识](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
 * [GitHub文档](https://docs.github.com/en)
