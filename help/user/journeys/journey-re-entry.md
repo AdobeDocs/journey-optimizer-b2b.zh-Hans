@@ -5,10 +5,10 @@ feature: Account Journeys
 role: User
 level: Intermediate
 exl-id: e5153125-6d5b-4835-bd19-c9b7ce67e46a
-source-git-commit: 5adf65f3c48c17f73e4897fb9ce027631bf196a7
+source-git-commit: 585f98370f6741a5f4854beedd14a69c3a663f3c
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 1%
+source-wordcount: '419'
+ht-degree: 9%
 
 ---
 
@@ -60,7 +60,10 @@ _仅限帐户历程_
 
 ## 帐户进展和活动
 
-对于已发布的帐户历程，历程图显示历程节点的[帐户进度](./journeys-overview.md#review-account-progression)。 映射中的每个节点会显示到达该节点的帐户数，对于实时历程，会显示当前在该节点的帐户数。 每次帐户重新进入历程时，它都计为一个不同的条目。
-<!-- You can see how many times accounts have entered the journey. ?? -->
+对于已发布的帐户历程，历程图显示历程节点的[帐户进度](./journeys-overview.md#review-account-progression)。 历程图中的每个节点都会显示达到该节点的帐户数量，以及（对于运行中的历程）当前停留在该节点的帐户数量。 每次帐户重新进入历程时，它都计为一个不同的条目。
 
-当您深入到[帐户详细信息](../accounts/account-details.md)时，帐户活动会在每次帐户进入历程时显示。 它包括显式活动和重复计数，以便您可以清楚地看到重复条目。
+<!-- 
+You can see how many times accounts have entered the journey. ?? 
+
+When you drill in to [account details](../accounts/account-details.md), the account activity shows each time the account entered the journey. It includes explicit activity and a recurrence count so that you can see re-entries clearly.
+-->
