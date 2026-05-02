@@ -15,7 +15,7 @@ ht-degree: 12%
 
 条件内容允许您根据条件规则调整电子邮件和片段内容。 这些规则是使用配置文件属性或上下文事件定义的。 您可以在规则生成器中创建条件规则，将其存储后可在您的帐户历程中重复使用。
 
-为了向片段和电子邮件添加条件内容，Adobe Journey Optimizer允许您应用存储在&#x200B;_条件_&#x200B;库中的条件规则。 在您为帐户历程](./email-authoring.md)或[可视片段](./fragment-authoring.md)创作[电子邮件内容时，在可视设计空间中应用条件规则。
+为了向片段和电子邮件添加条件内容，Adobe Journey Optimizer允许您应用存储在&#x200B;_条件_&#x200B;库中的条件规则。 在您为帐户历程[&#128279;](./email-authoring.md)或[可视片段](./fragment-authoring.md)创作电子邮件内容时，在可视设计空间中应用条件规则。
 
 ## 添加条件内容 {#email-fragment-content}
 
