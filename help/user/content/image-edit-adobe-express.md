@@ -7,7 +7,7 @@ exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
 source-git-commit: 7e58b0ccb9d9dd0192cb119bec83a1f13e3d5d69
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->所有Adobe ExpressB2B edition订阅都包含Journey Optimizer编辑功能的权限。
+>所有B2B edition订阅都包含Journey Optimizer编辑功能的权限。
 
 [!DNL Adobe Express]函数支持PNG和JPEG图像文件格式。
 
@@ -81,7 +81,7 @@ ht-degree: 3%
    * [**[!UICONTROL 调整图像大小]**](#resize-image)
    * [**[!UICONTROL 删除背景]**](#remove-background)
    * [**[!UICONTROL 裁切图像]**](#crop-image)
-   * [**[!UICONTROL 转换为PNG]**](#convert-file-format)(加载JPEG图像时)
+   * [**[!UICONTROL 转换为PNG]**](#convert-file-format)（加载JPEG图像时）
    * [**[!UICONTROL 转换为JPEG]**](#convert-file-format)（加载PNG图像时）
 
    ![选择编辑类型以修改图像](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"}

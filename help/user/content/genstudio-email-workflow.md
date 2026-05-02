@@ -9,8 +9,8 @@ badge: label="限量发布版" type="Informative"
 exl-id: 13f45e8f-9d49-4ec2-90ef-689475c629f1
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 8%
+source-wordcount: '862'
+ht-degree: 11%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 8%
 
 ## GenStudio内容生成功能
 
-[Adobe GenStudio for Performance Marketing](https://business.adobe.com/cn/products/genstudio-for-performance-marketing.html){target="_blank"}是一个创新型人工智能优先应用程序，它使营销团队能够创建符合品牌标准并遵守其企业政策的有影响力的个性化广告和电子邮件。 通过利用Adobe AI技术，它提供了一套全面的工具，可简化内容创建和管理过程，以便创意人员可以专注于创新。
+[Adobe GenStudio for Performance Marketing](https://business.adobe.com/cn/products/genstudio-for-performance-marketing.html){target="_blank"}是一个创新型人工智能优先应用程序，它使营销团队能够创建符合品牌标准并遵守其企业政策的有影响力的个性化广告和电子邮件。 通过利用Adobe AI技术，它提供了一套全面的工具，可简化内容创建和管理的复杂性，以便创意人员可以专注于创新。
 
 ![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [创建品牌内营销电子邮件](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
@@ -91,11 +91,11 @@ ht-degree: 8%
 
 要使用从导出的GenStudio B2B edition电子邮件HTML文件创建的Journey Optimizer电子邮件变体，请执行以下步骤：
 
-1. 在Journey Optimizer B2B edition中，[使用](./add-email.md)执行操作&#x200B;_[!UICONTROL 节点，将电子邮件]_&#x200B;添加到帐户历程。
+1. 在Journey Optimizer B2B edition中，[使用&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点，将电子邮件](./add-email.md)添加到帐户历程。
 
-   * 对于&#x200B;_[!UICONTROL 目标上的]_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
+   * 对于&#x200B;_目标上的_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
 
-   * 若要对人员&#x200B;_[!UICONTROL 执行]_&#x200B;操作，请选择&#x200B;**[!UICONTROL 发送电子邮件]**。
+   * 若要对人员&#x200B;_执行_&#x200B;操作，请选择&#x200B;**[!UICONTROL 发送电子邮件]**。
 
      ![执行操作 — 发送电子邮件](./assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
