@@ -7,7 +7,7 @@ exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
 source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
 workflow-type: tm+mt
 source-wordcount: '1491'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Journey Optimizer B2B edition通过Meta的Cloud API发送WhatsApp消息。
 完成以下任务：
 
 1. [创建WhatsApp API凭据](#create-whatsapp-api-credentials)
-1. [添加WhatsApp Webhook](#configure-webhooks)
+1. [添加 WhatsApp Webhook](#configure-webhooks)
 1. [创建WhatsApp渠道配置](#create-channel-configuration)
 
 ### 创建WhatsApp API凭据
@@ -121,17 +121,17 @@ do we have advanced logs? How are they enabled?
 
 +++
 
-### 添加WhatsApp Webhook {#configure-webhooks}
+### 添加 WhatsApp Webhook {#configure-webhooks}
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-inbound-keyword-category"
 >title="入站关键词类别"
->abstract="<b>选择加入</b>：用户订阅后，发送您定义的自动回复。 <br/><b>选择退出</b>：用户取消订阅后，发送您定义的自动回复。 <br/><b>帮助</b>：用户请求帮助或支持时，发送您定义的自动回复。 <br/><b>默认值</b>：在没有匹配关键字时发送您的回退自动响应。"
+>abstract="<b>选择加入</b>：用户订阅后，发送您定义的自动回复。 <br/><b>选择退出</b>：用户取消订阅后，发送您定义的自动回复。 <br/><b>帮助</b>：用户请求帮助或支持时，发送您定义的自动回复。 <br/><b>默认</b>：关键词不匹配的情况下，发送您的备用自动回复。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin_whatsapp-webhook-inbound-keyword"
 >title="输入您的关键词"
->abstract="您可以定义关键词，用于根据用户文本触发特定的自动响应。 关键字不区分大小写（对stop和STOP的处理方式相同）。"
+>abstract="您可以定义关键词，用于根据用户文本触发特定的自动响应。 关键词不区分大小写（stop 和 STOP 的效果是一样的）。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-webhook-url"

@@ -7,7 +7,7 @@ exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
 source-git-commit: 7e58b0ccb9d9dd0192cb119bec83a1f13e3d5d69
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->所有Adobe ExpressB2B edition订阅都包含Journey Optimizer编辑功能的权限。
+>所有B2B edition订阅都包含Journey Optimizer编辑功能的权限。
 
 [!DNL Adobe Express]函数支持PNG和JPEG图像文件格式。
 
@@ -50,7 +50,7 @@ ht-degree: 3%
 
    >[!TIP]
    >
-   >在继续编辑图像文件之前，最佳做法是选择图像详细信息中的[由&#x200B;]_使用的_[[!UICONTROL &#x200B;选项卡]](./internal-image-assets.md#view-asset-used-by-references)并查看当前使用该图像的内容。
+   >在继续编辑图像文件之前，最佳做法是选择图像详细信息中的[由&#x200B;]_使用的_[!UICONTROL &#x200B;选项卡](./internal-image-assets.md#view-asset-used-by-references)并查看当前使用该图像的内容。
 
 1. 在右侧的图像&#x200B;_[!UICONTROL 详细信息]_&#x200B;中，单击&#x200B;**[!UICONTROL 使用Adobe Express编辑]**。
 
@@ -66,11 +66,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->必须在同一IMS组织下购买您的Adobe Express Enterprise许可证，才能从Journey Optimizer B2B edition访问这些完整的编辑器功能。 作为IMS组织的个人成员，您需要在Adobe Express实例中分配许可证。 否则，您的Adobe Express访问权限将被限制为Journey Optimizer B2B edition中针对Adobe Express[&#128279;](#quick-actions-in-adobe-express)的快速操作。
+>必须在同一IMS组织下购买您的Adobe Express Enterprise许可证，才能从Journey Optimizer B2B edition访问这些完整的编辑器功能。 作为IMS组织的个人成员，您需要在Adobe Express实例中分配许可证。 否则，您的Adobe Express访问权限将被限制为Journey Optimizer B2B edition中针对Adobe Express](#quick-actions-in-adobe-express)的[快速操作。
 
 ![在Adobe Express Enterprise编辑器中打开图像](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-[Adobe Express用户指南](https://helpx.adobe.com/cn/express/web.html){target="_blank"}提供了有关可用编辑功能的详细信息。
+[Adobe Express用户指南](https://helpx.adobe.com/express/web.html){target="_blank"}提供了有关可用编辑功能的详细信息。
 
 ## Adobe Express中的快速操作
 
@@ -81,7 +81,7 @@ ht-degree: 3%
    * [**[!UICONTROL 调整图像大小]**](#resize-image)
    * [**[!UICONTROL 删除背景]**](#remove-background)
    * [**[!UICONTROL 裁切图像]**](#crop-image)
-   * [**[!UICONTROL 转换为PNG]**](#convert-file-format)(加载JPEG图像时)
+   * [**[!UICONTROL 转换为PNG]**](#convert-file-format)（加载JPEG图像时）
    * [**[!UICONTROL 转换为JPEG]**](#convert-file-format)（加载PNG图像时）
 
    ![选择编辑类型以修改图像](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"}

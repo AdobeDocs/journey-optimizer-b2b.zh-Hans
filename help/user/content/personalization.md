@@ -39,11 +39,11 @@ ht-degree: 6%
 
 * **系统令牌** — 这些令牌基于系统字段值，如&#x200B;_date_、_time_&#x200B;和&#x200B;_取消订阅链接_。
 
-* **我的令牌**（为历程定义时） — 为电子邮件所在的历程[&#128279;](./personalization-my-tokens.md)定义的自定义令牌。
+* **我的令牌**（为历程定义时） — 为电子邮件所在的历程](./personalization-my-tokens.md)定义的[自定义令牌。
 
 >[!NOTE]
 >
->在[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home){target="_blank"}中了解有关XDM架构的更多信息。
+>在[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中了解有关XDM架构的更多信息。
 
 ## Personalization编辑器
 

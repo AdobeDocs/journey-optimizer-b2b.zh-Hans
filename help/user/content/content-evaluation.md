@@ -9,13 +9,13 @@ exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
 source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 8%
+ht-degree: 15%
 
 ---
 
 # 内容评估和评分 {#content-scoring}
 
-内容评估和评分可帮助您创建、审查和管理符合选定品牌[&#128279;](./brands-manage-create.md#brand-definitions)中定义的准则和一般质量标准的内容。 运行评估确保电子邮件促销活动在语气、消息传递和视觉身份方面保持一致，同时在内容上线之前充当质量检查。
+内容评估和评分可帮助您创建、审查和管理符合选定品牌](./brands-manage-create.md#brand-definitions)中定义的准则[和一般质量标准的内容。 运行评估确保电子邮件促销活动在语气、消息传递和视觉身份方面保持一致，同时在内容上线之前充当质量检查。
 
 >[!AVAILABILITY]
 >
@@ -51,7 +51,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="品牌一致性得分"
->abstract="您的品牌协调得分衡量您的内容遵守品牌准则的程度，以确保颜色、字体、徽标、图像和书写风格的一致性。"
+>abstract="您的品牌一致性得分衡量了您的内容对品牌指南的遵循程度，以确保颜色、字体、徽标、图像和写作风格的一致性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors_score"
@@ -100,7 +100,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_quality_score_overview"
 >title="内容质量"
->abstract="评估总体内容质量，以确定可读性、内容一致性和有效性方面的潜在问题。 质量评估与您的品牌指南无关。"
+>abstract="评估总体内容质量，以发现可读性、内容一致性和有效性方面的潜在问题。 质量评估与您的品牌指南无关。"
 
 >[!NOTE]
 >

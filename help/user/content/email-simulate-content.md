@@ -7,7 +7,7 @@ role: User
 exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '577'
 ht-degree: 7%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 7%
 
 1. 在&#x200B;_发送验证_&#x200B;页面中，输入第一个收件人的电子邮件地址。
 
-1. 对于要包含在审核中的其他每个收件人，请单击“添加收件人”**&#x200B;**，然后在“发送至”**[!UICONTROL 字段中输入其电子邮件地址]**。
+1. 对于要包含在审核中的其他每个收件人，请单击“添加收件人”****，然后在“发送至”**[!UICONTROL 字段中输入其电子邮件地址]**。
 
    您最多可以为校样投放添加十个收件人。
 
