@@ -5,12 +5,18 @@ feature: AI Assistant
 role: User, Admin
 level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2:
+  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
@@ -21,7 +27,7 @@ ht-degree: 8%
 
 # Journey Optimizer B2B edition中的AI助手
 
-Journey Optimizer B2B edition中的AI助手是基于Adobe Experience Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target="_blank"}中的[AI助手所基于的相同技术创建的。 它是一种对话式体验，可用于加快Adobe Journey Optimizer B2B edition中的工作流程。 您可以使用AI Assistant进一步了解产品功能、排除问题或搜索信息并查找Journey Optimizer B2B edition的操作见解。
+Journey Optimizer B2B edition中的AI助手是基于Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target="_blank"}中的AI助手所基于的相同技术创建的。 它是一种对话式体验，可用于加快Adobe Journey Optimizer B2B edition中的工作流程。 您可以使用AI Assistant进一步了解产品功能、排除问题或搜索信息并查找Journey Optimizer B2B edition的操作见解。
 
 >[!IMPORTANT]
 >
@@ -37,7 +43,7 @@ Journey Optimizer B2B edition中的AI助手是基于Adobe Experience Platform](h
 
 ## Journey Optimizer B2B edition中的AI助手功能
 
-为了制定对您提交问题的响应，AI Assistant查询数据库并将数据库中的数据转换为人类可读的答案。 此响应是基础数据的内部表示形式，也称为&#x200B;_**_知识图_**_ — 给定答案的概念、数据和元数据的综合网络。 知识图由每次提交查询时引用的子图组成：
+为了制定对您提交问题的响应，AI Assistant查询数据库并将数据库中的数据转换为人类可读的答案。 此响应是基础数据的内部表示形式，也称为&#x200B;_&#x200B;**_知识图_**&#x200B;_ — 给定答案的概念、数据和元数据的综合网络。 知识图由每次提交查询时引用的子图组成：
 
 * Experience League文档。
 * 操作构件，例如架构、字段、受众和历程。

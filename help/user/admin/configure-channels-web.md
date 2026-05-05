@@ -5,11 +5,18 @@ feature: Setup, Channels
 role: Admin
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2: id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e9001ce2-5245-4a8e-8601-dd958009072fid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: '2026-03-27T23:15:46.632Z'
 source-git-commit: 1e7ba951f8cf4d8583a93badc78add4eba503ca6
 workflow-type: tm+mt
@@ -57,7 +64,7 @@ Journey Optimizer B2B edition中的Web渠道配置需要以下[权限](../admin/
 
      ![为单页Web渠道配置选择页面URL](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL 页面匹配规则]** — 若要定位多个匹配同一规则的URL，请构建一个匹配规则](#build-a-pages-matching-rule)的[页面，并输入&#x200B;**[!UICONTROL 默认创作和预览URL]**。
+   * **[!UICONTROL 页面匹配规则]** — 若要定位多个匹配同一规则的URL，请构建一个匹配规则[&#128279;](#build-a-pages-matching-rule)的页面，并输入&#x200B;**[!UICONTROL 默认创作和预览URL]**。
 
 1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以保存更改。
 
@@ -67,7 +74,7 @@ Journey Optimizer B2B edition中的Web渠道配置需要以下[权限](../admin/
 
 ## 页面匹配规则 {#pages-matching-rule}
 
-创建Web配置时，您可以生成与规则&#x200B;]_匹配的_[!UICONTROL &#x200B;页面，以定位多个与同一规则匹配的URL。 这些规则允许您在多个页面中应用相同的内容更改。
+创建Web配置时，您可以生成与规则&#x200B;_匹配的_&#x200B;页面，以定位多个与同一规则匹配的URL。 这些规则允许您在多个页面中应用相同的内容更改。
 
 例如，您可能希望将更改应用于整个网站的主页横幅，或添加在所有产品页面上显示的顶部图像。
 
@@ -110,7 +117,7 @@ Journey Optimizer B2B edition中的Web渠道配置需要以下[权限](../admin/
 
    ![定义与Web渠道配置匹配的页面规则](./assets/config-web-channel-pages-matching-rules.png){width="600" zoomable="yes"}
 
-1. 如果您的用例需要多个规则，请单击“添加其他页面规则”****&#x200B;并重复上一步。
+1. 如果您的用例需要多个规则，请单击“添加其他页面规则”**&#x200B;**&#x200B;并重复上一步。
 
    * 您最多可以定义10个规则。
 

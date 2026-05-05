@@ -5,12 +5,20 @@ feature: Audiences
 role: User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: 8d4785cd-87f0-4548-9aba-fa18165b0f45
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-subfeature_v2: id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: ff2b9b37-92e0-45fc-b853-379d44c08c89id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+subfeature_v2:
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-03-30T23:13:05.616Z'
 source-git-commit: 78593516165b04654ea0894ab619cac7d120e11f
 workflow-type: tm+mt
@@ -27,7 +35,7 @@ _人员受众_&#x200B;节点指定哪些人员配置文件进入历程。 当您
 
 * **个人资料受众** — 使用CDP中定义的区段受众。 所有符合受众资格的用户档案都将作为成员添加到历程。 在每天[用户档案摄取](#profile-ingestion)任务期间，区段的新资格用户档案会添加到历程中。 如果配置文件不再符合该区段的条件，则它&#x200B;**_不_**&#x200B;从历程中删除。
 
-* **事件受众** — 使用符合条件的事件来定义受众。 这些事件是在节点配置中定义的，必须使用在管理设置](../admin/configure-aep-events.md)中配置的[XDM事件。 基于事件的受众成员资格支持最多10个事件。 用户档案在其用户档案接受的第一个匹配事件之后，立即符合历程的条件。
+* **事件受众** — 使用符合条件的事件来定义受众。 这些事件是在节点配置中定义的，必须使用在管理设置[&#128279;](../admin/configure-aep-events.md)中配置的XDM事件。 基于事件的受众成员资格支持最多10个事件。 用户档案在其用户档案接受的第一个匹配事件之后，立即符合历程的条件。
 
   >[!NOTE]
   >
