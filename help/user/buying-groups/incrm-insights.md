@@ -3,13 +3,19 @@ title: In-CRM Insights
 description: 直接在CRM中访问Journey Optimizer B2B edition购买群组。 销售团队成员可以使用In-CRM Insights查看参与数据并识别销售机会。
 feature: Sales Insights, Buying Groups
 role: User
-source-git-commit: 2eb5b6226730a1948b480a9dee0c6f2786e01cc5
+exl-id: c55a1fce-2ddc-481b-9f60-5e67a4bf9633
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: fc1ff3b2-6614-41ad-a113-de48597598fdid: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+subfeature_v2: id: fe583b80-65a2-48c2-b4e1-9ea8fbac0a8a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-03-30T21:40:22.011Z'
+source-git-commit: ff337a5f215daee1ea6dbe8d6b643087ac3324e2
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 0%
+source-wordcount: 483
+ht-degree: 1%
 
 ---
-
 
 # In-CRM Insights
 
@@ -31,8 +37,8 @@ ht-degree: 0%
 
 如果要将用户限制为仅[!DNL In-CRM Insights]：
 
-1. 创建一个[自定义角色](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role)并为其分配&#x200B;**销售分析：查看销售分析**&#x200B;权限。
-1. 创建新的[用户组](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group)。
+1. 创建一个[自定义角色](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role)并为其分配&#x200B;**销售分析：查看销售分析**&#x200B;权限。
+1. 创建新的[用户组](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group)。
 1. 将Experience Platform产品配置文件添加到组。
 
 ### 安装包
@@ -71,4 +77,4 @@ ht-degree: 0%
 
 按照提示登录Adobe帐户。 您的购买组已加载并可供查看。
 
-选择购买组后，您可以浏览[组详细信息](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#)。 这与Journey Optimizer B2B edition中显示的数据和分析相同，但数据通过[!DNL In-CRM Insights]是只读的。
+选择购买组后，您可以浏览[组详细信息](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#)。 这与Journey Optimizer B2B edition中显示的数据和分析相同，但数据通过[!DNL In-CRM Insights]是只读的。

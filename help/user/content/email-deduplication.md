@@ -6,9 +6,16 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、重复数据删除、历程、复制
-source-git-commit: 89dcfae6293fc2bd1eefb58943bee354c57bc73a
+exl-id: 93107acd-1cb2-4316-acfc-e32ab1e065ae
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+autotag-review: '2026-03-30T22:08:16.582Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: 343
 ht-degree: 1%
 
 ---
@@ -35,7 +42,7 @@ ht-degree: 1%
 
 1. 打开帐户历程。
 
-1. 单击历程工作区右上角的&#x200B;**[!UICONTROL 更多]** (**...**)。
+1. 单击&#x200B;**[!UICONTROL 更多]** (**...**) 位于历程工作区的右上角。
 
    ![扩展了“更多”菜单的历程工作区，其中显示了“电子邮件重复数据删除”选项](./assets/email-deduplication-more-menu.png){width="450"}
 

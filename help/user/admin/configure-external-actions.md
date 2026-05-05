@@ -3,9 +3,15 @@ title: 外部操作配置
 description: 了解开发人员、管理员和营销人员如何协作来实施、配置和使用外部操作，以便将Journey Optimizer B2B edition与帐户历程中的外部服务相关联。
 feature: Setup, Integrations
 role: Admin, Developer
-source-git-commit: 6d3967babc1bc868fde0c76ac9068e63156070cd
+exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: 907
 ht-degree: 1%
 
 ---
@@ -39,7 +45,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->回调函数需要持有者令牌。 通过在Adobe Developer Console[&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)中为您的IMS组织设置OAuth服务器到服务器凭据来检索此项。
+>回调函数需要持有者令牌。 通过在Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)中为您的IMS组织设置[OAuth服务器到服务器凭据来检索此项。
 
 服务启动后，将指向OpenAPI规范的URL和身份验证凭据提供给负责配置该操作的产品管理员。
 

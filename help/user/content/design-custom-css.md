@@ -4,9 +4,16 @@ description: 向电子邮件和登陆页添加自定义CSS，以便实现Journey
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
 exl-id: 5a961190-8a65-41b0-90d0-5dd44e5cdf8a
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+autotag-review: '2026-03-30T22:36:27.982Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: 563
 ht-degree: 0%
 
 ---
@@ -15,7 +22,7 @@ ht-degree: 0%
 
 您可以直接在电子邮件或登陆页面设计空间中添加自己的自定义CSS。 使用自定义CSS可应用高级和特定的样式，以便更加灵活地控制内容的外观。
 
-使用`<head>`属性将自定义CSS附加到`<style>`标记中的`data-name="global-custom"`部分。 此结构可确保将自定义样式全局应用于内容。
+使用`data-name="global-custom"`属性将自定义CSS附加到`<style>`标记中的`<head>`部分。 此结构可确保将自定义样式全局应用于内容。
 
 +++ 实施示例
 
@@ -200,7 +207,7 @@ body {
 
 * 检查您的CSS是否有效并且没有语法错误（例如缺少大括号、属性名称不正确）。
 
-* 检查您的CSS是否已添加到具有`<style>`属性的`data-name="global-custom"`标记中。
+* 检查您的CSS是否已添加到具有`data-name="global-custom"`属性的`<style>`标记中。
 
 * 检查`global-custom`样式标记是否已将属性`data-disabled`设置为true，例如：
 

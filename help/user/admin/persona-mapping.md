@@ -4,9 +4,15 @@ description: 了解如何为B2B营销设置角色映射。 在Journey Optimizer 
 feature: Setup, Buying Groups
 role: Admin
 exl-id: cb3a57fa-6fe0-4876-87f3-da440f1c6239
-source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2bid: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+subfeature_v2: id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+autotag-review: '2026-03-27T22:59:15.291Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: 914
 ht-degree: 2%
 
 ---
@@ -32,7 +38,7 @@ Then based on what agent informed, users can create a template with those person
 
 许多营销和销售团队使用职称作为识别帐户中不同角色的一种方式。 但联系人的标题可能会不一致，并且会为类似角色使用大量变体。 在构建购买组角色模板时，可能会要求您为给定角色定义每个可能的相关职务。 您可以简化这些定义，并将具有类似职称的人员归入一个推断的角色下，然后您可以跨不同的角色模板利用这一角色来购买组。
 
-例如，您可以配置名为&#x200B;_产品管理_&#x200B;的角色，并使用&#x200B;_产品经理_、_高级产品经理_、_高级产品经理_、_PM_、_高级产品经理_、_主体PM_&#x200B;和&#x200B;_主体产品经理_&#x200B;的值的工作标题属性来定义它。 然后，在&#x200B;_角色为产品管理_&#x200B;的条件匹配的“角色”模板中使用此角色。 使用配置的角色简化了创建每个角色模板的过程，并且不需要与每个可能的工作标题匹配的复杂条件。
+例如，您可以配置名为&#x200B;_产品管理_&#x200B;的角色，并使用&#x200B;_产品经理_、_Sr的值的工作标题属性来定义它。产品经理_，_高级产品经理_，_下午_，_高级。PM_、_主体PM_&#x200B;和&#x200B;_主要产品经理_。 然后，在&#x200B;_角色为产品管理_&#x200B;的条件匹配的“角色”模板中使用此角色。 使用配置的角色简化了创建每个角色模板的过程，并且不需要与每个可能的工作标题匹配的复杂条件。
 
 >[!ENDSHADEBOX]
 

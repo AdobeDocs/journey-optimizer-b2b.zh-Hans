@@ -1,12 +1,19 @@
 ---
 title: 电子邮件模板
-description: 从头开始创建、HTML导入或现有设计创建可重复使用的电子邮件模板 — 在Journey Optimizer B2B Edition中管理帐户历程的模板。
+description: 从头开始创建、HTML导入或现有设计创建可重复使用的电子邮件模板 — 在Journey Optimizer B2B edition中管理帐户历程的模板。
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+autotag-review: '2026-03-30T22:17:40.055Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: 1538
 ht-degree: 0%
 
 ---
@@ -83,7 +90,7 @@ ht-degree: 0%
 
 ### 导入HTML
 
-通过Adobe Journey Optimizer B2B Edition，您可以导入现有HTML内容以设计电子邮件模板。
+Adobe Journey Optimizer B2B edition允许您导入现有HTML内容以设计电子邮件模板。
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -121,7 +128,7 @@ ht-degree: 0%
 
 ![单击“使用者”选项卡以检查模板使用情况](./assets/template-details-used-by.png){width="400"}
 
-Journey Optimizer B2B Edition中的电子邮件在历程中嵌入和创作，因此使用模板的电子邮件的父历程显示在引用中。
+Journey Optimizer B2B edition中的电子邮件在历程中嵌入和创作，因此使用模板的电子邮件的父历程显示在引用中。
 
 * 单击链接将会转到相应的历程电子邮件，其中使用电子邮件模板。
 

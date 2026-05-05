@@ -4,9 +4,14 @@ description: 访问 Journey Optimizer B2B Edition 并导航个性化主页——
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ce
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-03-27T22:19:43.813Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: 421
 ht-degree: 93%
 
 ---
@@ -28,7 +33,7 @@ ht-degree: 93%
 
 ![Journey Optimizer B2B Edition 主页](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B Edition 有两个主要的用户画像：_&#x200B;**营销人员**&#x200B;_&#x200B;和&#x200B;_&#x200B;**管理员**&#x200B;_。 每个用户画像都有针对不同成熟度阶段（新用户或高级用户）的特定主页。 页面内容基于每个用户画像所需的信息以及接下来要执行的操作。
+Journey Optimizer B2B Edition 有两个主要的用户画像：_**营销人员**_&#x200B;和&#x200B;_**管理员**_。 每个用户画像都有针对不同成熟度阶段（新用户或高级用户）的特定主页。 页面内容基于每个用户画像所需的信息以及接下来要执行的操作。
 
 * **营销人员 - 新用户**——针对新用户的&#x200B;_营销人员_&#x200B;主页可帮助他们熟悉 Journey Optimizer B2B 及其功能。 它包括为新营销人员在新加入时进行指导性讲解，以便他们能够了解系统的细微差别，并有效地制定 B2B 营销策略和计划。
 * **营销人员 - 高级用户**——针对高级营销人员的&#x200B;_营销人员_&#x200B;主页显示当前计划进度、建议的后续操作，并提供相关部分的快速访问。

@@ -4,9 +4,14 @@ description: 将Experience Manager Assets存储库连接到Journey Optimizer B2B
 feature: Assets, Integrations
 role: Admin
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: a722a5ba7a0e70329032e2768c5fbaf63537a2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: d09181b5-a36a-43de-ba01-36641440bc43
+feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: da3860b0-d637-47df-bef0-273751180266id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+autotag-review: '2026-03-27T23:16:47.648Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: 750
 ht-degree: 1%
 
 ---
@@ -15,13 +20,13 @@ ht-degree: 1%
 
 [!DNL Adobe Journey Optimizer B2B Edition]与[!DNL Adobe Experience Manager Assets as a Cloud Service]集成，允许在您的电子邮件内容中使用资产。 它通过与[!DNL Experience Manager Assets]交换信息确保透明度。 配置与[!DNL Adobe Experience Assets]的连接以启用此功能。
 
-Adobe Experience Manager Cloud Manager分为多个项目，每个项目都有多个环境和存储库（[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}）。 在Adobe Journey Optimizer B2B edition中配置Adobe Experience Manager Assets时，您需要设置与要用于访问数字资源的每个存储库的连接。
+Adobe Experience Manager Cloud Manager分为多个项目，每个项目都有多个环境和存储库（[了解详情](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}）。 在Adobe Journey Optimizer B2B edition中配置Adobe Experience Manager Assets时，您需要设置与要用于访问数字资源的每个存储库的连接。
 
 {{aem-assets-licensing-note}}
 
 ## 先决条件
 
-* 在AEM Headless Developer Console上为所需的环境生成服务凭据（[了解更多](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}）。
+* 在AEM Headless Developer Console上为所需的环境生成服务凭据（[了解更多](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}）。
 * 获取连接所需的证书。 作为最佳实践，请确保证书在过期前至少还有六个月。 证书每365天过期一次。
 * Adobe Journey Optimizer B2B edition支持一次访问一个数字资产管理源。 切换之前，请确保所需的资源在Adobe Experience Manager中可用。
 

@@ -4,9 +4,16 @@ description: 浏览、管理和使用Journey Optimizer B2B edition资源 — 组
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: c8402946-ff35-44c5-ab98-74c1bba0975f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266
+autotag-review: '2026-03-30T22:14:12.746Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: 1765
 ht-degree: 1%
 
 ---
@@ -50,7 +57,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->无法删除任何电子邮件、电子邮件模板或片段&#x200B;_中当前_&#x200B;正在使用&#x200B;**的任何资产**。
+>无法删除任何电子邮件、电子邮件模板或片段&#x200B;**中当前&#x200B;_正在使用_的任何资产**。
 
 面板按类别显示引用： _电子邮件_、_电子邮件模板_&#x200B;或&#x200B;_片段_。 Journey Optimizer B2B edition中的电子邮件是在历程中嵌入和创作的，因此，使用资源的电子邮件的父历程会显示在引用中。
 
@@ -90,7 +97,7 @@ ht-degree: 1%
 
   ![访问资产的操作](./assets/assets-details-more-menu.png){width="450" zoomable="yes"}
 
-* 在&#x200B;_[!UICONTROL Assets]_&#x200B;列表页面上，单击资源项旁边的&#x200B;_更多_&#x200B;图标(**[!UICONTROL ...]**)，然后从选项中选择&#x200B;**[!UICONTROL 删除]**。
+* 在&#x200B;_[!UICONTROL Assets]_&#x200B;列表页面上，单击&#x200B;_更多_&#x200B;图标(**[!UICONTROL ...]**) 在资产项旁边，从选项中选择&#x200B;**[!UICONTROL 删除]**。
 
   ![访问资产的操作](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
 
@@ -104,7 +111,7 @@ ht-degree: 1%
 
 * 转到资源详细信息，单击&#x200B;**[!UICONTROL ...右上角的More]**，然后从选项中选择&#x200B;**[!UICONTROL 替换]**。
 
-* 在&#x200B;_[!UICONTROL Assets]_&#x200B;列表页面上，单击资源项旁边的&#x200B;_更多_&#x200B;图标(**[!UICONTROL ...]**)，然后从选项中选择&#x200B;**[!UICONTROL 替换]**。
+* 在&#x200B;_[!UICONTROL Assets]_&#x200B;列表页面上，单击&#x200B;_更多_&#x200B;图标(**[!UICONTROL ...]**) 在资产项旁边，从选项中选择&#x200B;**[!UICONTROL 替换]**。
 
 在&#x200B;_[!UICONTROL 替换资产]_&#x200B;对话框中，将替换文件从您的系统拖放到文件框中。 您还可以单击&#x200B;_[!UICONTROL 从计算机中选择文件]_&#x200B;链接以使用本地文件系统选择文件。 （如果在本地系统中选择多个文件，则使用所选的第一个文件来替换。）
 
@@ -120,13 +127,13 @@ ht-degree: 1%
 
 * 转到资源详细信息，然后单击右上方的&#x200B;**[!UICONTROL 下载]**。
 
-* 在&#x200B;_[!UICONTROL Assets]_&#x200B;列表页面上，单击资源项旁边的&#x200B;_省略号_ (**[!UICONTROL ...]**)，然后从选项中选择&#x200B;**[!UICONTROL 下载]**。
+* 在&#x200B;_[!UICONTROL Assets]_&#x200B;列表页面上，单击&#x200B;_省略号_ (**[!UICONTROL ...]**) 在资产项目旁边，从选项中选择&#x200B;**[!UICONTROL 下载]**。
 
 在确认对话框中，单击&#x200B;**[!UICONTROL 下载]**&#x200B;以开始将资源下载到本地系统。 单击&#x200B;**[!UICONTROL 取消]**&#x200B;可中止该进程。
 
 ## 对所选资源应用批量操作
 
-在列表页面(_[!UICONTROL 内容管理]_ > _[!UICONTROL Assets]_)中，通过选中左侧的每个复选框一次选择多个资源。 选择多个资产时，底部会显示一条消息横幅。
+在列表页面（_[!UICONTROL 内容管理]_ > _[!UICONTROL Assets]_）中，通过选中左侧的每个复选框一次选择多个资源。 选择多个资产时，底部会显示一条消息横幅。
 
 ![选定的资源](./assets/assets-list-selected.png){width="700" zoomable="yes"}
 
@@ -174,7 +181,7 @@ ht-degree: 1%
 
 ## 应用文件夹级别的操作
 
-您可以将操作应用到文件夹或文件夹中的资源。 单击文件夹旁边的&#x200B;_更多_&#x200B;图标(**...**)以显示您可以对其应用的操作。
+您可以将操作应用到文件夹或文件夹中的资源。 单击&#x200B;_更多_&#x200B;图标(**...**) ，其中显示了可应用于该文件夹的操作。
 
 ![将操作应用到文件夹或文件夹中的资源](./assets/assets-folder-menu-options.png){width="700" zoomable="yes"}
 
@@ -254,7 +261,7 @@ ht-degree: 1%
 
 通过可视内容编辑器，可在您团队的电子邮件、电子邮件模板或可视片段创作中使用Assets。
 
-从可视化设计空间中选择左侧边栏上的&#x200B;_Assets_&#x200B;图标(![Assets图标](../../assets/do-not-localize/icon-assets-me.svg))。
+从可视化设计空间中选择左侧边栏上的&#x200B;_Assets_&#x200B;图标（![Assets图标](../../assets/do-not-localize/icon-assets-me.svg)）。
 
 此操作更改显示可用资源列表的工具面板。 有多种方法可以将图像资产添加到可视画布：
 

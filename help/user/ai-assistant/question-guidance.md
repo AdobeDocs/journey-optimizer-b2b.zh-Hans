@@ -5,9 +5,15 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
-source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: 895
 ht-degree: 1%
 
 ---
@@ -25,7 +31,7 @@ ht-degree: 1%
 | 学习概念和持续工作流 | 作为新手，您可以使用AI Assistant学习Real-Time CDP和Adobe Journey Optimizer B2B edition概念，并熟悉不熟悉的产品和功能。 <br>作为经验丰富的用户，您可以使用AI Assistant解决可能阻止您工作流的边缘案例。 | <li>告诉我Real-Time CDP的一些用例。 <li>向我解释购买组的概念。 |
 | 故障排除 | 使用AI Assistant了解如何调试工作流中可能遇到的基本错误。 | <li>此错误&lt;ERROR_MESSAGE>表示什么？ <li>为何无法删除名为“……”的受众？ |
 | 沙盒卫生 | 使用AI Assistant识别任何重复或未使用的对象，以便您能够有效地维护沙盒。 | <li>能否向我显示类似的帐户受众？ <li>是否有任何没有关联数据集的架构？ |
-| 价值分析 | 使用AI Assistant识别您最常用的数据对象，评估任何绩效指标或找到最有价值的数据对象。 | <li>我们的“……”区段定义中有多少帐户？ <li>何时将受众激活到Experience Cloud受众目标？ |
+| 价值分析 | 使用AI Assistant识别您最常用的数据对象，评估任何绩效指标或找到最有价值的数据对象。 | <li>我们的“……”中有多少帐户 区段定义？ <li>何时将受众激活到Experience Cloud受众目标？ |
 | 搜索 | 使用AI Assistant查找受支持的Experience Platform和Adobe Journey Optimizer B2B edition对象，如帐户受众、数据集、目标、架构、源、帐户历程、购买组模板和解决方案兴趣 | <li>在帐户历程中使用的名称中列出包含“Luma”的受众。 <li>“Luma：自定义操作”XDM架构中有哪些属性？ |
 | 影响分析 | 使用AI Assistant识别某些工作流中使用的数据对象，以便您能够评估任何更改的影响。 | <li>哪些帐户受众在“B2B人员”架构中使用`workEmail.address`？ <li>`jobTitle`存储在哪些数据集中？ |
 

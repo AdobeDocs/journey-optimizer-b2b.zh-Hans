@@ -3,9 +3,15 @@ title: WhatsApp创作
 description: 在Journey Optimizer B2B edition中使用已获批准的Meta模板、个性化令牌和投放设置，为帐户历程创建WhatsApp消息。
 feature: Content, Channels, Account Journeys
 role: User
-source-git-commit: a9077a4fb5c90166433204d7a0a124f4f2e5ab92
+exl-id: 36c7e377-1f51-4d68-9e00-c6ce994e9909
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f01b5556-e951-40ba-8625-2e3001864f2bid: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: 813
 ht-degree: 1%
 
 ---
@@ -49,9 +55,9 @@ WhatsApp支持以下消息类型：
 
 当您[添加&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点](../journeys/action-nodes.md)并执行以下操作时，可以在帐户历程中设置WhatsApp消息投放：
 
-1. 对于&#x200B;_目标上的_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
+1. 对于&#x200B;]_目标上的_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
 
-1. 若要对人员&#x200B;_执行_&#x200B;操作，请选择&#x200B;**[!UICONTROL 发送WhatsApp]**。
+1. 若要对人员&#x200B;]_执行_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 发送WhatsApp]**。
 
    ![执行操作 — 发送WhatsApp](./assets/whatsapp-journey-node.png){width="500" zoomable="yes"}
 

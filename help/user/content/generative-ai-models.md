@@ -5,9 +5,15 @@ topic: Artificial Intelligence
 feature: Generative AI, Brand Identity, Content
 role: User
 level: Beginner, Intermediate
-source-git-commit: 0612c3caa0673a7eb65a0aac0010edcf12c5d553
+exl-id: 9f69320e-8603-4343-80e0-052d820ba61f
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: 497
 ht-degree: 0%
 
 ---
@@ -20,7 +26,7 @@ ht-degree: 0%
 - 由Gemini 2.5 Flash支持的&#x200B;**[!UICONTROL 合作伙伴模型]**&#x200B;提供了针对特定用例的专门功能。
 - **[!UICONTROL 自定义模型]**&#x200B;是在您自己的资产上训练并由您的组织添加的特定于品牌的模型。
 
-请参阅[Adobe Firefly文档](https://helpx.adobe.com/cn/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}以了解自定义模型。
+请参阅[Adobe Firefly文档](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}以了解自定义模型。
 
 在为电子邮件或登陆页面内容生成图像时，营销人员可以选择任何启用的创成模型。
 
@@ -70,7 +76,7 @@ ht-degree: 0%
 
 1. 输入&#x200B;**[!UICONTROL 模型ID]**。
 
-   要查找模型ID，请访问Firefly网站并导航到经过训练的模型。 发布模型后，可在模型的“管理”部分中找到唯一标识符。 有关详细信息，请参阅[Firefly自定义模型文档](https://helpx.adobe.com/cn/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}。
+   要查找模型ID，请访问Firefly网站并导航到经过训练的模型。 发布模型后，可在模型的“管理”部分中找到唯一标识符。 有关详细信息，请参阅[Firefly自定义模型文档](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}。
 
 1. 或者，输入&#x200B;**[!UICONTROL 描述]**&#x200B;以帮助识别模型及其预期用途。
 
