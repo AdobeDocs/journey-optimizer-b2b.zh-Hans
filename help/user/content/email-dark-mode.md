@@ -24,7 +24,7 @@ autotag-review: '2026-03-30T22:06:55.168Z'
 source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
 source-wordcount: 1606
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode"
 >title="切换到深色模式"
->abstract="切换到深色模式以预览其渲染效果，并可定义特定的自定义设置。 <br>最终的渲染效果取决于收件人的电子邮件客户端。 请注意，所有电子邮件客户端均不支持自定义深色模式。"
+>abstract="切换到深色模式以预览其渲染效果，并可定义特定的自定义设置。 <br>最终的渲染效果取决于收件人的电子邮件客户端。 请注意，并非所有电子邮件客户端都支持自定义深色模式。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_preview"
