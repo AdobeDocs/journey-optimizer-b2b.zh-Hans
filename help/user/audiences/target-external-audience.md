@@ -3,10 +3,27 @@ title: '[!DNL Adobe Target]外部受众'
 description: 通过帐户历程将外部受众激活到 [!DNL Adobe Target] 。 个性化B2B Web体验并保持跨平台一致性。
 feature: Integrations, Audiences, Account Journeys
 role: User, Admin
-source-git-commit: 598546c62cb2d567f19b26f7f760aa43e4dd0bc9
+exl-id: 8feb1dc2-2f1f-46bc-bffa-fafea956d84f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+autotag-review: '2026-03-30T19:48:50.374Z'
+source-git-commit: ff337a5f215daee1ea6dbe8d6b643087ac3324e2
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 1%
+source-wordcount: 720
+ht-degree: 2%
 
 ---
 
@@ -69,7 +86,7 @@ ht-degree: 1%
 
 ## 将外部受众激活到Target作为目标
 
-要将外部受众激活到Adobe Target，您需要在[!DNL Adobe Target]中将[!DNL Real-time Customer Data Platform (RTCDP)]配置为目标。 有关此配置的其他信息，请参阅[RTCDP文档](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/tutorials/destinations/target/configure-the-target-destination){target="_blank"}。
+要将外部受众激活到Adobe Target，您需要在[!DNL Real-time Customer Data Platform (RTCDP)]中将[!DNL Adobe Target]配置为目标。 有关此配置的其他信息，请参阅[RTCDP文档](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/tutorials/destinations/target/configure-the-target-destination){target="_blank"}。
 
 >[!IMPORTANT]
 >
@@ -107,4 +124,3 @@ ht-degree: 1%
    ![Experience Platform — 目标 — 激活目标 — 审核](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}
 
 激活后，您可以在[Adobe Target受众](https://experienceleague.adobe.com/zh-hans/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"}中看到该受众，并在Adobe Target活动中使用它们。
-

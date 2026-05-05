@@ -2,9 +2,14 @@
 title: Adobe Journey Optimizer B2B Edition 文档
 description: Journey Optimizer B2B Edition 的完整文档——浏览可用于加入、创建购买群组、生成帐户历程和管理内容的资源。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 865963d661c66391e6a234e5655174643003318e
+autotag-review: '2026-03-27T22:18:45.397Z'
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: 915
 ht-degree: 30%
 
 ---
@@ -85,7 +90,7 @@ ht-degree: 30%
 
 快速入门
 
-查看Journey Optimizer B2B Edition管理员和营销人员入门指南。
+查看Journey Optimizer B2B edition管理员和营销人员入门指南。
 
 [管理员](./setup-ultimate.md)
 [用户](./start/get-started.md)

@@ -5,16 +5,28 @@ feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
-source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+  - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: addf009e-030a-4310-8534-776a3e62ed48
+autotag-review: '2026-03-27T22:24:19.286Z'
+source-git-commit: 1e7ba951f8cf4d8583a93badc78add4eba503ca6
 workflow-type: tm+mt
-source-wordcount: '1428'
-ht-degree: 1%
+source-wordcount: 1470
+ht-degree: 2%
 
 ---
 
 # CRM 内访问详细信息页面
 
-Adobe Journey Optimizer B2B edition允许销售和客户团队成员直接从他们的客户关系管理(CRM)工具(如Salesforce或Microsoft Dynamics)访问有关帐户和购买群组信息的详细页面。 利用此集成，销售代表可以快速访问实时帐户和购买群组洞察，例如参与历史记录、意图信号和AI生成的推荐。 这一能力使销售团队能够更快地开展外联工作，更明智地确定优先顺序，更好地与营销部门保持一致。
+Adobe Journey Optimizer B2B edition允许销售和客户团队成员直接从他们的客户关系管理(CRM)工具（如Salesforce或Microsoft Dynamics）访问有关帐户和购买群组信息的详细页面。 利用此集成，销售代表可以快速访问实时帐户和购买群组洞察，例如参与历史记录、意图信号和AI生成的推荐。 这一能力使销售团队能够更快地开展外联工作，更明智地确定优先顺序，更好地与营销部门保持一致。
 
 要使销售和帐户团队成员能够从CRM中查看Journey Optimizer B2B edition中的[帐户详细信息](account-details.md)和[人员详细信息](person-details.md)页面，Salesforce或Dynamics管理员可以从帐户、联系人或潜在客户视图添加链接。
 
@@ -203,7 +215,7 @@ Dynamics中的![自定义链接](./assets/crm-linking-dynamics-account-examples.
 
    ![添加Web资源](./assets/crm-linking-dynamics-url-form-field-libraries.png){width="500" zoomable="yes"}
 
-1. 选择添加的资源后，单击&#x200B;**[!UICONTROL 事件处理程序]**&#x200B;下的&#x200B;_[!UICONTROL 添加]_。
+1. 选择添加的资源后，单击&#x200B;_[!UICONTROL 事件处理程序]_&#x200B;下的&#x200B;**[!UICONTROL 添加]**。
 1. 将`setViewInAjoB2b`函数添加到&#x200B;**[!UICONTROL 事件处理程序]**。
 1. 在&#x200B;_[!UICONTROL 事件处理程序]_&#x200B;列表中选择函数后，将&#x200B;**[!UICONTROL Control]**&#x200B;设置为`Form`，将&#x200B;**[!UICONTROL Event]**&#x200B;设置为`OnLoad`。
 
@@ -298,7 +310,7 @@ Dynamics中的![自定义链接](./assets/crm-linking-dynamics-account-examples.
 
    ![添加Web资源](./assets/crm-linking-dynamics-web-resources-add-form-property.png){width="500" zoomable="yes"}
 
-1. 选择添加的资源后，单击&#x200B;**[!UICONTROL 事件处理程序]**&#x200B;下的&#x200B;_[!UICONTROL 添加]_。
+1. 选择添加的资源后，单击&#x200B;_[!UICONTROL 事件处理程序]_&#x200B;下的&#x200B;**[!UICONTROL 添加]**。
 1. 将`getFormContext`函数添加到&#x200B;**[!UICONTROL 事件处理程序]**。
 1. 在&#x200B;_[!UICONTROL 事件处理程序]_&#x200B;列表中选择函数后，将&#x200B;**[!UICONTROL Control]**&#x200B;设置为`Form`，将&#x200B;**[!UICONTROL Event]**&#x200B;设置为`OnLoad`。
 

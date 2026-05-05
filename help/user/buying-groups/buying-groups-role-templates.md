@@ -1,12 +1,23 @@
 ---
 title: 购买组角色模板
-description: 创建具有条件自动分配的角色模板，以识别在Journey Optimizer B2B Edition中购买群组的决策者和利益相关者。
+description: 创建具有条件自动分配的角色模板，以识别在Journey Optimizer B2B edition中购买群组的决策者和利益相关者。
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+subfeature_v2:
+  - id: ac532e39-bc90-4c8f-b14c-5730180e1f68
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+autotag-review: '2026-03-30T21:37:51.618Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: 1410
 ht-degree: 5%
 
 ---
@@ -128,7 +139,7 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 >
 >**功能弃用**</br></br>
 >
->在当前Journey Optimizer B2B Edition版本中，不再支持在Marketo Engage实例中根据列表或项目成员资格进行筛选。
+>在当前Journey Optimizer B2B edition版本中，不再支持基于Marketo Engage实例中的列表或项目成员资格进行筛选。
 
 >[!ENDSHADEBOX]
 

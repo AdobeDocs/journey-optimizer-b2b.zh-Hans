@@ -4,16 +4,32 @@ description: 使用Experience Platform自动生成实用程序为Journey Optimiz
 feature: Setup, Data Management
 role: Admin
 exl-id: 40d01027-7cf2-4189-8a49-7a0783c00721
-source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+  - id: f7ea94b0-a6b4-43ef-bd93-f2c98c8f2072
+feature_v2:
+  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: 1004
 ht-degree: 96%
 
 ---
 
 # B2B命名空间和架构
 
-Journey Optimizer B2B Edition设置包括配置用于B2B源的Experience Platform命名空间和架构。 生成B2B命名空间和架构需要Postman自动化实用程序。
+Journey Optimizer B2B edition设置包括配置用于B2B源的Experience Platform命名空间和架构。 生成B2B命名空间和架构需要Postman自动化实用程序。
 
 >[!AVAILABILITY]
 >

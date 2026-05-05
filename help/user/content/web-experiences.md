@@ -4,10 +4,27 @@ description: 创建、设计和发布帐户历程的个性化Web体验 — 在Jo
 feature: Content, Channels
 role: User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
-source-git-commit: e3c00ab4657c7bf05573e049bbcb4bb3628e751e
+exl-id: d04079ce-da51-40d3-ab05-75c26584521f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+autotag-review: '2026-03-30T22:04:21.575Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '1497'
-ht-degree: 1%
+source-wordcount: 1551
+ht-degree: 3%
 
 ---
 
@@ -72,14 +89,14 @@ Adobe Journey Optimizer B2B edition中的Web渠道使您能够在您的网站上
 >由于以下原因之一，某些网站可能无法在Journey Optimizer B2B edition Web编辑器中可靠地打开：
 >
 >* 网站具有严格的安全策略。
->* 网站位于iframe中。
+>* 网站位于 iframe 中。
 >* 客户QA或暂存站点在外部不可用（该站点为内部站点）。
 
 ## 创建Web体验
 
 当您[添加&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点](../journeys/action-nodes.md)并执行以下操作时，可以在历程中设置Web体验：
 
-1. 对于&#x200B;_[!UICONTROL 目标上的]_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
+1. 对于&#x200B;_目标上的_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
 
 1. 若要对人员执行&#x200B;_[!UICONTROL 操作]_，请选择&#x200B;**[!UICONTROL 个性化Web体验]**。
 

@@ -5,20 +5,35 @@ feature: Email Authoring, Integrations
 level: Intermediate
 role: User
 exl-id: 26d87a56-6bd1-4d4a-8090-71f5b0a7e9f8
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+autotag-review: '2026-03-30T22:28:13.343Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 0%
+source-wordcount: 376
+ht-degree: 2%
 
 ---
 
-# 使用Litmus测试电子邮件渲染
+# 使用 Litmus 测试电子邮件渲染效果
 
 要测试电子邮件，您可以利用Journey Optimizer B2B edition中的[Litmus](https://www.litmus.com/email-testing){target="_blank"}企业帐户。 利用此集成，您可以预览电子邮件在常用电子邮件客户端中的渲染方式。 此工具可帮助您确保您的电子邮件内容在各种收件箱中都具有美观的显示效果并正常工作。
 
 >[!AVAILABILITY]
 >
->此集成仅适用于具有Litmus Enterprise帐户的Journey Optimizer B2B edition用户。 有关详细信息，请参阅Litmus网站[上的](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}解决方案页面。
+>此集成仅适用于具有Litmus Enterprise帐户的Journey Optimizer B2B edition用户。 有关详细信息，请参阅Litmus网站[&#128279;](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}上的解决方案页面。
 
 1. 当您的电子邮件设计完成并准备好进行测试时，请在电子邮件设计空间单击&#x200B;**[!UICONTROL 模拟内容]**。
 

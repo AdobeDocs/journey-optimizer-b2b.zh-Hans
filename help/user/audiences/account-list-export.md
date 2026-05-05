@@ -4,16 +4,25 @@ description: 将筛选的帐户列表导出为 CSV 文件，供 Journey Optimize
 feature: Audiences
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
-workflow-type: ht
-source-wordcount: '259'
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e935834c-48b7-43d8-b754-a815196a1b05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+autotag-review: '2026-03-30T19:51:33.392Z'
+source-git-commit: ff337a5f215daee1ea6dbe8d6b643087ac3324e2
+workflow-type: tm+mt
+source-wordcount: 261
 ht-degree: 100%
 
 ---
 
 # 导出帐户
 
-使用&#x200B;_导出帐户_&#x200B;功能可以根据您定义的筛选方式导出所有帐户或一组帐户。导出过程会生成一个 CSV 文件，并在脉冲通知中发送已保存文件的 URL。您可以在需要时使用此功能将帐户转移到第三方平台。
+使用&#x200B;_导出帐户_&#x200B;功能可以根据您定义的筛选方式导出所有帐户或一组帐户。 导出过程会生成一个 CSV 文件，并在脉冲通知中发送已保存文件的 URL。 您可以在需要时使用此功能将帐户转移到第三方平台。
 
 1. 在 Journey Optimizer B2B Edition 中，前往左侧导航栏中的&#x200B;**[!UICONTROL 帐户]** > **[!UICONTROL 购买群组]**。
 
@@ -27,7 +36,7 @@ ht-degree: 100%
 
    ![指定帐户受众筛选方式](./assets/export-accounts-dialog.png){width="400"}
 
-   对于&#x200B;**[!UICONTROL 参与度评分]**，运算符 `Between` 和百分比范围都已包含。例如，5.1 和 5 均在 5 和 6 _之间_。
+   对于&#x200B;**[!UICONTROL 参与度评分]**，运算符 `Between` 和百分比范围都已包含。 例如，5.1 和 5 均在 5 和 6 _之间_。
 
    空的筛选参数被视为 `Is Any`。
 
@@ -41,4 +50,4 @@ ht-degree: 100%
    >
    >如果您在 Adobe 用户帐户偏好设置中设置了电子邮件通知订阅，则可能发送电子邮件通知。
 
-   应用程序页面会重定向到&#x200B;_购买群组_&#x200B;浏览选项卡，系统保存文件对话框会提示您将文件保存到系统。如果您需要共享数据，可以使用团队的文件共享系统。
+   应用程序页面会重定向到&#x200B;_购买群组_&#x200B;浏览选项卡，系统保存文件对话框会提示您将文件保存到系统。 如果您需要共享数据，可以使用团队的文件共享系统。

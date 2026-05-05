@@ -5,9 +5,23 @@ feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2:
+  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+autotag-review: '2026-03-30T23:10:13.939Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '2744'
+source-wordcount: 2744
 ht-degree: 4%
 
 ---
@@ -144,7 +158,7 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 | [!UICONTROL 活动历史记录] > [!UICONTROL 电子邮件] | 电子邮件活动基于使用历程中早期的一个或多个选定电子邮件评估的条件： <li>[!UICONTROL 已单击电子邮件中的链接] <li>打开了电子邮件 <li>是已送达的电子邮件 <li>已发送电子邮件<br>**[!UICONTROL 切换到非活动筛选器&#x200B;]**— 使用此选项可根据缺少活动进行筛选（某人没有电子邮件活动）。 |
 | [!UICONTROL 活动历史记录] > [!UICONTROL 短信消息] | 短信活动基于使用历程中较早时间的一个或多个选定短信消息评估的条件： <li>[!UICONTROL 点击短信中的链接] <li>[!UICONTROL 短信已退回] <br>**[!UICONTROL 切换到非活动筛选器&#x200B;]**— 使用此选项可根据缺少活动进行筛选（某人没有短信活动）。 |
 | [!UICONTROL 活动历史记录] > [!UICONTROL 数据值已更改] | 对于选定的人员属性，发生值更改。 这些更改类型包括： <li>新值<li>上一个值<li>原因<li>源<li>活动日期<li>最低 <br>**[!UICONTROL 切换到非活动筛选器的次数&#x200B;]**— 使用此选项可根据缺少活动（人员没有数据值更改）进行筛选。 |
-| [!UICONTROL 活动历史记录] > [!UICONTROL 快乐时光] | 在关联的[!DNL Marketo Engage]实例中定义的有趣时刻活动。 限制包括： <li>里程碑<li>电子邮件<li>Web <br>**[!UICONTROL 切换到非活动筛选器&#x200B;]**— 使用此选项可基于缺少活动（人员没有快乐的时光）进行筛选。 |
+| [!UICONTROL 活动历史记录] > [!UICONTROL 快乐时光] | 在关联的[!DNL Marketo Engage]实例中定义的有趣时刻活动。 限制包括： <li>里程碑<li>电子邮件地址<li>Web <br>**[!UICONTROL 切换到非活动筛选器&#x200B;]**— 使用此选项可基于缺少活动（人员没有快乐的时光）进行筛选。 |
 | [!UICONTROL 活动历史记录] > [!UICONTROL 访问的网页] | 由关联的[!DNL Marketo Engage]实例管理的一个或多个网页的网页活动。 限制包括： <li>网页（必填）<li>活动日期<li>客户端 IP 地址 <li>Querystring <li>反向链接 <li>用户代理 <li>搜索引擎 <li>搜索查询 <li>个性化 URL <li>令牌 <li>浏览器 <li>平台 <li>设备 <li>最低 <br>**[!UICONTROL 切换到非活动筛选器的次数&#x200B;]**— 使用此选项可根据缺少活动（用户未访问网页）进行筛选。 |
 | [!UICONTROL 人员属性] | [个人资料](../admin/field-mapping.md#xdm-business-person-attributes)中的属性，包括： <li>城市 <li>国家 <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>名 <li>推断的州区域 <li>职务名称 <li>姓 <li>手机号码 <li>人员参与度分数 <li>电话号码 <li>邮政编码 <li>State |
 | [!UICONTROL 人员属性] >具有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}此人是否具有关系架构记录。 也可以根据[XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中配置的任何所选自定义对象条件对其进行评估。 （请参阅[自定义数据筛选](#custom-data-filtering)） |
@@ -262,7 +276,7 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 >
 >**功能弃用**</br></br>
 >
->在当前Journey Optimizer B2B Edition版本中，不支持根据Marketo Engage实例中的列表或项目成员资格进行筛选。
+>在当前Journey Optimizer B2B edition版本中，不支持基于Marketo Engage实例中的列表或项目成员资格进行筛选。
 
 >[!ENDSHADEBOX]
 

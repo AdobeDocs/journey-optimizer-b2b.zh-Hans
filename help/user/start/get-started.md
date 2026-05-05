@@ -1,13 +1,25 @@
 ---
 title: 管理员和营销人员入门指南
-description: 管理员和营销人员的入门指南——在 Journey Optimizer B2B Edition 中设置沙盒、配置渠道、创建购买群组并设计帐户历程。
+description: 营销人员入门指南 — 在Journey Optimizer B2B edition中创建购买组并设计帐户历程。
 role: User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: da3860b0-d637-47df-bef0-273751180266
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+autotag-review: '2026-03-30T23:05:00.531Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 100%
+source-wordcount: 386
+ht-degree: 95%
 
 ---
 

@@ -4,9 +4,24 @@ description: 配置电子邮件传递协议——设置 DNS、SPF、DKIM、DMARC
 feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806
-source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+autotag-review: '2026-03-30T23:06:01.153Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '2374'
+source-wordcount: 2374
 ht-degree: 89%
 
 ---
@@ -212,11 +227,11 @@ DMARC 有两种对齐方式：
 
 >[!BEGINSHADEBOX]
 
-**将专用IP迁移到Journey Optimizer B2B Edition**
+**将专用IP迁移到Journey Optimizer B2B edition**
 
 如果您有专用IP，则必须在与现有Journey Optimizer实例相同的区域创建新的Marketo Engage B2B edition实例。 如果新实例位于不同的区域，则无法共享现有IP。 如果区域匹配，请打开具有[Adobe支持](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support){target="_blank"}的票证，以请求将现有IP和绑定组与新实例共享。 提供您的Marketo Engage前缀(Munchkin ID)和新的Journey Optimizer B2B edition前缀(Munchkin ID)。
 
-通过此请求，Adobe会复制与现有Marketo Engage实例相同的IP、绑定组和配置的返回路径域。 在Marketo Engage实例和Journey Optimizer B2B Edition实例之间共享IP时，IP将同时使用。
+通过此请求，Adobe会复制与现有Marketo Engage实例相同的IP、绑定组和配置的返回路径域。 在Marketo Engage和Journey Optimizer B2B edition实例之间共享IP时，IP将同时使用。
 
 >[!ENDSHADEBOX]
 

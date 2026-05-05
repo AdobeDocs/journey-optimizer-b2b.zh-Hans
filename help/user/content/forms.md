@@ -5,10 +5,23 @@ feature: Forms, Content
 role: User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+autotag-review: '2026-03-30T22:51:56.324Z'
+source-git-commit: 78593516165b04654ea0894ab619cac7d120e11f
 workflow-type: tm+mt
-source-wordcount: '2357'
-ht-degree: 0%
+source-wordcount: 2374
+ht-degree: 1%
 
 ---
 
@@ -32,9 +45,9 @@ ht-degree: 0%
 
 | 状态 | 描述 |
 | -------------------- | ----------- |
-| 草稿 | 创建表单时，它处于草稿状态。 在您定义或编辑字段之前，它会保持此状态，直到您发布它以用于登陆页面或登陆页面模板。 可用操作： <br/><ul><li>编辑所有详细信息<li>在可视设计空间中编辑<li>发布<li>重复<li>删除 |
-| 发布日期 | 发布表单后，该表单将可用于登陆页面或登陆页面模板。 无法在可视设计空间中修改已发布的表单内容。 可用操作： <br/><ul><li>编辑名称、描述或感谢页面<li>添加到登陆页面或登陆页面模板<li>创建草稿版本<li>重复<li>删除（如果未使用）<li>嵌入代码 |
-| 以草稿发布 | 从已发布的表单创建草稿时，已发布的版本仍可用于登陆页面或模板。 可以在可视设计空间中修改草稿内容。 如果您发布草稿版本，则该草稿版本会替换当前已发布的版本，并且使用草稿的登陆页面或登陆页面模板中的内容会进行更新。 可用操作： <br/><ul><li>编辑名称、描述或感谢页面<li>添加到登陆页面或登陆页面模板<li>在可视设计空间中编辑草稿版本<li>发布草稿版本<li>重复<li>删除（如果未使用）<li>嵌入代码 |
+| 草稿 | 创建表单时，它处于草稿状态。 在您定义或编辑字段之前，它会保持此状态，直到您发布它以用于登陆页面或登陆页面模板。 可用操作： <br/><ul><li>编辑所有详细信息<li>在可视设计空间中编辑<li>发布<li>复制<li>删除 |
+| 发布日期 | 发布表单后，该表单将可用于登陆页面或登陆页面模板。 无法在可视设计空间中修改已发布的表单内容。 可用操作： <br/><ul><li>编辑名称、描述或感谢页面<li>添加到登陆页面或登陆页面模板<li>创建草稿版本<li>复制<li>删除（如果未使用）<li>嵌入代码 |
+| 以草稿发布 | 从已发布的表单创建草稿时，已发布的版本仍可用于登陆页面或模板。 可以在可视设计空间中修改草稿内容。 如果您发布草稿版本，则该草稿版本会替换当前已发布的版本，并且使用草稿的登陆页面或登陆页面模板中的内容会进行更新。 可用操作： <br/><ul><li>编辑名称、描述或感谢页面<li>添加到登陆页面或登陆页面模板<li>在可视设计空间中编辑草稿版本<li>发布草稿版本<li>复制<li>删除（如果未使用）<li>嵌入代码 |
 
 ![表单状态生命周期](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -76,7 +89,7 @@ ht-degree: 0%
 
 ### 添加新表单
 
-您可以在Journey Optimizer B2B edition中创建表单，方法是单击&#x200B;**[!UICONTROL Forms]**&#x200B;列表页右上角的&#x200B;_[!UICONTROL 创建表单]_。
+您可以在Journey Optimizer B2B edition中创建表单，方法是单击&#x200B;_[!UICONTROL Forms]_&#x200B;列表页右上角的&#x200B;**[!UICONTROL 创建表单]**。
 
 1. 在&#x200B;_[!UICONTROL 创建表单]_&#x200B;对话框中，输入有用的&#x200B;**[!UICONTROL 名称]**（必需）和&#x200B;**[!UICONTROL 描述]**（可选）。
 
@@ -232,7 +245,7 @@ ht-degree: 0%
 
    此时将显示表单内容的预览，表单详细信息位于右侧。
 
-1. 要创建草稿版本以编辑表单，请单击右侧&#x200B;**[!UICONTROL 摘要]**&#x200B;面板中的&#x200B;_[!UICONTROL 编辑表单]_。
+1. 要创建草稿版本以编辑表单，请单击右侧&#x200B;_[!UICONTROL 摘要]_&#x200B;面板中的&#x200B;**[!UICONTROL 编辑表单]**。
 
 1. 在对话框中单击&#x200B;**[!UICONTROL 创建草稿版本]**&#x200B;以在可视设计空间中打开草稿版本。
 
@@ -262,7 +275,7 @@ ht-degree: 0%
 
    ![编辑草稿版本](./assets/form-published-with-draft-edit.png){width="700" zoomable="yes"}
 
-1. 单击右侧&#x200B;**[!UICONTROL 摘要]**&#x200B;窗格中的&#x200B;_[!UICONTROL 编辑表单]_，并根据需要使用可视化设计工具：
+1. 单击右侧&#x200B;_[!UICONTROL 摘要]_&#x200B;窗格中的&#x200B;**[!UICONTROL 编辑表单]**，并根据需要使用可视化设计工具：
 
    * [添加字段](./form-design.md#add-a-field)
    * [更改字段样式](./form-design.md#change-field-styling)

@@ -5,10 +5,25 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
-source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2:
+  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 0%
+source-wordcount: 971
+ht-degree: 1%
 
 ---
 
@@ -40,7 +55,7 @@ ht-degree: 0%
 * 如何在历程中发送电子邮件？
 * 如何个性化我的电子邮件内容？
 
-要询问产品问题，请在面板底部的字段中输入该问题并按Enter键。 例如，当您需要了解如何在历程中使用购买群组时。 在这种情况下，请输入&#x200B;_如何在历程中使用购买组？_&#x200B;在您提交问题后，AI Assistant会查询其知识库并在几秒钟内编译答案。
+要询问产品问题，请在面板底部的字段中输入该问题并按Enter键。 例如，当您需要了解如何在历程中使用购买群组时。 在这种情况下，请输入&#x200B;_如何在历程中使用购买组？_ 在您提交问题后，AI Assistant会查询其知识库并在几秒钟内编译答案。
 
 ![在文本框中输入问题](./assets/ai-assistant-ask-question.png){width="420"}
 
