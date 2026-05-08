@@ -1,9 +1,9 @@
 ---
 title: 内容创作 — 组件
 description: 重用有关使用组件和内容元素进行内容创作的部分
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: 6ff0d61295d46bfc0706e522ff870d99fc48e70d
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 0%
 1. 展开&#x200B;**[!UICONTROL 内容]**&#x200B;部分，然后根据需要将任意数量的内容组件添加到一个或多个结构组件中。
 
    ![将内容元素拖到画布上并调整设置](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
-&lt;!--
-在我们对每个元素都有完整引用时对其内容的引用。
 
+   <!--
+   reference to the contents elements when we have a completed reference for each.
    -->
 
 1. 如果需要，您可以在&#x200B;_[!UICONTROL 设置]_&#x200B;或&#x200B;_[!UICONTROL 样式]_&#x200B;选项卡中为每个组件进行其他自定义。
