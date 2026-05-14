@@ -7,24 +7,14 @@ level: Intermediate
 role: User
 badge: label="限量发布版" type="Informative"
 exl-id: 13f45e8f-9d49-4ec2-90ef-689475c629f1
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
-autotag-review: '2026-03-30T22:24:40.416Z'
-source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+autotag-review: 2026-03-30T22:24:40.416Z
+TQID: https://experienceleague.adobe.com/lFx0KVsrjM7aGFX8-N3lSvqWKvsd2JaK2tOa7QJyjtQ
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 862
 ht-degree: 11%
@@ -52,7 +42,7 @@ ht-degree: 11%
 
 ## GenStudio内容生成功能
 
-[Adobe GenStudio for Performance Marketing](https://business.adobe.com/cn/products/genstudio-for-performance-marketing.html){target="_blank"}是一个创新型人工智能优先应用程序，它使营销团队能够创建符合品牌标准并遵守其企业政策的有影响力的个性化广告和电子邮件。 通过利用Adobe AI技术，它提供了一套全面的工具，可简化内容创建和管理的复杂性，以便创意人员可以专注于创新。
+[Adobe GenStudio for Performance Marketing](https://business.adobe.com/products/genstudio-for-performance-marketing.html){target="_blank"}是一个创新型人工智能优先应用程序，它使营销团队能够创建符合品牌标准并遵守其企业政策的有影响力的个性化广告和电子邮件。 通过利用Adobe AI技术，它提供了一套全面的工具，可简化内容创建和管理的复杂性，以便创意人员可以专注于创新。
 
 ![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [创建品牌内营销电子邮件](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
@@ -90,7 +80,7 @@ ht-degree: 11%
 
 使用HTML文件在GenStudio for Performance Marketing中创建模板。
 
-有关在Adobe GenStudio for Performance Marketing中将HTML模板上传到GenStudio的详细信息，请参阅GenStudio for Performance Marketing文档中的[添加模板](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template)。
+有关在Adobe GenStudio for Performance Marketing中将HTML模板上传到GenStudio的详细信息，请参阅GenStudio for Performance Marketing文档中的[添加模板](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template)。
 
 上传导出的HTML作为模板时，GenStudio for Performance Marketing会扫描HTML文件以查找可识别的字段。 使用预览可查看模板元素，并确认您使用可识别的字段名称正确标识了它们。
 
@@ -98,7 +88,7 @@ ht-degree: 11%
 
 在GenStudio for Performance Marketing中，使用模板创建多个电子邮件体验变体并保存它们。
 
-有关生成品牌电子邮件体验的详细信息，请参阅GenStudio for Performance Marketing文档中的[创建电子邮件体验](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience)。
+有关生成品牌电子邮件体验的详细信息，请参阅GenStudio for Performance Marketing文档中的[创建电子邮件体验](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience)。
 
 ## 将生成的电子邮件体验添加到Journey Optimizer B2B edition
 
@@ -110,9 +100,9 @@ ht-degree: 11%
 
 1. 在Journey Optimizer B2B edition中，[使用&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点，将电子邮件](./add-email.md)添加到帐户历程。
 
-   * 对于&#x200B;_目标上的_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
+   * 对于&#x200B;]_目标上的_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
 
-   * 若要对人员&#x200B;_执行_&#x200B;操作，请选择&#x200B;**[!UICONTROL 发送电子邮件]**。
+   * 若要对人员&#x200B;]_执行_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 发送电子邮件]**。
 
      ![执行操作 — 发送电子邮件](./assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
