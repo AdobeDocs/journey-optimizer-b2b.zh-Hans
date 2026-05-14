@@ -5,11 +5,18 @@ feature: Email Authoring, Integrations
 level: Intermediate
 role: User
 exl-id: 26d87a56-6bd1-4d4a-8090-71f5b0a7e9f8
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: f01b5556-e951-40ba-8625-2e3001864f2bid: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T22:28:13.343Z
 TQID: https://experienceleague.adobe.com/G9c2TdbEje4HgE82tKURAn-UYz5wB-9iLsT9805m1JI
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -25,7 +32,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->此集成仅适用于具有Litmus Enterprise帐户的Journey Optimizer B2B edition用户。 有关详细信息，请参阅Litmus网站](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}上的[解决方案页面。
+>此集成仅适用于具有Litmus Enterprise帐户的Journey Optimizer B2B edition用户。 有关详细信息，请参阅Litmus网站[&#128279;](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}上的解决方案页面。
 
 1. 当您的电子邮件设计完成并准备好进行测试时，请在电子邮件设计空间单击&#x200B;**[!UICONTROL 模拟内容]**。
 
