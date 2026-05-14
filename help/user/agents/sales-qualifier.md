@@ -30,7 +30,7 @@ Sales Qualifier是一个人工智能驱动的应用程序，可与Adobe Journey 
 
 BDR可以使用浏览器和电子邮件插件直接在CRM或Outlook中访问商业智能。 以下视频简要演示了Sales Qualifier和Account Qualification Agent。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476571?captions=chi_hans)
 
 ## 应用程序主页
 
