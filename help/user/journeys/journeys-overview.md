@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 01ee41d681aa67052f4fd34edc86159b054c6644
 workflow-type: tm+mt
-source-wordcount: 1520
+source-wordcount: 1511
 ht-degree: 44%
 
 ---
@@ -171,10 +171,6 @@ Journey Optimizer B2B edition支持两种历程类型：
 ### 复制历程 {#duplicate-journey}
 
 复制操作类似于克隆功能，但复制的历程不包含任何已创建的历程内容资产。 您可以复制历程的详细信息，或仅复制流量和路径结构的简单&#x200B;_框架_。
-
->[!NOTE]
->
->此操作当前不适用于人员历程。
 
 1. 单击&#x200B;_更多_&#x200B;图标(**...**) 在历程名称旁边，然后选择&#x200B;**[!UICONTROL 复制]**。
 
