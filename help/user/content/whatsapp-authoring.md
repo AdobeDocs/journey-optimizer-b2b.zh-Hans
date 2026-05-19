@@ -14,9 +14,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
 workflow-type: tm+mt
-source-wordcount: 813
+source-wordcount: 828
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ WhatsApp支持以下消息类型：
 
 >[!IMPORTANT]
 >
->**WhatsApp同意管理**：根据Meta的政策和适用法规，所有WhatsApp营销消息必须仅发送给选择接收通信的收件人。 WhatsApp收件人可以随时通过用“选择退出”关键字进行回复来选择退出。 选择退出响应会自动生效，并且将从未来的营销消息受众中删除相应的用户档案。
+>**WhatsApp同意管理**：根据Meta的政策和适用法规，所有WhatsApp营销消息必须仅发送给选择接收通信的收件人。 WhatsApp收件人可以随时通过用“选择退出”关键字进行回复来选择退出。 选择退出响应会自动生效，并且将从未来的营销消息受众中删除相应的用户档案。 有关在投放时如何评估WhatsApp同意首选项的详细信息，请参阅[同意首选项](./channels-consent-preferences.md)。
 
 使用您Meta WhatsApp商业帐户中的预批准消息模板发送WhatsApp消息。 **模板必须由Meta审核和批准**，然后才能在Journey Optimizer B2B edition中使用。 与您的[!DNL Meta Business Manager]帐户管理员合作，管理和提交模板以供审批。
 

@@ -17,9 +17,9 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
 workflow-type: tm+mt
-source-wordcount: 1372
+source-wordcount: 1387
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ ht-degree: 0%
 | [!UICONTROL 主题行] | 电子邮件主题字段中显示的文本。 默认值由您在&#x200B;_[!UICONTROL 新建电子邮件]_&#x200B;对话框中输入的文本填充。 您可以根据需要更改文本。 单击&#x200B;_个性化_&#x200B;图标（![个性化图标](../assets/do-not-localize/icon-personalize.svg)）以在字段中使用个性化令牌。<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
 | [!UICONTROL 品牌化域] | 如果系统中定义了多个[品牌化域](../admin/configure-channels-emails.md#branding-domains)，请选择用于发送电子邮件的品牌化域。 使用特定品牌域发送似乎来自您的品牌而非整个公司的电子邮件。 它有助于建立与品牌之间的信任，使电子邮件体验个性化，并提高打开率和响应率。 |
 | [!UICONTROL 专用IP] | 如果定义了多个专用IP地址，请选择用于发送电子邮件的专用IP地址。 在为项目使用特定的专用IP时，您可以更密切地跟踪和监控投放能力，并对投放量度的任何更改快速做出响应。 有关为连接的Marketo Engage实例添加专用IP的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}。 |
-| [!UICONTROL 操作电子邮件] | 如果要将电子邮件指定为可操作的，请选中此复选框。 操作电子邮件从选择退出/取消订阅列表和通信限制中排除。 仅当收件人不能将电子邮件视为未经请求的商业邮件(SPAM)时，才选择此选项。 |
+| [!UICONTROL 操作电子邮件] | 如果要将电子邮件指定为可操作的，请选中此复选框。 操作电子邮件从选择退出/取消订阅列表和通信限制中排除。 仅当收件人不能将电子邮件视为未经请求的商业邮件(SPAM)时，才选择此选项。 有关在投放时如何评估电子邮件同意首选项的详细信息，请参阅[同意首选项](./channels-consent-preferences.md)。 |
 | [!UICONTROL 包括网页形式的视图] | 选中此复选框可包含指向从电子邮件内容生成的网页的链接。 与网页相比，电子邮件的功能更为有限，因此它对于JavaScript、扩展CSS和表单非常有用。 用于生成链接的文本已在[电子邮件渠道投放设置](../admin/configure-channels-emails.md#delivery-settings)中配置（[!UICONTROL 以网页HTML查看]和[!UICONTROL 以网页文本查看]）。 |
 | [!UICONTROL 禁用打开跟踪] | 如果不想跟踪电子邮件打开活动，请选中复选框。 禁用此功能后，仅当具有独特身份的用户打开电子邮件时，电子邮件打开活动计数才会递增。 设计电子邮件正文内容时，您可以[管理电子邮件内容链接跟踪](./email-authoring.md#content-authoring---link-tracking)。 |
 | [!UICONTROL 预编译标头] | 选中此复选框可包含预编译标头。 邮件引文是简短摘要文本，在某些电子邮件客户端中，显示在主题行之后。 它通常提供电子邮件的简短摘要，通常是单句子。 在字段<!-- , or click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content -->中输入摘要文本。 |
