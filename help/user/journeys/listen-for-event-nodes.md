@@ -16,7 +16,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8a0bb99acd71950d1b43732002e9e4d09bfd86b4
 workflow-type: tm+mt
 source-wordcount: 1844
 ht-degree: 12%
@@ -149,7 +149,7 @@ ht-degree: 12%
 
 管理员可以选择[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，这样营销人员就可以创建对事件做出近乎实时反应的帐户和人员历程。 在历程中使用体验事件包括两个步骤：
 
-1. 管理员[选择事件类型和感兴趣的字段](../admin/configure-aep-events.md#select-an-event)，以便在历程中可用。
+1. 管理员[添加事件类型和感兴趣的字段](../admin/configure-aep-events.md#add-an-event)，以便在历程中可用。
 
 2. 在历程中，添加&#x200B;_侦听事件_&#x200B;节点，并为基于人员的事件选择Experience Platform事件类型。
 
