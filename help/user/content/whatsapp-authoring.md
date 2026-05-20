@@ -14,7 +14,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
+source-git-commit: d7e971b6d533a173632224baa359f7559b865497
 workflow-type: tm+mt
 source-wordcount: 828
 ht-degree: 1%
@@ -26,6 +26,7 @@ ht-degree: 1%
 使用Adobe Journey Optimizer B2B edition向其移动设备上的帐户成员发送WhatsApp消息。 您可以使用WhatsApp编辑器中的已批准Meta消息模板创建、个性化和预览消息。<!-- Test your WhatsApp messages before publishing the account journey to ensure your intended rendering, accurate personalization, and proper configuration of all settings. -->
 
 在为帐户历程创建WhatsApp消息之前，请确保已在&#x200B;_[!UICONTROL 管理员]_&#x200B;设置中配置所需的[WhatsApp渠道](../admin/configure-channels-whatsapp.md)。
+
 
 >[!NOTE]
 >
@@ -58,6 +59,10 @@ WhatsApp支持以下消息类型：
 
 ## 在帐户历程中添加WhatsApp操作
 
+>[!IMPORTANT]
+>
+>**WhatsApp同意管理**：根据Meta的政策和适用法规，所有WhatsApp营销消息必须仅发送给选择接收通信的收件人。 WhatsApp收件人可以随时通过用“选择退出”关键字进行回复来选择退出。 选择退出响应会自动生效，并且将从未来的营销消息受众中删除相应的用户档案。 有关在投放时如何评估WhatsApp同意首选项的详细信息，请参阅[同意首选项](./channels-consent-preferences.md)。
+
 当您[添加&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点](../journeys/action-nodes.md)并执行以下操作时，可以在帐户历程中设置WhatsApp消息投放：
 
 1. 对于&#x200B;_目标上的_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
@@ -89,10 +94,6 @@ WhatsApp支持以下消息类型：
 1. 单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;以转到消息参数和文本。
 
 ### 选择消息模板
-
->[!IMPORTANT]
->
->**WhatsApp同意管理**：根据Meta的政策和适用法规，所有WhatsApp营销消息必须仅发送给选择接收通信的收件人。 WhatsApp收件人可以随时通过用“选择退出”关键字进行回复来选择退出。 选择退出响应会自动生效，并且将从未来的营销消息受众中删除相应的用户档案。 有关在投放时如何评估WhatsApp同意首选项的详细信息，请参阅[同意首选项](./channels-consent-preferences.md)。
 
 使用您Meta WhatsApp商业帐户中的预批准消息模板发送WhatsApp消息。 **模板必须由Meta审核和批准**，然后才能在Journey Optimizer B2B edition中使用。 与您的[!DNL Meta Business Manager]帐户管理员合作，管理和提交模板以供审批。
 

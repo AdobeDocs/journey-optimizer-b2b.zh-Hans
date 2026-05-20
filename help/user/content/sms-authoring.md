@@ -17,7 +17,7 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T22:13:38.262Z
 TQID: https://experienceleague.adobe.com/OdjIx1STDdn3U-iJvotNKYKmuZfao6FYtZTxhRAAdlE
-source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
+source-git-commit: d7e971b6d533a173632224baa359f7559b865497
 workflow-type: tm+mt
 source-wordcount: 1343
 ht-degree: 3%
@@ -29,6 +29,12 @@ ht-degree: 3%
 使用Adobe Journey Optimizer B2B edition在其移动设备上向客户发送短信(SMS)。 您可以从短信编辑器中创建、个性化和预览文本格式的消息。
 
 在为帐户历程创建短信消息之前，请确保从&#x200B;_[!UICONTROL 管理员]_&#x200B;设置中配置了[短信服务提供程序](../admin/configure-channels-sms.md)。
+
+>[!IMPORTANT]
+>
+>**短信同意管理**<br/>
+>
+>根据行业标准和法规，所有短信营销消息都必须包含一种让接收者轻松取消订阅的方式。 要实现此目的，短信收件人可以使用选择启用和选择禁用关键词进行回复。 支持并遵循所有标准的选择加入和选择退出关键词。 此外，还支持并遵循为短信服务提供商帐户配置的任何自定义关键字。 有关如何在投放时评估短信同意首选项的详细信息，请参阅[同意首选项](./channels-consent-preferences.md)。
 
 ## 在帐户历程中添加短信操作
 
@@ -51,12 +57,6 @@ ht-degree: 3%
    _历程映射_&#x200B;打开，您可以创建消息并设置用于发送消息的短信属性。
 
 ### 创建短信消息
-
->[!IMPORTANT]
->
->**短信同意管理**<br/>
->
->根据行业标准和法规，所有短信营销消息都必须包含一种让接收者轻松取消订阅的方式。 要实现此目的，短信收件人可以使用选择启用和选择禁用关键词进行回复。 支持并遵循所有标准的选择加入和选择退出关键词。 此外，还支持并遵循为短信服务提供商帐户配置的任何自定义关键字。 有关如何在投放时评估短信同意首选项的详细信息，请参阅[同意首选项](./channels-consent-preferences.md)。
 
 在&#x200B;**[!UICONTROL 消息]**&#x200B;字段中输入要发送的文本。
 
