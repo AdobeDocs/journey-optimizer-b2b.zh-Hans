@@ -4,10 +4,14 @@ description: 创建具有条件自动分配的角色模板，以识别在Journey
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
 source-git-commit: 97417ae1fcb017d4fcb7128e3fc0b61c829f867e
@@ -105,7 +109,7 @@ ht-degree: 4%
 
    * 从列表中选择&#x200B;**[!UICONTROL 购买团体角色]**。
 
-     有六个默认角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 该列表还包括在&#x200B;_角色_&#x200B;列表](./default-custom-roles.md#custom-roles)中定义的任何[自定义角色。
+     有六个默认角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 该列表还包括在&#x200B;_角色_&#x200B;列表[&#128279;](./default-custom-roles.md#custom-roles)中定义的任何自定义角色。
 
      ![购买团体角色列表](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -137,7 +141,7 @@ ht-degree: 4%
 
      使用工作标题的![角色模板条件示例](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-   * 如果已配置与XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中定义的人员[相关的自定义对象，请展开&#x200B;**[!UICONTROL 自定义对象]**&#x200B;的列表以在角色条件中使用它们。
+   * 如果已配置与XDM关系架构[&#128279;](../admin/xdm-field-management.md#relational-schemas)中定义的人员相关的自定义对象，请展开&#x200B;**[!UICONTROL 自定义对象]**&#x200B;的列表以在角色条件中使用它们。
 
      ![角色模板添加自定义对象条件](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
 
