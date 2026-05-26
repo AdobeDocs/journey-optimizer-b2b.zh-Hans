@@ -29,13 +29,13 @@ ht-degree: 11%
 
 # 选择体验事件和字段
 
-管理员可以在Experience Event合并架构中选择特定的[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其关联字段。 选择后，用户可以配置决策规则以侦听这些Experience事件，以基于近乎实时的事件数据启用动态和针对性的营销活动操作。
+管理员可以在Experience Event合并架构中选择特定的[AEP Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其关联字段。 选择后，用户可以配置决策规则以侦听这些Experience事件，以基于近乎实时的事件数据启用动态和针对性的营销活动操作。
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
 >[!PREREQUISITES]
 >
->在Journey Optimizer B2B edition中使用Experience Events和字段需要启用配置文件的Experience Event架构。 有关详细信息，请参阅Experience Platform教程中的[启用实时客户个人资料](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}。
+>在Journey Optimizer B2B edition中使用Experience Events和字段需要启用配置文件的Experience Event架构。 有关详细信息，请参阅Experience Platform教程中的[启用实时客户个人资料](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}。
 
 在历程中使用AEP体验事件包括两个步骤：
 
