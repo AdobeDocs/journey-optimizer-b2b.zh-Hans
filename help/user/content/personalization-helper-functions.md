@@ -21,7 +21,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 TQID: https://experienceleague.adobe.com/79OalHOVUw0jEO-mFXa76-sQFE36zguoBwpmdg0TUB4
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: cb8dacee0c668c8048193fb0d4ee38d742a38f71
 workflow-type: tm+mt
 source-wordcount: 4930
 ht-degree: 6%
@@ -1572,7 +1572,7 @@ Some edu specific content
 
 使用`each`辅助函数对数组进行迭代。
 
-辅助函数结构为```{{#each ArrayName}}```您的内容`{{/each}}`
+辅助函数结构为`{{#each ArrayName}}`您的内容`{{/each}}`
 
 您可以在块中使用关键字`this`来引用单个数组项。 使用`{{@index}}`渲染数组元素的索引。
 

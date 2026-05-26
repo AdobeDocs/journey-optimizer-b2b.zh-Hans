@@ -20,7 +20,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 8a0bb99acd71950d1b43732002e9e4d09bfd86b4
+source-git-commit: 56fb0ea71e7f85c91d8faa24719888a5f1b9b780
 workflow-type: tm+mt
 source-wordcount: 1522
 ht-degree: 11%
@@ -68,7 +68,7 @@ ht-degree: 11%
 
 1. 在左侧导航中，选择&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 配置]**。
 
-1. 单击中间面板上的&#x200B;**[!UICONTROL XDM类]**，然后单击&#x200B;**[!UICONTROL 事件]**&#x200B;选项卡以显示可用事件的列表。
+1. 单击中间面板上的&#x200B;**[!UICONTROL XDM配置]**，然后单击&#x200B;**[!UICONTROL 事件]**&#x200B;选项卡以显示可用事件的列表。
 
    ![访问选定的体验事件](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
 

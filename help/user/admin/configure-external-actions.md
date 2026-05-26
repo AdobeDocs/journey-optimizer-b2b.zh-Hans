@@ -14,9 +14,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: effa8e2a45ecc5afbaa5a3f75437735bef89a400
 workflow-type: tm+mt
-source-wordcount: 907
+source-wordcount: 1306
 ht-degree: 1%
 
 ---
@@ -76,9 +76,7 @@ ht-degree: 1%
 
    ![输入服务URL](./assets/configuration-external-actions-create-url.png){width="500"}
 
-   >[!NOTE]
-   >
-   >您的外部服务必须处于实时状态并且可访问，才能成功完成此步骤。
+   外部服务必须处于活动状态并且可访问，才能成功完成此步骤。 如果存在验证错误，对话框将显示一条描述错误的消息以及解决该错误的建议。 有关详细信息，请参阅&#x200B;[_疑难解答_](#troubleshooting)。
 
 1. 成功解析URL后，查看&#x200B;**[!UICONTROL 服务详细信息]**。
 
@@ -127,7 +125,7 @@ ht-degree: 1%
 
    * **[!UICONTROL 传出字段]** — 将表中的每个字段映射到[XDM字段](../admin/xdm-field-management.md)。 这些字段在请求正文中发送到外部服务。 服务定义属性： `invocationPayloadDef.accountFields`，`invocationPayloadDef.fields`。
 
-   ![映射外部操作传出字段](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
+     ![映射外部操作传出字段](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
 
    * **[!UICONTROL 传入字段]** — 将表中的每个字段映射到[可更新的XDM字段](../admin/xdm-field-management.md#updatable-fields)。 这些字段从外部服务响应中填充。 服务定义属性： `callbackPayloadDef.accountFields`，`callbackPayloadDef.fields`。 创建后可更新。
 
@@ -137,11 +135,50 @@ ht-degree: 1%
 
    * **[!UICONTROL 全局属性]** — 为每一行输入一个值，以作为静态字段包含在请求正文中。 服务定义属性： `invocationPayloadDef.globalAttributes`。
 
-   ![外部操作标头参数、超时和全局属性](./assets/configuration-external-actions-header-timeout-global.png){width="600" zoomable="yes"}
+     ![外部操作标头参数、超时和全局属性](./assets/configuration-external-actions-header-timeout-global.png){width="600" zoomable="yes"}
 
 1. 单击&#x200B;_上退箭头_&#x200B;返回列表并将操作保持在&#x200B;_草稿_&#x200B;状态。
 
    或者，单击&#x200B;**[!UICONTROL 激活]**&#x200B;以将操作配置更改为&#x200B;_活动_&#x200B;状态。 配置的外部操作必须处于活动状态才能在帐户历程中使用。
+
+### 故障排除 {#troubleshooting}
+
+当您输入外部服务的OpenAPI规范的URL并单击&#x200B;**[!UICONTROL 创建]**&#x200B;时，系统会执行服务验证。 当遇到错误时，对话框会显示消息以描述错误。
+
+![外部操作URL服务验证错误消息](./assets/configuration-external-actions-create-url-error.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>以下许多错误都需要与创建和发布面向公众的Web服务的开发人员合作才能解决。
+
+#### 验证错误详细信息
+
+| 显示的错误 | 为什么会这样 | 要做什么 |
+|---|---|---|
+| `This URL is already used by another external action` | 此规范URL已注册到贵组织中的其他操作。 | 使用其他规范URL，或删除已使用该规范URL的现有操作。 |
+| `An action with this name already exists` | 规范中的`info.title`与已存在的操作匹配 | 将规范`info.title`字段中的标题更改为其他唯一内容。 |
+| `Duplicate operation ID found in the specification` | 规范中的两个或多个操作共享相同的`operationId`。 | 为每个操作指定一个唯一的`operationId`。 |
+| `Field in the specification exceeds the maximum allowed length` | 规范中的文本字段（如标题或描述）太长。 | 缩短标记的字段。 |
+| `The entity type value is invalid` | 实体类型的特定于Adobe的`x-`扩展具有无法识别的值 | 将实体类型更正为支持的值。 有关有效选项，请参阅[开发人员文档](https://developer.adobe.com/journey-optimizer-b2b-apis/)。 |
+| `The provided document is not a valid OpenAPI specification` | 规范无法进行结构解析。 | 根据OpenAPI 3.0架构验证您的规范并修复任何问题。 |
+| `Required OpenAPI field is missing` | 缺少标准OpenAPI必填字段（如`info`或`paths`）。 | 添加缺少的字段。 |
+| `Required endpoint is missing from the specification` | 您的规范中未定义Adobe Journey Optimizer B2B edition所需的端点。 | 添加所需的端点。 请参阅需要端点的[开发人员文档](https://developer.adobe.com/journey-optimizer-b2b-apis/)。 |
+| `Required extension field is missing` | 您的规范中不存在必需的Adobe `x-`扩展字段。 | 按照文档中的说明，添加缺少的扩展字段。 |
+| `Security schemes are missing from the specification` | 您的规范没有在`components`下定义`securitySchemes`。 | 定义至少一个安全方案。 |
+| `Multiple authentication types are not supported` | 您的规范定义了多个身份验证方案。 | 更新您的规范以使用单一身份验证类型。 |
+| `The authentication type is not supported` | 不支持您使用的安全方案类型（如`oauth2`或`openIdConnect`）。 | 切换到支持的身份验证类型。 有关支持的选项，请参阅开发人员文档。 |
+| `The OpenAPI version is not supported` | 规格级别的版本不匹配 | 更新您的规格以使用OpenAPI 3.0.x。 |
+| `An unexpected error occurred` | 在您的规范中发现未分类的问题。 | 检查您的规格中是否有任何不寻常的情况，然后重试。 如果错误仍然存在，请联系支持人员。 |
+
+<!--
+## Errors you'll see if something goes wrong with the request itself
+
+This error appears below the URL field (not in the alert banner) and means there was a network problem or an unexpected server response — not a problem with your URL or spec.
+
+| What you'll see | Why it happened | What to do |
+|---|---|---|
+| `Failed to create external action. Please try again.` | A network error occurred or the server returned an unexpected response | Check your connection and try again. If it keeps happening, contact support |
+-->
 
 ## 向历程添加外部节点 {#add-journey-node}
 
