@@ -6,45 +6,37 @@ role: Admin
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为测试版"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: adf04a6a-050f-44bc-a52c-db79ccb22ebf
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: adf04a6a-050f-44bc-a52c-db79ccb22ebfid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: ed0d8d0e-04b9-4326-be72-a0fbca265377
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 56fb0ea71e7f85c91d8faa24719888a5f1b9b780
+source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
 workflow-type: tm+mt
-source-wordcount: 1522
+source-wordcount: 1608
 ht-degree: 11%
 
 ---
 
 # 选择体验事件和字段
 
-管理员可以在Experience Event合并架构中选择特定的[AEP Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其关联字段。 选择后，用户可以配置决策规则以侦听这些Experience事件，以基于近乎实时的事件数据启用动态和针对性的营销活动操作。
+管理员可以在Experience Event合并架构中选择特定的[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其关联字段。 选择后，用户可以配置决策规则以侦听这些Experience事件，以基于近乎实时的事件数据启用动态和针对性的营销活动操作。
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
 >[!PREREQUISITES]
 >
->在Journey Optimizer B2B edition中使用Experience Events和字段需要启用配置文件的Experience Event架构。 有关详细信息，请参阅Experience Platform教程中的[启用实时客户个人资料](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}。
+>在Journey Optimizer B2B edition中使用Experience Events和字段需要启用配置文件的Experience Event架构。 有关详细信息，请参阅Experience Platform教程中的[启用实时客户个人资料](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}。
 
 在历程中使用AEP体验事件包括两个步骤：
 
-1. 管理员[在AEP B2B edition配置中添加了Journey Optimizer体验事件和字段](#add-an-event)。
+1. 管理员[在AEP B2B edition配置中添加了Journey Optimizer Experience事件和字段](#add-an-event)。
 
-2. 在历程中，营销人员添加了&#x200B;_侦听事件_&#x200B;节点和[选择体验事件](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event)。
+1. 在历程中，营销人员通过以下两种方式之一使用配置的事件：
 
-   * 选择要在节点中使用的事件。
-   * 选择要用作约束的字段。
+   * 添加&#x200B;_侦听事件_&#x200B;节点，[选择体验事件](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event)以根据历程期间的实时事件活动触发历程进展。
+   * 添加&#x200B;_按人员拆分路径_&#x200B;节点，并在&#x200B;**[!UICONTROL Event history]**&#x200B;文件夹中的事件](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering)上配置[筛选器的路径。
 
 >[!BEGINSHADEBOX]
 
@@ -56,11 +48,13 @@ ht-degree: 11%
 
 * 历程可以收听使用Experience Platform流功能（如Web SDK或HTTP API）引入的Experience事件。
 
-* 您可以使用体验事件在历程中进行决策，但不会保留这些事件。 因此，您无法利用Journey Optimizer B2B edition中体验事件的历史记录。
+* 当事件存在于Journey Optimizer B2B edition数据库中时，人员的历史体验事件数据开始累积。 对于首次配置事件类型时已存在的人员，回填从配置时开始。 对于新人，积累始于首次添加此人（其以前的历史不可追溯获得）。
+
+* 当前没有为累积的事件历史记录提供删除机制。 长期保留策略可能会发生更改。
 
 * 当您使用体验事件并发布历程时，您可以添加更多字段，但无法删除之前已选择的字段。
 
-* 您可以在多个历程中引用体验事件，或在同一历程中多次使用体验事件。
+* 您可以在多个历程中引用体验事件，或在同一历程中多次使用同一事件。
 
 >[!ENDSHADEBOX]
 
@@ -84,7 +78,7 @@ ht-degree: 11%
 
 ![按名称筛选选定事件的列表](./assets/configurations-xdm-classes-events-search.png){width="600" zoomable="yes"}
 
-### 添加事件
+### 添加事件 {#add-an-event}
 
 要使体验事件可用于历程中的&#x200B;_侦听事件_&#x200B;节点，请选择该事件和支持的字段。
 
@@ -126,7 +120,7 @@ ht-degree: 11%
 
 保存的事件显示在&#x200B;_[!UICONTROL 事件]_&#x200B;选项卡的列表中。
 
-### 编辑事件
+### 编辑事件 {#edit-an-event}
 
 编辑事件详细信息以更改字段。
 
@@ -134,7 +128,9 @@ ht-degree: 11%
 
    ![单击“更多”菜单图标](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
-1. 单击&#x200B;**[!UICONTROL 编辑字段]**&#x200B;在&#x200B;_[!UICONTROL 选择字段]_&#x200B;对话框中添加更多字段或删除现有选择。
+1. 单击&#x200B;**[!UICONTROL 编辑字段]**&#x200B;以打开&#x200B;_[!UICONTROL 选择字段]_&#x200B;对话框并添加更多字段。
+
+   您无法删除在发布使用此事件的历程后先前选择的字段。
 
 1. 单击&#x200B;**[!UICONTROL 选择]**&#x200B;以保存您的选择。
 
@@ -170,8 +166,8 @@ ht-degree: 11%
 | 人员源密钥 | `personKey.sourceKey` |
 | 电子邮件源ID | `directMarketing.emailSent.mailingKey.sourceID` |
 | 电子邮件源类型 | `directMarketing.emailSent.mailingKey.sourceType` |
-| 电子邮件源实例ID | `directMarketing.emailSent.mailingKey.sourceInstanceID ` |
-| 电子邮件源密钥 | `directMailing.emailSent.mailingKey.sourceKey` |
+| 电子邮件源实例ID | `directMarketing.emailSent.mailingKey.sourceInstanceID` |
+| 电子邮件源密钥 | `directMarketing.emailSent.mailingKey.sourceKey` |
 | 邮件名称 | `directMarketing.emailSent.mailingName` |
 | 历程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | 节点Id | `_experience.journeyOrchestration.stepEvents.nodeID` |
@@ -182,7 +178,7 @@ ht-degree: 11%
 
 此事件跟踪电子邮件何时成功发送到人员的电子邮件服务。
 
-事件类型： `directMarketing.emailDelivered `
+事件类型： `directMarketing.emailDelivered`
 
 +++字段
 
@@ -337,7 +333,7 @@ ht-degree: 11%
 
 此事件跟踪人员何时取消订阅营销电子邮件。
 
-事件类型： `directMarketing.emailUnsubscribed `
+事件类型： `directMarketing.emailUnsubscribed`
 
 +++字段
 
@@ -458,7 +454,7 @@ ht-degree: 11%
 
 此事件跟踪何时为人员录制了有趣的时刻。
 
-事件类型： `leadOperation.interestingMoment `
+事件类型： `leadOperation.interestingMoment`
 
 +++字段
 
@@ -484,5 +480,5 @@ ht-degree: 11%
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448693/?captions=chi_hans&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
 -->

@@ -1,31 +1,25 @@
 ---
 title: 拆分和合并路径
-description: 在Journey Optimizer B2B edition中创建拆分和合并路径节点，以便使用条件逻辑对帐户和人员分段、通过购买组进行过滤并重新组合路径。
+description: 在Journey Optimizer B2B edition中按条件、购买组和事件历史记录拆分和合并历程路径，以划分帐户或人员。
 feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: ff2b9b37-92e0-45fc-b853-379d44c08c89id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: f20c8fb32fab59d5bb15017577b75a2358b66b10
 workflow-type: tm+mt
-source-wordcount: 2744
-ht-degree: 4%
+source-wordcount: 2550
+ht-degree: 3%
 
 ---
 
-# 拆分和合并路径
+# 拆分和合并路径 {#split-paths}
 
 使用拆分和合并路径节点，根据您定义的条件划分人员或帐户。 根据条件为受众或帐户列表创建路径，使用区段的操作和事件节点定义每个路径，然后组合路径并继续历程。
 
@@ -37,13 +31,13 @@ _拆分路径_&#x200B;节点根据&#x200B;**__**&#x200B;帐户或人员筛选器
 >
 >最多支持25条路径。
 
-## 按帐户拆分路径
+## 按帐户拆分路径 {#split-paths-by-accounts}
 
-_（仅限帐户历程）_
+**_（仅限帐户历程）_**
 
 按帐户拆分路径可以同时包含帐户和人员操作及事件。 这些路径可以进一步拆分。
 
-_&#x200B;**按帐户划分的拆分路径节点的工作方式**&#x200B;_
+_**按帐户划分的拆分路径节点的工作方式**_
 
 * 您添加的每个路径都包含一个能够向每个边缘添加节点的结束节点。
 * 可以嵌套“按帐户拆分”节点（可以重复按帐户拆分路径）。
@@ -53,18 +47,13 @@ _&#x200B;**按帐户划分的拆分路径节点的工作方式**&#x200B;_
 
 ![历程节点 — 按帐户拆分路径](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
 
-### 帐户路径条件
+### 帐户路径条件 {#account-path-filters}
 
 | 路径条件 | 描述 |
 | --------------- | ----------- |
 | [!UICONTROL 帐户属性] | 帐户个人资料中的属性，包括： <li>年收入 <li>城市 <li>国家 <li>员工规模 <li>行业 <li>名称 <li>SIC 代码 <li>State |
-| [!UICONTROL 帐户属性] >具有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}该帐户具有或不具有关系架构记录。 也可以根据[XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中配置的任何所选自定义对象条件对其进行评估。 （请参阅[自定义数据筛选](#custom-data-filtering)。） |
+| [!UICONTROL 自定义对象] >具有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}该帐户具有或不具有关系架构记录。 也可以根据[XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中配置的任何所选自定义对象条件对其进行评估。 （请参阅[自定义数据筛选](#custom-data-filtering)。） |
 | [!UICONTROL 特殊筛选器] > [!UICONTROL 帐户与购买团体匹配] | 该帐户与一个或多个购买群体匹配。 对于匹配的购买组，可以根据以下一个或多个约束对其进行评估： <li>解决方案兴趣 <li>购买组阶段 <li>购买组状态 <li>参与度评分 <li>完整性分数 <li> 购买群组角色中的人数 |
-| [!UICONTROL 特殊筛选器] > [!UICONTROL 有购买群] | 该帐户是否具有购买组的成员。 也可以根据以下一个或多个标准对其进行评估： <li>解决方案兴趣 <li>购买组阶段 <li>购买组状态 <li>参与度评分 <li>完整性分数 |
-
->[!NOTE]
->
->_[!UICONTROL 已标记为将来弃用“购物组]_”筛选器。 对于新历程，使用&#x200B;_[!UICONTROL 帐户与购买组]_&#x200B;筛选器匹配，该筛选器包括所有相同的约束。
 
 ### 按帐户节点添加拆分路径
 
@@ -140,7 +129,7 @@ _（帐户和人员历程）_
 
 按人员拆分路径只能包含人员操作。 这些路径无法再次拆分并自动连接回来。
 
-_&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
+_**按人员节点划分的拆分路径的工作方式**_
 
 * 在&#x200B;_分组节点_&#x200B;拆分合并组合中按人员节点进行拆分的功能。 拆分路径会自动合并，以便所有人员能够前进到下一步而不会丢失其帐户上下文。
 * 无法嵌套按人员节点拆分（无法为位于此分组节点中的路径上的人员添加拆分路径）。
@@ -150,17 +139,13 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 
 ![帐户历程节点 — 按人员拆分路径](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
-### 人员路径过滤器
+### 人员路径过滤器 {#people-path-filters}
 
 | 过滤器 | 描述 |
 | ------------ | ----------- |
-| [!UICONTROL 活动历史记录] > [!UICONTROL 电子邮件] | 电子邮件活动基于使用历程中早期的一个或多个选定电子邮件评估的条件： <li>[!UICONTROL 已单击电子邮件中的链接] <li>打开了电子邮件 <li>是已送达的电子邮件 <li>已发送电子邮件<br>**[!UICONTROL 切换到非活动筛选器&#x200B;]**— 使用此选项可根据缺少活动进行筛选（某人没有电子邮件活动）。 |
-| [!UICONTROL 活动历史记录] > [!UICONTROL 短信消息] | 短信活动基于使用历程中较早时间的一个或多个选定短信消息评估的条件： <li>[!UICONTROL 点击短信中的链接] <li>[!UICONTROL 短信已退回] <br>**[!UICONTROL 切换到非活动筛选器&#x200B;]**— 使用此选项可根据缺少活动进行筛选（某人没有短信活动）。 |
-| [!UICONTROL 活动历史记录] > [!UICONTROL 数据值已更改] | 对于选定的人员属性，发生值更改。 这些更改类型包括： <li>新值<li>上一个值<li>原因<li>源<li>活动日期<li>最低 <br>**[!UICONTROL 切换到非活动筛选器的次数&#x200B;]**— 使用此选项可根据缺少活动（人员没有数据值更改）进行筛选。 |
-| [!UICONTROL 活动历史记录] > [!UICONTROL 快乐时光] | 在关联的[!DNL Marketo Engage]实例中定义的有趣时刻活动。 限制包括： <li>里程碑<li>电子邮件地址<li>Web <br>**[!UICONTROL 切换到非活动筛选器&#x200B;]**— 使用此选项可基于缺少活动（人员没有快乐的时光）进行筛选。 |
-| [!UICONTROL 活动历史记录] > [!UICONTROL 访问的网页] | 由关联的[!DNL Marketo Engage]实例管理的一个或多个网页的网页活动。 限制包括： <li>网页（必填）<li>活动日期<li>客户端 IP 地址 <li>Querystring <li>反向链接 <li>用户代理 <li>搜索引擎 <li>搜索查询 <li>个性化 URL <li>令牌 <li>浏览器 <li>平台 <li>设备 <li>最低 <br>**[!UICONTROL 切换到非活动筛选器的次数&#x200B;]**— 使用此选项可根据缺少活动（用户未访问网页）进行筛选。 |
-| [!UICONTROL 人员属性] | [个人资料](../admin/field-mapping.md#xdm-business-person-attributes)中的属性，包括： <li>城市 <li>国家 <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>名 <li>推断的州区域 <li>职务名称 <li>姓 <li>手机号码 <li>人员参与度分数 <li>电话号码 <li>邮政编码 <li>State |
-| [!UICONTROL 人员属性] >具有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}此人是否具有关系架构记录。 也可以根据[XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中配置的任何所选自定义对象条件对其进行评估。 （请参阅[自定义数据筛选](#custom-data-filtering)） |
+| [!UICONTROL 自定义对象] >具有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}此人是否具有关系架构记录。 也可以根据[XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中配置的任何所选自定义对象条件对其进行评估。 （请参阅[自定义数据筛选](#custom-data-filtering)） |
+| [!UICONTROL 事件历史记录] | 根据在历程进入之前发生的体验事件拆分人员。 展开该文件夹以查看在[管理员> XDM事件配置](../admin/configure-aep-events.md)中配置的所有事件类型，并选择一个类型以添加为过滤器。 约束包括来自所选事件的字段、从人员进入历程时开始的回溯时间范围以及可选的最小次数。 |
+| [!UICONTROL 人员属性] | [个人资料](../admin/field-mapping.md#xdm-business-person-attributes)中的属性，包括： <li>城市 <li>国家 <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>名 <li>推断的州区域 <li>职务名称 <li>姓 <li>手机号码 <li>人员参与度分数 <li>电话号码 <li>邮政编码 <li>州 |
 | [!UICONTROL 特殊筛选器] > [!UICONTROL 购买团体成员] | （已弃用）人员是或不是根据以下一个或多个标准评估的购买组成员： <li>解决方案兴趣</li><li>购买组状态</li><li>完整性分数</li><li>参与度评分</li><li>已删除</li><li>角色</li> |
 | [!UICONTROL 特殊筛选器] > [!UICONTROL 列表成员] | （已弃用）人员是一个或多个[!DNL Marketo Engage]列表的成员，或者不是该列表的成员。 |
 | [!UICONTROL 特殊筛选器] > [!UICONTROL 计划成员] | （已弃用）该人员是一个或多个[!DNL Marketo Engage]项目的成员，或者不是该项目的成员。 |
@@ -171,7 +156,7 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 | --------------- | ----------- |
 | 帐户中的[!UICONTROL 角色] | 人员是否在帐户中被分配了角色。 可选约束： <li>角色名称 |
 
-### 按人员节点添加拆分路径
+### 按人员节点添加拆分路径 {#add-a-split-path-by-people-node}
 
 >[!NOTE]
 >
@@ -185,7 +170,7 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 
 1. 在右侧的节点属性中，为拆分选择&#x200B;**[!UICONTROL 人员]**。
 
-1. （仅限帐户历程）设置用于条件&#x200B;**的**&#x200B;属性。
+1. （仅限帐户历程）设置用于条件&#x200B;]**的**[!UICONTROL &#x200B;属性。
 
    * 选择&#x200B;**[!UICONTROL 仅人员属性]**&#x200B;以使用与人员配置文件相关的条件。
    * 选择&#x200B;**[!UICONTROL 仅限帐户 — 人员属性]**&#x200B;以使用与帐户中人员的角色成员资格相关的条件。
@@ -224,21 +209,27 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 
    当为各个路径定义了条件，用于在人员级别拆分受众时，您可以添加要对人员执行的操作。
 
-### 活动筛选
+### 体验事件历史记录筛选 {#experience-event-history-filtering}
 
-对于按人员划分的拆分路径，您可以根据与以下项相关的人员活动定义路径：
+对于按人员划分的拆分路径，您可以根据人员进入历程之前发生的体验事件定义路径。 在条件编辑器中，展开&#x200B;**[!UICONTROL Event history]**&#x200B;文件夹以查看管理员配置的所有事件类型的列表。 选择事件类型以将其添加为筛选条件。
 
-* 历程中较早时间的电子邮件
-* 来自历程中更早时间的短信消息
-* 人员配置文件中的数据值更改
-* 与电子邮件、网页或里程碑关联的有趣时刻（在[!DNL Marketo Engage]中跟踪）
-* 访问网页（在[!DNL Marketo Engage]中跟踪）
+事件历史记录的回顾时间范围是从人员进入历程的那一刻开始向后测量的。 例如，一个30天的窗口会评估符合条件事件是否在历程进入之前的30天内发生。
+
+您可以使用特定于选定事件字段的约束来进一步细化过滤器。 可选的&#x200B;**[!UICONTROL 最小次数]**&#x200B;和&#x200B;**[!UICONTROL 活动日期]**&#x200B;约束均在定义的回看时段内进行计算。 由于事件历史记录数据是从Adobe Experience Platform同步的，因此在此过滤器看到最近发生的事件之前，可能会有一个短暂的延迟。
+
+>[!NOTE]
+>
+>[!UICONTROL 事件历史记录]文件夹中可用的事件由[体验事件和字段配置](../admin/configure-aep-events.md)决定。
+
+**示例：**&#x200B;若要路由在进入历程之前点击了营销电子邮件中的链接的人员，请从[!UICONTROL 事件历史记录]文件夹中选择电子邮件点击事件，设置回顾窗口以涵盖相关时间段，并根据需要应用任何字段级约束（例如特定链接URL）。
+
+![按人员条件拆分事件历史记录的路径](./assets/node-split-people-condition-event-history.png){width="700" zoomable="yes"}
 
 >[!BEGINSHADEBOX “非活动筛选”]
 
-对于每个&#x200B;_[!UICONTROL 活动历史记录]_&#x200B;筛选器，您可以启用&#x200B;**[!UICONTROL 切换到非活动筛选器]**&#x200B;选项。 此选项将过滤器更改为缺少该活动类型的评估。 例如，添加&#x200B;_[!UICONTROL 电子邮件]_ > _[!UICONTROL 已打开电子邮件]_&#x200B;筛选器以创建&#x200B;_&#x200B;**未**&#x200B;_&#x200B;打开历程中早期电子邮件的人的路径。 启用非活动选项并指定电子邮件。 最佳做法是使用活动的&#x200B;_[!UICONTROL 日期]_&#x200B;约束来定义非活动的时段。
+对于每个&#x200B;_[!UICONTROL 事件历史记录]_&#x200B;筛选器，您可以启用&#x200B;**[!UICONTROL 切换到非活动筛选器]**&#x200B;选项。 此选项将过滤器更改为缺少该活动类型的评估。 例如，添加&#x200B;_[!UICONTROL 已打开直接营销电子邮件]_&#x200B;筛选器以创建&#x200B;_**未**_&#x200B;打开电子邮件的人员的路径。 启用非活动选项并指定电子邮件。
 
-![按购买组成员资格的人员条件拆分路径](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
+![按非活动状态人员拆分路径](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -279,39 +270,21 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 
 >[!ENDSHADEBOX]
 
-## 自定义数据筛选
+## 自定义数据筛选 {#custom-data-filtering}
 
 [!BADGE Beta 版]{type=Informative tooltip="Beta功能"}
 
 可以使用关系架构（基于模型的类）按帐户或人员拆分路径。 自定义对象是在&#x200B;_关系架构_&#x200B;中定义的，产品管理员可以在[!DNL Journey Optimizer B2B Edition]中[配置关系架构字段](../admin/xdm-field-management.md#relational-schemas)。 选定的架构字段在条件编辑器中可用，可用于按帐户&#x200B;_拆分路径中_&#x200B;和按人员&#x200B;_节点拆分路径中_。
 
-对于&#x200B;**[!UICONTROL 按帐户拆分路径]**&#x200B;条件，请使用搜索字段按&#x200B;_[!UICONTROL 帐户属性]_&#x200B;下的自定义对象名称筛选列表。 添加条件并将值设置为`true`或`false`。
+对于&#x200B;**[!UICONTROL 按帐户拆分路径]**&#x200B;或&#x200B;**[!UICONTROL 按人员拆分路径]**&#x200B;条件，请展开&#x200B;_[!UICONTROL 自定义对象]_。 添加条件并将值设置为`true`或`false`。 单击&#x200B;**[!UICONTROL 添加约束]**&#x200B;以使用字段值进行筛选。
 
-![关系架构自定义对象的“人员”属性条件示例](./assets/node-split-paths-account-relational-schema.png){width="600" zoomable="yes"}
+![关系架构自定义对象的帐户条件示例](./assets/node-split-paths-account-relational-schema.png){width="600" zoomable="yes"}
 
-对于&#x200B;**[!UICONTROL 按人员拆分路径]**&#x200B;条件，请使用搜索字段按&#x200B;_[!UICONTROL 人员属性]_&#x200B;下的自定义对象名称筛选列表。
-
-![关系架构自定义对象的“人员”属性条件示例](./assets/node-split-paths-people-relational-schema.png){width="600" zoomable="yes"}
-
-<!--
- SPHR-21734
-
-Note: These are currently going under Account Attributes/Person Attributes folder, which is a bug. This will move to Special filters when resolved (? release).
--->
-
-## 合并路径
+## 合并路径 {#merge-paths}
 
 添加一个&#x200B;_合并路径_&#x200B;节点以在您的历程中按帐户&#x200B;_组合不同的_&#x200B;拆分路径。
 
-1. 导航到历程图。
-
-1. 单击路径上的加号( **+** )图标，然后选择&#x200B;**[!UICONTROL 拆分路径]**。
-
-1. 单击拆分节点以打开其右侧的属性。
-
-1. 单击[!UICONTROL 添加路径]以创建三个路径。
-
-1. 向每个路径中添加操作和事件的组合。
+1. 在带有具有三条或更多路径的分割节点的历程图中，向每条路径添加操作和事件的组合。
 
 1. 单击其中任一路径的加号( **+** )图标，然后从显示的选项中选择&#x200B;**[!UICONTROL 合并]**。
 
@@ -325,6 +298,6 @@ Note: These are currently going under Account Attributes/Person Attributes folde
 
 1. 如果需要，您可以通过导航回合并路径节点属性并清除要删除的任何路径的复选框来取消合并路径。
 
-## 概述视频
+## 概述视频 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443266/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
