@@ -4,36 +4,56 @@ description: 创建具有条件自动分配的角色模板，以识别在Journey
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 97417ae1fcb017d4fcb7128e3fc0b61c829f867e
 workflow-type: tm+mt
-source-wordcount: 1412
-ht-degree: 5%
+source-wordcount: 1571
+ht-degree: 4%
 
 ---
 
 # 购买群组角色模板
 
-在B2B市场中，购买决策通常由多人做出。 这些个人根据其在组织内的作用参与决策过程。 创建购买组角色模板，这些模板根据每种产品和服务类型或帐户用例包含一组角色定义。
+在B2B市场中，通常会有多个人做出购买决定。 这些个人根据其在组织内的作用参与决策过程。 创建购买组角色模板，这些模板根据每种产品和服务类型或帐户用例包含一组角色定义。
 
 ![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看概述视频](#overview-video)
 
-## 访问和浏览角色模板
+>[!BEGINSHADEBOX]
+
+## Audience Agent B2B
+
+[Audience Agent B2B](../agents/audience-agent-b2b.md)可通过第一方意图检测和角色映射生成购买群组角色模板。 在引导式流程中，您可以识别链接到产品的角色，查看人工智能推荐的角色到角色映射，并在发布模板之前使用自然语言优化模板。
+
+**提示尝试：**
+
+* 为`<product>`创建购买组模板
+* 添加映射到`<persona>`的`<role>`
+* 移除`<role>` / `<persona>`
+
+![Audience Agent B2B正在创建购买小组角色模板](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
+
+>[!ENDSHADEBOX]
+
+>[!PREREQUISITES]
+>
+>在创建角色模板之前，请配置角色条件可以使用的数据：
+>
+>* [人员属性筛选器的人员配置文件字段映射](../admin/field-mapping.md#xdm-business-person-attributes)
+>* 如果您在角色条件中使用意图筛选器，则[意图数据](../admin/intent-data.md)
+>* 如果您需要超过六个默认值的角色，请[自定义购买群组角色](./default-custom-roles.md#custom-roles)（可选）
+
+## 访问和浏览角色模板 {#access-and-browse-role-templates}
 
 1. 在左侧导航栏中，单击&#x200B;**[!UICONTROL 购买群组]**。
 
 1. 在&#x200B;_[!UICONTROL 购买组]_&#x200B;页面中，选择&#x200B;**[!UICONTROL 角色模板]**&#x200B;选项卡。
 
-   ![“角色模板”选项卡](assets/roles-templates-tab.png){width="800" zoomable="yes"}
+   ![角色模板清单选项卡](assets/roles-templates-tab.png){width="800" zoomable="yes"}
 
    该选项卡提供所有现有角色模板的清单列表，并以列格式显示以下信息：
 
@@ -64,24 +84,28 @@ ht-degree: 5%
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-### 添加模板角色
+### 添加模板角色 {#add-the-template-roles}
 
-创建模板后，该模板将在工作区中打开，并提示您添加角色。 默认情况下，将显示第一个角色卡。
+创建模板后，该模板将在工作区中打开，并提示您添加角色。 默认情况下，系统将显示第一个角色卡。
+
+#### 角色条件筛选器类型
 
 您为模板定义的每个角色都使用一组筛选器（即&#x200B;_条件_）来确定分配给该角色的成员。 使用以下过滤器类型定义角色的条件：
 
 | 类型 | 条件 |
 | ---- | --------- |
-| [!UICONTROL 人员属性] | [个人资料](../admin/field-mapping.md#xdm-business-person-attributes)中的属性，包括： <li>城市 <li>国家 <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>名 <li>推断的州区域 <li>职务名称 <li>姓 <li>手机号码 <li>人员参与度分数 <li>电话号码 <li>邮政编码 <li>State |
+| [!UICONTROL 人员属性] | [个人资料](../admin/field-mapping.md#xdm-business-person-attributes)中的属性，包括： <li>城市 <li>国家/地区 <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>名 <li>推断的州区域 <li>职务名称 <li>姓 <li>手机号码 <li>人员参与度分数 <li>电话号码 <li>邮政编码 <li>State |
 | [!UICONTROL 自定义对象] >具有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}该帐户或人员具有或不具有关系架构记录。 也可以根据[XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中配置的任何所选自定义对象条件对其进行评估。 |
 | 特殊筛选条件 | <li>列表的成员（已弃用） <li>计划成员（已弃用） |
 | 意图数据 | <li>类别意图 <li>产品意图 <li>关键字意图<br/>（请参阅&#x200B;[_意图数据_](../admin/intent-data.md)） |
+
+#### 定义角色属性
 
 1. 对于第一个角色信息卡，定义角色属性。
 
    * 从列表中选择&#x200B;**[!UICONTROL 购买团体角色]**。
 
-     有六个默认角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 该列表还包括在&#x200B;_角色_&#x200B;列表[&#128279;](./default-custom-roles.md#custom-roles)中定义的任何自定义角色。
+     有六个默认角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 该列表还包括在&#x200B;_角色_&#x200B;列表](./default-custom-roles.md#custom-roles)中定义的任何[自定义角色。
 
      ![购买团体角色列表](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -89,11 +113,13 @@ ht-degree: 5%
 
      每个选项的值已转换为得分计算的百分比： [!UICONTROL 普通] = 20，[!UICONTROL 次要] = 40，[!UICONTROL 普通] = 60，[!UICONTROL 重要] = 80，以及[!UICONTROL 重要] = 100。
 
-     例如，角色使用Vital、Important和Normal的角色模板随后将转换为100/240、80/240、60/240。
+     例如，具有Vital、Important和Normal角色的角色模板将转换为100、80和60/240。
 
    * **[!UICONTROL 为自动分配添加条件]** — 选中此复选框可将自动分配成员的条件添加到符合条件的购买组。 如果未选中该复选框，则不需要添加条件。
 
    * **[!UICONTROL 完整性得分必需]** — 如果您希望该角色成为计算完整性得分的要求，请选中此复选框。
+
+#### 为自动分配添加条件
 
 1. 单击&#x200B;**[!UICONTROL 添加条件]**&#x200B;并为角色定义条件规则。
 
@@ -103,7 +129,7 @@ ht-degree: 5%
 
      >[!NOTE]
      >
-     >如果您在Experience Platform的业务人员架构中定义了自定义人员字段，则这些字段也可用作条件中的人员属性。
+     >如果您在Experience Platform业务人员架构中定义了自定义人员字段，则可以在条件中将这些字段用作人员属性。
 
      使用属性可使用一个或多个值创建匹配过滤器。
 
@@ -111,7 +137,7 @@ ht-degree: 5%
 
      使用工作标题的![角色模板条件示例](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-   * 如果已配置与XDM关系架构[&#128279;](../admin/xdm-field-management.md#relational-schemas)中定义的人员相关的自定义对象，请展开&#x200B;**[!UICONTROL 自定义对象]**&#x200B;的列表以在角色条件中使用它们。
+   * 如果已配置与XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中定义的人员[相关的自定义对象，请展开&#x200B;**[!UICONTROL 自定义对象]**&#x200B;的列表以在角色条件中使用它们。
 
      ![角色模板添加自定义对象条件](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
 
@@ -119,7 +145,9 @@ ht-degree: 5%
 
    * 单击&#x200B;**[!UICONTROL 完成]**。
 
-1. 对于要为模板包括的每个其他角色，单击&#x200B;**[!UICONTROL 添加其他角色]**&#x200B;并重复步骤1和2以定义该角色。
+#### 添加更多角色
+
+1. 对于要为模板包括的每个其他角色，单击&#x200B;**[!UICONTROL 添加其他角色]**&#x200B;并重复&#x200B;**定义角色属性**&#x200B;和&#x200B;**添加自动分配的条件**&#x200B;下的步骤以定义角色。
 
    ![定义了多个角色的角色模板](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
@@ -136,15 +164,15 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 
 >[!NOTE]
 >
->**功能弃用**</br></br>
+>**功能弃用**
 >
 >在当前Journey Optimizer B2B edition版本中，不再支持基于Marketo Engage实例中的列表或项目成员资格进行筛选。
 
 >[!ENDSHADEBOX]
 
-### 更改完整性得分设置
+### 更改完整性得分设置 {#change-the-completeness-score-settings}
 
-默认情况下，角色的完整性定义为分配给角色的一个成员。 如果要使用购买组完整性作为销售准备情况或成功<!-- journey decisioning coming later-->的指标，则可以使用这些设置使分数与关闭商机所需的每个角色的成员数保持一致。
+默认情况下，角色的完整性定义为分配给角色的一个成员。 使用购买组完整性来指示销售准备情况时，使用这些设置使分数与结束商机所需的成员数量保持一致。
 
 例如，要完成您的解决方案&#x200B;_X_&#x200B;的交易，需要确定并参与多个营销决策者，因为一个组织的多个营销团队将使用该解决方案。 在这种情况下，您需要提高阈值以至少需要两名营销决策人来计算&#x200B;_完成_&#x200B;购买组。
 
@@ -158,7 +186,7 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 
    您可以输入值，或单击&#x200B;**&amp;plus；**&#x200B;或&#x200B;**−**&#x200B;来增加或减少值。
 
-   ![角色模板 — 完整性得分设置按钮](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
+   ![角色模板完整性得分设置对话框](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -166,13 +194,15 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 
 如果模板已准备就绪，请单击右上方的&#x200B;**[!UICONTROL 发布]**。
 
-发布模板会将状态设置为&#x200B;_Live_&#x200B;状态，并使其可用于与解决方案兴趣关联。 必须至少定义一个角色才能发布角色模板。
+发布模板会将状态设置为&#x200B;_Live_，并使其可用于与解决方案兴趣关联。 必须至少定义一个角色才能发布角色模板。
+
+发布后，**[!UICONTROL 角色模板]**&#x200B;选项卡上的模板状态为&#x200B;_实时_，您可以在[创建感兴趣的解决方案](./solution-interests.md)时选择它。
 
 ## 编辑草稿角色模板
 
 当角色模板处于&#x200B;_草稿_&#x200B;状态时，您可以继续编辑定义的角色。 您所做的任何更改都会自动保存。
 
-更改角色卡标题中的任何设置，包括购买组角色、权重、自动分配和完整性评分要求。
+更改角色卡标题设置，如购买组角色、权重、自动分配或完整性评分要求。
 
 ![更改购买团体角色属性](./assets/roles-template-role-properties.png){width="600"}
 
@@ -198,10 +228,12 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 
 1. 单击右上方的&#x200B;**[!UICONTROL 删除]**。
 
-   ![更改角色优先级](./assets/roles-template-delete.png){width="700"}
+   ![删除角色模板确认对话框](./assets/roles-template-delete.png){width="700"}
 
 1. 在对话框中，单击&#x200B;**[!UICONTROL 删除]**&#x200B;以进行确认。
 
-## 概述视频
+   确认后，角色模板将从&#x200B;**[!UICONTROL 角色模板]**&#x200B;清单列表中删除。
 
->[!VIDEO](https://video.tv.adobe.com/v/3453311/?captions=chi_hans&learn=on)
+## 概述视频 {#overview-video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
