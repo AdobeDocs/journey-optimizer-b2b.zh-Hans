@@ -17,16 +17,16 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 1387
+source-wordcount: 1403
 ht-degree: 0%
 
 ---
 
 # 向历程添加电子邮件
 
-使用Adobe Journey Optimizer B2B edition通过帐户历程向客户发送电子邮件。 您可以选择在电子邮件设计空间创建、个性化和预览消息。 或者，您也可以选择发送已在连接的Marketo Engage实例中定义的电子邮件。
+使用Adobe Journey Optimizer B2B edition通过帐户历程向客户发送电子邮件。 您可以选择在电子邮件设计空间创建、个性化和预览消息。 或者，您也可以选择发送已在连接的Marketo Engage实例中定义的电子邮件。 在电子邮件处于历程中后，在[电子邮件性能报告](../dashboards/email-performance-dashboard.md)中监视发送、投放和参与。
 
 >[!NOTE]
 >

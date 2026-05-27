@@ -15,9 +15,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T23:21:08.953Z
 TQID: https://experienceleague.adobe.com/a5tIOW39sq3Lq30pQ3yr7-IvLGaAXC6LKqY8-mpxCDY
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 531
+source-wordcount: 568
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 单击活动帐户历程的名称时，将显示历程详细信息。 _[!UICONTROL 概述]_&#x200B;选项卡提供有关历程的有用信息，包括创作AI摘要。
 
-此仪表板提供选定帐户历程的全面概述，详细介绍使用圆图和折线图对一段时间的完成、正在进行的活动和中止进行分类和量化的帐户进度。 它有助于营销人员通过关键交付和参与量度来评估电子邮件和短信渠道的有效性。
+此仪表板提供选定帐户历程的全面概述，详细介绍使用圆图和折线图对一段时间的完成、正在进行的活动和中止进行分类和量化的帐户进度。 它有助于营销人员通过关键交付和参与量度来评估电子邮件和短信渠道的有效性。 有关在所有历程中聚合的电子邮件量度，请参阅[电子邮件性能报表](../dashboards/email-performance-dashboard.md)。
 
 此概述适用于已发布的帐户历程，大约需要4个小时才能将数据开始填充到图表和表中。
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ## 电子邮件和短信性能
 
-性能表详细说明了电子邮件和短信渠道的有效性。 每个表格都显示了诸如投放率和点进率之类的量度，帮助您评估每个通信接触点的影响。
+性能表详细说明了电子邮件和短信渠道的有效性。 每个表格都显示了诸如投放率和点进率之类的量度，帮助您评估每个通信接触点的影响。 下表仅显示此历程的电子邮件和短信量度。 对于所有历程中的相同电子邮件量度，请使用[电子邮件性能报表](../dashboards/email-performance-dashboard.md)。
 
 **[!UICONTROL 电子邮件性能]**&#x200B;表列：
 
