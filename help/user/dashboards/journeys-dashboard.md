@@ -6,29 +6,22 @@ role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
 autotag-review: '2026-05-21T21:07:43.367Z'
 TQID: 'https://experienceleague.adobe.com/u-zKjTHRErQFQCHxuft-gJiiiE5a1oJUIZfziasvcHs'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2:
-  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a1947a16cde3ba625027b794cd370a0143238e36
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6beid: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 5cc19ac1fd737b852717f069a78d5087f7fcab87
 workflow-type: tm+mt
-source-wordcount: 432
+source-wordcount: 449
 ht-degree: 2%
 
 ---
 
 # 历程概述功能板
 
-[帐户和人员历程](../journeys/journeys-overview.md)的概述仪表板提供了活动历程的全面快照。 圆形图和条形图可对完成和参与活动进行分类和量化，以便您能够通过关键投放和参与量度评估电子邮件和短信渠道的有效性。
+[帐户或人员历程](../journeys/journeys-overview.md)的概述仪表板提供了活动历程的全面快照。 圆形图和条形图可对完成和参与活动进行分类和量化，以便您能够通过关键投放和参与量度评估电子邮件和短信渠道的有效性。 有关特定于电子邮件的投放和参与数据的跨历程视图，请参阅[电子邮件性能报表](email-performance-dashboard.md)。
 
 此概述适用于已发布的历程，大约需要4个小时才能开始将数据填充到图表和表中。
 
