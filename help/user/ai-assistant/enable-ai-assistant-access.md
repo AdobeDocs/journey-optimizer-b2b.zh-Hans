@@ -60,7 +60,7 @@ ht-degree: 6%
 
 要了解如何为组织和用户配置对AI助理的访问权限，请观看以下视频。
 
->[!VIDEO](https://video.tv.adobe.com/v/3436470/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3475929/?captions=chi_hans&learn=on)
 
 ## 后续步骤
 
