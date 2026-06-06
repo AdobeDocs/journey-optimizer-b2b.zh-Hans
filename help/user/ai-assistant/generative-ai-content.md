@@ -6,25 +6,18 @@ level: Beginner
 topic: Artificial Intelligence
 role: User
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
+autotag-review: '2026-06-05T16:07:36.688Z'
+TQID: 'https://experienceleague.adobe.com/W-BpOy-U5Be3BJxbcWpnNheZs06sLHRAdvQJca3t--o'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 2506
-ht-degree: 7%
+source-wordcount: 2476
+ht-degree: 3%
 
 ---
 
@@ -33,22 +26,22 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-settings"
 >title="AI 内容生成"
->abstract="完成布局设计后，您可以在 [!DNL Journey Optimizer B2B Edition] 中使用生成式 AI 工具来增强您的内容。 此功能可根据您的描述性提示对内容进行微调，从而简化个性化和内容优化流程。"
+>abstract="在构建布局后，在[!DNL Journey Optimizer B2B Edition]中使用创作AI工具来增强您的内容。 此功能根据您的提示微调内容，从而简化个性化和内容改进。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-reference-context"
 >title="参考内容"
->abstract="使用&#x200B;_参考内容_&#x200B;上传包含相关内容的资源文件，为 [!DNL Journey Optimizer B2B Edition] 中的生成式 AI 提供额外上下文，或选择之前上传的文件。 此选项可确保所有必要材料均可用于提升生成内容的质量和相关性。"
+>abstract="使用&#x200B;_引用内容_&#x200B;上载或选择为[!DNL Journey Optimizer B2B Edition]中的创作AI提供上下文的资源文件。 这可确保提供材料，以提高所生成内容的质量和相关性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-start"
 >title="Adobe 生成式 AI 条款"
->abstract="此功能的访问取决于您是否同意遵守 Adobe Experience Cloud 生成式 AI 用户指南。 请审阅此功能生成的任何输出内容，以确保其准确性并适用于您的用例。"
+>abstract="要访问此功能，您需要接受Adobe Experience Cloud创作AI用户准则。 请审阅此功能生成的任何输出内容，以确保其准确性并适用于您的用例。"
 >additional-url="https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 用户准则"
 
 由Microsoft Azure OpenAI和Adobe Firefly提供支持的[!DNL Adobe Journey Optimizer B2B Edition]中内容的创作AI，为文本和图像提供主动内容变体建议。 通过试验不同的主标题和图像，优化您的内容影响。
 
-使用创作AI功能在[!DNL Journey Optimizer B2B Edition]中创建内容，以利用Adobe的创作AI功能。 为电子邮件、短信消息、登陆页面等制作个性化的文本和可视化图表。 当您构建整个促销活动或只是优化特定资产时，这些功能可帮助您将内容无缝地与品牌准则保持一致，同时节省宝贵的时间。
+使用创作AI功能在[!DNL Journey Optimizer B2B Edition]中创建内容，以利用Adobe的创作AI功能。 为电子邮件、短信消息、登陆页面等制作个性化的文本和可视化图表。 在构建营销活动或优化资产时，这些功能可帮助您使内容与品牌准则保持一致，同时节省时间。
 
 <!--
 Generate multiple variants and build an experiment to compare them. Leveraging Journey Optimizer Content Experiment, you can define multiple message treatments to measure which one performs best for your target audience. You can choose to vary the delivery content, or subject. The message audience is randomly allocated to each treatment to determine which one works best in terms of the specified metric. Learn more about Content Experiment in this section. 
@@ -65,7 +58,7 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 
 ## 一般准则和限制 {#general-guidelines-and-limitations}
 
-生成AI功能的使用受[Adobe Experience Cloud生成AI用户指南](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}的约束。 由于Adobe承诺在使用创作AI工具创建媒体时保持透明度，因此Adobe在下载或导出包含[!DNL Firefly]生成的资源的任何内容或项目时会应用[内容凭据](https://helpx.adobe.com/cn/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}。
+生成AI功能的使用受[Adobe Experience Cloud生成AI用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}的约束。 由于Adobe承诺在使用创作AI工具创建媒体时保持透明度，因此Adobe在下载或导出包含[!DNL Firefly]生成的资源的任何内容或项目时会应用[内容凭据](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}。
 
 查看这些对[!DNL Journey Optimizer B2B Edition]中的内容使用创作AI的一般准则：
 
@@ -313,7 +306,7 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
  
 -->
 
-### 新内容与修改现有内容 {#new-vs-modify}
+### 新内容或修改现有内容 {#new-vs-modify}
 
 明确指示您的请求是否涉及生成新内容或更新现有材料。 这种区分很重要，因为它指导人工智能选择适当的方法，并确保产生更准确和有益的结果。
 
