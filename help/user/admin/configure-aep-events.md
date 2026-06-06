@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 5a18693617ebd20fe3d552d9bbc236888348ad57
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
 source-wordcount: 1605
 ht-degree: 11%
@@ -125,7 +125,7 @@ ht-degree: 11%
 
 ### 编辑事件 {#edit-an-event}
 
-编辑事件详细信息以更改字段。
+要更改字段，请编辑事件详细信息。
 
 1. 单击事件名称，或单击&#x200B;_更多菜单_ (**...** )图标并选择&#x200B;**[!UICONTROL 编辑]**。
 
@@ -151,7 +151,7 @@ ht-degree: 11%
 
 对于[!DNL Journey Optimizer B2B Edition]，某些人员级别的活动被捕获为[!DNL Experience Platform]体验事件。 这些事件存储在使用XDM体验事件架构的系统数据集中，其中包括特定于历程的字段组。 您可以在[!UICONTROL Journey Optimizer B2B edition]中像任何其他体验事件一样使用这些事件。
 
-每个事件都公开一组定义的字段，这些字段可用于历程&#x200B;_侦听事件_&#x200B;节点（基于事件进行决策）。 查看可用的事件类型及其字段，以确定要在这些历程节点中使用的事件和字段：
+每个事件都公开一组定义的字段，这些字段可用于历程&#x200B;_侦听事件_&#x200B;节点（基于事件进行决策）。 要确定在这些历程节点中使用的事件和字段，请查看可用的事件类型及其字段：
 
 ### 电子邮件已发送 {#email-sent}
 

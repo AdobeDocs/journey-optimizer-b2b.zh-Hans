@@ -17,9 +17,9 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1403
+source-wordcount: 1399
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 0%
 
    * 选择&#x200B;**[!UICONTROL 从Adobe Marketo Engage中选择电子邮件]**&#x200B;以使用Marketo Engage中预先编写的电子邮件之一，并将其作为历程的一部分发送。
 
-     如果在连接的Market Engage实例中有多个工作区可用，请选择该工作区。 然后，选择要为历程节点发送的已批准电子邮件。
+     如果连接的Marketo Engage实例中有多个工作区可用，请选择该工作区。 然后，选择要为历程节点发送的已批准电子邮件。
 
      ![选择Marketo Engage电子邮件](./assets/email-select-marketo.png){width="500" zoomable="yes"}
 
@@ -138,7 +138,7 @@ ht-degree: 0%
      >
      >营销风格的电子邮件必须包含选择退出链接，这对于事务型消息不是必需的。
 
-   * `Text version of HTML is empty`：别忘了定义电子邮件正文的文本版本，此文本版本在HTML内容无法显示时使用。
+   * `Text version of HTML is empty`：定义电子邮件正文的文本版本，在HTML内容无法显示时使用。
 
    * `Empty link is present in email body`：检查电子邮件中的所有链接是否正确。
 

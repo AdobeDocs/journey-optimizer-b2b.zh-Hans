@@ -15,9 +15,9 @@ topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 autotag-review: 2026-03-30T22:35:16.900Z
 TQID: https://experienceleague.adobe.com/iwVl-dwU9oGG0rHQ9-J3EO5r3B778jQCe6XK742ArEo
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 277
+source-wordcount: 273
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 创建电子邮件模板时，内容设计者可以启用[管理（_内容锁定_）](./template-content-governance.md)。 利用治理功能，他们可以指定在帐户历程中使用时无法更改的设计部分。 当您[选择保存的模板](./email-authoring.md#select-a-template)来创作电子邮件时，可视化设计空间将加载该模板，以便您可以将其用作电子邮件的基础。
 
-如果模板启用了管理，则右侧的“属性”面板中会显示警报。 您可以打开画布顶部的&#x200B;**[!UICONTROL 突出显示可编辑区域]**，以查看可在历程中使用的组件和内容元素。
+如果模板启用了管理，则右侧的“属性”面板中会显示警报。 选择画布顶部的&#x200B;**[!UICONTROL 突出显示可编辑区域]**，查看可在历程中使用的组件和内容元素。
 
 ![在受管辖的模板中查看可编辑区域](./assets/email-designer-governed-highlight.png){width="800" zoomable="yes"}
 

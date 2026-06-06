@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:48:47.183Z
 TQID: https://experienceleague.adobe.com/nM-Jxcj7wekzRks2xCqshOdlY7W8K0WKCXtWCNSb388
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
 source-wordcount: 541
-ht-degree: 81%
+ht-degree: 75%
 
 ---
 
@@ -41,7 +41,7 @@ Marketo Engage操作是&#x200B;_基于人员的_&#x200B;操作，通过此类操
 >title="外部 Marketo Engage 连接"
 >abstract="产品管理员可以配置与外部 Marketo Engage 实例的连接，使其可用于历程操作。"
 
-完成以下任务以配置外部Marketo Engage实例用于历程操作。
+要配置外部Marketo Engage实例以与历程操作一起使用，请完成以下任务。
 
 ### 创建Marketo Engage自定义服务
 
@@ -86,6 +86,6 @@ Marketo Engage操作是&#x200B;_基于人员的_&#x200B;操作，通过此类操
 >
 >从历程执行的Marketo Engage操作不适用于连接的Marketo Engage实例的REST API限制。
 
-完成集成后，可从节点属性中的&#x200B;**对**&#x200B;执行的操作中执行Marketo Engage操作。
+完成集成后，可从节点属性中的&#x200B;:_&#x200B;**上的**&#x200B;_Actions执行Marketo Engage操作。
 
 ![Marketo操作列表](assets/marketo-actions-list.png){width="800" zoomable="yes"}

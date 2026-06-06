@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 01ee41d681aa67052f4fd34edc86159b054c6644
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 1511
-ht-degree: 44%
+source-wordcount: 1512
+ht-degree: 42%
 
 ---
 
@@ -110,7 +110,7 @@ Journey Optimizer B2B edition支持两种历程类型：
 
 ### 历程状态
 
-历程的状态会根据您应用的操作而改变。 根据历程的状态，标头右侧的某些操作可用/不可用。
+历程的状态会根据您应用的操作而改变。 根据历程的状态，某些操作在标题右侧不可用或不可用。
 
 | 状态 | 描述 | 可用操作 |
 | ------ | ----------- | ----------------- |
@@ -170,7 +170,7 @@ Journey Optimizer B2B edition支持两种历程类型：
 
 ### 复制历程 {#duplicate-journey}
 
-复制操作类似于克隆功能，但复制的历程不包含任何已创建的历程内容资产。 您可以复制历程的详细信息，或仅复制流量和路径结构的简单&#x200B;_框架_。
+复制操作类似于克隆功能，但复制的历程不包含任何已创建的历程内容资产。 您可以复制历程的详细信息，或复制流量和路径结构的简单&#x200B;_结构_。
 
 1. 单击&#x200B;_更多_&#x200B;图标(**...**) 在历程名称旁边，然后选择&#x200B;**[!UICONTROL 复制]**。
 
@@ -194,7 +194,7 @@ Journey Optimizer B2B edition支持两种历程类型：
 
    * **[!UICONTROL 部分内容复制]** - 使用此类型来复制历程中的所有内容，但不包括任何已创建的电子邮件或 SMS 消息。 引用 Marketo Engage 电子邮件或 SMS 消息的节点会被完整保留。
 
-   * **[!UICONTROL 复制但不包含详细信息]** - 使用此类型仅复制节点结构和路径。 所有节点设置和路径条件均未定义（默认），以便您可以重复使用具有不同受众、操作和路径分段设置的基本流程。 所有&#x200B;_等待_&#x200B;节点默认设置为五天。
+   * **[!UICONTROL 复制但不包含详细信息]** — 使用此类型仅复制节点结构和路径。 所有节点设置和路径条件均未定义（默认），以便您可以重复使用具有不同受众、操作和路径分段设置的基本流程。 所有&#x200B;_等待_&#x200B;节点默认设置为五天。
 
 1. 单击&#x200B;**[!UICONTROL 复制]**。
 

@@ -17,18 +17,18 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T22:20:15.181Z
 TQID: https://experienceleague.adobe.com/npmmJAOBjGr4QPoK5320jVjN-PDpWZ99aqN1ldljXzk
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: 531
 ht-degree: 5%
 
 ---
 
 # 销售警报电子邮件
 
-_销售提醒电子邮件_&#x200B;表示将购买组移交给销售人员。 该电子邮件包含购买组的摘要以及有关购买组成员及其活动的信息。
+_销售提醒电子邮件_&#x200B;表示将购买组转移给销售人员。 该电子邮件包含购买组的摘要以及有关购买组成员及其活动的信息。
 
-作为营销人员，您可以在帐户历程中配置销售警报电子邮件节点，以提醒销售团队特定购买群组的历程已完成。 在该节点中，您可以指定销售团队的电子邮件地址或到达一组帐户的分配别名。
+要提醒您的销售团队特定购买组的历程已完成，您可以在帐户历程中配置销售提醒电子邮件节点。 在该节点中，您可以指定销售团队的电子邮件地址或到达一组帐户的分配别名。
 
 >[!IMPORTANT]
 >

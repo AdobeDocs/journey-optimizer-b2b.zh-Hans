@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:14:46.843Z
 TQID: https://experienceleague.adobe.com/-emMaxlrae40JXP0tThacD3xA27d5OzO8tX6o-mOnfg
-source-git-commit: 78e4ecfbaf8eab98878f9c92dac6524fc8b30c41
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: 861
 ht-degree: 5%
 
 ---
@@ -69,7 +69,7 @@ _历程图_&#x200B;是历程工作区的中心区域。 在此区域中，您可
 * [帐户受众节点](./account-audience-nodes.md)
 * [人员受众节点](./person-audience-nodes.md)
 
-创建帐户历程并添加受众后，使用节点构建历程。 历程图提供了一个画布，您可以在其中使用以下节点类型构建多步骤B2B营销用例以构建帐户历程：
+创建帐户历程并添加受众后，使用节点设计历程。 历程图提供了一个画布，您可以在其中使用以下节点类型构建多步骤B2B营销用例以构建帐户历程：
 
 * [执行操作](./action-nodes.md)
 * [侦听事件](./listen-for-event-nodes.md)
@@ -100,7 +100,7 @@ _历程图_&#x200B;是历程工作区的中心区域。 在此区域中，您可
 
 1. 在右侧的节点属性中，单击&#x200B;_删除_ （ ![删除图标](../assets/do-not-localize/icon-delete.svg) ）图标。
 
-1. 在配置对话框中，单击&#x200B;**[!UICONTROL 删除]**。
+1. 在确认对话框中单击&#x200B;**[!UICONTROL 删除]**。
 
 ## 添加和删除路径
 

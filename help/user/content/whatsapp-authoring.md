@@ -14,7 +14,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 828
 ht-degree: 1%
@@ -91,11 +91,11 @@ WhatsApp支持以下消息类型：
 
    ![创建WhatsApp — 操作选项卡](./assets/whatsapp-create-actions-tab.png){width="700" zoomable="yes"}
 
-1. 单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;以转到消息参数和文本。
+1. 单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;以继续查看消息参数和文本。
 
 ### 选择消息模板
 
-使用您Meta WhatsApp商业帐户中的预批准消息模板发送WhatsApp消息。 **模板必须由Meta审核和批准**，然后才能在Journey Optimizer B2B edition中使用。 与您的[!DNL Meta Business Manager]帐户管理员合作，管理和提交模板以供审批。
+使用您Meta WhatsApp商业帐户中的预批准消息模板发送WhatsApp消息。 **模板必须由Meta审核和批准**，然后才能在Journey Optimizer B2B edition中使用。 要管理和提交模板以供审批，请与您的[!DNL Meta Business Manager]帐户管理员联系。
 
 1. 对于&#x200B;**[!UICONTROL 选择模板类别]**，请选择下列选项之一：
 
@@ -109,7 +109,7 @@ WhatsApp支持以下消息类型：
 
    ![在预览窗口中加载了消息的WhatsApp选定消息模板](./assets/whatsapp-create-select-template.png){width="700" zoomable="yes"}
 
-   模板按类别（_营销_、_实用程序_&#x200B;和&#x200B;_身份验证_）和状态组织。 仅&#x200B;**_已批准_**&#x200B;模板可供选择。 有关创建WhatsApp模板的更多信息，请参阅Meta文档中的&#x200B;[_为您的WhatsApp商业帐户创建消息模板_](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)。
+   系统按类别（_营销_、_实用程序_&#x200B;和&#x200B;_身份验证_）和状态组织模板。 仅&#x200B;**_已批准_**&#x200B;模板可供选择。 有关创建WhatsApp模板的更多信息，请参阅Meta文档中的&#x200B;[_为您的WhatsApp商业帐户创建消息模板_](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)。
 
 ### 图像URL
 

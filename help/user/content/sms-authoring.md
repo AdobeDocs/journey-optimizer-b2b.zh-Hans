@@ -17,9 +17,9 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T22:13:38.262Z
 TQID: https://experienceleague.adobe.com/OdjIx1STDdn3U-iJvotNKYKmuZfao6FYtZTxhRAAdlE
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1343
+source-wordcount: 1306
 ht-degree: 3%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 3%
 
 1. 通过单击令牌旁边的加号( **+**)符号添加令牌。
 
-   如果要添加带有回退的令牌（如果该字段对于潜在客户不可用，将显示默认值），请单击&#x200B;_更多_&#x200B;图标( **...**)，然后选择&#x200B;**[!UICONTROL 插入带有回退文本]**。
+   如果要添加带有回退的令牌，请单击&#x200B;_更多_&#x200B;图标(**...**)，然后选择&#x200B;**[!UICONTROL 插入带有回退文本]**。 回退是当该字段不可用于潜在客户时显示的默认值。
 
    ![单击省略号以使用令牌的回退](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"}
 
@@ -108,7 +108,7 @@ ht-degree: 3%
 
      >[!NOTE]
      >
-     >当您允许跟踪但禁用&#x200B;_[!UICONTROL 包含mkt_tok]_&#x200B;时，目标URL在重定向后不包含`mkt_tok`查询字符串参数。 Marketo Engage登陆页面和Munchkin使用此参数以确保跟踪人员活动（例如，当人员取消订阅电子邮件时）。 除非参数导致您的网站上出现问题，否则请勿禁用此选项。<br/>
+     >当您允许跟踪但禁用&#x200B;_[!UICONTROL 包含mkt_tok]_&#x200B;时，目标URL在重定向后不包含`mkt_tok`查询字符串参数。Marketo Engage登陆页面和Munchkin使用此参数以确保跟踪人员活动（例如，当人员取消订阅电子邮件时）。除非参数导致您的网站上出现问题，否则请勿禁用此选项。<br/>
      >有关在网站上使用Munchkin跟踪代码的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}。
 
    ![为短信消息添加链接对话框](./assets/sms-add-link-dialog.png){width="470"}
@@ -175,9 +175,9 @@ ht-degree: 3%
 
 ## 短信同意管理
 
-向收件人提供取消订阅以停止从品牌接收通信的功能，并遵守此选择是一项法律要求。 未能遵守这些法规会为您的品牌带来法律风险。 此功能还可帮助您避免向收件人发送未经请求的通信，这种通信可能会导致他们将您的邮件标记为垃圾邮件并损害您的声誉。
+向收件人提供取消订阅以停止从品牌接收通信的功能，并遵守此选择是一项法律要求。 未能遵守这些法规会为您的品牌带来法律风险。 此功能可帮助您避免向收件人发送未经请求的通信，这种通信可能会导致他们将您的邮件标记为垃圾邮件并损害您的声誉。
 
-提供此选项后，短信收件人可以使用选择启用和选择禁用关键词进行回复。 支持并接受所有标准的选择加入和选择退出关键词，以及使用SMS服务提供商配置的任何自定义关键词。 取消订阅后，用户档案将自动从未来营销消息的受众中删除。
+提供此选项后，短信收件人可以使用选择启用和选择禁用关键词进行回复。 支持并遵循所有标准的选择启用和选择禁用关键词，以及使用SMS服务提供商配置的任何自定义关键词。 取消订阅后，用户档案将自动从未来营销消息的受众中删除。
 
 Journey Optimizer B2B edition提供了使用以下逻辑管理短信消息中的选择退出的功能：
 

@@ -17,10 +17,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1175
-ht-degree: 2%
+source-wordcount: 1164
+ht-degree: 3%
 
 ---
 
@@ -44,11 +44,11 @@ ht-degree: 2%
 
 >[!TIP]
 >
->使用由generative AI提供支持的Adobe Journey Optimizer B2B edition中的AI助手，将您的内容提升到新的级别。 AI Assistant可以帮助您优化投放的影响，方法是生成整个电子邮件、提供有针对性的文本内容，并为可与受众产生共鸣的图像获取AI Assistant推荐。 [了解详情](./ai-assistant-emails.md)
+>使用由generative AI提供支持的Adobe Journey Optimizer B2B edition中的AI助手来改进内容。 AI Assistant可以帮助您优化投放的影响，方法是生成整个电子邮件、提供有针对性的文本内容，并为可与受众产生共鸣的图像获取AI Assistant推荐。 [了解详情](./ai-assistant-emails.md)
 
 ## 从头开始设计您的电子邮件 {#design-from-scratch}
 
-使用可视内容设计空间来定义电子邮件的结构和内容。 通过简单的拖放操作添加和移动结构组件，您可以在几秒钟内设计可重用电子邮件内容的形状。
+使用可视内容设计空间来定义电子邮件的结构和内容。 通过执行简单的拖放操作来添加和移动结构组件，您可以在几秒钟内设计电子邮件内容的布局和组织。
 
 1. 从&#x200B;_[!UICONTROL 设计您的模板]_&#x200B;主页中，选择&#x200B;**[!UICONTROL 从头开始设计]**&#x200B;选项。
 
@@ -92,7 +92,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> 保存的模板可能已将管理（内容锁定）设置应用于一个或多个组件。 当您[从受控制的模板](./email-authoring-governance.md)创作电子邮件时，可视设计空间提供了有关锁定的组件的准则。
+> 保存的模板可以将管理（内容锁定）设置应用于一个或多个组件。 当您[从受控制的模板](./email-authoring-governance.md)创作电子邮件时，可视设计空间提供了有关锁定的组件的准则。
 
 ## 添加结构和内容 {#structure-content}
 
@@ -156,9 +156,9 @@ ht-degree: 2%
 
 * 通过预设缩放选项放大/缩小内容。
 
-* 切换在桌面、移动设备或纯文本/纯文本中查看内容。
+* 在桌面、移动设备或纯文本/纯文本中查看内容之间切换。
    * 单击&#x200B;_查看_&#x200B;图标可跨设备预览内容。
-   * 选择一个现成的设备或输入自定义维度以预览内容。
+   * 选择其中一个预定义设备或输入自定义维度以预览内容。
 
 ## 更多选项
 
@@ -166,7 +166,7 @@ ht-degree: 2%
 
 ![单击“更多”以访问模板操作](./assets/email-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL 重置电子邮件]** — 单击此选项可将电子邮件设计画布清除为空白并重新启动内容生成。
+* **[!UICONTROL 重置电子邮件]** — 单击此选项可清除电子邮件设计画布并重新启动内容生成。
 * **[!UICONTROL 另存为片段]** — 将电子邮件的全部或部分另存为片段，以便在多个电子邮件或电子邮件模板中重复使用。 您可以提供片段的名称和描述，并将其保存到可用片段列表中。
 * **[!UICONTROL 更改您的设计]** — 返回&#x200B;_设计您的电子邮件_&#x200B;页面。 从那里，您可以选择另一个模板以重新启动设计过程。 您还可以选择使用空白画布（_经典模式_）或使用[品牌主题](./brand-themes.md)（_主题模式_）从头开始设计内容。
 * **[!UICONTROL 另存为内容模板]** — 将电子邮件正文另存为电子邮件模板，以便在多个电子邮件或电子邮件模板中重复使用。 您可以提供模板的名称和描述，并将其保存到已保存电子邮件模板的列表中。
@@ -180,7 +180,7 @@ ht-degree: 2%
 
 ![模拟电子邮件内容以检查您的设计](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
 
-您可以访问其他工具来验证和查看电子邮件内容：
+要验证和查看电子邮件内容，请访问其他工具：
 
 * [发送验证](./email-simulate-content.md#send-proofs)
 * [测试电子邮件客户端中的渲染](./email-test-rendering.md)

@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:57.315Z
 TQID: https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE
-source-git-commit: 78e4ecfbaf8eab98878f9c92dac6524fc8b30c41
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 134
-ht-degree: 14%
+source-wordcount: 133
+ht-degree: 15%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 14%
 * [帐户受众](./account-audience-nodes.md)
 * [人员受众](./person-audience-nodes.md) (Beta)
 
-通过将不同的操作、事件和编排节点组合为多步骤、跨渠道方案来构建您的历程。 历程的每个节点表示逻辑路径上的一个步骤。 使用以下节点类型构建帐户历程：
+通过将不同的操作、事件和编排节点组合为一个多步骤、跨渠道方案来构建您的历程。 历程的每个节点表示逻辑路径上的一个步骤。 使用以下节点类型构建帐户历程：
 
 * [执行操作](./action-nodes.md)
 * [侦听事件](./listen-for-event-nodes.md)

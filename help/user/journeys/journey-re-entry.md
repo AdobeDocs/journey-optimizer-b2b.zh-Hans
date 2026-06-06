@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: bb44a295784fbdeab2583cf7c759b15c0808d7d5
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
 source-wordcount: 419
 ht-degree: 9%
@@ -27,7 +27,7 @@ ht-degree: 9%
 
 # 历程重新进入
 
-_仅限帐户历程_
+_&#x200B;**仅限帐户历程**&#x200B;_
 
 为帐户历程启用重新进入后，您可以控制帐户何时以及多久重新进入一次同一历程。 使用重新进入设置来设置标准、限制和等待时间，以便帐户需要以可控方式完成历程。
 
