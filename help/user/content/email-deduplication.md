@@ -7,35 +7,30 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、重复数据删除、历程、复制
 exl-id: 93107acd-1cb2-4316-acfc-e32ab1e065ae
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: 2026-03-30T22:08:16.582Z
 TQID: https://experienceleague.adobe.com/aWKXaC6x4Izeh81A6Fpy-Nrf18fHgnq6jUc-82ohErs
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 343
+source-wordcount: 327
 ht-degree: 1%
 
 ---
 
 # 电子邮件重复数据删除
 
-在帐户历程中使用电子邮件重复数据删除，以确保同一电子邮件不会在历程中多次发送到同一电子邮件地址。 启用此功能时，将阻止重复的电子邮件地址，直到使用该电子邮件地址的第一条记录完成历程。 帐户完成历程后，作为进入历程的新帐户的一部分，人员有资格再次接收电子邮件。
+要确保同一电子邮件不会在历程中多次发送到同一电子邮件地址，请在帐户历程中使用电子邮件重复数据删除。 启用此功能时，将阻止重复的电子邮件地址，直到使用该电子邮件地址的第一条记录完成历程。 帐户完成历程后，作为进入历程的新帐户的一部分，人员有资格再次接收电子邮件。
 
 ## 何时使用电子邮件重复数据删除
 
-在几种关键情况下，您应该考虑启用电子邮件重复数据删除：
+在启用电子邮件重复数据删除时，需要考虑以下几种主要情况：
 
 * **电子邮件未在Real-Time CDP中用作身份** — 同一电子邮件地址可能会出现在多个人员配置文件中。 如果这些重复的用户档案符合同一历程的条件，并且您想要阻止多次发送电子邮件，请启用此功能。
 
-* **与多个帐户关联的单个人员** — 如果您的Real-Time CDP数据模型允许单个人员与多个帐户关联，并且您希望在多个帐户（包括具有相同电子邮件地址的用户档案）符合同一历程的资格时，避免向此人发送两次相同的电子邮件，请启用此功能。
+* **与多个帐户关联的单个人员** — 如果您的[!DNL Real-Time CDP]数据模型将单个人员与多个帐户关联，请启用此功能以避免当具有相同电子邮件地址的多个用户档案符合同一历程的资格时，发送同一电子邮件两次。
 
 >[!NOTE]
 >

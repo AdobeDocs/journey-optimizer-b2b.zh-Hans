@@ -4,21 +4,16 @@ description: 访问 Journey Optimizer B2B Edition 并导航个性化主页——
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ce
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:19:43.813Z
 TQID: https://experienceleague.adobe.com/GjEJsGSThzDVqWTjFyTijmazYCaV2mSJoFgAH7G5-8s
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 421
-ht-degree: 93%
+source-wordcount: 415
+ht-degree: 83%
 
 ---
 
@@ -30,7 +25,7 @@ ht-degree: 93%
  Requirements?
 -->
 
-要访问 [!DNL Adobe Journey Optimizer B2B Edition]，请使用 Adobe ID 连接到 Adobe Experience Cloud，然后选择 [!DNL Journey Optimizer B2B Edition]。
+要访问[!DNL Adobe Journey Optimizer B2B Edition]，请使用您的Adobe ID连接到Adobe Experience Cloud，然后选择[!DNL Journey Optimizer B2B Edition]。
 
 ![Adobe Experience Platform 应用程序](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
@@ -39,9 +34,9 @@ ht-degree: 93%
 
 ![Journey Optimizer B2B Edition 主页](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B Edition 有两个主要的用户画像：_&#x200B;**营销人员**&#x200B;_&#x200B;和&#x200B;_&#x200B;**管理员**&#x200B;_。 每个用户画像都有针对不同成熟度阶段（新用户或高级用户）的特定主页。 页面内容基于每个用户画像所需的信息以及接下来要执行的操作。
+Journey Optimizer B2B Edition 有两个主要的用户画像：_**营销人员**_&#x200B;和&#x200B;_**管理员**_。 每个用户画像都有针对不同成熟度阶段（新用户或高级用户）的特定主页。 页面内容基于每个用户画像所需的信息以及接下来要执行的操作。
 
-* **营销人员 - 新用户**——针对新用户的&#x200B;_营销人员_&#x200B;主页可帮助他们熟悉 Journey Optimizer B2B 及其功能。 它包括为新营销人员在新加入时进行指导性讲解，以便他们能够了解系统的细微差别，并有效地制定 B2B 营销策略和计划。
+* **营销人员 - 新用户**——针对新用户的&#x200B;_营销人员_&#x200B;主页可帮助他们熟悉 Journey Optimizer B2B 及其功能。 其中包括面向新营销人员的引导式演练，以便他们能够了解系统的细微差别，并有效制定B2B营销策略和计划。
 * **营销人员 - 高级用户**——针对高级营销人员的&#x200B;_营销人员_&#x200B;主页显示当前计划进度、建议的后续操作，并提供相关部分的快速访问。
 * **管理员 - 新用户**——针对新管理员的&#x200B;_管理员_&#x200B;主页可帮助他们熟悉 Journey Optimizer B2B Edition 及其功能。 它包括一个指导性讲解，逐步引导新管理员加入历程，以便他们能够了解系统的细微差别，并有效地制定 B2B 营销策略和计划。
 * **管理员 - 高级用户** ——针对高级管理员的&#x200B;_管理员_&#x200B;主页显示当前实例状态和可操作步骤，以提高管理员的工作效率与成效。

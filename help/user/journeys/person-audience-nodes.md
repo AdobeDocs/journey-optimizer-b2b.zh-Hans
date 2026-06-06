@@ -5,23 +5,16 @@ feature: Audiences
 role: User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: 8d4785cd-87f0-4548-9aba-fa18165b0f45
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: ff2b9b37-92e0-45fc-b853-379d44c08c89id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:05.616Z
 TQID: https://experienceleague.adobe.com/b6m294dcpyV34TMoZgOGL6Wft1mI7j4c5IcMhUnG4qE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 716
+source-wordcount: 678
 ht-degree: 1%
 
 ---
@@ -34,7 +27,7 @@ _人员受众_&#x200B;节点指定哪些人员配置文件进入历程。 当您
 
 * **个人资料受众** — 使用CDP中定义的区段受众。 所有符合受众资格的用户档案都将作为成员添加到历程。 在每天[用户档案摄取](#profile-ingestion)任务期间，区段的新资格用户档案会添加到历程中。 如果配置文件不再符合该区段的条件，则它&#x200B;**_不_**&#x200B;从历程中删除。
 
-* **事件受众** — 使用符合条件的事件来定义受众。 这些事件是在节点配置中定义的，必须使用在管理设置[&#128279;](../admin/configure-aep-events.md)中配置的XDM事件。 基于事件的受众成员资格支持最多10个事件。 用户档案在其用户档案接受的第一个匹配事件之后，立即符合历程的条件。
+* **事件受众** — 使用符合条件的事件来定义受众。 这些事件是在节点配置中定义的，必须使用在管理设置](../admin/configure-aep-events.md)中配置的[XDM事件。 基于事件的受众成员资格支持最多10个事件。 用户档案在其用户档案接受的第一个匹配事件之后，立即符合历程的条件。
 
   >[!NOTE]
   >
@@ -42,11 +35,11 @@ _人员受众_&#x200B;节点指定哪些人员配置文件进入历程。 当您
 
 ## 轮廓摄取
 
-在Journey Optimizer B2B edition中，夜间受众摄取任务可使配置文件与Experience Platform保持同步。 虽然基于事件的人员历程可以确定不属于由Journey Optimizer B2B edition摄取/使用的配置文件或帐户受众的用户档案，但这会导致摄取的配置文件保持陈旧，除非它们属于由人员历程、帐户历程或购买团体使用的受众。 如果摄取某个配置文件后将其添加到受众，则会执行配置文件拼接，并且该配置文件会与Experience Platform保持同步。 计划在未来版本中改进此配置文件数据同步。
+在Journey Optimizer B2B edition中，夜间受众摄取任务会将配置文件与Experience Platform同步。 基于事件的人员历程可以确定不在Journey Optimizer B2B edition使用的受众中的用户档案，但这些用户档案仍然会过时，除非它们加入人员历程、帐户历程或购买团体使用的受众。 如果摄取某个配置文件后将其添加到受众，则会执行配置文件拼接，并且配置文件会与Experience Platform保持同步。 计划在未来版本中改进此配置文件数据同步。
 
-基于事件的人员历程摄取的新创建的用户档案在摄取时可能没有更新的用户档案信息。 例如，如果配置文件通过表单填写事件创建，并且人员历程从符合条件的表单填写事件中摄取它们，则表单中提交的数据可能尚未在历程摄取时同步到配置文件。 结果可能是用于个性化的数据不完整（如电子邮件内容中的数据）。 计划在未来版本中改进此配置文件事件数据同步。
+基于事件的人员历程摄取的新创建的用户档案可能缺少摄取时更新的用户档案信息。 例如，如果配置文件通过表单填写事件创建，则提交的数据在历程摄取时可能不会同步到配置文件。 结果可能是用于个性化的数据不完整（如电子邮件内容中的数据）。 计划在未来版本中改进此配置文件事件数据同步。
 
-基于事件的人员历程可使仍为匿名/没有电子邮件地址且仅包含ECID的用户档案符合条件。 当具有网页活动的资格逻辑时，最常发生这种情况。 如果符合条件的配置文件过多，则过于宽泛的基于事件的受众逻辑可能会导致实例达到4,000万个配置文件上限。 限制受众的可能范围以防止出现这种情况。
+基于事件的人员历程可使仍为匿名/没有电子邮件地址且仅包含ECID的用户档案符合条件。 当具有网页活动的资格逻辑时，最常发生这种情况。 如果符合条件的配置文件过多，则过于宽泛的基于事件的受众逻辑可能会导致实例数量达到4000万个。 要防止出现这种情况，请限制受众的可能范围。
 
 >[!IMPORTANT]
 >

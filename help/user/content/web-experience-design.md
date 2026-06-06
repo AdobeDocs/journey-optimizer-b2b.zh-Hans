@@ -5,24 +5,15 @@ feature: Content Design Tools, Channels
 role: User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: 2026-04-29T23:47:13.174Z
 TQID: https://experienceleague.adobe.com/8L1-UpqqSPlLqMwUpwOgOMT4cDzc55tua87M8-X1dKk
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 2357
+source-wordcount: 2339
 ht-degree: 4%
 
 ---
@@ -39,7 +30,7 @@ ht-degree: 4%
 
 * 产品管理员已配置一个或多个Web渠道来定义要用于Web体验的URL（页面）。 有关详细信息，请参阅[Web渠道配置](../admin/configure-channels-web.md)。
 
-* 您的网站已实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，用于访客识别和内容交付。 需要Adobe Experience Platform Web SDK版本2.16或更高版本。
+* 您的网站已实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，用于访客识别和内容交付。 需要Adobe Experience Platform Web SDK版本2.16或更高版本。
 
 * 您拥有在历程中创建和管理Web体验所需的[权限](../admin/user-management.md#b2b-product-permissions)：
    * _[!UICONTROL 营销活动]_ > _[!UICONTROL 管理营销活动]_ — 添加或更新Web个性化操作节点是必需的。
@@ -99,11 +90,11 @@ Journey Optimizer B2B edition提供了两种类型的编辑器来设计Web修改
 
    * [将新组件](#insert-new-components)（分隔条、HTML、图像、标题、段落或链接）插入到Web体验的页面。
 
-   * 从页面中选择任何现有元素，如图像、按钮、段落、文本、容器、标题或链接，然后[为Web体验修改它](#modify-elements)。
+   * 从页面中选择任何现有元素，并[为Web体验](#modify-elements)修改它。
 
    * [为元素添加点击跟踪](#click-tracking-for-web-experiences)以测量参与度和收集见解。
 
-1. 重复步骤2以加载要包含在Web体验中的其他页面，并重复步骤3以定义页面修改。
+1. 重复步骤2以加载要包含在Web体验中的其他页面。 重复步骤3以定义页面修改。
 
 1. [查看您的修改](#manage-modifications)，并做出任何所需的调整。
 
@@ -186,7 +177,7 @@ Journey Optimizer B2B edition提供了两种类型的编辑器来设计Web修改
 * **[!UICONTROL 图像]** — 使用此组件将图像文件插入页面。 您可以从右侧面板中的属性调整样式属性，例如宽度和高度。 有关详细信息，请参阅&#x200B;_内容组件_&#x200B;中的[图像](./content-components.md#image)。
 * **[!UICONTROL 标题]** — 使用此组件插入标题类文本。 您可以从右侧面板中的属性调整样式属性，例如文本颜色、样式、字体和大小。 有关详细信息，请参阅&#x200B;_内容组件_&#x200B;中的[文本](./content-components.md#text)。
 * **[!UICONTROL 段落]** — 使用此组件插入标准文本元素。 您可以从右侧面板中的属性调整样式属性，例如文本颜色、样式、字体和大小。 有关详细信息，请参阅&#x200B;_内容组件_&#x200B;中的[文本](./content-components.md#text)。
-* **[!UICONTROL 链接]** — 使用此组件插入指向指定URL的独立文本链接。 您可以从右侧面板中的属性调整样式属性，例如文本颜色、样式、对齐方式和大小。
+* **[!UICONTROL 链接]** — 使用此组件插入指向指定URL的独立文本链接。 您可以从右侧面板中的属性调整样式属性。
 
 选择左侧的组件类型，然后将鼠标悬停在要添加该组件的位置旁边的元素上。
 
@@ -251,7 +242,7 @@ Journey Optimizer B2B edition提供了两种类型的编辑器来设计Web修改
 
    * **[!UICONTROL 设置内容]** — 在&#x200B;**[!UICONTROL 内容]**&#x200B;字段中输入&#x200B;_[!UICONTROL CSS元素选择器]_&#x200B;值标识的元素的文本。
 
-   * **[!UICONTROL 设置属性]** — 指定要与当前CSS选择器关联的属性，以便该属性可以标识该元素。 在&#x200B;**[!UICONTROL 属性名称]**&#x200B;字段中输入名称，在&#x200B;**[!UICONTROL 内容]**&#x200B;字段中输入值。 如果属性已存在，则更新值；否则，将添加具有指定名称和值的新属性。
+   * **[!UICONTROL 设置属性]** — 指定要与当前CSS选择器关联的属性，以便您可以使用此属性标识该元素。 在&#x200B;**[!UICONTROL 属性名称]**&#x200B;字段中输入名称，在&#x200B;**[!UICONTROL 内容]**&#x200B;字段中输入值。 如果属性已存在，则更新值；否则，将添加具有指定名称和值的新属性。
 
    ![非可视编辑器CSS选择器修改](./assets/web-experience-design-non-visual-editor-modification-css-selector.png){width="800" zoomable="yes"}
 
@@ -336,7 +327,7 @@ Drag and drop modifications in the list to change the order. The preview updates
 
 预览将更新，以显示修改在每个设备大小上的呈现方式。
 
-使用URL栏导航到您的Web渠道配置中的不同页面。 然后，根据URL匹配规则，验证修改是否正确应用于目标页面。
+使用URL栏导航到您的Web渠道配置中的不同页面。 然后，根据URL匹配规则，验证修改是否以正确的方式应用于目标页面。
 
 ## Web体验的点击跟踪 {#web-click-tracking}
 
@@ -344,7 +335,7 @@ Drag and drop modifications in the list to change the order. The preview updates
 
 激活（实时）Web体验后，您还可以使用Adobe Customer Journey Analytics（需要产品订阅）构建报表。 为了改进Web体验监控，您还可以跟踪网站任何特定元素的点击量。 通过跟踪，可在Web报表中显示该元素的点击次数。
 
-有关Customer Journey Analytics和构建Web报表的更多信息，请参阅[Customer Journey Analytics文档](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-landing)。
+有关Customer Journey Analytics和构建Web报表的更多信息，请参阅[Customer Journey Analytics文档](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)。
 
 1. 在Web体验编辑器中选择元素，例如图像或链接。
 

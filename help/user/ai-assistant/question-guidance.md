@@ -5,27 +5,23 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+autotag-review: '2026-06-05T16:08:18.792Z'
+TQID: 'https://experienceleague.adobe.com/14sGSyP1nI123o2II9rkVQh-ECcEr6BcyfnMnVlrjlU'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 895
+source-wordcount: 889
 ht-degree: 1%
 
 ---
 
 # Journey Optimizer B2B edition中的AI助手问题指南
 
-查看以下一组在Journey Optimizer B2B edition中查询AI助手时的示例问题。 此信息还包含有关如何对您的问题进行短语以从AI助手获得最佳响应的提示。
+查看以下有关在Journey Optimizer B2B edition中查询AI助理的示例问题。 此信息还包含有关如何对您的问题进行短语以从AI助手获得最佳响应的提示。
 
 ## 基于目标的问题
 
@@ -42,13 +38,13 @@ ht-degree: 1%
 
 ## 用短语表述您的问题
 
-您必须清晰明了地向AI Assistant表达您的问题，并且提供相应的上下文，才能获得尽可能准确的响应。 请参阅以下提示列表，以获取有关如何根据上下文提出明确问题的指导：
+要获得尽可能准确的响应，请清晰明了地在AI Assistant中陈述您的问题。 请参阅以下提示列表，以获取有关如何根据上下文提出明确问题的指导：
 
 * 以简洁的方式陈述您的任务和/或问题。
 * 避免使用模糊的语言或过于复杂的语法以促进理解。
 * 提供关于您的任务和/或问题的相关上下文，因为上下文可以帮助AI助手生成更相关的响应。
 
-下表提供了在使用AI助手时可以遵循的一些最佳实践：
+下表提供了在使用AI助手时可以遵循的一些建议：
 
 | Do | 示例 |
 | --- | --- |
@@ -68,7 +64,7 @@ ht-degree: 1%
 
 以下列表包括Journey Optimizer B2B edition中的AI助手当前不支持的问题示例：
 
-* 哪些帐户受众在条件中使用……字段组的workEmail.address字段？ 
+* 哪些帐户受众在其条件下使用……字段组的workEmail.address字段？ 
 * 在分发可视化图表中显示使用规模超过10,000、5000-10,000、1000-5000以及低于1000的帐户受众的活动历程数
 * 谁对帐户历程x进行了最后一次更新？
 * 有多少活动历程会为解决方案兴趣x添加购买组成员？
