@@ -5,11 +5,19 @@ feature: Content, Channels
 role: User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: d04079ce-da51-40d3-ab05-75c26584521f
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: 2026-03-30T22:04:21.575Z
 TQID: https://experienceleague.adobe.com/tdFuPXow263TwebK-OF7bUenVrBuT1MYIG9FYC6gp-o
 source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
@@ -61,7 +69,7 @@ Adobe Journey Optimizer B2B edition中的Web渠道使您能够在您的网站上
 
    如果您使用的是[!DNL Microsoft Edge]，请选择顶部横幅上其他商店中的&#x200B;_允许扩展_。 启用此选项可让您将扩展从[!DNL Chrome Web Store]添加到[!DNL Microsoft Edge]。
 
-1. 搜索并导航到&#x200B;_[!DNL Adobe Experience Cloud Visual Editing Helper]_浏览器扩展。
+1. 搜索并导航到&#x200B;_[!DNL Adobe Experience Cloud Visual Editing Helper]_&#x200B;浏览器扩展。
 
    ![适用于Google Chrome的Adobe Experience Cloud可视化编辑帮助程序扩展](./assets/web-experience-google-chrome-adobe-visual-editing-extension.png){width="800" zoomable="yes"}
 
@@ -87,7 +95,7 @@ Adobe Journey Optimizer B2B edition中的Web渠道使您能够在您的网站上
 
 当您[添加&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点](../journeys/action-nodes.md)并执行以下操作时，可以在历程中设置Web体验：
 
-1. 对于&#x200B;]_目标上的_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
+1. 对于&#x200B;_目标上的_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
 
 1. 若要对人员执行&#x200B;_[!UICONTROL 操作]_，请选择&#x200B;**[!UICONTROL 个性化Web体验]**。
 
