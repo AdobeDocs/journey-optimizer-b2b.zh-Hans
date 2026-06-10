@@ -87,7 +87,7 @@ ht-degree: 2%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-有关架构创建的更多信息，请参阅[XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}。
+有关架构创建的更多信息，请参阅[XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=zh-Hans#prerequisites){target="_blank"}。
 
 >[!IMPORTANT]
 >
@@ -101,7 +101,7 @@ ht-degree: 2%
 
 ## 创建数据集 {#create-dataset}
 
-创建架构后，创建用于导入用户档案的数据集。 有关数据集创建的更多信息，请参阅[目录服务文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}。
+创建架构后，创建用于导入用户档案的数据集。 有关数据集创建的更多信息，请参阅[目录服务文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}。
 
 1. 在左侧导航栏中的&#x200B;_[!UICONTROL 数据管理]_&#x200B;下，选择&#x200B;**[!UICONTROL 数据集]**。
 
@@ -167,12 +167,12 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->有关CSV数据导入的更多信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}。
+>有关CSV数据导入的更多信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=zh-Hans#tutorials){target="_blank"}。
 
 <!--
 ## Create test profiles using API calls {#create-test-profiles-api}
 
-You can also create test profiles via API calls. Learn more in [[!DNL Adobe Experience Platform] documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}.
+You can also create test profiles via API calls. Learn more in [[!DNL Adobe Experience Platform] documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}.
 
 You must use a Profile schema that contains the **[!UICONTROL Profile test details]** field group. The `testProfile` flag is part of this field group.
 When creating a profile, make sure you pass the value: `testProfile = true`.
