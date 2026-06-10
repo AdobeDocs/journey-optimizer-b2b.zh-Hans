@@ -5,22 +5,15 @@ feature: Content, Channels
 role: User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: d04079ce-da51-40d3-ab05-75c26584521f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-autotag-review: 2026-03-30T22:04:21.575Z
-TQID: https://experienceleague.adobe.com/tdFuPXow263TwebK-OF7bUenVrBuT1MYIG9FYC6gp-o
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+autotag-review: '2026-05-27T16:20:23.362Z'
+TQID: 'https://experienceleague.adobe.com/iT1EdQiozvA7stSut7isr7ofdeLN5PKLUz-9q5OyPWs'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
 workflow-type: tm+mt
 source-wordcount: 1544
 ht-degree: 3%
@@ -46,7 +39,7 @@ Adobe Journey Optimizer B2B edition中的Web渠道使您能够在您的网站上
 
 * 产品管理员已配置一个或多个Web渠道来定义要用于Web体验的URL（页面）。 有关详细信息，请参阅[Web渠道配置](../admin/configure-channels-web.md)。
 
-* 您的网站已实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，用于访客识别和内容交付。 确保Adobe Experience Platform Web SDK的版本为2.16或更高版本。
+* 您的网站已实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，用于访客识别和内容交付。 确保Adobe Experience Platform Web SDK的版本为2.16或更高版本。
 
 * 您拥有在历程中创建和管理Web体验所需的[权限](../admin/user-management.md#b2b-product-permissions)：
    * _[!UICONTROL 营销活动]_ > _[!UICONTROL 管理营销活动]_ — 添加或更新Web个性化操作节点是必需的。
@@ -69,7 +62,7 @@ Adobe Journey Optimizer B2B edition中的Web渠道使您能够在您的网站上
 
    如果您使用的是[!DNL Microsoft Edge]，请选择顶部横幅上其他商店中的&#x200B;_允许扩展_。 启用此选项可让您将扩展从[!DNL Chrome Web Store]添加到[!DNL Microsoft Edge]。
 
-1. 搜索并导航到&#x200B;_[!DNL Adobe Experience Cloud Visual Editing Helper]_&#x200B;浏览器扩展。
+1. 搜索并导航到&#x200B;_[!DNL Adobe Experience Cloud Visual Editing Helper]_浏览器扩展。
 
    ![适用于Google Chrome的Adobe Experience Cloud可视化编辑帮助程序扩展](./assets/web-experience-google-chrome-adobe-visual-editing-extension.png){width="800" zoomable="yes"}
 
@@ -95,7 +88,7 @@ Adobe Journey Optimizer B2B edition中的Web渠道使您能够在您的网站上
 
 当您[添加&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点](../journeys/action-nodes.md)并执行以下操作时，可以在历程中设置Web体验：
 
-1. 对于&#x200B;_目标上的_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
+1. 对于&#x200B;]_目标上的_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
 
 1. 若要对人员执行&#x200B;_[!UICONTROL 操作]_，请选择&#x200B;**[!UICONTROL 个性化Web体验]**。
 
@@ -205,13 +198,13 @@ Adobe Journey Optimizer B2B edition中的Web渠道使您能够在您的网站上
 
 * 在Adobe Experience Platform数据收集中，确保定义了数据流。 确保在Adobe Journey Optimizer服务下启用了Adobe Experience Platform B2B edition选项。
 
-  此配置可确保Adobe Experience Platform Edge能够正确处理入站事件。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)
+  此配置可确保Adobe Experience Platform Edge能够正确处理入站事件。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * 在Adobe Experience Platform中，确保您有一个启用了&#x200B;_[!UICONTROL Active-On-Edge合并策略]_&#x200B;选项的合并策略。
 
-  在Experience Platform的Customer > Profiles > Merge Policies菜单下，选择一个策略。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  在Experience Platform的Customer > Profiles > Merge Policies菜单下，选择一个策略。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Journey Optimizer B2B edition入站渠道使用此合并策略在Edge上正确激活和发布入站Web体验。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/ui-guide)
+  Journey Optimizer B2B edition入站渠道使用此合并策略在Edge上正确激活和发布入站Web体验。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### 故障排除
 

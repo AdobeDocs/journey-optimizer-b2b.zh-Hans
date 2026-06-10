@@ -3,32 +3,24 @@ title: 登陆页面设计
 description: 使用可视化工具设计登陆页面 — 为Journey Optimizer B2B edition中的帐户历程添加内容组件、表单、自定义CSS、个性化和设备预览。
 feature: Landing Pages, Content Design Tools
 role: User
-badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T23:18:56.836Z
 TQID: https://experienceleague.adobe.com/SXG2FrjpMlsGnofiUj1WeJ4NN3EVe1ZrcRpNdFfHwqA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: 387
-ht-degree: 5%
+source-wordcount: 411
+ht-degree: 2%
 
 ---
 
 # 登陆页面设计
 
-在您[创建登陆页面](./landing-pages.md#create-a-landing-page)之后，请使用可视化设计空间在页面中创作结构和内容组件。
+在您[创建登陆页面](./landing-pages-create-publish.md#create-landing-page)之后，请使用可视化设计空间在页面中创作结构和内容组件。
 
 ## 添加结构和内容 {#structure-content-landing-page}
 
@@ -64,6 +56,18 @@ ht-degree: 5%
 
 {{$include /help/_includes/content-design-links.md}}
 
+![单击“编辑”图标以访问链接跟踪](./assets/landing-page-link-tracking.png){width="400"}
+
+使用&#x200B;**[!UICONTROL 跟踪类型]**&#x200B;控制链接的跟踪：
+
+* **[!UICONTROL 已跟踪]** — 激活对链接URL的跟踪。
+<!-- 
+* External Opt-out - Considers the link URL as an opt-out or unsubscription URL.
+
+* Mirror page - Considers the link URL as a mirror page URL.
+-->
+* **[!UICONTROL 从不]** — 从不激活链接URL的跟踪。
+
 ### 保存您所做的工作
 
 随时单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存草稿登陆页面。
@@ -84,7 +88,7 @@ ht-degree: 5%
 
 从可视化设计空间顶部的&#x200B;_[!UICONTROL 更多……]_&#x200B;菜单中，可以执行以下操作：
 
-![单击“更多”以访问模板操作](./assets/landing-page-designer-more-menu.png){width="500"}
+![单击“更多”以访问登陆页面操作](./assets/landing-page-designer-more-menu.png){width="500"}
 
 * **[!UICONTROL 重置登陆页面]** — 单击此选项可将可视化设计画布清除为空白并重新启动页面内容生成操作。
 * **[!UICONTROL 更改您的设计]** — 返回到&#x200B;_[!UICONTROL 创建您的主登陆页面]_&#x200B;主页。 从该位置，您可以选择另一个模板来重新启动设计过程，或者选择在空白画布中从头开始设计页面。
