@@ -21,7 +21,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
 workflow-type: tm+mt
 source-wordcount: 849
 ht-degree: 74%
@@ -288,7 +288,7 @@ Adobe Journey Optimizer B2B edition基于Adobe Experience Platform构建。 对�
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="复选框"/></td>
 <td>完成登陆页面设置以支持创作和发布这些页面的营销人员</td>
-<td><a href="./admin/landing-page-settings.md">了解详情</a></td>
+<td><a href="./admin/configure-channels-landing-pages.md">了解详情</a></td>
 </tr>
 <tr>
 <td colspan="2">Journey Optimizer B2B edition的<strong>Web</strong> (Beta)渠道配置</td>

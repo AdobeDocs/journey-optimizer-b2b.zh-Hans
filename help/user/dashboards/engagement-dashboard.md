@@ -18,7 +18,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T22:44:41.871Z
 TQID: https://experienceleague.adobe.com/kPDEmNYLphx3OIt8Q7LmK3Ofjsj9Gl8giNQ2aTh9H-0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 7b884e313f584252aecc25ee813dfb6c7f5d8f15
 workflow-type: tm+mt
 source-wordcount: 561
 ht-degree: 6%
@@ -57,7 +57,7 @@ ht-degree: 6%
 
 ![按日期范围筛选显示的数据](./assets/engagement-date-filter.png){width="380"}
 
-对于&#x200B;**[!UICONTROL 自定义]**&#x200B;范围，您可以使用日历工具指定开始日期和结束日期。 结束日期默认为当天。
+对于&#x200B;**[!UICONTROL 自定义]**&#x200B;范围，请单击&#x200B;_日历_ （![日历图标](../assets/do-not-localize/icon-calendar.svg) ）图标以指定开始日期和结束日期。 结束日期默认为当天。
 
 ![按属性筛选显示的数据](./assets/engagement-date-filter-custom.png){width="380"}
 

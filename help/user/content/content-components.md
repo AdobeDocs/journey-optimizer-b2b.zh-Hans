@@ -17,9 +17,9 @@ topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: 2026-03-30T22:16:05.946Z
 TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 3250910a729786bf536c55a48bf96a75b05852f6
 workflow-type: tm+mt
-source-wordcount: 3057
+source-wordcount: 3064
 ht-degree: 6%
 
 ---
@@ -165,7 +165,7 @@ ht-degree: 6%
         <th style="width: 20%;">组件</th>
     </tr>
     <tr>
-        <td><img width="160px" src="../assets/do-not-localize/toolbar-button-font-color.png" alt="字体颜色工具"></td>
+        <td><img width="200px" src="../assets/do-not-localize/toolbar-button-font-color.png" alt="字体颜色工具"></td>
         <td>将字体颜色应用于所选文本。 从选取器中选择一种颜色，然后使用颜色滑块和颜色字段来选择颜色。 或者，您可以输入已知的RGB、HSL、HSB或十六进制值。 </td>
         <td><li>按钮 <li>文本</td>
     </tr>
@@ -182,8 +182,8 @@ ht-degree: 6%
         <th style="width: 20%;">组件</th>
     </tr>
     <tr>
-        <td><img width="120px" src="../assets/do-not-localize/toolbar-button-insert-link.png" alt="插入链接工具"></td>
-        <td>为所选文本或元素创建可单击链接（外部URL或登陆页面）。</td>
+        <td><img width="200px" src="../assets/do-not-localize/toolbar-button-insert-link.png" alt="插入链接工具"></td>
+        <td>为所选文本或元素创建可单击链接。 <li>电子邮件内容 — 指定外部URL或登陆页面。<li>登陆页面内容 — 指定外部链接。</td>
         <td><li>按钮 <li>文本 <li>图像 </td>
     </tr>
 </table>
@@ -200,7 +200,7 @@ ht-degree: 6%
     </tr>
     <tr>
         <td><img width="80px" src="../assets/do-not-localize/toolbar-button-remove-link.png" alt="删除链接工具"></td>
-        <td> 删除所选文本或元素的可单击链接（外部URL或登陆页面）。</td>
+        <td> 删除所选文本或元素的可单击链接。</td>
         <td><li>按钮 <li>文本 <li>图像 </td>
     </tr>
 </table>
@@ -312,7 +312,7 @@ ht-degree: 6%
 
    * **登陆页面** — 选择此类型可在<!-- Journey Optimizer B2B Edition (_Beta_) or -->连接的Marketo Engage实例中选择已发布的登陆页面。
 
-     对于&#x200B;**[!UICONTROL 登陆页面]**&#x200B;选项，选择已发布的登陆页面。 单击&#x200B;_选择页面_&#x200B;图标（![显示链接图标](/help/assets/do-not-localize/icon-landing-page-select.svg)）和[选择已发布的登陆页面](./landing-pages.md#link-to-a-landing-page)。
+     对于&#x200B;**[!UICONTROL 登陆页面]**&#x200B;选项，选择已发布的登陆页面。 单击&#x200B;_选择页面_&#x200B;图标（![显示链接图标](../assets/do-not-localize/icon-landing-page-select.svg)）和[选择已发布的登陆页面](./landing-pages.md#link-to-a-landing-page)。
 
      ![为按钮组件定义指向登陆页面的链接](./assets/component-button-link-options-landing-page.png){width="200"}
 
@@ -628,7 +628,7 @@ ht-degree: 6%
 
    * **登陆页面** — 选择此类型可在<!-- Journey Optimizer B2B Edition (_Beta_) or -->连接的Marketo Engage实例中选择已发布的登陆页面。
 
-     对于&#x200B;**[!UICONTROL 登陆页面]**&#x200B;选项，选择已发布的登陆页面。 单击&#x200B;_选择页面_&#x200B;图标（![显示链接图标](/help/assets/do-not-localize/icon-landing-page-select.svg)）和[选择已发布的登陆页面](./landing-pages.md#link-to-a-landing-page)。
+     对于&#x200B;**[!UICONTROL 登陆页面]**&#x200B;选项，选择已发布的登陆页面。 单击&#x200B;_选择页面_&#x200B;图标（![显示链接图标](../assets/do-not-localize/icon-landing-page-select.svg)）和[选择已发布的登陆页面](./landing-pages.md#link-to-a-landing-page)。
 
      ![为按钮组件定义指向登陆页面的链接](./assets/component-button-link-options-landing-page.png){width="250"}
 
@@ -756,7 +756,7 @@ ht-degree: 6%
 
 +++
 
-### 表单（登陆页面）
+### 表单（仅限登陆页面） {#form}
 
 [!BADGE Beta 版]{type=Informative url="/help/user/content/forms.md" tooltip="Beta功能"}
 
@@ -778,7 +778,7 @@ ht-degree: 6%
 
      >[!TIP]
      >
-     >如果您希望使用表单下载文件，则可以指定托管文件的URL。 对于此配置，“提交”按钮可用作下载按钮。
+     >如果要使用表单下载文件，您可以为托管文件指定URL。 对于此配置，“提交”按钮可用作下载按钮。
 
      ![更改跟进设置](../../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
 

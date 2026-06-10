@@ -3,12 +3,16 @@ title: 表单设计
 description: 设计表单，其中包含Journey Optimizer B2B edition中用于业务数据收集的字段类型、验证、样式和XDM架构属性。
 feature: Forms, Content Design Tools
 role: User
-badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
+autotag-review: '2026-05-27T16:10:55.800Z'
+TQID: 'https://experienceleague.adobe.com/2-5PPPyFLrTpU89D-ByVskTVAF6ItgqJYFZrTbHsPTU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -16,11 +20,9 @@ level_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-autotag-review: 2026-03-30T22:15:18.544Z
-TQID: https://experienceleague.adobe.com/xUMPdHtj6Z4LQjGZm-R0QtJXoEXkXbbl3L49ysIZBo0
-source-git-commit: 3830e7474e7d3be9f43782dff35820563cfd9cb4
+source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
-source-wordcount: 2066
+source-wordcount: 2190
 ht-degree: 1%
 
 ---
@@ -29,31 +31,37 @@ ht-degree: 1%
 
 在您[创建表单](./forms.md#create-forms)后，可视化设计空间将打开一个草稿，其中包含默认的基本表单定义。 在右侧的&#x200B;_[!UICONTROL 摘要]_&#x200B;面板中，单击&#x200B;**[!UICONTROL 编辑表单]**&#x200B;并使用可视设计空间定义表单样式和字段组件。
 
-![访问表单库](./assets/form-new-design-space.png){width="700" zoomable="yes"}
+![窗体设计空间](./assets/form-new-design-space.png){width="700" zoomable="yes"}
+
+默认情况下，_&#x200B;**提交**&#x200B;_&#x200B;按钮（页脚字段）是表单的一部分，无法删除。 您可以选择表单中的按钮/页脚组件以[更改按钮](#submit-button)的文本和样式。
 
 ## 字段
 
-表单字段用于捕获人员配置文件数据，这些数据可用于定向人员并将他们与帐户和购买组关联。 所有新表单都以单列布局中的以下字段开头：
-
-* 名字
-* 姓氏
-* 电子邮件地址
-
-使用字段设计工具构建一组字段和布局，以便收集基于帐户的营销活动所需的数据。
+表单字段用于捕获人员配置文件数据，这些数据可用于定向人员并将他们与帐户和购买组关联。 使用字段设计工具构建一组字段和布局，以便收集基于帐户的营销活动所需的数据。
 
 ### 添加字段 {#add-field}
 
 1. 在左侧的&#x200B;_[!UICONTROL 组件]_&#x200B;面板中，将&#x200B;**[!UICONTROL 字段]**&#x200B;内容组件拖放到画布上。
 
-   ![将字段组件添加到表单](./assets/form-content-add-field.png){width="700" zoomable="yes"}
+   ![将字段组件添加到表单](./assets/form-content-add-field.png){width="800" zoomable="yes"}
 
-1. 单击&#x200B;**[!UICONTROL 选择字段属性]**。
+1. 对于&#x200B;_[!UICONTROL 选择字段属性]_，请选择一个选项并设置该字段的属性。
 
-1. 在&#x200B;_[!UICONTROL 选择字段属性]_&#x200B;对话框中，选中要用于字段的人员配置文件属性的复选框，然后单击&#x200B;**[!UICONTROL 选择]**。
+   * **[!UICONTROL 选择字段属性]** — 使用此选项可根据表单的预设中定义的数据集架构选择属性。
 
-   [XDM业务架构](../admin/field-mapping.md#xdm-business-person-attributes)确定可用的属性。  还可使用为Journey Optimizer B2B edition实例定义的任何自定义字段。 使用“搜索”文本框按名称筛选列表，或单击“筛选”图标按架构/数据类型筛选列表。
+     在&#x200B;_[!UICONTROL 选择字段属性]_&#x200B;对话框中，选中要用于字段的属性的复选框，然后单击&#x200B;**[!UICONTROL 选择]**。
 
-   ![将字段组件添加到表单](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"}
+     ![将选定的属性字段组件添加到表单](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"}
+
+     例如，您可以设置电子邮件和公司。 当用户完成并提交表单时，输入的信息将保存到所选数据集。
+
+     要将收集的数据与配置文件进行映射，请选择配置文件标识字段。 身份字段在属性列表中标记为&#x200B;**[!UICONTROL 必填]** — 您可以对其进行筛选。
+
+   * **[!UICONTROL 添加自定义字段]**
+
+     利用此选项，您可以定义自由字段，而无需将其映射到链接数据集中的字段。
+
+     ![将自定义字段组件添加到表单](./assets/form-field-add-custom-field.png){width="600" zoomable="yes"}
 
    在画布上，所选属性的默认字段标签会填充到画布上。 **[!UICONTROL 字段详细信息]**&#x200B;将显示在右侧的面板中。
 
@@ -63,26 +71,28 @@ ht-degree: 1%
 
 1. 根据字段的数据类型设置&#x200B;**[!UICONTROL 字段类型]**：
 
-   | 字段类型 | 使用情况 | 示例 |
-   | ---------- | ----- | ------- |
-   | **[!UICONTROL 复选框]** | 使用此类型，以便访客可以选择&#x200B;_true_（选中）或&#x200B;_false_（未选中）值。 | |
-   | **[!UICONTROL 复选框组]** | 使用此类型，以便访客可以为多个项目选择&#x200B;_true_（选中）或&#x200B;_false_（未选中）值。 | |
-   | **[!UICONTROL 货币]** | 使用此类型可允许代表为Journey Optimizer B2B edition实例选择的默认货币类型的浮动字段。 | |
-   | **[!UICONTROL 日期]** | 使用此类型可将输入限制为日期格式，并在字段中提供日历选择器。 | |
-   | **[!UICONTROL 双精度]** |  | |
-   | **[!UICONTROL 电子邮件]** | 使用此类型将输入限制为电子邮件地址格式。 | |
-   | **[!UICONTROL 数字]** | 使用此类型可将字段限制为某个数值。 | |
-   | **[!UICONTROL 单选按钮组]** | 使用此类型可允许访客选择一组选项中的一个。 | |
-   | **[!UICONTROL 选择]** | 使用此类型可允许访客使用下拉列表选择一组选项中的一个。 | |
-   | **[!UICONTROL 滑块]** | 使用此类型可允许访客使用滑块设置数值。 | |
-   | **[!UICONTROL 电话]** | 将此类型用于电话号码输入字段。 | |
-   | **[!UICONTROL 文本]** | 将此类型用于标准文本（字符串）输入字段。 | |
-   | **[!UICONTROL 文本区域]** | 使用此类型支持较长的文本输入。 | |
-   | **[!UICONTROL URL]** | 使用此类型可将文本输入限制为URL，包括标准URL协议。 | |
+   | 字段类型 | 使用情况 |
+   | ---------- | ----- |
+   | **[!UICONTROL 复选框]** | 使用此类型，以便访客可以选择&#x200B;_true_（选中）或&#x200B;_false_（未选中）值。 |
+   | **[!UICONTROL 复选框组]** | 使用此类型，以便访客可以为多个项目选择&#x200B;_true_（选中）或&#x200B;_false_（未选中）值。 |
+   | **[!UICONTROL 货币]** | 使用此类型可允许代表为Journey Optimizer B2B edition实例选择的默认货币类型的浮动字段。 |
+   | **[!UICONTROL 日期]** | 使用此类型可将输入限制为日期格式，并在字段中提供日历选择器。 |
+   | **[!UICONTROL 双精度]** | 双（双精度浮点）变量，存储为IEEE 64位（8字节）浮点数。 |
+   | **[!UICONTROL 电子邮件]** | 使用此类型将输入限制为电子邮件地址格式。 |
+   | **[!UICONTROL 数字]** | 使用此类型可将字段限制为某个数值。 |
+   | **[!UICONTROL 单选按钮组]** | 使用此类型可允许访客选择一组选项中的一个。 |
+   | **[!UICONTROL 选择]** | 使用此类型可允许访客使用下拉列表选择一组选项中的一个。 |
+   | **[!UICONTROL 滑块]** | 使用此类型可允许访客使用滑块设置数值。 |
+   | **[!UICONTROL 电话]** | 将此类型用于电话号码输入字段。 |
+   | **[!UICONTROL 文本]** | 将此类型用于标准文本（字符串）输入字段。 |
+   | **[!UICONTROL 文本区域]** | 使用此类型支持较长的文本输入。 |
+   | **[!UICONTROL URL]** | 使用此类型可将文本输入限制为URL，包括标准URL协议。 |
 
-1. 根据所选的字段类型，为字段输入和验证设置其他选项：
+1. 根据所选的字段类型，为字段输入和验证设置其他选项。
 
-   ![根据所选字段类型设置字段的选项](./assets//form-field-details-text-type.png){width="400" zoomable="yes"}
+   ![根据所选字段类型设置字段的选项](./assets/form-field-details-text-type.png){width="800" zoomable="yes"}
+
+   例如，_Text_&#x200B;字段类型具有以下用于字段输入和验证的选项：
 
    * **[!UICONTROL 占位符]** — 为访客提供字段预期值的字段占位符值。
 
@@ -98,15 +108,21 @@ ht-degree: 1%
 
    * **[!UICONTROL 验证消息]** — 使用此选项为字段指定验证消息。 如果访客为该字段输入无效值，则会显示此消息。 默认情况下，_[!UICONTROL Standard]_&#x200B;消息已设置。 选择&#x200B;**[!UICONTROL 自定义]**&#x200B;并输入您自己的消息。
 
-   * **最大长度** — 输入可在字段中输入的最大字符数。
+   * **[!UICONTROL 最大长度]** — 输入可在字段中输入的最大字符数。
 
 1. 根据需要设置&#x200B;**[!UICONTROL 字段行为]**：
 
-   * **必需** — 选中此复选框可使提交表单所需的字段输入变为必需。
+   * **[!UICONTROL 必需]** — 选中此复选框可使提交表单所需的字段输入变为必需。
 
-   * **启用输入掩码** — 选中此复选框可限制使用输入掩码从访客输入的内容。 例如，您可能希望访客以特定格式输入电话号码。 在对话框中，为任意数字使用`9`，为任意字母使用`a`，为任一数字使用`*`输入掩码。 单击“保存”启用指定的输入掩码。
+   * **[!UICONTROL 区分大小写]** — 选中该复选框可将该字段区分大小写。
 
-     ![为字段](./assets/form-field-mask-input-dialog.png){width="500" zoomable="yes"}定义输入掩码
+   * **[!UICONTROL 预填已启用]** — 选中此复选框可从用户档案信息中填充该字段（如果可用）。
+
+   * **[!UICONTROL 启用输入掩码]** — 选中此复选框可限制使用输入掩码从访客输入的内容。 例如，您可能希望访客以特定格式输入电话号码。 在对话框中，为任意数字使用`9`，为任意字母使用`a`，为任一数字使用`*`输入掩码。
+
+     ![为字段](./assets/form-field-mask-input-dialog.png){width="550" zoomable="yes"}定义输入掩码
+
+     单击&#x200B;**[!UICONTROL 保存]**&#x200B;以启用指定的输入掩码。
 
 ### 更改字段样式 {#field-styling}
 
@@ -128,7 +144,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 边距]** — 设置字段周围的边距（像素）。 您可以在所有四个边上设置相同的边距，也可以选中&#x200B;**[!UICONTROL 每个边的不同边距]**&#x200B;复选框以分别设置水平边距和垂直边距。
 
-* **[!UICONTROL 内边距]** — 设置字段周围的内边距（像素）。 您可以在所有四个边上设置相同的边距，也可以选中&#x200B;**[!UICONTROL 每个边的不同边距]**&#x200B;复选框以分别设置水平和垂直边距。
+* **[!UICONTROL 内边距]** — 设置字段周围的内边距（像素）。 您可以在所有四个边上设置相同的填充，也可以选中&#x200B;**[!UICONTROL 每个边的不同填充]**&#x200B;复选框以分别设置水平填充和垂直填充。
 
   ![设置表单字段的大小、边距和填充样式](./assets/form-field-styles-size-margin-padding.png){width="600" zoomable="yes"}
 
@@ -154,9 +170,9 @@ ht-degree: 1%
 
 ### 编辑按钮内容 {#button-content}
 
-使用右侧面板中显示的&#x200B;_[!UICONTROL Content]_&#x200B;选项卡，更改&#x200B;**[!UICONTROL 按钮文本]**&#x200B;字段中的文本。 调整按钮大小以适应文本的长度。
+在右侧面板中显示&#x200B;_[!UICONTROL Content]_&#x200B;选项卡后，更改&#x200B;**[!UICONTROL 按钮文本]**&#x200B;字段中的文本。 调整按钮大小以适应文本的长度。
 
-![更改表单中的按钮文本](./assets//form-field-button-text.png){width="600" zoomable="yes"}
+![更改表单中的按钮文本](./assets/form-field-button-text.png){width="600" zoomable="yes"}
 
 ### 设置提交按钮的样式 {#button-styles}
 
@@ -176,15 +192,15 @@ ht-degree: 1%
 
 * **[!UICONTROL 按钮对齐方式]** — 当您选择按钮的&#x200B;_半宽_&#x200B;或&#x200B;_自动_&#x200B;大小时，请将对齐方式设置为左、右或居中。 内边距会根据大小和对齐设置进行调整。
 
-* **[!UICONTROL 边距]** — 设置字段周围的边距（像素）。 您可以在所有四个边上设置相同的边距，也可以选中&#x200B;**[!UICONTROL 每个边的不同边距]**&#x200B;复选框以分别设置水平边距和垂直边距。
+* **[!UICONTROL 边距]** — 设置按钮周围的边距（以像素为单位）。 您可以在所有四个边上设置相同的边距，也可以选中&#x200B;**[!UICONTROL 每个边的不同边距]**&#x200B;复选框以分别设置水平边距和垂直边距。
 
-* **[!UICONTROL 内边距]** — 设置字段周围的内边距（像素）。 您可以在所有四个边上设置相同的边距，也可以选中&#x200B;**[!UICONTROL 每个边的不同边距]**&#x200B;复选框以分别设置水平和垂直边距。 如果更改大小和对齐设置，则填充会进行调整。
+* **[!UICONTROL 内边距]** — 设置按钮周围的内边距（以像素为单位）。 您可以在所有四个边上设置相同的填充，也可以选中&#x200B;**[!UICONTROL 每个边的不同填充]**&#x200B;复选框以分别设置水平填充和垂直填充。 如果更改大小和对齐设置，则填充会进行调整。
 
   ![设置表单按钮的对齐方式、边距和填充样式](./assets/form-button-styles-alignment-margin-padding.png){width="600" zoomable="yes"}
 
 ## 表单样式 {#form-styling}
 
-当在结构或表单元件外部单击时，可以更改表单元区的样式。 表单组件（字段和按钮）将继承定义顶级样式的&#x200B;_正文_&#x200B;样式，除非在字段或按钮/页脚级别定义了其他样式。
+当在结构或表单元件外部单击时，可以更改表单元区的样式。 表单组件（字段和按钮）将继承在顶级定义的&#x200B;_正文_&#x200B;样式，除非在字段或按钮/页脚级别定义了其他样式。
 
 ![设置窗体主体的顶级样式](./assets/form-body-styles.png){width="600" zoomable="yes"}
 
@@ -196,7 +212,7 @@ ht-degree: 1%
 
 1. 单击右侧面板中的&#x200B;**[!UICONTROL 查看CSS]**&#x200B;以查看CSS代码。
 
-   ![设置表单的背景颜色](./assets/form-body-styles-view-css.png){width="450" zoomable="yes"}
+   ![查看表单的CSS](./assets/form-body-styles-view-css.png){width="450" zoomable="yes"}
 
 1. 在滚动窗口中选择CSS代码并将其复制到剪贴板。
 
@@ -208,7 +224,7 @@ ht-degree: 1%
 
 1. 将CSS代码粘贴到窗口中。
 
-   ![设置表单的背景颜色](./assets/form-body-styles-custom-css.png){width="450" zoomable="yes"}
+   ![为表单添加自定义CSS](./assets/form-body-styles-custom-css.png){width="450" zoomable="yes"}
 
    您可以在此窗口中编辑粘贴的文本。
 

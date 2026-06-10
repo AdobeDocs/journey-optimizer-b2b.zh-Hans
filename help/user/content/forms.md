@@ -3,24 +3,25 @@ title: 表单
 description: 在Journey Optimizer B2B edition中创建和管理可重用的业务数据收集表单 — 设计字段、设置感谢页面、发布和跟踪使用情况。
 feature: Forms, Content
 role: User
-badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
+autotag-review: '2026-05-27T16:11:44.937Z'
+TQID: 'https://experienceleague.adobe.com/enF7MQi47bo8bWotzkhkPL6MQfGnis0rb6wJNyJcxVo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-autotag-review: 2026-03-30T22:51:56.324Z
-TQID: https://experienceleague.adobe.com/ooUYR3UcoePXYZx3KYMN9jgSXPdkOjEDYZE6-0vDock
-source-git-commit: 3830e7474e7d3be9f43782dff35820563cfd9cb4
+source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
-source-wordcount: 2374
-ht-degree: 1%
+source-wordcount: 2466
+ht-degree: 0%
 
 ---
 
@@ -28,35 +29,45 @@ ht-degree: 1%
 
 要从网页访客中捕获信息，请创建表单并将其添加到您的登陆页面。 表单是一组字段，页面访客填写并提交它们以获取某种内容或选件，例如白皮书、按需网络研讨会或免费试用。
 
-表单应捕获的信息量取决于内容或选件的值。 如果您提供简单的内容（如白皮书），则应当只收集最低限度的信息，如姓名、电子邮件和公司。 如果选件具有更高价值（如演示或免费试用），则可以收集更多信息。 要求提交的表单允许查看内容称为&#x200B;_封闭内容_。 您的组织决定应该封闭哪些内容，哪些不是（_自由_）。 最佳实践是允许免费提供某些内容，并仅提供您的优质或高需求内容。
+表单应捕获的信息量取决于内容或选件的值。 如果您提供简单的内容（如白皮书），则只能收集最低限度的信息，如姓名、电子邮件和公司。 如果选件具有更高价值（如演示或免费试用），则可以收集更多信息。 要求提交的表单允许查看内容称为&#x200B;_封闭内容_。 您的组织决定应该封闭哪些内容，哪些不是（_自由_）。 最佳实践是允许免费提供某些内容，并仅提供您的优质或高需求内容。
 
-## 访问和管理表单
+>[!PREREQUISITES]
+>
+>在营销团队创建并使用表单捕获信息之前，管理员必须定义一个或多个表单预设。 有关详细信息，请参阅&#x200B;[_Forms配置_](../admin/configure-channels-forms.md)。
+>
+>在Journey Optimizer B2B edition中创建表单需要以下[权限](../admin/user-management.md#b2b-product-permissions)：
+>
+>* _[!UICONTROL Journey Optimizer库]_ > _[!UICONTROL 读取B2C Forms]_ — 访问和查看表单时需要。
+>* _[!UICONTROL Journey Optimizer库]_ > _[!UICONTROL 管理B2C Forms]_ — 创建、更新和删除表单时需要。
+>* _[!UICONTROL Journey Optimizer库]_ > _[!UICONTROL 发布B2C Forms]_ — 需要发布表单。
 
-要在Journey Optimizer B2B edition中访问表单，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL Forms]**。 此操作将打开一个列表页面，其中包含在该实例中创建的所有表单，这些表单在表中列出。
+## 访问和管理表单 {#view-forms}
 
-![访问表单库](./assets/forms-list.png){width="700" zoomable="yes"}
+要在Journey Optimizer B2B edition中访问表单，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL Forms]**。 此操作将打开一个列表页面，该页面显示实例中创建的所有表单。
 
-该表按&#x200B;_[!UICONTROL 已修改]_&#x200B;列排序，最近更新的表单默认位于顶部。 单击列标题可在升序和降序之间更改。
+![访问表单库](./assets/forms-list.png){width="800" zoomable="yes"}
 
-### 表单状态和生命周期
+系统按&#x200B;_[!UICONTROL Modified]_&#x200B;列对表进行排序，默认在顶部显示最近更新的表单。 单击列标题可在升序和降序之间更改。
+
+### 表单状态和生命周期 {#form-status}
 
 表单状态决定了在登陆页面或登陆页面模板中使用的表单可用性，以及您可以对表单进行的更改。
 
 | 状态 | 描述 |
 | -------------------- | ----------- |
-| 草稿 | 创建表单时，它处于草稿状态。 在您定义或编辑字段之前，它会保持此状态，直到您发布它以用于登陆页面或登陆页面模板。 可用操作： <br/><ul><li>编辑所有详细信息<li>在可视设计空间中编辑<li>发布<li>复制<li>删除 |
-| 发布日期 | 发布表单后，该表单将可用于登陆页面或登陆页面模板。 无法在可视设计空间中修改已发布的表单内容。 可用操作： <br/><ul><li>编辑名称、描述或感谢页面<li>添加到登陆页面或登陆页面模板<li>创建草稿版本<li>复制<li>删除（如果未使用）<li>嵌入代码 |
-| 以草稿发布 | 从已发布的表单创建草稿时，已发布的版本仍可用于登陆页面或模板。 可以在可视设计空间中修改草稿内容。 如果您发布草稿版本，则该草稿版本会替换当前已发布的版本，并且使用草稿的登陆页面或登陆页面模板中的内容会进行更新。 可用操作： <br/><ul><li>编辑名称、描述或感谢页面<li>添加到登陆页面或登陆页面模板<li>在可视设计空间中编辑草稿版本<li>发布草稿版本<li>复制<li>删除（如果未使用）<li>嵌入代码 |
+| 草稿 | 创建表单时，它处于草稿状态。 在您定义或编辑字段之前，它会保持此状态，直到您发布它以用于登陆页面或登陆页面模板。 可用操作： <br/><ul><li>编辑所有详细信息<li>在可视设计空间中编辑<li>发布<li>重复<li>删除 |
+| 发布日期 | 发布表单后，该表单将可用于登陆页面或登陆页面模板。 无法在可视设计空间中修改已发布的表单内容。 可用操作： <br/><ul><li>编辑名称、描述或感谢页面<li>添加到登陆页面或登陆页面模板<li>创建草稿版本<li>重复<li>删除（如果未使用）<li>嵌入代码 |
+| 以草稿发布 | 从已发布的表单创建草稿时，已发布的版本仍可用于登陆页面或模板。 可以在可视设计空间中修改草稿内容。 如果您发布草稿版本，则该草稿版本会替换当前已发布的版本，并且使用草稿的登陆页面或登陆页面模板中的内容会进行更新。 可用操作： <br/><ul><li>编辑名称、描述或感谢页面<li>添加到登陆页面或登陆页面模板<li>在可视设计空间中编辑草稿版本<li>发布草稿版本<li>重复<li>删除（如果未使用）<li>嵌入代码 |
 
 ![表单状态生命周期](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
-### 筛选表单列表
+### 筛选表单列表 {#filter-list}
 
 要按名称搜索表单，请在搜索栏中输入文本字符串以查找匹配项。 单击&#x200B;_筛选器_&#x200B;图标（![显示或隐藏筛选器图标](../assets/do-not-localize/icon-filter.svg)）以显示可用的筛选器选项并更改设置以根据指定的条件筛选显示的项。
 
 ![筛选显示的表单](./assets/forms-list-filtered.png){width="700" zoomable="yes"}
 
-### 自定义列显示
+### 自定义列显示 {#column-display}
 
 通过单击右上角的&#x200B;_自定义表_&#x200B;图标（![自定义表图标](../assets/do-not-localize/icon-column-settings.svg)）自定义要在表中显示的列。
 
@@ -64,7 +75,7 @@ ht-degree: 1%
 
 在Forms列表中显示![列](./assets/forms-customize-table-dialog.png){width="300"}
 
-## 创建表单
+## 创建表单 {#create-forms}
 
 在Journey Optimizer B2B edition中开始构建可重用表单之前，需要考虑以下几个因素：
 
@@ -86,7 +97,7 @@ ht-degree: 1%
 
   如果您允许访问登陆页面的已知人员绕过表单，则他们只需直接访问内容即可。 绕过表单可提供更精简的访客体验。
 
-### 添加新表单
+### 添加新表单 {#new-form}
 
 您可以在Journey Optimizer B2B edition中创建表单，方法是单击&#x200B;_[!UICONTROL Forms]_&#x200B;列表页右上角的&#x200B;**[!UICONTROL 创建表单]**。
 
@@ -104,39 +115,43 @@ ht-degree: 1%
 
    ![创建表单对话框](./assets/forms-create-dialog.png){width="400"}
 
+1. 对于&#x200B;**[!UICONTROL 预设]**，请单击&#x200B;_选择数据_ （![选择数据图标](../assets/do-not-localize/icon-select-data.svg)）图标以将配置的表单预设与表单相关联。
+
+   预设确定存储和反映表单响应的位置。 可输入文本字符串以搜索特定预设，或从列表中选择该预设。
+
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
    此时将打开表单详细信息页面，其中包含默认的基本表单定义。
 
    ![默认表单内容](./assets/form-new-default-content.png){width="700" zoomable="yes"}
 
-### 更改默认表单设计
+### 更改默认表单设计 {#design}
 
 使用可视化设计工具根据需要更改表单内容：
 
-* [添加字段](./form-design.md#add-a-field)
-* [更改字段样式](./form-design.md#change-field-styling)
-* [字段重新排序](./form-design.md#reorder-fields)
-* [更改提交按钮文本和样式](./form-design.md#edit-and-style-the-submit-button)
-* [更改表单样式](./form-design.md#change-form-styling)
+* [添加字段](./form-design.md#add-field)
+* [更改字段样式](./form-design.md#field-styling)
+* [字段重新排序](./form-design.md#field-reorder)
+* [更改提交按钮文本和样式](./form-design.md#submit-button)
+* [更改表单样式](./form-design.md#form-styling)
 
 单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以保存表单内容设计更改并转到表单详细信息。
 
-### 设置感谢页面
+### 设置感谢页面 {#thank-you-page}
 
 在右侧的&#x200B;_[!UICONTROL 摘要]_&#x200B;面板中，滚动到&#x200B;**[!UICONTROL 感谢页面]**&#x200B;部分，然后使用&#x200B;**[!UICONTROL 跟进]**&#x200B;设置定义访客提交表单时会发生什么情况：
 
 * **[!UICONTROL 停留在页面]** — 选择此选项可在提交表单时将访客停留在同一页面。
 
-* **[!UICONTROL 登陆页面]** — 选择此选项可选择任意Journey Optimizer B2B edition或Marketo Engage登陆页面作为跟进。
+* **[!UICONTROL 登陆页面]** — 选择此选项可选择任意Journey Optimizer B2B edition登陆页面作为跟进。
 
 * **[!UICONTROL 外部URL]** — 选择此选项可将任何URL指定为后续页面。 访客提交表单后，浏览器会加载指定的URL。
 
   >[!TIP]
   >
-  >如果您希望使用表单下载文件，则可以指定托管文件的URL。 对于此配置，“提交”按钮可用作下载按钮。
+  >如果要使用表单下载文件，您可以为托管文件指定URL。 对于此配置，“提交”按钮可用作下载按钮。
 
-### 发布表单草稿
+### 发布表单草稿 {#publish}
 
 当您准备好将表单用于登陆页面或登陆页面模板时，请单击&#x200B;**[!UICONTROL 发布]**。
 
@@ -144,9 +159,9 @@ ht-degree: 1%
 
 此操作将打开确认对话框。 您可以通过单击&#x200B;**[!UICONTROL 取消]**&#x200B;或单击&#x200B;**[!UICONTROL 发布]**&#x200B;进行确认来中止发布过程。
 
-## 查看表单详细信息
+## 查看表单详细信息 {#view-details}
 
-单击列表页面中任何表单的名称，可打开片段详细信息页面。 您可以选择编辑表单、重命名表单或更新表单说明。 进行更新，然后单击名称或描述字段外部以自动保存更改。
+单击列表页面中任意表单的名称，以打开表单详细信息页面。 您可以选择编辑表单、重命名表单或更新表单说明。 进行更新，然后单击名称或描述字段外部以自动保存更改。
 
 >[!NOTE]
 >
@@ -154,7 +169,7 @@ ht-degree: 1%
 
 ![查看已发布表单的详细信息](./assets/form-details-published.png){width="600" zoomable="yes"}
 
-单击&#x200B;**[!UICONTROL 编辑表单]**&#x200B;以在可视设计空间中打开片段。
+单击&#x200B;**[!UICONTROL 编辑表单]**&#x200B;在可视设计空间中打开该表单。
 
 随时通过单击左上角的&#x200B;_返回_&#x200B;箭头退出视图，该箭头将返回到&#x200B;_[!UICONTROL Forms]_&#x200B;列表页。
 
@@ -170,14 +185,14 @@ ht-degree: 1%
 
 引用根据类别显示： _登陆页面_&#x200B;或&#x200B;_登陆页面模板_。 单击链接以打开相应的页面或使用表单的模板。
 
-## 删除表单
+## 删除表单 {#delete-forms}
 
 无法删除登陆页面或登陆页面模板当前正在使用的任何表单。 在启动表单移除之前，您可以检查&#x200B;_used-by_&#x200B;引用。 此外，删除操作无法撤消，因此在启动删除操作之前请检查。
 
 您可以使用以下任一方法删除表单：
 
 * 单击右上角的&#x200B;**[!UICONTROL ...更多]**&#x200B;并选择&#x200B;**[!UICONTROL 删除]**。
-* 从&#x200B;_[!UICONTROL Forms]_&#x200B;列表页面，单击表单名称旁边的省略号，然后选择&#x200B;**[!UICONTROL 删除]**。
+* 从&#x200B;_[!UICONTROL Forms]_&#x200B;列表页面，单击&#x200B;_更多_ (**...**) 图标并选择&#x200B;**[!UICONTROL 删除]**。
 
 此操作将打开确认对话框。 您可以通过单击&#x200B;**[!UICONTROL 取消]**&#x200B;或单击&#x200B;**[!UICONTROL 删除]**&#x200B;确认删除来中止该进程。
 
@@ -187,14 +202,14 @@ ht-degree: 1%
 
 ![删除表单对话框 — 无法删除正在使用的表单](./assets/form-delete-dialog-in-use.png){width="400"}
 
-## 复制表单
+## 复制表单 {#duplicate-forms}
 
-复制表单，作为一种从使用现有表单作为表单设计的起点来创建新表单的快速轻松方法。
+复制表单，以快速轻松地使用现有表单创建新表单作为表单设计的起点。
 
 您可以使用以下任一方法复制表单：
 
 * 在表单详细信息页面的右上方，单击&#x200B;**[!UICONTROL ...更多]**&#x200B;并选择&#x200B;**[!UICONTROL 复制]**。
-* 从&#x200B;_[!UICONTROL Forms]_&#x200B;列表页面，单击表单名称旁边的省略号并选择&#x200B;**[!UICONTROL 复制]**。
+* 从&#x200B;_[!UICONTROL Forms]_&#x200B;列表页面，单击&#x200B;_更多_ (**...**) 图标，然后选择&#x200B;**[!UICONTROL 复制]**。
 
 ![复制表单](./assets/form-list-page-duplicate.png){width="450"}
 
@@ -204,9 +219,9 @@ ht-degree: 1%
 
 编辑重复表单以根据需要更改名称并更改表单以供其使用。
 
-## 编辑表单
+## 编辑表单 {#edit-forms}
 
-表单的更改取决于其当前状态：
+对表单的更改取决于其当前状态：
 
 * 当表单处于&#x200B;_草稿_&#x200B;状态时，您可以编辑其任何详细信息和内容（字段、按钮和样式）。
 * 当表单处于&#x200B;_已发布_&#x200B;状态时，可以编辑表单名称或描述。 您无法编辑内容。
@@ -222,17 +237,17 @@ ht-degree: 1%
 
 1. 修改任何详细信息，如名称和描述。
 
-   ![具有草稿状态的片段的详细信息](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
+   具有草稿状态的表单的![详细信息](./assets/form-details-draft.png){width="600" zoomable="yes"}
 
 1. 若要更改可视化设计空间中的表单，请单击&#x200B;**[!UICONTROL 编辑表单]**。
 
    根据需要使用可视化设计工具：
 
-   * [添加字段](./form-design.md#add-a-field)
-   * [更改字段样式](./form-design.md#change-field-styling)
-   * [字段重新排序](./form-design.md#reorder-fields)
+   * [添加字段](./form-design.md#add-field)
+   * [更改字段样式](./form-design.md#field-styling)
+   * [字段重新排序](./form-design.md#field-reorder)
    * [更改提交按钮文本和样式](./form-design.md#submit-button)
-   * [更改表单样式](./form-design.md#change-form-styling)
+   * [更改表单样式](./form-design.md#form-styling)
 
    单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回表单详细信息。
 
@@ -252,11 +267,11 @@ ht-degree: 1%
 
 1. 根据需要使用可视化设计工具来更新表单内容：
 
-   * [添加字段](./form-design.md#add-a-field)
-   * [更改字段样式](./form-design.md#change-field-styling)
-   * [字段重新排序](./form-design.md#reorder-fields)
+   * [添加字段](./form-design.md#add-field)
+   * [更改字段样式](./form-design.md#field-styling)
+   * [字段重新排序](./form-design.md#field-reorder)
    * [更改提交按钮文本和样式](./form-design.md#submit-button)
-   * [更改表单样式](./form-design.md#change-form-styling)
+   * [更改表单样式](./form-design.md#form-styling)
 
    单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回表单详细信息。
 
@@ -276,11 +291,11 @@ ht-degree: 1%
 
 1. 单击右侧&#x200B;_[!UICONTROL 摘要]_&#x200B;窗格中的&#x200B;**[!UICONTROL 编辑表单]**，并根据需要使用可视化设计工具：
 
-   * [添加字段](./form-design.md#add-a-field)
-   * [更改字段样式](./form-design.md#change-field-styling)
-   * [字段重新排序](./form-design.md#reorder-fields)
+   * [添加字段](./form-design.md#add-field)
+   * [更改字段样式](./form-design.md#field-styling)
+   * [字段重新排序](./form-design.md#field-reorder)
    * [更改提交按钮文本和样式](./form-design.md#submit-button)
-   * [更改表单样式](./form-design.md#change-form-styling)
+   * [更改表单样式](./form-design.md#form-styling)
 
    单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回表单详细信息。
 
@@ -290,18 +305,18 @@ ht-degree: 1%
 
 >[!ENDTABS]
 
-## 将表单添加到登陆页面或模板
+## 将表单添加到登陆页面或模板 {#insert-forms}
 
 Forms设计为可重复使用，可在您设计[登陆页面](./landing-page-design.md)或[登陆页面模板](./landing-page-templates.md)时插入。
 
 {{$include /help/_includes/content-design-add-forms.md}}
 
-## 用于页面和模板创作的表单操作
+## 用于页面和模板创作的表单操作 {#form-actions}
 
 当表单包含在登陆页面或登陆页面模板中时，无法在页面或模板中更改表单内容。 但是，您可以应用以下操作：
 
-* **[!UICONTROL 删除]** — 此操作从当前页面或模板内容中删除表单（片段源不受影响）。
-* **[!UICONTROL 复制]** — 此操作复制编辑器内同一页面或模板中的表单（具有相同的维度），并添加在表单正下方。
+* **[!UICONTROL 删除]** — 此操作从当前页面或模板内容中删除表单（表单源不受影响）。
+* **[!UICONTROL 复制]** — 此操作复制编辑器中的表单，并保持相同的维度。
 * **[!UICONTROL 查看HTML]** — 此操作将打开一个弹出窗口，其中包含表单的HTML。 您可以编辑HTML，或复制它以用于其他Web内容。
 * **[!UICONTROL 编辑表单]** — 此操作将打开一个新的浏览器选项卡，其中包含表单编辑器页面和详细信息。
 

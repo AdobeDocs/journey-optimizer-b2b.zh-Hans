@@ -17,10 +17,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
 workflow-type: tm+mt
-source-wordcount: 1164
-ht-degree: 3%
+source-wordcount: 1381
+ht-degree: 2%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 3%
 
    * **[!UICONTROL 手动样式]** — 选择此选项可在&#x200B;_手动模式_&#x200B;中创建电子邮件。 在此模式下，您可以手动为添加到空白画布的所有结构和内容组件设置样式。
 
-1. [将结构和内容](./email-authoring.md#add-structure-and-content)添加到模板。
+1. [将结构和内容](./email-authoring.md#structure-content)添加到模板。
 
 1. [审阅并更新链接](#preview-and-edit-linked-urls)。
 
@@ -141,6 +141,20 @@ ht-degree: 3%
 ### 编辑链接的URL跟踪
 
 {{$include /help/_includes/content-design-links.md}}
+
+![单击“编辑”图标以访问链接跟踪](./assets/email-link-tracking.png){width="400"}
+
+电子邮件投放系统（通过Marketo Engage）会在发送时自动使用唯一的跟踪重定向来封装HTML电子邮件中的所有URL。 使用&#x200B;**[!UICONTROL 跟踪类型]**&#x200B;控制链接的跟踪：
+
+* **[!UICONTROL 不带令牌的跟踪]** — 系统注册点击，但会跟踪用户在网页上下一步执行的操作。 这在某些技术情况下可能很重要，例如在处理可能无法正确处理mkt_tok的第三方系统时。 但是，后续Web跟踪受到限制。
+
+* **[!UICONTROL 使用mkt-tok跟踪]** — 使用跟踪令牌(mkt_tok)通过Munchkin跟踪后续Web活动。 当收件人单击该链接时，它会在活动日志中注册一个&#x200B;_单击电子邮件_&#x200B;事件，安全跟踪其活动，并应用Cookie来监控未来的网站交互。
+
+* **[!UICONTROL 不跟踪]** — 系统不跟踪与链接关联的活动。 当目标页面不支持URL参数并且可能导致链接断开时，这将很有用。
+
+  >[!NOTE]
+  >
+  >如果电子邮件是在365天之前发送的，但在过去180天内没有人单击其任何链接，则系统会从数据库中剪裁指向URL的路由。 此删除操作会导致链接断开。 如果您希望链接是永久性的，则应禁用跟踪。
 
 ### 应用深色模式样式
 

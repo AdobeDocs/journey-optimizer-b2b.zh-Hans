@@ -1,10 +1,10 @@
 ---
 title: 代码段
 description: 重用注释和可视化元素来注释应用于特定版本的功能或页面
-source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: '2405'
-ht-degree: 2%
+source-wordcount: '2343'
+ht-degree: 3%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->AEM Assets as a Cloud Service的许可证和Dynamic Media许可证是进行集成的先决条件。 确保启用了[Dynamic Media withOpen API](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。 该集成仅限于&#x200B;_交付层_&#x200B;中的存储库。 如果您使用&#x200B;_创作层_&#x200B;并想要转换它，请与Adobe Experience Manager支持部门联系。<br/>
->根据您的合同和配置，在设计可视化内容时，可以直接从Adobe Experience Manager Assets B2B edition访问Adobe Journey Optimizer as a Cloud Service 。
+>AEM Assets as a Cloud Service的许可证和Dynamic Media许可证是进行集成的先决条件。确保启用了[Dynamic Media withOpen API](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。该集成仅限于&#x200B;_投放层_&#x200B;中的存储库。如果您使用&#x200B;_创作层_&#x200B;并想要转换它，请与Adobe Experience Manager支持部门联系。<br/>
+>根据您的合同和配置，在设计可视化内容时，可以直接从Adobe Experience Manager Assets B2B edition访问Adobe Journey Optimizer as a Cloud Service。
 
 ## 内容创作 — 组件 — 结构步骤 {#structures-step}
 
@@ -141,7 +141,7 @@ HTML组件的![对齐样式](../assets/content-design-shared/content-components-
 
 在选择了&#x200B;_[!UICONTROL 样式]_&#x200B;选项卡的右侧面板上，展开&#x200B;**[!UICONTROL 边距]**&#x200B;部分并设置结构组件中的边距间距选项。 此样式复制CSS `margin`参数，该参数控制组件边框之外的空间，将其与其他组件分开。 它会在组件周围创建一个间隙，以影响其定位和周围内容的布局。
 
-根据设计需要设置边距值（像素）。 您可以单独设置组件的所有边、上边框、左右边或每侧的边距：
+根据设计需要设置边距值（像素）。 可以单独设置组件所有侧、上下、左右或每侧的边距：
 
 * **所有边** — 若要设置一个值以应用于所有边，请清除每个边的&#x200B;**[!UICONTROL 不同边距]**&#x200B;复选框。 单击向上和向下箭头图标以增加或减少像素数。
 
@@ -161,7 +161,7 @@ HTML组件的![对齐样式](../assets/content-design-shared/content-components-
 
 在选择了&#x200B;_[!UICONTROL 样式]_&#x200B;选项卡的右侧面板上，展开&#x200B;**[!UICONTROL 内边距]**&#x200B;部分，并设置结构组件内的内边距选项。 此样式将复制CSS `padding`参数，该参数是组件内容与其边框之间的空间。 内边距提供了内部间距，可用于控制内容与组件边框之间的距离。
 
-根据设计需要设置以像素为单位的填充值。 您可以单独设置组件的所有边、上边框、左右边或每侧的边距：
+根据设计需要设置以像素为单位的填充值。 可以单独设置组件所有侧、上下、左右或每侧的填充：
 
 * **所有边** — 若要设置一个值以应用于所有边，请清除&#x200B;**[!UICONTROL 每个边的不同边距]**&#x200B;复选框。 单击向上和向下箭头图标以增加或减少像素数。
 
