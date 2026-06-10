@@ -5,11 +5,17 @@ feature: Setup, Channels
 role: Admin
 autotag-review: '2026-05-27T16:06:59.553Z'
 TQID: 'https://experienceleague.adobe.com/GFW5SZ5Z-phoEIE6jTVD7EgwcT1Vx647mjoLXJejbFg'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
 source-wordcount: 542
@@ -27,7 +33,7 @@ ht-degree: 3%
 
 ## 先决条件
 
-要使用Web窗体，您必须在Adobe Experience Platform中定义一个或多个&#x200B;_**HTTP API流连接**_。 确保要使用的每个连接都满足以下要求：
+要使用Web窗体，您必须在Adobe Experience Platform中定义一个或多个&#x200B;_&#x200B;**HTTP API流连接**&#x200B;_。 确保要使用的每个连接都满足以下要求：
 
 * 数据类型必须设置为XDM（不是原始数据）
 * 必须禁用身份验证（非身份验证连接）
