@@ -18,9 +18,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 06b214f486571275d723e7a67fdf352263990b79
 workflow-type: tm+mt
-source-wordcount: 2542
+source-wordcount: 2541
 ht-degree: 3%
 
 ---
@@ -152,7 +152,7 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 | [!UICONTROL 自定义对象] >具有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}此人是否具有关系架构记录。 也可以根据[XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中配置的任何所选自定义对象条件对其进行评估。 （请参阅[自定义数据筛选](#custom-data-filtering)） |
 | [!UICONTROL 事件历史记录] | 根据在历程进入之前发生的体验事件拆分人员。 展开该文件夹以查看在[管理员> XDM事件配置](../admin/configure-aep-events.md)中配置的所有事件类型，并选择一个类型以添加为过滤器。 约束包括来自所选事件的字段、从人员进入历程时开始的回溯时间范围以及可选的最小次数。 |
 | [!UICONTROL 人员属性] | [个人资料](../admin/field-mapping.md#xdm-business-person-attributes)中的属性，包括： <li>城市 <li>国家 <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>名 <li>推断的州区域 <li>职务名称 <li>姓 <li>手机号码 <li>人员参与度分数 <li>电话号码 <li>邮政编码 <li>州 |
-| [!UICONTROL 特殊筛选器] > [!UICONTROL 购买团体成员] | （已弃用）人员是或不是根据以下一个或多个标准评估的购买组成员： <li>解决方案兴趣</li><li>购买组状态</li><li>完整性分数</li><li>参与度评分</li><li>已删除</li><li>角色</li> |
+| [!UICONTROL 特殊筛选器] > [!UICONTROL 购买团体成员] | 人员是否属于根据以下一个或多个标准评估的购买组成员： <li>解决方案兴趣</li><li>购买组状态</li><li>完整性分数</li><li>参与度评分</li><li>已删除</li><li>角色</li> |
 | [!UICONTROL 特殊筛选器] > [!UICONTROL 列表成员] | （已弃用）人员是一个或多个[!DNL Marketo Engage]列表的成员，或者不是该列表的成员。 |
 | [!UICONTROL 特殊筛选器] > [!UICONTROL 计划成员] | （已弃用）该人员是一个或多个[!DNL Marketo Engage]项目的成员，或者不是该项目的成员。 |
 
