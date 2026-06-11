@@ -18,10 +18,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+source-git-commit: aee98a6556736490878bac00607952fa0f3b0480
 workflow-type: tm+mt
-source-wordcount: 2466
-ht-degree: 0%
+source-wordcount: 2504
+ht-degree: 1%
 
 ---
 
@@ -98,6 +98,12 @@ ht-degree: 0%
   如果您允许访问登陆页面的已知人员绕过表单，则他们只需直接访问内容即可。 绕过表单可提供更精简的访客体验。
 
 ### 添加新表单 {#new-form}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_lp_form_preset"
+>title="选择预设"
+>abstract="选择一个预定义预设，其中包含要使用的连接以及为表单预定义的数据集。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="创建表单预设"
 
 您可以在Journey Optimizer B2B edition中创建表单，方法是单击&#x200B;_[!UICONTROL Forms]_&#x200B;列表页右上角的&#x200B;**[!UICONTROL 创建表单]**。
 
