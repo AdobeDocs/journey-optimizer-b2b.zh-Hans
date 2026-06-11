@@ -103,7 +103,7 @@ ht-degree: 1%
 >id="ajo-b2b_lp_form_preset"
 >title="选择预设"
 >abstract="选择一个预定义预设，其中包含要使用的连接以及为表单预定义的数据集。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="创建表单预设"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="创建表单预设"
 
 您可以在Journey Optimizer B2B edition中创建表单，方法是单击&#x200B;_[!UICONTROL Forms]_&#x200B;列表页右上角的&#x200B;**[!UICONTROL 创建表单]**。
 
