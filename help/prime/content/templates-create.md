@@ -1,11 +1,23 @@
 ---
 title: 创建电子邮件模板
-description: 了解如何在Journey Optimizer B2B Prime中创建电子邮件模板 — 从头开始设计，将历程中的电子邮件另存为模板，或将设计图像转换为电子邮件模板。
-badgeBeta: label="Beta 版" type="informative" tooltip="此功能属于有限测试版的一部分。"
-source-git-commit: 2f19137465c71f2292d37bea5786533b1df6e286
+description: 了解如何在Journey Optimizer B2B Prime中创建电子邮件模板 — 创建新模板、将历程中的电子邮件另存为模板，或将设计图像转换为电子邮件模板。
+badgeBeta: label="Beta 版" type="informative" tooltip="此功能属于有限测试版。"
+autotag-review: '2026-06-12T22:55:41.432Z'
+TQID: 'https://experienceleague.adobe.com/Msxr9hadBPax4r7tLi-UFZuUgZC3a0A9vc-Tjyaf4B4'
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 0%
+source-wordcount: 875
+ht-degree: 1%
 
 ---
 
@@ -14,42 +26,55 @@ ht-degree: 0%
 
 您可以通过三种方式在[!DNL Journey Optimizer B2B Edition Prime]中创建电子邮件模板：
 
-* **从头开始设计** — 使用可视电子邮件设计空间在模板库中构建新模板。
+* **生成新模板** — 使用可视化电子邮件设计空间在模板库中创建模板。
 * **从历程电子邮件保存** — 将您在历程中创作的电子邮件保存为可重用的模板。
 * **转换图像** — 上传设计图像并使用创作AI将其转换为可编辑的电子邮件模板。
 
->[!NOTE]
->
->在此Beta版本中，仅支持电子邮件模板。
-
-## 从头开始设计模板 {#design-from-scratch}
+## 构建新模板 {#build-new}
 
 1. 导航到&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 模板]**。
 1. 单击&#x200B;**[!UICONTROL 创建模板]**。
 1. 输入&#x200B;**[!UICONTROL 模板名称]**&#x200B;和可选的&#x200B;**[!UICONTROL 描述]**。
-1. （可选）添加标记以对模板进行分类。
+1. 为模板设置&#x200B;**[!UICONTROL 渠道]** （类型）。
+
+   >[!NOTE]
+   >
+   >在此Beta版本中，仅支持电子邮件模板。
+
+<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
 1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以打开电子邮件设计空间。
-1. 使用结构和内容组件设计电子邮件布局。 有关可用工具的完整参考，请参阅[电子邮件创作](email-authoring.md)。
-1. （可选）配置[内容锁定](template-content-locking.md)以限制模板作者在历程中使用它时可以编辑的哪些部分。
+
+1. 单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;以访问内容设计空间。
+
+   有关内容设计的详细信息，请参阅[电子邮件创作](email-authoring.md)。
+
+1. 可选地启用&#x200B;**[!UICONTROL 管理]**&#x200B;并配置[内容锁定](template-content-governance.md)以限制在应用模板时模板作者可以编辑的哪些部分。
+
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-## 将历程电子邮件另存为模板 {#save-as-template}
+## 将电子邮件另存为模板 {#save-as-template}
 
-在历程中设计要重用的电子邮件时，请将其从电子邮件设计空间直接保存到模板库。
+打开要重用的电子邮件内容时，请将其从电子邮件内容页面中直接保存到模板库。
 
-1. 在电子邮件设计空间中，打开编辑器顶部的&#x200B;**[!UICONTROL 保存]**&#x200B;下拉菜单。
+1. 单击页面顶部的&#x200B;**[!UICONTROL 内容模板]**。
 1. 选择&#x200B;**[!UICONTROL 另存为内容模板]**。
-1. 输入&#x200B;**[!UICONTROL 模板名称]**&#x200B;和可选的&#x200B;**[!UICONTROL 描述]**。
-1. 可以选择添加标记并配置[内容锁定](template-content-locking.md)。
-1. 单击&#x200B;**[!UICONTROL 保存]**。
+1. 输入&#x200B;**[!UICONTROL Name]**&#x200B;和可选的&#x200B;**[!UICONTROL Description]**。
+1. 可以选择添加&#x200B;**[!UICONTROL 标记]**。
+1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-原始历程电子邮件不受影响。 保存后的模板在模板库中可供沙盒中的所有用户使用。
+原始历程电子邮件不受影响。 保存后的模板在模板库中可供沙盒中的所有用户使用。 您可以更新创建的模板以优化重用：
+
+* 编辑文本并添加[个性化](email-authoring.md#personalization)令牌。
+* 更新或替换图像并添加链接。
+* 配置[内容锁定](template-content-governance.md)。
 
 ## 将图像转换为模板 {#image-to-template}
 
-[!DNL Journey Optimizer B2B Edition Prime]可以使用创作AI将静态图像（例如来自Figma或Photoshop的模型）转换为可编辑的电子邮件模板。 这无需从设计文件手动重建布局。
+[!DNL Journey Optimizer B2B Edition Prime]可以使用创作AI将静态图像（例如来自Figma或Photoshop的模型）转换为可编辑的电子邮件模板。 这无需从设计文件手动重建布局，非常适合从其他平台迁移现有电子邮件设计。 此功能仅适用于电子邮件内容模板。
 
-### 要求
+>[!BEGINSHADEBOX]
+
+### 先决条件
 
 开始之前：
 
@@ -65,34 +90,57 @@ ht-degree: 0%
 >
 >图像不得包含个人身份信息(PII)或敏感数据。
 
-### 转换图像
+>[!ENDSHADEBOX]
+
+### 创建模板
 
 1. 导航到&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 模板]**。
-1. 单击标题中的&#x200B;**[!UICONTROL 将图像转换为模板]**。
+1. 单击&#x200B;**[!UICONTROL 创建模板]**。
 1. 输入&#x200B;**[!UICONTROL 模板名称]**&#x200B;和可选的&#x200B;**[!UICONTROL 描述]**。
-1. （可选）选择&#x200B;**[!UICONTROL 品牌主题]**&#x200B;以将品牌的颜色、字体和间距应用于生成的输出。
-1. 使用拖放或文件浏览器上传图像。
-1. 确认图像不包含个人数据。
-1. 查看并接受Adobe创作AI用户准则（仅限第一次）。
-1. 单击&#x200B;**[!UICONTROL 转换]**。
+1. 将&#x200B;**[!UICONTROL 渠道]**&#x200B;设置为电子邮件。
 
-   转化通常在五分钟内完成。 复杂或大型图像可能最多需要10分钟。 您可以导航离开 — 该过程在后台继续。
+<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-1. 转换完成后，单击模板名称以预览和编辑生成的内容。
+### 生成模板内容
 
->[!NOTE]
->
->结果不会自动显示。 刷新页面或返回模板库以查看已完成的模板。
+1. 在&#x200B;**[!UICONTROL 将图像转换为模板]**&#x200B;部分中：
 
-### 转换后编辑
+   * （可选）选择&#x200B;**[!UICONTROL 品牌主题]**&#x200B;以将品牌的颜色、字体和间距应用于生成的输出。
+   * 选中确认复选框，以确认您的图像不包含个人身份信息(PII)或其他敏感数据。
+   * 单击&#x200B;**[!UICONTROL 上传图像]**&#x200B;并选择您的图像文件。
 
-转换后的模板将在电子邮件设计空间中作为完全可编辑的电子邮件打开。 使用标准设计工具可以：
+   >[!CAUTION]
+   >
+   >上传图像会删除电子邮件中当前的所有内容，并将其替换为生成的模板。
+
+1. 如果出现提示，请查阅并接受Adobe创作AI用户指南。
+
+1. 单击&#x200B;**[!UICONTROL 打开]**&#x200B;开始转换过程。
+
+   转化通常在五分钟内完成。 复杂或大型图像可能最多需要10分钟。 转换在后台运行 — 您可以在转换完成后离开并自动保存草稿模板。
+
+1. 刷新页面可查看已完成的模板。
+
+   >[!NOTE]
+   >
+   >结果不会自动显示。 刷新页面或返回模板库以查看已完成的模板。
+
+1. 或者，使用&#x200B;**[!UICONTROL 图像到模板转换器反馈]**&#x200B;部分与Adobe共享建议。
+
+1. 单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;以在电子邮件设计空间打开转换后的模板进行编辑。
+
+1. 单击&#x200B;**[!UICONTROL 保存]**。
+
+### 编辑转换的内容
+
+转换后的模板内容将在设计空间中作为完全可编辑的电子邮件模板打开。 使用标准内容设计工具可以：
 
 * 编辑文本并添加[个性化](email-authoring.md#personalization)令牌。
 * 更新或替换图像并添加链接。
 * 调整颜色、字体和间距。
 * 添加、删除或重新排列内容组件。
-* 配置[内容锁定](template-content-locking.md)。
+* 启用治理并配置[内容锁定](template-content-governance.md)。
 
 >[!IMPORTANT]
 >
