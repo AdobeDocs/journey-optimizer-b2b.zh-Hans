@@ -5,36 +5,28 @@ feature: Setup, Integrations
 role: Admin
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: adf04a6a-050f-44bc-a52c-db79ccb22ebf
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: adf04a6a-050f-44bc-a52c-db79ccb22ebfid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: ed0d8d0e-04b9-4326-be72-a0fbca265377
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 1605
+source-wordcount: 1603
 ht-degree: 11%
 
 ---
 
 # 选择体验事件和字段
 
-管理员可以在Experience Event合并架构中选择特定的[AEP Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其关联字段。 选择后，用户可以配置决策规则以侦听这些Experience事件，以基于近乎实时的事件数据启用动态和针对性的营销活动操作。
+管理员可以在Experience Event合并架构中选择特定的[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其关联字段。 选择后，用户可以配置决策规则以侦听这些Experience事件，以基于近乎实时的事件数据启用动态和针对性的营销活动操作。
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
 >[!PREREQUISITES]
 >
->在Journey Optimizer B2B edition中使用Experience Events和字段需要启用配置文件的Experience Event架构。 有关详细信息，请参阅Experience Platform教程中的[启用实时客户个人资料](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}。
+>在Journey Optimizer B2B edition中使用Experience Events和字段需要启用配置文件的Experience Event架构。 有关详细信息，请参阅Experience Platform教程中的[启用实时客户个人资料](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}。
 
 在历程中使用AEP体验事件包括两个步骤：
 
@@ -43,7 +35,7 @@ ht-degree: 11%
 1. 在历程中，营销人员通过以下两种方式之一使用配置的事件：
 
    * 添加&#x200B;_侦听事件_&#x200B;节点，[选择体验事件](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event)以根据历程期间的实时事件活动触发历程进展。
-   * 添加&#x200B;_按人员拆分路径_&#x200B;节点，并在&#x200B;**[!UICONTROL Event history]**&#x200B;文件夹中的事件[&#128279;](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering)上配置筛选器的路径。
+   * 添加&#x200B;_按人员拆分路径_&#x200B;节点，并在&#x200B;**[!UICONTROL Event history]**&#x200B;文件夹中的事件](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering)上配置[筛选器的路径。
 
 >[!BEGINSHADEBOX]
 
@@ -121,7 +113,7 @@ ht-degree: 11%
 
 1. 在事件详细信息页面中，单击&#x200B;**[!UICONTROL 保存]**。
 
-保存的事件显示在&#x200B;_[!UICONTROL 事件]_&#x200B;选项卡的列表中。
+_[!UICONTROL 事件]_&#x200B;选项卡上的列表显示已保存的事件。
 
 ### 编辑事件 {#edit-an-event}
 
@@ -487,5 +479,5 @@ ht-degree: 11%
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448693/?captions=chi_hans&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
 -->
