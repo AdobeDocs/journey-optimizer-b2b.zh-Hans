@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:48:47.183Z
 TQID: https://experienceleague.adobe.com/nM-Jxcj7wekzRks2xCqshOdlY7W8K0WKCXtWCNSb388
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 541
-ht-degree: 75%
+source-wordcount: 540
+ht-degree: 71%
 
 ---
 
@@ -80,7 +80,7 @@ Marketo Engage操作是&#x200B;_基于人员的_&#x200B;操作，通过此类操
 
 ## 在历程操作中使用连接
 
-当营销人员在旅程中使用Marketo Engage操作时，他们可以使用连接名称配置节点。
+当营销人员在旅程中使用Marketo Engage操作时，他们使用连接名称配置节点。
 
 >[!NOTE]
 >

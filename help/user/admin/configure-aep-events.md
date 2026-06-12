@@ -19,9 +19,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 1605
+source-wordcount: 1603
 ht-degree: 11%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 11%
 
 1. 在事件详细信息页面中，单击&#x200B;**[!UICONTROL 保存]**。
 
-保存的事件显示在&#x200B;_[!UICONTROL 事件]_&#x200B;选项卡的列表中。
+_[!UICONTROL 事件]_&#x200B;选项卡上的列表显示已保存的事件。
 
 ### 编辑事件 {#edit-an-event}
 

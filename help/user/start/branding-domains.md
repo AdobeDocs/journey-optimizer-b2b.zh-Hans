@@ -16,10 +16,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 1015
-ht-degree: 83%
+source-wordcount: 1013
+ht-degree: 80%
 
 ---
 
@@ -144,7 +144,7 @@ Marketo Engage中的品牌策略域是一个自定义子域（如`links.yourcomp
 
 >[!NOTE]
 >
->如果要删除主品牌域（在一个或多个工作区中），则必须首先为每个工作区选择不同的品牌域作为主品牌域。
+>如果要删除主品牌化域（在一个或多个工作区中），请先选择不同的品牌化域作为每个工作区的主品牌化域。
 >
 >删除域&#x200B;**_不会_**&#x200B;删除SSL证书。 此护栏可防止导致网站没有SSL证书的用户错误。 如果您确实要删除SSL证书，请联系Adobe支持。
 

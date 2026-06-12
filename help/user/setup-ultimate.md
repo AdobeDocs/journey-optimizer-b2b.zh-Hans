@@ -21,16 +21,16 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 849
+source-wordcount: 848
 ht-degree: 74%
 
 ---
 
 # 设置核对清单
 
-Adobe Journey Optimizer B2B edition基于Adobe Experience Platform构建。 对于此实施，Journey Optimizer B2B edition和Marketo Engage不在同一系统或同一数据存储上。 Journey Optimizer B2B edition从Adobe Experience Platform接收数据。 但是，它继续依赖Marketo Engage权利和一些后端功能（如电子邮件投放）来配置和配置系统。
+Adobe Journey Optimizer B2B edition基于Adobe Experience Platform构建。 对于此实施，Journey Optimizer B2B edition和Marketo Engage不在同一系统或同一数据存储上。 Journey Optimizer B2B edition从Experience Platform接收数据。 但是，它继续依赖Marketo Engage权利和一些后端功能（如电子邮件投放）来配置和配置系统。
 
 <!-- 
 >>[!NOTE]

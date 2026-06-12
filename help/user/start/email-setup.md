@@ -22,7 +22,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
 source-wordcount: 1321
 ht-degree: 70%
@@ -35,7 +35,7 @@ ht-degree: 70%
 
 ## 电子邮件设置
 
-要为附加的Marketo Engage实例设置电子邮件默认值，请更改配置值以反映营销组织的使用情况。
+要为附加的Marketo Engage实例设置电子邮件默认值，请更改配置值以反映营销团队的使用情况。
 
 ### 发件人电子邮件和标签
 

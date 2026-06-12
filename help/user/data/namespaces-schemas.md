@@ -20,10 +20,10 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
 source-wordcount: 1003
-ht-degree: 88%
+ht-degree: 87%
 
 ---
 
@@ -70,7 +70,7 @@ Journey Optimizer B2B edition设置包括配置用于B2B源的Experience Platfor
 
 ### 运行脚本
 
-在环境值就绪后，使用[!DNL Postman]界面运行脚本以创建命名空间和架构。 选择自动生成器实用工具的根文件夹，然后从顶部标题中选择&#x200B;**[!DNL Run]**。
+在环境值就绪后，使用[!DNL Postman]界面运行脚本以创建命名空间和架构。 选择自动生成器实用工具的根文件夹，然后在顶部标题中选择&#x200B;**[!DNL Run]**。
 
 Postman UI中命名空间和架构生成器的![根文件夹](./assets/namespaces-schemas-postman-root-folder.png){width="500" zoomable="yes"}
 
