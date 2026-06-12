@@ -18,7 +18,7 @@ ht-degree: 10%
 
 ## 先决条件
 
-要使用Web窗体，您必须在Adobe Experience Platform中定义一个或多个&#x200B;_&#x200B;**HTTP API流连接**&#x200B;_。 确保要使用的每个连接都满足以下要求：
+要使用Web窗体，您必须在Adobe Experience Platform中定义一个或多个&#x200B;_**HTTP API流连接**_。 确保要使用的每个连接都满足以下要求：
 
 * 数据类型必须设置为XDM（不是原始数据）
 * 必须禁用身份验证（非身份验证连接）
@@ -90,7 +90,7 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
 
    >[!NOTE]
    >
-   >当前只能选择启用配置文件和未启用配置文件的[Adobe Experience Platform数据集](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/overview)。 一次只能选择一个数据集。 系统数据集不能用于保存表单数据。
+   >当前只能选择启用配置文件和未启用配置文件的[Adobe Experience Platform数据集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)。 一次只能选择一个数据集。 系统数据集不能用于保存表单数据。
 
    选中数据集的复选框，然后单击&#x200B;**[!UICONTROL 选择]**。
 
