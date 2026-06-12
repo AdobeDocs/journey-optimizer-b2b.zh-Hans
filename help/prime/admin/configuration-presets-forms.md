@@ -90,7 +90,7 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
 
    >[!NOTE]
    >
-   >当前只能选择启用配置文件和未启用配置文件的[Adobe Experience Platform数据集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)。 一次只能选择一个数据集。 系统数据集不能用于保存表单数据。
+   >当前只能选择启用配置文件和未启用配置文件的[Adobe Experience Platform数据集](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/overview)。 一次只能选择一个数据集。 系统数据集不能用于保存表单数据。
 
    选中数据集的复选框，然后单击&#x200B;**[!UICONTROL 选择]**。
 
