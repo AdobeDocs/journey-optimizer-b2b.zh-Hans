@@ -1,21 +1,21 @@
 ---
-user-guide-title: Journey Optimizer B2B Edition 文档
-user-guide-description: 了解 Adobe Journey Optimizer B2B Edition 以及如何使用它通过内置的生成式 AI 和行业领先的自动化来编排帐户及购买群组历程。
-source-git-commit: 59fb0015ada5e28e5575cf57159c9be44bc66f18
+user-guide-title: Journey Optimizer B2B Ultimate文档
+user-guide-description: 了解Adobe Journey Optimizer B2B edition Ultimate，以及如何使用内置的创意AI和行业领先的自动化技术将其用于编排帐户和购买团体历程。
+source-git-commit: b686ab778c1640cc76f098aa18b8f2bdb1e24a32
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 89%
+source-wordcount: '450'
+ht-degree: 79%
 
 ---
 
 
-# Journey Optimizer B2B Edition 用户指南 {#user}
+# Journey Optimizer B2B Ultimate用户指南 {#user}
 
-+ [Adobe Journey Optimizer B2B Edition 文档](guide-overview.md)
++ [Adobe Journey Optimizer B2B Ultimate文档](guide-overview.md)
 + [发行说明](./release-notes/release-notes.md)
 + 快速入门 {#get-started}
    + [Journey Optimizer B2B Edition 概述](about-journey-optimizer-b2b-edition.md)
-   + 环境设置 {#admin-setup}
+   + Ultimate设置 {#ultimate}
       + [设置核对清单](./setup-ultimate.md)
       + [命名空间和架构](./data/namespaces-schemas.md)
       + [XDM字段选择](./admin/xdm-field-management.md)
