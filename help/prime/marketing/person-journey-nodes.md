@@ -3,10 +3,16 @@ title: 添加历程节点
 description: 人员历程节点的占位符页面。
 autotag-review: '2026-06-12T23:02:52.147Z'
 TQID: 'https://experienceleague.adobe.com/sTnrOvrGIrgboPqOMrrkUvNU1y6zZJX42zEJxuUInKQ'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 2f4929e4fadeee87b9e31298d2a1de269fc007d5
 workflow-type: tm+mt
 source-wordcount: 1137
@@ -114,7 +120,7 @@ _[!UICONTROL 人员受众]_&#x200B;节点自动成为历程中的第一个节点
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
 
-_**按人员节点划分的拆分路径的工作方式**_
+_&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 
 * 每个路径的评估是从上到下。 如果人员与第一条和第二条路径匹配，则他们仅沿着第一条路径前进。
 * 该节点支持&#x200B;_其他人员_&#x200B;路径的定义，您可以在其中添加与定义的区段/路径之一不匹配的人员的操作或事件。
