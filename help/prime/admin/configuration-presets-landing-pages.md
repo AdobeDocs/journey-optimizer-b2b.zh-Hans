@@ -15,7 +15,7 @@ subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: fc507317f18b7672905292f01315418e1d431575
 workflow-type: tm+mt
 source-wordcount: 971
 ht-degree: 8%
@@ -249,7 +249,9 @@ _To add a landing page subdomain:_
 
    此时将显示与所选子域对应的设置。
 
-1. 您可以通过选中&#x200B;**[!UICONTROL 与登陆页面子域]**&#x200B;相同选项，为&#x200B;**[!UICONTROL 跟踪URL]**&#x200B;选择登陆页面子域。<!-- [Learn more about tracking](../email/message-tracking.md) -->
+1. 通过选中&#x200B;**[!UICONTROL 与登陆页面子域]**&#x200B;相同选项，可以为&#x200B;**[!UICONTROL 跟踪URL]**&#x200B;选择登陆页面子域。
+
+   <!-- [Learn more about tracking](../email/message-tracking.md) -->
 
    <!-- ![Landing page preset with subdomain settings](./assets/config-channels-landing-pages-preset-subdomain-settings.png){width="500" zoomable="yes"} -->
 

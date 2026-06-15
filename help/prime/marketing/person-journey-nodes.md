@@ -13,7 +13,7 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 2f4929e4fadeee87b9e31298d2a1de269fc007d5
 workflow-type: tm+mt
 source-wordcount: 1137
 ht-degree: 2%
@@ -48,7 +48,7 @@ _[!UICONTROL 人员受众]_&#x200B;节点自动成为历程中的第一个节点
 | **[!UICONTROL 发送电子邮件]** | <li>创建电子邮件 <li>发送时间优化（可选） |
 | **[!UICONTROL 更改数据值]** | <li>选择人员属性 <li>设置新值 |
 
-### 添加操作节点
+### 添加操作节点 {#add-an-action-node}
 
 1. 导航到历程图。
 

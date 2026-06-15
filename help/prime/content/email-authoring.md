@@ -15,9 +15,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 2f4929e4fadeee87b9e31298d2a1de269fc007d5
 workflow-type: tm+mt
-source-wordcount: 2775
+source-wordcount: 2789
 ht-degree: 1%
 
 ---
@@ -34,17 +34,15 @@ ht-degree: 1%
 
 此操作将启动电子邮件设计空间，您可以在其中从以下选项中选择所需的电子邮件设计方式：
 
-* [使用可视化设计界面从头开始设计电子邮件](#design-your-email-from-scratch)。 在空白画布上使用拖放操作，通过组件构建电子邮件布局组件。 此方法最适合创建新模板或一次性电子邮件。
+* [使用可视化设计界面从头开始设计电子邮件](#build-from-scratch)。 在空白画布上使用拖放操作，通过组件构建电子邮件布局组件。 此方法最适合创建新模板或一次性电子邮件。
 
-* [将HTML](#html)导入代码编辑器或与可视画布并排工作。
+* 将HTML导入代码编辑器或与可视画布并排工作。 Beta路线图中提供了包含.html和.zip上传的完整HTML导入工作流。
 
-  <!-- Full HTML import workflow with .html and .zip uploads is on the Beta roadmap. -->
-
-* [从内置或自定义电子邮件模板列表中选择现有模板](#select-a-template)。 此方法最适合可重复电子邮件用例。
+* [从内置或自定义电子邮件模板列表中选择现有模板](#create-from-template)。 此方法最适合可重复电子邮件用例。
 
 <!-- * Upload a design prototype (JPG, PNG, PDF, or Figma export) and have AI Assitant convert it into a responsive HTML email. (Image to HTML (Img2HTML) -->
 
-## 电子邮件设计工具
+## 电子邮件设计工具 {#email-design-tools}
 
 * **顶部工具栏：**&#x200B;保存，返回，切换到代码编辑器，预览控件。
 * **左边栏：**&#x200B;结构（列布局）、内容（文本、按钮、图像、分隔符、社交、HTML）、片段、模板、导航树（电子邮件的DOM样式层次结构）。
@@ -140,7 +138,7 @@ ht-degree: 1%
 
 模板是可重用的电子邮件布局。 它们可加快电子邮件创建速度、强制实施品牌一致性，并使团队协作更轻松。
 
-### 模板类型
+### 模板类型 {#template-types}
 
 * **示例模板（现成）。** 大约20个现成的模板，涵盖常见使用案例（基于账户的外联、活动邀请、培养、产品公告）。 可供每个客户立即使用。
 * **已保存模板（自定义）。** 您的团队创建的模板 — 在&#x200B;**[!UICONTROL 内容管理]**→**[!UICONTROL 模板]**&#x200B;下从头开始构建，或使用“另存为模板”选项从现有电子邮件中保存。
@@ -214,7 +212,7 @@ ht-degree: 1%
 
 Prime使用Handlebars语法进行个性化。 在发送时，令牌会被替换为来自每个收件人的配置文件数据的值。
 
-### 您可以在其中进行个性化
+### 您可以在其中进行个性化 {#where-you-can-personalize}
 
 * **主题行** — 最常见的个性化点。
 * **Preheader** — 在可视画布中设置；支持配置文件属性令牌。

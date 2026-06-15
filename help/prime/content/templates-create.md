@@ -14,7 +14,7 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: beb843b812f6398d342f52f7fcfdd387e916d2f6
 workflow-type: tm+mt
 source-wordcount: 875
 ht-degree: 1%
@@ -41,7 +41,8 @@ ht-degree: 1%
    >
    >在此Beta版本中，仅支持电子邮件模板。
 
-<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+   <!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+
 1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以打开电子邮件设计空间。
 
 1. 单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;以访问内容设计空间。
@@ -99,7 +100,8 @@ ht-degree: 1%
 1. 输入&#x200B;**[!UICONTROL 模板名称]**&#x200B;和可选的&#x200B;**[!UICONTROL 描述]**。
 1. 将&#x200B;**[!UICONTROL 渠道]**&#x200B;设置为电子邮件。
 
-<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+   <!--  Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
 ### 生成模板内容

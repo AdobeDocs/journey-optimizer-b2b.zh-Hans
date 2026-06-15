@@ -15,10 +15,10 @@ subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: ce49389601416e7acefb9f948c052a1d840d8854
 workflow-type: tm+mt
-source-wordcount: 538
-ht-degree: 10%
+source-wordcount: 541
+ht-degree: 12%
 
 ---
 
@@ -65,7 +65,7 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
    * _目标连接_ — 存储或使用数据的位置。
    * _Source流_ — 将数据从源连接移入Experience Platform的管道。 它处理映射、转换和验证。
 
-## 创建表单预设
+## 创建表单预设 {#create-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_connection"
@@ -96,7 +96,7 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
 
    此连接是Web查看器提交表单时用于发送数据的流端点。 如果列表中未显示所需的流连接，请验证是否满足要求。
 
-1. 单击&#x200B;_选择数据集_<!-- ( ![Select dataset icon](../assets/do-not-localize/icon-select-data.svg) ) -->&#x200B;图标可将数据集与表单关联。
+1. 单击&#x200B;_选择数据集_ （ ![选择数据集图标](../../user/assets/do-not-localize/icon-select-data.svg) ）图标可将数据集与表单关联。
 
    数据集是存储和反映表单响应的位置。 您可以输入文本字符串以搜索特定数据集，或从列表中选择该数据集。
 
@@ -104,7 +104,7 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
 
    >[!NOTE]
    >
-   >当前只能选择启用配置文件和未启用配置文件的[Adobe Experience Platform数据集](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/overview)。 一次只能选择一个数据集。 系统数据集不能用于保存表单数据。
+   >当前只能选择启用配置文件和未启用配置文件的[Adobe Experience Platform数据集](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/overview)。 您可以一次选择一个数据集。 系统数据集不能用于保存表单数据。
 
    选中数据集的复选框，然后单击&#x200B;**[!UICONTROL 选择]**。
 
