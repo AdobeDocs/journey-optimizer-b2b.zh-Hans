@@ -3,19 +3,11 @@ title: 电子邮件创作
 description: 使用Journey Optimizer B2B Prime中的电子邮件设计工具，包括电子邮件模板、片段、个性化、深色模式和验证。
 autotag-review: '2026-06-12T22:51:19.543Z'
 TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 2f4929e4fadeee87b9e31298d2a1de269fc007d5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
 workflow-type: tm+mt
 source-wordcount: 2789
 ht-degree: 1%
@@ -30,7 +22,7 @@ ht-degree: 1%
 >
 >有关子域的管理员设置、身份验证、IP池和电子邮件通道配置，请参阅[电子邮件可投放性和通道配置](../admin/configuration-email-deliverability.md)。
 
-在[!DNL Journey Optimizer B2B Prime]中，每个电子邮件都与历程中的&#x200B;_[!UICONTROL 发送电子邮件]_&#x200B;操作相关联。 从历程设计到电子邮件定义的完整工作流发生在一个连续的体验中。 当您[将&#x200B;_发送电子邮件_&#x200B;节点](../marketing/person-journey-nodes.md#add-an-action-node)添加到人员历程时，单击&#x200B;**[!UICONTROL 创建电子邮件]**&#x200B;以开始电子邮件内容设计过程。
+在[!DNL Journey Optimizer B2B Prime]中，每个电子邮件都与历程中的&#x200B;_[!UICONTROL 发送电子邮件]_&#x200B;操作相关联。 从历程设计到电子邮件定义的完整工作流发生在一个连续的体验中。 当您[将&#x200B;_发送电子邮件_&#x200B;节点](../marketing/action-nodes.md#add-an-action-node)添加到人员历程时，单击&#x200B;**[!UICONTROL 创建电子邮件]**&#x200B;以开始电子邮件内容设计过程。
 
 此操作将启动电子邮件设计空间，您可以在其中从以下选项中选择所需的电子邮件设计方式：
 
