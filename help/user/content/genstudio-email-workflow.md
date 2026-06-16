@@ -51,7 +51,7 @@ ht-degree: 10%
 
 ## GenStudio内容生成功能
 
-[Adobe GenStudio for Performance Marketing](https://business.adobe.com/products/genstudio/performance-marketing.html){target="_blank"}是一个创新型人工智能优先应用程序，它使营销团队能够创建符合品牌标准并遵守其企业政策的有影响力的个性化广告和电子邮件。 通过利用Adobe AI技术，它提供了一套全面的工具，可简化内容创建和管理的复杂性，以便内容创作者可以专注于创新。
+[Adobe GenStudio for Performance Marketing](https://business.adobe.com/cn/products/genstudio/performance-marketing.html){target="_blank"}是一个创新型人工智能优先应用程序，它使营销团队能够创建符合品牌标准并遵守其企业政策的有影响力的个性化广告和电子邮件。 通过利用Adobe AI技术，它提供了一套全面的工具，可简化内容创建和管理的复杂性，以便内容创作者可以专注于创新。
 
 ![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [创建品牌内营销电子邮件](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
@@ -89,7 +89,7 @@ ht-degree: 10%
 
 使用HTML文件在GenStudio for Performance Marketing中创建模板。
 
-要了解有关将HTML模板上传到Adobe GenStudio for Performance Marketing的更多信息，请参阅GenStudio for Performance Marketing文档中的[添加模板](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/templates/use-templates#add-a-template)。
+要了解有关将HTML模板上传到Adobe GenStudio for Performance Marketing的更多信息，请参阅GenStudio for Performance Marketing文档中的[添加模板](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/templates/use-templates#add-a-template)。
 
 上传导出的HTML作为模板时，GenStudio for Performance Marketing会扫描HTML文件以查找可识别的字段。 使用预览可查看模板元素，并确认您使用可识别的字段名称正确标识了它们。
 
@@ -97,7 +97,7 @@ ht-degree: 10%
 
 在GenStudio for Performance Marketing中，使用模板创建多个电子邮件体验变体并保存它们。
 
-有关生成品牌电子邮件体验的详细信息，请参阅GenStudio for Performance Marketing文档中的[创建电子邮件体验](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience)。
+有关生成品牌电子邮件体验的详细信息，请参阅GenStudio for Performance Marketing文档中的[创建电子邮件体验](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience)。
 
 ## 将生成的电子邮件体验添加到Journey Optimizer B2B edition
 
