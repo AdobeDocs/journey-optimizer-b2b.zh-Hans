@@ -26,7 +26,7 @@ TQID: https://experienceleague.adobe.com/lFx0KVsrjM7aGFX8-N3lSvqWKvsd2JaK2tOa7QJ
 source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 857
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_genstudio_button"
 >title="使用 GenStudio 构建的模板"
->abstract="使用与Adobe GenStudio for Performance Marketing的集成来导入通过Adobe AI技术增强的GenStudio模板。"
+>abstract="使用与 Adobe GenStudio for Performance Marketing 的集成功能，导入由 Adobe AI 技术增强的 GenStudio 模板。"
 
 >[!AVAILABILITY]
 >
