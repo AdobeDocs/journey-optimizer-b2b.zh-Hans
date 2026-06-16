@@ -13,22 +13,20 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 4c8c11e14e295eb594bc291f554978a92baf4c56
 workflow-type: tm+mt
-source-wordcount: 152
-ht-degree: 2%
+source-wordcount: 149
+ht-degree: 1%
 
 ---
 
 # 营销管理
 
-Marketing Management主页：
-
-历程中心
+营销中心
 
 程序和文件夹
 人员历程
-帐户历程
+帐户历程（稍后）
 仲裁控制台
 
 ## 历程中心

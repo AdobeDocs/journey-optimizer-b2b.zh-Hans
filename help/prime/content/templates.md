@@ -14,7 +14,7 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 4c8c11e14e295eb594bc291f554978a92baf4c56
 workflow-type: tm+mt
 source-wordcount: 485
 ht-degree: 1%
@@ -55,7 +55,7 @@ ht-degree: 1%
 
 **要将模板移动到文件夹中：**
 
-1. 单击模板旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;图标(⋯)。
+1. 单击模板旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;图标( ... )。
 1. 选择&#x200B;**[!UICONTROL 移动到文件夹]**。
 1. 选择目标文件夹并单击&#x200B;**[!UICONTROL 移动]**。
 
@@ -67,15 +67,15 @@ ht-degree: 1%
 
 ### 编辑模板
 
-单击模板名称以打开详细信息页面，然后单击&#x200B;**[!UICONTROL 编辑电子邮件模板]**。 您还可以单击模板列表中的&#x200B;**[!UICONTROL 更多]**&#x200B;图标(⋯)并选择&#x200B;**[!UICONTROL 编辑]**。
+单击模板名称以打开详细信息页面，然后单击&#x200B;**[!UICONTROL 编辑电子邮件模板]**。 您还可以单击模板列表中的&#x200B;**[!UICONTROL 更多]**&#x200B;图标( ... )，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
 ### 复制模板
 
-单击模板旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;图标(⋯)并选择&#x200B;**[!UICONTROL 复制]**。 这将打开副本，您可以重命名它并进行调整。
+单击模板旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;图标( ... )，然后选择&#x200B;**[!UICONTROL 复制]**。 这将打开副本，您可以重命名它并进行调整。
 
 ### 删除模板
 
-单击模板旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;图标(⋯)，然后选择&#x200B;**[!UICONTROL 删除]**。 出现提示时确认删除。
+单击模板旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;图标( ... )，然后选择&#x200B;**[!UICONTROL 删除]**。 出现提示时确认删除。
 
 >[!NOTE]
 >

@@ -12,16 +12,14 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: c844cb4fb520f802c18a9988461c39106000b778
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 4%
+source-wordcount: 474
+ht-degree: 3%
 
 ---
 
 # 受众管理
-
-受众如何在AJO B2B Prime中播放？
 
 在营销管理中心上，单击右侧导航栏中的&#x200B;**[!UICONTROL 人员列表]**。
 
@@ -74,9 +72,9 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 ## 创建人员列表
 
 
-要创建新的动态或静态列表，请执行以下操作：
+要创建动态或静态列表，请执行以下操作：
 
-1. 单击&#x200B;_[!UICONTROL 人员列表]_&#x200B;页面右上角的&#x200B;**创建列表**。
+1. 单击&#x200B;_[!UICONTROL 人员列表]_&#x200B;页面右上角的&#x200B;**[!UICONTROL 创建列表]**。
 1. 选择一个项目作为列表的&#x200B;**[!UICONTROL 父项]**。
 1. 输入列表&#x200B;**[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**（可选）。
 1. 选择然后列出&#x200B;**[!UICONTROL 类型]**：
@@ -93,6 +91,10 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 ## 静态列表
 
 静态列表成员资格由引用人员属性和活动的简单过滤器定义。 除非您手动授予成员资格或取消成员资格，否则成员资格不会更改。
+
+>[!NOTE]
+>
+>在列表中添加或删除成员时，静态列表筛选器定义只应用一次。 定义的过滤器在之后不可用。 如果要使用过滤器维护一致的受众定义，请改用动态列表。
 
 ### 添加成员
 

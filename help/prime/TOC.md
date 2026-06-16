@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Prime文档
 user-guide-description: 了解Adobe Journey Optimizer B2B edition Prime以及如何将其用于？
 hide: true
-source-git-commit: 5342db511380b4aedcbbd5798800d3900e03045c
+source-git-commit: bf2854a777f62ba2f74f79942ee3336b6e8ab9dd
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 37%
+source-wordcount: '116'
+ht-degree: 38%
 
 ---
 
@@ -15,18 +15,19 @@ ht-degree: 37%
 + [Adobe Journey Optimizer B2B Prime文档](guide-overview.md)
 + [设置](./start/setup-prime.md)
 + [主页和见解](./home-insights/home-insights.md)
++ [代理](./agents/agents.md)
 + 营销管理 {#marketing-management}
    + {hide-from-toc}[概述](./marketing/marketing-management.md)
    + [项目](./marketing/programs.md)
    + [人员历程](./marketing/person-journeys.md)
    + 历程节点 {#journey-nodes}
       + [节点概述](./marketing/person-journey-nodes.md)
+      + [人员受众](./marketing/person-audience-node.md)
       + [执行操作](./marketing/action-nodes.md)
       + [侦听事件](./marketing/listen-for-event-nodes.md)
       + [等待](./marketing/wait-nodes.md)
       + [拆分和合并路径](./marketing/split-merge-paths-nodes.md)
       + [下一个最佳路径](./marketing/next-best-path.md)
-+ [代理](./agents/agents.md)
 + 受众 {#audiences}
    + [受众管理](./audiences/audience-management.md)
    + [动态受众资格](./audiences/dynamic-audience-qualification.md)
