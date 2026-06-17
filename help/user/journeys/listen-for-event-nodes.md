@@ -4,19 +4,14 @@ description: 为帐户和人员触发器配置事件节点 — 监听Journey Opt
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
 source-wordcount: 1880
 ht-degree: 11%
@@ -50,7 +45,7 @@ ht-degree: 11%
 
 ### 添加帐户事件
 
-1. 导航到历程图。
+1. 导航到历程画布。
 
 1. 单击路径上的加号( **+** )图标，然后选择&#x200B;**[!UICONTROL 侦听事件]**。
 
@@ -102,7 +97,7 @@ ht-degree: 11%
 
 ### 添加人员事件
 
-1. 导航到历程图。
+1. 导航到历程画布。
 
 1. 单击路径上的加号( **+** )图标，然后选择&#x200B;**[!UICONTROL 侦听事件]**。
 
@@ -118,7 +113,7 @@ ht-degree: 11%
 
 如果您在连接的Marketo Engage实例中有网页，则可以根据对这些网页的访问次数/未访问次数以及未填写的Marketo Engage表单触发事件。
 
-1. 在历程映射中选择&#x200B;**[!UICONTROL 侦听事件]**&#x200B;节点。
+1. 在历程画布中选择&#x200B;**[!UICONTROL 侦听事件]**&#x200B;节点。
 
 1. 在右侧的节点属性中，为事件类型选择&#x200B;**[!UICONTROL 人员]**。
 
@@ -147,11 +142,11 @@ ht-degree: 11%
 
 1. 如果需要，请设置&#x200B;**[!UICONTROL Timeout]**&#x200B;选项以限制侦听事件的时间段（请参阅[向事件节点添加超时](#add-a-timeout-to-an-event-node)）。
 
-1. 在历程映射中，添加下一个要在事件发生时执行的节点。
+1. 在历程画布中，添加下一个要在事件发生时执行的节点。
 
 ### 收听体验活动 {#listen-for-an-experience-event}
 
-管理员可以选择[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，这样营销人员就可以创建对事件做出近乎实时反应的帐户和人员历程。 在历程中使用体验事件包括两个步骤：
+管理员可以选择[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，这样营销人员就可以创建对事件做出近乎实时反应的帐户和人员历程。 在历程中使用体验事件包括两个步骤：
 
 1. 管理员[添加事件类型和感兴趣的字段](../admin/configure-aep-events.md#add-an-event)，以便在历程中可用。
 
@@ -163,7 +158,7 @@ ht-degree: 11%
 
 要在历程中包含体验事件(_T):_
 
-1. 在历程映射中选择&#x200B;**[!UICONTROL 侦听事件]**&#x200B;节点。
+1. 在历程画布中选择&#x200B;**[!UICONTROL 侦听事件]**&#x200B;节点。
 
 1. （仅限帐户历程）在右侧的节点属性中，为事件类型选择&#x200B;**[!UICONTROL 人员]**。
 
@@ -197,7 +192,7 @@ ht-degree: 11%
 
 1. 如果需要，请设置&#x200B;**[!UICONTROL Timeout]**&#x200B;选项以限制侦听事件的时间段（请参阅[向事件节点添加超时](#add-a-timeout-to-an-event-node)）。
 
-1. 在历程映射中，添加下一个要在事件发生时执行的节点。
+1. 在历程画布中，添加下一个要在事件发生时执行的节点。
 
 1. 完成历程的其余节点，并[发布它](./journeys-overview.md)。
 
@@ -242,5 +237,5 @@ ht-degree: 11%
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443244/?captions=chi_hans&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
 -->

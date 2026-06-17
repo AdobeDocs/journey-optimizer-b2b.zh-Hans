@@ -3,19 +3,14 @@ title: 人员历程
 description: 在Journey Optimizer B2B edition Prime中创建、发布和管理人员历程 — 浏览历程列表、设计多步骤流以及复制或删除历程。
 autotag-review: '2026-06-12T23:03:17.139Z'
 TQID: 'https://experienceleague.adobe.com/MhkAuypbebo-n9uwxFPUKbNgyHijaTnaVsqhs9-lXC0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c10cdff01356ff3dbce906416f86dd2fd11c6b5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
-source-wordcount: 1426
-ht-degree: 21%
+source-wordcount: 1422
+ht-degree: 19%
 
 ---
 
@@ -30,7 +25,7 @@ ht-degree: 21%
 构建新的人员历程(_T):_
 
 1. 创建人员历程。
-1. 在历程图中添加节点并定义历程流。
+1. 在历程画布中添加节点并定义历程流。
 1. [发布历程](#publish-a-journey)。
 
 ## 访问和浏览人员历程 {#access-and-browse-person-journeys}
@@ -55,7 +50,7 @@ ht-degree: 21%
 
 历程列表页面包含以下列：
 
-* [!UICONTROL 名称] （单击该名称可打开历程图进行编辑）
+* [!UICONTROL 名称] （单击名称以打开历程画布进行编辑）
 * [!UICONTROL 状态]
 * [!UICONTROL 创建日期]
 * [!UICONTROL 创建者]
@@ -74,11 +69,11 @@ ht-degree: 21%
 
 | 状态 | 描述 | 可用操作 |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**草稿**&#x200B;_ | 可编辑的未发布历程。 | [发布](#publish-a-journey)，[重复](#duplicate-a-journey)，[删除](#delete-a-journey) |
-| _&#x200B;**实时**&#x200B;_ | 发布历程时，历程状态从&#x200B;_草稿_&#x200B;更改为&#x200B;_实时_。 在这种状态下，历程无法再编辑。 | [重复](#duplicate-a-journey)，[关闭新条目](#close-to-new-entries)，[中止](#abort-a-journey) |
-| _&#x200B;**对新条目关闭**&#x200B;_ | 当您在历程标题中单击&#x200B;**[!UICONTROL 关闭新条目]**&#x200B;时，历程状态将从&#x200B;_实时_&#x200B;更改为&#x200B;_已关闭新条目_。 | [重复](#duplicate-a-journey)，[中止](#abort-a-journey) |
-| _&#x200B;**已中止**&#x200B;_ | 历程中止后，历程状态从&#x200B;_实时_&#x200B;或&#x200B;_对新条目关闭_&#x200B;改变。 已中止历程无法重新开始。 | [重复](#duplicate-a-journey)，[删除](#delete-a-journey) |
-| _&#x200B;**已完成**&#x200B;_ | 当历程中的所有人员受众成员完成历程时，状态将从&#x200B;_实时_&#x200B;或&#x200B;_已关闭到新条目_&#x200B;更改为&#x200B;_已完成_。 | [重复](#duplicate-a-journey)，[删除](#delete-a-journey) |
+| _**草稿**_ | 可编辑的未发布历程。 | [发布](#publish-a-journey)，[重复](#duplicate-a-journey)，[删除](#delete-a-journey) |
+| _**实时**_ | 发布历程时，历程状态从&#x200B;_草稿_&#x200B;更改为&#x200B;_实时_。 在这种状态下，历程无法再编辑。 | [重复](#duplicate-a-journey)，[关闭新条目](#close-to-new-entries)，[中止](#abort-a-journey) |
+| _**对新条目关闭**_ | 当您在历程标题中单击&#x200B;**[!UICONTROL 关闭新条目]**&#x200B;时，历程状态将从&#x200B;_实时_&#x200B;更改为&#x200B;_已关闭新条目_。 | [重复](#duplicate-a-journey)，[中止](#abort-a-journey) |
+| _**已中止**_ | 历程中止后，历程状态从&#x200B;_实时_&#x200B;或&#x200B;_对新条目关闭_&#x200B;改变。 已中止历程无法重新开始。 | [重复](#duplicate-a-journey)，[删除](#delete-a-journey) |
+| _**已完成**_ | 当历程中的所有人员受众成员完成历程时，状态将从&#x200B;_实时_&#x200B;或&#x200B;_已关闭到新条目_&#x200B;更改为&#x200B;_已完成_。 | [重复](#duplicate-a-journey)，[删除](#delete-a-journey) |
 
 ## 创建人员历程 {#create-a-person-journey}
 
@@ -98,20 +93,20 @@ ht-degree: 21%
 
 ### 历程标题 {#journey-header}
 
-每个历程图的标题包括历程名称、状态和计划。
+每个历程画布的标题包括历程名称、状态和计划。
 
 ![人员历程标题](./assets/person-journey-header.png){width="600" zoomable="yes"}
 
 * 单击&#x200B;_编辑_&#x200B;图标（![编辑图标](../../assets/do-not-localize/icon-react-edit.svg)）以更改历程名称或描述信息。
 * 单击&#x200B;**[!UICONTROL 历程设置]**&#x200B;以更改历程开始和循环。
-* 单击&#x200B;**[!UICONTROL 更多]**&#x200B;以应用历程操作，或者启用/禁用流量控制和重新进入。
+* 单击&#x200B;**[!UICONTROL ...更多]**&#x200B;以应用历程操作，或者启用/禁用流量控制和重新进入。
 * 如果解决了所有错误且您希望激活历程，请单击&#x200B;**[!UICONTROL 发布]**。
 
 ### 历程设计 {#journey-design}
 
-_历程图_&#x200B;是历程工作区的中心区域。 您可以在此处添加并配置历程节点。 单击某个节点，在布局右侧的面板中打开其属性，并根据您的设计设置这些属性。 人员历程始终以[_[!UICONTROL 人员受众&#x200B;]_&#x200B;节点](./person-audience-node.md)开始，您可以在其中定义历程的输入。
+_历程画布_&#x200B;是历程工作区的中心区域。 您可以在此处添加并配置历程节点。 单击某个节点，在布局右侧的面板中打开其属性，并根据您的设计设置这些属性。 人员历程始终以[_[!UICONTROL 人员受众&#x200B;]_节点](./person-audience-node.md)开始，您可以在其中定义历程的输入。
 
-创建人员历程并定义人员受众后，使用节点构建历程。 历程图提供了一个画布，您可以在其中使用以下节点类型构建多步骤B2B营销用例以构建历程：
+创建人员历程并定义人员受众后，使用节点构建历程。 历程画布提供了一个可视设计空间，您可以在其中使用以下节点类型构建分步式B2B营销用例以构建历程：
 
 * [执行操作](./action-nodes.md)
 * [侦听事件](./listen-for-event-nodes.md)
@@ -134,7 +129,7 @@ _历程图_&#x200B;是历程工作区的中心区域。 您可以在此处添加
 
 1. 从&#x200B;_[!UICONTROL 人员历程]_&#x200B;列表中打开草稿历程。
 
-1. 在历程图的右上方，单击&#x200B;**[!UICONTROL 发布]**。
+1. 在历程画布的右上方，单击&#x200B;**[!UICONTROL 发布]**。
 
 1. 在&#x200B;_[!UICONTROL 查看历程设置]_&#x200B;对话框中，设置历程开始选项。
 
@@ -147,7 +142,7 @@ _历程图_&#x200B;是历程工作区的中心区域。 您可以在此处添加
 
 1. 如果需要，请为历程指定&#x200B;**[!UICONTROL 结束日期]**。
 
-   ![查看历程设置对话框](./assets/journey-settings.png){width="400" zoomable="no"}
+   ![查看历程设置对话框](./assets/journey-publish-review-settings.png){width="400" zoomable="no"}
 
    从开始日期起最多可以为三年。 发布时需要此字段。
 
@@ -161,7 +156,7 @@ _历程图_&#x200B;是历程工作区的中心区域。 您可以在此处添加
 
 1. 从&#x200B;_[!UICONTROL 人员历程]_&#x200B;列表中打开历程。
 
-1. 单击右上角的&#x200B;**[!UICONTROL 更多...]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 中止]**。
+1. 单击&#x200B;**[!UICONTROL ...在右上角显示更多]**，然后选择&#x200B;**[!UICONTROL 中止]**。
 
    ![实时人员历程标题](./assets/person-journey-live-header.png){width="600" zoomable="yes"}
 
@@ -173,7 +168,7 @@ _历程图_&#x200B;是历程工作区的中心区域。 您可以在此处添加
 
 1. 从&#x200B;_[!UICONTROL 人员历程]_&#x200B;列表中打开历程。
 
-1. 单击右上角的&#x200B;**[!UICONTROL 更多...]**&#x200B;菜单，然后选择 **[!UICONTROL 对新条目关闭]**。
+1. 单击&#x200B;**[!UICONTROL ...在右上角显示更多]**，然后选择&#x200B;**[!UICONTROL 关闭新条目]**。
 
 1. 在确认对话框中单击&#x200B;**[!UICONTROL 对新条目关闭]**。
 
@@ -185,9 +180,9 @@ _历程图_&#x200B;是历程工作区的中心区域。 您可以在此处添加
 
    ![草稿人员历程更多菜单](./assets/person-journey-draft-more-menu.png){width="400"}
 
-   根据历程的状态，您还可以从历程详细信息或历程图访问重复操作：
+   根据历程的状态，您还可以从历程详细信息或历程画布访问重复操作：
 
-   * 对于草稿历程，请单击右上方的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 复制]**。
+   * 对于草稿历程，单击&#x200B;**[!UICONTROL ...右上角的More]**&#x200B;并选择&#x200B;**[!UICONTROL 复制]**。
    * 对于所有其他历程状态，请单击右上角的&#x200B;**[!UICONTROL 复制]**。
 
 1. 在对话框中，为复制的历程选择&#x200B;**[!UICONTROL 父]**&#x200B;程序。
@@ -220,7 +215,7 @@ _历程图_&#x200B;是历程工作区的中心区域。 您可以在此处添加
 
    根据历程的状态，您还可以从历程标题访问删除操作：
 
-   * 对于草稿历程，单击右上方的&#x200B;**[!UICONTROL 更多……]**，然后选择&#x200B;**[!UICONTROL 删除]**。
+   * 对于草稿历程，单击&#x200B;**[!UICONTROL ...右上角的“更多]**”，然后选择&#x200B;**[!UICONTROL 删除]**。
    * 对于其他历程状态，例如&#x200B;_已完成_&#x200B;或&#x200B;_已中止_，请单击右上角的&#x200B;**[!UICONTROL 删除]**。
 
 1. 在确认对话框中单击&#x200B;**[!UICONTROL 删除]**。

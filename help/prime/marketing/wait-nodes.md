@@ -1,21 +1,16 @@
 ---
 title: 等待节点
-description: 占位符
+description: 在Journey Optimizer B2B edition Prime中配置等待节点 — 按持续时间、日期或高级日期和时间计划暂停旅程进度。
 autotag-review: '2026-06-12T23:04:57.946Z'
 TQID: 'https://experienceleague.adobe.com/XTJRC-qc9xKVYuwAGgDpA97sPJinNGe7OCvATFfwXFU'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2:
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c10cdff01356ff3dbce906416f86dd2fd11c6b5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 3368f815edc0ce817cb7ed371157b63fa548d848
 workflow-type: tm+mt
-source-wordcount: 656
-ht-degree: 1%
+source-wordcount: 690
+ht-degree: 0%
 
 ---
 
@@ -28,30 +23,30 @@ ht-degree: 1%
 * 要前进到历程中的下一个节点的特定日期
 * 相对持续时间（分钟数、小时数、天数、周数或月数）
 
-## 添加等待节点
+## 添加等待节点 {#add-wait-node}
 
-1. 导航到历程图。
+1. 导航到历程画布。
 
 1. 单击路径上的加号( **+** )图标，然后选择&#x200B;**[!UICONTROL 等待]**。
 
-<!-- ![Add journey node - wait](./assets/add-node-wait.png){width="440"} -->
+   ![单击历程路径上的“添加”图标](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. 若要设置历程进入路径中的下一个节点之前的等待时间，请使用右侧的节点属性设置&#x200B;**[!UICONTROL 类型]**。
 
    * **[!UICONTROL 持续时间]** — 定义从进入到退出等待节点之间经过的特定天数、小时数或分钟数。
    * **[!UICONTROL 日期]** — 指定退出日期和时间。
 
-<!-- ![Journey node - wait](./assets/node-wait.png){width="500"} -->
+   ![历程节点 — 等待](./assets/wait-node.png){width="500"}
 
-## 高级等待设置
+## 高级等待设置 {#advanced-wait-settings}
 
 启用&#x200B;**[!UICONTROL 必须于]**&#x200B;结束选项以配置&#x200B;_高级等待步骤_，并确保您的邮件在最佳时刻到达人员和帐户成员。 此配置可让您精确控制人员或帐户何时退出等待步骤并进入历程中的下一个节点。 您可以计划在一周中的特定时间和特定日期执行的操作，而不是从进入到退出为止的固定小时数或天数。
 
 通过&#x200B;_高级等待步骤_，您可以定义&#x200B;**_何时退出人员或帐户_**，而不只是等待多长时间。
 
-<!-- ![Journey node - advanced wait step](./assets/node-wait-advanced.png){width="500"} -->
+![历程节点 — 高级等待步骤](./assets/wait-node-advanced.png){width="500"}
 
-### 等待类型
+### 等待类型 {#wait-types}
 
 | 等待类型 | 描述 | 配置 |
 | --------- | ----------- | ------------- |
@@ -60,7 +55,7 @@ ht-degree: 1%
 | **天范围或组合** | 保持到某个范围（例如星期一至星期五）内的任何一天或指定日期的任何一天 | 选择您的目标日期。 如果未指定时间，则在下一个匹配日期的午夜（对于所选时区）退出。 |
 | **时间+天组合** | 将两者合并以实现精确的时间安排（例如，星期二上午10:00） | 选择目标天数并设置目标时间。 在出现次日/时间时退出（对于所选时区）。 |
 
-### 常见应用场景
+### 常见应用场景 {#common-scenarios}
 
 以下情形说明了如何将典型示例应用于等待节点配置：
 
@@ -88,7 +83,7 @@ ht-degree: 1%
 
 +++
 
-### 登入和退出示例
+### 登入和退出示例 {#entry-exit-examples}
 
 | 等待配置 | 客户/潜在客户输入 | 帐户/潜在客户退出 |
 | ------------------ | ------------------- | ------------------ |
