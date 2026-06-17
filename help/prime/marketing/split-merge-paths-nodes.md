@@ -1,6 +1,6 @@
 ---
 title: 拆分和合并路径节点
-description: 占位符
+description: 了解如何在人员历程中使用拆分和合并路径节点，根据定义的条件将人员划分为不同的路径，然后在下游的某个公共点将其重新联合。
 autotag-review: '2026-06-12T23:04:27.208Z'
 TQID: 'https://experienceleague.adobe.com/TZlkuuES1Q2ZlG-ND-tIu6cVBRA65hIfotDcroER9Mc'
 product_v2:
@@ -13,16 +13,16 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: bf2854a777f62ba2f74f79942ee3336b6e8ab9dd
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
-source-wordcount: 569
+source-wordcount: 658
 ht-degree: 0%
 
 ---
 
 # 拆分和合并路径节点
 
-
+在人员历程中使用拆分和合并路径节点，根据您定义的条件将人员划分为不同的路径，然后将这些路径统一在一起，以便历程可以继续。 通过拆分路径，可针对特定受众区段定制操作和事件，而合并路径可在下游的共同点重新统一这些区段。
 
 ## 拆分路径节点
 
@@ -31,7 +31,6 @@ ht-degree: 0%
 “拆分路径”节点根据人员筛选器定义一个或多个分段路径。
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
-
 
 _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 
@@ -51,17 +50,11 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 
 ### 添加拆分路径节点
 
-<!--
->[!NOTE]
->
->When you split paths by people, a _Close split paths_ node is automatically inserted to end the split. A split-by-people path allows only _Take an action_ on people nodes.
--->
-
-1. 导航到历程图。
+1. 导航到历程画布。
 
 1. 单击路径上的加号( **+** )图标，然后选择&#x200B;**[!UICONTROL 拆分路径]**。
 
-   <!-- ![Add journey node - split paths](./assets/add-node-split.png){width="300" zoomable="no"} -->
+   ![单击历程路径上的“添加”图标](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. 要定义适用于&#x200B;_[!UICONTROL 路径1]_&#x200B;的条件，请单击&#x200B;**[!UICONTROL 应用条件]**。
 
@@ -95,13 +88,11 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 
 ## 合并路径节点
 
-1. 导航到历程图并找到包含两个或更多路径的拆分路径节点。
+1. 导航到历程画布，并找到包含两个或更多路径的拆分路径节点。
 
    每个路径都应该包含每个路径上的操作和事件的组合。
 
 1. 单击这些路径中任一路径末尾的加号( **+** )图标，然后从显示的选项中选择&#x200B;**[!UICONTROL 合并路径]**。
-
-   <!-- ![Journey node - merge paths](./assets/node-plus-icon-merge-paths.png){width="400" zoomable="no"} -->
 
 1. 在右侧的节点属性中，选择要合并的路径。
 

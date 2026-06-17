@@ -16,7 +16,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
 source-wordcount: 1880
 ht-degree: 11%
@@ -50,7 +50,7 @@ ht-degree: 11%
 
 ### 添加帐户事件
 
-1. 导航到历程图。
+1. 导航到历程画布。
 
 1. 单击路径上的加号( **+** )图标，然后选择&#x200B;**[!UICONTROL 侦听事件]**。
 
@@ -102,7 +102,7 @@ ht-degree: 11%
 
 ### 添加人员事件
 
-1. 导航到历程图。
+1. 导航到历程画布。
 
 1. 单击路径上的加号( **+** )图标，然后选择&#x200B;**[!UICONTROL 侦听事件]**。
 
@@ -118,7 +118,7 @@ ht-degree: 11%
 
 如果您在连接的Marketo Engage实例中有网页，则可以根据对这些网页的访问次数/未访问次数以及未填写的Marketo Engage表单触发事件。
 
-1. 在历程映射中选择&#x200B;**[!UICONTROL 侦听事件]**&#x200B;节点。
+1. 在历程画布中选择&#x200B;**[!UICONTROL 侦听事件]**&#x200B;节点。
 
 1. 在右侧的节点属性中，为事件类型选择&#x200B;**[!UICONTROL 人员]**。
 
@@ -147,7 +147,7 @@ ht-degree: 11%
 
 1. 如果需要，请设置&#x200B;**[!UICONTROL Timeout]**&#x200B;选项以限制侦听事件的时间段（请参阅[向事件节点添加超时](#add-a-timeout-to-an-event-node)）。
 
-1. 在历程映射中，添加下一个要在事件发生时执行的节点。
+1. 在历程画布中，添加下一个要在事件发生时执行的节点。
 
 ### 收听体验活动 {#listen-for-an-experience-event}
 
@@ -163,7 +163,7 @@ ht-degree: 11%
 
 要在历程中包含体验事件(_T):_
 
-1. 在历程映射中选择&#x200B;**[!UICONTROL 侦听事件]**&#x200B;节点。
+1. 在历程画布中选择&#x200B;**[!UICONTROL 侦听事件]**&#x200B;节点。
 
 1. （仅限帐户历程）在右侧的节点属性中，为事件类型选择&#x200B;**[!UICONTROL 人员]**。
 
@@ -197,7 +197,7 @@ ht-degree: 11%
 
 1. 如果需要，请设置&#x200B;**[!UICONTROL Timeout]**&#x200B;选项以限制侦听事件的时间段（请参阅[向事件节点添加超时](#add-a-timeout-to-an-event-node)）。
 
-1. 在历程映射中，添加下一个要在事件发生时执行的节点。
+1. 在历程画布中，添加下一个要在事件发生时执行的节点。
 
 1. 完成历程的其余节点，并[发布它](./journeys-overview.md)。
 

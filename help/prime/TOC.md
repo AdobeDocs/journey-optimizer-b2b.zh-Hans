@@ -2,9 +2,9 @@
 user-guide-title: Journey Optimizer B2B Prime文档
 user-guide-description: 了解Adobe Journey Optimizer B2B edition Prime以及如何将其用于？
 hide: true
-source-git-commit: bf2854a777f62ba2f74f79942ee3336b6e8ab9dd
+source-git-commit: 1cb68e8933d6b1abba3cc82f154344d1dde51818
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '119'
 ht-degree: 38%
 
 ---
@@ -29,13 +29,15 @@ ht-degree: 38%
       + [拆分和合并路径](./marketing/split-merge-paths-nodes.md)
       + [下一个最佳路径](./marketing/next-best-path.md)
 + 受众 {#audiences}
-   + [受众管理](./audiences/audience-management.md)
+   + [人员列表](./audiences/people-lists.md)
+   + [目标](./audiences/destinations.md)
    + [动态受众资格](./audiences/dynamic-audience-qualification.md)
    + [基于事件的受众](./audiences/event-based-audiences.md)
 + 内容 {#content}
    + 电子邮件 {#emails}
       + [电子邮件创作](./content/email-authoring.md)
       + [深色模式设计](./content/email-dark-mode.md)
+   + [WhatsApp消息](./content/whatsapp-authoring.md)
    + 模板 {#templates}
       + [概述](./content/templates.md)
       + [创建模板](./content/templates-create.md)

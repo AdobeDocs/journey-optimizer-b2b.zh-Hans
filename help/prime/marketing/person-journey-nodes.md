@@ -13,16 +13,16 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
-source-wordcount: 356
+source-wordcount: 358
 ht-degree: 2%
 
 ---
 
 # 人员历程节点
 
-创建人员历程后，添加受众并使用节点构建历程。 历程图提供了一个画布，您可以在其中构建多步骤B2B营销用例。
+创建人员历程后，添加受众并使用节点构建历程。 历程画布提供了一个可视设计空间，您可以在其中构建多步骤B2B营销用例。
 
 _[!UICONTROL 人员受众]_&#x200B;节点自动成为历程中的第一个节点。 选择受众后，通过将不同的操作、事件和决策节点组合为多步骤、跨渠道方案来构建旅程。 历程的每个节点表示逻辑路径上的一个步骤。
 
