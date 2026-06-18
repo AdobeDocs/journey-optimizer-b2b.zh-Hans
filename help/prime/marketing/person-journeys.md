@@ -12,7 +12,7 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
+source-git-commit: 951d9ceaa95656952e36b6d8f238348b08c796ca
 workflow-type: tm+mt
 source-wordcount: 1422
 ht-degree: 19%
@@ -128,7 +128,7 @@ _历程画布_&#x200B;是历程工作区的中心区域。 您可以在此处添
 
 历程列表页面包含您的Journey Optimizer B2B Prime实例中的所有人员历程。 从列表页面，您可以将多个操作应用到历程。
 
-#### 发布历程 {#publish-a-journey}
+#### 发布历程 {#publish}
 
 如果没有阻止程序错误，则可以发布历程。 发布后，历程状态更改为&#x200B;_实时_。 如果历程有错误，**[!UICONTROL 发布]**&#x200B;按钮将灰显，并显示消息`Resolve errors before publishing`。
 
