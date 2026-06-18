@@ -3,10 +3,15 @@ title: 人员历程
 description: 在Journey Optimizer B2B edition Prime中创建、发布和管理人员历程 — 浏览历程列表、设计多步骤流以及复制或删除历程。
 autotag-review: '2026-06-12T23:03:17.139Z'
 TQID: 'https://experienceleague.adobe.com/MhkAuypbebo-n9uwxFPUKbNgyHijaTnaVsqhs9-lXC0'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 951d9ceaa95656952e36b6d8f238348b08c796ca
 workflow-type: tm+mt
 source-wordcount: 1422
@@ -69,11 +74,11 @@ ht-degree: 19%
 
 | 状态 | 描述 | 可用操作 |
 | ------ | ----------- | ----------------- |
-| _**草稿**_ | 可编辑的未发布历程。 | [发布](#publish-a-journey)，[重复](#duplicate-a-journey)，[删除](#delete-a-journey) |
-| _**实时**_ | 发布历程时，历程状态从&#x200B;_草稿_&#x200B;更改为&#x200B;_实时_。 在这种状态下，历程无法再编辑。 | [重复](#duplicate-a-journey)，[关闭新条目](#close-to-new-entries)，[中止](#abort-a-journey) |
-| _**对新条目关闭**_ | 当您在历程标题中单击&#x200B;**[!UICONTROL 关闭新条目]**&#x200B;时，历程状态将从&#x200B;_实时_&#x200B;更改为&#x200B;_已关闭新条目_。 | [重复](#duplicate-a-journey)，[中止](#abort-a-journey) |
-| _**已中止**_ | 历程中止后，历程状态从&#x200B;_实时_&#x200B;或&#x200B;_对新条目关闭_&#x200B;改变。 已中止历程无法重新开始。 | [重复](#duplicate-a-journey)，[删除](#delete-a-journey) |
-| _**已完成**_ | 当历程中的所有人员受众成员完成历程时，状态将从&#x200B;_实时_&#x200B;或&#x200B;_已关闭到新条目_&#x200B;更改为&#x200B;_已完成_。 | [重复](#duplicate-a-journey)，[删除](#delete-a-journey) |
+| _&#x200B;**草稿**&#x200B;_ | 可编辑的未发布历程。 | [发布](#publish-a-journey)，[重复](#duplicate-a-journey)，[删除](#delete-a-journey) |
+| _&#x200B;**实时**&#x200B;_ | 发布历程时，历程状态从&#x200B;_草稿_&#x200B;更改为&#x200B;_实时_。 在这种状态下，历程无法再编辑。 | [重复](#duplicate-a-journey)，[关闭新条目](#close-to-new-entries)，[中止](#abort-a-journey) |
+| _&#x200B;**对新条目关闭**&#x200B;_ | 当您在历程标题中单击&#x200B;**[!UICONTROL 关闭新条目]**&#x200B;时，历程状态将从&#x200B;_实时_&#x200B;更改为&#x200B;_已关闭新条目_。 | [重复](#duplicate-a-journey)，[中止](#abort-a-journey) |
+| _&#x200B;**已中止**&#x200B;_ | 历程中止后，历程状态从&#x200B;_实时_&#x200B;或&#x200B;_对新条目关闭_&#x200B;改变。 已中止历程无法重新开始。 | [重复](#duplicate-a-journey)，[删除](#delete-a-journey) |
+| _&#x200B;**已完成**&#x200B;_ | 当历程中的所有人员受众成员完成历程时，状态将从&#x200B;_实时_&#x200B;或&#x200B;_已关闭到新条目_&#x200B;更改为&#x200B;_已完成_。 | [重复](#duplicate-a-journey)，[删除](#delete-a-journey) |
 
 ## 创建人员历程 {#create-a-person-journey}
 
@@ -104,7 +109,7 @@ ht-degree: 19%
 
 ### 历程设计 {#journey-design}
 
-_历程画布_&#x200B;是历程工作区的中心区域。 您可以在此处添加并配置历程节点。 单击某个节点，在布局右侧的面板中打开其属性，并根据您的设计设置这些属性。 人员历程始终以[_[!UICONTROL 人员受众&#x200B;]_节点](./person-audience-node.md)开始，您可以在其中定义历程的输入。
+_历程画布_&#x200B;是历程工作区的中心区域。 您可以在此处添加并配置历程节点。 单击某个节点，在布局右侧的面板中打开其属性，并根据您的设计设置这些属性。 人员历程始终以[_[!UICONTROL 人员受众&#x200B;]_&#x200B;节点](./person-audience-node.md)开始，您可以在其中定义历程的输入。
 
 创建人员历程并定义人员受众后，使用节点构建历程。 历程画布提供了一个可视设计空间，您可以在其中使用以下节点类型构建分步式B2B营销用例以构建历程：
 
