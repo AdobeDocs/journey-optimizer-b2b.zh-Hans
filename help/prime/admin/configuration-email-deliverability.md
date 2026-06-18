@@ -1,59 +1,34 @@
 ---
-title: 电子邮件投放能力和渠道配置
+title: 电子邮件可投放性和渠道配置
 description: 为Journey Optimizer B2B Prime配置子域委派、DMARC、SPF、DKIM、IP池和电子邮件渠道配置。
 autotag-review: '2026-06-12T22:43:42.799Z'
 TQID: 'https://experienceleague.adobe.com/RKZSQkjSRvHixOm2faRT5D-yB00IykXfPO06vvIUQ6k'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
 workflow-type: tm+mt
-source-wordcount: 3414
-ht-degree: 0%
+source-wordcount: 3095
+ht-degree: 1%
 
 ---
 
 # 电子邮件投放能力和渠道配置
 
-[!DNL Adobe Journey Optimizer B2B Edition] Prime为B2B营销人员提供了现代的企业级电子邮件创作和投放体验。 此发行版本引入了重新设计的电子邮件设计工具和一组完整的电子邮件可投放性控制。
-
 以下信息适用于配置发送基础架构以支持营销人员和电子邮件作者的管理员。 它描述了可投放性功能、角色和权限，以及如何配置子域、身份验证、IP池和渠道配置。
 
 有关在电子邮件设计空间中创建电子邮件和创作电子邮件内容的详细信息，请参阅[电子邮件创作](../content/email-authoring.md)。
 
-## 电子邮件渠道概述 {#overview}
-
-* **可视化拖放电子邮件设计工具** — 使用结构、内容组件、主题、深色模式支持和可重用可视片段设计电子邮件内容。
-* **电子邮件渠道配置** — 管理发件人身份、回复行为、营销与事务性消息类型以及跟踪。
-* **电子邮件可投放性控制** — 设置您的电子邮件可投放性渠道，包括子域委派（完全委派和CNAME方法）、DMARC、SPF/DKIM自动配置和共享IP池支持。
-* **发送电子邮件操作** — 在历程中，添加发送电子邮件操作，包括使用用户档案属性（Handlebars语法）进行个性化。
-* **Marketo Design Studio资源** — 直接从电子邮件画布中的Marketo Engage资源库的一次性副本中选择图像和资源。
-* **可重用的模板和片段** — 保存通用的页眉、页脚、CTA和完整的电子邮件布局，并在历程中重复使用。
-* **基于角色的访问控制(RBAC)** — 应用粒度权限以创建、编辑、批准和发送电子邮件。
-
 ## 重要概念 {#key-concepts}
 
-在配置电子邮件之前，请查看适用于整个产品中的电子邮件渠道功能的这些概念。
+在配置电子邮件之前，请查看以下适用于电子邮件渠道可投放性功能的概念：
 
 | 概念 | 在[!DNL Journey Optimizer B2B Edition] Prime中的含义 |
 | ------- | ---------------------- |
 | **_渠道配置_** | 可重用的一组电子邮件发送设置(包括发件人身份、回复地址、子域、IP池、电子邮件类型（营销或事务性）和跟踪)，可附加到历程中的电子邮件操作。 您可以为不同的品牌、业务部门或发送类型使用多个命名渠道配置。 |
 | **_子域_** | 发送域的委派部分（例如，`mail.contoso.com`），用于通过Prime发送电子邮件。 子域可将您的B2B营销声誉与公司邮件或事务性邮件隔离。 |
 | **_IP池_** | 与一个或多个子域关联的一组IP地址。 在此版本中，Prime支持由Adobe管理的共享IP池；专用IP池列在GA路线图中。 |
-| **_电子邮件设计空间_** | 用于撰写电子邮件内容的可视化画布和设计工具。 它包括拖放布局组件、模板、片段、主题和个性化编辑器。 |
-| **_模板_** | 可用于创建新电子邮件的可重用电子邮件布局。 模板可以是Adobe提供的内置示例模板，也可以是您的团队创建的自定义模板。 |
-| **_可视片段_** | 可插入到多个电子邮件中的可重用内容块（例如页眉、页脚、CTA、法律免责声明）。 更新片段会将更改传播到使用它的每封电子邮件。 |
-| **_主题_** | 可在电子邮件中应用的可重用样式预设（颜色、排版规则、间距、按钮样式）。 |
-| **_Personalization令牌_** | 发送时，使用每个收件人的配置文件数据解析的Handlebars表达式（例如`{{profile.firstName}}`）。 |
-| **_发送电子邮件操作_** | 历程操作节点，它使用渠道配置和电子邮件内容来投放电子邮件。 |
 
 ## 角色和权限 {#roles-permissions}
 
@@ -84,7 +59,7 @@ ht-degree: 0%
 | **管理资产** | `manage-b2b-assets` | 所有读取权限以及未来的资源管理操作（Beta范围）。 |
 | **导出邮件数据** | `manage-b2b-message-export` | 导出电子邮件级别的消息数据和报表。 |
 
-在历程中，**发送电子邮件**&#x200B;操作需要`manage-b2b-person-journeys`（添加操作和激活历程）。 仅具有电子邮件权限的用户可以创作内容，但无法将电子邮件添加到历程。
+在人员历程中，**发送电子邮件**&#x200B;操作需要`manage-b2b-person-journeys`（添加操作并激活历程）。 仅具有电子邮件权限的用户可以创作内容，但无法将电子邮件添加到历程。
 
 ### 电子邮件投放权限 {#email-deliverability-permissions}
 
