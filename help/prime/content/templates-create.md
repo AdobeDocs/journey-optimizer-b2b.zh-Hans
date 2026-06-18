@@ -14,9 +14,9 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: beb843b812f6398d342f52f7fcfdd387e916d2f6
+source-git-commit: 6be2e3e71e297ec1498a6252e878cd8c9c7f0894
 workflow-type: tm+mt
-source-wordcount: 875
+source-wordcount: 880
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 ## 构建新模板 {#build-new}
 
-1. 导航到&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 模板]**。
+1. 在左侧导航中，展开&#x200B;**[!UICONTROL 内容管理]**&#x200B;并选择&#x200B;**[!UICONTROL 模板]**。
 1. 单击&#x200B;**[!UICONTROL 创建模板]**。
 1. 输入&#x200B;**[!UICONTROL 模板名称]**&#x200B;和可选的&#x200B;**[!UICONTROL 描述]**。
 1. 为模板设置&#x200B;**[!UICONTROL 渠道]** （类型）。

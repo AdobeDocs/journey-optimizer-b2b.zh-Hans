@@ -13,7 +13,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1d0093ad5298593d291372d838794fe8cab5f646
+source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
 workflow-type: tm+mt
 source-wordcount: 821
 ht-degree: 2%
@@ -155,7 +155,7 @@ ht-degree: 2%
 
 ![执行操作 — 发送电子邮件](./assets/person-action-node-send-email.png){width="450"}
 
-您可以创建电子邮件、编辑现有电子邮件或使用AI个性化电子邮件。 有关创建和编辑电子邮件的信息，请参阅[电子邮件创作](../content/email-authoring.md)。
+您可以创建电子邮件、编辑现有电子邮件或使用AI个性化电子邮件。 有关创建和编辑电子邮件的信息，请参阅[电子邮件渠道](../marketing/email-channel.md)。
 
 您可以使用[发送时间优化](../marketing/email-send-time-optimization.md)，通过预测每个用户档案最有可能参与的时间，使电子邮件投放时间个性化。
 
