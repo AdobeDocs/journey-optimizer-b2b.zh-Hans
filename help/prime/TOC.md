@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Prime文档
 user-guide-description: 了解Adobe Journey Optimizer B2B edition Prime以及如何将其用于？
 hide: true
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 42%
+ht-degree: 44%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 42%
 + 快速入门 {#start}
    + [设置核对清单](./start/setup-prime.md)
    + [用户管理](./start/user-management.md)
+   + [电子邮件送达率](./start/email-deliverability.md)
 + [主页和见解](./home-insights/home-insights.md)
 + [代理](./agents/agents.md)
 + 营销管理 {#marketing-management}
@@ -33,7 +34,7 @@ ht-degree: 42%
    + 电子邮件渠道 {#email-channel}
       + [概述](./marketing/email-channel.md)
       + [电子邮件发送时间优化](./marketing/email-send-time-optimization.md)
-      + [电子邮件创作](./content/email-authoring.md)
+      + [内容创作](./content/email-authoring.md)
       + [深色模式设计](./content/email-dark-mode.md)
    + [WhatsApp 渠道](./content/whatsapp-authoring.md)
 + 受众 {#audiences}
@@ -54,9 +55,9 @@ ht-degree: 42%
 + 管理 {#admin}
    + {hide-from-toc}[管理](./admin/admin.md)
    + 渠道 {#channels}
-      + [电子邮件投放能力和渠道配置](./admin/configuration-email-deliverability.md)
-      + [短信渠道配置](./admin/configuration-channels-sms.md)
-      + [Web渠道配置](./admin/configuration-channels-web.md)
+      + [电子邮件渠道配置](./admin/email-channel-configuration.md)
+      + {hide-from-toc}[短信渠道配置](./admin/configuration-channels-sms.md)
+      + {hide-from-toc}[Web渠道配置](./admin/configuration-channels-web.md)
       + [WhatsApp渠道配置](./admin/configuration-channels-whatsapp.md)
       + [登陆页面配置](./admin/configuration-presets-landing-pages.md)
       + [表单预设配置](./admin/configuration-presets-forms.md)
