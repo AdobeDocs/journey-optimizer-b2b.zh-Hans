@@ -1,7 +1,8 @@
 ---
-title: 电子邮件渠道
-description: 将电子邮件操作节点添加到帐户历程 — 创建新电子邮件或使用现有Marketo Engage电子邮件在Journey Optimizer B2B edition中进行目标通信。
-feature: Email Authoring, Account Journeys
+title: 向历程添加电子邮件
+description: 将电子邮件操作节点添加到人员历程，并在Journey Optimizer B2B Prime中为定向通信创建新电子邮件。
+badgeBeta: label="Beta 版" type="informative" tooltip="此功能属于有限测试版。"
+feature: Email Authoring, Person Journeys
 role: User
 autotag-review: '2026-06-18T20:30:25.418Z'
 TQID: 'https://experienceleague.adobe.com/K3OZnLvtSdwSq6AT4JlRQ62t32d6smIJ4K9EEnK-QUc'
@@ -16,36 +17,44 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
+source-git-commit: 4476be8909fb8f3918763de6b281756446c444f0
 workflow-type: tm+mt
-source-wordcount: 881
-ht-degree: 2%
+source-wordcount: 1037
+ht-degree: 1%
 
 ---
 
-# 电子邮件渠道
+# 向历程添加电子邮件
 
-[!DNL Adobe Journey Optimizer B2B Prime]为B2B营销人员带来现代的企业级电子邮件创作和投放体验。 此发行版本引入了重新设计的电子邮件设计工具和一组完整的电子邮件可投放性控制。
+[!DNL Adobe Journey Optimizer B2B Prime]为B2B营销人员带来现代的企业级电子邮件创作和投放体验。
 
 >[!NOTE]
 >
->如果您是首次发送电子邮件，请确保已配置[电子邮件渠道和可投放性](../admin/configuration-email-deliverability.md)。
+>如果您是第一次发送电子邮件，请确保已配置[电子邮件可投放性](../start/email-deliverability.md)和所需的[电子邮件渠道](../admin/email-channel-configuration.md)。
 
-## 电子邮件渠道概述 {#overview}
+<!-- 
+* **Email channel configurations** - Manage the sender identity, reply behavior, marketing vs. transactional message types, and tracking.
+* **Email deliverability controls** - Set up your email deliverability channel, including subdomain delegation (Fully Delegated and CNAME methods), DMARC, SPF/DKIM auto-configuration, and shared IP pool support.
+* **Send Email action** - From a journey, add a _Send email_ action node, including personalization using profile attributes (Handlebars syntax).
+* **Visual drag-and-drop email design tools** -  Design your email content with structures, content components, themes, dark-mode support, and reusable visual fragments.
+* **Marketo Design Studio assets** — Choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas.
+* **Reusable templates and fragments** — Save common headers, footers, CTAs, and full email layouts and reuse them across journeys.
+* **Role-Based Access Control (RBAC)** — Apply granular permissions for creating, editing, approving, and sending email. 
+-->
 
-* **电子邮件渠道配置** — 管理发件人身份、回复行为、营销与事务性消息类型以及跟踪。
-* **电子邮件可投放性控制** — 设置您的电子邮件可投放性渠道，包括子域委派（完全委派和CNAME方法）、DMARC、SPF/DKIM自动配置和共享IP池支持。
-* **发送电子邮件操作** — 在历程中，添加&#x200B;_发送电子邮件_&#x200B;操作节点，包括使用配置文件属性（Handlebars语法）进行个性化。
-* **可视化拖放电子邮件设计工具** — 使用结构、内容组件、主题、深色模式支持和可重用可视片段设计电子邮件内容。
-* **Marketo Design Studio资源** — 直接从电子邮件画布中的Marketo Engage资源库的一次性副本中选择图像和资源。
-* **可重用的模板和片段** — 保存通用的页眉、页脚、CTA和完整的电子邮件布局，并在历程中重复使用。
-* **基于角色的访问控制(RBAC)** — 应用粒度权限以创建、编辑、批准和发送电子邮件。
+## 当前限制 {#limitations}
+
+* **测试用户档案、模拟内容和发送校样**&#x200B;在此版本中不可用。 Litmus渲染和基于SpamAssassin的垃圾邮件报告均在GA路线图上。
+* **此版本中没有帐户级别的个性化和自定义对象数据**。 使用配置文件属性。
+* 正式发行时&#x200B;**Velocity到Handlebars自动迁移**&#x200B;现有的Marketo Engage模板。
+* 即将发布的版本中随附&#x200B;**电子邮件**（内联评论、@mentions件、请求审阅工作流）中的评论和协作。
+* **AEM Assets、AEM Content Fragments和Adobe Express**&#x200B;集成位于&#x200B;_快速跟进_&#x200B;路线图中。
 
 ## 重要概念 {#key-concepts}
 
 在为人员历程创建电子邮件并创作电子邮件内容之前，请查看以下概念：
 
-| 概念 | 在[!DNL Journey Optimizer B2B Prime]Prime |
+| 概念 | 在[!DNL Adobe Journey Optimizer B2B Prime] |
 | ------- | ---------------------- |
 | **_电子邮件设计空间_** | 用于撰写电子邮件内容的可视化画布和设计工具。 它包括拖放布局组件、模板、片段、主题和个性化编辑器。 |
 | **_模板_** | 可用于创建新电子邮件的可重用电子邮件布局。 模板可以是Adobe提供的内置示例模板，也可以是您的团队创建的自定义模板。 |
@@ -56,68 +65,67 @@ ht-degree: 2%
 
 ## 从历程添加电子邮件
 
-要从历程发送电子邮件，请添加&#x200B;_执行操作_&#x200B;节点并将其配置为发送电子邮件。
+要从历程发送电子邮件，请[添加&#x200B;_执行操作_&#x200B;节点](action-nodes.md#add-an-action-node)并将其配置为发送电子邮件。
 
 1. 在历程画布中，单击&#x200B;**+**&#x200B;图标并选择&#x200B;**[!UICONTROL 执行操作]**。
 
 1. 在右侧的节点属性中，将操作设置为&#x200B;**[!UICONTROL 发送电子邮件]**。
 
-   ![执行操作 — 发送电子邮件](./assets/person-action-node-send-email.png){width="450"}
+   ![执行操作 — 发送电子邮件](./assets/person-action-node-send-email.png){width="500"}
 
 1. 选择电子邮件源：
 
    * **创建/编辑电子邮件** — 选择此选项可在电子邮件设计空间中定义电子邮件内容，包括主题行、发件人信息和电子邮件正文。
 
-   * **[!UICONTROL 使用AI个性化电子邮件]** — 选择此选项可在电子邮件设计空间中优化AI生成的电子邮件。 这些电子邮件已得到优化，以便AI辅助收件箱客户将其摘要和答案加入您的优惠和行动号召中。
+   * **[!UICONTROL 使用AI个性化电子邮件]** - （_不适用于Beta_）选择此选项可在电子邮件设计空间中优化AI生成的电子邮件。 这些电子邮件已得到优化，以便AI辅助收件箱客户将其摘要和答案加入您的优惠和行动号召中。
 
 1. 单击&#x200B;**[!UICONTROL 创建电子邮件]**。
 
 1. 在&#x200B;_[!UICONTROL 创建电子邮件]_&#x200B;对话框中，输入唯一的&#x200B;**[!UICONTROL 名称]**（必需）和&#x200B;**[!UICONTROL 描述]**（可选）。
 
+   ![创建电子邮件对话框](./assets/email-channel-create-email-dialog.png){width="400"}
+
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-## 定义电子邮件属性和操作
+对于可选的[发送时间优化](email-send-time-optimization.md)，请在创建电子邮件之后配置历程操作节点。
 
-1. 在历程画布中选择了&#x200B;_[!UICONTROL 发送电子邮件]_&#x200B;节点，单击右侧节点属性中的&#x200B;**[!UICONTROL 编辑电子邮件]**。
+## 定义电子邮件属性和操作 {#define-email-properties}
 
-<!-- Staging environment broken -->
+当您为&#x200B;_[!UICONTROL 发送电子邮件]_&#x200B;节点创建电子邮件时，将打开电子邮件页面。 创建电子邮件后，您还可以通过单击右侧节点属性中的&#x200B;**[!UICONTROL 编辑电子邮件]**&#x200B;访问此页面。
 
-电子邮件和&#x200B;**[!UICONTROL 主题行]**。
+1. （可选）在&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡中，输入要为电子邮件捕获的任何描述性信息。
 
-这将打开&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡，您可以在其中选择或创建要使用的电子邮件配置。
+1. 选择&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡并完成电子邮件的功能设置：
 
-1. （可选）在业务规则中选择一个规则集，以将上限规则应用于电子邮件操作。
+   * **[!UICONTROL 电子邮件]** — 选择或创建要使用的&#x200B;**[!UICONTROL 电子邮件渠道配置]**。
 
-您可以使用[发送时间优化选项](./email-send-time-optimization.md)根据历史打开率和点击率，预测发送消息的最佳时间，以最大化参与度。 了解如何操作
+     这是一组可重复使用的电子邮件投放设置，用于定义发件人身份、回复地址、子域、IP池、电子邮件类型（营销或事务性）以及跟踪。 单击&#x200B;_查看_&#x200B;图标以查看所选配置的设置。
 
-选择编辑内容按钮，然后根据需要使用电子邮件Designer创建内容。
+     管理员在[电子邮件渠道配置](../admin/email-channel-configuration.md)中创建配置。
 
-返回历程画布。 如有必要，请通过拖放其他操作或事件来完成旅程流程。
+   * **[!UICONTROL 业务规则]** — （可选）通过选择规则集将上限规则应用于您的电子邮件操作。
 
-有关如何创建、配置和发布旅程的更多信息，请参阅此页面。
+   * **[!UICONTROL 操作跟踪]** — 选中要跟踪电子邮件的操作的复选框。
 
+   ![电子邮件渠道 — “操作”选项卡](./assets/email-channel-actions-tab.png){width="600" zoomable="yes"}
 
-### 定义电子邮件设置 {#email-settings}
+1. 单击&#x200B;**[!UICONTROL 编辑内容]**，或选择&#x200B;**[!UICONTROL 内容]**&#x200B;选项卡。
 
-在节点摘要面板的&#x200B;**[!UICONTROL 详细信息]**&#x200B;选项卡中配置设置。
+1. 输入要显示在电子邮件主题字段中的&#x200B;**[!UICONTROL 主题行]**&#x200B;文本。
 
-| 设置 | 描述 |
-| ------- | ----------- |
-| **[!UICONTROL 发件人姓名]** | 电子邮件标头中显示的发件人姓名。 支持个性化令牌。 |
-| **[!UICONTROL 来自电子邮件]** | 发件人电子邮件地址。 默认渠道配置。 支持个性化。 |
-| **[!UICONTROL 回复地址]** | 接收收件人回复的地址。 支持个性化。 |
-| **[!UICONTROL 主题行]** | 电子邮件主题行。 从创建时输入的值可编辑。 |
-| **[!UICONTROL 品牌化域]** | 用于特定品牌发送的域。 |
-| **[!UICONTROL 专用IP]** | 用于跟踪投放能力的特定IP地址。 |
-| **[!UICONTROL 操作电子邮件]** | 启用后，将绕过选择退出和取消订阅抑制。 仅用于合法的操作报文。 |
-| **[!UICONTROL 包括网页形式的视图]** | 为电子邮件内容生成网页链接。 |
-| **[!UICONTROL 禁用打开跟踪]** | 阻止跟踪电子邮件打开活动。 |
-| **[!UICONTROL 预编译标头]** | 在收件箱预览中的主题行之后显示的简短摘要文本。 |
-| **[!UICONTROL 抄送地址]** | 添加最多25个潜在客户或公司电子邮件字段以接收副本。 |
+   单击&#x200B;_个性化_&#x200B;图标（![个性化图标](../../user/assets/do-not-localize/icon-personalize.svg)）以在字段中使用个性化令牌。
+
+1. （可选）选中&#x200B;**[!UICONTROL 优化HTML大小]**&#x200B;复选框以在发布过程中减小电子邮件HTML的大小。
+
+   这有助于防止客户端中的电子邮件剪辑，例如Gmail，它会截断超过100 KB的邮件。 有关详细信息，请参阅&#x200B;[_优化电子邮件HTML大小_](#optimize-html-size)。
+
+1. 单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;以访问可视化设计工具并开始[生成您的内容](../content/email-authoring.md)。
+
+   或者，您可以单击&#x200B;**[!UICONTROL 代码编辑器]**，以纯HTML对您自己的内容进行编码。 如果您已有HTML可重复用于电子邮件设计，则可以将其复制并粘贴到编辑器中。
 
 ### 检查警报 {#alerts}
 
-[!DNL Journey Optimizer B2B Prime]在电子邮件编辑器的右上角显示问题。 在激活历程之前解决所有错误 — 警告仅为推荐。
+[!DNL Adobe Journey Optimizer B2B Prime]在电子邮件页面的右上角显示问题。 在激活历程之前解决所有错误。 警告仅为推荐。
 
 **错误** （阻止历程激活）：
 
@@ -131,3 +139,62 @@ ht-degree: 2%
 * HTML的文本版本为空
 * 检测到空链接
 * 电子邮件超过100 K
+
+## 优化电子邮件HTML大小 {#optimize-html-size}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b-prime_email_minification"
+>title="缩小HTML大小"
+>abstract="启用此选项可在发布期间通过删除不必要的空格、缩进和非必要的注释来压缩电子邮件HTML。 这有助于防止客户端中的电子邮件剪辑，例如Gmail，它会截断超过100 KB的邮件。"
+
+[!DNL Journey Optimizer B2B Prime]允许您在发布过程中通过删除不必要的空格、缩进和非必要的注释来压缩电子邮件HTML版本。 缩小HTML的规模可帮助您：
+
+* 避免&#x200B;**电子邮件剪辑** — 某些客户端（如Gmail）截断大于~100 KB的邮件，从而阻止收件人查看完整内容。
+* 改进收件人收件箱中的&#x200B;**电子邮件加载时间**。
+* 改进&#x200B;**可投放性**&#x200B;并减少带宽使用。
+
+此优化不会自动应用 — 必须在&#x200B;_[!UICONTROL Content]_&#x200B;选项卡中启用它。
+
+<!-- ![](assets/email-optimize-html-size.png) -->
+
+>[!IMPORTANT]
+>
+> HTML大小缩减仅在发布时应用。
+
+优化是电子邮件客户端安全的：
+
+* 它保留MSO/Outlook条件注释。
+* 它不会更改您的实际内容、图像或视频。
+
+>[!NOTE]
+>
+>电子邮件大小的缩减取决于电子邮件原始HTML结构。 如果内容已紧凑或电子邮件有效负载非常大，则缩减可能最小，并且可能在所有情况下都无法完全阻止剪切。
+
+<!-- 
+Proof and simulate workflows are not available in this release. See [Current limitations](#limitations).
+
+### Test HTML size optimization {#optimize-html-proof}
+
+If you have enabled the [HTML size optimization](#optimize-html-size) option, you can evaluate its impact before publishing when sending proofs. Follow the following steps.
+
+1. In the email design space, click the _Issues_ icon on the top right. If the rendered email size exceeds 100 KB, a message is displayed to warn you that this may cause truncation in some email clients.
+
+1. Click **[!UICONTROL Simulate content]**.
+
+1. To test the optimized version, click the **[!UICONTROL Send proof]** button and select the **[!UICONTROL Optimize HTML size]** option. This will send a proof with the reduced HTML size to your test recipients.
+
+    >[!NOTE]
+    >
+    >This setting is independent from the email editor — the proof reflects what you select in the proof, regardless of whether the option is enabled or disabled in the email itself.
+
+1. Select the test recipients and click **[!UICONTROL Send proof]**.
+
+1. Back in the **[!UICONTROL Simulate]** screen, click the **[!UICONTROL View Proof]** button.
+
+1. Click the _Information_ icon next to the status of the proof.
+
+   The optimization details are displayed in a pop-up window, including the original HTML size, the optimized HTML size, and the size reduction percentage.
+    
+    Use this information to validate the optimized output and confirm the email stays within the recommended 100 KB threshold before publishing.
+
+-->

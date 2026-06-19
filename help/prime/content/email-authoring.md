@@ -1,5 +1,5 @@
 ---
-title: 电子邮件创作
+title: 电子邮件内容
 description: 使用Journey Optimizer B2B Prime中的电子邮件设计工具，包括电子邮件模板、片段、个性化、深色模式和验证。
 autotag-review: '2026-06-12T22:51:19.543Z'
 TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
@@ -15,22 +15,22 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
+source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
 workflow-type: tm+mt
-source-wordcount: 2753
+source-wordcount: 2738
 ht-degree: 1%
 
 ---
 
-# 电子邮件创作
+# 电子邮件内容创作
 
 在[!DNL Adobe Journey Optimizer B2B Prime]中，电子邮件设计空间提供了一个可视化画布，营销人员可在其中撰写电子邮件。 左侧和顶部面板中的电子邮件设计工具（结构、内容组件、模板、片段等）支持通过拖放从头开始构建。 您还可以选择从模板开始，粘贴原始HTML，或从可重用可视片段组合消息。
 
 >[!IMPORTANT]
 >
->有关子域的管理员设置、身份验证、IP池和电子邮件通道配置，请参阅[电子邮件可投放性和通道配置](../admin/configuration-email-deliverability.md)。
+>有关子域的管理员设置、身份验证、IP池和电子邮件通道配置，请参阅[电子邮件可投放性](../start/email-deliverability.md)和[电子邮件通道配置](../admin/email-channel-configuration.md)。
 
-在[!DNL Journey Optimizer B2B Prime]中，每个电子邮件都与历程中的&#x200B;_[!UICONTROL 发送电子邮件]_&#x200B;操作相关联。 从历程设计到电子邮件定义的完整工作流发生在一个连续的体验中。 当您[将&#x200B;_发送电子邮件_&#x200B;节点](../marketing/action-nodes.md#add-an-action-node)添加到人员历程时，单击&#x200B;**[!UICONTROL 创建电子邮件]**&#x200B;以开始电子邮件内容设计过程。
+在[!DNL Adobe Journey Optimizer B2B Prime]中，每个电子邮件都与历程中的&#x200B;_[!UICONTROL 发送电子邮件]_&#x200B;操作相关联。 从历程设计到电子邮件定义的完整工作流发生在一个连续的体验中。 当您[将&#x200B;_发送电子邮件_&#x200B;节点](../marketing/action-nodes.md#add-an-action-node)添加到人员历程时，单击&#x200B;**[!UICONTROL 创建电子邮件]**&#x200B;以开始电子邮件内容设计过程。
 
 此操作将启动电子邮件设计空间，您可以在其中从以下选项中选择所需的电子邮件设计方式：
 
@@ -65,16 +65,13 @@ ht-degree: 1%
 
 ## 从历程创建电子邮件 {#email-from-journey}
 
-1. 单击&#x200B;**[!UICONTROL 编辑电子邮件]**&#x200B;按钮以继续执行电子邮件配置步骤。
-1. 在下一个屏幕上，从&#x200B;**[!UICONTROL 电子邮件配置]**&#x200B;下拉列表中选择之前创建的渠道配置。 仅列出活动配置。
-1. 输入操作的标签（显示在历程画布上）和内部电子邮件名称。
-1. 输入主题行。
-1. 可以选择为此电子邮件节点切换&#x200B;**[!UICONTROL 启用URL跟踪]**。
-1. 单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;以打开电子邮件设计空间。
+若要向人员历程添加&#x200B;_[!UICONTROL 发送电子邮件]_&#x200B;操作、创建电子邮件并在&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡上配置渠道设置，请参阅[向历程添加电子邮件](../marketing/email-channel.md)。
+
+在&#x200B;**[!UICONTROL 属性]**、**[!UICONTROL 操作]**&#x200B;和&#x200B;**[!UICONTROL 内容]**&#x200B;选项卡上配置电子邮件后，请使用此主题中的部分在电子邮件设计空间中设计电子邮件正文。
 
 ### “编辑内容”屏幕 {#edit-content-screen}
 
-在此屏幕中，您可以确认发件人详细信息（继承自渠道配置），设置主题行，并打开电子邮件设计空间以创作正文。 在电子邮件设计空间中配置了预编译标头（请参阅[设置预编译标头](#preheader)）。
+从&#x200B;**[!UICONTROL Content]**&#x200B;选项卡，确认发件人详细信息（继承自[电子邮件渠道配置](../admin/email-channel-configuration.md)），设置主题行，并打开电子邮件设计空间以创作正文。 在电子邮件设计空间中配置了预编译标头（请参阅[设置预编译标头](#preheader)）。
 
 * **从名称，从电子邮件，密件抄送：**&#x200B;继承自渠道配置。 此屏幕为只读。
 * **主题行：**&#x200B;必填。 支持Personalization。
@@ -295,10 +292,10 @@ Prime使您现有的Marketo Design Studio资源可在电子邮件设计空间中
 
 | 警报 | 它的含义 | 如何解决 |
 | ----- | ------------- | -------------- |
-| **主题行缺失** | 主题行字段为空。 | 打开电子邮件，并在编辑内容屏幕上输入主题行。 允许使用Personalization令牌，但字段不能为空。 |
+| **主题行缺失** | 主题行字段为空。 | 打开电子邮件并在&#x200B;**[!UICONTROL Content]**&#x200B;选项卡上输入主题行。 允许使用Personalization令牌，但字段不能为空。 |
 | **电子邮件正文为空** | 电子邮件设计空间中的画布没有内容。 | 单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;以打开电子邮件设计空间。 将至少一个结构和一个内容组件拖动到画布上，然后单击保存。 |
-| 未选择&#x200B;**渠道配置** | 尚未为电子邮件节点选择电子邮件配置。 | 在电子邮件属性屏幕上，从&#x200B;**[!UICONTROL 电子邮件配置]**&#x200B;下拉列表中选择一个活动的渠道配置。 |
-| **渠道配置已删除** | 以前选择的渠道配置已被删除或不再有效。 | 打开电子邮件属性并选择另一个活动渠道配置。 如果没有可用的，管理员必须创建或重新激活一个。 |
+| 未选择&#x200B;**渠道配置** | 尚未为电子邮件节点选择电子邮件渠道配置。 | 在&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡上，选择活动的&#x200B;**[!UICONTROL 电子邮件渠道配置]**。 |
+| **渠道配置已删除** | 以前选择的渠道配置已被删除或不再有效。 | 在&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡上，选择另一个活动的&#x200B;**[!UICONTROL 电子邮件渠道配置]**。 如果没有可用，管理员必须在[电子邮件渠道配置](../admin/email-channel-configuration.md)中创建或重新激活一个渠道。 |
 | **电子邮件大小超过100 KB** | 电子邮件总大小（HTML、内联CSS、编码的内容）大于100 KB ISP最佳实践上限。 | 减小电子邮件大小：使用Marketo Design Studio中的外部托管图像替换大型内联图像，删除未使用的内联CSS，简化嵌套结构。 |
 | **未解析的个性化令牌** | Handlebars令牌引用没有回退的配置文件属性，并且某些收件人可能缺少该属性。 | 使用Handlebars `default`帮助程序添加回退，如[Personalization](#personalization)中所述。 或者，将历程受众限制到保证属性的用户档案。 |
 | **映像未加载** | 图像组件引用了不再可用的资产。 | 单击图像，打开资源选取器，然后从Marketo Design Studio中重新选择资源。 |
