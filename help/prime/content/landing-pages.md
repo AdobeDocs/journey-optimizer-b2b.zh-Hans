@@ -3,10 +3,16 @@ title: 登陆页面
 description: 在Journey Optimizer B2B Prime中创建、设计和发布人员历程的登陆页面 — 从头开始构建、导入HTML、添加表单、个性化内容以及通过电子邮件进行链接。
 autotag-review: '2026-06-12T22:53:39.337Z'
 TQID: 'https://experienceleague.adobe.com/BvtB0i5CzlVutPA6HAzZy-Gfymw7ppZwthyBauyciLc'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 21f0ab524176df40128212fef920e10b06b5c317
 workflow-type: tm+mt
 source-wordcount: 2180
@@ -119,7 +125,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
    每个登陆页面最多可添加两个子页面。
 
-配置和设计主页面和任何子页面后，请在发布登陆页面](#test-landing-page)之前[对其进行测试。
+配置和设计主页面和任何子页面后，请在发布登陆页面[&#128279;](#test-landing-page)之前对其进行测试。
 
 >[!CAUTION]
 >
