@@ -1,9 +1,9 @@
 ---
 title: 用户访问和权限
 description: 在Adobe Admin Console中管理用户访问权限：为Journey Optimizer B2B edition Prime创建用户组、分配产品配置文件和设置基于角色的权限。
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+source-git-commit: f1449f734b5d93dc9bd4d7b4c1292a50cbc338b7
 workflow-type: tm+mt
-source-wordcount: '1725'
+source-wordcount: '1719'
 ht-degree: 70%
 
 ---
@@ -14,14 +14,14 @@ ht-degree: 70%
 
 1. [在Admin Console中创建Adobe Journey Optimizer B2B edition产品配置文件](#create-profile)（仅限一次性/初始设置）。
 1. 在Admin Console中[添加用户组](#add-user-group)。
-1. [编辑内置角色](#edit-roles-for-product-permissions)或[在Adobe Experience Platform权限中创建具有Journey Optimizer B2B edition权限的自定义角色](#create-a-custom-role)。
+1. [编辑内置角色](#edit-role-permissions)或[在Adobe Experience Platform权限中创建具有Journey Optimizer B2B edition权限的自定义角色](#create-a-custom-role)。
 1. [将用户](#add-users-to-a-role)或[组](#add-user-groups-to-a-role)添加到Adobe Experience Platform中的角色。
 
 ## 配置产品配置文件 {#config-profile}
 
 作为管理员，您可以在Adobe Admin Console中完成这些任务，这是管理您的Adobe产品许可证和用户的中心位置。 在Admin Console中，您可以在单个位置而不是在各种单独的解决方案中创建和管理用户。 要了解有关其功能和功能的更多信息，请参阅[Admin Console概述](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)页面。
 
-### 访问Admin Console
+### 访问Admin Console {#admin-console}
 
 在使用Admin Console管理团队中的用户之前，您需要确保可以访问Admin Console并具有适当的权限。
 
@@ -55,7 +55,7 @@ ht-degree: 70%
 
 授予用户访问Adobe解决方案的权限时，您不一定要授予他们完全访问权限。 产品配置文件使每个解决方案都有自己的用户权限集。 使用Admin Console分配产品配置文件。
 
-有关将产品配置文件用于用户权限的详细信息，请参阅Admin Console文档中的&#x200B;[_管理企业用户的产品配置文件_](https://helpx.adobe.com/cn/enterprise/using/manage-product-profiles.html){target="_blank"}。
+有关将产品配置文件用于用户权限的详细信息，请参阅Admin Console文档中的&#x200B;[_管理企业用户的产品配置文件_](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"}。
 
 ![管理员角色要求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系统管理员或Adobe Journey Optimizer B2B edition产品管理员可以从[https://adminconsole.adobe.com](https://adminconsole.adobe.com)中执行以下步骤。
 
@@ -138,13 +138,13 @@ ht-degree: 70%
 
    * 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以查看用户更改。
 
-## 编辑产品权限的角色 {#edit-roles-for-product-permissions}
+## 分配产品权限 {#assign-product-permissions}
 
-权限是单一的权利，可用于定义分配给产品配置文件的授权。 每个权限都分组在功能（如历程或购买群组）下，代表Journey Optimizer B2B edition中的功能。
+权限是单一的权利，可用于定义分配给产品配置文件的授权。 每个权限都分组在某个功能（如历程或购买群组）下，表示[!DNL Journey Optimizer B2B Prime]中的功能。
 
 在Adobe Experience Platform的&#x200B;_权限_&#x200B;区域，管理员可以定义用户角色和访问策略，以管理产品应用程序内功能和对象的访问权限。 在此应用程序中，您可以创建和管理角色，并为这些角色分配所需的资源权限。 权限还允许您管理与特定角色关联的沙盒和用户。
 
-有关Experience Platform中角色权限的更多信息，请参阅Experience Platform文档中的[管理角色的权限](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
+有关Experience Platform中角色权限的更多信息，请参阅Experience Platform文档中的[管理角色的权限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
 
 1. 转到[experience.adobe.com](https://experience.adobe.com/)。
 
