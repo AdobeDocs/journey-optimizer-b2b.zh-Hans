@@ -3,22 +3,14 @@ title: 登陆页面配置
 description: 占位符
 autotag-review: '2026-06-12T22:45:35.906Z'
 TQID: 'https://experienceleague.adobe.com/wLeiKuegGFhAA73dOrwF9lmsZrDWhUiZXWSzwMpQwxk'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: aed878b8-11d0-487c-828b-d23b2051ec37id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: a96755d6-1f54-4f3f-a971-d31f83705ab7id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: fc507317f18b7672905292f01315418e1d431575
 workflow-type: tm+mt
 source-wordcount: 971
-ht-degree: 8%
+ht-degree: 21%
 
 ---
 
@@ -35,17 +27,17 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_subdomain_lp_header"
 >title="委派登陆页面子域"
->abstract="设置供登陆页面使用的子域。 可使用已委派给 Adobe 的子域或配置另一子域。"
+>abstract="设置用于登陆页面的子域。 可使用已委派给 Adobe 的子域或配置另一子域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_subdomain_lp"
 >title="委派登陆页面子域"
->abstract="在创建登陆页面预设之前，必须配置登陆页面子域。 可使用已委派给 Adobe 的子域或配置新的子域。"
+>abstract="在创建登陆页面预设之前，必须先配置登陆页面子域。 可使用已委派给 Adobe 的子域或配置新的子域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_config_lp_subdomain"
 >title="创建登陆页面预设"
->abstract="要创建登陆页面预设，请确保您至少具有一个已配置的登陆页面子域，以便从子域名列表中进行选择。"
+>abstract="要创建登陆页面预设，请确保您已至少配置一个登陆页面子域，以便从“子域名称”列表中进行选择。"
 
 若要查看配置的登陆页面子域，请转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**。 在导航窗格中的&#x200B;_[!UICONTROL 登陆页面]_&#x200B;下，选择&#x200B;**[!UICONTROL 登陆页面子域]**。
 
@@ -119,7 +111,7 @@ To use a subdomain that is already delegated to Adobe:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_lp_subdomain_dns"
 >title="生成匹配的 DNS 记录"
->abstract="要配置新的登陆页子域，您需要复制Journey Optimizer B2B界面中显示的Adobe名称服务器信息，并将其粘贴到域托管解决方案中，以生成匹配的DNS记录。 检查成功后，子域即可用于创建登陆页面预设。"
+>abstract="要配置新的登陆页面子域，您需要复制 Journey Optimizer B2B 界面中显示的 Adobe 名称服务器信息，将其粘贴到您的域托管解决方案中，以生成匹配的 DNS 记录。 检查成功后，子域就可以用来创建登陆页面预设了。"
 
 1. 单击&#x200B;**[!UICONTROL 设置登陆页子域]**。
 
@@ -219,7 +211,7 @@ _To add a landing page subdomain:_
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_config_lp_subdomain_header"
 >title="创建登陆页面预设"
->abstract="要构建登陆页面并通过Journey Optimizer B2B edition利用登陆页面，您必须创建包含要使用的子域的登陆页面预设。"
+>abstract="为了生成登陆页面并通过 Journey Optimizer B2B Edition 使用它，您必须创建一个登陆页面预设，在其中包含要使用的子域。"
 
 营销人员在创建登陆页面时，必须选择登陆页面预设，才能构建登陆页面并通过[!DNL Journey Optimizer B2B Edition]利用它。 预设包括用于登陆页面的子域。
 
