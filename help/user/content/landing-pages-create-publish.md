@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: 144848cff6a37691ccbe7a83b78f9db33d8a2b3d
 workflow-type: tm+mt
 source-wordcount: 1719
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -84,12 +84,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_primary_page"
 >title="定义主要页面设置"
->abstract="定义主页面，当收件人单击登陆页面链接（如来自电子邮件或网站的链接）时，将立即显示该主页面。"
+>abstract="定义主页面。当收件人点击登陆页面链接（例如来自电子邮件或网站的链接）时，将立即显示该页面。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_access_settings"
 >title="定义登陆页面 URL"
->abstract="在此部分中，定义一个唯一的登陆页面 URL。 URL的第一部分要求您之前将登陆页面子域设置为您选择的预设的一部分。"
+>abstract="在此部分中，定义一个唯一的登陆页面 URL。 URL 的第一部分需要您以前设置的登陆页面子域，这应该包含在您选择的预设中。"
 
 1. 根据需要更改&#x200B;**[!UICONTROL 页面名称]**，默认情况下为&#x200B;_主页面_。
 
@@ -246,7 +246,7 @@ Adobe Journey Optimizer B2B edition提供了一系列&#x200B;_现成的_&#x200B;
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_preview_lp_profiles"
 >title="预览和测试登陆页面"
->abstract="定义登陆页面设置和内容后，请使用测试配置文件预览页面。"
+>abstract="定义好登陆页面设置和内容后，可使用测试轮廓预览页面。"
 
 定义登陆页面设置和内容后，您可以使用测试用户档案预览页面。 如果插入[个性化内容](./personalization.md)，则可以使用测试配置文件数据检查此内容在登陆页面中的显示方式。
 

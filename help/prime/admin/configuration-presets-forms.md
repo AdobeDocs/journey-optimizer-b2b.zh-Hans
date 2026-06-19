@@ -18,7 +18,7 @@ role_v2:
 source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
 workflow-type: tm+mt
 source-wordcount: 541
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
@@ -76,7 +76,7 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_dataset"
 >title="选择数据集"
->abstract="定义一个数据集，其中存储和反映表单响应。 输入文本以搜索特定数据集，或从列表中选择该数据集。"
+>abstract="定义用于存储和反映表单响应的数据集。 输入文本以搜索特定数据集，或从列表中选择数据集。"
 
 1. 在左侧导航中，转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**。
 
