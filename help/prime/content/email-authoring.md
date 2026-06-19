@@ -15,9 +15,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
+source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
 workflow-type: tm+mt
-source-wordcount: 2789
+source-wordcount: 2753
 ht-degree: 1%
 
 ---
@@ -260,7 +260,7 @@ Prime使您现有的Marketo Design Studio资源可在电子邮件设计空间中
 
 >[!IMPORTANT]
 >
->Prime中的资源可用性基于Marketo Design Studio中的&#x200B;**一次性资源副本**。 在初始复制后重新上传或修改Marketo中的资源将&#x200B;**不会**&#x200B;反映在Prime中。 此版本还不支持将图像直接上传到Prime。 Prime中的原生数字资源管理（包括上传、文件夹导航、搜索和图像编辑）是Beta范围的一部分。
+>Prime中的资源可用性基于Marketo Design Studio中的&#x200B;**一次性资源副本**。 在初始副本为&#x200B;**且未在[!DNL Journey Optimizer B2B Prime]中反映**&#x200B;后，在Marketo Engage中修改资源。
 
 ### 支持的文件类型 {#asset-file-types}
 

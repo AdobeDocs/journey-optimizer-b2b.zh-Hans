@@ -14,7 +14,7 @@ subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
 workflow-type: tm+mt
 source-wordcount: 190
 ht-degree: 55%
@@ -42,22 +42,22 @@ ht-degree: 55%
 <td></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="复选框"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="复选框"/></td>
 <td>在Adobe Admin Console中创建Marketo Engage产品配置文件（仅限新的Marketo Engage实例）</td>
 <td><a href="./user-management.md#create-profile">了解详情</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="复选框"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="复选框"/></td>
 <td>为配置文件添加用户组</td>
 <td><a href="./user-management.md#add-user-group">了解详情</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="复选框"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="复选框"/></td>
 <td>配置B2B用户角色</td>
 <td><a href="./user-management.md#edit-roles-for-product-permissions">了解详情</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="复选框"/></td>
+<td><img src=".../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="复选框"/></td>
 <td>将用户或组添加到角色</td>
 <td><a href="./user-management.md#add-users-to-a-role">了解详情</a></td>
 </tr>
@@ -81,26 +81,25 @@ ht-degree: 55%
 <td></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="复选框"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="复选框"/></td>
 <td>将子域委派给Adobe</td>
 <td><a href="./admin/configuration-email-deliverability.md#delegate-fully-delegated">已完全委派</a>或<a href="./admin/configuration-email-deliverability.md#delegate-cname">CNAME</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="复选框"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="复选框"/></td>
 <td>为子域配置DMARC</td>
 <td><a href="./admin/configuration-email-deliverability.md#configure-dmarc">了解详情</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="复选框"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="复选框"/></td>
 <td>查看和分配IP池</td>
 <td><a href="./admin/configuration-email-deliverability.md#review-ip-pool">了解详情</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="复选框"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="复选框"/></td>
 <td>创建电子邮件渠道配置</td>
 <td><a href="./admin/configuration-email-deliverability.md#create-email-channel-configuration">了解详情</a></td>
 </tr>
 </tbody>
 </table>
-<!-- -->
 

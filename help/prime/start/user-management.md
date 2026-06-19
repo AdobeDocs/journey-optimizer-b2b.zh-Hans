@@ -1,7 +1,7 @@
 ---
 title: 用户访问和权限
 description: 在Adobe Admin Console中管理用户访问权限：为Journey Optimizer B2B edition Prime创建用户组、分配产品配置文件和设置基于角色的权限。
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 70%
@@ -305,4 +305,3 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 您的自定义角色已配置，并且分配组中的用户现在可以访问您选择的Journey Optimizer B2B edition功能。
-<!-- -->

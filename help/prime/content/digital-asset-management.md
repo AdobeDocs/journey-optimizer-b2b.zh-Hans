@@ -3,7 +3,7 @@ title: 资产
 description: 从Journey Optimizer B2B edition管理电子邮件、模板和可视化片段的图像资源。
 feature: Assets, Content
 role: User
-badge: label="Beta 版" type="Informative"
+badgeBeta: label="Beta 版" type="informative" tooltip="此功能属于有限测试版。"
 autotag-review: '2026-06-18T20:11:57.611Z'
 TQID: 'https://experienceleague.adobe.com/Xsl4zqpk4xqXuOS85Z5U08tnbv8GWm3FXdqsegPCBI4'
 product_v2:
@@ -16,22 +16,26 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
 workflow-type: tm+mt
-source-wordcount: 495
-ht-degree: 3%
+source-wordcount: 524
+ht-degree: 5%
 
 ---
 
 # 资产
 
-在[!DNL Adobe Journey Optimizer B2B Prime]中，资产通常是设计内容以支持历程时使用的图像。 您可以在电子邮件、电子邮件模板以及资产选择器中的可视片段中使用这些图像，也可以在可视设计空间中使用简单的拖放界面。
+在[!DNL Adobe Journey Optimizer B2B Prime]中，资产通常是设计内容以支持历程时使用的图像。 您可以从资产选择器的[电子邮件](email-authoring.md)、[电子邮件模板](templates.md)和[可视片段](email-authoring.md#visual-fragments)中使用这些图像，也可以在可视设计空间中使用简单的拖放界面。
 
 支持的文件格式：JPG、JPEG、GIF、PNG、EPS、SVG 和 RGB
 
-
-&#x200B;>>
-目前还无法从外部系统（如Marketo Engage DAM）导入资源以及访问预填充的资源库。 预计未来版本将包括从现有系统导入资产、文件夹支持和扩展的资产管理功能。
+>[!NOTE]
+>
+>在此Beta版本中，您可以直接从电子邮件画布中的Marketo Engage资源库的一次性副本中选择图像和资源。 在初始副本为&#x200B;**且未在[!DNL Journey Optimizer B2B Prime]中反映**&#x200B;后，在Marketo Engage中修改资源。
+>
+>您可以从&#x200B;_[!UICONTROL Assets]_&#x200B;库或内容设计空间上传其他图像资源。 这些上传的资产只能在[!DNL Journey Optimizer B2B Prime]实例中使用。
+>
+>从外部系统导入资源以及访问预填充的资源库尚不可用。 预计未来版本将包括从现有系统导入资产、文件夹支持和扩展的资产管理功能。
 
 <!-- You can [edit these assets using Adobe Express](./image-edit-adobe-express.md), and move them into folders to organize them for use across your emails, templates, and fragments. -->
 
@@ -39,17 +43,13 @@ ht-degree: 3%
 
 在左侧导航中，展开&#x200B;**[!UICONTROL 内容管理]**&#x200B;并选择&#x200B;**[!UICONTROL Assets]**。
 
->[!NOTE]
->
->在此Beta版本中，您可以直接从电子邮件画布中的Marketo Engage资源库的一次性副本中选择图像和资源。 您还可以从&#x200B;_[!UICONTROL Assets]_&#x200B;库或内容设计空间上传其他图像资产。 这些上传的资产只能在[!DNL Adobe Journey Optimizer B2B Prime]实例中使用。
-
-![Assets库](./assets/dam-asset-library-list-view.png){width="800" zoomable="yes"}
+![显示可排序元数据列的Assets库列表视图](./assets/dam-asset-library-list-view.png){width="800" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
-首次访问&#x200B;_[!UICONTROL Assets]_&#x200B;库时，请查看&#x200B;_[!UICONTROL 创作AI使用条款]_，然后单击&#x200B;**[!UICONTROL 同意并继续]**。
+首次访问&#x200B;_[!UICONTROL Assets]_&#x200B;库时，请查看[_[!UICONTROL 创作AI使用条款&#x200B;]_](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)，并确认您的协议。
 
-![Assets库](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
+![Assets库中的创作AI使用条款协议对话框](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
 
 >[!ENDSHADEBOX]
 
@@ -72,11 +72,9 @@ ht-degree: 3%
 
 ## 查看资源详细信息 {#view-details}
 
-选择资产以打开其详细信息视图。 详细信息视图显示AI生成的描述、标记和关键字以及其他元数据字段。 上传资产时，会自动生成此信息。
+在列表或库视图中选择任意资源以在右侧打开其详细信息视图，其中显示AI生成的描述、标记、关键字和其他元数据字段。 上传资产时，会自动生成此信息。 选择&#x200B;**[!UICONTROL AI元数据]**&#x200B;选项卡以查看生成的描述、标记和元数据。
 
-在列表或库视图中选择任意资源以在右侧打开其详细信息视图。 选择AI元数据选项卡，以查看AI生成的描述、标记和元数据。
-
-![从Assets库中的搜索结果中选择的图像](./assets/dam-asset-library-select-image-metadata.png){width="700" zoomable="yes"}
+![显示AI生成的元数据和标记的资源详细信息视图](./assets/dam-asset-library-select-image-metadata.png){width="700" zoomable="yes"}
 
 ## 上传资源 {#upload}
 
@@ -93,4 +91,3 @@ ht-degree: 3%
 上传完成后，系统自动生成描述，分配标签和关键字，提取主题和设置等可视属性。 无需手动标记。 在此过程完成之前，新图像以&#x200B;_[!UICONTROL PROCESSING]_&#x200B;状态显示。
 
 ![新图像资源处于处理状态](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}
-<!-- -->
