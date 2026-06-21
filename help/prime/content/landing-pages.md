@@ -3,19 +3,13 @@ title: 登陆页面
 description: 在Journey Optimizer B2B Prime中创建、设计和发布人员历程的登陆页面 — 从头开始构建、导入HTML、添加表单、个性化内容以及通过电子邮件进行链接。
 autotag-review: '2026-06-12T22:53:39.337Z'
 TQID: 'https://experienceleague.adobe.com/BvtB0i5CzlVutPA6HAzZy-Gfymw7ppZwthyBauyciLc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 21f0ab524176df40128212fef920e10b06b5c317
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 2180
+source-wordcount: 2164
 ht-degree: 7%
 
 ---
@@ -30,12 +24,12 @@ ht-degree: 7%
 * 在发送通信之前收集同意，并在选择加入或选择退出时发送确认电子邮件。
 * 使用登陆页面上的表单捕获或更新用户档案数据（渐进式用户档案、偏好设置、注册和类似方案）。
 * 将人员引导至为您的历程编排设计的特定于促销活动的信息。
-* 将用户重定向到专用的Web表单，而无需在Journey Optimizer B2B Prime之外构建外部页面。
+* 将用户重定向到专用Web窗体，而无需在[!DNL Journey Optimizer B2B Prime]外部构建外部页面。
 
 <!-- 
 ## Landing page workflow
 
-To direct members of a journey audience to a defined web page when they click a specific link, create a landing page in Journey Optimizer B2B Edition: 
+To direct members of a journey audience to a defined web page when they click a specific link, create a landing page in [!DNL Journey Optimizer B2B Prime]: 
 
 
 1. [Create the page](./landing-pages-create-publish.md) - Select a preset, set up the primary page, and add any required subpages.
@@ -51,7 +45,7 @@ You can create, personalize, and preview landing pages in the visual design spac
 
 ## 访问和管理登陆页面 {#access-manage-landing-pages}
 
-要在Journey Optimizer B2B Prime中访问登陆页面，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 登陆页面]**。 此操作显示实例中创建的所有登陆页面的列表。
+要在[!DNL Journey Optimizer B2B Prime]中访问登陆页面，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 登陆页面]**。 此操作显示实例中创建的所有登陆页面的列表。
 
 该列表按&#x200B;_[!UICONTROL 修改时间]_&#x200B;列排序，最近更新的项目位于顶部。 单击列标题可在升序和降序之间更改。
 
@@ -78,7 +72,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 | 状态 | 描述 |
 | -------------------- | ----------- |
 | 草稿 | 创建登陆页面时，该页面处于草稿状态。 在您定义或编辑可视内容时，它保持此状态，直到您将其发布为托管页面。 可用操作： <br/><ul><li>编辑名称或描述</li><li>编辑链接URL</li><li>在可视设计空间中编辑</li><li>发布</li><li>重复</li><li>删除</li></ul> |
-| 发布日期 | 发布登陆页面时，该页面托管在Journey Optimizer B2B Prime实例上，可供在电子邮件或短信消息内容中进行链接。 可用操作： <br/><ul><li>编辑名称或描述</li><li>编辑链接URL</li><li>在电子邮件或短信消息内容中添加链接</li><li>创建草稿版本</li><li>重复</li><li>删除</li></ul> |
+| 发布日期 | 当您发布登陆页面时，该页面托管在[!DNL Journey Optimizer B2B Prime]实例上，可供在电子邮件或短信消息内容中进行链接。 可用操作： <br/><ul><li>编辑名称或描述</li><li>编辑链接URL</li><li>在电子邮件或短信消息内容中添加链接</li><li>创建草稿版本</li><li>重复</li><li>删除</li></ul> |
 | 以草稿发布 | 从已发布的登陆页面创建草稿时，已发布的版本会保留，并且草稿内容可以在可视设计空间中修改。 如果您发布草稿版本，则该草稿版本会替换当前已发布的版本，并且托管页面中的内容会更新。 可用操作： <br/><ul><li>编辑名称或描述</li><li>编辑链接URL</li><li>在电子邮件或短信消息内容中添加链接</li><li>在可视设计空间中编辑草稿版本</li><li>发布草稿版本</li><li>重复</li><li>删除（删除两个版本）</li><li>放弃草稿（返回到已发布状态）</li></ul> |
 
 <!-- ![Landing page status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"} -->
@@ -125,7 +119,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
    每个登陆页面最多可添加两个子页面。
 
-配置和设计主页面和任何子页面后，请在发布登陆页面[&#128279;](#test-landing-page)之前对其进行测试。
+配置和设计主页面和任何子页面后，请在发布登陆页面](#test-landing-page)之前[对其进行测试。
 
 >[!CAUTION]
 >
@@ -175,7 +169,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 >title="预览和测试登陆页面"
 >abstract="定义好登陆页面设置和内容后，可使用测试轮廓预览页面。"
 
-定义登陆页面设置和内容后，您可以使用测试用户档案预览页面。 如果插入[个性化内容](email-authoring.md#personalization)，则可以使用测试配置文件数据检查此内容在登陆页面中的显示方式。
+定义登陆页面设置和内容后，您可以使用测试用户档案预览页面。 如果插入[个性化内容](email-authoring.md#personalize-content)，则可以使用测试配置文件数据检查此内容在登陆页面中的显示方式。
 
 >[!PREREQUISITES]
 >
@@ -299,7 +293,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 ## 链接到登陆页面 {#link-to-landing-page}
 
-作为生成电子邮件、片段和页面内容的营销人员或创意人员，您可以嵌入指向在Journey Optimizer B2B Prime实例中创建的已发布（实时）登陆页面的链接。
+作为生成电子邮件、片段和页面内容的营销人员或创意人员，您可以嵌入指向在您的[!DNL Journey Optimizer B2B Prime]实例中创建的已发布（实时）登陆页面的链接。
 
 1. 当您在片段、电子邮件、登陆页面或模板的可视设计空间中工作时，为链接选择文本摘录、按钮组件或图像组件。
 
