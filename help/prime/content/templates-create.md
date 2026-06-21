@@ -14,9 +14,9 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 880
+source-wordcount: 885
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 # 创建电子邮件模板
 
-您可以通过三种方式在[!DNL Journey Optimizer B2B Edition Prime]中创建电子邮件模板：
+您可以通过三种方式在[!DNL Adobe Journey Optimizer B2B Prime]中创建电子邮件模板：
 
 * **生成新模板** — 使用可视化电子邮件设计空间在模板库中创建模板。
 * **从历程电子邮件保存** — 将您在历程中创作的电子邮件保存为可重用的模板。
@@ -65,13 +65,13 @@ ht-degree: 1%
 
 原始历程电子邮件不受影响。 保存后的模板在模板库中可供沙盒中的所有用户使用。 您可以更新创建的模板以优化重用：
 
-* 编辑文本并添加[个性化](email-authoring.md#personalization)令牌。
+* 编辑文本并添加[个性化](email-authoring.md#personalize-content)令牌。
 * 更新或替换图像并添加链接。
 * 配置[内容锁定](template-content-governance.md)。
 
 ## 将图像转换为模板 {#image-to-template}
 
-[!DNL Journey Optimizer B2B Edition Prime]可以使用创作AI将静态图像（例如来自Figma或Photoshop的模型）转换为可编辑的电子邮件模板。 这无需从设计文件手动重建布局，非常适合从其他平台迁移现有电子邮件设计。 此功能仅适用于电子邮件内容模板。
+[!DNL Adobe Journey Optimizer B2B Prime]可以使用创作AI将静态图像（例如来自Figma或Photoshop的模型）转换为可编辑的电子邮件模板。 这无需从设计文件手动重建布局，非常适合从其他平台迁移现有电子邮件设计。 此功能仅适用于电子邮件内容模板。
 
 >[!BEGINSHADEBOX]
 
@@ -95,7 +95,7 @@ ht-degree: 1%
 
 ### 创建模板
 
-1. 导航到&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 模板]**。
+1. 在左侧导航中，展开&#x200B;**[!UICONTROL 内容管理]**&#x200B;并选择&#x200B;**[!UICONTROL 模板]**。
 1. 单击&#x200B;**[!UICONTROL 创建模板]**。
 1. 输入&#x200B;**[!UICONTROL 模板名称]**&#x200B;和可选的&#x200B;**[!UICONTROL 描述]**。
 1. 将&#x200B;**[!UICONTROL 渠道]**&#x200B;设置为电子邮件。
@@ -138,7 +138,7 @@ ht-degree: 1%
 
 转换后的模板内容将在设计空间中作为完全可编辑的电子邮件模板打开。 使用标准内容设计工具可以：
 
-* 编辑文本并添加[个性化](email-authoring.md#personalization)令牌。
+* 编辑文本并添加[个性化](email-authoring.md#personalize-content)令牌。
 * 更新或替换图像并添加链接。
 * 调整颜色、字体和间距。
 * 添加、删除或重新排列内容组件。

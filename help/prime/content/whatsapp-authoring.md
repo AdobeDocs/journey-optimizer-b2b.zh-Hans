@@ -15,22 +15,22 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 21a905201c3fc49f2e825dea2a0f0cc76f7b285f
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: 803
 ht-degree: 1%
 
 ---
 
 # WhatsApp创作
 
-使用Journey Optimizer B2B Prime将WhatsApp消息发送给使用他们移动设备的用户。 您可以使用WhatsApp编辑器中的已批准Meta消息模板创建、个性化和预览消息。
+使用[!DNL Adobe Journey Optimizer B2B Prime]将WhatsApp消息发送给其移动设备上的用户。 您可以使用WhatsApp编辑器中的已批准Meta消息模板创建、个性化和预览消息。
 
 在为人员历程创建WhatsApp消息之前，请确保在&#x200B;_[!UICONTROL 管理员]_&#x200B;设置中配置了[WhatsApp渠道](../admin/configuration-channels-whatsapp.md)。
 
 >[!NOTE]
 >
->Journey Optimizer B2B Prime中仅支持&#x200B;_出站_ WhatsApp消息元素。
+>[!DNL Journey Optimizer B2B Prime]中仅支持&#x200B;_出站_ WhatsApp消息元素。
 
 +++ 支持的消息元素和call-to-action选项
 
@@ -91,7 +91,7 @@ ht-degree: 1%
 
 ### 选择消息模板 {#select-message-template}
 
-使用您Meta WhatsApp商业帐户中的预批准消息模板发送WhatsApp消息。 **模板必须由Meta审核和批准**，然后才能在Journey Optimizer B2B Prime中使用。 要管理和提交模板以供审批，请与您的[!DNL Meta Business Manager]帐户管理员联系。
+使用您Meta WhatsApp商业帐户中的预批准消息模板发送WhatsApp消息。 **模板必须由Meta审核和批准**，然后才能在[!DNL Journey Optimizer B2B Prime]中使用。 要管理和提交模板以供审批，请与您的[!DNL Meta Business Manager]帐户管理员联系。
 
 1. 对于&#x200B;**[!UICONTROL 选择模板类别]**，请选择下列选项之一：
 

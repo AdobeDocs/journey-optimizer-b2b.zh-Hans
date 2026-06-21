@@ -1,21 +1,26 @@
 ---
 title: 表单
 description: 在Journey Optimizer B2B Prime中创建和管理可重用的业务数据收集表单 — 设计字段、设置感谢页面、发布和跟踪使用情况。
-autotag-review: '2026-06-12T22:53:03.357Z'
+autotag-review: '2026-06-19T23:02:49.150Z'
 TQID: 'https://experienceleague.adobe.com/iwrvFvR6amcRnXyPd3PoDZ8FU9zITH9i3B172QDTAn0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
   - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 2281
-ht-degree: 1%
+source-wordcount: 2261
+ht-degree: 2%
 
 ---
 
@@ -31,7 +36,7 @@ ht-degree: 1%
 >
 
 <!-- 
->Form creation in Journey Optimizer B2B Edition requires the following [permissions](../start/user-management.md#b2b-product-permissions):
+>Form creation in [!DNL Journey Optimizer B2B Prime] requires the following [permissions](../start/user-management.md#b2b-product-permissions):
 >
 >* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Read B2C Forms]_ - Required to access and view forms.
 >* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Manage B2C Forms]_ - Required to create, update, and delete forms.
@@ -40,7 +45,7 @@ ht-degree: 1%
 
 ## 访问和管理表单 {#view-forms}
 
-要在Journey Optimizer B2B edition中访问表单，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL Forms]**。 此操作将打开一个列表页面，该页面显示实例中创建的所有表单。
+若要在[!DNL Journey Optimizer B2B Prime]中访问表单，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL Forms]**。 此操作将打开一个列表页面，该页面显示实例中创建的所有表单。
 
 <!-- ![Access the forms library](./assets/forms-list.png){width="800" zoomable="yes"} -->
 
@@ -74,7 +79,7 @@ ht-degree: 1%
 
 ## 创建表单 {#create-forms}
 
-在Journey Optimizer B2B edition中开始构建可重用表单之前，需要考虑以下几个因素：
+在[!DNL Journey Optimizer B2B Prime]中开始构建可重用表单之前，需要考虑以下几点：
 
 * 确定您需要什么表单。
 
@@ -108,7 +113,7 @@ Add to context help when available
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
 -->
 
-您可以在Journey Optimizer B2B edition中创建表单，方法是单击&#x200B;_[!UICONTROL Forms]_&#x200B;列表页右上角的&#x200B;**[!UICONTROL 创建表单]**。
+您可以在[!DNL Journey Optimizer B2B Prime]中创建表单，方法是单击&#x200B;_[!UICONTROL Forms]_&#x200B;列表页右上角的&#x200B;**[!UICONTROL 创建表单]**。
 
 1. 在&#x200B;_[!UICONTROL 创建表单]_&#x200B;对话框中，输入有用的&#x200B;**[!UICONTROL 名称]**（必需）和&#x200B;**[!UICONTROL 描述]**（可选）。
 
@@ -156,7 +161,7 @@ Add to context help when available
 
 * **[!UICONTROL 停留在页面]** — 选择此选项可在提交表单时将访客停留在同一页面。
 
-* **[!UICONTROL 登陆页面]** — 选择此选项可选择任意Journey Optimizer B2B edition登陆页面作为跟进。
+* **[!UICONTROL 登陆页面]** — 选择此选项可选择任意[!DNL Journey Optimizer B2B Prime]登陆页面作为跟进。
 
 * **[!UICONTROL 外部URL]** — 选择此选项可将任何URL指定为后续页面。 访客提交表单后，浏览器会加载指定的URL。
 
@@ -188,7 +193,7 @@ Add to context help when available
 
 ## 查看引用使用的表单
 
-在右侧的&#x200B;_[!UICONTROL 摘要]_&#x200B;面板中，单击&#x200B;**[!UICONTROL 使用者]**&#x200B;选项卡以查看有关当前在Journey Optimizer B2B edition中使用表单的位置、登陆页和登陆页模板的详细信息。
+在右侧的&#x200B;_[!UICONTROL 摘要]_&#x200B;面板中，单击&#x200B;**[!UICONTROL 使用者]**&#x200B;选项卡以查看[!DNL Journey Optimizer B2B Prime]中、登陆页面和登陆页面模板中当前使用表单的位置的详细信息。
 
 >[!IMPORTANT]
 >

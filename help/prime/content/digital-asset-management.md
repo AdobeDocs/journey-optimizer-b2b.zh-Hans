@@ -1,6 +1,6 @@
 ---
 title: 资产
-description: 从Journey Optimizer B2B edition管理电子邮件、模板和可视化片段的图像资源。
+description: 从Journey Optimizer B2B Prime管理电子邮件、模板和可视化片段的图像资源。
 feature: Assets, Content
 role: User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能属于有限测试版。"
@@ -16,10 +16,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 524
-ht-degree: 5%
+source-wordcount: 786
+ht-degree: 18%
 
 ---
 
@@ -91,3 +91,29 @@ ht-degree: 5%
 上传完成后，系统自动生成描述，分配标签和关键字，提取主题和设置等可视属性。 无需手动标记。 在此过程完成之前，新图像以&#x200B;_[!UICONTROL PROCESSING]_&#x200B;状态显示。
 
 ![新图像资源处于处理状态](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}
+
+## 使用资产进行内容创作 {#assets-authoring}
+
+在创作电子邮件、电子邮件模板和可视片段时使用资产。 可视内容编辑器提供对&#x200B;_Assets_&#x200B;库中的图像的访问权限。 您还可以上传图像资产，并将其放置在内部资产存储库中。
+
+您可以在编辑图像组件的设置时或直接在画布上选择图像资源：
+
+* **_空组件_** — 将图像组件添加到画布时，该组件是空的，因此可以轻松选择或导入图像文件。
+
+  ![为空图像组件选择来源和图像文件](./assets/dam-assets-image-component-empty.png){width="500"}
+
+* **_图像组件工具栏_** — 在画布中选择了图像组件后，可通过工具栏轻松选择源并选择图像文件。
+
+  ![使用工具栏为图像组件选择来源和图像文件](./assets/dam-assets-image-toolbar-settings.png){width="500"}
+
+* **_图像组件设置_** — 在画布中选择了图像组件后，您可以在右侧面板中查看和编辑设置。 要添加或更改组件中显示的图像文件，请选择源类型，然后选择一个图像文件。
+
+  ![在右侧面板中编辑图像组件设置](./assets/dam-assets-image-settings.png){width="350"}
+
+单击&#x200B;**[!UICONTROL 选择资源]**&#x200B;以打开资源选择器，您可以从中从[!DNL Journey Optimizer B2B Prime]资源存储库中选择图像。
+
+![选择图像资源](./assets/dam-assets-internal-image-selected.png){width="700" zoomable="yes"}
+
+您可以使用搜索和过滤器来找到所需的图像资产。 选择资产，然后单击&#x200B;**[!UICONTROL 选择]**，将其用于图像组件。
+
+您还可以在某个结构组件的背景设置中选择图像资产。

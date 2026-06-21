@@ -14,9 +14,9 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c8c11e14e295eb594bc291f554978a92baf4c56
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 485
+source-wordcount: 492
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 # 电子邮件模板
 
-[!DNL Journey Optimizer B2B Edition Prime]中的电子邮件模板允许内容专家独立构建可重复使用的电子邮件布局，因此营销团队可以跨帐户历程应用这些模板而无需每次重新构建设计。
+[!DNL Adobe Journey Optimizer B2B Prime]中的电子邮件模板允许内容专家独立构建可重复使用的电子邮件布局，因此营销团队可以跨帐户历程应用这些模板而无需每次重新构建设计。
 
 >[!NOTE]
 >
@@ -87,4 +87,4 @@ ht-degree: 1%
 
 ## 在电子邮件中使用模板 {#use-in-journey}
 
-在历程中创作电子邮件时，**[!UICONTROL 选择设计模板]**&#x200B;部分允许您从保存的模板或示例模板中进行选择。 单击模板缩略图以预览它，然后单击&#x200B;**[!UICONTROL 使用此模板]**&#x200B;以应用它。 有关完整的工作流，请参阅[电子邮件创作](email-authoring.md#templates)。
+在历程中创作电子邮件时，**[!UICONTROL 选择设计模板]**&#x200B;部分允许您从保存的模板或示例模板中进行选择。 单击模板缩略图以预览它，然后单击&#x200B;**[!UICONTROL 使用此模板]**&#x200B;以应用它。 有关模板选择在整个电子邮件工作流中的适用位置，请参阅[电子邮件内容创作](./email-authoring.md)。

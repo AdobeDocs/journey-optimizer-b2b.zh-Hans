@@ -1,9 +1,9 @@
 ---
 title: 内容创作 — 导入HTML
 description: 重用有关从HTML内容创作导入的部分
-source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '139'
 ht-degree: 17%
 
 ---
@@ -21,6 +21,6 @@ ht-degree: 17%
 
 导入包含HTML内容的文件(_T):_
 
-1. 从&#x200B;_[!UICONTROL 设计您的模板]_&#x200B;主页中，选择&#x200B;**[!UICONTROL 导入HTML]**&#x200B;选项。
+1. 从设计主页中，选择&#x200B;**[!UICONTROL 导入HTML]**&#x200B;选项。
 
 1. 拖放包含 HTML 内容的 HTML 或 .zip 文件，然后单击&#x200B;**[!UICONTROL 导入]**。
