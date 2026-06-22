@@ -1,11 +1,11 @@
 ---
 user-guide-title: Journey Optimizer B2B Prime文档
-user-guide-description: 了解Adobe Journey Optimizer B2B edition Prime以及如何将其用于？
+user-guide-description: 了解Adobe Journey Optimizer B2B Prime以及如何将其用于？
 hide: true
-source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
+source-git-commit: 6bfe5d2e2fbcfcf8004922acfa4b7181d5a0ab8e
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 48%
+source-wordcount: '131'
+ht-degree: 51%
 
 ---
 
@@ -56,13 +56,9 @@ ht-degree: 48%
       + [内容组件](./content/content-components.md)
       + [自定义 CSS](./content/design-custom-css.md)
 + {hide-from-toc}[销售限定词](./sales-qualifier/sales-qualifier.md)
-+ {hide-from-toc}[Brand Concierge](./brand-concierge/brand-concierge.md)
 + 管理 {#admin}
-   + {hide-from-toc}[管理](./admin/admin.md)
    + 渠道 {#channels}
       + [电子邮件渠道配置](./admin/email-channel-configuration.md)
-      + {hide-from-toc}[短信渠道配置](./admin/configuration-channels-sms.md)
-      + {hide-from-toc}[Web渠道配置](./admin/configuration-channels-web.md)
       + [WhatsApp渠道配置](./admin/configuration-channels-whatsapp.md)
       + [登陆页面配置](./admin/configuration-presets-landing-pages.md)
       + [表单预设配置](./admin/configuration-presets-forms.md)
