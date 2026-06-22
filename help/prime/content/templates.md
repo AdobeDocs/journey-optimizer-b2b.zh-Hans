@@ -14,9 +14,9 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 224d6a6f8ca33d2f0d675254bf010f76a5c30e99
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: 495
 ht-degree: 1%
 
 ---
@@ -87,4 +87,4 @@ ht-degree: 1%
 
 ## 在电子邮件中使用模板 {#use-in-journey}
 
-在历程中创作电子邮件时，**[!UICONTROL 选择设计模板]**&#x200B;部分允许您从保存的模板或示例模板中进行选择。 单击模板缩略图以预览它，然后单击&#x200B;**[!UICONTROL 使用此模板]**&#x200B;以应用它。 有关模板选择在整个电子邮件工作流中的适用位置，请参阅[电子邮件内容创作](./email-authoring.md)。
+在历程中创作电子邮件时，**[!UICONTROL 选择设计模板]**&#x200B;部分允许您从保存的模板或示例模板中进行选择。 单击模板缩略图以预览它，然后单击&#x200B;**[!UICONTROL 使用此模板]**&#x200B;以应用它。 有关如何在电子邮件创作工作流中使用模板的信息，请参阅[电子邮件内容创作](./email-authoring.md#templates)。

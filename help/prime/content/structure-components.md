@@ -16,9 +16,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
 workflow-type: tm+mt
-source-wordcount: 1656
+source-wordcount: 1633
 ht-degree: 5%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 5%
 >title="关于结构组件"
 >abstract="结构组件是一种布局元素，可用于设计模板的结构。"
 
-使用可视化设计空间中的&#x200B;_结构组件_&#x200B;定义内容的结构。 通过简单的拖放操作添加和移动结构元素，您可以快速定义内容布局的形状。 每个结构组件跨越水平空间，您可以栈叠它们以垂直构建布局。 将每个组件划分为列以形成所需的每个内容块，然后在其中添加[内容组件](./content-components.md)以填充布局。
+使用可视化设计空间中的&#x200B;_结构组件_&#x200B;定义内容的结构。 通过简单的拖放操作添加和移动结构元素，您可以快速定义内容布局的形状。 每个结构组件跨越水平空间，您可以栈叠它们以垂直构建布局。<!-- Divide each component into columns to form each content block that you need, then add [content components](./content-components.md) inside them to populate the layout. -->
 
 ## 结构库 {#structure-library}
 
