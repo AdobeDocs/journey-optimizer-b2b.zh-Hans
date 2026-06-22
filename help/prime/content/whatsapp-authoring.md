@@ -1,6 +1,7 @@
 ---
 title: WhatsApp创作
 description: 在Journey Optimizer B2B Prime中使用经批准的Meta模板、个性化令牌和投放设置，为人员历程创建WhatsApp消息。
+badgeBeta: label="Beta 版" type="informative" tooltip="此功能属于有限测试版。"
 autotag-review: '2026-06-17T03:12:08.373Z'
 TQID: 'https://experienceleague.adobe.com/HijiC-uJ1rz5yl6bzsZRuFLJb7VWE38f-aqAGWLd2rQ'
 product_v2:
@@ -15,9 +16,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 205013add5060318d46a2b048bb347003c167470
 workflow-type: tm+mt
-source-wordcount: 803
+source-wordcount: 813
 ht-degree: 1%
 
 ---
