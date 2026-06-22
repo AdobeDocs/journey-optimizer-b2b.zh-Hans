@@ -16,9 +16,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
+source-git-commit: 598f728a271bf23752dec2b0056bcc3a14a88b32
 workflow-type: tm+mt
-source-wordcount: 1633
+source-wordcount: 1634
 ht-degree: 5%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 5%
 
 #### [!UICONTROL 背景颜色]
 
-选中复选框，然后单击颜色方框以从选取器中选择颜色。 您可以通过输入已知的RGB、HSL、HSB或十六进制值来选择颜色。 或者，使用颜色滑块和颜色字段来选择颜色。
+选中复选框，然后单击颜色方块以从选取器中选择颜色。 您可以通过输入已知的RGB、HSL、HSB或十六进制值来选择颜色。 或者，使用颜色滑块和颜色字段来选择颜色。
 
 ![背景拾色器](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
