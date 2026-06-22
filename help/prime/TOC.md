@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Prime文档
 user-guide-description: 了解Adobe Journey Optimizer B2B edition Prime以及如何将其用于？
 hide: true
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: a08b8464deee93cc5c3cfcba392356b16cbbfae9
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 48%
+source-wordcount: '132'
+ht-degree: 44%
 
 ---
 
@@ -50,10 +50,6 @@ ht-degree: 48%
       + [内容监管](./content/template-content-governance.md)
    + [登陆页面](./content/landing-pages.md)
    + [表单](./content/forms.md)
-   + 内容设计工具 {#content-design}
-      + [结构组件](./content/structure-components.md)
-      + [内容组件](./content/content-components.md)
-      + [自定义 CSS](./content/design-custom-css.md)
    + [个性化](./content/personalization-expressions.md)
 + {hide-from-toc}[销售限定词](./sales-qualifier/sales-qualifier.md)
 + {hide-from-toc}[Brand Concierge](./brand-concierge/brand-concierge.md)
@@ -70,6 +66,11 @@ ht-degree: 48%
 <!--
    + Business rules
    + Program types
+
+   + Content design tools {#content-design}
+      + [Structure components](./content/structure-components.md)
+      + [Content components](./content/content-components.md)
+      + [Custom CSS](./content/design-custom-css.md)
 
 + AI Assistant {#ai-assistant}
     + [Overview](./ai-assistant/ai-assistant-overview.md)

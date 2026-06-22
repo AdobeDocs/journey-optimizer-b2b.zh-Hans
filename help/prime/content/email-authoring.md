@@ -4,21 +4,13 @@ description: 了解如何使用可视画布、拖放工具、HTML导入和可重
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能属于有限测试版。"
 autotag-review: '2026-06-12T22:51:19.543Z'
 TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
 workflow-type: tm+mt
-source-wordcount: 2209
+source-wordcount: 2192
 ht-degree: 1%
 
 ---
@@ -136,7 +128,9 @@ ht-degree: 1%
 
 ### 添加结构和内容组件 {#components}
 
-通过将[结构组件](./structure-components.md)和[内容组件](./content-components.md)添加到画布来构建电子邮件布局。 从左侧面板的&#x200B;**[!UICONTROL 结构]**&#x200B;和&#x200B;**[!UICONTROL 内容]**&#x200B;部分中拖动项目，然后在右侧的&#x200B;_[!UICONTROL 设置]_&#x200B;和&#x200B;_[!UICONTROL 样式]_&#x200B;选项卡中配置每个组件。
+<!-- Build your email layout by adding [structure components](./structure-components.md) and [content components](./content-components.md) to the canvas. -->
+
+从左侧面板的&#x200B;**[!UICONTROL 结构]**&#x200B;和&#x200B;**[!UICONTROL 内容]**&#x200B;部分中拖动项目，然后在右侧的&#x200B;_[!UICONTROL 设置]_&#x200B;和&#x200B;_[!UICONTROL 样式]_&#x200B;选项卡中配置每个组件。
 
 ### 添加自定义 CSS {#custom-css}
 
@@ -146,7 +140,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->如果您的电子邮件是使用包含锁定内容[&#128279;](./template-content-governance.md)的模板设计的，则无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
+>如果您的电子邮件是使用包含锁定内容](./template-content-governance.md)的[模板设计的，则无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
 
 ### 添加片段 {#visual-fragments}
 
@@ -219,7 +213,7 @@ A visual fragment can include editable fields that you can customize. Custom fie
 
 ### 导航图层、设置和样式 {#navigation-layers}
 
-使用导航树选择组件和列，然后在右侧面板中调整其设置和样式。 请参阅[导航树](./structure-components.md#navigation-tree)。
+使用导航树选择组件和列，然后在右侧面板中调整其设置和样式。<!-- See [Navigation tree](./structure-components.md#navigation-tree). -->
 
 ### 个性化内容 {#personalize-content}
 
@@ -281,7 +275,7 @@ A visual fragment can include editable fields that you can customize. Custom fie
 
 使用电子邮件设计空间工具栏中的桌面和移动设备预览控件，在保存之前查看电子邮件布局。 切换到深色模式预览以验证可读性和对比度（请参阅电子邮件内容的[深色模式](./email-dark-mode.md)）。
 
-测试配置文件、**[!UICONTROL 模拟内容]**&#x200B;和发送验证工作流在此Beta版本中不可用。 请参阅电子邮件渠道概述中的[当前限制](../marketing/email-channel.md#limitations)。
+测试配置文件、[!UICONTROL 模拟内容]和发送验证工作流在此Beta版本中不可用。 请参阅电子邮件渠道概述中的[当前限制](../marketing/email-channel.md#limitations)。
 
 查看[验证电子邮件内容](#validation)以了解在历程激活之前必须解决的内容警报。
 
