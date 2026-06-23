@@ -1,61 +1,57 @@
 ---
 title: 营销管理
-description: 营销管理的占位符页面。
+description: 使用Journey Optimizer B2B Prime中的营销管理，可从聊天面板、工作区和项目树中规划项目、构建历程、管理人员列表和创建内容。
+badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 autotag-review: '2026-06-12T23:01:12.635Z'
 TQID: 'https://experienceleague.adobe.com/ph-XPVXSAg3GcPQo-VA-LfNma38N2XlfJEyfoo3gGYM'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c8c11e14e295eb594bc291f554978a92baf4c56
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
 workflow-type: tm+mt
-source-wordcount: 149
-ht-degree: 1%
+source-wordcount: 414
+ht-degree: 3%
 
 ---
 
 # 营销管理
 
-营销中心
+在左侧导航中选择&#x200B;_营销管理_&#x200B;图标（扩音器）以打开您的中央工作区，用于规划、组织和激活营销。 从此处，您可以集中管理[程序](./programs.md)、生成[历程](./person-journeys.md)、维护[人员列表](../audiences/people-lists.md)和创建[内容](../content/digital-asset-management.md) — 所有这些功能都可以在一个位置完成。
 
-程序和文件夹
-人员历程
-帐户历程（稍后）
-仲裁控制台
+Marketing Management使用三个区域的布局：左侧的聊天面板、中心的工作区和右侧的程序树。
 
-## 历程中心
+![营销管理工作区](./assets/marketing-home-page.png){width="800" zoomable="yes"}
 
-Journey Hub是Journey Optimizer B2B Prime中所有基于旅程/程序的功能的集中式人工智能驱动起点。 它旨在加快首次用户取得成功，同时逐步为回访和超级用户解锁高级智能、量度和控制。
+## 聊天面板 {#chat-panel}
 
-中心的作用如下：
+聊天面板与您的工作一起运行，以便您可以要求[AI助手](../agents/chat-interface.md)在上下文中执行操作。 面板标题包含以下控件：
 
-* 创建历程、项目和营销策划的引导式起点
+| 控件 | 描述 |
+|---------|-------------|
+| **新对话** | 开始新的对话。 |
+| **对话历史记录** | 浏览并重新打开过去的对话。 |
+| **交换面板** | 将聊天面板切换到另一侧。 |
+| **折叠** | 隐藏面板以最大化工作区空间。 |
 
-* 历程运行状况、性能和AI见解的可见性层
+输入内容显示为&#x200B;_询问任何内容，或键入/以获得技能……_&#x200B;当您在工作区中选择了某个资产时，输入内容将感知（例如，_询问“[资产名称]”……_），因此您的问题将直接应用于您查看的内容。
 
-* 用于仲裁、优化和推荐的控制中心
+## 工作区 {#workspace}
 
-### 集线器结构（高级）
+中心工作区是打开资产进行查看和编辑的地方。
 
-1. AI助手 — 基于提示的区域和&#x200B;_快速入门_
-1. 右侧的自适应库面板
-   * 个性化库
-   * 推动用户进行仲裁和优化
-1. 活动历程的报告
+如果未选择任何内容，工作区将显示欢迎状态 — **欢迎回来。 收入不会自行生成。**  — 提示从程序树中选择文件夹或资产。
 
-### 空状态和错误状态
+- **最近访问的** — [历程](./person-journeys.md)、[程序](./programs.md)以及您最近访问的文件夹的列表，每个都带有相对时间戳。 单击任意行以将其重新打开。
+- **资源视图** — 从项目树中选择某个项目后，其详细信息将在工作区中打开。
+- **清单页面** — 选择文件夹或程序会显示其内容的清单表（[程序](./programs.md)、[历程](./person-journeys.md)、[人员列表](../audiences/people-lists.md)、电子邮件等）。 清单表支持调整列大小、显示/隐藏列、排序和搜索。 例如，选择人员列表会打开其成员清单。
 
-* 无历程 — 提示快速入门
+## 程序树 {#program-tree}
 
-* 低数据 — 说明缺少什么
+右侧面板显示与营销相关资产的导航树。 它提供了一些功能工具，您可以使用这些工具：
 
-* AI不可用 — 带说明的正常回退
+- 顶部的&#x200B;**创建程序**&#x200B;按钮（请参阅[程序](./programs.md)）。
+- 用于按名称查找资源的&#x200B;**搜索**&#x200B;框。
+- 根位于&#x200B;_营销活动/默认_&#x200B;的分层文件夹树，包含文件夹、[程序](./programs.md)和[历程](./person-journeys.md)。 展开要深入挖掘的文件夹；每行上的&#x200B;**...**&#x200B;菜单将显示每项资源的操作。
 
-
-
+在项目树中选择项目以在中心工作区中打开详细信息。
