@@ -1,6 +1,7 @@
 ---
 title: Adobe Journey Optimizer B2B Prime文档
 description: Journey Optimizer B2B Prime的完整文档 — 探索可用于入门培训的资源（待定）。
+badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 autotag-review: '2026-06-12T22:37:55.790Z'
 TQID: 'https://experienceleague.adobe.com/qIeIKMJLaBkBTuh7qpwer-2MTRlzrELRVtYFzAIcdjw'
 product_v2:
@@ -13,16 +14,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6bfe5d2e2fbcfcf8004922acfa4b7181d5a0ab8e
+source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
 workflow-type: tm+mt
-source-wordcount: 91
-ht-degree: 23%
+source-wordcount: 103
+ht-degree: 30%
 
 ---
 
 # Adobe Journey Optimizer B2B Prime文档
 
-[!DNL Adobe Journey Optimizer B2B Prime]是
+[!DNL Adobe Journey Optimizer B2B Prime]是？
 
 <!--
 ## What's new
@@ -40,7 +41,7 @@ Email designers can now select from standard [!DNL Firefly] models, custom [!DNL
 >[!ENDTABS]
 -->
 
-## 开始浏览 {#section-explore}
+## 导出产品功能 {#section-explore}
 
 :::: landing-cards-container
 
@@ -56,7 +57,7 @@ Email designers can now select from standard [!DNL Firefly] models, custom [!DNL
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 创建历程
 
