@@ -2,9 +2,9 @@
 user-guide-title: Journey Optimizer B2B Prime文档
 user-guide-description: 了解Adobe Journey Optimizer B2B Prime以及如何将其用于？
 hide: true
-source-git-commit: 30b2d9f95b45a94d2ba42c23cd1d59952fb61720
+source-git-commit: f96698d0d3931be9206245d44131d06c998304ca
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '151'
 ht-degree: 47%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 47%
    + [用户管理](./start/user-management.md)
    + [电子邮件送达率](./start/email-deliverability.md)
 + [主页](./home-insights/home-page.md)
-+ [聊天界面](./agents/chat-interface.md)
++ AI 助手 {#ai-assistant}
+   + [聊天界面](./agents/chat-interface.md)
+   + [从简介创建项目](./agents/program-from-brief.md)
 + [销售限定词](./sales-qualifier/sales-qualifier.md)
 + 营销管理 {#marketing-management}
    + [概述](./marketing/marketing-management.md)
@@ -78,9 +80,5 @@ ht-degree: 47%
     + [Question guidance](./ai-assistant/question-guidance.md)
     + [Use AI Assistant](./ai-assistant/use-ai-assistant.md)
     + [Generative AI for content](./ai-assistant/generative-ai-content.md)
-    + Agents {#agents}
-       + [Audience Agent B2B](./agents/audience-agent-b2b.md)
-       + [Journey Agent B2B](./agents/journey-agent.md)
-       + [Account Qualification](./agents/sales-qualifier.md)
 
 -->
