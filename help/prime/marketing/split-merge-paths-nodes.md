@@ -14,9 +14,9 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
+source-git-commit: 47afe74615b02c805ef0a931e54899cbc2f30a05
 workflow-type: tm+mt
-source-wordcount: 668
+source-wordcount: 670
 ht-degree: 2%
 
 ---
@@ -47,7 +47,7 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
    * 电子邮件消息
    * 数据值更改
 
-* 人员属性 — 根据人员的属性定义条件，例如国家/地区、职务或列表成员资格。
+* 人员属性 — 根据人员的属性定义条件，例如国家/地区、职务、派生角色或列表成员资格。
 
 ### 添加拆分路径节点
 
