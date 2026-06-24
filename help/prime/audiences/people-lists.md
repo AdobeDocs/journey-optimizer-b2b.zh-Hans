@@ -1,21 +1,17 @@
 ---
 title: 人员列表
-description: 了解如何在Journey Optimizer B2B Prime中创建和管理人员列表，包括具有基于规则的鉴别的动态列表和具有固定成员资格的静态列表。
+description: 在Journey Optimizer B2B Prime中创建和管理人员列表，以实现历程定位、基于规则的动态成员资格和静态列表目标激活。
+badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 autotag-review: '2026-06-12T22:47:10.727Z'
 TQID: 'https://experienceleague.adobe.com/KWT9-Lr6358MQ0sLQyKAlb4SLERnBl-QQL7Cj1iXCZM'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1cb68e8933d6b1abba3cc82f154344d1dde51818
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 1fa72c956678cddcecd1b50a13c42ef9eada05fc
 workflow-type: tm+mt
-source-wordcount: 856
-ht-degree: 2%
+source-wordcount: 862
+ht-degree: 3%
 
 ---
 
