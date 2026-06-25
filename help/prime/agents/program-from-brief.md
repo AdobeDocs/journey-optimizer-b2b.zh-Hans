@@ -13,9 +13,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b92782904da5c01c3dc1b3fb44ef02729723015a
+source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
 workflow-type: tm+mt
-source-wordcount: 1120
+source-wordcount: 1119
 ht-degree: 3%
 
 ---
@@ -158,7 +158,7 @@ AI助手会在构建之前请求任何缺失的内容。
 | **异步列表成员资格** | 静态（来自标准）列表会在几分钟内填充 — 不是立即填充 |
 | **错误处理** | 报告工具失败时带有确切的错误；助理将提示确认输入并重试 |
 | **名称冲突** | 未自动解析 — 将请求其他名称 |
-| **作用域** | 仅限Journey Optimizer B2B Prime；Marketo用户应使用单独的程序创建/程序规划技能 |
+| **作用域** | 仅限Journey Optimizer B2B Prime；[!DNL Marketo Engage]用户应使用单独的程序创建/程序规划技能 |
 
 
 ## QA检查
