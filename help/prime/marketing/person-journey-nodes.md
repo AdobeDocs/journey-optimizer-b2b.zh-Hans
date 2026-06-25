@@ -3,17 +3,11 @@ title: 人员历程节点
 description: 了解Journey Optimizer B2B edition Prime中的人员旅程节点 — 受众、操作、事件、等待、路径拆分和AI驱动的下一个最佳路径路由。
 autotag-review: '2026-06-16T21:21:16.531Z'
 TQID: 'https://experienceleague.adobe.com/sTnrOvrGIrgboPqOMrrkUvNU1y6zZJX42zEJxuUInKQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
 source-wordcount: 320
 ht-degree: 0%
@@ -22,14 +16,14 @@ ht-degree: 0%
 
 # 人员历程节点
 
-创建人员历程后，使用画布中的工具添加受众并使用节点构建历程。 历程画布提供了一个可视设计空间，您可以在其中构建多步骤B2B营销用例。
+创建[人员历程](./person-journeys.md)后，使用画布中的工具添加受众并使用节点构建历程。 历程画布提供了一个可视设计空间，您可以在其中构建多步骤B2B营销用例。
 
 _[!UICONTROL 人员受众]_&#x200B;节点自动成为历程中的第一个节点。 选择受众后，通过将不同的操作、事件和决策节点组合为多步骤、跨渠道方案来构建旅程。 历程的每个节点表示逻辑路径上的一个步骤。
 
 :::: landing-cards-container
 
 :::
-<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=zh-Hans) -->
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg) -->
 
 人员受众节点
 
@@ -39,7 +33,7 @@ _[!UICONTROL 人员受众]_&#x200B;节点自动成为历程中的第一个节点
 :::
 
 :::
-<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans) -->
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) -->
 
 操作节点
 
@@ -49,7 +43,7 @@ _[!UICONTROL 人员受众]_&#x200B;节点自动成为历程中的第一个节点
 :::
 
 :::
-<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans) -->
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) -->
 
 事件节点
 
@@ -59,7 +53,7 @@ _[!UICONTROL 人员受众]_&#x200B;节点自动成为历程中的第一个节点
 :::
 
 :::
-<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans) -->
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg) -->
 
 等待节点
 
@@ -69,7 +63,7 @@ _[!UICONTROL 人员受众]_&#x200B;节点自动成为历程中的第一个节点
 :::
 
 :::
-<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans) -->
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) -->
 
 拆分和合并路径节点
 
@@ -79,7 +73,7 @@ _[!UICONTROL 人员受众]_&#x200B;节点自动成为历程中的第一个节点
 :::
 
 :::
-<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=zh-Hans) -->
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg) -->
 
 下一个最佳路径节点
 
