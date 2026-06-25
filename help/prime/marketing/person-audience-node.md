@@ -15,16 +15,16 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a48a12635d2ba4f14dda49e25e79a5496ebbdecf
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
-source-wordcount: 226
+source-wordcount: 225
 ht-degree: 4%
 
 ---
 
 # 人员受众节点
 
-_人员受众_&#x200B;节点指定哪些人员配置文件进入历程。 当您[创建人员历程](./person-journeys.md)时，该历程始终以定义其输入的人员受众节点开始。 人员受众节点可以具有以下两种受众输入类型之一：静态人员列表或动态人员列表。
+_人员受众_&#x200B;节点指定哪些人员配置文件进入历程。 当您[创建人员历程](./person-journeys.md)时，该历程始终以定义其输入的人员受众节点开始。 人员受众节点可以具有以下两种受众输入类型之一：动态人员列表或事件触发器。
 
 如果人员历程所需的动态人员列表不存在，请[创建人员列表](../audiences/people-lists.md#create-a-people-list)，然后配置人员受众节点。
 

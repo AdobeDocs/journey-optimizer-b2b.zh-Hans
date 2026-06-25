@@ -13,9 +13,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a48a12635d2ba4f14dda49e25e79a5496ebbdecf
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
-source-wordcount: 333
+source-wordcount: 332
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 在[!DNL Adobe Journey Optimizer B2B Prime]中，基于&#x200B;_事件的受众_&#x200B;允许您在发生[!DNL Marketo Engage]活动时近乎实时地将受众成员添加到实时[人员历程](../marketing/person-journeys.md)。 您可以在历程画布的受众节点上配置基于事件的受众：
 
-* 选择一个或多个Marketo活动（标准或自定义）作为符合条件的事件。
+* 选择一个或多个[!DNL Marketo Engage]活动（标准或自定义）作为符合条件的事件。
 * （可选）添加人员配置文件过滤器（如行业、区域或生命周期阶段）以缩小可输入的人员范围。
 * （可选）定义活动属性约束（如特定表单、URL或程序）以缩小每个活动的符合条件的发生次数。
 

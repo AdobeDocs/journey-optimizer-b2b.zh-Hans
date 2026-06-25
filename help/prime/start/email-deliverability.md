@@ -15,9 +15,9 @@ subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
-source-wordcount: 1918
+source-wordcount: 1920
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 ## 当前限制 {#limitations}
 
-* 子域委派的&#x200B;**自定义委派方法**&#x200B;尚不可用 — 请使用“完全委派”或CNAME。 自定义委派面向GA。
+* 子域委派的&#x200B;**自定义委派方法**&#x200B;尚不可用 — 请使用“完全委派”或CNAME。 GA版本的目标是自定义委派。
 * 在Beta中，**专用IP池**&#x200B;不可用。 共享IP池是唯一选项。 在GA提供专用IP ，包括IP预热计划和PTR记录管理。
 
 ## 重要概念 {#key-concepts}
