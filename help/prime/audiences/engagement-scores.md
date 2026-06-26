@@ -16,7 +16,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 30b2d9f95b45a94d2ba42c23cd1d59952fb61720
+source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 1548
 ht-degree: 6%
@@ -157,9 +157,7 @@ _[!UICONTROL 人员参与度分数]_&#x200B;筛选器显示在&#x200B;**[!UICONT
 
 1. 在聊天输入字段中，键入正斜杠命令，然后键入您的意图。 例如：
 
-   ```text
-   /engagement-configuration Configure activity weights for the person engagement score model
-   ```
+   `/engagement-configuration Configure activity weights for the person engagement score model`
 
    键入`/`时，AI Assistant显示可用斜杠命令和技能的列表。 参与配置命令直接路由到“参与度得分权重”页面。
 

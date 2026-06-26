@@ -13,10 +13,10 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
+source-git-commit: 9711cdf8f172523a32d8b64f0597d5ee14e7722b
 workflow-type: tm+mt
-source-wordcount: 365
-ht-degree: 2%
+source-wordcount: 320
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ _[!UICONTROL 人员受众]_&#x200B;节点自动成为历程中的第一个节点
 :::: landing-cards-container
 
 :::
-![人员受众节点](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=zh-Hans)
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=zh-Hans) -->
 
 人员受众节点
 
@@ -39,7 +39,7 @@ _[!UICONTROL 人员受众]_&#x200B;节点自动成为历程中的第一个节点
 :::
 
 :::
-![操作节点](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans) -->
 
 操作节点
 
@@ -49,7 +49,7 @@ _[!UICONTROL 人员受众]_&#x200B;节点自动成为历程中的第一个节点
 :::
 
 :::
-![事件节点](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans) —>
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans) -->
 
 事件节点
 
@@ -59,7 +59,7 @@ _[!UICONTROL 人员受众]_&#x200B;节点自动成为历程中的第一个节点
 :::
 
 :::
-![等待节点](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans)
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans) -->
 
 等待节点
 
@@ -69,7 +69,7 @@ _[!UICONTROL 人员受众]_&#x200B;节点自动成为历程中的第一个节点
 :::
 
 :::
-![拆分和合并路径节点](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans) -->
 
 拆分和合并路径节点
 
@@ -79,7 +79,7 @@ _[!UICONTROL 人员受众]_&#x200B;节点自动成为历程中的第一个节点
 :::
 
 :::
-![下一个最佳路径节点](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=zh-Hans)
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=zh-Hans) -->
 
 下一个最佳路径节点
 

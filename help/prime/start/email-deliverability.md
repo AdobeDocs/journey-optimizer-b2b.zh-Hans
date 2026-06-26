@@ -15,7 +15,7 @@ subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
+source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 1920
 ht-degree: 1%
@@ -39,7 +39,7 @@ ht-degree: 1%
 1. [确认用于发送子域电子邮件的IP池](#ip-pools)。
 1. [创建一个或多个绑定子域、IP池和发件人标识的电子邮件通道配置](../admin/email-channel-configuration.md#create-email-channel-configuration)。
 
-![Journey Optimizer B2B Prime的电子邮件可投放性设置](./assets/email-deliverability-diagram.svg){width="450" zoomable="yes"}
+![Journey Optimizer B2B Prime的电子邮件可投放性设置](./assets/email-deliverability-diagram.svg){width="550" zoomable="yes"}
 
 >[!TIP]
 >

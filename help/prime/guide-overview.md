@@ -14,10 +14,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
+source-git-commit: 1940cd62ab63243382637c1e60bb4df02ba2d56e
 workflow-type: tm+mt
-source-wordcount: 494
-ht-degree: 12%
+source-wordcount: 505
+ht-degree: 10%
 
 ---
 
@@ -36,8 +36,7 @@ ht-degree: 12%
 
 完成初始设置和配置，然后了解如何导航应用程序并使用主页。
 
-[管理员设置](./start/setup-prime.md)
-
+[管理员设置](./start/setup-prime.md) <br/>
 [主页](./home-insights/home-page.md)
 :::
 
@@ -48,8 +47,7 @@ AI 助手
 
 使用自然语言来规划项目、构建历程、管理受众以及使用人工智能技能创建内容。
 
-[聊天界面](./agents/chat-interface.md)
-
+[聊天界面](./agents/chat-interface.md) <br/>
 [可用技能](./agents/skills.md)
 :::
 
@@ -70,8 +68,7 @@ AI 助手
 
 将营销活动组织到项目中，通过多渠道内容设计人员历程，并使用自定义令牌进行个性化。
 
-[营销概述](./marketing/marketing-management.md)
-
+[营销概述](./marketing/marketing-management.md) <br/>
 [人员历程](./marketing/person-journeys.md)
 :::
 
@@ -82,9 +79,8 @@ AI 助手
 
 构建和维护人员列表，定义基于事件的受众，以及跟踪与基于角色的评分的互动。
 
-[人员列表](./audiences/people-lists.md)
-
-[参与度评分](./audiences/engagement-scores.md)
+[人员列表](./audiences/people-lists.md) <br/>
+[参与度分数](./audiences/engagement-scores.md)
 :::
 
 :::
@@ -94,10 +90,8 @@ AI 助手
 
 创作电子邮件和WhatsApp消息、管理模板和资产、创建登陆页面和表单并应用个性化。
 
-[电子邮件创作](./content/email-authoring.md)
-
-[模板](./content/templates.md)
-
+[电子邮件创作](./content/email-authoring.md) <br/>
+[模板](./content/templates.md) <br/>
 [登陆页面](./content/landing-pages.md)
 :::
 
@@ -113,7 +107,7 @@ AI 助手
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-gen-ai-blue.svg" width="35px" alt="AI 助手"><br/>
-      <strong>AI助手</strong><br/><a href="./agents/chat-interface.md">聊天界面</a><br/><a href="./agents/skills.md">技能</a><br/><a href="./agents/program-from-brief.md">根据简报创建程序</a>
+      <strong>AI助手</strong><br/><a href="./agents/chat-interface.md">聊天界面</a><br/><a href="./agents/skills.md">技能</a><br/><a href="./agents/program-from-brief.md">从简介创建程序</a><br/><a href="./agents/audience-creation.md">为程序创建受众</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="营销管理"><br/>
