@@ -4,18 +4,11 @@ description: 为Journey Optimizer B2B Prime配置子域委派、DMARC、SPF、DK
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能属于有限测试版。"
 autotag-review: '2026-06-12T22:43:42.799Z'
 TQID: 'https://experienceleague.adobe.com/RKZSQkjSRvHixOm2faRT5D-yB00IykXfPO06vvIUQ6k'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 1920
 ht-degree: 1%
@@ -39,7 +32,7 @@ ht-degree: 1%
 1. [确认用于发送子域电子邮件的IP池](#ip-pools)。
 1. [创建一个或多个绑定子域、IP池和发件人标识的电子邮件通道配置](../admin/email-channel-configuration.md#create-email-channel-configuration)。
 
-![Journey Optimizer B2B Prime的电子邮件可投放性设置](./assets/email-deliverability-diagram.svg){width="450" zoomable="yes"}
+![Journey Optimizer B2B Prime的电子邮件可投放性设置](./assets/email-deliverability-diagram.svg){width="550" zoomable="yes"}
 
 >[!TIP]
 >

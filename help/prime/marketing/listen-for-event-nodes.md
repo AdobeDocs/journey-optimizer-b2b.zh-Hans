@@ -3,21 +3,14 @@ title: 侦听事件节点
 description: 在Journey Optimizer B2B edition Prime中配置侦听事件节点 — 设置事件触发器，应用可选过滤器，并在发生活动或数据更改时提升人员。
 autotag-review: '2026-06-12T23:00:36.531Z'
 TQID: 'https://experienceleague.adobe.com/SBEfrrIKSCnO5x1tGXQTz1EZryH0IKhQx4tuqVn78FI'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d0031543-532c-4a26-8f90-01af2b91e6d0
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3368f815edc0ce817cb7ed371157b63fa548d848
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d0031543-532c-4a26-8f90-01af2b91e6d0id: ba367494-9862-4596-bd6f-299c7e10a46bid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d6c6691525c1fcfc695d109ef55dc2133f67c671
 workflow-type: tm+mt
-source-wordcount: 233
-ht-degree: 8%
+source-wordcount: 357
+ht-degree: 5%
 
 ---
 
@@ -27,11 +20,17 @@ ht-degree: 8%
 
 ## 事件触发器 {#event-triggers}
 
-从PM获取列表
+您可以针对[!DNL Marketo Engage]活动生成触发器，例如：
+
+* 填写表单 — 当人员在您的登陆页面上提交[!DNL Marketo Engage]表单时触发。
+* 访问网页 — 当潜在客户查看跟踪的网页时触发（您可以指定精确的URL或使用通配符）。
+* 单击链接 — 在单击营销电子邮件中的跟踪链接时触发。
+* 数据值更改 — 在人员记录中更新特定字段（如商机状态、得分或行业）时触发。
+* 请求营销活动 — 通常用于API或webhook集成，此触发器将在其他项目或Web服务调用营销活动时启动该活动。
+* 分数已更改 — 当个人的商机分数超过特定阈值增加或减少时触发。
+* 移动推送点按 — 当推送通知在设备上与交互时，在移动营销智能营销活动中触发。
 
 ## 事件过滤器 {#event-filters}
-
-从下午获取更新的列表
 
 | 过滤器 | 描述 |
 | ------- | ----------- |

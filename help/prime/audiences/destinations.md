@@ -3,18 +3,11 @@ title: 目标
 description: 了解如何在Journey Optimizer B2B Prime中连接目标和激活静态人员列表，以将受众数据导出到广告、电子邮件和其他营销平台。
 autotag-review: '2026-06-17T18:30:02.442Z'
 TQID: 'https://experienceleague.adobe.com/xO1p-VvIfv1KB77g0l2-fFRHQ0w2hy97vnG1QHpMw8c'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1cb68e8933d6b1abba3cc82f154344d1dde51818
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 289
 ht-degree: 2%
@@ -95,7 +88,7 @@ Destination activations reflect the membership state of the static list at the t
 
 1. 选中已配置的目标连接的复选框。
 
-   ![配置的目标可用于激活](./assets/static-list-activate-destination-select.png){width="600" zoomable="yes"}
+   ![配置的目标可用于激活](./assets/static-list-activate-destination-select.png){width="700" zoomable="yes"}
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
