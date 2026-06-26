@@ -15,7 +15,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
+source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
 workflow-type: tm+mt
 source-wordcount: 225
 ht-degree: 4%
@@ -41,4 +41,3 @@ _人员受众_&#x200B;节点指定哪些人员配置文件进入历程。 当您
    * **[!UICONTROL 动态列表]** — 使用基于规则的动态人员列表。 在历程运行时将评估列表规则，以限定历程的成员。 以后不符合动态列表资格的人不会从历程中删除。 请参阅&#x200B;_[动态列表](../audiences/people-lists.md#dynamic-lists)_。
 
    * **[!UICONTROL 事件受众]** — 使用事件受众根据符合条件的事项定义历程受众。 使用人员配置文件筛选定义受众成员，并使用事件标准触发历程条目。 查看&#x200B;_[基于事件的受众](../audiences/event-based-audiences.md)_。
-
