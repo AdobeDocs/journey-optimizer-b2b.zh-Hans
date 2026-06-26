@@ -4,16 +4,11 @@ description: 在Journey Optimizer B2B Prime中使用基于事件的受众，根�
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 autotag-review: '2026-06-25T17:59:01.953Z'
 TQID: 'https://experienceleague.adobe.com/04J58rjKw0hCoTOeYheZIPaX-YR8GwP-k6-Wn3XCetU'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
 workflow-type: tm+mt
 source-wordcount: 332
 ht-degree: 3%
@@ -66,4 +61,3 @@ ht-degree: 3%
    如果添加过滤器，则人员必须至少满足一个已配置活动条件和已配置过滤器。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
-
