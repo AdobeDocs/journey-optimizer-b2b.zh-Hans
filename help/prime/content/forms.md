@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 1b0738b00d493529e2619ecec201d59c6ae8a8f6
+source-git-commit: 5905973b2fc677d6e6d9a24ac68691237c837037
 workflow-type: tm+mt
 source-wordcount: 2261
 ht-degree: 2%
@@ -283,13 +283,11 @@ Add to context help when available
 1. 根据需要使用可视化设计工具来更新表单内容：
 
    <!--
-
    * [Add fields](./form-design.md#add-field)
    * [Change field styling](./form-design.md#field-styling)
    * [Reorder fields](./form-design.md#field-reorder)
    * [Change submit button text and styling](./form-design.md#submit-button)
    * [Change the form styling](./form-design.md#form-styling)
-
    -->
 
    单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回表单详细信息。
@@ -310,13 +308,11 @@ Add to context help when available
 1. 单击右侧&#x200B;_[!UICONTROL 摘要]_&#x200B;窗格中的&#x200B;**[!UICONTROL 编辑表单]**，并根据需要使用可视化设计工具：
 
    <!--
-
    * [Add fields](./form-design.md#add-field)
    * [Change field styling](./form-design.md#field-styling)
    * [Reorder fields](./form-design.md#field-reorder)
    * [Change submit button text and styling](./form-design.md#submit-button)
    * [Change the form styling](./form-design.md#form-styling)
-
    -->
 
    单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回表单详细信息。
