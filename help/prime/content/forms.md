@@ -3,21 +3,12 @@ title: 表单
 description: 在Journey Optimizer B2B Prime中创建和管理可重用的业务数据收集表单 — 设计字段、设置感谢页面、发布和跟踪使用情况。
 autotag-review: '2026-06-19T23:02:49.150Z'
 TQID: 'https://experienceleague.adobe.com/iwrvFvR6amcRnXyPd3PoDZ8FU9zITH9i3B172QDTAn0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-subfeature_v2:
-  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 1b0738b00d493529e2619ecec201d59c6ae8a8f6
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+subfeature_v2: id: d57c4909-c813-470d-ac87-cdd2d6b5f9dcid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 5905973b2fc677d6e6d9a24ac68691237c837037
 workflow-type: tm+mt
 source-wordcount: 2261
 ht-degree: 2%
@@ -109,7 +100,7 @@ ht-degree: 2%
 
 <!--
 Add to context help when available
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
 -->
 
 您可以在[!DNL Journey Optimizer B2B Prime]中创建表单，方法是单击&#x200B;_[!UICONTROL Forms]_&#x200B;列表页右上角的&#x200B;**[!UICONTROL 创建表单]**。
@@ -283,13 +274,11 @@ Add to context help when available
 1. 根据需要使用可视化设计工具来更新表单内容：
 
    <!--
-
    * [Add fields](./form-design.md#add-field)
    * [Change field styling](./form-design.md#field-styling)
    * [Reorder fields](./form-design.md#field-reorder)
    * [Change submit button text and styling](./form-design.md#submit-button)
    * [Change the form styling](./form-design.md#form-styling)
-
    -->
 
    单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回表单详细信息。
@@ -310,13 +299,11 @@ Add to context help when available
 1. 单击右侧&#x200B;_[!UICONTROL 摘要]_&#x200B;窗格中的&#x200B;**[!UICONTROL 编辑表单]**，并根据需要使用可视化设计工具：
 
    <!--
-
    * [Add fields](./form-design.md#add-field)
    * [Change field styling](./form-design.md#field-styling)
    * [Reorder fields](./form-design.md#field-reorder)
    * [Change submit button text and styling](./form-design.md#submit-button)
    * [Change the form styling](./form-design.md#form-styling)
-
    -->
 
    单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回表单详细信息。
