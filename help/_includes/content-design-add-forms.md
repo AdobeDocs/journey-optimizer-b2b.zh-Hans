@@ -1,7 +1,7 @@
 ---
 title: 内容创作 — 添加表单
 description: 有关在登陆页面和模板中添加表单的重复使用部分
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+source-git-commit: 1b0738b00d493529e2619ecec201d59c6ae8a8f6
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
      >
      >如果要使用表单下载文件，您可以为托管文件指定URL。 对于此配置，“提交”按钮可用作下载按钮。
 
-   ![更改跟进设置](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
+     ![更改跟进设置](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
 
 1. 如果要按设备类型限制表单显示，请更改&#x200B;**[!UICONTROL 显示选项]**&#x200B;设置：
 
