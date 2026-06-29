@@ -19,16 +19,16 @@ role_v2:
 source-git-commit: 205013add5060318d46a2b048bb347003c167470
 workflow-type: tm+mt
 source-wordcount: 1015
-ht-degree: 8%
+ht-degree: 12%
 
 ---
 
-# Personalization编辑器
+# 个性化编辑器
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_personalization_editor"
 >title="关于个性化编辑器"
->abstract="个性化编辑器允许您选择、排列、自定义和验证配置文件属性以创建个性化内容。"
+>abstract="个性化编辑器让您可以选择、排列、自定义和验证轮廓属性，创建个性化内容。"
 
 个性化编辑器是[!DNL Journey Optimizer B2B Prime]中个性化的核心。 您可以随时随地使用这些动态内容 — 在电子邮件、WhatsApp消息、登陆页面和URL字段中。
 
@@ -81,7 +81,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_perso_editor_autocomplete"
 >title="自动完成"
->abstract="切换该选项可让系统在您键入时自动建议并完成代码。 此功能仅适用于HTML和文本格式，并且支持配置文件属性。 如果通过切换禁用，编辑器将提供原生 HTML 代码自动完成。"
+>abstract="切换该选项可让系统在您键入时自动建议并完成代码。 此功能仅适用于 HTML 和文本格式，支持轮廓属性。 如果通过切换禁用，编辑器将提供原生 HTML 代码自动完成。"
 
 中央工作区是您构建个性化语法的位置。 若要使用属性来个性化您的消息，请将其定位到左侧导航窗格中，然后单击`+`按钮以将其添加到表达式中。
 
@@ -109,7 +109,7 @@ ht-degree: 8%
 
 1. **[!UICONTROL 查找]** / **[!UICONTROL 查找并替换]**：搜索表达式并自动替换部分代码。
 1. **[!UICONTROL 撤消]** / **[!UICONTROL 重做]**：撤消/重做上一个操作。
-1. **[!UICONTROL 自动完成]**：在您键入时自动建议并完成代码。 此功能仅适用于HTML和文本格式，并且支持配置文件属性。 如果通过切换禁用，编辑器将提供原生 HTML 代码自动完成。
+1. **[!UICONTROL 自动完成]**：在您键入时自动建议并完成代码。 此功能仅适用于 HTML 和文本格式，支持轮廓属性。 如果通过切换禁用，编辑器将提供原生 HTML 代码自动完成。
 
    <!-- ![](assets/perso-complete.png){width="70%" align="center" zoomable="yes"} -->
 
