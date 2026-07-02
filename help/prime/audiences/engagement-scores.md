@@ -19,16 +19,16 @@ role_v2:
 source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 1548
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
-# 人员参与度分数 {#engagement-scores}
+# 人员参与度评分 {#engagement-scores}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_person_engagement_score"
->title="人员参与度分数"
->abstract="人员参与度分数反映个人商机的参与度级别，具体取决于他们最近的活动。"
+>title="人员参与度评分"
+>abstract="人员参与度评分根据个体销售线索近期的活动情况，反映其参与程度。"
 
 人员参与度得分是一个数字，它反映单个商机的参与度级别。 得分基于人员执行的活动，每种活动类型都带有一个加权值。 分数在您的实例（租户）中进行标准化，以启用一致的比较，并允许切实可行的分析。
 
