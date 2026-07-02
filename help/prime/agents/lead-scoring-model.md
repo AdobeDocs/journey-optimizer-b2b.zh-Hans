@@ -4,20 +4,14 @@ description: 使用AI Assistant聊天界面中的评分工作室技能，在Jour
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 autotag-review: '2026-06-25T21:20:26.754Z'
 TQID: 'https://experienceleague.adobe.com/-D5EaJ-3GQ5iwaE6hChscZGEdflKmZ3tdp6VUNuPjWk'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ff10f619-348f-47e3-99bf-3ce4c817cf2cid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: d8f352c636ebd8980614922099701de8f755e8e4
 workflow-type: tm+mt
 source-wordcount: 489
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -26,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_scoring_studio"
 >title="Scoring Studio"
->abstract="使用Scoring Studio技能，通过AI Assistant聊天界面创建、配置和发布自定义潜在客户评分模型。"
+>abstract="使用 Scoring Studio 技能，通过 AI 助手聊天界面创建、配置并发布自定义销售线索评分模型。"
 
 [!DNL Adobe Journey Optimizer B2B Prime]中的&#x200B;[_Scoring Studio_&#x200B;技能](./skills.md#scoring-signals)提供了AI本机潜在客户评分解决方案，允许您创建、配置和发布潜在客户评分模型。 工作室将代理驱动的工作流与可视化UI相结合 — 您可以通过[AI Assistant聊天界面](./chat-interface.md)中的自然语言提示或直接与UI控件交互来构建评分模型。
 
