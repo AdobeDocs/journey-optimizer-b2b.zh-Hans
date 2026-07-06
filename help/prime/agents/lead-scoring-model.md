@@ -14,7 +14,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d8f352c636ebd8980614922099701de8f755e8e4
+source-git-commit: 95f506e5ec59996bf4af53151cd0553d23b19082
 workflow-type: tm+mt
 source-wordcount: 489
 ht-degree: 7%
@@ -61,11 +61,11 @@ ht-degree: 7%
 * **活动或属性** — 要评分的特定项目
 * **信号参数** — 信号的可调整设置
 
-您可以使用自然语言完全通过代理构建和配置模型，或直接与UI控件交互。
+您可以使用自然语言完全通过AI Assistant构建和配置模型，或直接与UI控件交互。
 
 ## 发布评分模型 {#publish-model}
 
-模型完成后，指示代理进行发布。 发布过程会自动处理以下内容：
+模型完成后，指示AI Assistant发布模型。 发布过程会自动处理以下内容：
 
 | 步骤 | 发生什么情况 |
 |---|---|
