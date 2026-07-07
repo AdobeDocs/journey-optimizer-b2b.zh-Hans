@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 73acecac0a17215eec885108521e86225ca54d49
+source-git-commit: 0006aa457b010f30226ac9b0fd8d7c52fd9187e9
 workflow-type: tm+mt
 source-wordcount: 1632
 ht-degree: 10%
@@ -63,13 +63,13 @@ ht-degree: 10%
 
 * 您可以在多个历程中引用体验事件，或在同一历程中多次使用它。
 
+>[!NOTE]
+>
+>为&#x200B;_[!UICONTROL Standard]_、_[!UICONTROL Relational]_&#x200B;或&#x200B;_[!UICONTROL Events]_&#x200B;选择XDM字段时，仅支持基本数据类型（字符串、整数、双精度浮点数和布尔值）。 不允许使用数组和对象。
+
 >[!ENDSHADEBOX]
 
 ## 管理体验事件 {#manage-experience-events}
-
->[!NOTE]
->
->为&#x200B;_[!UICONTROL Standard]_、[!UICONTROL Relational]或[!UICONTROL Events]选择XDM字段时，仅支持基本数据类型（字符串、整数、双精度浮点数和布尔值）。 不允许使用数组和对象。
 
 1. 在左侧导航中，选择&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 配置]**。
 
