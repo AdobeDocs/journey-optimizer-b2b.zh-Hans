@@ -19,16 +19,16 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: 73acecac0a17215eec885108521e86225ca54d49
 workflow-type: tm+mt
-source-wordcount: 1603
-ht-degree: 11%
+source-wordcount: 1632
+ht-degree: 10%
 
 ---
 
 # 选择体验事件和字段
 
-管理员可以在Experience Event合并架构中选择特定的[AEP Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其关联字段。 选择后，用户可以配置决策规则以侦听这些Experience事件，以基于近乎实时的事件数据启用动态和针对性的营销活动操作。
+管理员可以在Experience Event合并架构中选择特定的Adobe Experience Platform (AEP) [Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其相关字段。 选择后，用户可以配置决策规则以侦听这些Experience事件，以基于近乎实时的事件数据启用动态和针对性的营销活动操作。
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
@@ -36,7 +36,7 @@ ht-degree: 11%
 >
 >在Journey Optimizer B2B edition中使用Experience Events和字段需要启用配置文件的Experience Event架构。 有关详细信息，请参阅Experience Platform教程中的[启用实时客户个人资料](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}。
 
-在历程中使用AEP体验事件包括两个步骤：
+在历程中使用AEP Experience事件包括两个步骤：
 
 1. 管理员[在AEP B2B edition配置中添加了Journey Optimizer Experience事件和字段](#add-an-event)。
 
@@ -66,6 +66,10 @@ ht-degree: 11%
 >[!ENDSHADEBOX]
 
 ## 管理体验事件 {#manage-experience-events}
+
+>[!NOTE]
+>
+>为&#x200B;_[!UICONTROL Standard]_、[!UICONTROL Relational]或[!UICONTROL Events]选择XDM字段时，仅支持基本数据类型（字符串、整数、双精度浮点数和布尔值）。 不允许使用数组和对象。
 
 1. 在左侧导航中，选择&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 配置]**。
 
