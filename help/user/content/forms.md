@@ -18,7 +18,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: aee98a6556736490878bac00607952fa0f3b0480
+source-git-commit: a046883f6f4170f40c01734e1a3f473e9f5bef4c
 workflow-type: tm+mt
 source-wordcount: 2504
 ht-degree: 2%
@@ -329,3 +329,4 @@ Forms设计为可重复使用，可在您设计[登陆页面](./landing-page-des
 在登陆页面设计空间中选择表单时，可以从右侧的上下文工具栏和属性面板中执行这些操作。
 
 ![将操作应用于所选表单](./assets/form-actions-page-authoring.png){width="600" zoomable="yes"}
+
