@@ -1,6 +1,7 @@
 ---
 title: 登陆页面
 description: 在Journey Optimizer B2B Prime中创建、设计和发布人员历程的登陆页面 — 从头开始构建、导入HTML、添加表单、个性化内容以及通过电子邮件进行链接。
+badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 autotag-review: '2026-06-12T22:53:39.337Z'
 TQID: 'https://experienceleague.adobe.com/BvtB0i5CzlVutPA6HAzZy-Gfymw7ppZwthyBauyciLc'
 product_v2:
@@ -13,16 +14,16 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
 workflow-type: tm+mt
-source-wordcount: 2164
-ht-degree: 7%
+source-wordcount: 1599
+ht-degree: 3%
 
 ---
 
 # 登陆页面
 
-登陆页面是一个独立的网页，您可以在联系人和客户单击电子邮件、短信消息或任何数字位置中的链接项目后指引他们。 您可以将这些页面合并到您的历程中，以使潜在客户和客户在Web上查看您的消息并在您的历程中前进。 您可以在登陆页面可视设计空间中创建、个性化和预览登陆页面。
+登陆页面是一个独立的网页，您可以在联系人和客户单击电子邮件、短信消息或任何数字位置中的链接项目后指引他们。 您可以将这些页面合并到您的历程中，以使潜在客户和客户在Web上查看您的消息并在您的历程中前进。
 
 登陆页面的常见用例：
 
@@ -32,26 +33,23 @@ ht-degree: 7%
 * 将人员引导至为您的历程编排设计的特定于促销活动的信息。
 * 将用户重定向到专用Web窗体，而无需在[!DNL Journey Optimizer B2B Prime]外部构建外部页面。
 
-<!-- 
-## Landing page workflow
+## 登陆页面工作流程 {#workflow}
 
-To direct members of a journey audience to a defined web page when they click a specific link, create a landing page in [!DNL Journey Optimizer B2B Prime]: 
+要在历程受众的成员单击特定链接时将他们定向到定义的网页，请在[!DNL Journey Optimizer B2B Prime]中创建登陆页面：
 
+1. [创建页面](./landing-pages-create-publish.md#create-landing-page) — 选择预设，设置主页面，然后添加任何所需的子页面。
+1. [设计登陆页面内容](./landing-page-design.md) — 使用拖放可视化设计组件构建页面内容。
+1. [测试登陆页面](./landing-pages-create-publish.md#test-landing-page) — 预览该页面并测试表单行为。
+1. [发布登陆页面](./landing-pages-create-publish.md#publish-landing-page) — 发布以使该页面处于活动状态并可用于链接。
+1. [从您的历程链接到页面](#link-to-landing-page) — 将登陆页面URL添加到电子邮件、短信或历程操作，以便收件人可以访问该页面。
 
-1. [Create the page](./landing-pages-create-publish.md) - Select a preset, set up the primary page, and add any required subpages.
-1. [Design the landing page content](./landing-page-design.md) - Build the page content using drag-and-drop visual design components.
-1. [Test the landing page](./landing-pages-create.md) - Preview the page, test form behavior, and then publish to make it live.
-1. [Link to the page from your journey](#link-to-a-landing-page) - Add the landing page URL to an email, SMS, or journey action so that recipients can reach it.
-
-
-For example, you can create and design landing pages to direct your users to online information. The page could include a form where they can opt in or opt out from receiving your communications. Or it could be an opportunity to subscribe to a recurring communications, such as a newsletter. 
-
-You can create, personalize, and preview landing pages in the visual design space.
--->
+例如，您可以创建和设计登陆页面，以将用户定向到在线信息。 该页面可能包括一个表单，用户可以在其中选择加入或选择退出接收您的通信。 或者，它可能是订阅定期通信（如新闻稿）的机会。
 
 ## 访问和管理登陆页面 {#access-manage-landing-pages}
 
 要在[!DNL Journey Optimizer B2B Prime]中访问登陆页面，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 登陆页面]**。 此操作显示实例中创建的所有登陆页面的列表。
+
+![访问登陆页面库](./assets/landing-pages-list.png){width="800" zoomable="yes"}
 
 该列表按&#x200B;_[!UICONTROL 修改时间]_&#x200B;列排序，最近更新的项目位于顶部。 单击列标题可在升序和降序之间更改。
 
@@ -81,131 +79,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 | 发布日期 | 当您发布登陆页面时，该页面托管在[!DNL Journey Optimizer B2B Prime]实例上，可供在电子邮件或短信消息内容中进行链接。 可用操作： <br/><ul><li>编辑名称或描述</li><li>编辑链接URL</li><li>在电子邮件或短信消息内容中添加链接</li><li>创建草稿版本</li><li>重复</li><li>删除</li></ul> |
 | 以草稿发布 | 从已发布的登陆页面创建草稿时，已发布的版本会保留，并且草稿内容可以在可视设计空间中修改。 如果您发布草稿版本，则该草稿版本会替换当前已发布的版本，并且托管页面中的内容会更新。 可用操作： <br/><ul><li>编辑名称或描述</li><li>编辑链接URL</li><li>在电子邮件或短信消息内容中添加链接</li><li>在可视设计空间中编辑草稿版本</li><li>发布草稿版本</li><li>重复</li><li>删除（删除两个版本）</li><li>放弃草稿（返回到已发布状态）</li></ul> |
 
-<!-- ![Landing page status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"} -->
-
-## 创建登陆页面 {#create-landing-page}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b-prime_lp_create"
->title="定义和配置您的登陆页面"
->abstract="要创建登陆页面，您需要选择一个预设，然后配置主要页面和子页面，最后在发布之前测试您的页面。"
-
-要在人员历程受众成员单击特定链接时将其引导至定义的网页，请在[!DNL Journey Optimizer B2B Prime]中创建登陆页面。 选择预设，配置主页面和任何子页面，[测试页面](#test-landing-page)，然后发布它。
-
->[!IMPORTANT]
->
->在创建第一个登陆页面之前，请完成登陆页面设置。 这包括配置子域以托管登陆页面，并定义至少一个指定子域和其他渠道设置的预设。 在创建登陆页面时选择预设。 有关管理员设置，请参阅[登陆页面配置](../admin/configuration-presets-landing-pages.md)。
->
->对于数据捕获用例，请先创建一个[表单](./forms.md)，然后再将其嵌入到登陆页面上。
-
-要创建登陆页面，请执行以下步骤：
-
-1. 转到左侧导航并选择&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 登陆页面]**。
-
-1. 从登陆页面列表中，单击&#x200B;**[!UICONTROL 创建登陆页面]**。
-
-1. 输入&#x200B;**[!UICONTROL Title]**（必需）和&#x200B;**[!UICONTROL Description]**（可选）。
-
-   标题和描述条件：
-
-   * **标题** — 最多100个字符。 必须唯一（不区分大小写）。
-   * **描述** — 最多300个字符。
-   * 允许使用Alpha、数字和特殊字符。
-   * 保留字符为&#x200B;**_不允许_**： `\ / : * ? " < > |`
-
-1. 选择&#x200B;**[!UICONTROL 预设]**。
-
-   管理员[创建登陆页面预设](../admin/configuration-presets-landing-pages.md#lp-presets)以定义用于登陆页面的子域和其他设置。 选择一个预设，然后单击&#x200B;**[!UICONTROL 查看预设]**&#x200B;以查看其设置并确认它们符合您的登陆页面要求。
-
-1. 单击&#x200B;**[!UICONTROL 创建]**。
-
-   将显示主页面及其属性。 了解如何[配置主页面设置](#configure-primary-page)。
-
-1. 要添加子页面（例如，感谢页面或错误页面），请单击&#x200B;**+**&#x200B;图标。
-
-   每个登陆页面最多可添加两个子页面。
-
-配置和设计主页面和任何子页面后，请在发布登陆页面[&#128279;](#test-landing-page)之前对其进行测试。
-
->[!CAUTION]
->
->您不能通过复制定义的URL并将其粘贴到Web浏览器中来访问登陆页面，即使该页面已发布也是如此。 使用预览功能测试页面，如[测试登陆页面](#test-landing-page)中所述。
-
-## 配置主要页面 {#configure-primary-page}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b-prime_lp_primary_page"
->title="定义主要页面设置"
->abstract="定义主页面。当收件人点击登陆页面链接（例如来自电子邮件或网站的链接）时，将立即显示该页面。"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b-prime_lp_access_settings"
->title="定义登陆页面 URL"
->abstract="在此部分中，定义一个唯一的登陆页面 URL。 URL 的第一部分需要您以前设置的登陆页面子域，这应该包含在您选择的预设中。"
-
-主页面是收件人单击登陆页面链接（如通过电子邮件或网站）时立即显示的页面。
-
-要定义主页面设置，请执行以下步骤：
-
-1. 根据需要更改&#x200B;**[!UICONTROL 页面名称]**，默认情况下为&#x200B;_主页面_。
-
-1. 定义页面URL的结束部分。
-
-   您选择的预设决定URL的第一部分。 管理员将[登陆页面子域](../admin/configuration-presets-landing-pages.md#lp-subdomains)配置为预设的一部分。
-
-   >[!CAUTION]
-   >
-   >登陆页面URL必须是唯一的。
-   >
-   >您不能通过复制此URL并将其粘贴到Web浏览器中来访问登陆页面，即使该页面已发布。 使用[测试登陆页面](#test-landing-page)中所述的预览功能对其进行测试。
-
-1. 如果您想要匿名登陆页面，请禁用&#x200B;**[!UICONTROL 需要已识别的用户]**&#x200B;选项。
-
-1. 单击&#x200B;_日历_&#x200B;图标以设置&#x200B;**[!UICONTROL 页面到期]**。
-
-   选择到期日期后，请选择页面到期时的操作：
-
-   * **[!UICONTROL 重定向URL]** — 输入要用作重定向的页面的URL。
-   * **[!UICONTROL 浏览器错误]** — 输入要代替页面显示的错误文本。
-
-## 测试登陆页面 {#test-landing-page}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b-prime_preview_lp_profiles"
->title="预览和测试登陆页面"
->abstract="定义好登陆页面设置和内容后，可使用测试轮廓预览页面。"
-
-定义登陆页面设置和内容后，您可以使用测试用户档案预览页面。 如果插入[个性化内容](email-authoring.md#personalize-content)，则可以使用测试配置文件数据检查此内容在登陆页面中的显示方式。
-
->[!PREREQUISITES]
->
->要预览和测试登陆页面，您必须具有&#x200B;**[!UICONTROL 发布消息]**&#x200B;权限以及包含测试用户档案的已定义数据集。
-
-1. 单击&#x200B;**[!UICONTROL 预览和测试]**&#x200B;以打开测试配置文件选择。
-
-   >[!NOTE]
-   >
-   >当您在可视设计空间时，还可以使用&#x200B;**[!UICONTROL 模拟内容]**。
-
-1. 从&#x200B;_[!UICONTROL 模拟]_&#x200B;屏幕中，选择测试配置文件。
-
-   如果未列出您需要的配置文件，请单击&#x200B;**[!UICONTROL 管理测试配置文件]**&#x200B;以使用已知的测试配置文件电子邮件地址并将其添加到列表。
-
-   +++添加测试轮廓
-
-   对于&#x200B;**[!UICONTROL 身份命名空间]**，请单击&#x200B;_选择_&#x200B;图标（![选择图标](../../user/assets/do-not-localize/icon-select-data.svg)），然后选择要用于测试配置文件的`Email`命名空间。
-
-   在&#x200B;**[!UICONTROL 标识值]**&#x200B;字段中，输入用于标识测试配置文件的电子邮件地址，然后单击&#x200B;**[!UICONTROL 添加配置文件]**。 您可以重复此操作，以添加多个配置文件。
-
-   单击左上方的后退箭头可返回&#x200B;_[!UICONTROL 模拟]_&#x200B;页面。
-
-   +++
-
-1. 选择&#x200B;**[!UICONTROL 打开预览]**&#x200B;以测试您的登陆页面。
-
-   登陆页面预览将在新选项卡中打开。 选定的测试配置文件数据替换个性化元素。
-
-1. 选择其他测试用户档案以预览登陆页面每个变体的渲染。
+![登陆页面状态生命周期](../../user/content/assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 ## 编辑登陆页面 {#edit-landing-page}
 
@@ -225,9 +99,17 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 1. 修改任何详细信息，如名称和描述。
 
-   <!-- ![Details for landing page with Draft status](./assets/landing-page-draft-details.png){width="700" zoomable="yes"} -->
+   ![具有草稿状态的登陆页面的详细信息](../../user/content/assets/landing-page-draft-details.png){width="700" zoomable="yes"}
 
 1. 若要更改可视化设计空间中的内容，请单击&#x200B;**[!UICONTROL 编辑登陆页面]**。
+
+   根据需要使用可视化设计工具：
+
+   * [添加结构和内容](./landing-page-design.md#structure-content-landing-page)
+   * [添加资源](./landing-page-design.md#add-assets)
+   * [导航图层、设置和样式](./landing-page-design.md#navigate-layers-settings-styles)
+   * [个性化内容](./landing-page-design.md#personalize-content)
+   * [编辑链接的URL跟踪](./landing-page-design.md#linked-url-tracking)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**，或单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回登陆页面的详细信息。
 
@@ -247,6 +129,14 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
    在对话框中单击&#x200B;**[!UICONTROL 创建草稿版本]**&#x200B;以在可视设计空间中打开草稿版本。
 
+   根据需要使用可视化设计工具：
+
+   * [添加结构和内容](./landing-page-design.md#structure-content-landing-page)
+   * [添加资源](./landing-page-design.md#add-assets)
+   * [导航图层、设置和样式](./landing-page-design.md#navigate-layers-settings-styles)
+   * [个性化内容](./landing-page-design.md#personalize-content)
+   * [编辑链接的URL跟踪](./landing-page-design.md#linked-url-tracking)
+
 1. 单击&#x200B;**[!UICONTROL 保存]**，或单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回登陆页面的详细信息。
 
 1. 当草稿登陆页面符合您的条件并且您希望在已发布的页面上提供更改时，单击&#x200B;**[!UICONTROL 发布]**。
@@ -257,11 +147,17 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 打开登陆页面时，将显示草稿版本。 预览空间顶部的选项卡允许您在已发布版本和草稿版本之间切换显示。 草稿操作和详细信息将显示在右侧。
 
-<!-- ![Preview and details for the landing page draft version](./assets/landing-page-published-draft-details.png){width="700" zoomable="yes"} -->
+![登陆页面草稿版本](../../user/content/assets/landing-page-published-draft-details.png){width="700" zoomable="yes"}的预览和详细信息
 
-要更新内容，请执行以下操作：
+更新内容(_T):_
 
-1. 单击右上方的&#x200B;**[!UICONTROL 编辑登陆页面]**。
+1. 单击右上方的&#x200B;**[!UICONTROL 编辑登陆页面]**。 根据需要使用可视化设计工具：
+
+   * [添加结构和内容](./landing-page-design.md#structure-content-landing-page)
+   * [添加资源](./landing-page-design.md#add-assets)
+   * [导航图层、设置和样式](./landing-page-design.md#navigate-layers-settings-styles)
+   * [个性化内容](./landing-page-design.md#personalize-content)
+   * [编辑链接的URL跟踪](./landing-page-design.md#linked-url-tracking)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**，或单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以返回登陆页面的详细信息。
 
@@ -278,11 +174,11 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 * 从&#x200B;_[!UICONTROL 登陆页面]_&#x200B;列表页面，单击&#x200B;_更多_&#x200B;图标(**...**) 在登陆页面名称旁边，然后选择&#x200B;**[!UICONTROL 复制]**。
 * 在登陆页面详细信息页面的右上角，单击&#x200B;**[!UICONTROL ...更多]**&#x200B;并选择&#x200B;**[!UICONTROL 复制]**。
 
-<!-- ![Duplicate the landing page](./assets/landing-page-details-duplicate-delete.png){width="600" zoomable="yes"} -->
+![复制登陆页面](../../user/content/assets/landing-page-details-duplicate-delete.png){width="600" zoomable="yes"}
 
 在对话框中，输入有用的名称（唯一）和描述（可选）。 单击&#x200B;**[!UICONTROL 复制]**&#x200B;以完成操作。
 
-<!-- ![Enter a name and description for the duplicated landing page](./assets/landing-page-duplicate-dialog.png){width="350"} -->
+![输入重复的登陆页面的名称和描述](../../user/content/assets/landing-page-duplicate-dialog.png){width="350"}
 
 然后，重复的（新）页面出现在&#x200B;_登陆页面_&#x200B;列表中。
 
@@ -295,7 +191,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 此操作将打开确认对话框。 您可以通过单击&#x200B;**[!UICONTROL 取消]**&#x200B;或单击&#x200B;**[!UICONTROL 删除]**&#x200B;确认删除来中止该进程。
 
-<!-- ![Delete landing page dialog](./assets/landing-page-delete-dialog.png){width="400"} -->
+![删除登陆页面对话框](../../user/content/assets/landing-page-delete-dialog.png){width="400"}
 
 ## 链接到登陆页面 {#link-to-landing-page}
 
@@ -307,13 +203,13 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 1. 对于&#x200B;**[!UICONTROL Type]**&#x200B;选项，请选择&#x200B;**[!UICONTROL 登陆页面]**。
 
-   <!-- ![Link options for a landing page](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"} -->
+   登陆页面的![链接选项](../../assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"}
 
 1. 对于&#x200B;**[!UICONTROL 登陆页面]**&#x200B;选项，请单击&#x200B;_选择页面_&#x200B;图标（![显示链接图标](../../user/assets/do-not-localize/icon-landing-page-select.svg)）。
 
 1. 在“选择登陆页面”对话框中，将&#x200B;**[!UICONTROL 登陆页面源]**&#x200B;设置为&#x200B;**[!UICONTROL Journey Optimizer B2B edition]**，从已发布的页面列表中选中该登陆页面的复选框，然后单击&#x200B;**[!UICONTROL 选择]**。
 
-   <!-- ![Link options for a landing page](/help/assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"} -->
+   登陆页面的![链接选项](../../assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
 
 1. 对于&#x200B;**[!UICONTROL Target]**&#x200B;选项，请选择链接目标行为：
 
