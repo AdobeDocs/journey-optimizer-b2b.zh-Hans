@@ -1,7 +1,7 @@
 ---
 title: 内容创作 — 添加表单
 description: 有关在登陆页面和模板中添加表单的重复使用部分
-source-git-commit: ce91efe52071d580a13c0811954ed33d77fa2bd4
+source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >要添加表单，使其占据电子邮件中的整个水平布局，请添加1:1列结构，然后将表单拖放到其中。
+   >要添加表单以使其占据页面内的整个水平布局，请添加1:1列结构，然后将表单拖放到其中。
 
 1. 单击组件工具栏中的&#x200B;_表单_&#x200B;图标，或使用右侧的&#x200B;**[!UICONTROL 嵌入表单]**&#x200B;属性选择发布的表单。
 
