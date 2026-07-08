@@ -16,7 +16,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
+source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
 workflow-type: tm+mt
 source-wordcount: 1548
 ht-degree: 8%
@@ -222,3 +222,4 @@ _[!UICONTROL 人员参与度分数]_&#x200B;筛选器显示在&#x200B;**[!UICONT
 1. 单击右上方的&#x200B;**[!UICONTROL 激活]**。
 
 1. 在对话框中确认。
+
