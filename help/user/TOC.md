@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文档
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition 以及如何使用它通过内置的生成式 AI 和行业领先的自动化来编排帐户及购买群组历程。
-source-git-commit: dc6942ca34b730ce4104e588ec198ce7a4ec7cea
+source-git-commit: 884e430e7dadd400a132ec261b146ebbb27f0909
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 87%
+source-wordcount: '451'
+ht-degree: 86%
 
 ---
 
@@ -65,6 +65,7 @@ ht-degree: 87%
       + [受监管的模板](./content/email-authoring-governance.md)
       + [销售警报电子邮件](./content/sales-alert-email.md)
       + [电子邮件重复数据删除](./content/email-deduplication.md)
+      + {hide-from-toc}[电子邮件跟踪](./content/email-tracking-manage.md)
    + Web渠道(Beta) {#web-channel}
       + [概述](./content/web-experiences.md)
       + [Web体验设计](./content/web-experience-design.md)
