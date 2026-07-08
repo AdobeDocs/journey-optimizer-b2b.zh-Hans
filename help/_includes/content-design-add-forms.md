@@ -1,18 +1,18 @@
 ---
 title: 内容创作 — 添加表单
 description: 有关在登陆页面和模板中添加表单的重复使用部分
-source-git-commit: 1b0738b00d493529e2619ecec201d59c6ae8a8f6
+source-git-commit: ce91efe52071d580a13c0811954ed33d77fa2bd4
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
 
 # 内容创作 — 添加表单
 
-表单是可重复使用的组件，可由Adobe Journey Optimizer B2B edition中的多个登陆页面和登陆页面模板引用。 它是一个字段块和提交按钮，可以预先创建并快速插入该按钮，以使页面设计更快更一致。
+表单是可重复使用的组件，可由多个登陆页面和登陆页面模板引用。 它是一个字段块和提交按钮，可以预先创建并快速插入该按钮，以使页面设计更快更一致。
 
-以下示例概述了在设计页面时添加表单的步骤。
+以下示例概述了在设计登陆页面时添加表单的步骤。
 
 1. 在&#x200B;**[!UICONTROL 内容]**&#x200B;部分下，将&#x200B;**[!UICONTROL 表单]**&#x200B;项拖放到页面设计空间上的某个结构组件中。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    * **[!UICONTROL 停留在页面]** — 选择此选项可在提交表单时将访客停留在同一页面。
 
-   * **[!UICONTROL 登陆页面]** — 选择此选项可选择任意Journey Optimizer B2B edition或Marketo Engage登陆页面作为跟进。
+   * **[!UICONTROL 登陆页面]** — 选择此选项可选择任何其他登陆页面作为跟进。
 
    * **[!UICONTROL 外部URL]** — 选择此选项可将任何URL指定为后续页面。 访客提交表单后，浏览器会加载指定的URL。
 

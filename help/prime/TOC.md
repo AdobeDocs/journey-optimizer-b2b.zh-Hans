@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Prime文档
 user-guide-description: 了解Adobe Journey Optimizer B2B Prime以及如何将其用于？
 hide: true
-source-git-commit: 7ad94f63f181d3e51c00c9629f3b2347c0eba04f
+source-git-commit: ce91efe52071d580a13c0811954ed33d77fa2bd4
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 45%
+source-wordcount: '160'
+ht-degree: 50%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 45%
 + 受众 {#audiences}
    + [人员列表](./audiences/people-lists.md)
    + [基于事件的受众](./audiences/event-based-audiences.md)
-   + [人员参与度分数](./audiences/engagement-scores.md)
+   + [人员参与度评分](./audiences/engagement-scores.md)
    + [派生角色](./audiences/personas.md)
    + [目标](./audiences/destinations.md)
 + 内容 {#content}
@@ -58,7 +58,9 @@ ht-degree: 45%
       + [创建模板](./content/templates-create.md)
       + [内容监管](./content/template-content-governance.md)
    + [登陆页面](./content/landing-pages.md)
-   + [表单](./content/forms.md)
+   + 表单 {#forms}
+      + [概述](./content/forms.md)
+      + [表单设计](./content/form-design.md)
    + [个性化](./content/personalization-expressions.md)
    + 内容设计工具 {#content-design}
       + [结构组件](./content/structure-components.md)

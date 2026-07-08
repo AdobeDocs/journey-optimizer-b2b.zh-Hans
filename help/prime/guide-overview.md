@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 64ff7b95a5d96376be096ba4d957fdb8020d4e7e
+source-git-commit: 966789b4ea702ab057da6dec419f6128b1d0c093
 workflow-type: tm+mt
 source-wordcount: 436
 ht-degree: 5%
@@ -29,11 +29,11 @@ ht-degree: 5%
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
-  <td valign="top"><a href="/help/prime/setup-prime.md"><img src="https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans"  alt="设置核对清单"></a> </td>
-  <td valign="top"><a href="/help/prime/home-insights/home-page.md"><img src="https://cdn.experienceleague.adobe.com/icons/home.svg?lang=zh-Hans"  alt="主页"></a> </td>
-  <td valign="top"><a href="/help/prime/agents/chat-interface.md"><img src="https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=zh-Hans"  alt="AI Assistant聊天界面"></a> </td>
-  <td valign="top"><a href="/help/prime/marketing/marketing-management.md"><img src="https://cdn.experienceleague.adobe.com/icons/users-gear.svg?lang=zh-Hans"  alt="营销活动中心"></a> </td>
-  <td valign="top"><a href="/help/prime/content/digital-asset-management.md"><img src="https://cdn.experienceleague.adobe.com/icons/images.svg?lang=zh-Hans"  alt="数字资产管理"></a> </td>
+  <td valign="top"><a href="/help/prime/setup-prime.md"><img src="../assets/do-not-localize/setup-teal.svg"  alt="设置核对清单"></a> </td>
+  <td valign="top"><a href="/help/prime/home-insights/home-page.md"><img src="../assets/do-not-localize/home-page-teal.svg"  alt="主页"></a> </td>
+  <td valign="top"><a href="/help/prime/agents/chat-interface.md"><img src="../assets/do-not-localize/ai-assistant-teal.svg"  alt="AI Assistant聊天界面"></a> </td>
+  <td valign="top"><a href="/help/prime/marketing/marketing-management.md"><img src="../assets/do-not-localize/marketing-hub-teal.svg"  alt="营销活动中心"></a> </td>
+  <td valign="top"><a href="/help/prime/content/digital-asset-management.md"><img src="../assets/do-not-localize/asset-management-teal.svg"  alt="数字资产管理"></a> </td>
   <tr style="border: 0;">
     <td valign="top">
     <div><strong>设置</strong><br/><br/>完成初始设置和配置，以便您的营销团队可以开始工作。</div>
