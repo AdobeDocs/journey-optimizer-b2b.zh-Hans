@@ -7,32 +7,31 @@ role: User
 level: Beginner, Intermediate
 autotag-review: '2026-07-08T00:02:50.497Z'
 TQID: 'https://experienceleague.adobe.com/LIutoajlpVQTeJP2y4i0Wv7H-WqGj-c-LVsOGfin384'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 884e430e7dadd400a132ec261b146ebbb27f0909
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
 workflow-type: tm+mt
-source-wordcount: 712
+source-wordcount: 860
 ht-degree: 0%
 
 ---
 
 # 管理电子邮件打开跟踪
 
-贵组织负责根据适用的管辖区指导和法律确定自己的合规义务，但您可以使用以下[!DNL Journey Optimizer B2B Edition]功能来支持您的合规工作。
-
 您可以禁用单个电子邮件的打开跟踪，或在Adobe Experience Platform中捕获每个人的跟踪偏好设置，并使用拆分路径将人们路由到跟踪和非跟踪电子邮件变体。
+
+>[!BEGINSHADEBOX “关于电子邮件跟踪像素的CNIL指南”]
+
+2026年4月14日，全国信息和自由委员会&#x200B;*(CNIL)发布了关于在电子邮件中使用跟踪像素的[建议](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf)。*&#x200B;该指南阐明何时需要获得同意，并强调针对电子邮件像素跟踪的适当同意实践的重要性。 此策略可能会影响向位于法国的订阅者发送电子邮件的任何实体的发送实践。
+
+电子邮件跟踪像素是嵌入到电子邮件HTML中的1x1透明图像。 收件人的电子邮件客户端加载该图像时，像素会向服务器发出ping信号，该信号记录时间戳、设备类型、电子邮件客户端等数据，有时还会记录IP地址以大致了解位置。 然后，该日志将绑定到收件人的记录，从而让营销人员知道电子邮件是否已打开。
+
+此处描述的[!UICONTROL Journey Optimizer B2B edition]产品功能是构建块，经过适当配置和操作后，这些构建块可能支持合规的实施。 每位客户均须负责决定及履行其于适用法律下之责任。
+
+>[!ENDSHADEBOX]
 
 ## 禁用对单个电子邮件的跟踪 {#disable-tracking-single-email}
 
@@ -98,7 +97,7 @@ ht-degree: 0%
 
 ### 配置跟踪和非跟踪电子邮件变体 {#configure-tracking-and-non-tracking-email-variants}
 
-向每个路径添加一个[_[!UICONTROL 发送电子邮件&#x200B;]_&#x200B;操作节点](./add-email.md)，以便每个人接收与其跟踪首选项匹配的电子邮件变体。
+向每个路径添加一个[_[!UICONTROL 发送电子邮件&#x200B;]_操作节点](./add-email.md)，以便每个人接收与其跟踪首选项匹配的电子邮件变体。
 
 1. 在启用跟踪的路径上，添加&#x200B;**[!UICONTROL 发送电子邮件]**&#x200B;操作，然后照常选择或创建电子邮件，在电子邮件属性中清除&#x200B;**[!UICONTROL 禁用打开跟踪]**。
 
