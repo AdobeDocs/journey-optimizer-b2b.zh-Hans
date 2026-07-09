@@ -15,10 +15,10 @@ subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
+source-git-commit: 0f264f00c8018324abf1d409ddc381c6dcc9c08a
 workflow-type: tm+mt
-source-wordcount: 228
-ht-degree: 11%
+source-wordcount: 261
+ht-degree: 10%
 
 ---
 
@@ -51,6 +51,16 @@ ht-degree: 11%
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="任务的复选框"/></td>
 <td>在Admin Console中添加用户群组</td>
 <td><a href="./user-management.md#add-user-group">添加用户群组</a></td>
+</tr>
+<tr>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="任务的复选框"/></td>
+<td>将产品配置文件分配给Admin Console中的用户组</td>
+<td><a href="./user-management.md#assign-profile">分配产品配置文件</a></td>
+</tr>
+<tr>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="任务的复选框"/></td>
+<td>在Admin Console中将用户添加到用户组</td>
+<td><a href="./user-management.md#add-users">添加用户</a></td>
 </tr>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="任务的复选框"/></td>

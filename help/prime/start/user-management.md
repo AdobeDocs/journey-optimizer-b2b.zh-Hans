@@ -1,6 +1,6 @@
 ---
 title: 用户访问和权限
-description: 在Adobe Admin Console中管理用户访问权限：为Journey Optimizer B2B edition Prime创建用户组、分配产品配置文件和设置基于角色的权限。
+description: 在Adobe Admin Console中管理用户访问权限：为Journey Optimizer B2B Prime创建用户组、分配产品配置文件并设置基于角色的权限。
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 autotag-review: '2026-06-22T20:31:37.404Z'
 TQID: 'https://experienceleague.adobe.com/Z9U-dtvCzs73d6WhsfFNKAeYL2YgRi1hrwcqnfZj4-k'
@@ -16,20 +16,22 @@ subfeature_v2:
   - id: bd42eee1-e206-4826-91ea-88dc726d858e
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
+source-git-commit: 0f264f00c8018324abf1d409ddc381c6dcc9c08a
 workflow-type: tm+mt
-source-wordcount: 1729
-ht-degree: 70%
+source-wordcount: 1710
+ht-degree: 61%
 
 ---
 
 # 用户访问和权限
 
-完成配置并绑定沙盒后，请完成以下步骤以为您的团队和用户提供对Adobe Journey Optimizer B2B edition的访问权限。
+配置完成并绑定沙盒后，请完成以下步骤为您的团队和用户提供[!DNL Journey Optimizer B2B Prime]访问权限。
 
-1. [在Admin Console中创建Adobe Journey Optimizer B2B edition产品配置文件](#create-profile)（仅限一次性/初始设置）。
+1. [在Admin Console中创建 [!DNL Journey Optimizer B2B Edition] 产品配置文件](#create-profile)（仅限一次性/初始设置）。
 1. 在Admin Console中[添加用户组](#add-user-group)。
-1. [编辑内置角色](#edit-role-permissions)或[在Adobe Experience Platform权限中创建具有Journey Optimizer B2B edition权限的自定义角色](#create-a-custom-role)。
+1. [将产品配置文件](#assign-profile)分配给Admin Console中的用户组。
+1. [在Admin Console中将用户添加到新组](#add-users)。
+1. [编辑内置角色](#edit-role-permissions)或[在Adobe Experience Platform中创建具有[!DNL Journey Optimizer B2B Edition]权限的自定义角色](#create-a-custom-role)。
 1. [将用户](#add-users-to-a-role)或[组](#add-user-groups-to-a-role)添加到Adobe Experience Platform中的角色。
 
 ## 配置产品配置文件 {#config-profile}
@@ -66,17 +68,17 @@ ht-degree: 70%
 
    * 如果&#x200B;**[!UICONTROL 管理员角色]**&#x200B;列中的值显示`System`，则表示您自己（或显示的用户）是系统管理员。
 
-### 创建Adobe Journey Optimizer B2B edition产品配置文件 {#create-profile}
+### 创建[!DNL Journey Optimizer B2B Edition]产品配置文件 {#create-profile}
 
 授予用户访问Adobe解决方案的权限时，您不一定要授予他们完全访问权限。 产品配置文件使每个解决方案都有自己的用户权限集。 使用Admin Console分配产品配置文件。
 
 有关将产品配置文件用于用户权限的详细信息，请参阅Admin Console文档中的&#x200B;[_管理企业用户的产品配置文件_](https://helpx.adobe.com/cn/enterprise/using/manage-product-profiles.html){target="_blank"}。
 
-![管理员角色要求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系统管理员或Adobe Journey Optimizer B2B edition产品管理员可以从[https://adminconsole.adobe.com](https://adminconsole.adobe.com)中执行以下步骤。
+![管理员角色要求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系统管理员或[!DNL Experience Platform]产品管理员可以从[https://adminconsole.adobe.com](https://adminconsole.adobe.com)中执行以下步骤。
 
 1. 选择&#x200B;**[!UICONTROL 产品]**&#x200B;选项卡。
 
-1. 打开要添加配置文件的Adobe Journey Optimizer B2B edition实例，然后单击&#x200B;**[!UICONTROL 新建配置文件]**。
+1. 打开要添加配置文件的[!DNL Journey Optimizer B2B Edition]实例，然后单击&#x200B;**[!UICONTROL 新建配置文件]**。
 
    ![Experience Platform — 用户组的产品配置文件](./assets/admin-console-product-profiles.png){width="600" zoomable="yes"}
 
@@ -98,7 +100,7 @@ ht-degree: 70%
 
 1. 单击右上方的&#x200B;**[!UICONTROL 新建用户组]**。
 
-1. 输入用户组的名称，如&#x200B;_B2B历程用户_，然后单击&#x200B;**[!UICONTROL 保存]**。
+1. 输入用户组的名称，如&#x200B;_B2B用户_，然后单击&#x200B;**[!UICONTROL 保存]**。
 
    ![Admin Console — 添加用户组](./assets/admin-console-new-user-group.png){width="600" zoomable="yes"}
 
@@ -175,7 +177,7 @@ ht-degree: 70%
 
 ### B2B product permissions {#b2b-product-permissions}
 
-The following permissions govern access to Journey Optimizer B2B Edition capabilities:
+The following permissions govern access to [!DNL Journey Optimizer B2B Edition] capabilities:
 
 | Category | Description | Permissions |
 | -------- | ----------- | ---------- |
@@ -190,7 +192,7 @@ The following permissions govern access to Journey Optimizer B2B Edition capabil
 
 ### B2B built-in roles {#b2b-built-in-roles}
 
-When your organization has the Journey Optimizer B2B Edition product provisioned, Experience Platform includes a set of built-in (default) roles that you can use to manage access to the product capabilities:
+When your organization has [!DNL Journey Optimizer B2B Edition] provisioned, Experience Platform includes a set of built-in (default) roles that you can use to manage access to the product capabilities:
 
 | Role | Permissions |
 | ---- | ----------- |
@@ -205,7 +207,9 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 
 对于内置或自定义角色，您可以随时决定添加或删除权限。 如果修改默认或自定义角色，则会影响分配给该角色的每个用户。
 
-在以下示例中，您要为分配给B2B历程管理员角色的用户添加与B2B角色资源相关的权限。 此更改还允许该角色的用户管理帐户历程。
+>[!IMPORTANT]
+>
+>[!DNL Journey Optimizer B2B Prime]访问要求您启用使用以下命名约定配置的特定沙盒： Marketo Engage订阅前缀+ Prime。 例如，如果链接的Marketo Engage订阅前缀为&#x200B;_AcmeAssoc_，则访问[!DNL Journey Optimizer B2B Prime]所需的沙盒为&#x200B;_AcmeAssocPrime_。
 
 >[!NOTE]
 >
@@ -219,17 +223,19 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 
 1. 在详细信息页面中，单击右上方的&#x200B;**[!UICONTROL 编辑]**。
 
-   ![Experience Platform — 编辑角色](../../user/admin/assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
+   ![Experience Platform — 编辑角色](./assets/aep-permissions-role-prime-edit.png){width="800" zoomable="yes"}
 
-   在角色编辑器中，_[!UICONTROL 资源]_&#x200B;菜单显示应用于Experience Cloud - Platform支持的应用程序产品的资源列表。
+   在角色编辑器中，_[!UICONTROL 资源]_&#x200B;菜单显示应用于Experience Cloud - Platform支持的应用程序的资源列表。
 
-   您可以在搜索工具中输入&#x200B;_B2B_&#x200B;以筛选B2B产品权限列表。
+1. 选择为[!DNL Journey Optimizer B2B Prime]访问权限(`<Marketo subscription prefix>Prime`)配置的沙盒。
 
-1. 单击B2B历程资源的&#x200B;_添加_&#x200B;图标(**+**)。
+   ![Experience Platform — 为新角色添加沙盒](./assets/aep-permissions-role-prime-sandbox.png){width="800" zoomable="yes"}
+
+1. 单击每个B2B资源的&#x200B;_添加_&#x200B;图标(**+**)。
 
    ![Experience Platform — 已将B2B历程资源添加到渠道管理员](./assets/aep-permissions-b2b-list.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL B2B历程]_&#x200B;权限卡中，选择&#x200B;**[!UICONTROL 管理B2B帐户历程]**。
+1. 为每个资源添加特定权限，或选择&#x200B;**[!UICONTROL 全部添加]**。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -239,7 +245,7 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 
 ### 将用户添加到角色 {#add-users-to-a-role}
 
-![管理员角色要求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系统管理员或AEP产品管理员可以执行以下步骤。
+![管理员角色要求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系统管理员或Experience Platform管理员可以执行以下步骤。
 
 1. 打开角色详细信息并选择&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡。
 
@@ -247,7 +253,7 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 
 1. 单击&#x200B;**[!UICONTROL 添加用户]**。
 
-   ![Experience Platform — 将用户添加到角色](../../user/admin/assets/aep-permissions-role-add-users.png){width="700" zoomable="yes"}
+   ![Experience Platform — 将用户添加到角色](./assets/aep-permissions-role-prime-add-users.png){width="800" zoomable="yes"}
 
 1. 在&#x200B;_[!UICONTROL 添加用户]_&#x200B;对话框中，找到并选择要添加到该角色的用户。
 
@@ -263,7 +269,7 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 
 有关用户管理的信息，请参阅Admin Console文档中的&#x200B;[_Adobe Admin Console用户_](https://helpx.adobe.com/cn/enterprise/using/users.html){target="_blank"}。
 
-![管理员角色要求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系统管理员或AEP产品管理员可以执行以下步骤。
+![管理员角色要求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系统管理员或Experience Platform管理员可以执行以下步骤。
 
 1. 打开角色详细信息并选择&#x200B;**[!UICONTROL 用户组]**&#x200B;选项卡。
 
@@ -271,7 +277,7 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 
 1. 单击&#x200B;**[!UICONTROL 添加群组]**。
 
-   ![Experience Platform — 将组添加到角色](../../user/admin/assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
+   ![Experience Platform — 将组添加到角色](./assets/aep-permissions-role-prime-add-groups.png){width="800" zoomable="yes"}
 
 1. 在&#x200B;_[!UICONTROL 添加组]_&#x200B;对话框中，找到并选择要添加到该角色的组。
 
@@ -285,7 +291,7 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 
 ### 创建自定义角色 {#create-a-custom-role}
 
-![管理员角色要求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系统管理员或AEP产品管理员可以执行以下步骤。
+![管理员角色要求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系统管理员或Experience Platform管理员可以执行以下步骤。
 
 1. 在左侧导航中选择&#x200B;**[!UICONTROL 角色]**，然后选择&#x200B;**[!UICONTROL 创建角色]**。
 
@@ -293,9 +299,9 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 
 1. 单击&#x200B;**[!UICONTROL 确认]**。
 
-1. 选择您的沙箱。
+1. 选择为[!DNL Journey Optimizer B2B Prime]访问权限(`<Marketo subscription prefix>Prime`)配置的沙盒。
 
-   ![Experience Platform — 为新角色添加沙盒](../../user/admin/assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
+   ![Experience Platform — 为新角色添加沙盒](./assets/aep-permissions-role-prime-sandbox.png){width="800" zoomable="yes"}
 
 1. 添加B2B产品权限：
 
@@ -313,10 +319,8 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 
 1. 单击&#x200B;**[!UICONTROL 添加群组]**。
 
-   ![Experience Platform — 为自定义角色选择用户组](../../user/admin/assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
-
 1. 选中您之前在Admin Console中创建的用户组旁边的复选框。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-您的自定义角色已配置，并且分配组中的用户现在可以访问您选择的Journey Optimizer B2B edition功能。
+您的自定义角色已配置，并且已分配组中的用户现在可以访问您选择的[!DNL Journey Optimizer B2B Prime]权能。
