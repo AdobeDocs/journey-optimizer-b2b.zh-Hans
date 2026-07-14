@@ -14,9 +14,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+source-git-commit: 415cfd2d9bdeee87364fa8935bc8a2a8259174ba
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1601
 ht-degree: 3%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 3%
 
 ## 访问和管理登陆页面 {#access-manage-landing-pages}
 
-要在[!DNL Journey Optimizer B2B Prime]中访问登陆页面，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 登陆页面]**。 此操作显示实例中创建的所有登陆页面的列表。
+要在[!DNL Journey Optimizer B2B Prime]中访问登陆页面，请转到左侧导航并展开&#x200B;**[!UICONTROL 内容管理]**。 然后选择&#x200B;**[!UICONTROL 登陆页面]**。 此操作显示实例中创建的所有登陆页面的列表。
 
 ![访问登陆页面库](./assets/landing-pages-list.png){width="800" zoomable="yes"}
 
