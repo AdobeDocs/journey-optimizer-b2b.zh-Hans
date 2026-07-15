@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Prime文档
 user-guide-description: 了解Adobe Journey Optimizer B2B Prime以及如何将其用于？
 hide: true
-source-git-commit: edb7bf983c8eba432604cf9bffc65e0be1ddee99
+source-git-commit: 9d2d1e90d7576f28f70c2c301c6acb1c294d1fe2
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 54%
+source-wordcount: '177'
+ht-degree: 55%
 
 ---
 
@@ -79,10 +79,10 @@ ht-degree: 54%
       + [WhatsApp渠道配置](./admin/configuration-channels-whatsapp.md)
       + [登陆页面配置](./admin/configuration-presets-landing-pages.md)
       + [表单预设配置](./admin/configuration-presets-forms.md)
+   + [业务规则](./admin/business-rules.md)
    + [程序类型](./admin/program-types.md)
 
 <!--
-   + Business rules admin
    + [Persona mapping](./admin/persona-mapping.md)
 
 + AI Assistant {#ai-assistant}
