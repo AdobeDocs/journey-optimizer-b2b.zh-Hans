@@ -3,7 +3,7 @@ title: 内容创作 — 选择电子邮件模板
 description: 重用有关选择用于内容创作的电子邮件模板的部分
 source-git-commit: 985b0ac83f21e5ec0bf8d49d3d94deb5035789be
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 * **已保存模板**。 使用您使用&#x200B;_[!UICONTROL 模板]_&#x200B;菜单从头创建的已保存自定义模板，或使用&#x200B;_[!UICONTROL 另存为内容模板]_&#x200B;选项从历程中的电子邮件中保存的自定义模板。
 
-使用&#x200B;_[!UICONTROL 选择设计模板]_&#x200B;部分开始从模板构建内容。 您可以使用Journey Optimizer B2B Edition实例中的示例模板或保存的自定义电子邮件模板。
+使用&#x200B;_[!UICONTROL 选择设计模板]_&#x200B;部分开始从模板构建内容。 您可以使用示例模板或从Journey Optimizer B2B edition实例保存的自定义电子邮件模板。
 
 >[!BEGINTABS]
 
@@ -40,8 +40,8 @@ ht-degree: 0%
 
 >[!TAB 示例模板]
 
-Adobe Journey Optimizer B2B Edition提供了一系列&#x200B;_现成的电子邮件模板_，这些模板可用于创建电子邮件和电子邮件模板。
+Adobe Journey Optimizer B2B edition提供了一系列&#x200B;_现成的电子邮件模板_，可用于创建电子邮件和电子邮件模板。
 
-![选择由Adobe提供的模板](../assets/content-design-shared/templates-design-samples.png){width="800" zoomable="yes"}
+![选择Adobe提供的模板](../assets/content-design-shared/templates-design-samples.png){width="800" zoomable="yes"}
 
 >[!ENDTABS]
