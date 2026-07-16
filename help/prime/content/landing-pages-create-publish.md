@@ -6,10 +6,16 @@ feature: Landing Pages, Content Design Tools
 role: User
 autotag-review: '2026-07-08T20:35:24.091Z'
 TQID: 'https://experienceleague.adobe.com/wj4r5EUW-tvZDVa6eZZw-tETc0kkcGZVCGSjxHk-dAs'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 9b286221420c4f8db24ab1d8f2f8ca29828f65e4
 workflow-type: tm+mt
 source-wordcount: 1562
@@ -81,7 +87,7 @@ ht-degree: 11%
 
    每个登陆页面最多可添加两个子页面。
 
-配置并设计主页面和任何子页面后，请在发布登陆页面](#test-landing-page)之前[对其进行测试。
+配置并设计主页面和任何子页面后，请在发布登陆页面[&#128279;](#test-landing-page)之前对其进行测试。
 
 >[!CAUTION]
 >
