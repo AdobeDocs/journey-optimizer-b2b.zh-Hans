@@ -6,20 +6,14 @@ role: User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能属于有限测试版。"
 autotag-review: '2026-06-18T20:11:57.611Z'
 TQID: 'https://experienceleague.adobe.com/Xsl4zqpk4xqXuOS85Z5U08tnbv8GWm3FXdqsegPCBI4'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: c8402946-ff35-44c5-ab98-74c1bba0975fid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 9b286221420c4f8db24ab1d8f2f8ca29828f65e4
 workflow-type: tm+mt
-source-wordcount: 786
-ht-degree: 18%
+source-wordcount: 747
+ht-degree: 19%
 
 ---
 
@@ -29,13 +23,16 @@ ht-degree: 18%
 
 支持的文件格式：JPG、JPEG、GIF、PNG、EPS、SVG 和 RGB
 
+<!--
 >[!NOTE]
 >
->在此Beta版本中，您可以直接从电子邮件画布中的Marketo Engage资源库的一次性副本中选择图像和资源。 在初始副本为&#x200B;**且未在[!DNL Journey Optimizer B2B Prime]中反映**&#x200B;后，在Marketo Engage中修改资源。
->
->您可以从&#x200B;_[!UICONTROL Assets]_&#x200B;库或内容设计空间上传其他图像资源。 这些上传的资产只能在[!DNL Journey Optimizer B2B Prime]实例中使用。
->
->从外部系统导入资源以及访问预填充的资源库尚不可用。 预计未来版本将包括从现有系统导入资产、文件夹支持和扩展的资产管理功能。
+>In this Beta release, you can choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas. Modifying assets in Marketo Engage after the initial copy is **not** reflected in [!DNL Journey Optimizer B2B Prime].
+-->
+
+>>
+您可以从&#x200B;_[!UICONTROL Assets]_&#x200B;库或内容设计空间上传其他图像资源。 这些上传的资产只能在[!DNL Journey Optimizer B2B Prime]实例中使用。
+>>
+从外部系统导入资源以及访问预填充的资源库尚不可用。 预计未来版本将包括从现有系统导入资产、文件夹支持和扩展的资产管理功能。
 
 <!-- You can [edit these assets using Adobe Express](./image-edit-adobe-express.md), and move them into folders to organize them for use across your emails, templates, and fragments. -->
 
