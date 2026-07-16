@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:57.315Z
 TQID: https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 800becf15eb0020f5e8799207b6bf91a52549157
 workflow-type: tm+mt
-source-wordcount: 133
-ht-degree: 15%
+source-wordcount: 136
+ht-degree: 16%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 15%
 * [执行操作](./action-nodes.md)
 * [侦听事件](./listen-for-event-nodes.md)
 * [拆分路径](./split-merge-paths-nodes.md)
+* [变体拆分路径](./variant-split-paths-nodes.md)
 * [下一个最佳路径](./next-best-path-node.md)
 * [等待](./wait-nodes.md)
 * [合并路径](./split-merge-paths-nodes.md)

@@ -13,9 +13,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
+source-git-commit: 4c7c9b6044716d0014ea2b0dda86aa69c762ca30
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: 891
 ht-degree: 3%
 
 ---
@@ -90,8 +90,8 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 
 1. 选择然后列出&#x200B;**[!UICONTROL 类型]**：
 
-   * **[!UICONTROL 静态]** — 成员资格由您在创建列表时评估的合格筛选器决定。除非您手动使记录符合资格或取消符合资格，否则列表成员资格不会更新。
-***[!UICONTROL 动态]** — 成员资格由符合条件的筛选器动态确定。列表成员资格将自动刷新。
+   * **[!UICONTROL 静态]** — 成员资格由您在创建列表时评估的合格筛选器决定。 除非您手动使记录符合资格或取消符合资格，否则列表成员资格不会更新。
+***[!UICONTROL 动态]** — 成员资格由符合条件的筛选器动态确定。 列表成员资格将自动刷新。
 
    ![创建联系人列表对话框](./assets/people-list-create-dialog.png){width="450"}
 
@@ -203,7 +203,7 @@ So far, activating to a destination is the only thing that they are used for tha
 
    经过一段时间后，符合条件的成员会出现在列表中。
 
-要打开潜在客户配置文件详细信息页面，您可以在其中查看摘要和最近活动，请单击列表中的人员姓名。
+要打开[人员详细信息](./person-details.md)页面，您可以在其中查看摘要和近期活动，请单击列表中的人员姓名。
 
 ### 复制动态列表
 
