@@ -16,10 +16,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+source-git-commit: 9b286221420c4f8db24ab1d8f2f8ca29828f65e4
 workflow-type: tm+mt
-source-wordcount: 1471
-ht-degree: 10%
+source-wordcount: 1562
+ht-degree: 11%
 
 ---
 
@@ -162,7 +162,22 @@ ht-degree: 10%
 
 ### 导入HTML {#import-html}
 
-{{$include /help/_includes/content-design-import.md}}
+<!-- originally  from   /help/_includes/content-design-import.md but copied and revised to omit the part about Marketo Engage assets and AEM assets -->
+
+导入的内容可以是：
+
+* 包含合并样式表的HTML文件
+* 包含HTML文件、样式表(.css)和图像的.zip文件
+
+  >[!NOTE]
+  >
+  >具体的 .zip 文件结构没有任何限制。 但是，引用必须是相对的，并且适合.zip文件夹的树结构。 图像始终上载到[资源存储库](./digital-asset-management.md)。
+
+导入包含HTML内容的文件(_T):_
+
+1. 从设计主页中，选择&#x200B;**[!UICONTROL 导入HTML]**&#x200B;选项。
+
+1. 拖放包含 HTML 内容的 HTML 或 .zip 文件，然后单击&#x200B;**[!UICONTROL 导入]**。
 
 ![在zip文件中导入HTML内容](../../user/content/assets/templates-import-zip-file.png){width="500"}
 
@@ -170,7 +185,7 @@ ht-degree: 10%
 >
 >在HTML文件中使用`<table>`标记作为第一层可能会导致样式丢失，包括顶层标记中的背景和宽度设置。
 
-您可以根据需要通过可视设计空间个性化导入的内容。
+您可以根据需要使用可视化设计工具个性化导入的内容。
 
 ## 检查警报 {#check-alerts}
 

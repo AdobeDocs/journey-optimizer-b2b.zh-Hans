@@ -16,10 +16,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: fac47361b0a597e26ca31b0901634fc00f20ae61
 workflow-type: tm+mt
-source-wordcount: 786
-ht-degree: 18%
+source-wordcount: 746
+ht-degree: 19%
 
 ---
 
@@ -29,11 +29,15 @@ ht-degree: 18%
 
 支持的文件格式：JPG、JPEG、GIF、PNG、EPS、SVG 和 RGB
 
+<!--
+
+>In this Beta release, you can choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas. Modifying assets in Marketo Engage after the initial copy is **not** reflected in [!DNL Journey Optimizer B2B Prime].
+
+-->
+
 >[!NOTE]
 >
->在此Beta版本中，您可以直接从电子邮件画布中的Marketo Engage资源库的一次性副本中选择图像和资源。 在初始副本为&#x200B;**且未在[!DNL Journey Optimizer B2B Prime]中反映**&#x200B;后，在Marketo Engage中修改资源。
->
->您可以从&#x200B;_[!UICONTROL Assets]_&#x200B;库或内容设计空间上传其他图像资源。 这些上传的资产只能在[!DNL Journey Optimizer B2B Prime]实例中使用。
+>您可以从&#x200B;_[!UICONTROL Assets]_&#x200B;库或内容设计空间上传图像资产。 这些上传的资产只能在[!DNL Journey Optimizer B2B Prime]实例中使用。
 >
 >从外部系统导入资源以及访问预填充的资源库尚不可用。 预计未来版本将包括从现有系统导入资产、文件夹支持和扩展的资产管理功能。
 

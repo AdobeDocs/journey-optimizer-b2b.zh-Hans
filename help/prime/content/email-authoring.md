@@ -16,10 +16,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
+source-git-commit: 9b286221420c4f8db24ab1d8f2f8ca29828f65e4
 workflow-type: tm+mt
-source-wordcount: 2209
-ht-degree: 1%
+source-wordcount: 2300
+ht-degree: 2%
 
 ---
 
@@ -94,7 +94,22 @@ ht-degree: 1%
 
 ## 导入现有HTML内容 {#import-html-content}
 
-{{$include /help/_includes/content-design-import.md}}
+<!-- originally  from   /help/_includes/content-design-import.md but copied and revised to omit the part about Marketo Engage assets and AEM assets -->
+
+导入的内容可以是：
+
+* 包含合并样式表的HTML文件
+* 包含HTML文件、样式表(.css)和图像的.zip文件
+
+  >[!NOTE]
+  >
+  >具体的 .zip 文件结构没有任何限制。 但是，引用必须是相对的，并且适合.zip文件夹的树结构。 图像始终上载到[资源存储库](./digital-asset-management.md)。
+
+导入包含HTML内容的文件(_T):_
+
+1. 从设计主页中，选择&#x200B;**[!UICONTROL 导入HTML]**&#x200B;选项。
+
+1. 拖放包含 HTML 内容的 HTML 或 .zip 文件，然后单击&#x200B;**[!UICONTROL 导入]**。
 
 ![在zip文件中导入html内容](../../user/content/assets/email-import-zip-file.png){width="500"}
 
