@@ -4,22 +4,17 @@ description: 为帐户和人员触发器配置事件节点 — 监听Journey Opt
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
+source-git-commit: e369d695d565c361738b045211c5012d20b1a1a0
 workflow-type: tm+mt
-source-wordcount: 1880
-ht-degree: 11%
+source-wordcount: 1834
+ht-degree: 12%
 
 ---
 
@@ -27,7 +22,9 @@ ht-degree: 11%
 
 要将受众前进到发生事件时的历程中的下一步，请添加&#x200B;_侦听事件_&#x200B;节点。
 
-![视频](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;， vertical-align=&quot;middle&quot;} [观看概述视频](#overview-video)
+<!--
+![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
+-->
 
 >[!NOTE]
 >
@@ -95,7 +92,7 @@ ht-degree: 11%
 | [!UICONTROL 活动历史记录] > [!UICONTROL 数据值已更改] | 对于选定的人员属性，发生值更改。 这些更改类型包括： <li>新值<li>上一个值<li>原因<li>来源<li>活动日期<li>最低 次数<!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change). --> |
 | [!UICONTROL 活动历史记录] > [!UICONTROL 快乐时光] | 在关联的Marketo Engage实例中定义的有趣时刻活动。 限制包括： <li>里程碑<li>电子邮件<li>Web <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).--> |
 | [!UICONTROL 活动历史记录] > [!UICONTROL 访问的网页] | 针对由关联的Marketo Engage实例管理的一个或多个网页的网页活动。 限制包括： <li>网页（必填）<li>活动日期<li>客户端 IP 地址 <li>Querystring <li>反向链接 <li>用户代理 <li>搜索引擎 <li>搜索查询 <li>个性化 URL <li>令牌 <li>浏览器 <li>平台 <li>设备 <li>最低 次数<!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> |
-| [!UICONTROL 人员属性] | 人员配置文件中的属性，包括： <li>城市 <li>国家 <li>出生日期 <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>名字 <li>推断的州区域<li>作业名称 <li>姓 <li>手机号码 <li>人员参与度分数 <li>电话号码 <li>邮政编码 <li>州 <li>取消订阅 <li>取消订阅的原因 |
+| [!UICONTROL 人员属性] | 人员配置文件中的属性，包括： <li>城市 <li>国家 <li>出生日期 <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>名字 <li>推断的州区域<li>作业名称 <li>姓 <li>手机号码 <li>人员参与度评分 <li>电话号码 <li>邮政编码 <li>州 <li>取消订阅 <li>取消订阅的原因 |
 | [!UICONTROL 特殊筛选器] > [!UICONTROL 购买团体成员] | 人员是否属于根据以下一个或多个标准评估的购买组成员： <li>解决方案兴趣</li><li>购买组状态</li><li>完整性分数</li><li>参与度评分</li><li>已删除</li><li>角色</li> |
 | [!UICONTROL 特殊筛选器] > [!UICONTROL 列表成员] | 此人是否为一个或多个Marketo Engage列表的成员。 |
 | [!UICONTROL 特殊筛选器] > [!UICONTROL 计划成员] | 此人是否为一个或多个Marketo Engage项目的成员。 |
@@ -151,17 +148,11 @@ ht-degree: 11%
 
 ### 收听体验活动 {#listen-for-an-experience-event}
 
-管理员可以选择[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，这样营销人员就可以创建对事件做出近乎实时反应的帐户和人员历程。 在历程中使用体验事件包括两个步骤：
-
-1. 管理员[添加事件类型和感兴趣的字段](../admin/configure-aep-events.md#add-an-event)，以便在历程中可用。
-
-2. 在历程中，添加&#x200B;_侦听事件_&#x200B;节点，并为基于人员的事件选择Experience Platform事件类型。
-
-<!--
-![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) 
--->
-
-要在历程中包含体验事件(_T):_
+>[!PREREQUISITES]
+>
+>管理员可配置[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，以便营销人员能够创建近乎实时地对事件做出反应的帐户和人员历程。
+>
+>要使体验事件可用于历程，产品管理员必须首先在[!DNL Journey Optimizer B2B Edition]中[添加感兴趣的事件类型和字段](../admin/configure-aep-events.md#add-an-event)。
 
 1. 在历程画布中选择&#x200B;**[!UICONTROL 侦听事件]**&#x200B;节点。
 
@@ -242,5 +233,5 @@ ht-degree: 11%
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443244/?captions=chi_hans&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
 -->
