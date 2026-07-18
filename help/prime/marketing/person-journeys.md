@@ -13,9 +13,9 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
+source-git-commit: 5239170ff139aab47d3fb017a6f0204ef027b9bb
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1433
 ht-degree: 19%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 19%
 
 * 单击&#x200B;_编辑_&#x200B;图标（![编辑图标](../../assets/do-not-localize/icon-react-edit.svg)）以更改历程名称或描述信息。
 * 单击&#x200B;**[!UICONTROL 历程设置]**&#x200B;以更改历程开始和循环。
-* 单击&#x200B;**[!UICONTROL ...更多]**&#x200B;以应用历程操作，或者启用/禁用流量控制和重新进入。
+* 单击&#x200B;**[!UICONTROL ...更多]**&#x200B;以应用历程操作，或者启用/禁用[历程流量控制](./journey-traffic-control.md)并重新进入。
 * 如果解决了所有错误且您希望激活历程，请单击&#x200B;**[!UICONTROL 发布]**。
 
 ### 历程设计 {#journey-design}
