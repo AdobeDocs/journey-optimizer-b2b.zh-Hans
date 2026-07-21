@@ -102,7 +102,7 @@ ht-degree: 5%
 
 >[!PREREQUISITES]
 >
->管理员可配置[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，以便营销人员能够创建近乎实时地对事件做出反应的帐户和人员历程。
+>管理员可配置[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，以便营销人员能够创建近乎实时地对事件做出反应的帐户和人员历程。
 >
 >要使体验事件可用于历程，产品管理员必须首先在[!DNL Journey Optimizer B2B Edition]中[添加感兴趣的事件类型和字段](../admin/configure-aep-events.md#add-an-event)。
 
@@ -224,7 +224,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 >[!PREREQUISITES]
 >
->管理员可配置[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，以便营销人员能够创建近乎实时地对事件做出反应的帐户和人员历程。
+>管理员可配置[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，以便营销人员能够创建近乎实时地对事件做出反应的帐户和人员历程。
 >
 >要使体验事件可用于历程，产品管理员必须首先在[!DNL Journey Optimizer B2B Edition]中[添加感兴趣的事件类型和字段](../admin/configure-aep-events.md#add-an-event)。
 
