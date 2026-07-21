@@ -4,11 +4,16 @@ description: 为帐户和人员触发器配置事件节点 — 监听Journey Opt
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
 source-git-commit: 0b4e657df254a072d5703f13e956275e58554f9a
@@ -251,7 +256,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 您可以使用B2B人员配置文件属性中的更改在&#x200B;_[!UICONTROL 编辑事件]_&#x200B;对话框中触发人员历程中的节点。
 
-1. 将**[!UICONTROL 人员配置文件更改]**从&#x200B;_[!UICONTROL 触发器]_&#x200B;列表拖放到事件匹配生成器空间中。
+1. 将&#x200B;**[!UICONTROL 人员配置文件更改]**&#x200B;从&#x200B;_[!UICONTROL 触发器]_&#x200B;列表拖放到事件匹配生成器空间中。
 
 1. 单击&#x200B;**[!UICONTROL 添加约束]**&#x200B;并选择要用于事件触发器的属性更改。
 
@@ -269,7 +274,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 ## 事件过滤器 {#filters-people-event}
 
-当您在帐户历程](#people-events)中定义[人员事件，或在人员历程](#person-journeys)中定义[事件时，您可以包含筛选以根据各种条件限制匹配的事件触发器：
+当您在帐户历程[&#128279;](#people-events)中定义[人员事件，或在人员历程](#person-journeys)中定义事件时，您可以包含筛选以根据各种条件限制匹配的事件触发器：
 
 | 过滤器 | 描述 |
 | ------------ | ----------- |
