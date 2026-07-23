@@ -3,10 +3,18 @@ title: AI决策
 description: 了解Journey Optimizer B2B Prime中的AI决策、历程流量控制背后的智能层、下一个最佳路径、发送时间优化以及使用结果驱动自动化替换静态规则的其他功能。
 autotag-review: '2026-07-23T00:13:49.629Z'
 TQID: 'https://experienceleague.adobe.com/vAu9C6Erjr-0TIJ18jQnR209Ed2xfLl9P3Nq2fPTs9c'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: c3d6e661-d372-4e98-9fd9-eac771e7e4eeid: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 120afb1109e550fc65c2fc5a01680f2d7d2e2345
 workflow-type: tm+mt
 source-wordcount: 814
