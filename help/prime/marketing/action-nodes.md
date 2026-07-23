@@ -1,22 +1,16 @@
 ---
 title: 执行操作节点
-description: 占位符
+description: 在Journey Optimizer B2B edition Prime中配置一个“执行操作”节点，以添加、删除或更新人员、列表、程序和目标，或者在他们到达人员旅程中的节点时发送消息。
 autotag-review: '2026-06-12T22:58:21.806Z'
 TQID: 'https://experienceleague.adobe.com/uR-WvNz3gA6V7yyN3RRXH-MggrmGb1qvu1CBhMZRuAc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: af7eab5e-3580-4254-9f56-3c20b4f6ef42id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 7a954ba7ade748d5d51cae82a0cddb64449fa2a2
 workflow-type: tm+mt
-source-wordcount: 821
-ht-degree: 2%
+source-wordcount: 1125
+ht-degree: 1%
 
 ---
 
@@ -28,7 +22,7 @@ ht-degree: 2%
 
 | 操作 | 约束 |
 | ------ | ----------- |
-| **[!UICONTROL 激活到目标]** | <li>选择或创建静态列表 <li>如果列表没有激活的目标，请激活列表 |
+| **[!UICONTROL 激活到目标]** | <li>选择或创建静态列表 <li>如果列表没有激活的目标，请将该列表激活到一个或多个目标 |
 | **[!UICONTROL 将人员添加到历程]** | <li>选择计划的或实时历程 <li>未应用目标历程的受众条件 |
 | **[!UICONTROL 添加到列表]** | <li>创建新的静态列表或选择现有列表 |
 | **[!UICONTROL 添加到Marketo列表]** | <li>在Marketo Engage中选择静态列表 |
@@ -54,15 +48,44 @@ ht-degree: 2%
 
 +++激活到目标
 
-使用此操作直接从历程将人员激活到Experience Platform目标。 选择目标并输入受众名称，以识别目标中的激活受众。
+使用此操作将人员添加到静态列表，并直接从历程将该列表激活到目标。 您可以使用现有的静态列表，或专门为历程创建一个列表。
+
+>[!PREREQUISITES]
+>
+>在设置&#x200B;_激活到目标_&#x200B;历程节点之前，必须为您的[!DNL Journey Optimizer B2B Prime]沙盒配置一个或多个[目标](../audiences/destinations.md)。
 
 ![执行操作 — 激活到目标](./assets/person-action-node-activate-to-destination.png){width="450"}
+
+在&#x200B;**[!UICONTROL 添加到列表]**&#x200B;下，选择以下选项之一：
+
+* **[!UICONTROL 创建]** — 创建新的静态列表并向其中添加人员。 此列表在&#x200B;**[!UICONTROL 人员列表]**&#x200B;下立即可用。
+
+  为列表选择父项目并输入&#x200B;**[!UICONTROL 名称]**（必需）和&#x200B;**[!UICONTROL 描述]**（可选）。 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以添加节点的新列表。
+
+  ![创建要用于历程节点的静态列表](./assets/person-action-node-destination-create-list.png){width="375"}
+
+* **[!UICONTROL 选择]** — 选择现有静态列表，以添加到达该节点的人员。
+
+  选中现有静态列表的复选框，然后单击&#x200B;**[!UICONTROL 保存]**。
+
+  ![选择要用于历程节点的静态列表](./assets/person-action-node-destination-select-list.png){width="700" zoomable="yes"}
+
+到达节点的任何人都将添加到选定的静态列表，但只有在将该列表激活到目标之后，操作才会完成：
+
+* 如果所选列表已激活，则其目标将显示在&#x200B;**[!UICONTROL 目标]**&#x200B;下，操作已就绪。
+* 否则，将显示&#x200B;_至少需要一个目标_&#x200B;消息。 单击&#x200B;**[!UICONTROL 将列表激活到目标]**，选择目标，然后单击&#x200B;**[!UICONTROL 保存]**。 在确认对话框中，单击&#x200B;**[!UICONTROL 激活]**。
+
+![配置的目标可用于激活](../audiences/assets/static-list-activate-destination-select.png){width="600" zoomable="yes"}
+
+激活完成后，目标将显示在&#x200B;**[!UICONTROL 目标]**&#x200B;下，并且操作已就绪。 如果需要，可将列表激活到其他目标。
+
+到达节点的任何人都将添加到选定的静态列表，该列表将激活到选定的目标，以便他们被添加到该目标受众，进而添加到受众馈送的任何营销活动。
 
 +++
 
 +++[!UICONTROL 将人员添加到历程]
 
-使用此操作将人员添加到其他计划或实时历程。 通过此操作添加的人员会立即添加到目标历程的受众；历程的受众标准不适用。
+使用此操作将人员添加到其他计划或实时历程。 通过此操作添加的人员会立即添加到目标历程的受众，但不应用目标历程的受众条件。
 
 ![执行操作 — 将人员添加到历程](./assets/person-action-node-add-to-journey.png){width="450"}
 
@@ -155,9 +178,9 @@ ht-degree: 2%
 
 ![执行操作 — 发送电子邮件](./assets/person-action-node-send-email.png){width="450"}
 
-您可以创建电子邮件、编辑现有电子邮件或使用AI个性化电子邮件。 有关创建和编辑电子邮件的信息，请参阅[电子邮件渠道](../marketing/email-channel.md)。
+您可以创建电子邮件、编辑现有电子邮件或使用AI个性化电子邮件。 有关创建和编辑电子邮件的信息，请参阅[电子邮件渠道](./email-channel.md)。
 
-您可以使用[发送时间优化](../marketing/email-send-time-optimization.md)，通过预测每个用户档案最有可能参与的时间，使电子邮件投放时间个性化。
+您可以使用[发送时间优化](./email-send-time-optimization.md)，通过预测每个用户档案最有可能参与的时间，使电子邮件投放时间个性化。
 
 +++
 

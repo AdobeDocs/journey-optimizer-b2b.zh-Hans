@@ -1,126 +1,103 @@
 ---
 title: 目标
-description: 了解如何在Journey Optimizer B2B Prime中连接目标和激活静态人员列表，以将受众数据导出到广告、电子邮件和其他营销平台。
+description: 了解所需的权限、支持的目标，以及如何在Journey Optimizer B2B Prime中连接目标以将静态人员列表激活到广告和社交平台。
+badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 autotag-review: '2026-06-17T18:30:02.442Z'
 TQID: 'https://experienceleague.adobe.com/xO1p-VvIfv1KB77g0l2-fFRHQ0w2hy97vnG1QHpMw8c'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 7a954ba7ade748d5d51cae82a0cddb64449fa2a2
 workflow-type: tm+mt
-source-wordcount: 289
-ht-degree: 2%
+source-wordcount: 655
+ht-degree: 8%
 
 ---
 
 # 目标
 
-目标是预建的集成，可让您将人员列表数据从[!DNL Adobe Journey Optimizer B2B Prime]导出到外部营销平台，如广告网络、电子邮件服务提供商和CRM系统。 在[!DNL Journey Optimizer B2B Prime]中，您将[静态人员列表](./people-lists.md#static-list)（由Marketo Engage人员记录组成）激活到目标，以便这些受众可用于在下游渠道中进行定位和参与。
+目标是预建的集成，可让您将[静态人员列表](./people-lists.md#static-lists)从[!DNL Journey Optimizer B2B Prime]发送到外部广告或社交平台，如LinkedIn促销活动受众、Google客户匹配受众或Facebook自定义受众。 将静态列表激活到目标可以保持成员资格同步：当在列表中添加人员或从列表中删除人员时，相应地，目标受众会添加人员，或者从受众馈送的任何营销活动中删除人员。
 
-<!-- 
-Does not align w/AEP info for Beta
+可通过两种方式将人员激活到连接的目标：
 
-Activating a static list to a destination follows a three-step process:
+* **从静态列表** — 直接从&#x200B;**_[!UICONTROL 人员列表]_**&#x200B;选项卡激活现有的静态列表。 请参阅[激活到目标](./people-lists.md#static-list-activate)。
+* **从人员历程** — 将&#x200B;**_[!UICONTROL 激活到目标]_**&#x200B;操作添加到历程路径，以便将到达该节点的任何人添加到列表并发送到目标。 请参阅&#x200B;[_添加操作节点_](../marketing/action-nodes.md#add-an-action-node)。
 
-1. **Connect** — Authenticate and configure a connection to a destination platform.
-1. **Map** — Select the static list and map its people attributes to the fields required by the destination.
-1. **Schedule** — Define when and how often the list data is exported to the destination.
+>[!BEGINSHADEBOX]
 
-Destination activations reflect the membership state of the static list at the time of each synch.
+## 所需的权限 {#required-permissions}
 
-## Destination types {#destination-types}
+完整目标功能需要启用以下[!DNL Adobe Experience Platform]权限。
 
-[!DNL Journey Optimizer B2B Prime] supports the following destination types for activating static people lists:
+| 类别 | 权限 | 必需 |
+|--- |--- |--- |
+| 沙盒 | 沙盒访问&#x200B;_（默认启用）_ | 是 |
+| 仪表板 | 查看标准仪表板 | 是 |
+| 仪表板 | 管理标准仪表板 | 是 |
+| 目标 | 查看目标 | 是 |
+| 目标 | 管理目标 | 是 |
+| 目标 | 激活目标 | 是 |
+| 目标 | 激活没有映射的区段 | 是 |
+| 目标 | 管理和激活数据集目标 | 是 |
+| 目标 | 目标创作 | 是 |
+| 数据监管 | 查看数据使用策略 | 是 |
+| 数据监管 | 管理数据使用策略 | 是 |
+| 数据引入 | 查看源 | 是 |
+| 数据引入 | 管理源 | 是 |
+| 轮廓管理 | 查看配置文件设置 | 是 |
+| 轮廓管理 | 管理配置文件设置 | 是 |
 
-| Type | Description |
-|--- |--- |
-| Streaming | Real-time API-based connections that push audience membership updates to the destination as they occur. |
-| File-based (batch) | Scheduled exports that deliver audience data as structured files to cloud storage or SFTP locations, which the destination platform then ingests. |
+>[!ENDSHADEBOX]
 
--->
+## 支持的目标 {#supported-destinations}
 
-## 连接目标 {#connect-destination}
+在激活静态列表之前，目标必须存在于目标目录中。 在左侧导航中，展开&#x200B;**[!UICONTROL 连接]**&#x200B;并选择&#x200B;**[!UICONTROL 目标]**。 [!DNL Journey Optimizer B2B Prime]当前支持以下目标：
 
-1. 在左侧导航中，展开&#x200B;**[!UICONTROL 连接]**&#x200B;并选择&#x200B;**[!UICONTROL 目标]**。
+* **[!UICONTROL Google客户匹配]** (Advertising)
+* **[!UICONTROL Facebook自定义受众]** （社交）
+* **[!UICONTROL LinkedIn匹配的受众]** (Social)
 
-1. 在&#x200B;_[!UICONTROL 目录]_&#x200B;选项卡中，找到外部目标类型连接器。
+![访问可用的连接器类型](./assets/destinations-catalog.png){width="800" zoomable="yes"}
 
-   >[!TIP]
-   >
-   >通过在搜索框中输入名称（如`LinkedIn`）可以快速找到连接器。
+>[!NOTE]
+>
+>此目录不是完整的[!DNL Adobe Experience Platform]目标目录。 如果您直接从[!DNL Experience Platform]访问目标，则会看到更大的目录，但目前在[!DNL Journey Optimizer B2B Prime]中只能激活这些目标。 计划在未来版本中使用其他目标。
 
-   ![访问可用的连接器类型](./assets/destinations-catalog.png){width="800" zoomable="yes"}
+## 设置目标 {#set-up-destination}
+
+每个受支持的目标卡都显示&#x200B;**[!UICONTROL 配置新目标]**。 配置目标是激活的先决条件。
 
 1. 在连接器卡中，单击&#x200B;**[!UICONTROL 配置新目标]**。
 
-1. 选择&#x200B;**[!UICONTROL 新帐户]**&#x200B;并输入帐户凭据。
+1. 选择&#x200B;**[!UICONTROL 现有帐户]**&#x200B;或&#x200B;**[!UICONTROL 新帐户]**&#x200B;并输入帐户详细信息，如帐户名称和描述。
 
    ![连接新的目标帐户](./assets/destinations-configure-new.png){width="500"}
 
 1. 单击&#x200B;**[!UICONTROL 连接到目标]**。
 
+   OAuth流允许您登录到相应的帐户：LinkedIn、Google或Facebook。
+
    >[!IMPORTANT]
    >
    >此时，**不**&#x200B;输入&#x200B;_[!UICONTROL 目标详细信息]_。 只需要连接。
 
+1. 完成人员属性和目标所需的字段之间的任何必填字段映射。
+
 1. 查看数据治理和营销操作设置，然后单击&#x200B;**[!UICONTROL 保存]**。
 
-连接的目标显示在&#x200B;_[!UICONTROL 浏览]_&#x200B;选项卡的列表中，可用于静态列表激活。
+有关完整设置步骤，请参阅[!DNL Experience Platform]文档中的[新建目标连接](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}。
 
-## 将静态列表激活到目标 {#activate}
+配置后，目标可用于在[!DNL Journey Optimizer B2B Prime]中选择目标的任意位置进行激活。
 
->[!NOTE]
+## 激活和同步 {#activation-sync}
+
+激活由静态列表成员资格驱动，列表和目标受众之间双向同步：
+
+* 将人员添加到静态列表会在24小时内将它们激活到目标，并将它们添加到目标受众，随后添加到受众馈送的任何营销活动。
+* 从静态列表中删除人员会将其从目标中停用 — 会将其从目标受众和任何连接的营销活动中删除。
+* 可以将同一列表同时激活到多个目标；成员资格同步到所有这些目标。
+
+>[!TIP]
 >
->只能将[静态人员列表](./people-lists.md#static-list)激活到[!DNL Journey Optimizer B2B Prime]中的目标。 [动态列表](./people-lists.md#dynamic-lists)不符合目标激活的条件。
-
-1. 在左侧导航栏中，展开&#x200B;**[!UICONTROL 营销管理]**。
-
-1. 在&#x200B;**[!UICONTROL 营销]**&#x200B;资源列表的右侧，选择&#x200B;**[!UICONTROL 人员列表]**。
-
-   ![访问联系人列表以管理您的受众](./assets/people-lists.png){width="800" zoomable="yes"}
-
-1. 选择&#x200B;**[!UICONTROL 静态列表]**&#x200B;选项卡。
-
-1. 找到要激活到目标的静态列表。
-
-1. 单击静态列表名称旁边的&#x200B;_激活_ （![激活图标](../../assets/do-not-localize/icon-falco-activate-dest.svg) ）图标。
-
-1. 选中已配置的目标连接的复选框。
-
-   ![配置的目标可用于激活](./assets/static-list-activate-destination-select.png){width="700" zoomable="yes"}
-
-1. 单击&#x200B;**[!UICONTROL 保存]**。
-
-<!--
-
-This method not working for Beta
-
-1. On the _[!UICONTROL Browse]_ tab, locate the destination you want to use for the activation and click the name to open it.
-
-1. Select the **[!UICONTROL Activation data]** tab.
-
-1. Click **[!UICONTROL Activate people lists]**.
-
-1. Select the static people list you want to export and click **[!UICONTROL Next]**.
-
-1. Map the people list attributes to the required fields of the destination schema and click **[!UICONTROL Next]**.
-
-1. Set the export schedule:
-
-   * **[!UICONTROL Frequency]** — Choose how often the list is exported (for example, daily or weekly).
-   * **[!UICONTROL Start date]** — Set when the first export should run.
-
-1. Review the activation summary and click **[!UICONTROL Finish]**.
-
-The activation is created and the static list data is exported to the destination according to the defined schedule.
-
--->
-
+>要针对区段运行LinkedIn营销活动，请激活这些人员的静态列表以将其添加到LinkedIn匹配的受众目标。 列表中的所有人都会添加到LinkedIn中的匹配受众，营销活动可以在其中定位他们，并且受众会在列表发生更改时自动保持最新状态。
