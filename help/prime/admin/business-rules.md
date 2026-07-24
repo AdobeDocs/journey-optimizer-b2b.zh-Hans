@@ -4,25 +4,14 @@ description: 创建和管理规则集，以应用频率上限和免打扰时间�
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能属于有限测试版。"
 autotag-review: '2026-07-15T17:39:19.276Z'
 TQID: 'https://experienceleague.adobe.com/eYmcE-8rD5-KJe-hGlUo3I34JYJsK2Hj4x4alFTTqwQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
-  - id: f09c7f30-c554-44cf-884c-7557ed69d0c6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: af7eab5e-3580-4254-9f56-3c20b4f6ef42id: f09c7f30-c554-44cf-884c-7557ed69d0c6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 945c02e4edb6f38dbc8a1ec6b6c97f7825ef4af9
 workflow-type: tm+mt
 source-wordcount: 2975
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -39,8 +28,8 @@ ht-degree: 10%
 
 * **渠道**&#x200B;规则集将规则应用于通信渠道。 它们允许您设置：
 
-   * **频率上限规则** — 示例： *每天不发送多个电子邮件、短信、推送、直邮或WhatsApp通信。*
-   * **无讯息小时规则** — 示例：*不在上午8点 — 晚上9点的时段之外发送电子邮件。*
+  * **频率上限规则** — 示例： *每天不发送多个电子邮件、短信、推送、直邮或WhatsApp通信。*
+  * **无讯息小时规则** — 示例：*不在上午8点 — 晚上9点的时段之外发送电子邮件。*
 
 * **历程**&#x200B;规则集将条目和并发上限规则应用于历程。 （Beta版本尚不支持。）
 
@@ -83,7 +72,7 @@ ht-degree: 10%
 >
 >停用规则或规则集不会影响或重置单个配置文件上的任何计数。
 
-## 创建和激活自定义规则集 {#create}
+## 创建并激活自定义规则集 {#create}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_set_domain"
@@ -98,12 +87,12 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajob2b-prime_rule_type"
 >title="规则类型"
->abstract="为您的渠道规则集选择所需的规则类型：使用&#x200B;**频率上限**&#x200B;类型对通信渠道应用上限规则。 例如，每天不发送多个电子邮件或短信通信。 选择&#x200B;**静默时段**&#x200B;以定义基于时间的排除规则，确保在特定时间段内不会发送任何消息。"
+>abstract="为您的渠道规则集选择所需的规则类型：使用&#x200B;**频率上限**&#x200B;类型对通信渠道应用上限规则。 例如，每天发送的电子邮件或短信不超过一条。 选择&#x200B;**静默时段**&#x200B;以定义基于时间的排除规则，确保在特定时间段内不会发送任何消息。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_sets_duration"
 >title="重置上限频率"
->abstract="选择用于重置上限计数器的日历期间：每小时、每天、每周或每月。 计数器会在每个新时段开始时自动重置为0。"
+>abstract="选择用于重置上限计数器的日程表时间段：每小时、每天、每周或每月。 计数器会在每个新时间段开始时自动重置为 0。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_set_rule_capping"
@@ -192,7 +181,7 @@ ht-degree: 10%
 
 ## 按渠道设置频率上限 {#frequency-capping}
 
-按渠道和通信类型设置频度上限以限制用户档案可以接收的消息数量，并避免具有类似通信的过度客户。 渠道规则集将上限规则应用于通信渠道。 例如，每天不发送多个电子邮件或短信通信。
+按渠道和通信类型设置频度上限以限制用户档案可以接收的消息数量，并避免具有类似通信的过度客户。 渠道规则集将上限规则应用于通信渠道。 例如，每天发送的电子邮件或短信不超过一条。
 
 利用渠道规则集，可设置按通信类型划分的频率封顶，以防止消息类似的客户超载。 例如，您可以创建一个规则集以限制发送给客户的&#x200B;_促销通信_&#x200B;的数量，并创建另一个规则集以限制发送给客户的&#x200B;_新闻稿_&#x200B;的数量。 然后，您可以选择应用促销通信或新闻稿规则集。
 
@@ -204,7 +193,7 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_sets_channel"
->title="定义规则适用的渠道"
+>title="定义规则应用到的渠道"
 >abstract="请至少选择一个渠道。 对所有渠道的总计数应用频次封顶。"
 
 1. 选择要添加上限规则的渠道规则集，或创建新的渠道规则集。
@@ -352,9 +341,9 @@ ht-degree: 10%
 
    * 单击&#x200B;_日历_&#x200B;图标并指定应用免打扰时间的时间段。
 
-      * **[!UICONTROL 每周]** — 选择一周中的特定日期和时间段。 您还可以强制实施规则&#x200B;**[!UICONTROL 全天]**。
+     * **[!UICONTROL 每周]** — 选择一周中的特定日期和时间段。 您还可以强制实施规则&#x200B;**[!UICONTROL 全天]**。
 
-      * **[!UICONTROL 自定义日期]** — 在日历和时隙中选择特定日期。 您还可以强制实施规则&#x200B;**[!UICONTROL 全天]**。
+     * **[!UICONTROL 自定义日期]** — 在日历和时隙中选择特定日期。 您还可以强制实施规则&#x200B;**[!UICONTROL 全天]**。
 
      ![用于定义无讯息小时日期和时间](./assets/business-rules-quiet-hours-dates-times-calendar.png){width="450"}的日历对话框
 
