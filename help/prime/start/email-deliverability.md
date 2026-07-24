@@ -4,21 +4,14 @@ description: 为Journey Optimizer B2B Prime配置子域委派、DMARC、SPF、DK
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能属于有限测试版。"
 autotag-review: '2026-06-12T22:43:42.799Z'
 TQID: 'https://experienceleague.adobe.com/RKZSQkjSRvHixOm2faRT5D-yB00IykXfPO06vvIUQ6k'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 782df5bc56a54840cd06c08d7cd27885ba90c220
 workflow-type: tm+mt
-source-wordcount: 1920
-ht-degree: 1%
+source-wordcount: 2516
+ht-degree: 0%
 
 ---
 
@@ -28,9 +21,9 @@ ht-degree: 1%
 
 * 配置电子邮件渠道 — [电子邮件渠道配置](../admin/email-channel-configuration.md)
 * 创建电子邮件 — [向历程添加电子邮件](../marketing/email-channel.md)
-* 设计电子邮件内容 — [电子邮件内容创作](../content/email-authoring.md)。
+* 设计电子邮件内容 — [电子邮件内容创作](../content/email-authoring.md)
 
-[!DNL Journey Optimizer B2B Prime]中的电子邮件可投放性是一组基础架构和身份验证配置，可帮助电子邮件到达收件人的收件箱，而不是垃圾邮件文件夹，并且不会被ISP（Internet服务提供商）阻止。
+[!DNL Adobe Journey Optimizer B2B Prime]中的电子邮件可投放性是一组基础架构和身份验证配置，可帮助电子邮件到达收件人的收件箱，而不是垃圾邮件文件夹，并且不会被ISP（Internet服务提供商）阻止。
 
 它使用以下构建基块，这些构建基块由管理员配置，通常按以下顺序配置：
 
@@ -56,8 +49,8 @@ ht-degree: 1%
 
 | 概念 | 在[!DNL Journey Optimizer B2B Prime]中的含义 |
 | ------- | ---------------------- |
-| **_子域_** | 发送域的委派部分（例如，`mail.contoso.com`），用于通过Prime发送电子邮件。 子域可将您的B2B营销声誉与公司邮件或事务性邮件隔离。 |
-| **_IP池_** | 与一个或多个子域关联的一组IP地址。 在此版本中，Prime支持由Adobe管理的共享IP池；专用IP池列在GA路线图中。 |
+| **_子域_** | 发送域的委派部分（例如，`mail.contoso.com`），用于通过[!DNL Journey Optimizer B2B Prime]发送电子邮件。 子域可将您的B2B营销声誉与公司邮件或事务性邮件隔离。 |
+| **_IP池_** | 与一个或多个子域关联的一组IP地址。 [!DNL Journey Optimizer B2B Prime]支持此版本中由Adobe管理的共享IP池；专用IP池在GA路线图中。 |
 | **_渠道配置_** | 可重用的一组电子邮件发送设置（发件人身份、回复地址、子域、IP池、电子邮件类型和跟踪），可附加到历程中的电子邮件操作中。 您可以为不同的品牌、业务部门或发送类型使用多个命名渠道配置。 |
 
 <!--
@@ -87,7 +80,7 @@ Most email features follow a `view-*` (read) and `manage-*` (write) pattern. A u
 | **Manage shared assets and library items** | `manage-b2b-library-items` | Manage the underlying shared library used by templates, fragments, and emails. Often granted alongside the template/fragment manage permissions. |
 | **Manage usage labels** | `manage-b2b-delete-usage-labels` | Manage data usage labels (DULE) attached to library items for governance. |
 | **Manage packages** | `manage-b2b-packages` | Bundle and move templates, fragments, and emails between sandboxes. |
-| **View assets (Marketo Design Studio assets in Prime)** | `view-b2b-assets` | Browse the asset picker and preview images. Read-only. |
+| **View assets (Marketo Design Studio assets in [!DNL Journey Optimizer B2B Prime])** | `view-b2b-assets` | Browse the asset picker and preview images. Read-only. |
 | **Manage assets** | `manage-b2b-assets` | All read access plus future asset-management actions (Beta scope). |
 | **Export message data** | `manage-b2b-message-export` | Export email-level message data and reports. |
 
@@ -125,16 +118,16 @@ Channel configurations sit under **[!UICONTROL Channels]** → **[!UICONTROL Gen
 
 >[!NOTE]
 >
->Prime中的每个子域只能由一个Adobe产品使用。 您不能在Prime和其他产品（如Adobe Marketo Engage或Adobe Campaign）之间共享相同的发送子域，您必须使用不同的子域。
+>[!DNL Journey Optimizer B2B Prime]中的每个子域只能由一个Adobe产品使用。 您无法在[!DNL Journey Optimizer B2B Prime]与另一个产品（如Adobe Marketo Engage或Adobe Campaign）之间共享相同的发送子域 — 您必须使用不同的子域。
 
 ### 支持的方法 {#supported-methods}
 
-Prime支持此Beta版本中的三种子域委派方法中的两种。 第三种方法（自定义委派）正在制定中。
+[!DNL Journey Optimizer B2B Prime]支持此Beta版本中的三种子域委派方法中的两种。 第三种方法（自定义委派）正在制定中。
 
 | 方法 | 使用时间 | 它包含的内容 |
 | ------ | ----------- | ---------------- |
 | **已完全委派** | 推荐 | 将子域的完整DNS特权委派给Adobe。 Adobe创建并维护MX、SPF、DKIM、DMARC、A和CNAME记录。 操作开销最低。 Adobe会为您处理DNS更改。 |
-| **CNAME** | 对于受限策略 | 保留DNS权限，并创建指向Adobe管理的记录的CNAME记录。 当贵组织的DNS策略不允许完全委派时，使用此选项。 您负责维护DNS记录。 |
+| **CNAME** | 对于受限策略 | 保留DNS权限，并创建指向Adobe管理的记录的CNAME记录。 当组织的DNS策略不允许完全委派时，使用此项。 您负责维护DNS记录。 |
 | **自定义委派** | 路线图(GA) | 维护DNS和SSL证书的完全所有权。 提供最大程度的控制，包括使用您自己的证书的能力。 这是针对GA版本进行的。 |
 
 ### 委派子域（完全委派方法） {#delegate-fully-delegated}
@@ -144,9 +137,9 @@ Prime支持此Beta版本中的三种子域委派方法中的两种。 第三种�
 >* 决定子域命名约定（例如，`mail.contoso.com`表示营销，`alerts.contoso.com`表示事务型）。
 >* 与您的IT/DNS团队确认，他们可以将子域（NS记录）委派给Adobe。
 >* 在DNS提供商中创建新的子域，然后等待24-48小时以进行DNS传播，然后再委派给Adobe。
->* 确认您在Prime中具有“管理员”角色。
+>* 确认您在[!DNL Journey Optimizer B2B Prime]中拥有管理员角色。
 
-1. 在[!DNL Adobe Journey Optimizer B2B Prime]左侧导航中，展开&#x200B;**[!UICONTROL 管理]**&#x200B;并选择&#x200B;**[!UICONTROL 渠道]**。
+1. 在[!DNL Journey Optimizer B2B Prime]左侧导航中，展开&#x200B;**[!UICONTROL 管理]**&#x200B;并选择&#x200B;**[!UICONTROL 渠道]**。
 1. 在面板中，展开&#x200B;**[!UICONTROL 电子邮件设置]**&#x200B;并选择&#x200B;**[!UICONTROL 子域]**。
 1. 单击&#x200B;**[!UICONTROL 设置子域]**。
 1. 输入完整的子域名（例如，`mail.contoso.com`）。
@@ -169,7 +162,7 @@ Prime支持此Beta版本中的三种子域委派方法中的两种。 第三种�
 
 1. 等待子域状态更改为&#x200B;**[!UICONTROL 成功]**。
 
-   DNS传播完成后，这通常需要几分钟的时间。
+   这通常在DNS传播完成后需要几分钟的时间。
 
 >[!NOTE]
 >
@@ -177,9 +170,9 @@ Prime支持此Beta版本中的三种子域委派方法中的两种。 第三种�
 
 ### 委派子域（CNAME方法） {#delegate-cname}
 
-仅当贵组织的DNS策略禁止完全委派时，才使用此方法。 使用CNAME，您可以保留DNS记录。
+仅当组织的DNS策略禁止完全委派时，才使用此方法。 使用CNAME，您可以保留DNS记录。
 
-1. 在[!DNL Adobe Journey Optimizer B2B Prime]左侧导航中，展开&#x200B;**[!UICONTROL 管理]**&#x200B;并选择&#x200B;**[!UICONTROL 渠道]**。
+1. 在[!DNL Journey Optimizer B2B Prime]左侧导航中，展开&#x200B;**[!UICONTROL 管理]**&#x200B;并选择&#x200B;**[!UICONTROL 渠道]**。
 1. 在面板中，展开&#x200B;**[!UICONTROL 电子邮件设置]**&#x200B;并选择&#x200B;**[!UICONTROL 子域]**。
 1. 单击&#x200B;**[!UICONTROL 设置子域]**。
 1. 输入完整的子域名。
@@ -188,7 +181,7 @@ Prime支持此Beta版本中的三种子域委派方法中的两种。 第三种�
 1. 查看要生成的CNAME记录列表。 这些功能可将子域的组件指向Adobe管理的记录。
 1. 以CSV格式下载记录并与您的DNS团队共享。
 1. 您的DNS团队将每个CNAME记录添加到您的DNS托管解决方案。
-1. 当记录已到位并传播时，返回到[!DNL Adobe Journey Optimizer B2B Prime]并进行确认。
+1. 当记录已到位并传播时，返回到[!DNL Journey Optimizer B2B Prime]并进行确认。
 1. 单击&#x200B;**[!UICONTROL 提交]**。
 1. 等待状态达到&#x200B;**[!UICONTROL 成功]**。
 
@@ -196,11 +189,95 @@ Prime支持此Beta版本中的三种子域委派方法中的两种。 第三种�
 >
 >使用CNAME，Adobe无法帮助您更改、维护子域的DNS或对其进行故障排除。 任何未来的更改（例如为功能更新添加新的CNAME）都必须由您的DNS团队进行。
 
+有关常见DNS提供商的分步说明，请查看以下部分：
+
+### 按DNS提供商添加CNAME记录 {#add-cname-records-dns-provider}
+
+[!DNL Journey Optimizer B2B Prime]为您的子域生成准确的CNAME和TXT记录，并允许您以CSV文件格式下载它们。 使用以下特定于提供商的步骤来帮助您的DNS团队找到正确的设置屏幕并添加每个记录。
+
+>[!NOTE]
+>
+>下载的CSV中的主机、类型和目标值特定于您的子域和组织。 请完全复制它们，而不是重用另一个子域中的值。
+
+#### AWS53号公路 {#aws-route-53}
+
+1. 登录到AWS管理控制台并打开&#x200B;**[!UICONTROL Route 53]**。
+1. 选择&#x200B;**[!UICONTROL 托管区域]**，然后为您的域选择托管区域。
+1. 单击&#x200B;**[!UICONTROL 创建记录]**，并将路由策略设置为&#x200B;**[!UICONTROL 简单路由]**。
+1. 对于CSV中的每一行：
+
+   * **记录名称** — 仅输入区域名称之前的部分。 例如，对于`contoso.com`区域中的`data.mail.contoso.com`，输入`data.mail`。
+   * **记录类型** — 选择`CNAME`或`TXT`以匹配CSV。
+   * **值** — 从CSV粘贴目标。 对于TXT记录，请用双引号将值括起来。
+   * **TTL** — 300秒就足够了。
+
+1. 在输入所有行后，单击&#x200B;**[!UICONTROL 将另一条记录]**&#x200B;添加到批处理条目，然后单击&#x200B;**[!UICONTROL 创建记录]**。
+
+>[!NOTE]
+>
+>TXT值必须用双引号引住，否则记录验证失败。 CNAME记录不能位于区域顶点，但这不会影响委派的子域。
+
+#### Cloudflare {#cloudflare}
+
+1. 登录到Cloudflare仪表板并选择您的域。
+1. 转到&#x200B;**[!UICONTROL DNS记录]**&#x200B;并单击&#x200B;**[!UICONTROL 添加记录]**。
+1. 对于CSV中的每一行：
+
+   * **类型** — 选择`CNAME`或`TXT`。
+   * **名称** — 输入主机部分，例如`data.mail`。 Cloudflare会自动附加域。
+   * **Target**（对于CNAME）或&#x200B;**Content**（对于TXT） — 粘贴CSV中的值。
+   * **代理状态** — 设置为&#x200B;**[!UICONTROL 仅DNS]**（灰色云图标）。
+   * **TTL** — 保留为&#x200B;**[!UICONTROL 自动]**。
+
+1. 单击每行的&#x200B;**[!UICONTROL 保存]**。
+
+>[!IMPORTANT]
+>
+>您为[!DNL Journey Optimizer B2B Prime]添加的每个记录必须显示灰色云（仅限DNS），而不是橙色云（已代理）。 代理记录通过Cloudflare而不是Adobe服务器路由流量，这会中断DKIM签名、点击跟踪和退回处理。 如果记录显示橙色，请单击云图标以将其切换为灰色。
+
+#### AZURE DNS {#azure-dns}
+
+1. 登录到Azure门户并打开&#x200B;**[!UICONTROL DNS区域]**。
+1. 为您的域选择DNS区域。
+1. 单击&#x200B;**[!UICONTROL +记录集]**。
+1. 对于CSV中的每一行：
+
+   * **名称** — 输入主机部分，例如`data.mail`。 Azure会附加区域名称。
+   * **类型** — 选择`CNAME`或`TXT`。
+   * 对于CNAME记录，请在&#x200B;**[!UICONTROL 别名]**&#x200B;字段中输入CSV中的目标。
+   * 对于TXT记录，将该值粘贴到&#x200B;**[!UICONTROL 值]**&#x200B;字段中。 Azure会为您处理引号。
+   * **TTL** — 输入数字和单位，例如300秒。
+
+1. 单击&#x200B;**[!UICONTROL 确定]**&#x200B;保存每行的记录集。
+
+>[!NOTE]
+>
+>使用标准CNAME记录集，而不是“别名记录集”选项，该选项仅指向Azure资源，而不是外部主机名。 每个CNAME记录集只保留一个目标，与[!DNL Journey Optimizer B2B Prime]发出记录的方式相匹配 — 每个主机一个CNAME。
+
+#### Google Cloud DNS {#google-cloud-dns}
+
+1. 打开Google云控制台，然后转到&#x200B;**[!UICONTROL 网络服务]** > **[!UICONTROL 云DNS]**。
+1. 为您的域选择区域。
+1. 单击&#x200B;**[!UICONTROL 添加标准]**&#x200B;以添加记录集。
+1. 对于CSV中的每一行：
+
+   * **DNS名称** — 输入主机部分，例如`data.mail`。 Cloud DNS显示区域后缀，并且您在主机前面。
+   * **资源记录类型** — 选择`CNAME`或`TXT`。
+   * **TTL** — 300秒就足够了。
+   * 对于CNAME记录，在&#x200B;**[!UICONTROL 规范名称]**&#x200B;中输入目标，并以尾随句点结尾。
+   * 对于TXT记录，将该值粘贴到数据字段中。
+
+1. 单击每行的&#x200B;**[!UICONTROL 创建]**。
+
+>[!NOTE]
+>
+>规范名称必须完全限定，并以尾随句点结尾，否则解析失败。 您的DNS团队还可以使用`gcloud dns record-sets create`命令添加每个记录。
+
 ### 子域护栏 {#subdomain-guardrails}
 
 * **默认限制：**&#x200B;每个组织10个子域。 如果您需要更多（最多100个，具体取决于合同），请联系您的Adobe代表。
 * **DNS传播：**&#x200B;允许24-48小时让更改在全球传播。 验证可能会失败，原因只是DNS尚未传播。
-* **子域重用：**&#x200B;其他Adobe产品(Marketo Engage、Adobe Campaign)已使用的子域不能在Prime中重用。
+* **子域重用：**&#x200B;其他Adobe产品(Marketo Engage、Adobe Campaign)已使用的子域不能在[!DNL Journey Optimizer B2B Prime]中重用。
 
 ## DMARC、SPF和DKIM {#dmarc-spf-dkim}
 
@@ -218,13 +295,13 @@ DMARC、SPF和DKIM是电子邮件身份验证标准。 它们共同向接收邮�
 | ------ | ------ | ----------- |
 | `none` | 监测 | 如果DMARC失败，接收服务器不执行任何操作，但仍会发送报表。 在首次委派子域以确认身份验证工作正常且不会丢失消息时，请使用此选项。 |
 | `quarantine` | 隔离 | 接收服务器将失败邮件放入垃圾邮件/垃圾邮件文件夹中。 |
-| `reject` | 拒绝 | 接收服务器拒绝（退回）身份验证失败的消息。 最严格的模式。 一旦您对身份验证设置充满信心，则建议使用。 |
+| `reject` | 拒绝 | 接收服务器拒绝（退回）身份验证失败的消息。 最严格的模式。 当您对身份验证设置充满信心时推荐。 |
 
 ### 配置DMARC {#configure-dmarc}
 
 DMARC在委派子域时进行配置，但您也可以为已委派的子域添加或更新DMARC 。
 
-1. 在[!DNL Adobe Journey Optimizer B2B Prime]左侧导航中，展开&#x200B;**[!UICONTROL 管理]**&#x200B;并选择&#x200B;**[!UICONTROL 渠道]**。
+1. 在[!DNL Journey Optimizer B2B Prime]左侧导航中，展开&#x200B;**[!UICONTROL 管理]**&#x200B;并选择&#x200B;**[!UICONTROL 渠道]**。
 
 1. 在面板中，展开&#x200B;**[!UICONTROL 电子邮件设置]**&#x200B;并选择&#x200B;**[!UICONTROL 子域]**。
 
@@ -249,7 +326,7 @@ DMARC在委派子域时进行配置，但您也可以为已委派的子域添加
 
 >[!TIP]
 >
->从`policy=none`开始监视身份验证报告，然后进展到`quarantine`，最后在报告显示健康的SPF和DKIM对齐时再进展到`reject`。 直接移至`reject`而不进行监视可能会导致合法邮件被拒绝。
+>从`policy=none`开始监视身份验证报告，然后进展到`quarantine`，最后在报告显示正常SPF和DKIM对齐后进展到`reject`。 直接移至`reject`而不进行监视可能会导致合法邮件被拒绝。
 
 ## IP池 {#ip-pools}
 
@@ -266,7 +343,7 @@ IP池是用于发送电子邮件的已命名IP地址组。 IP池对发件人的�
 
 在此版本中，为您的组织预配置了IP池。 在创建电子邮件渠道配置时分配IP池。
 
-1. 在[!DNL Adobe Journey Optimizer B2B Prime]左侧导航中，展开&#x200B;**[!UICONTROL 管理]**&#x200B;并选择&#x200B;**[!UICONTROL 渠道]**。
+1. 在[!DNL Journey Optimizer B2B Prime]左侧导航中，展开&#x200B;**[!UICONTROL 管理]**&#x200B;并选择&#x200B;**[!UICONTROL 渠道]**。
 1. 在面板中，展开&#x200B;**[!UICONTROL 电子邮件设置]**&#x200B;并选择&#x200B;**[!UICONTROL IP池]**。
 1. 确认您的组织可以使用状态为&#x200B;**[!UICONTROL 活动]**&#x200B;的IP池。
 1. 将鼠标悬停在池上以查看IP地址及其PTR记录（反向DNS）。
@@ -274,7 +351,7 @@ IP池是用于发送电子邮件的已命名IP地址组。 IP池对发件人的�
 
 >[!IMPORTANT]
 >
->即使共享池可用，也不要在同一IP池上混合使用营销和事务性流量。 渠道配置中的电子邮件类型设置（营销型与事务型）可控制禁止行为，但您的渠道配置仍应尽可能使用不同的池。
+>即使共享池可用，也不要在同一IP池上混合使用营销和事务性流量。 渠道配置中的电子邮件类型设置（营销与事务性）可控制禁止行为，但您的渠道配置仍应尽可能使用不同的池。
 
 <!--
 
@@ -282,13 +359,13 @@ IP池是用于发送电子邮件的已命名IP地址组。 IP池对发件人的�
 
 | Question | Answer |
 | -------- | ------ |
-| **Can I reuse the subdomain I already use in Marketo Engage?** | No. A subdomain can only be associated with one Adobe product at a time. Create a new subdomain (for example, mail2.contoso.com) for Prime. |
+| **Can I reuse the subdomain I already use in Marketo Engage?** | No. A subdomain can only be associated with one Adobe product at a time. Create a new subdomain (for example, mail2.contoso.com) for [!DNL Journey Optimizer B2B Prime]. |
 | **Why does my channel configuration show Failed?** | The most common reasons are: MX record validation failed (your subdomain DNS isn't fully configured); DMARC misalignment; or an IP pool that is in Processing and has never been associated with the selected subdomain. Open the configuration to see the specific reason. |
-| **What happens if a personalization token has no value at send time?** | If you defined a fallback with the Handlebars `default` helper, the fallback is used. If not, the token resolves to an empty string. Prime warns you when a token has no fallback and the underlying attribute is not guaranteed by the audience definition. |
-| **Can I personalize using account-level attributes?** | Not in this release. Personalization in Prime today supports profile attributes only. |
-| **What's the maximum email size?** | 100 KB is the recommended best-practice cap for inbox rendering. Prime warns you in the editor if you exceed it. |
-| **Can I migrate existing Marketo email templates into Prime?** | A guided self-serve migration tool — including Velocity-to-Handlebars conversion — is delivered at GA. In this release, you can manually rebuild templates or paste raw HTML. |
-| **Will my updates to Marketo assets show up in Prime?** | No. Asset availability in Prime is based on a one-time copy from Marketo Design Studio. Re-uploaded or modified Marketo assets are not reflected in Prime today. Native asset upload and management within Prime is on the Beta roadmap. |
+| **What happens if a personalization token has no value at send time?** | If you defined a fallback with the Handlebars `default` helper, the fallback is used. If not, the token resolves to an empty string. [!DNL Journey Optimizer B2B Prime] warns you when a token has no fallback and the underlying attribute is not guaranteed by the audience definition. |
+| **Can I personalize using account-level attributes?** | Not in this release. Personalization in [!DNL Journey Optimizer B2B Prime] today supports profile attributes only. |
+| **What's the maximum email size?** | 100 KB is the recommended best-practice cap for inbox rendering. [!DNL Journey Optimizer B2B Prime] warns you in the editor if you exceed it. |
+| **Can I migrate existing Marketo email templates into [!DNL Journey Optimizer B2B Prime]?** | A guided self-serve migration tool — including Velocity-to-Handlebars conversion — is delivered at GA. In this release, you can manually rebuild templates or paste raw HTML. |
+| **Will my updates to Marketo assets show up in [!DNL Journey Optimizer B2B Prime]?** | No. Asset availability in [!DNL Journey Optimizer B2B Prime] is based on a one-time copy from Marketo Design Studio. Re-uploaded or modified Marketo assets are not reflected in [!DNL Journey Optimizer B2B Prime] today. Native asset upload and management within [!DNL Journey Optimizer B2B Prime] is on the Beta roadmap. |
 
 ## Glossary {#glossary}
 
@@ -297,7 +374,7 @@ IP池是用于发送电子邮件的已命名IP地址组。 IP池对发件人的�
 | **DKIM** | DomainKeys Identified Mail — cryptographic email signature. |
 | **DMARC** | Domain-based Message Authentication, Reporting & Conformance. |
 | **FBL** | Feedback Loop — a service ISPs offer to receive spam-complaint reports back to senders. |
-| **Handlebars** | JavaScript templating language used in Prime for personalization expressions. |
+| **Handlebars** | JavaScript templating language used in [!DNL Journey Optimizer B2B Prime] for personalization expressions. |
 | **IP pool** | Group of IP addresses used to send email. |
 | **MX record** | Mail Exchange DNS record — directs incoming mail to the correct mail servers. |
 | **NS record** | Name Server DNS record — used to delegate a subdomain. |
