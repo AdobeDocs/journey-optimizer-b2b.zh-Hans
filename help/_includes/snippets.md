@@ -1,9 +1,9 @@
 ---
 title: 代码段
 description: 重用注释和可视化元素来注释应用于特定版本的功能或页面
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
 workflow-type: tm+mt
-source-wordcount: '2343'
+source-wordcount: '2355'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->为您的Journey Optimizer B2B edition实例配置目的数据后，即会包含目的数据。 还需要一个或多个已发布的历程&#x200B;**或**&#x200B;创建购买组。 有关意图检测模型以及如何提交关键字、产品和类别的详细信息，请参阅[意图数据](../user/admin/intent-data.md)。
+>为您的Journey Optimizer B2B edition实例配置目的数据后，即会包含目的数据。 还需要一个或多个已发布的历程&#x200B;**或**&#x200B;创建购买组。 有关意图检测模型以及如何提交关键字、产品和类别的详细信息，请参阅[意图数据](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/admin/configurations/intent-data)。
 
 ## AEM Assets许可说明 {#aem-assets-licensing-note}
 
@@ -185,13 +185,13 @@ HTML组件的![对齐样式](../assets/content-design-shared/content-components-
 
 * **[!UICONTROL 宽度]** — 使用切换开关以像素或百分比设置宽度。
 
-   * 对于百分比宽度，使用滑块设置百分比值。 百分比根据包含块的内容框确定元素大小，其中不包括填充和边框。 例如，如果值为50，则将元素宽度设置为其包含的块内容宽度的50%。
+  * 对于百分比宽度，使用滑块设置百分比值。 百分比根据包含块的内容框确定元素大小，其中不包括填充和边框。 例如，如果值为50，则将元素宽度设置为其包含的块内容宽度的50%。
 
-     使用百分比的![宽度样式](../assets/content-design-shared/content-components-styles-size-width-percent.png){width="250"}
+    使用百分比的![宽度样式](../assets/content-design-shared/content-components-styles-size-width-percent.png){width="250"}
 
-   * 对于基于像素的宽度，单击向上和向下箭头图标可增加或减少像素数。 缺省值为空值(Auto)，并根据元素的内容调整元素宽度。
+  * 对于基于像素的宽度，单击向上和向下箭头图标可增加或减少像素数。 缺省值为空值(Auto)，并根据元素的内容调整元素宽度。
 
-     ![宽度样式（使用像素）](../assets/content-design-shared/content-components-styles-size-width-pixels.png){width="250"}
+    ![宽度样式（使用像素）](../assets/content-design-shared/content-components-styles-size-width-pixels.png){width="250"}
 
 ## 内容组件 — 文本样式 {#styles-text}
 

@@ -1,6 +1,6 @@
 ---
 title: 帐户详细信息
-description: 在Journey Optimizer B2B edition中通过AI摘要、意图检测、联系人覆盖范围分析和电子邮件通信查看帐户洞察。
+description: 在Journey Optimizer B2B edition中通过AI生成的摘要、意图检测、联系人覆盖范围分析和电子邮件通信查看帐户洞察。
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
@@ -15,10 +15,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:20:55.565Z
 TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
 workflow-type: tm+mt
-source-wordcount: 641
-ht-degree: 5%
+source-wordcount: 642
+ht-degree: 6%
 
 ---
 
@@ -71,7 +71,7 @@ _[!UICONTROL 联系人覆盖范围]_&#x200B;部分显示帐户中具有与解决
 * 帐户
 * 作业名称
 * 购买群组
-* 人员参与度分数
+* 人员参与度评分
 * 上一个活动
 * 详细信息
 

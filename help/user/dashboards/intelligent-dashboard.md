@@ -18,7 +18,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T22:43:58.948Z
 TQID: https://experienceleague.adobe.com/hT2zUGnpFcnnZ9lnVprrA4SbBEq9jUQ0Zs5DziC4cf8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
 workflow-type: tm+mt
 source-wordcount: 1682
 ht-degree: 16%
@@ -27,7 +27,7 @@ ht-degree: 16%
 
 # 智能仪表板
 
-智能仪表板可全面查看购买群组和帐户指标，帮助您更有效地监控和制定营销策略。
+智能仪表板提供[购买群组](../buying-groups/buying-groups-overview.md)和帐户量度的全面视图，帮助您更有效地监控和制定营销策略。
 
 要访问&#x200B;_智能仪表板_，请在左侧导航中选择&#x200B;**[!UICONTROL 仪表板]**&#x200B;项。
 
@@ -132,9 +132,9 @@ _[!UICONTROL 购买群组亮点]_&#x200B;分区分为三行，以显示有关您
 
   ![购买团体意向数据](./assets/intelligent-dashboard-buying-group-intent-details.png){width="500" zoomable="yes"}
 
-   * 详细信息弹出窗口显示类别名称，意图级别位于顶部。
-   * 每行的数据按列组织：产品名称、产品意图强度和按意图强度排列的关键字。
-   * 类别、产品和关键字的排序顺序从高到低。 如果每种类型中的一种或多种具有相同的目的强度，则排序使用字母顺序。
+  * 详细信息弹出窗口显示类别名称，意图级别位于顶部。
+  * 每行的数据按列组织：产品名称、产品意图强度和按意图强度排列的关键字。
+  * 类别、产品和关键字的排序顺序从高到低。 如果每种类型中的一种或多种具有相同的目的强度，则排序使用字母顺序。
 
   {{intent-data-note}}
 
@@ -226,9 +226,9 @@ _[!UICONTROL 帐户高亮显示]_&#x200B;部分被组织为两行，以显示有
 
   ![帐户意图数据](./assets/intelligent-dashboard-account-intent-details.png){width="500" zoomable="yes"}
 
-   * 详细信息弹出窗口显示类别名称，意图级别位于顶部。
-   * 每行的数据按列组织：产品名称、产品意图强度和按意图强度排列的关键字。
-   * 类别、产品和关键字的排序顺序从高到低。 如果每种类型中的一种或多种具有相同的目的强度，则排序使用字母顺序。
+  * 详细信息弹出窗口显示类别名称，意图级别位于顶部。
+  * 每行的数据按列组织：产品名称、产品意图强度和按意图强度排列的关键字。
+  * 类别、产品和关键字的排序顺序从高到低。 如果每种类型中的一种或多种具有相同的目的强度，则排序使用字母顺序。
 
   {{intent-data-note}}
 <!--
