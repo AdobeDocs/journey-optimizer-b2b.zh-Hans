@@ -16,13 +16,13 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->为您的Journey Optimizer B2B edition实例配置目的数据后，即会包含目的数据。 还需要一个或多个已发布的历程&#x200B;**或**&#x200B;创建购买组。 有关意图检测模型以及如何提交关键字、产品和类别的详细信息，请参阅[意图数据](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/intent-data)。
+>为您的Journey Optimizer B2B edition实例配置目的数据后，即会包含目的数据。 还需要一个或多个已发布的历程&#x200B;**或**&#x200B;创建购买组。 有关意图检测模型以及如何提交关键字、产品和类别的详细信息，请参阅[意图数据](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/admin/configurations/intent-data)。
 
 ## AEM Assets许可说明 {#aem-assets-licensing-note}
 
 >[!NOTE]
 >
->AEM Assets as a Cloud Service的许可证和Dynamic Media许可证是进行集成的先决条件。确保启用了[Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。该集成仅限于&#x200B;_投放层_&#x200B;中的存储库。如果您使用&#x200B;_创作层_&#x200B;并想要转换它，请与Adobe Experience Manager支持部门联系。<br/>
+>AEM Assets as a Cloud Service的许可证和Dynamic Media许可证是进行集成的先决条件。确保启用了[Dynamic Media withOpen API](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。该集成仅限于&#x200B;_投放层_&#x200B;中的存储库。如果您使用&#x200B;_创作层_&#x200B;并想要转换它，请与Adobe Experience Manager支持部门联系。<br/>
 >根据您的合同和配置，在设计可视化内容时，可以直接从Adobe Experience Manager Assets B2B edition访问Adobe Journey Optimizer as a Cloud Service。
 
 ## 内容创作 — 组件 — 结构步骤 {#structures-step}
