@@ -491,5 +491,5 @@ _[!UICONTROL 事件]_&#x200B;选项卡上的列表显示已保存的事件。
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3448693/?captions=chi_hans&learn=on) 
 -->
