@@ -4,11 +4,19 @@ description: 在Journey Optimizer B2B edition中，使用自定义过滤器创�
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e935834c-48b7-43d8-b754-a815196a1b05
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+  - id: e935834c-48b7-43d8-b754-a815196a1b05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-04-29T23:21:59.633Z
 TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
 source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
@@ -23,7 +31,7 @@ ht-degree: 2%
 在Journey Optimizer B2B edition中，帐户列表是营销人员可用于进行目标历程编排的指定帐户集合。 帐户列表可以根据您定义的条件（如行业、位置或公司规模）来定位指定帐户。 帐户列表有两种类型：
 
 * **静态** — 使用静态帐户列表时，该列表仅在您添加帐户时更改。 您可以通过应用过滤器集以根据当前帐户数据填充列表来手动添加帐户，或通过帐户历程添加和删除帐户。
-* **动态** — 使用动态帐户列表，您可以定义用于自动策划列表的过滤器集。 系统使用此筛选器集根据帐户信息的更改添加和删除帐户。 此列表管理类似于Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}中的[受众分段。
+* **动态** — 使用动态帐户列表，您可以定义用于自动策划列表的过滤器集。 系统使用此筛选器集根据帐户信息的更改添加和删除帐户。 此列表管理类似于Real-time Customer Data Platform[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}中的受众分段。
 
 当帐户列表处于&#x200B;_实时_（已发布）状态时，它可用于[在帐户历程和Marketo Engage程序中使用](./account-lists-journeys.md)。
 
@@ -181,7 +189,7 @@ ht-degree: 2%
 
    ![确认发布动态帐户列表](./assets/account-lists-dynamic-publish-confirm.png){width="400"}
 
-动态帐户列表的状态更改为&#x200B;_[!UICONTROL 实时]_，并且可在帐户历程](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node)中[使用。
+动态帐户列表的状态更改为&#x200B;_[!UICONTROL 实时]_，并且可在帐户历程[&#128279;](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node)中使用。
 
 >[!ENDTABS]
 

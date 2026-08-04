@@ -4,11 +4,17 @@ description: 在Journey Optimizer B2B edition中构建具有进入、成功和�
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: d9b663ab-b785-4c49-8fc3-d3dda520c908
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d9b663ab-b785-4c49-8fc3-d3dda520c908
 autotag-review: 2026-03-30T21:47:43.205Z
 TQID: https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw
 source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
@@ -78,7 +84,7 @@ ht-degree: 2%
 
    重复此步骤，直到拥有模型所需的阶段。
 
-   为模型](assets/stages-model-stages-added.png){width="700" zoomable="yes"}定义的![阶段
+   为模型![&#128279;](assets/stages-model-stages-added.png){width="700" zoomable="yes"}定义的阶段
 
 1. 如果您对已定义的阶段感到满意，请单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -286,7 +292,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. 在右侧的节点属性中，为拆分选择&#x200B;**[!UICONTROL 人员]**。
 
-   将用于条件&#x200B;]_的_[!UICONTROL &#x200B;属性的默认值保留为&#x200B;**[!UICONTROL 仅People属性]**。
+   将用于条件&#x200B;_的_&#x200B;属性的默认值保留为&#x200B;**[!UICONTROL 仅People属性]**。
 
 1. 要定义适用于&#x200B;_[!UICONTROL 路径1]_&#x200B;的条件，请单击&#x200B;**[!UICONTROL 应用条件]**。
 
@@ -330,7 +336,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. 要更新购买组阶段，请定义操作。
 
-   * 若要对帐户&#x200B;]**执行**[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 更新购买团体阶段]**。
+   * 若要对帐户&#x200B;**执行**&#x200B;操作，请选择&#x200B;**[!UICONTROL 更新购买团体阶段]**。
 
    * 对于&#x200B;**[!UICONTROL 选择解决方案兴趣]**，请选择与购买组阶段模型关联的解决方案。
 
