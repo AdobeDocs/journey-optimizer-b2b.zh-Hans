@@ -4,21 +4,13 @@ description: 在Journey Optimizer B2B edition Prime中使用加权活动和30天
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 autotag-review: '2026-06-24T19:48:49.647Z'
 TQID: 'https://experienceleague.adobe.com/FTUV9Bh9LmcWcKDd8yR5EYTlZDB-6Pz57M4KuyPrrFQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: e388c29d-df1e-4b47-ad27-1b14ae45776e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: f979fe0e-02fe-4599-b492-7b3df1d4e7dcid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: e388c29d-df1e-4b47-ad27-1b14ae45776e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1548
+source-wordcount: 1533
 ht-degree: 8%
 
 ---
@@ -30,7 +22,7 @@ ht-degree: 8%
 >title="人员参与度评分"
 >abstract="人员参与度评分根据个体销售线索近期的活动情况，反映其参与程度。"
 
-人员参与度得分是一个数字，它反映单个商机的参与度级别。 得分基于人员执行的活动，每种活动类型都带有一个加权值。 分数在您的实例（租户）中进行标准化，以启用一致的比较，并允许切实可行的分析。
+人员参与度得分是一个数字，它反映单个商机的参与度级别。 得分基于人员执行的活动，其中每种活动类型均带有加权值。 分数在您的实例（租户）中进行标准化，以启用一致的比较，并允许切实可行的分析。
 
 得分计算每天运行。 人员在过去30天内执行的任何参与加权活动都会影响得分。 在此30天滚动时段中，旧的活动发生次数会过期，并且分数会随着时间的推移而降低（分数衰减）。 显示的分数会进行四舍五入（例如，75.89999的分数显示为76）。
 
@@ -38,7 +30,7 @@ ht-degree: 8%
 
 ![人员参与度得分报表数据](./assets/engagement-score-reporting.png){width="800" zoomable="yes"}
 
-人员参与度得分是一个属性，您可以在人员列表和人员历程的拆分路径节点中将其用作[筛选条件](#engagement-score-filter)。
+人员参与度得分是一个属性，您可以在人员列表和人员历程拆分路径节点中将其用作[筛选条件](#engagement-score-filter)。
 
 ## 用于参与度评分的活动 {#activities}
 
@@ -89,11 +81,11 @@ ht-degree: 8%
 
 1. 计算原始参与度得分，方法是：汇总每个活动类型的每日活动，将其乘以关联的权重，然后在回顾时间范围内的所有天数内汇总结果。
 
-1. 应用&#x200B;_幂变换_（平方根）通过减少离群值的影响来稳定方差。
+1. 若要通过减少离群值的影响来稳定方差，请应用&#x200B;_幂变换_（平方根）。
 
    此转换可减少偏斜度并使数据中的图案更加线性。
 
-1. 应用&#x200B;_缩放标准化_&#x200B;转换，以确保分数使用0到100之间的完整范围。
+1. 为确保得分使用0到100之间的完整范围，请应用&#x200B;_缩放标准化_&#x200B;转换。
 
 ## 按参与度分数过滤 {#engagement-score-filter}
 
@@ -103,7 +95,7 @@ _[!UICONTROL 人员参与度分数]_&#x200B;筛选器显示在&#x200B;**[!UICONT
 
 ### 人员列表 {#people-lists}
 
-在[静态人员列表](./people-lists.md#static-list)中添加或删除成员时，或者为[动态人员列表](./people-lists.md#dynamic-lists)定义成员资格规则时，您可以按人员参与度得分进行筛选，以定位其属性与评分标准匹配的所有人员。
+在管理[静态人员列表](./people-lists.md#static-lists)中的成员或为[动态人员列表](./people-lists.md#dynamic-lists)定义规则时，您可以按人员参与度得分进行筛选，以定位符合您条件的人员。
 
 ![人员参与度得分筛选人员列表](./assets/engagement-score-filter-people-list.png){width="700" zoomable="yes"}
 
@@ -151,7 +143,7 @@ _[!UICONTROL 人员参与度分数]_&#x200B;筛选器显示在&#x200B;**[!UICONT
 
 在[!DNL Journey Optimizer B2B Prime]中，您可以直接从[AI Assistant聊天界面](../agents/chat-interface.md)配置参与度得分权重。
 
-有关参与度得分模型、权重区段和活动权重的背景，请参阅[配置自定义参与度得分权重](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting)。
+有关参与度得分模型、权重区段和活动权重的背景，请参阅[配置自定义参与度得分权重](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting)。
 
 1. 从屏幕左侧打开&#x200B;**[!UICONTROL AI助手]**&#x200B;聊天面板（聊天图标）。
 
@@ -205,13 +197,13 @@ _[!UICONTROL 人员参与度分数]_&#x200B;筛选器显示在&#x200B;**[!UICONT
 
 1. 在活动表中，找到要更新的参与活动。
 
-1. 单击该活动的&#x200B;**[!UICONTROL 权重]**&#x200B;向下箭头，然后选择相应的权重范围（例如，`Important`、`Trivial`、`Minor`、`Normal`和`Vital`）。
+1. 单击该活动的&#x200B;**[!UICONTROL 权重]**&#x200B;向下箭头并选择适当的权重带（例如，`Important`、`Trivial`、`Minor`、`Normal`和`Vital`）。
 
    更改会自动保存 — 无需执行明确的“保存”操作。
 
 >[!NOTE]
 >
->要编辑活动或归档模型，可复制它以创建新草稿模型，然后编辑并激活复制项。 无法就地编辑活动模型。
+>要编辑活动模型或存档模型，请复制它以创建新的草稿模型，然后编辑并激活复制项。 无法就地编辑活动模型。
 
 ### 激活绘制模型 {#activate-weighting-model}
 

@@ -4,22 +4,16 @@ description: 在Journey Optimizer B2B edition中设计包含内容组件的电�
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: 2026-03-30T22:16:05.946Z
 TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 3250910a729786bf536c55a48bf96a75b05852f6
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 3064
+source-wordcount: 3074
 ht-degree: 6%
 
 ---
@@ -207,7 +201,7 @@ ht-degree: 6%
 
 +++
 
-### 功能工具
+### 功能工具 {#functional-tools}
 
 | 工具 | 名称 | 使用情况 |
 | ---- | ---- | ----- |
@@ -221,9 +215,9 @@ ht-degree: 6%
 
 1. 在可视设计空间中，使用现有模板或将所需的结构组件添加到空画布中以定义布局。
 
-1. 在&#x200B;**[!UICONTROL 组件]**&#x200B;库中，获取所选内容组件的&#x200B;_拖动手柄_ ![拖动手柄](../../assets/do-not-localize/icon-drag-handle.svg)，然后将其拖放到结构组件上。
+1. 在&#x200B;**[!UICONTROL 组件]**&#x200B;库中，为您选择的内容组件选择&#x200B;_拖动手柄_ ![拖动手柄](../../assets/do-not-localize/icon-drag-handle.svg)，然后将其拖放到结构组件上。
 
-   您可以将多个组件添加到单个结构组件中，也可以将它们添加到结构组件的每个列中。
+   您可以将多个组件添加到单个结构组件中，也可以将它们添加到结构组件的每一列中。
 
    ![将内容组件拖动到结构组件中](./assets/content-components-drag.png){width="600" zoomable="yes"}
 
@@ -233,7 +227,7 @@ ht-degree: 6%
 
    ![定义内容组件的设置和样式](./assets/content-components-settings-styles.png){width="600" zoomable="yes"}
 
-在处理设计时，您还可以[删除](#remove-a-content-component)或[复制](#duplicate-a-content-component)组件。
+在处理设计时，您还可以使用[功能工具](#functional-tools)部分中的&#x200B;**删除**&#x200B;和&#x200B;**复制**&#x200B;工具删除或复制组件。
 
 ## 内容组件设置和样式
 
@@ -320,7 +314,7 @@ ht-degree: 6%
 
    按钮大小会根据设置的文本和样式进行调整。
 
-1. 对于&#x200B;**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
+1. 对于**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
 
    * _[!UICONTROL 无]_ — 使用默认浏览器或客户端行为（默认）打开链接。
    * _[!UICONTROL 空白]_ — 在新窗口或选项卡中打开链接。
@@ -438,7 +432,7 @@ ht-degree: 6%
 
 ### 分隔条
 
-添加&#x200B;_分隔线_&#x200B;组件以在内容的不同部分之间合并线性分隔。
+要合并内容部分之间的线性划分，请添加&#x200B;_分隔线_&#x200B;组件。
 
 +++背景
 
@@ -456,11 +450,11 @@ ht-degree: 6%
 
 * **[!UICONTROL 宽度]** — 使用切换开关以像素或百分比设置宽度。
 
-   * 对于百分比宽度，使用滑块设置百分比值。 百分比根据包含块的内容框确定元素大小，其中不包括填充和边框。 例如，如果值为50，则将元素宽度设置为其包含的块内容宽度的50%。
+  * 对于百分比宽度，使用滑块设置百分比值。 百分比根据包含块的内容框确定元素大小，其中不包括填充和边框。 例如，如果值为50，则将元素宽度设置为其包含的块内容宽度的50%。
 
   ![为分隔线组件定义行样式](./assets/component-divider-line-options.png){width="250"}
 
-   * 对于基于像素的宽度，单击向上和向下箭头图标可增加或减少像素数。 缺省值为空值(Auto)，并根据元素的内容调整元素宽度。
+  * 对于基于像素的宽度，单击向上和向下箭头图标可增加或减少像素数。 缺省值为空值(Auto)，并根据元素的内容调整元素宽度。
 
 * **[!UICONTROL 样式]** — 从标准CSS `line-style`值列表中选择一个值，如&#x200B;_实线_、_点线_&#x200B;和&#x200B;_虚线_。
 
@@ -502,7 +496,7 @@ ht-degree: 6%
 
 1. 在画布上选择组件，然后单击工具栏中的&#x200B;_显示源代码_&#x200B;图标。
 
-   [打开代码编辑器以添加HTML](./assets/content-components-html-show-code.png){width="450"}
+   [要添加HTML，请打开代码编辑器](./assets/content-components-html-show-code.png){width="450"}
 
 1. 将HTML粘贴到文本框中，然后单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -564,7 +558,7 @@ ht-degree: 6%
 
 选择[资源源类型](./assets-overview.md)并选择图像文件：
 
-* **[!UICONTROL Marketo Engage Assets]** — 选择此类型以浏览并从Journey Optimizer B2B edition库或连接的Market Engage实例中选择图像资源。
+* **[!UICONTROL Marketo Engage Assets]** — 选择此类型以浏览并从Journey Optimizer B2B edition库或连接的Marketo Engage实例中选择图像资源。
 
   ![浏览可用的图像资源](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
@@ -572,31 +566,31 @@ ht-degree: 6%
 
   有多种工具可帮助您找到所需的资源：
 
-   * 单击左上角的&#x200B;_筛选器_&#x200B;图标以根据您的条件筛选显示的项目。
+  * 单击左上角的&#x200B;_筛选器_&#x200B;图标以根据您的条件筛选显示的项目。
 
-   * 在&#x200B;_搜索_&#x200B;字段中输入文本，以筛选显示的项目以匹配资源名称。
+  * 在&#x200B;_搜索_&#x200B;字段中输入文本，以筛选显示的项目以匹配资源名称。
 
-     ![使用筛选器和搜索字段查找您需要的资源](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
+    ![使用筛选器和搜索字段查找您需要的资源](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
 
 * **[!UICONTROL Experience Manager Assets]** — 选择此类型以浏览并从[配置的Experience Manage Assets存储库](../admin/configure-aem-repositories.md)中选择图像资源。
 
   从&#x200B;_[!UICONTROL 选择Assets]_&#x200B;对话框中，使用可用工具选择一个图像以查找所需的资源，然后单击&#x200B;**[!UICONTROL 选择]**：
 
-   * 更改右上角的&#x200B;**[!UICONTROL 存储库]**。
+  * 更改右上角的&#x200B;**[!UICONTROL 存储库]**。
 
-   * 单击右上角的&#x200B;**[!UICONTROL 管理资源]**&#x200B;可在其他浏览器选项卡中打开Assets存储库并使用AEM Assets管理工具。
+  * 单击右上角的&#x200B;**[!UICONTROL 管理资源]**&#x200B;可在其他浏览器选项卡中打开Assets存储库并使用AEM Assets管理工具。
 
-   * 单击右上角的&#x200B;_视图类型_&#x200B;选择器以将显示更改为&#x200B;**[!UICONTROL 列表视图]**、**[!UICONTROL 网格视图]**、**[!UICONTROL 图库视图]**&#x200B;或&#x200B;**[!UICONTROL 瀑布视图]**。
+  * 单击右上角的&#x200B;_视图类型_&#x200B;选择器以将显示更改为&#x200B;**[!UICONTROL 列表视图]**、**[!UICONTROL 网格视图]**、**[!UICONTROL 图库视图]**&#x200B;或&#x200B;**[!UICONTROL 瀑布视图]**。
 
-   * 单击&#x200B;_排序顺序_&#x200B;图标可在升序和降序之间更改排序顺序。
+  * 单击&#x200B;_排序顺序_&#x200B;图标可在升序和降序之间更改排序顺序。
 
-     ![使用“选择Assets”对话框中的工具查找并选择图像资源](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
+    ![使用“选择Assets”对话框中的工具查找并选择图像资源](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
 
-   * 单击&#x200B;**[!UICONTROL 排序方式]**&#x200B;菜单箭头以将排序条件更改为&#x200B;**[!UICONTROL 名称]**、**[!UICONTROL 大小]**&#x200B;或&#x200B;**[!UICONTROL 修改时间]**。
+  * 单击&#x200B;**[!UICONTROL 排序方式]**&#x200B;菜单箭头以将排序条件更改为&#x200B;**[!UICONTROL 名称]**、**[!UICONTROL 大小]**&#x200B;或&#x200B;**[!UICONTROL 修改时间]**。
 
-   * 单击左上角的&#x200B;_筛选器_&#x200B;图标以根据您的条件筛选显示的项目。
+  * 单击左上角的&#x200B;_筛选器_&#x200B;图标以根据您的条件筛选显示的项目。
 
-   * 在&#x200B;_搜索_&#x200B;字段中输入文本，以筛选显示的项目以匹配资源名称。
+  * 在&#x200B;_搜索_&#x200B;字段中输入文本，以筛选显示的项目以匹配资源名称。
 
   ![使用筛选器和搜索字段查找资源](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
 
@@ -636,7 +630,7 @@ ht-degree: 6%
 
    按钮大小会根据设置的文本和样式进行调整。
 
-1. 对于&#x200B;**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
+1. 对于**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
 
    * _[!UICONTROL 无]_ — 使用默认浏览器或客户端行为（默认）打开链接。
    * _[!UICONTROL 空白]_ — 在新窗口或选项卡中打开链接。
@@ -705,7 +699,7 @@ ht-degree: 6%
 选择社交媒体类型后，为该类型设置选项：
 
 * **[!UICONTROL URL]** — 输入要链接到社交媒体图形或图标的社交媒体URL。
-* **[!UICONTROL Source]** — 如果要使用自己的图像而不是默认图像，请选择并创建图像资源。 您可以从连接的Marketo Engage资源存储库和Experience Manager Assets存储库（如果已配置）中选择图像，或从系统中导入图像文件。 有关选择和导入图像资产的详细信息，请参阅[图像组件信息](#add-the-image-asset)。
+* **[!UICONTROL Source]** — 如果要使用自己的图像而不是默认图像，请选择图像资源。 您可以从连接的Marketo Engage资源存储库和Experience Manager Assets存储库（如果已配置）中选择图像，或从系统中导入图像文件。 有关选择和导入图像资产的详细信息，请参阅[图像组件信息](#add-the-image-asset)。
 * **[!UICONTROL 替代文本]** — 为显示的图像输入替代文本。
 
   ![所选社交媒体类型的设置](./assets/content-components-social-settings-for-type.png){width="250"}

@@ -4,21 +4,15 @@ description: 创建带有加权活动的自定义参与度得分模型，以便�
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-27T23:14:34.224Z
 TQID: https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1306
+source-wordcount: 1298
 ht-degree: 0%
 
 ---
@@ -35,13 +29,13 @@ ht-degree: 0%
 
 ## 访问参与度得分加权模型
 
-打开&#x200B;_[!UICONTROL 参与度得分权重]_&#x200B;列表以查看活动、草稿和已存档的模型：
+要查看活动、草稿和已存档的模型，请打开&#x200B;_[!UICONTROL 参与度得分权重]_&#x200B;列表：
 
 1. 在左侧导航中，选择&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 配置]**。
 
 1. 单击中间面板上的&#x200B;**[!UICONTROL 参与度得分权重]**&#x200B;以显示评分模型列表。
 
-   在此页面中，您可以[创建（重复）](#create-an-engagement-score-model)、[激活](#activate-a-score-model)和[编辑](#change-the-engagement-weighting-settings)参与度得分模型。
+   在此页面中，您可以[创建（重复）](#create-a-custom-engagement-scoring-model)、[激活](#activate-a-score-model)和[编辑](#change-the-engagement-weighting-settings)参与度得分模型。
 
    ![访问定义的参与度分数模型](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
@@ -93,7 +87,7 @@ ht-degree: 0%
 
 ### 更改参与权重设置
 
-权重设置定义您可以分配给模型中每个活动的频带。 您可以更改区段以反映组织用于评估参与的策略。 例如，如果要为正常活动分配较高的值，可以将&#x200B;_正常_&#x200B;加权范围调整为65。 或者，您可以添加用于捕获介于&#x200B;_正常_&#x200B;和&#x200B;_重要_&#x200B;之间的活动的加权频带。 在这种情况下，您可以添加一个频带，并将其标记为&#x200B;_重要_，并为其分配权重频带值75。
+权重设置定义您可以分配给模型中每个活动的频带。 要反映组织评估参与的策略，请更改区段。 例如，如果要为正常活动分配较高的值，请将&#x200B;_正常_&#x200B;加权范围调整为65。 或者，您可以添加用于捕获介于&#x200B;_正常_&#x200B;和&#x200B;_重要_&#x200B;之间的活动的加权频带。 在这种情况下，添加一个频带，将其标记为&#x200B;_显着_，并分配权重频带值为75。
 
 1. 在得分模型详细信息页面中，单击顶部的&#x200B;**[!UICONTROL 参与权重设置]**。
 
@@ -161,7 +155,7 @@ Experience Platform事件的默认模型包括Experience Platform跟踪的活动
 
 激活拔模分数模型时，它会替换当前活动的模型。 当前活动的模型会自动存档。
 
-1. 打开草稿得分模型以查看详细信息页面。
+1. 要查看详细信息页面，请打开草稿得分模型。
 
 1. 单击&#x200B;**[!UICONTROL 激活]**。
 

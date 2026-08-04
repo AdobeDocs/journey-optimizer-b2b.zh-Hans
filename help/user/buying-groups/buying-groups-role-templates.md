@@ -4,20 +4,16 @@ description: 创建具有条件自动分配的角色模板，以识别在Journey
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 97417ae1fcb017d4fcb7128e3fc0b61c829f867e
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1571
-ht-degree: 4%
+source-wordcount: 1577
+ht-degree: 5%
 
 ---
 
@@ -49,7 +45,7 @@ ht-degree: 4%
 >
 >* [人员属性筛选器的人员配置文件字段映射](../admin/field-mapping.md#xdm-business-person-attributes)
 >* 如果您在角色条件中使用意图筛选器，则[意图数据](../admin/intent-data.md)
->* 如果您需要超过六个默认值的角色，请[自定义购买群组角色](./default-custom-roles.md#custom-roles)（可选）
+>* 如果您需要超过六个默认值的角色，请[自定义购买群组角色](./default-custom-roles.md#create-a-custom-role)（可选）
 
 ## 访问和浏览角色模板 {#access-and-browse-role-templates}
 
@@ -70,7 +66,7 @@ ht-degree: 4%
    * [!UICONTROL 发布日期]
    * [!UICONTROL 发布者]
 
-   默认情况下，该列表按&#x200B;_[!UICONTROL 上次更新]_&#x200B;排序。 所有角色模板的状态均为`Draft`或`Live`。
+   默认情况下，系统按&#x200B;_[!UICONTROL 上次更新]_&#x200B;对列表进行排序。 所有角色模板的状态均为`Draft`或`Live`。
 
 1. 要按名称筛选列表，请使用列表顶部的搜索字段。
 
@@ -98,7 +94,7 @@ ht-degree: 4%
 
 | 类型 | 条件 |
 | ---- | --------- |
-| [!UICONTROL 人员属性] | [个人资料](../admin/field-mapping.md#xdm-business-person-attributes)中的属性，包括： <li>城市 <li>国家/地区 <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>名 <li>推断的州区域 <li>职务名称 <li>姓 <li>手机号码 <li>人员参与度分数 <li>电话号码 <li>邮政编码 <li>State |
+| [!UICONTROL 人员属性] | [个人资料](../admin/field-mapping.md#xdm-business-person-attributes)中的属性，包括： <li>城市 <li>国家/地区 <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>名 <li>推断的州区域 <li>职务名称 <li>姓 <li>手机号码 <li>人员参与度评分 <li>电话号码 <li>邮政编码 <li>State |
 | [!UICONTROL 自定义对象] >具有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}该帐户或人员具有或不具有关系架构记录。 也可以根据[XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中配置的任何所选自定义对象条件对其进行评估。 |
 | 特殊筛选条件 | <li>列表的成员（已弃用） <li>计划成员（已弃用） |
 | 意图数据 | <li>类别意图 <li>产品意图 <li>关键字意图<br/>（请参阅&#x200B;[_意图数据_](../admin/intent-data.md)） |
@@ -109,7 +105,7 @@ ht-degree: 4%
 
    * 从列表中选择&#x200B;**[!UICONTROL 购买团体角色]**。
 
-     有六个默认角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 该列表还包括在&#x200B;_角色_&#x200B;列表[&#128279;](./default-custom-roles.md#custom-roles)中定义的任何自定义角色。
+     有六个默认角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 该列表还包括在&#x200B;_角色_&#x200B;列表](./default-custom-roles.md#create-a-custom-role)中定义的任何[自定义角色。
 
      ![购买团体角色列表](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -141,7 +137,7 @@ ht-degree: 4%
 
      使用工作标题的![角色模板条件示例](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-   * 如果已配置与XDM关系架构[&#128279;](../admin/xdm-field-management.md#relational-schemas)中定义的人员相关的自定义对象，请展开&#x200B;**[!UICONTROL 自定义对象]**&#x200B;的列表以在角色条件中使用它们。
+   * 如果已配置与XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中定义的人员[相关的自定义对象，请展开&#x200B;**[!UICONTROL 自定义对象]**&#x200B;的列表以在角色条件中使用它们。
 
      ![角色模板添加自定义对象条件](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
 
@@ -161,7 +157,7 @@ ht-degree: 4%
 
 在Marketo Engage中，_Smart Campaigns_&#x200B;检查项目成员资格，以确保潜在客户不会收到重复的电子邮件，并且不会同时成为多个电子邮件流的成员。 在Journey Optimizer B2B中，您可以检查Marketo Engage列表成员资格，将其作为您角色模板的条件，以帮助消除购买组成员资格和旅程活动中的重复。
 
-要将列表成员资格用作角色条件，请展开&#x200B;**[!UICONTROL 特殊筛选器]**，并将&#x200B;**[!UICONTROL 列表成员]**&#x200B;条件拖入筛选器空间。 然后完成筛选器定义以评估一个或多个Marketo Engage列表中的成员资格。
+要将列表成员资格用作角色条件，请展开&#x200B;**[!UICONTROL 特殊筛选器]**，并将&#x200B;**[!UICONTROL 列表成员]**&#x200B;条件拖入筛选器空间。 要评估一个或多个Marketo Engage列表中的成员资格，请完成筛选器定义。
 
 Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
 <br/>
@@ -178,7 +174,7 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 
 默认情况下，角色的完整性定义为分配给角色的一个成员。 使用购买组完整性来指示销售准备情况时，使用这些设置使分数与结束商机所需的成员数量保持一致。
 
-例如，要完成您的解决方案&#x200B;_X_&#x200B;的交易，需要确定并参与多个营销决策者，因为一个组织的多个营销团队将使用该解决方案。 在这种情况下，您需要提高阈值以至少需要两名营销决策人来计算&#x200B;_完成_&#x200B;购买组。
+例如，要完成您的解决方案&#x200B;_X_&#x200B;的交易，需要确定并吸引多个营销决策者，因为一个组织的多个营销团队都使用该解决方案。 在这种情况下，您需要提高阈值以至少需要两名营销决策人来计算&#x200B;_完成_&#x200B;购买组。
 
 详细计算方式请参阅[完整性评分](./completeness-scores.md)。
 
@@ -198,7 +194,7 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 
 如果模板已准备就绪，请单击右上方的&#x200B;**[!UICONTROL 发布]**。
 
-发布模板会将状态设置为&#x200B;_Live_，并使其可用于与解决方案兴趣关联。 必须至少定义一个角色才能发布角色模板。
+若要使模板可与某个解决方案兴趣关联，请发布该模板以将状态设置为&#x200B;_实时_。 必须至少定义一个角色才能发布角色模板。
 
 发布后，**[!UICONTROL 角色模板]**&#x200B;选项卡上的模板状态为&#x200B;_实时_，您可以在[创建感兴趣的解决方案](./solution-interests.md)时选择它。
 
@@ -206,7 +202,7 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 
 当角色模板处于&#x200B;_草稿_&#x200B;状态时，您可以继续编辑定义的角色。 您所做的任何更改都会自动保存。
 
-更改角色卡标题设置，如购买组角色、权重、自动分配或完整性评分要求。
+更改角色卡标题设置，如角色、权重、自动分配或完整性要求。
 
 ![更改购买团体角色属性](./assets/roles-template-role-properties.png){width="600"}
 
@@ -240,4 +236,4 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 
 ## 概述视频 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3453311/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

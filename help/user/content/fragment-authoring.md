@@ -6,23 +6,15 @@ role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
 autotag-review: '2026-05-27T16:13:22.974Z'
 TQID: 'https://experienceleague.adobe.com/WqMj4DVOmUd3s-r-n9bSyRjXSGS8sDWMFNh5wfOiE2Y'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: e1663313-7961-4100-bea9-fa9f4edf8493
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e1663313-7961-4100-bea9-fa9f4edf8493
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 391
+source-wordcount: 393
 ht-degree: 6%
 
 ---
@@ -55,15 +47,15 @@ ht-degree: 6%
 
 ## 启用片段自定义
 
-当作者向[电子邮件](./email-authoring.md#content-authoring---use-visual-fragments)或[电子邮件模板](./email-template-authoring.md#content-authoring---use-visual-fragments)添加片段时，默认情况下锁定片段内容。 对已发布片段所做的任何更改都会自动传播到使用该片段的所有内容资产。 当您将片段中组件的参数指定为可编辑时，电子邮件或模板作者可以指定特定于其需求的自定义字段值。 此自定义标志仅限于图像、文本和按钮可视组件。
+当作者向[电子邮件](./email-authoring.md#add-fragments)或[电子邮件模板](./email-template-authoring.md#add-fragments)添加片段时，系统默认锁定片段内容。 对已发布片段所做的任何更改都会自动传播到使用该片段的所有内容资产。 当您将片段中组件的参数指定为可编辑时，电子邮件或模板作者可以指定特定于其需求的自定义字段值。 此自定义标志仅限于图像、文本和按钮可视组件。
 
-例如，如果您设计的可重用横幅包括可单击按钮，则可以将该按钮的URL参数指定为可编辑。 然后，电子邮件作者可以使用更特定于其电子邮件促销活动的URL。 借助这些可自定义的字段，营销人员可以管理和个性化可重用内容，而无需创建全新的内容块或中断从原始片段继承的更新。
+例如，如果您设计的可重用横幅包括可单击按钮，则可以将该按钮的URL参数指定为可编辑。 然后，电子邮件作者可以使用更特定于其电子邮件促销活动的URL。 利用这些可自定义的字段，营销团队可以管理和个性化可重用内容，而无需创建全新的内容块或中断从原始片段继承的更新。
 
 1. 在可视内容编辑器中，选择要启用自定义的图像、文本或按钮元素。
 
 1. 在右侧的组件详细信息中，选择&#x200B;**[!UICONTROL 可编辑字段]**&#x200B;选项卡。
 
-1. 单击&#x200B;**[!UICONTROL 启用版本]**&#x200B;选项切换并设置可编辑的字段。
+1. 单击&#x200B;**[!UICONTROL 启用编辑]**&#x200B;选项切换并设置可编辑的字段。
 
    ![为片段图像组件启用可编辑字段](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}
 

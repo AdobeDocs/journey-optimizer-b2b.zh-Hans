@@ -5,21 +5,15 @@ feature: Setup, Channels
 role: Admin
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e9001ce2-5245-4a8e-8601-dd958009072fid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T23:15:46.632Z
 TQID: https://experienceleague.adobe.com/jxBV37ku9z-b7dzbhzFy0PToJa6gq9x-u-1OMcdkU3g
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1075
+source-wordcount: 1077
 ht-degree: 2%
 
 ---
@@ -32,7 +26,7 @@ Web配置是由交付内容的URL标识的Web属性。 它可以匹配单个页�
 
 **先决条件**
 
-要使用Web渠道，您的网站必须实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以便进行访客识别和内容交付。 确保Adobe Experience Platform Web SDK的版本为2.16或更高版本。
+要使用Web渠道，您的网站必须实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以便进行访客识别和内容交付。 确保Adobe Experience Platform Web SDK的版本为2.16或更高版本。
 
 Journey Optimizer B2B edition中的Web渠道配置需要以下[权限](../admin/user-management.md#b2b-product-permissions)：
 
@@ -63,7 +57,7 @@ Journey Optimizer B2B edition中的Web渠道配置需要以下[权限](../admin/
 
      ![为单页Web渠道配置选择页面URL](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL 页面匹配规则]** — 若要定位多个匹配同一规则的URL，请构建一个匹配规则[&#128279;](#build-a-pages-matching-rule)的页面，并输入&#x200B;**[!UICONTROL 默认创作和预览URL]**。
+   * **[!UICONTROL 页面匹配规则]** — 若要定位多个匹配同一规则的URL，请构建一个匹配规则](#build-a-rule)的[页面，并输入&#x200B;**[!UICONTROL 默认创作和预览URL]**。
 
 1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以保存更改。
 
@@ -73,9 +67,9 @@ Journey Optimizer B2B edition中的Web渠道配置需要以下[权限](../admin/
 
 ## 页面匹配规则 {#pages-matching-rule}
 
-创建Web配置时，您可以生成与规则&#x200B;_匹配的_&#x200B;页面，以定位多个与同一规则匹配的URL。 这些规则允许您在多个页面中应用相同的内容更改。
+创建Web配置时，您可以生成与规则&#x200B;]_匹配的_[!UICONTROL &#x200B;页面，以定位多个与同一规则匹配的URL。 这些规则允许您在多个页面中应用相同的内容更改。
 
-例如，您可能希望将更改应用于整个网站的主页横幅，或添加在所有产品页面上显示的顶部图像。
+例如，将更改应用于整个网站的主页横幅，或添加在所有产品页面上显示的顶部图像。
 
 ### 构建规则
 
@@ -116,15 +110,15 @@ Journey Optimizer B2B edition中的Web渠道配置需要以下[权限](../admin/
 
    ![定义与Web渠道配置匹配的页面规则](./assets/config-web-channel-pages-matching-rules.png){width="600" zoomable="yes"}
 
-1. 如果您的用例需要多个规则，请单击“添加其他页面规则”**&#x200B;**&#x200B;并重复上一步。
+1. 如果您的用例需要多个规则，请单击“添加其他页面规则”****&#x200B;并重复上一步。
 
    * 您最多可以定义10个规则。
 
    * 在不同的规则之间使用&#x200B;**[!UICONTROL Or]**&#x200B;或&#x200B;**[!UICONTROL Exclude]**&#x200B;运算符。
 
-     _[!UICONTROL Or]_&#x200B;是用于定义多个规则的默认运算符，可用于添加多个可匹配的条件定义。
+     _[!UICONTROL Or]_ [!UICONTROL Or]运算符是定义多个规则的默认运算符，可用于添加多个可匹配的条件定义。
 
-     当与定义的规则匹配的某个页面不应被定位时，_[!UICONTROL 排除]_&#x200B;非常有用。 例如，您可以定位包含`lumasecure`但不包括博客页面（如`bodea.com/blogs/lumasecure/latest-release`）的所有`bodea.com`页面。
+     _[!UICONTROL 排除]_ [!UICONTROL 排除]运算符适用于与定义的规则匹配的页面之一不应作为目标的情况。 例如，您可以定位包含`lumasecure`的所有`bodea.com`页面，但排除博客页面（如`bodea.com/blogs/lumasecure/latest-release`）。
 
    ![页面匹配带有排除项的规则](./assets/config-web-channel-pages-matching-rules-exclude.png){width="600" zoomable="yes"}
 
@@ -144,7 +138,7 @@ Journey Optimizer B2B edition中的Web渠道配置需要以下[权限](../admin/
 
 1. 单击重复的Web渠道的名称以编辑参数。
 
-   * 更改名称和描述以匹配规则中的目的或项目。
+   * 要匹配规则中的目的或项目，请更改名称和描述。
    * 如果需要，请更改单页面URL。
    * 如果需要，请根据您的要求更改页面匹配规则。
 

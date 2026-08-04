@@ -6,28 +6,22 @@ role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
 autotag-review: '2026-05-27T16:17:44.938Z'
 TQID: 'https://experienceleague.adobe.com/Jhx5DqeSOi5oTIyBNXw04RagSUFiNx-OPig-vTdFWfU'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: bd3c685c-6c92-4a4a-becb-535cc25215de
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 605
+source-wordcount: 606
 ht-degree: 2%
 
 ---
 
 # 电子邮件个性化的自定义令牌
 
-内容个性化使用令牌作为生成内容工件时填充的占位符或变量。 标准个性化令牌可用于电子邮件、登陆页面、片段和模板。 您还可以使用特定于帐户历程的值定义一组自定义令牌。 这组自定义令牌称为&#x200B;_我的令牌_，其中的任何自定义令牌均适用于[创作历程电子邮件](./email-authoring.md#content-authoring---personalization)时的个性化。
+内容个性化使用令牌作为生成内容工件时填充的占位符或变量。 标准个性化令牌可用于电子邮件、登陆页面、片段和模板。 您还可以使用特定于帐户历程的值定义一组自定义令牌。 这组自定义令牌称为&#x200B;_我的令牌_，在[创作历程电子邮件](./email-authoring.md#personalize-content)时，可使用这些自定义令牌中的任何令牌进行个性化。
 
 除了特定于帐户历程的&#x200B;_我的令牌_&#x200B;之外，您还可以使用任何用于电子邮件个性化的标准（内置）令牌。
 
@@ -35,7 +29,7 @@ ht-degree: 2%
 
 _我的令牌_&#x200B;是您为处于草稿状态的帐户历程创建或修改的自定义变量。 此自定义令牌集当前支持文本和数字令牌定义。
 
-向电子邮件添加自定义令牌时，会显示为`{{my.TokenName}}`。 例如，您可能创建了`{{my.EventDate}}`或`{{my.WebinarSpeaker}}`个令牌以管理与即将召开的网络研讨会相关的电子邮件内容。
+向电子邮件添加自定义令牌时，会显示为`{{my.TokenName}}`。 例如，您已创建`{{my.EventDate}}`或`{{my.WebinarSpeaker}}`个令牌以管理与即将召开的网络研讨会相关的电子邮件内容。
 
 要访问帐户历程&#x200B;:_的自定义令牌(_T)
 
@@ -61,7 +55,7 @@ _我的令牌_&#x200B;是您为处于草稿状态的帐户历程创建或修改�
 
    ![输入文本令牌的名称和值](./assets/my-tokens-create-text-token-dialog.png){width="400"}
 
-   令牌名称中不能使用空格或特殊字符。 您可以使用&#x200B;_驼峰式大小写_（如`EventType`）来使用易于识别的多词名称。
+   令牌名称中不能使用空格或特殊字符。 您可以使用驼峰式大小写（如`EventType`）来使用易于识别的多词名称。
 
    如果要定义&#x200B;_数字_&#x200B;令牌，该值只能包含数字字符。 您可以使用十进制值。
 

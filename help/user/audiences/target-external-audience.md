@@ -4,27 +4,17 @@ description: 通过帐户历程将外部受众激活到 [!DNL Adobe Target] 。 
 feature: Integrations, Audiences, Account Journeys
 role: User, Admin
 exl-id: 8feb1dc2-2f1f-46bc-bffa-fafea956d84f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: 2026-03-30T19:48:50.374Z
 TQID: https://experienceleague.adobe.com/IJVV0NyMn-2Ij2Yvg2mAUL5SLdG6mXcf-k-tD3Nl850
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 720
-ht-degree: 2%
+source-wordcount: 715
+ht-degree: 3%
 
 ---
 
@@ -32,14 +22,14 @@ ht-degree: 2%
 
 您可以通过帐户历程在[!DNL Adobe Target]中激活和个性化外部受众体验。 使用此集成实现高级和量身定制的个性化以提高参与度，并维护[!DNL Target]和[!DNL Journey Optimizer B2B Edition]之间的跨平台一致性。 此一致性确保团队在整个B2B购买者历程中为购买群体调整Web渠道并使其个性化。
 
-通过Adobe Target激活外部受众分为两步工作流：
+通过Adobe Target激活外部受众需要分两步完成的工作流：
 
 1. 从历程[添加到外部客户受众](#add-to-customer-external-audience-from-a-journey)。
 2. [在Experience Platform中将外部受众](#activate-the-external-audience-to-target-as-a-destination)激活到[!DNL Target]作为目标。
 
 ## 从历程添加到客户外部受众
 
-在您的历程中，[添加&#x200B;_执行操作_&#x200B;节点](../journeys/action-nodes.md)以执行&#x200B;_[!UICONTROL 添加到外部客户受众]_&#x200B;操作。 操作通常是您希望因某种类型的触发器（例如事件或上一个操作）而发生的操作。 当具有人员配置文件的合格帐户到达节点时，历程会执行操作。
+在您的历程中，[添加&#x200B;_执行操作_&#x200B;节点](../journeys/action-nodes.md)以执行&#x200B;_[!UICONTROL 添加到外部客户受众]_&#x200B;操作。 操作通常是触发器的结果，例如事件或上一个操作。 当具有人员配置文件的合格帐户到达节点时，历程会执行操作。
 
 >[!NOTE]
 >
@@ -53,7 +43,7 @@ ht-degree: 2%
 
 1. 从右侧的节点属性中，设置外部受众。
 
-   * 如果已创建一个或多个外部受众，则可以选择&#x200B;**[!UICONTROL 选择现有]**&#x200B;和[选择要使用的受众](#choose-an-external-audience)。
+   * 如果已创建一个或多个外部受众，则可以选择&#x200B;**[!UICONTROL 选择现有]**&#x200B;和[选择要使用的受众](#select-an-external-audience)。
 
    * 如果要[创建受众](#create-an-external-audience)以用于节点，请选择&#x200B;**[!UICONTROL 新建]**。
 
@@ -124,4 +114,4 @@ ht-degree: 2%
 
    ![Experience Platform — 目标 — 激活目标 — 审核](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}
 
-激活后，您可以在[Adobe Target受众](https://experienceleague.adobe.com/zh-hans/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"}中看到该受众，并在Adobe Target活动中使用它们。
+激活后，您可以在[Adobe Target受众](https://experienceleague.adobe.com/en/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"}中看到该受众，并在Adobe Target活动中使用该受众。

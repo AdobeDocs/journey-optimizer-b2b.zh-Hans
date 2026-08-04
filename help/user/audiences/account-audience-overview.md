@@ -4,24 +4,17 @@ description: 通过分段生成帐户受众，精准定位特定帐户，并在 
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-03-30T19:50:18.033Z
 TQID: https://experienceleague.adobe.com/JvPzSX83WY7Edws8IMHseCSwqFR4Ro-jy-UO-WvRgDc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 585
-ht-degree: 92%
+source-wordcount: 600
+ht-degree: 74%
 
 ---
 
@@ -33,14 +26,14 @@ ht-degree: 92%
 
 ## 帐户受众工作流
 
-您可以将 Journey Optimizer B2B Edition 视为未出现在目标目录中的 Experience Platform（AEP）目标。 使用以下步骤将帐户受众激活到 Journey Optimizer B2B Edition：
+Journey Optimizer B2B edition可充当目标目录中不存在的Experience Platform (AEP)目标。 使用以下步骤将帐户受众激活到 Journey Optimizer B2B Edition：
 
 1. 为 AEP 中的数据创建架构。
 1. 将您的数据引入 AEP。
 1. 创建一个帐户区段，以评估您的数据。
 1. 将已评估的数据激活至 Journey Optimizer B2B Edition。
 
-在 Journey Optimizer B2B Edition 中，帐户受众用作基于帐户的历程的输入，让您可以定位这些帐户中的人。 例如，您可以使用帐户受众来检索所有那些首席运营官（COO）或首席营销官（CMO）职位人员缺少联系信息的帐户记录。
+在 Journey Optimizer B2B Edition 中，帐户受众用作基于帐户的历程的输入，让您可以定位这些帐户中的人。 例如，您可以使用帐户受众来检索所有帐户记录，这些帐户中任何担任首席运营官（COO）或首席营销官（CMO）的人员都没有联系信息。
 
 Journey Optimizer B2B Edition 允许您直接从左侧导航栏生成 Adobe Experience Platform（AEP）帐户受众，并将其纳入您的帐户历程中。
 
@@ -48,7 +41,7 @@ Journey Optimizer B2B Edition 允许您直接从左侧导航栏生成 Adobe Expe
 
 ## 创建帐户受众
 
-通过创建帐户分段来定义帐户受众。 您可以选择直接在 Journey Optimizer B2B Edition 应用程序中，也可以使用[区段生成器 UI](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"} 创建帐户分段。 以下是在 Journey Optimizer B2B Edition 中创建帐户分段的步骤。
+通过创建帐户区段来定义帐户受众。 您可以选择直接在Journey Optimizer B2B edition应用程序中创建帐户区段，也可以使用[区段生成器UI](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}。 以下是可用于在Journey Optimizer B2B edition中创建帐户区段的步骤。
 
 1. 在左侧导航栏中，选择&#x200B;**[!UICONTROL 帐户]** > **[!UICONTROL 受众]**。
 
@@ -56,7 +49,7 @@ Journey Optimizer B2B Edition 允许您直接从左侧导航栏生成 Adobe Expe
 
 1. 构建区段定义。
 
-   帐户属性和受众显示在左侧导航栏中。 在&#x200B;_[!UICONTROL 属性]_&#x200B;选项卡中，您可以添加平台创建的属性和自定义属性。 拖动每个属性来构建该区段的逻辑。
+   帐户属性和受众显示在左侧导航栏中。 在&#x200B;_[!UICONTROL 属性]_&#x200B;选项卡中，您可以添加平台创建的属性和自定义属性。 要构建区段的逻辑，请拖动每个属性。
 
    >[!TIP]
    >
@@ -64,7 +57,7 @@ Journey Optimizer B2B Edition 允许您直接从左侧导航栏生成 Adobe Expe
    >
    >在&#x200B;_[!UICONTROL 受众]_&#x200B;选项卡中，您可以添加之前创建的基于人员的受众，并以此为基础创建自己的帐户受众。
 
-   以下示例定义了使用 `Country Code`、`Revenue Amount` 和 `Market segment` 创建的受众。 用中文查询的话就是“我想要财务区段中收入超过 100 万美元的所有美国帐户”。
+   以下示例定义了使用`Country Code`、`Revenue Amount`和`Market segment`创建的受众。 用英语回答的问题是，“我想让所有收入超过100万美元的美国账户都加入财务部门。”
 
    ![帐户受众区段生成器示例](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
    <br/>
@@ -78,4 +71,4 @@ Journey Optimizer B2B Edition 允许您直接从左侧导航栏生成 Adobe Expe
 
 1. 单击右上角的&#x200B;**[!UICONTROL 保存并关闭]**。
 
-要激活 Journey Optimizer B2B Edition 的帐户受众，您必须[将其添加到帐户历程](../journeys/journeys-overview.md#add-the-account-audience-for-your-journey)，然后[发布历程](../journeys/journeys-overview.md)。
+要激活 Journey Optimizer B2B Edition 的帐户受众，您必须[将其添加到帐户历程](../journeys/account-audience-nodes.md)，然后[发布历程](../journeys/journeys-overview.md)。

@@ -4,21 +4,16 @@ description: 通过历程简化需求生成 — 在Journey Optimizer B2B edition
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1512
+source-wordcount: 1504
 ht-degree: 42%
 
 ---
@@ -33,7 +28,7 @@ Journey Optimizer B2B edition支持两种历程类型：
 
   ![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看帐户历程概述视频](#overview-video)
 
-* **人员历程** - (Beta)使用Experience Platform受众和数据编排基于潜在客户的营销。 对于人员历程，您的营销操作不依赖于Marketo Engage或Adobe Campaign/B2C工具链的解决方法，因此它们可以处理B2B用例。
+* **人员历程** - (Beta)使用Experience Platform受众和数据编排基于商机的营销。 对于人员历程，您的营销操作不依赖于Marketo Engage或Adobe Campaign/B2C工具链的解决方法，因此它们可以支持B2B用例。
 
   当与帐户历程和购买群组一起使用时，人员历程可以为营销人员提供将整个编排应用于购买历程的功能。
 
@@ -41,17 +36,17 @@ Journey Optimizer B2B edition支持两种历程类型：
 
   存在可能阻止某些用例或导致创建人员历程困难的限制。 许多问题都是初始Beta计划实施的结果，有待将来解决。
 
-   * 事件不能与配置文件属性结合使用，以缩小受众定义的范围。
-   * 符合历程用户档案条件的事件上下文不能用于个性化或编排。
-   * 历程当前不能同时具有事件和配置文件区段录入条件。
-   * 事件侦听器无法侦听多个事件。
-   * 等待节点当前没有针对一周中的某天或每天时间的退出标准的整套选项。
-   * 电子邮件编辑器错误地引用了仅适用于Account历程的功能和属性
-   * 尚不支持自定义历程令牌（_我的令牌_）。
-   * 从人员历程节点添加和删除当前不可从任一历程类型中使用。
-   * 事件历史记录无法用于编排或个性化。
-   * 相关对象（如帐户、购买群组、商机和自定义对象）无法用于编排或个性化。
-   * 当前不支持Web、短信和广告平台渠道。
+  * 事件不能与配置文件属性结合使用，以缩小受众定义的范围。
+  * 符合历程用户档案条件的事件上下文不能用于个性化或编排。
+  * 历程当前不能同时具有事件和配置文件区段录入条件。
+  * 事件侦听器无法侦听多个事件。
+  * 等待节点当前没有针对一周中的某天或每天时间的退出标准的整套选项。
+  * 电子邮件编辑器错误地引用了仅适用于Account历程的功能和属性
+  * 尚不支持自定义历程令牌（_我的令牌_）。
+  * 从人员历程节点添加和删除当前不可从任一历程类型中使用。
+  * 事件历史记录无法用于编排或个性化。
+  * 相关对象（帐户、购买组、商机和自定义对象）无法用于编排或个性化。
+  * 当前不支持Web、短信和广告平台渠道。
 
   +++
 
@@ -114,11 +109,11 @@ Journey Optimizer B2B edition支持两种历程类型：
 
 | 状态 | 描述 | 可用操作 |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**草稿**&#x200B;_ | 可编辑的未发布历程。 | <li>[发布](./create-publish-journey.md#publish-a-journey)<li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
-| _&#x200B;**实时**&#x200B;_ | 历程发布后，历程状态从&#x200B;_草稿_&#x200B;更改为&#x200B;_实时_。 在这种状态下，历程无法再编辑。 | <li>[重复](#duplicate-journey)<li>[对新条目关闭](#close-to-new-entries) <li>[中止](#abort-journey) |
-| _&#x200B;**对新条目关闭**&#x200B;_ | 单击顶部导航中的[!UICONTROL 对新条目关闭]，历程状态从&#x200B;_实时_&#x200B;变为&#x200B;_对新条目关闭_。 | <li>[重复](#duplicate-journey) <li>[中止](#abort-journey) |
-| _&#x200B;**已中止**&#x200B;_ | 历程中止后，历程状态从&#x200B;_实时_&#x200B;或&#x200B;_对新条目关闭_&#x200B;改变。 已中止历程无法重新开始。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
-| _&#x200B;**已完成**&#x200B;_ | 当历程中的所有帐户或人员受众成员完成历程时，状态将从&#x200B;_实时_&#x200B;或&#x200B;_已关闭到新条目_&#x200B;更改为&#x200B;_已完成_。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
+| _**草稿**_ | 可编辑的未发布历程。 | <li>[发布](./create-publish-journey.md#publish-a-journey)<li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
+| _**实时**_ | 历程发布后，历程状态从&#x200B;_草稿_&#x200B;更改为&#x200B;_实时_。 在这种状态下，历程无法再编辑。 | <li>[重复](#duplicate-journey)<li>[对新条目关闭](#close-to-new-entries) <li>[中止](#abort-journey) |
+| _**对新条目关闭**_ | 单击顶部导航中的[!UICONTROL 对新条目关闭]，历程状态从&#x200B;_实时_&#x200B;变为&#x200B;_对新条目关闭_。 | <li>[重复](#duplicate-journey) <li>[中止](#abort-journey) |
+| _**已中止**_ | 历程中止后，历程状态从&#x200B;_实时_&#x200B;或&#x200B;_对新条目关闭_&#x200B;改变。 已中止历程无法重新开始。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
+| _**已完成**_ | 当历程中的所有帐户或人员受众成员完成历程时，状态将从&#x200B;_实时_&#x200B;或&#x200B;_已关闭到新条目_&#x200B;更改为&#x200B;_已完成_。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
 
 ## 历程映射
 
@@ -200,7 +195,7 @@ Journey Optimizer B2B edition支持两种历程类型：
 
    重复的历程在历程图中打开，您可以在其中设置详细信息并根据需要创建历程内容。
 
-### 删除历程
+### 删除历程 {#delete-journey}
 
 使用删除操作来永久删除历程。 您不能删除正在进行或已计划的历程。
 
@@ -216,7 +211,7 @@ Journey Optimizer B2B edition支持两种历程类型：
 
 ## 查看帐户进程
 
-对于处于&#x200B;_实时_、_对新条目关闭_、_已中止_&#x200B;或&#x200B;_已完成_&#x200B;状态的已发布帐户历程，您可以打开历程映射以查看历程节点的帐户进度。 历程图中的每个节点都会显示达到该节点的帐户数量，以及（对于运行中的历程）当前停留在该节点的帐户数量。
+对于&#x200B;_实时_、_对新条目关闭_、_已中止_&#x200B;或&#x200B;_已完成_&#x200B;状态的已发布帐户历程，请打开历程映射以查看历程节点的帐户进度。 历程图中的每个节点都会显示达到该节点的帐户数量，以及（对于运行中的历程）当前停留在该节点的帐户数量。
 
 ![历程节点帐户进程信息](./assets/node-account-progression-observability.png){width="400"}
 
@@ -226,4 +221,4 @@ Journey Optimizer B2B edition支持两种历程类型：
 
 ## 帐户历程概述视频 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443217/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

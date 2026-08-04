@@ -6,22 +6,16 @@ role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
 autotag-review: '2026-05-27T16:19:08.483Z'
 TQID: 'https://experienceleague.adobe.com/Y3QgxZVcu76zBWJp9Ky7dUWjSOGg5JoPcPzPFrNsDXo'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1603
-ht-degree: 7%
+source-wordcount: 1625
+ht-degree: 6%
 
 ---
 
@@ -40,14 +34,14 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_fragment"
 >title="关于结构组件"
->abstract="结构组件是一种布局元素，可用于设计片段的结构。"
+>abstract="结构组件是一种布局元素，可用于设计一个片段的结构。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_template"
 >title="关于结构组件"
 >abstract="结构组件是一种布局元素，可用于设计模板的结构。"
 
-使用可视化设计空间中的&#x200B;_结构组件_&#x200B;定义内容的结构。 通过简单的拖放操作添加和移动结构元素，您可以快速定义内容布局的形状。 每个结构组件跨越水平空间，您可以栈叠它们以垂直构建布局。 将每个组件划分为列，以形成所需的每个内容块。
+使用可视化设计空间中的&#x200B;_结构组件_&#x200B;定义内容的结构。 通过简单的拖放操作添加和移动结构元素，您可以快速定义内容布局的结构。 每个结构组件跨越水平空间，您可以栈叠它们以垂直构建布局。 要形成所需的每个内容块，请将每个组件划分为多个列。
 
 ## 结构库
 
@@ -56,13 +50,13 @@ ht-degree: 7%
 | 图标 | 组件。 | 描述 |
 | ----- | ----------- | ----------- |
 | ![1:1列图标](../assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1列] | 填充空格宽度的单列容器。 |
-| ![1:2列图标](../assets/do-not-localize/icon-design-structure-1-2.png) | 剩余[!UICONTROL 1:2列] | 两列容器，使用1:2比率填充空间的宽度。 第一（左）列占据宽度的三分之一，第二（右）列占据剩余的三分之二。 |
-| ![1:3列图标](../assets/do-not-localize/icon-design-structure-1-3.png) | 剩余[!UICONTROL 1:3列] | 两列容器，使用1:3比率填充空间的宽度。 第一（左）柱占据宽度的四分之一，第二（右）柱占据剩余的四分之三。 |
-| ![2:1列图标](../assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1列右侧] | 两列容器，使用2:1比率填充空间的宽度。 第一（左）列占据宽度的三分之二，第二（右）列占据剩余的三分之一。 |
-| ![2:2列图标](../assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2列] | 两列容器，使用2:2比率填充空间的宽度。 左列和右列的宽度相等。 |
-| ![3:1列图标](../assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1列右侧] | 两列容器，使用3:1的比率填充空间的宽度。 第一（左）柱占据宽度的四分之三(75%)，第二（右）柱占据剩余的四分之一(25%)。 |
+| ![1:2列图标](../assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2列左对齐] | 两列容器，使用1:2的比例填充空间的宽度。 第一（左）列占据宽度的三分之一，第二（右）列占据剩余的三分之二。 |
+| ![1:3列图标](../assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3列左对齐] | 两列容器，使用1:3的比例填充空间的宽度。 第一（左）柱占据宽度的四分之一，第二（右）柱占据剩余的四分之三。 |
+| ![2:1列图标](../assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1列右对齐] | 由两列构成的容器，使用2:1的比率填充空间的宽度。 第一（左）列占据宽度的三分之二，第二（右）列占据剩余的三分之一。 |
+| ![2:2列图标](../assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2列] | 由两列构成的容器，使用2:2的比率填充空间的宽度。 左列和右列的宽度相等。 |
+| ![3:1列图标](../assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1列右对齐] | 两列容器，使用3:1的比率填充空间的宽度。 第一（左）柱占据宽度的四分之三(75%)，第二（右）柱占据剩余的四分之一(25%)。 |
 | ![3:3列图标](../assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3列] | 三列容器，使用3:3的比率填充空间的宽度。 三列的宽度相等。 |
-| ![4:4列图标](../assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4列] | 四列容器，使用4:4比率填充空间的宽度。 四列的宽度相等。 |
+| ![4:4列图标](../assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4列] | 四列容器，使用4:4的比率填充空间的宽度。 四列的宽度相等。 |
 | ![n:n列图标](../assets/do-not-localize/icon-design-structure-n-n.png) | [!UICONTROL n:n列] | 一种可自定义的列结构，根据您定义的列填充空间。 您可以设置列数（介于2和10之间）并单独设置每列的宽度。 [了解详情](#change-nn-columns) |
 
 ## 添加结构组件
@@ -86,7 +80,7 @@ ht-degree: 7%
 
 ### 组件设置
 
-添加组件后，将在可视设计空间中选择该组件，其属性将显示在右侧面板中。 默认显示&#x200B;_[!UICONTROL 设置]_&#x200B;选项卡。 您还可以随时选择结构组件以更改设置。
+添加组件后，将在可视设计空间中选择该组件，其属性将显示在右侧面板中。 默认情况下，系统显示&#x200B;_[!UICONTROL 设置]_&#x200B;选项卡。 您还可以随时选择结构组件以更改设置。
 
 #### 显示选项
 
@@ -127,9 +121,9 @@ ht-degree: 7%
 
 ![背景拾色器](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
-#### [!UICONTROL 背景图像]
+#### [!UICONTROL 背景图像] {#background-image}
 
-移动切换选择器以启用背景图像设置。
+要启用背景图像设置，请移动切换选择器。
 
 ![背景图像设置](./assets/structure-components-background-image-settings.png){width="250"}
 
@@ -159,7 +153,7 @@ ht-degree: 7%
 
 ### 其他样式
 
-您可以应用其他结构组件样式来调整其在电子邮件或登陆页面中的显示。
+要调整其在电子邮件消息或登陆页面中的显示，可以应用其他结构组件样式。
 
 +++边框
 
@@ -209,7 +203,7 @@ ht-degree: 7%
 
 ### 列样式
 
-在画布中选择列后，您可以设置样式以应用于该列。
+要设置样式以应用于该列，请在画布中选择该列。
 
 +++背景
 
@@ -217,7 +211,7 @@ ht-degree: 7%
 
   ![背景拾色器](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
-* **[!UICONTROL 背景图像]** — 移动切换选择器以启用背景图像设置。
+* **[!UICONTROL 背景图像]** — 要启用背景图像设置，请移动切换选择器。
 
   ![背景图像设置](./assets/structure-components-background-image-settings.png){width="250"}
 
