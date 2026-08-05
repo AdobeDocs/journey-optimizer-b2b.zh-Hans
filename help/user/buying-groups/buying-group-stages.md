@@ -17,9 +17,9 @@ topic_v2:
   - id: d9b663ab-b785-4c49-8fc3-d3dda520c908
 autotag-review: 2026-03-30T21:47:43.205Z
 TQID: https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 2357
+source-wordcount: 2326
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 购买组阶段旨在跟踪购买组在将机会转化为客户方面的进度。 使用此功能跟踪购买团体进度，并确定适合购买团体成员的下一个最佳操作。
 
-在单个分段模型中定义阶段，定义多个阶段以及它们之间的转换流。 一个或多个阶段被指定进入生命周期。 模型还允许非线性渐变，在其中可以指定从一个阶段到另一个阶段的过渡，例如从阶段A到阶段B、C或D。要求将一个阶段指定为成功阶段，例如购买或签署合同。 可选地将另一个阶段指定为失败阶段，例如被拒绝的合同或从另一个供应商处购买竞争解决方案。 通过[智能仪表板](../dashboards/intelligent-dashboard.md)监控这些阶段，显示购买组在完成销售机会或将机会转化为客户方面的进展情况。
+在单个分段模型中定义阶段，定义多个阶段以及它们之间的转换流。 一个或多个阶段被指定进入生命周期。 该模型允许非线性进展，例如从阶段A到阶段B、C或D。必须将一个阶段指定为成功阶段，例如购买或签署的合同。 将另一个阶段指定为失败阶段是可选的，例如被拒绝的合同或从另一个供应商购买竞争解决方案。 通过[智能仪表板](../dashboards/intelligent-dashboard.md)监控这些阶段，显示购买组在完成销售机会或将机会转化为客户方面的进展情况。
 
 ![购买团体阶段示例](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
@@ -42,7 +42,7 @@ ht-degree: 2%
 * 定义过渡流
 * 指定登入阶段和目标阶段
 
-仅支持一个模型，因此重要的是在您的营销和销售团队之间合作，以便在Journey Optimizer B2B edition中创建和发布模型之前为组织规划最佳模型。<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
+仅支持一个模型；要规划最佳模型，请先与您的营销和销售团队合作，然后再在Journey Optimizer B2B edition中创建和发布该模型。<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
 
 创建购买组阶段模型时，该模型会自动处于&#x200B;_草稿_&#x200B;状态，不能删除或重新命名。 当您定义阶段并配置阶段之间的转换流时，它仍保持此状态。 当模型处于已发布（_实时_）状态时，无法对其进行更改。
 
@@ -94,7 +94,7 @@ ht-degree: 2%
 
 ### 配置工作流和过渡规则
 
-保存阶段后，它将返回到模型工作区。 _[!UICONTROL 允许传输到]_&#x200B;列为空，这表示尚未定义模型阶段的过渡规则。
+保存阶段后，您将返回到模型工作区。 _[!UICONTROL 允许传输到]_&#x200B;列为空，这表示尚未定义模型阶段的过渡规则。
 
 ![过渡规则尚未定义](assets/stages-model-stages-empty-rules.png){width="700" zoomable="yes"}
 
@@ -118,11 +118,11 @@ ht-degree: 2%
 
 1. 对于每个非目标阶段，定义流中下一个出现的一个或多个阶段（过渡）。
 
-   所有非目标阶段必须至少选择一个&#x200B;**[!UICONTROL 允许传输到]**&#x200B;阶段。 否则，模型逻辑无效，帐户可能会在该阶段陷入&#x200B;_停滞_，无法进入成功或失败状态。
+   所有非目标阶段必须至少选择一个&#x200B;**[!UICONTROL 允许传输到]**&#x200B;阶段。 否则，模型逻辑无效，帐户可能停留在当前阶段，无从取得成功或失败。
 
    ![配置非目标阶段之间的转换](./assets/stages-model-edit-stage-rules-transitons.png){width="700" zoomable="yes"}
 
-   您可以选择从失败阶段指定过渡。 例如，您可以将名为&#x200B;_无响应_&#x200B;的阶段指定为失败阶段。 但也指定名为&#x200B;_Resurgence_&#x200B;的阶段作为可能的过渡，以识别重新激活休眠帐户的情况。
+   您可以选择从失败阶段指定过渡。 例如，将名为&#x200B;_无响应_&#x200B;的阶段指定为失败阶段。 但也指定名为&#x200B;_Resurgence_&#x200B;的阶段作为可能的过渡，以识别重新激活休眠帐户的情况。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -227,7 +227,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. 选择&#x200B;_[!UICONTROL Solution interest]_&#x200B;选项卡。
 
-1. 使用以下方法之一打开感兴趣的解决方案，以打开要编辑的解决方案感兴趣的属性：
+1. 使用以下方法之一打开要编辑的解决方案感兴趣的属性：
 
    * 单击解决方案的兴趣名称。
    * 单击省略号(**...**) 并选取&#x200B;**[!UICONTROL 编辑]**。
@@ -246,7 +246,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ### 拆分路径
 
-使用[拆分路径节点](../journeys/journey-nodes.md#split-paths)，可以根据购买组阶段在帐户级别或人员级别进行筛选。 例如，在通过购买组成员拆分路径时，添加购买组阶段作为路径条件。
+使用[拆分路径节点](../journeys/split-merge-paths-nodes.md#split-paths)，可以根据购买组阶段在帐户级别或人员级别进行筛选。 例如，在通过购买组成员拆分路径时，添加购买组阶段作为路径条件。
 
 >[!BEGINTABS]
 
@@ -264,7 +264,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
    ![拆分路径节点 — 添加条件](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
-1. 在条件编辑器中，添加购买组筛选器以定义拆分路径。
+1. 要定义拆分路径，请在条件编辑器中添加购买组过滤器。
 
    * 在左侧，展开底部的&#x200B;**[!UICONTROL 特殊过滤器]**，并将&#x200B;**[!UICONTROL 具有购买群组]**&#x200B;属性拖动到过滤器工作区。
 
@@ -298,7 +298,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
    ![拆分路径节点 — 添加条件](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
-1. 在条件编辑器中，添加购买组筛选器以定义拆分路径。
+1. 要定义拆分路径，请在条件编辑器中添加购买组过滤器。
 
    * 在左侧，展开底部的&#x200B;**[!UICONTROL 特殊筛选器]**，并将&#x200B;**[!UICONTROL 购买群组成员]**&#x200B;属性拖到筛选器工作区上。
 
@@ -320,7 +320,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ### 更新购买组阶段帐户操作
 
-使用[帐户操作节点](../journeys/journey-nodes.md#add-an-account-action)，您可以更新购买群组阶段。 定义此节点包括选择解决方案兴趣和定义购买组的新阶段。
+使用[帐户操作节点](../journeys/action-nodes.md#add-an-account-based-action)，您可以更新购买群组阶段。 定义此节点包括选择解决方案兴趣和定义购买组的新阶段。
 
 >[!NOTE]
 >
@@ -334,7 +334,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. 在右侧的节点属性中，为操作选择&#x200B;**[!UICONTROL 帐户]**。
 
-1. 定义操作以更新购买组阶段。
+1. 要更新购买组阶段，请定义操作。
 
    * 若要对帐户&#x200B;**执行**&#x200B;操作，请选择&#x200B;**[!UICONTROL 更新购买团体阶段]**。
 

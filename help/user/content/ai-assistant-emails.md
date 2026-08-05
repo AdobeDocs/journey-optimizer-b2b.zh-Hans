@@ -21,16 +21,16 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: 2026-03-30T21:53:30.297Z
 TQID: https://experienceleague.adobe.com/r6LXhsac6WcX015k3NIm-MOIvtqG7EUf1XK4p1adhAo
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 3592
+source-wordcount: 3582
 ht-degree: 0%
 
 ---
 
 # 电子邮件内容的AI助手
 
-随着营销行业的竞争日益激烈，各大品牌都在寻求高效的方法来快速高效地生成有影响力的内容。 用于[!DNL Adobe Journey Optimizer B2B Edition]中电子邮件创作的AI Assistant是Adobe提供的AI支持的内容生成功能，它彻底改变了营销人员创建专业且品牌一致的电子邮件内容的方式。 借助先进的创作AI模型和对品牌准则的深入了解，AI Assistant可自动生成个性化、吸引人和有效的内容。 它利用您的营销目标并优化品牌概述样式、布局、色调等内容。 AI Assistant使电子邮件营销活动的创建和执行变得直观、简单而轻松。 将此功能添加到工作流可以节省时间、提高效率并取得更好的结果。
+随着营销行业的竞争日益激烈，各大品牌都在寻求高效的方法来快速高效地生成有影响力的内容。 用于[!DNL Adobe Journey Optimizer B2B Edition]中电子邮件创作的AI Assistant是Adobe提供的AI支持的内容生成功能，它彻底改变了营销人员创建专业且品牌一致的电子邮件内容的方式。 借助先进的创作AI模型和对品牌准则的深入了解，AI Assistant可自动生成个性化、吸引人和有效的内容。 它利用您的营销目标并优化品牌概述样式、布局、色调等内容。 AI Assistant使电子邮件营销活动的创建和执行变得直观、简单而高效。 将此功能添加到工作流可以节省时间、提高效率并取得更好的结果。
 
 这项新功能提供了基于提示的内容生成功能，可用于生成完整的电子邮件或在电子邮件结构组件中对其进行定位。 对于图像，您可以生成新的图像资产，或从输入品牌资产的图像目录中生成推荐。 您还可以使用此功能生成最佳主题行和预标题，从而影响电子邮件打开率。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 准则和限制
 
-在开始使用此功能之前，请查看[准则和限制](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)。 在[!DNL Journey Optimizer B2B Edition]中使用AI功能之前，还需要用户同意[&#128279;](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
+在开始使用此功能之前，请查看[准则和限制](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)。 在[!DNL Journey Optimizer B2B Edition]中使用AI功能之前，还需要用户同意[&#128279;](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
 
 为增加透明度，Adobe在下载或导出时将[内容凭据](https://helpx.adobe.com/cn/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}应用于Firefly生成的资源。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ### 提示
 
-为创作AI模型使用定义良好的提示来准确地解释。 您提供的营销目标/提示会极大地影响所生成内容的质量。
+为创作AI模型使用定义良好的提示来准确地解释。 您提供的营销目标/提示会影响所生成内容的质量。
 
 ![提示字段](./assets/gen-ai-prompt.png){width="320"}
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ![AI助手 — 访问提示库](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
 
-选择最能反映您预期目标的提示，然后单击&#x200B;**[!UICONTROL 尝试此提示]**。 在&#x200B;_[!UICONTROL 提示]_&#x200B;字段中，将任意占位符（如`[Key Feature/Information]`）替换为指定您的品牌、产品、营销活动和用例所需的值。
+选择最能反映您预期目标的提示，然后单击&#x200B;**[!UICONTROL 尝试此提示]**。 在&#x200B;_[!UICONTROL 提示]_&#x200B;字段中，将任意占位符（如`[Key Feature/Information]`）替换为指定品牌、产品、营销活动和用例的值。
 
 >[!ENDSHADEBOX]
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 展开右侧面板中的&#x200B;**[!UICONTROL 文本设置]**，并设置生成文本的选项。
 
-* **[!UICONTROL 购买群]** — 选择[购买群角色](../buying-groups/buying-groups-role-templates.md)，以用于定位您的消息传送。 [!DNL Journey Optimizer B2B Edition]提供五个现成的标准B2B购买团体角色。 每个购买团体角色都有不同的消息传递重点：
+* **[!UICONTROL 购买群]** — 选择[购买群角色](../buying-groups/buying-groups-role-templates.md)，以用于定位您的消息传送。 [!DNL Journey Optimizer B2B Edition]提供五个预先配置的标准B2B购买小组角色。 每个购买团体角色都有不同的消息传递重点：
 
   | 角色 | 消息传送重点 |
   | ---- | --------------- |
@@ -93,7 +93,7 @@ ht-degree: 0%
 * **[!UICONTROL 营销历程阶段]** — 选择[购买团体阶段](../buying-groups/buying-group-stages.md)，以用于消息传递的定位。
 * **[!UICONTROL 通信策略]** — 为生成的文本选择最合适的通信样式。
 * **[!UICONTROL 语言]** — 选择所生成内容的语言。
-* **[!UICONTROL 音调]** — 该音调应该与您的受众产生共鸣。 例如，您可以将消息调整为提供声音信息、富有趣味或有说服力。
+* **[!UICONTROL 音调]** — 与您的受众产生共鸣的音调。 例如，您可以将消息调整为提供声音信息、富有趣味或有说服力。
 
 ![文本设置面板，显示购买群组、营销历程阶段、沟通策略、语言和音调选项](./assets/gen-ai-text-settings.png){width="350" zoomable="yes"}
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 默认情况下，系统禁用&#x200B;**[!UICONTROL 使用AI生成图像]**&#x200B;选项。 启用此功能并设置以下选项以在建议的内容变体中包含生成的图像：
 
 * **[!UICONTROL 创成模型]**：从现成的Adobe提供的模型、用于专门功能的合作伙伴模型或根据您的品牌资源训练的配置自定义模型中选择。 有关创成模型的详细信息，请参阅&#x200B;_[用于品牌对齐的创成AI模型](generative-ai-models.md)_。
-* **[!UICONTROL 宽高比]**：选择图像组件时，此设置将确定资源的宽度和高度。 从通用比率（如16:9、4:3、3:2或1:1）中选择，或输入自定义大小。
+* **[!UICONTROL 宽高比]**：选择图像组件时，此设置将确定资源的宽度和高度。 从常用比率（如16:9、4:3、3:2或1:1）中进行选择，或输入自定义比率。
 * **[!UICONTROL 内容类型]**：该类型对可视元素的性质进行分类，区分不同的可视表示形式，如照片、图形或艺术品。
 * **[!UICONTROL 视觉强度]**：通过调整图像的强度来控制其影响。 较低的设置（如2）可创建更柔和、更受限的外观，而较高的设置（如10）则使图像更生动、视觉更强大。
 * **[!UICONTROL 颜色和色调]**：图像内颜色的总体外观及其传达的情绪或气氛。
@@ -188,7 +188,7 @@ ht-degree: 0%
 
 >[!TAB 预标头生成]
 
-电子邮件预告是在收件箱中查看电子邮件时遵循主题行的简短摘要文本。 它是电子邮件的一项可选元素，但也是提高参与度的绝佳机会。 以下步骤描述了使用AI Assistant为您的电子邮件生成优化的预标头的任务序列：
+电子邮件预告是在收件箱中查看电子邮件时遵循主题行的简短摘要文本。 它是电子邮件的一项可选元素，但也是提高参与度的有效机会。 以下步骤描述了使用AI Assistant为您的电子邮件生成优化的预标头的任务序列：
 
 1. 在选择了&#x200B;_详细信息_&#x200B;选项卡的&#x200B;_摘要_&#x200B;面板中，向下滚动并选择&#x200B;**[!UICONTROL 预标题]**&#x200B;复选框。
 
@@ -213,7 +213,7 @@ ht-degree: 0%
 
 1. 滚动AI助手面板并浏览生成的变体以确定哪个变体最适合。
 
-   您可以通过单击&#x200B;_拇指向上_、_拇指向下_&#x200B;或&#x200B;_标志_&#x200B;图标为生成的变体[提交反馈](#submit-variation-feedback)，并选择最能总结您的反馈的原因。
+   您可以通过单击&#x200B;_拇指向上_、_拇指向下_&#x200B;或&#x200B;_标志_&#x200B;图标并选择最能总结您的反馈的原因来为生成的变体[提交反馈](#submit-variation-feedback)。
 
 1. 单击&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
@@ -235,7 +235,7 @@ ht-degree: 0%
 
 ## 使用AI助手生成电子邮件正文内容 {#generative-ai-email-design}
 
-在您[创建并个性化您的电子邮件](./email-authoring.md)后，请在[!DNL Journey Optimizer B2B Edition]中使用由创作AI提供支持的AI助手，将您的电子邮件正文内容提升到新的级别。
+在您[创建并个性化您的电子邮件](./email-authoring.md)后，在[!DNL Journey Optimizer B2B Edition]中使用由创作AI提供支持的AI助手来改进您的电子邮件正文内容。
 
 在电子邮件设计空间中，AI Assistant可以生成与受众产生共鸣的完整电子邮件正文、目标文本内容和图像，从而帮助您优化投放的影响。 这种电子邮件促销活动优化旨在提高参与度。 选择&#x200B;_AI助手_ （![AI助手菜单切换](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ）以显示可用于当前内容选择的内容生成工具。
 
@@ -247,7 +247,7 @@ ht-degree: 0%
 
 >[!TAB 生成完整电子邮件]
 
-按照以下步骤使用AI Assistant通过优化现有电子邮件模板生成完整的电子邮件：
+要使用AI Assistant通过优化现有电子邮件模板来生成完整的电子邮件，请执行以下步骤：
 
 1. 在[创建电子邮件](./add-email.md)后，单击&#x200B;**[!UICONTROL 编辑电子邮件内容]**。
 
@@ -275,7 +275,7 @@ ht-degree: 0%
    >
    >如果您不熟悉如何提示生成内容，请查看&#x200B;_[提示最佳实践](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_。
 
-1. 完成内容指导设置以定制生成的内容：
+1. 要定制生成的内容，请完成内容指导设置：
 
    * [**[!UICONTROL 文本设置]**](#text-settings) — 为生成的文本内容提供指导。
    * [**[!UICONTROL 图像设置]**](#image-settings) — 如果要在生成的内容中包含图像，请启用图像生成并提供指导。
@@ -289,7 +289,7 @@ ht-degree: 0%
 
    该对话框提供了额外的空间来比较变体、调整文本和引用内容设置（如果需要）以及重新生成变体。
 
-   您还可以通过应用细化操作来微调变体，并提交所生成变体的反馈。 有关变体精简和反馈的更多详细信息，请参阅&#x200B;_[预览和内容细化](#preview-and-content-refinement)_。
+   您还可以通过应用细化操作来微调变体，并提交所生成变体的反馈。 有关变体精简和反馈的更多详细信息，请参阅&#x200B;_[预览和内容细化](#refine-finalize)_。
 
    ![电子邮件变体和细化选项的AI Assistant预览](./assets/email-designer-ai-assistant-full-refine.png){width="700" zoomable="yes"}
 
@@ -299,7 +299,7 @@ ht-degree: 0%
 
 >[!TAB 仅限文本]
 
-按照以下步骤使用AI助手优化或增强现有电子邮件的文本内容：
+要使用AI助手优化或增强现有电子邮件的文本内容，请执行以下步骤：
 
 1. 在电子邮件设计空间中，选择一个&#x200B;_文本_&#x200B;组件以定位特定内容。
 
@@ -317,7 +317,7 @@ ht-degree: 0%
 
    如果您需要有关创建有效提示的帮助，请使用[提示库](#prompt-library)。
 
-1. 完成内容指导设置以定制生成的内容：
+1. 要定制生成的内容，请完成内容指导设置：
 
    * [**[!UICONTROL 文本设置]**](#text-settings) — 为生成的文本内容提供指导。
 
@@ -339,7 +339,7 @@ ht-degree: 0%
 
 >[!TAB 仅图像]
 
-按照以下步骤使用AI助手优化或增强现有电子邮件的图像内容：
+要使用AI Assistant优化或增强现有电子邮件的图像内容，请执行以下步骤：
 
 1. 在电子邮件设计空间中，选择&#x200B;_Image_&#x200B;组件以定位特定内容。
 
@@ -357,7 +357,7 @@ ht-degree: 0%
 
    如果您需要有关创建有效提示的帮助，请使用[提示库](#prompt-library)。
 
-1. 完成内容指导设置以定制生成的内容：
+1. 要定制生成的内容，请完成内容指导设置：
 
    * [**[!UICONTROL 图像设置]**](#image-settings) — 如果要在生成的内容中包含图像，请启用图像生成并使用指导设置。
 
@@ -407,7 +407,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 精心设计]** - AI助手可以帮助您展开特定主题，提供其他详细信息以便更好地了解和参与。
 
-* **[!UICONTROL 摘要]** — 过长的信息可能会使页面查看者过载。 使用AI Assistant将关键点浓缩为清晰、简洁的摘要，以吸引注意并鼓励他们进一步阅读。
+* **[!UICONTROL 摘要]** — 过长的信息可能会使读者过载。 使用AI Assistant将关键点浓缩为清晰、简洁的摘要，以吸引注意并鼓励他们进一步阅读。
 
 * **[!UICONTROL 重写]** — 重写邮件并保留其含义。 此选项可帮助您在不更改核心消息的情况下生成替代措辞、改善流量或调整词语。
 
@@ -425,7 +425,7 @@ ht-degree: 0%
 
 ### 提交变量反馈
 
-通过单击&#x200B;_拇指向上_、_拇指向下_&#x200B;或&#x200B;_标记_&#x200B;图标，为生成的变体提供反馈，并选择最能总结您的反馈的原因。
+通过单击&#x200B;_Thumbs Up_、_Thumbs Down_&#x200B;或&#x200B;_Flag_&#x200B;图标，并选择最能总结您的反馈的原因，为生成的变体提供反馈。
 
 ![AI助手 — 预览生成的变体](./assets/gen-ai-preview-feedback-thumbs-up.png){width="700" zoomable="yes"}
 

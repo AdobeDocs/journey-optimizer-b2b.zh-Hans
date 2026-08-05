@@ -23,7 +23,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 1544
 ht-degree: 3%
@@ -32,12 +32,12 @@ ht-degree: 3%
 
 # Web体验
 
-Adobe Journey Optimizer B2B edition中的Web渠道使您能够在您的网站上直接创建个性化体验，帮助您以有意义的方式与客户联系。 此功能提供了一组灵活的工具，您可以使用这些工具增强与定制内容的互动，并将其与其他渠道（如电子邮件和短信）无缝集成。
+Adobe Journey Optimizer B2B edition中的Web渠道允许您直接在您的网站上创建个性化体验，帮助您以有意义的方式与客户联系。 此功能提供了一组灵活的工具，您可以使用这些工具增强与定制内容的互动，并将其与其他渠道（如电子邮件和短信）无缝集成。
 
 通过Web体验，您可以：
 
 * 向目标网站访客投放个性化的内容修改
-* 使用帐户属性自定义网站元素，如横幅、文本、图像和按钮
+* 使用帐户属性自定义横幅、文本、图像和按钮等网站元素
 * 使用URL匹配规则定位特定页面或在多个页面中应用更改
 * 跟踪参与并监控Web个性化工作的影响
 
@@ -52,9 +52,9 @@ Adobe Journey Optimizer B2B edition中的Web渠道使您能够在您的网站上
 * 您的网站已实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，用于访客识别和内容交付。 确保Adobe Experience Platform Web SDK的版本为2.16或更高版本。
 
 * 您拥有在历程中创建和管理Web体验所需的[权限](../admin/user-management.md#b2b-product-permissions)：
-   * _[!UICONTROL 营销活动]_ > _[!UICONTROL 管理营销活动]_ — 添加或更新Web个性化操作节点是必需的。
-   * _[!UICONTROL 营销活动]_ > _[!UICONTROL 查看营销活动]_ — 需要查看Web个性化操作节点的详细信息。
-   * _[!UICONTROL 营销活动]_ > _[!UICONTROL 批准和发布营销活动]_ — 发布具有一个或多个Web个性化操作节点的历程是必需的。
+  * _[!UICONTROL 营销活动]_ > _[!UICONTROL 管理营销活动]_ — 添加或更新Web个性化操作节点是必需的。
+  * _[!UICONTROL 营销活动]_ > _[!UICONTROL 查看营销活动]_ — 需要查看Web个性化操作节点的详细信息。
+  * _[!UICONTROL 营销活动]_ > _[!UICONTROL 批准和发布营销活动]_ — 发布具有一个或多个Web个性化操作节点的历程是必需的。
 
 * 您为Web浏览器安装了Adobe Experience Cloud [可视化编辑帮助程序浏览器扩展](#install-the-visual-editing-helper-extension)。 要在Journey Optimizer B2B edition内容设计空间中可靠地打开、创作和预览网页，需要使用此扩展。
 
@@ -134,7 +134,7 @@ Adobe Journey Optimizer B2B edition中的Web渠道使您能够在您的网站上
 
 1. 在右侧面板中，根据要定义和管理体验的方式设置Web体验属性。
 
-   * **[!UICONTROL 可视编辑器]** — 在[可视和非可视编辑器](./web-experience-design.md#web-design-tools)之间切换，以便进行Web体验修改设计。
+   * **[!UICONTROL 可视编辑器]** — 在[可视和非可视编辑器](./web-experience-design.md#web-experience-editors)之间切换，以便进行Web体验修改设计。
    * **[!UICONTROL 访客重定向]** — 启用此选项可[将访客重定向到另一个现有URL](#redirect-to-url)，而不是在内容选项卡中创作新的变量。
 
    ![切换可视编辑器的属性和重定向URL](./assets/web-experience-journey-node-content-properties.png){width="700" zoomable="yes"}

@@ -22,16 +22,16 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 2690
+source-wordcount: 2626
 ht-degree: 0%
 
 ---
 
 # 用于登陆页面内容的AI助手 {#generative-full-content}
 
-用于[!DNL Adobe Journey Optimizer B2B Edition]中登陆页面内容的AI助手使用Adobe的AI支持的内容生成功能，彻底改变了营销人员创建专业且品牌一致的登陆页面内容的方式。 借助先进的创作AI模型和对品牌准则的深入了解，AI Assistant可自动生成个性化、吸引人和有效的内容。 它利用您的营销目标并优化品牌概述样式、布局、色调等内容。 AI Assistant使营销活动和项目的创建和执行更加直观、简单和轻松。 将此功能添加到工作流可以节省时间、提高效率并取得更好的结果。
+用于[!DNL Adobe Journey Optimizer B2B Edition]中登陆页面内容的AI助手使用Adobe的AI支持的内容生成功能，彻底改变了营销人员创建专业且品牌一致的登陆页面内容的方式。 借助先进的创作AI模型和对品牌准则的深入了解，AI Assistant可自动生成个性化、吸引人和有效的内容。 它利用您的营销目标并优化品牌概述样式、布局、色调等内容。 AI Assistant使营销活动和项目的创建和执行更加直观、简单和有效。 将此功能添加到工作流可以节省时间、提高效率并取得更好的结果。
 
 您可以为登陆页面生成完整的内容体验，包括文本和图像。 这项强大的功能可帮助您创建引人注目的品牌内内容，这些内容会与您的受众连接。
 
@@ -45,9 +45,9 @@ ht-degree: 0%
 
 ## 准则和限制
 
-在开始使用此功能之前，请查看[准则和限制](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)。 在[!DNL Journey Optimizer B2B Edition]中使用AI功能之前，还需要用户同意[&#128279;](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
+在开始使用此功能之前，请查看[准则和限制](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)。 在[!DNL Journey Optimizer B2B Edition]中使用AI功能之前，还需要用户同意[&#128279;](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
 
-Adobe承诺在媒体创建中使用创作AI工具时提高透明度，有鉴于此，Adobe在下载或导出包含Firefly生成的资源的任何内容或项目时应用[内容凭据](https://helpx.adobe.com/cn/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}。
+为了提高创作AI中的透明度，Adobe在下载或导出时将[内容凭据](https://helpx.adobe.com/cn/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}应用于Firefly生成的资源。
 
 以下限制和准则适用于在[!DNL Journey Optimizer B2B Edition]中生成登陆页面内容所使用的AI助手功能：
 
@@ -59,11 +59,11 @@ Adobe承诺在媒体创建中使用创作AI工具时提高透明度，有鉴于�
 
 ## 用于内容生成的输入和设置
 
-您可以为登陆页面或页面中选定的组件生成完整内容。 使用AI助手工具生成所需的内容时，需要提供输入（包括提示和引用内容）以及文本和图像的设置。
+您可以为登陆页面或页面中选定的组件生成完整内容。 使用AI助手时，为文本和图像提供输入、提示、参考内容和设置。
 
 ### 提示
 
-为创作AI模型使用定义良好的提示来准确地解释。 您提供的营销目标/提示会极大地影响所生成内容的质量。
+为创作AI模型使用定义良好的提示来准确地解释。 您提供的营销目标/提示会影响所生成内容的质量。
 
 ![提示字段](./assets/gen-ai-prompt.png){width="320"}
 
@@ -77,7 +77,7 @@ Adobe承诺在媒体创建中使用创作AI工具时提高透明度，有鉴于�
 
 ![AI助手 — 访问提示库](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
 
-选择最能反映您预期目标的提示，然后单击&#x200B;**[!UICONTROL 尝试此提示]**。 在&#x200B;_[!UICONTROL 提示]_&#x200B;字段中，将任意占位符（如`[Key Feature/Information]`）替换为指定您的品牌、产品、营销活动和用例所需的值。
+选择最能反映您预期目标的提示，然后单击&#x200B;**[!UICONTROL 尝试此提示]**。 在&#x200B;_[!UICONTROL 提示]_&#x200B;字段中，将占位符（如`[Key Feature/Information]`）替换为您的品牌、产品、促销活动和使用案例详细信息。
 
 >[!ENDSHADEBOX]
 
@@ -89,7 +89,7 @@ Adobe承诺在媒体创建中使用创作AI工具时提高透明度，有鉴于�
 * **[!UICONTROL 营销历程阶段]** — 选择[购买团体阶段](../buying-groups/buying-group-stages.md)，以用于消息传递的定位。
 * **[!UICONTROL 通信策略]** — 为生成的文本选择最合适的通信样式。
 * **[!UICONTROL 语言]** — 选择所生成内容的语言。
-* **[!UICONTROL 音调]** — 该音调应该与您的受众产生共鸣。 例如，您可以将消息调整为提供声音信息、富有趣味或有说服力。
+* **[!UICONTROL 音调]** — 与您的受众产生共鸣的音调。 例如，您可以将消息调整为提供声音信息、富有趣味或有说服力。
 
 ![文本设置面板，显示购买群组、营销历程阶段、沟通策略、语言和音调选项](./assets/gen-ai-text-settings.png){width="350" zoomable="yes"}
 
@@ -99,10 +99,10 @@ Adobe承诺在媒体创建中使用创作AI工具时提高透明度，有鉴于�
 
 要在生成的内容中包含图像，请展开右侧面板中的&#x200B;**[!UICONTROL 图像设置]**&#x200B;并设置选项。
 
-默认情况下，**[!UICONTROL 使用AI生成图像]**&#x200B;选项处于禁用状态。 启用此功能并设置以下选项以在建议的内容变体中包含生成的图像：
+默认情况下，系统禁用&#x200B;**[!UICONTROL 使用AI生成图像]**&#x200B;选项。 启用此功能并设置以下选项以在建议的内容变体中包含生成的图像：
 
 * **[!UICONTROL 创成模型]**：从现成的Adobe提供的模型、用于专门功能的合作伙伴模型或根据您的品牌资源训练的配置自定义模型中选择。 有关创成模型的详细信息，请参阅&#x200B;_[用于品牌对齐的创成AI模型](generative-ai-models.md)_。
-* **[!UICONTROL 宽高比]**：选择图像组件时，此设置将确定资源的宽度和高度。 您可以选择通用比率，如16:9、4:3、3:2或1:1，也可以输入自定义大小。
+* **[!UICONTROL 宽高比]**：选择图像组件时，此设置将确定资源的宽度和高度。 从16:9、4:3、3:2或1:1等常见比率中进行选择，或输入自定义大小。
 * **[!UICONTROL 内容类型]**：该类型对可视元素的性质进行分类，区分不同的可视表示形式，如照片、图形或艺术品。
 * **[!UICONTROL 视觉强度]**：通过调整图像的强度来控制其影响。 较低的设置（如2）可创建更柔和、更受限的外观，而较高的设置（如10）则使图像更生动、视觉更强大。
 * **[!UICONTROL 颜色和色调]**：图像内颜色的总体外观及其传达的情绪或气氛。
@@ -137,7 +137,7 @@ Adobe承诺在媒体创建中使用创作AI工具时提高透明度，有鉴于�
 
 >[!TAB 整页]
 
-请按照以下步骤操作，使用AI助手通过优化现有登陆页面模板来生成完整的登陆页面：
+要通过优化现有模板来生成完整的登陆页面，请执行以下步骤：
 
 1. 在[创建登陆页面](./landing-pages-create-publish.md#create-landing-page)后，单击&#x200B;**[!UICONTROL 编辑登陆页面]**。
 
@@ -145,7 +145,7 @@ Adobe承诺在媒体创建中使用创作AI工具时提高透明度，有鉴于�
 
    完整内容生成需要模板。 它可以是Adobe提供的标准模板，也可以是保存的模板。 您还可以使用&#x200B;_[!UICONTROL 导入HTML]_&#x200B;选项导入模板。
 
-   有关使用登陆页面模板的详细信息，请参阅&#x200B;_[选择已保存或示例模板](./landing-pages.md#select-a-saved-or-sample-template)_。
+   有关使用登陆页面模板的详细信息，请参阅&#x200B;_[选择模板](./landing-pages-create-publish.md#select-template)_。
 
 1. 在右侧面板的外边栏上，选择&#x200B;_AI助手_ （![用于内容切换的AI助手](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ）图标。
 
@@ -159,7 +159,7 @@ Adobe承诺在媒体创建中使用创作AI工具时提高透明度，有鉴于�
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中，输入要生成的内容的描述。
 
-   如果您需要有关创建有效提示的帮助，请使用[提示库](#prompt-library)。
+   如果您需要有关创建有效提示的帮助，请使用[提示库](#prompts)。
 
    ![AI助手 — 用于生成登陆页面内容的提示库](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
 
@@ -167,7 +167,7 @@ Adobe承诺在媒体创建中使用创作AI工具时提高透明度，有鉴于�
    >
    >如果您不熟悉如何提示生成内容，请查看&#x200B;_[提示最佳实践](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_。
 
-1. 完成内容指导设置以定制生成的内容：
+1. 要定制生成的内容，请完成内容指导设置：
 
    * [**[!UICONTROL 文本设置]**](#text-settings) — 为生成的文本内容提供指导。
    * [**[!UICONTROL 图像设置]**](#image-settings) — 如果要在生成的内容中包含图像，请启用图像生成并提供指导。
@@ -175,11 +175,11 @@ Adobe承诺在媒体创建中使用创作AI工具时提高透明度，有鉴于�
 
 1. 提示和设置就绪后，单击&#x200B;**[!UICONTROL 生成]**。
 
-1. 在AI助手面板中向下滚动，浏览生成的变体以确定哪个变体最适合。
+1. 在AI助手面板中向下滚动，浏览生成的变体以确定哪个变体最合适。
 
    * 单击&#x200B;_全屏_ （![全屏图标](../assets/do-not-localize/icon-full-screen.svg) ）图标以打开&#x200B;_[!UICONTROL 生成登陆页面]_&#x200B;对话框
 
-   * 如果需要，请使用[细化操作](#refine-a-variation)来微调变体，以确保它们符合您的确切要求。
+   * 如果需要，请使用[细化操作](#refine-a-variation)来微调变体，以确保它满足您的确切要求。
 
    * 通过单击&#x200B;_向上缩略图_、_向下缩略图_&#x200B;或&#x200B;_标记_&#x200B;图标，为生成的变体[提交反馈](#submit-variation-feedback)，并选择最能总结您的反馈的原因。
 
@@ -189,7 +189,7 @@ Adobe承诺在媒体创建中使用创作AI工具时提高透明度，有鉴于�
 
 >[!TAB 仅限文本]
 
-按照以下步骤使用AI助手优化或增强现有登陆页面的文本内容：
+要优化或增强现有登陆页面的文本内容，请执行以下步骤：
 
 1. 在登陆页面设计空间中，选择&#x200B;_文本_&#x200B;组件以定位特定内容。
 
@@ -207,9 +207,9 @@ Adobe承诺在媒体创建中使用创作AI工具时提高透明度，有鉴于�
 
    ![AI助手 — 文本设置](./assets/email-designer-ai-assistant-text.png){width="600" zoomable="yes"}
 
-   如果您需要有关创建有效提示的帮助，请使用[提示库](#prompt-library)。
+   如果您需要有关创建有效提示的帮助，请使用[提示库](#prompts)。
 
-1. 完成内容指导设置以定制生成的内容：
+1. 要定制生成的内容，请完成内容指导设置：
 
    * [**[!UICONTROL 文本设置]**](#text-settings) — 为生成的文本内容提供指导。
 
@@ -221,7 +221,7 @@ Adobe承诺在媒体创建中使用创作AI工具时提高透明度，有鉴于�
 
    * 单击&#x200B;_全屏_ （![全屏图标](../assets/do-not-localize/icon-full-screen.svg) ）图标以打开&#x200B;_[!UICONTROL 生成文本]_&#x200B;对话框
 
-   * 如果需要，请使用[细化操作](#refine-a-variation)来微调变体，以确保它们符合您的确切要求。
+   * 如果需要，请使用[细化操作](#refine-a-variation)来微调变体，以确保它满足您的确切要求。
 
    * 通过单击&#x200B;_向上缩略图_、_向下缩略图_&#x200B;或&#x200B;_标记_&#x200B;图标，为生成的变体[提交反馈](#submit-variation-feedback)，并选择最能总结您的反馈的原因。
 
@@ -231,7 +231,7 @@ Adobe承诺在媒体创建中使用创作AI工具时提高透明度，有鉴于�
 
 >[!TAB 仅图像]
 
-按照以下步骤使用AI助手优化或增强现有登陆页面的图像内容：
+要优化或增强现有登陆页面的图像内容，请执行以下步骤：
 
 1. 在登陆页面设计空间中，选择&#x200B;_Image_&#x200B;组件以定位特定内容。
 
@@ -249,9 +249,9 @@ Adobe承诺在媒体创建中使用创作AI工具时提高透明度，有鉴于�
 
    ![AI助手 — 文本设置](./assets/email-designer-ai-assistant-image.png){width="600" zoomable="yes"}
 
-   如果您需要有关创建有效提示的帮助，请使用[提示库](#prompt-library)。
+   如果您需要有关创建有效提示的帮助，请使用[提示库](#prompts)。
 
-1. 完成内容指导设置以定制生成的内容：
+1. 要定制生成的内容，请完成内容指导设置：
 
    * [**[!UICONTROL 图像设置]**](#image-settings) — 如果要在生成的内容中包含图像，请启用图像生成并提供指导。
 
@@ -301,7 +301,7 @@ Adobe承诺在媒体创建中使用创作AI工具时提高透明度，有鉴于�
 
 * **[!UICONTROL 精心设计]** - AI助手可以帮助您展开特定主题，提供其他详细信息以便更好地了解和参与。
 
-* **[!UICONTROL 摘要]** — 过长的信息可能会使页面查看者过载。 使用AI Assistant将关键点浓缩为清晰、简洁的摘要，以吸引注意并鼓励他们进一步阅读。
+* **[!UICONTROL 摘要]** — 过长的信息可能会使页面查看者过载。 使用AI Assistant将要点整合为清晰、简洁的摘要，以吸引关注并鼓励收件人进一步阅读。
 
 * **[!UICONTROL 重写]** — 重写邮件并保留其含义。 此选项可帮助您在不更改核心消息的情况下生成替代措辞、改善流量或调整词语。
 

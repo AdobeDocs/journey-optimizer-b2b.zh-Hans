@@ -19,9 +19,9 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-04-29T23:21:59.633Z
 TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1358
+source-wordcount: 1339
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 2%
 
 在创建帐户列表时，您可以定义一组筛选条件来生成该列表。 例如，您可以使用它生成行业为医疗保健且收入超过1亿美元的客户列表。
 
-1. 在&#x200B;_[!UICONTROL 帐户列表]_&#x200B;页面中，单击该页面右上角的&#x200B;**[!UICONTROL 创建帐户列表]**。
+1. 在&#x200B;_[!UICONTROL 帐户列表]_&#x200B;页面中，单击页面右上角的&#x200B;**[!UICONTROL 创建帐户列表]**。
 
    ![单击“创建帐户列表”](./assets/account-lists-create.png){width="700" zoomable="yes"}
 
@@ -87,17 +87,17 @@ ht-degree: 2%
 
 对于静态列表，您可以继续发布空帐户列表并通过帐户历程添加帐户。 您还可以在发布之前通过应用筛选器集手动添加帐户。
 
-对于动态帐户列表，在发布列表之前，必须添加要用于自动管理列表的过滤器集。
+要自动管理动态帐户列表的列表，请在发布之前添加该过滤器集。
 
 >[!BEGINTABS]
 
 >[!TAB 静态帐户列表]
 
-创建静态帐户列表后，可以通过应用过滤器集来填充该列表。 您还可以应用筛选器集在静态帐户列表发布后(_Live_)将帐户添加到静态帐户列表。
+创建静态帐户列表后，可以通过应用过滤器集来填充该列表。 要在静态帐户列表发布后将其添加到静态帐户列表(_Live_)，请应用筛选器集。
 
 >[!NOTE]
 >
->如果您希望帐户列表以空形式开始，请不要选择任何过滤器，而只需发布帐户列表。 当您计划通过帐户历程操作添加成员时，最好从空列表开始（请参阅[执行操作节点 — 添加到帐户](#take-an-action-node---add-to-account)）。
+>如果您希望帐户列表以空形式启动，请不要选择任何筛选器并发布帐户列表。 当您计划通过帐户历程操作添加成员时，最好从空列表开始（请参阅[执行操作节点 — 添加到帐户](../journeys/action-nodes.md#account-action-constraints)）。
 
 1. 单击&#x200B;**[!UICONTROL 添加帐户]**。
 
@@ -105,7 +105,7 @@ ht-degree: 2%
 
    您可以在空列表页面或右上角访问此函数。
 
-1. 在&#x200B;_[!UICONTROL 按筛选器添加帐户]_&#x200B;对话框中，使用&#x200B;**[!UICONTROL 帐户筛选器]**&#x200B;菜单添加要用于构造筛选器集的属性和活动：
+1. 在&#x200B;_[!UICONTROL 按筛选器添加帐户]_&#x200B;对话框中，使用&#x200B;**[!UICONTROL 帐户筛选器]**&#x200B;菜单添加构造筛选器集所需的属性和活动：
 
    过滤器将嵌套到类别文件夹中。 您可以展开每个文件夹并滚动浏览可用过滤器列表。 或者，使用顶部的&#x200B;_搜索_&#x200B;工具来查找所需的过滤器。
 
@@ -115,19 +115,19 @@ ht-degree: 2%
 
      ![添加筛选器以填充帐户列表](./assets/account-lists-static-add-accounts-by-filters.png){width="700" zoomable="yes"}
 
-   * 可以通过在顶部应用&#x200B;**[!UICONTROL 筛选器逻辑]**&#x200B;来优化条件。 您可以选择匹配所有属性条件或任何条件。
+   * 可以通过在顶部应用&#x200B;**[!UICONTROL 筛选器逻辑]**&#x200B;来微调条件。 您可以选择匹配所有属性条件或任何条件。
 
      ![帐户列表筛选器逻辑](./assets/account-lists-filter-logic.png){width="450"}
 
 1. 筛选器集和逻辑完成后，单击&#x200B;**[!UICONTROL 填充帐户]**。
 
-   填充过程可能需要一些时间，具体取决于要评估和填充的帐户数量（数据库的大小和您选择的筛选条件）。 帐户填充到您的列表中最多可能需要两个小时。
+   填充过程需要一些时间，具体取决于要评估和填充的帐户数量（数据库的大小和您选择的筛选条件）。 帐户填充到您的列表中最多可能需要两个小时。
 
 您可以继续发布列表，以使其可用于帐户历程中的添加和删除操作。
 
 >[!TAB 动态帐户列表]
 
-创建动态帐户列表后，定义用于在列表&#x200B;_处于活动状态_（已发布）时管理该列表（添加/删除帐户）的筛选器集。 您不能通过帐户历程添加/删除帐户，但它是一个已发布的动态帐户列表，可用于起始帐户受众节点。
+创建动态帐户列表后，定义用于在列表&#x200B;_处于活动状态_（已发布）时管理该列表（添加/删除帐户）的筛选器集。 您不能通过帐户历程添加/删除帐户，但已发布的动态帐户列表可用于起始帐户受众节点。
 
 1. 单击&#x200B;**[!UICONTROL 选择筛选器]**。
 
@@ -149,7 +149,7 @@ ht-degree: 2%
 
 1. 筛选器集和逻辑完成后，单击&#x200B;**[!UICONTROL 完成]**。
 
-   如果您对筛选器集感到满意，可以继续[发布列表](#publish-an-account-list)，使其可用于帐户历程中的起始[帐户受众节点](#account-audience-node)。
+   如果您对筛选器集感到满意，可以继续[发布列表](#publish-an-account-list)，使其可用于帐户历程中的起始[帐户受众节点](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node)。
 
    >[!NOTE]
    >
@@ -175,7 +175,7 @@ ht-degree: 2%
 
    ![确认发布静态帐户列表](./assets/account-lists-static-publish-confirm.png){width="400"}
 
-静态帐户列表的状态更改为&#x200B;_[!UICONTROL Live]_，它可用于[在帐户历程](#account-list-usage-in-account-journeys)中使用。
+静态帐户列表的状态更改为&#x200B;_[!UICONTROL Live]_，它可用于[在帐户历程](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node)中使用。
 
 >[!TAB 动态帐户列表]
 
@@ -189,7 +189,7 @@ ht-degree: 2%
 
    ![确认发布动态帐户列表](./assets/account-lists-dynamic-publish-confirm.png){width="400"}
 
-动态帐户列表的状态更改为&#x200B;_[!UICONTROL 实时]_，并且可在帐户历程[&#128279;](#account-list-usage-in-account-journeys)中使用。
+动态帐户列表的状态更改为&#x200B;_[!UICONTROL 实时]_，并且可在帐户历程[&#128279;](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node)中使用。
 
 >[!ENDTABS]
 

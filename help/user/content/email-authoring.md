@@ -17,9 +17,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1381
+source-wordcount: 1380
 ht-degree: 2%
 
 ---
@@ -44,11 +44,11 @@ ht-degree: 2%
 
 >[!TIP]
 >
->使用由generative AI提供支持的Adobe Journey Optimizer B2B edition中的AI助手来改进内容。 AI Assistant可以帮助您优化投放的影响，方法是生成整个电子邮件、提供有针对性的文本内容，并为可与受众产生共鸣的图像获取AI Assistant推荐。 [了解详情](./ai-assistant-emails.md)
+>使用由创作AI提供支持的Adobe Journey Optimizer B2B edition中的AI助手来改进您的内容。 AI Assistant可以生成整个电子邮件和目标文本内容，并提供与受众产生共鸣的图像推荐，从而帮助您优化投放的影响。 [了解详情](./ai-assistant-emails.md)
 
 ## 从头开始设计您的电子邮件 {#design-from-scratch}
 
-使用可视内容设计空间来定义电子邮件的结构和内容。 通过执行简单的拖放操作来添加和移动结构组件，您可以在几秒钟内设计电子邮件内容的布局和组织。
+使用可视内容设计空间来定义电子邮件的结构和内容。 通过简单的拖放操作来添加和移动结构组件，您可以快速设计电子邮件内容的布局和组织。
 
 1. 从&#x200B;_[!UICONTROL 设计您的模板]_&#x200B;主页中，选择&#x200B;**[!UICONTROL 从头开始设计]**&#x200B;选项。
 
@@ -60,7 +60,7 @@ ht-degree: 2%
 
 1. [将结构和内容](./email-authoring.md#structure-content)添加到模板。
 
-1. [审阅并更新链接](#preview-and-edit-linked-urls)。
+1. [审阅并更新链接](#edit-linked-url-tracking)。
 
 1. [测试电子邮件](#check-and-test-the-email)。
 
@@ -146,11 +146,11 @@ ht-degree: 2%
 
 电子邮件投放系统（通过Marketo Engage）会在发送时自动使用唯一的跟踪重定向来封装HTML电子邮件中的所有URL。 使用&#x200B;**[!UICONTROL 跟踪类型]**&#x200B;控制链接的跟踪：
 
-* **[!UICONTROL 不带令牌的跟踪]** — 系统注册点击，但会跟踪用户在网页上下一步执行的操作。 这在某些技术情况下可能很重要，例如在处理可能无法正确处理mkt_tok的第三方系统时。 但是，后续Web跟踪受到限制。
+* **[!UICONTROL 不带令牌的跟踪]** — 系统注册点击，但不会跟踪用户在网页上下一步执行的操作。 这种行为在某些技术情况下很重要，例如当处理无法正确处理mkt_tok的第三方系统时。 但是，后续Web跟踪受到限制。
 
 * **[!UICONTROL 使用mkt-tok跟踪]** — 使用跟踪令牌(mkt_tok)通过Munchkin跟踪后续Web活动。 当收件人单击该链接时，它会在活动日志中注册一个&#x200B;_单击电子邮件_&#x200B;事件，安全跟踪其活动，并应用Cookie来监控未来的网站交互。
 
-* **[!UICONTROL 不跟踪]** — 系统不跟踪与链接关联的活动。 当目标页面不支持URL参数并且可能导致链接断开时，这将很有用。
+* **[!UICONTROL 不跟踪]** — 系统不跟踪与链接关联的活动。 当目标页面不支持URL参数并导致链接断开时，此选项非常有用。
 
   >[!NOTE]
   >
@@ -171,8 +171,8 @@ ht-degree: 2%
 * 通过预设缩放选项放大/缩小内容。
 
 * 在桌面、移动设备或纯文本/纯文本中查看内容之间切换。
-   * 单击&#x200B;_查看_&#x200B;图标可跨设备预览内容。
-   * 选择其中一个预定义设备或输入自定义维度以预览内容。
+  * 单击&#x200B;_查看_&#x200B;图标可跨设备预览内容。
+  * 选择其中一个预定义设备或输入自定义维度以预览内容。
 
 ## 更多选项
 

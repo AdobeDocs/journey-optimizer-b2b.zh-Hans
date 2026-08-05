@@ -17,9 +17,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T22:45:21.856Z
 TQID: https://experienceleague.adobe.com/sp2xFXNnYT5zOjsQC6R53SsGudsYmF8EYq4RIIzqYH0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: 594
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 3%
 * **数据切换**：营销人员识别&#x200B;_就绪_&#x200B;目标数据，并以CSV格式使销售人员能够访问。 
 * **销售接受**：销售人员手动审查并将&#x200B;_就绪_&#x200B;目标合并到其管道中。
 
-若要访问此仪表板，请展开左侧导航栏中的&#x200B;**[!UICONTROL 帐户]**，然后选择&#x200B;**[!UICONTROL 购买群组]**。 选择&#x200B;**[!UICONTROL 概述]**&#x200B;选项卡（如果默认情况下未显示）。
+若要访问此仪表板，请展开左侧导航栏中的&#x200B;**[!UICONTROL 帐户]**，然后选择&#x200B;**[!UICONTROL 购买群组]**。 如果系统默认不显示&#x200B;**[!UICONTROL 概述]**&#x200B;选项卡，请选择该选项卡。
 
 ![购买群组概述](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
 <!--
@@ -51,7 +51,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 ## 购买群组完成得分分布
 
-此可视化图表说明了基于完成分数的购买组分布，并分为四个不同的分数范围。 中心数字代表购买群体的总数，并提供了总体进展的快速快照。 分段的颜色指示每个分数范围内购买组的比例，这使您能够一眼就评估完成趋势。
+此可视化图表说明了基于完成分数的购买组分布，并分为四个不同的分数范围。 中心数字代表购买群体的总数，并提供了总体进展的摘要。 分段的颜色指示每个分数范围内购买组的比例，这使您能够一眼就评估完成趋势。
 
 要查看更多详细信息，请单击右上角的&#x200B;**...**&#x200B;菜单图标。
 
@@ -100,7 +100,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 您可以单击&#x200B;_更多_ (**...**) 菜单，然后选择&#x200B;**[!UICONTROL 查看更多]**&#x200B;到[查看扩展数据](#view-more)。
 
-### [!UICONTROL 查看更多]
+### [!UICONTROL 查看更多] {#view-more}
 
 选择&#x200B;**[!UICONTROL 查看更多]**&#x200B;以查看扩展数据和见解。
 

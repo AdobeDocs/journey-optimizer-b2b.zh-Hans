@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T23:15:46.632Z
 TQID: https://experienceleague.adobe.com/jxBV37ku9z-b7dzbhzFy0PToJa6gq9x-u-1OMcdkU3g
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1075
+source-wordcount: 1077
 ht-degree: 2%
 
 ---
@@ -63,7 +63,7 @@ Journey Optimizer B2B edition中的Web渠道配置需要以下[权限](../admin/
 
      ![为单页Web渠道配置选择页面URL](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL 页面匹配规则]** — 若要定位多个匹配同一规则的URL，请构建一个匹配规则[&#128279;](#build-a-pages-matching-rule)的页面，并输入&#x200B;**[!UICONTROL 默认创作和预览URL]**。
+   * **[!UICONTROL 页面匹配规则]** — 若要定位多个匹配同一规则的URL，请构建一个匹配规则[&#128279;](#build-a-rule)的页面，并输入&#x200B;**[!UICONTROL 默认创作和预览URL]**。
 
 1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以保存更改。
 
@@ -75,7 +75,7 @@ Journey Optimizer B2B edition中的Web渠道配置需要以下[权限](../admin/
 
 创建Web配置时，您可以生成与规则&#x200B;_匹配的_&#x200B;页面，以定位多个与同一规则匹配的URL。 这些规则允许您在多个页面中应用相同的内容更改。
 
-例如，您可能希望将更改应用于整个网站的主页横幅，或添加在所有产品页面上显示的顶部图像。
+例如，将更改应用于整个网站的主页横幅，或添加在所有产品页面上显示的顶部图像。
 
 ### 构建规则
 
@@ -122,9 +122,9 @@ Journey Optimizer B2B edition中的Web渠道配置需要以下[权限](../admin/
 
    * 在不同的规则之间使用&#x200B;**[!UICONTROL Or]**&#x200B;或&#x200B;**[!UICONTROL Exclude]**&#x200B;运算符。
 
-     _[!UICONTROL Or]_&#x200B;是用于定义多个规则的默认运算符，可用于添加多个可匹配的条件定义。
+     _[!UICONTROL Or]_ [!UICONTROL Or]运算符是定义多个规则的默认运算符，可用于添加多个可匹配的条件定义。
 
-     当与定义的规则匹配的某个页面不应被定位时，_[!UICONTROL 排除]_&#x200B;非常有用。 例如，您可以定位包含`lumasecure`但不包括博客页面（如`bodea.com/blogs/lumasecure/latest-release`）的所有`bodea.com`页面。
+     _[!UICONTROL 排除]_ [!UICONTROL 排除]运算符适用于与定义的规则匹配的页面之一不应作为目标的情况。 例如，您可以定位包含`lumasecure`的所有`bodea.com`页面，但排除博客页面（如`bodea.com/blogs/lumasecure/latest-release`）。
 
    ![页面匹配带有排除项的规则](./assets/config-web-channel-pages-matching-rules-exclude.png){width="600" zoomable="yes"}
 
@@ -144,7 +144,7 @@ Journey Optimizer B2B edition中的Web渠道配置需要以下[权限](../admin/
 
 1. 单击重复的Web渠道的名称以编辑参数。
 
-   * 更改名称和描述以匹配规则中的目的或项目。
+   * 要匹配规则中的目的或项目，请更改名称和描述。
    * 如果需要，请更改单页面URL。
    * 如果需要，请根据您的要求更改页面匹配规则。
 

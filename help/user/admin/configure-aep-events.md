@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 0006aa457b010f30226ac9b0fd8d7c52fd9187e9
+source-git-commit: ecc3b7d5a63f67d7f29208278814d5abae969ea4
 workflow-type: tm+mt
 source-wordcount: 1632
 ht-degree: 10%
@@ -42,7 +42,7 @@ ht-degree: 10%
 
 1. 在历程中，营销人员通过以下两种方式之一使用配置的事件：
 
-   * 添加&#x200B;_侦听事件_&#x200B;节点，[选择体验事件](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event)以根据历程期间的实时事件活动触发历程进展。
+   * 添加&#x200B;_侦听事件_&#x200B;节点，[选择体验事件](../journeys/listen-for-event-nodes.md#experience-events-account-people)以根据历程期间的实时事件活动触发历程进展。
    * 添加&#x200B;_按人员拆分路径_&#x200B;节点，并在&#x200B;**[!UICONTROL Event history]**&#x200B;文件夹中的事件[&#128279;](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering)上配置筛选器的路径。
 
 >[!BEGINSHADEBOX]

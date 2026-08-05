@@ -17,7 +17,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T21:46:01.279Z
 TQID: https://experienceleague.adobe.com/dxEYWXZyj5kiOAqjRj6TGUG5V43q8Wd-mPlLFbarq64
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 789
 ht-degree: 4%
@@ -26,7 +26,7 @@ ht-degree: 4%
 
 # 购买群组详细信息
 
-在Journey Optimizer B2B edition的任何位置单击购买组名称时，都会显示购买组详细信息。 此概述提供了有关购买组的有用信息，包括创作AI摘要。 还有可为与该帐户关联的联系人执行的[操作](#buying-group-actions)。
+在Journey Optimizer B2B edition的任何位置单击购买组名称时，都会显示购买组详细信息。 此概述提供了有关购买组的有用信息，包括创作AI摘要。 还有可为与该帐户关联的联系人执行的[操作](#members-tab)。
 
 ![访问购买团体详细信息](./assets/buying-group-details.png){width="800" zoomable="yes"}
 
@@ -67,7 +67,7 @@ ht-degree: 4%
 
 ### 意图数据
 
-在Journey Optimizer B2B edition中，意图检测模型根据购买小组成员的活动，预测具有足够高置信度的感兴趣解决方案/产品。 购买集团成员的意图可以解释为对产品感兴趣的可能性。
+在Journey Optimizer B2B edition中，意图检测模型根据购买小组成员的活动，预测具有足够置信度的感兴趣解决方案/产品。 购买集团成员的意图可以解释为对产品感兴趣的可能性。
 
 {{intent-data-note}}
 

@@ -15,16 +15,16 @@ subfeature_v2:
   - id: c8402946-ff35-44c5-ab98-74c1bba0975f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ad794b50f6c6f3b59e853e99f7983136ee098e18
+source-git-commit: edb796d131c2b058215b73519b845125432d84f8
 workflow-type: tm+mt
-source-wordcount: 913
+source-wordcount: 916
 ht-degree: 0%
 
 ---
 
 # Content Credentials
 
-营销机构比以往任何时候都更关注内容透明度、人工智能披露，以及防止资产被篡改。 Adobe的Content Authenticity Initiative (CAI)构建符合[内容来源和授权联盟](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA)技术标准的工具。 _Content Credentials_，加密且易于篡改的元数据，可以帮助查看者了解内容的历程并确保品牌资产的完整性。 此信息包括：
+营销机构比以往任何时候都更关注内容透明度、人工智能披露，以及防止资产被篡改。 Adobe的Content Authenticity Initiative (CAI)构建符合[内容来源和授权联盟](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA)技术标准的工具。 _Content Credentials_&#x200B;是一组加密的、显示篡改的元数据，可帮助查看者了解内容的历程并确保品牌资产的完整性。 此信息包括：
 
 * 发行者或签名者 — 关于发行数字签名以证明或签署资产的实体或公司的信息。
 * 问题日期 — 将Content Credential应用于资源的日期。
@@ -46,10 +46,10 @@ Content Credentials会与图像文件一起保留。 使用创作AI生成或编�
 
 ## Content Credentials通过渠道持续性 {#channels}
 
-当您将图像包含在电子邮件或WhatsApp消息中时，将会保留已投放图像的Content Credentials：
+当您将图像包含在电子邮件或WhatsApp消息中时，也会保留已投放图像的Content Credentials：
 
 * **电子邮件** — 当您使用&#x200B;_发送电子邮件_&#x200B;历程操作时，请将该图像从&#x200B;_Assets_&#x200B;库添加到您的电子邮件内容。 在发送电子邮件时，收件人可以从邮件中下载图像，并且Content Credentials是完整的。
-* **WhatsApp** — 将图像添加到Meta业务帐户的WhatsApp消息模板中。 您可以直接从自己的系统添加该文件，或从&#x200B;_Assets_&#x200B;库下载图像文件。 使用此模板进行&#x200B;_发送WhatsApp_&#x200B;历程操作。 在传递WhatsApp消息时，收件人可以从消息中下载图像，并且Content Credentials是完整的。
+* **WhatsApp** — 将图像添加到您的Meta商业帐户的WhatsApp消息模板中。 您可以直接从自己的系统添加该文件，或从&#x200B;_Assets_&#x200B;库下载图像文件。 使用此模板进行&#x200B;_发送WhatsApp_&#x200B;历程操作。 在传递WhatsApp消息时，收件人可以从消息中下载图像，并且Content Credentials是完整的。
 
 >[!ENDSHADEBOX]
 

@@ -15,16 +15,16 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:20:55.565Z
 TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: 640
 ht-degree: 6%
 
 ---
 
 # 帐户详细信息
 
-当您在Journey Optimizer B2B edition的任何位置单击帐户名称时，都会显示&#x200B;_帐户详细信息_&#x200B;页面。 本页提供有关帐户的有用信息，包括创作AI摘要。 还有可为与该帐户关联的联系人执行的[操作](#account-actions)。
+当您在Journey Optimizer B2B edition的任何位置单击帐户名称时，都会显示&#x200B;_帐户详细信息_&#x200B;页面。 本页提供有关帐户的信息，包括创作AI摘要。 还有可为与该帐户关联的联系人执行的[操作](#send-email)。
 
 ![访问帐户详细信息](./assets/account-details.png){width="700" zoomable="yes"}
 
@@ -63,7 +63,7 @@ ht-degree: 6%
 
 ![帐户联系人覆盖范围](./assets/details-page-contact-coverage.png){width="800" zoomable="yes"}
 
-_[!UICONTROL 联系人覆盖范围]_&#x200B;部分显示帐户中具有与解决方案兴趣关联的特定角色的联系人的数量。 角色和解决方案兴趣的分配基于购买组角色模板。 单击单元格可显示以下详细信息：
+_[!UICONTROL 联系人覆盖范围]_&#x200B;部分显示与解决方案兴趣关联的特定角色的帐户联系人数。 角色和解决方案兴趣的分配基于购买组角色模板。 单击单元格可显示以下详细信息：
 
 * 描述，采用以下格式： _x个人对z解决方案兴趣具有y角色_
 * 列
@@ -91,7 +91,7 @@ _[!UICONTROL 联系人重叠]_&#x200B;部分显示来自帐户的联系人，这
 * 帐户
 * 解决方案兴趣
 
-单击联系人名称旁边的&#x200B;_信息_ （![信息图标](../assets/do-not-localize/icon-info.svg)）以显示包含以下详细信息的表：
+单击联系人名称旁边的&#x200B;_信息_ （![信息图标](../assets/do-not-localize/icon-info.svg)）图标以显示包含以下详细信息的表：
 
 * 购买群组（单击名称以打开[购买群组详细信息](../buying-groups/buying-group-details.md)）
 * 角色

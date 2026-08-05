@@ -18,9 +18,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:31:50.715Z
 TQID: https://experienceleague.adobe.com/pwS-mF-KluJnQgXWXyxrflSsC8LuEoJm-eku9IHqgyQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 577
+source-wordcount: 574
 ht-degree: 7%
 
 ---
@@ -36,11 +36,11 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->如果出现错误，则无法预览电子邮件。 检查&#x200B;_警报_&#x200B;以确保没有错误阻止预览功能。 警告不会阻止预览，但应在发布触发电子邮件投放的历程之前解决它们。
+>如果出现错误，则无法预览电子邮件。 要确保没有错误阻止预览功能，请检查&#x200B;_警报_。 警告不会阻止预览，但在发布触发电子邮件投放的历程之前解决这些问题。
 
 ## 显示电子邮件预览
 
-您可以从[电子邮件设计空间](./email-authoring.md)或从&#x200B;_[!UICONTROL 摘要]_&#x200B;访问渲染预览，当您[从电子邮件列表](./emails-list.md#edit-emails)打开电子邮件时。
+您可以从[电子邮件设计空间](./email-authoring.md)或从&#x200B;_[!UICONTROL 摘要]_&#x200B;访问渲染预览，当您[从电子邮件列表](./emails-list.md#open-and-edit-emails)打开电子邮件时。
 
 1. 单击顶部的&#x200B;**[!UICONTROL 模拟内容]**。
 
