@@ -4,22 +4,17 @@ description: 在Journey Optimizer B2B edition中，通过操作、事件和编�
 feature: Account Journeys
 hide: true
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:57.315Z
 TQID: https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE
-source-git-commit: 800becf15eb0020f5e8799207b6bf91a52549157
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 136
-ht-degree: 16%
+source-wordcount: 135
+ht-degree: 18%
 
 ---
 
@@ -30,7 +25,7 @@ ht-degree: 16%
 受众节点自动是历程中的第一个节点：
 
 * [帐户受众](./account-audience-nodes.md)
-* [人员受众](./person-audience-nodes.md) (Beta)
+* [人员受众](./person-audience-nodes.md)
 
 通过将不同的操作、事件和编排节点组合为一个多步骤、跨渠道方案来构建您的历程。 历程的每个节点表示逻辑路径上的一个步骤。 使用以下节点类型构建帐户历程：
 

@@ -3,23 +3,16 @@ title: Journey Optimizer B2B Edition 发行说明
 description: 探索 Adobe Journey Optimizer B2B Edition 中的最新功能、增强功能和错误修复。 随时掌握最新功能与产品改进信息。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: bce16a7b1230a14d8742688ffe3f0c9c2c70fa20
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 5552
+source-wordcount: 5580
 ht-degree: 62%
 
 ---
@@ -38,8 +31,9 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
+| 功能 | 人员历程 | （以前的Beta为正式发布而提早部署）现在您可以创建历程，以使用Experience Platform受众和数据来编排基于商机的营销。 [了解详情](../journeys/journeys-overview.md) |
 | 功能 | 人员列表 | 现在提供了静态和动态人员列表，以便您可以按定义的标准（如人口统计属性和体验事件历史记录）定向用户档案。 |
-| 功能 | _变量拆分路径_&#x200B;历程节点 | （以前为帐户历程测试版）营销人员现在可以测试帐户或人员历程中的变体，方法是根据定义的百分比将帐户或人员分配给不同的历程路径。 |
+| 功能 | _变量拆分路径_&#x200B;历程节点 | （以前称为Beta帐户历程）营销人员现在可以通过根据定义的百分比将帐户或人员分配给不同的历程路径来测试帐户或人员历程中的变体。 |
 | 增强功能 | 历程重新进入 — 人员历程 | 现在为人员历程提供历程重新进入支持。 |
 | 增强功能 | 监听事件触发器和过滤器 — 帐户历程 | 帐户历程现在支持&#x200B;_侦听事件_&#x200B;节点中的多个触发器和过滤器。 |
 | 增强功能 | 外部拆分路径节点 — 人员历程 | 人员历程现在支持&#x200B;_外部拆分路径_&#x200B;节点。 |
