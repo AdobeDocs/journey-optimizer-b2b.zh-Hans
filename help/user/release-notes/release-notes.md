@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: bce16a7b1230a14d8742688ffe3f0c9c2c70fa20
 workflow-type: tm+mt
-source-wordcount: 5351
-ht-degree: 64%
+source-wordcount: 5552
+ht-degree: 62%
 
 ---
 
@@ -32,13 +32,31 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 查看[产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，了解有关权限、性能护栏和限制的信息。
 
+## 2026.8发行说明 {#rel-2026-8}
+
+**部署日期**：2026年8月14日
+
+| 类型 | 项目 | 描述 |
+| ---- | ---- | ----------- |
+| 功能 | 人员列表 | 现在提供了静态和动态人员列表，以便您可以按定义的标准（如人口统计属性和体验事件历史记录）定向用户档案。 |
+| 功能 | _变量拆分路径_&#x200B;历程节点 | （以前为帐户历程测试版）营销人员现在可以测试帐户或人员历程中的变体，方法是根据定义的百分比将帐户或人员分配给不同的历程路径。 |
+| 增强功能 | 历程重新进入 — 人员历程 | 现在为人员历程提供历程重新进入支持。 |
+| 增强功能 | 监听事件触发器和过滤器 — 帐户历程 | 帐户历程现在支持&#x200B;_侦听事件_&#x200B;节点中的多个触发器和过滤器。 |
+| 增强功能 | 外部拆分路径节点 — 人员历程 | 人员历程现在支持&#x200B;_外部拆分路径_&#x200B;节点。 |
+| 增强功能 | 外部操作节点 — 人员历程 | 人员历程现在支持&#x200B;_外部操作_&#x200B;节点。 |
+| 增强功能 | AEP关系数据集 | 新的关系数据集现在与现有数据集一起显示在您的AEP沙盒中。 |
+
+>[!NOTE]
+>
+>这些版本更改从2026年8月14日开始部署，并分阶段推出每个功能和增强功能。 功能及增强功能的发布时间可能会有变动。
+
 ## 2026.6发行说明 {#rel-2026-6}
 
 **部署日期**：2026年7月10日
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | _拆分路径_&#x200B;历程节点 — 变体 | (Beta)营销人员现在可以通过根据定义的百分比将帐户或人员分配给不同的旅程路径，测试旅程中的变体。 [了解详情](../journeys/variant-split-paths-nodes.md) |
+| 功能 | _变量拆分路径_&#x200B;历程节点 — 帐户历程 | (Beta)营销人员现在可以通过根据定义的百分比将帐户或人员分配给不同的旅程路径，测试旅程中的变体。 [了解详情](../journeys/variant-split-paths-nodes.md) |
 | 增强功能 | _侦听事件_&#x200B;历程节点 | 在个人历程中，事件侦听器节点现在可以配置为触发多个事件。 第一个符合条件事件在历程中向前推进记录。 （在客户历程中为即将发布的版本提供计划支持。） [了解详情](../journeys/listen-for-event-nodes.md#person-journeys) |
 | 增强功能 | _侦听事件_&#x200B;历程节点 | 人员/人员事件的&#x200B;_[!UICONTROL 筛选器]_&#x200B;选项卡已从单个操作选择器更改为规则生成器界面。 这可以使用配置的体验事件支持多个活动配置。 [了解详情](../journeys/listen-for-event-nodes.md#filters-people-event) |
 | 增强功能 | _执行操作_&#x200B;历程节点 | 帐户历程和人员历程的人员上下文现在有其他操作可用：_添加到人员历程_&#x200B;和&#x200B;_从人员历程中删除_。 [了解详情](../journeys/action-nodes.md#people-actions) |
@@ -46,12 +64,6 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 >[!NOTE]
 >
 >这些版本更改从2026年7月10日开始部署，并分阶段推出每个功能和增强功能。 功能及增强功能的发布时间可能会有变动。
-
-<!-- 
-Add for 2026.8 release
-| Enhancement | External split path journey nodes - Person journeys | Support for external split path journey nodes is now available for person journeys. |
-| Enhancement | External action journey nodes - Person journeys | Support for external action journey nodes is now available for person journeys. |
--->
 
 ## 2026.5发行说明 {#rel-2026-5}
 
@@ -165,7 +177,7 @@ Add for 2026.8 release
 
 ### 更新的体系结构
 
-使用更新的架构时，Journey Optimizer B2B edition和Marketo Engage将不在同一系统和数据存储中。 Journey Optimizer B2B edition从Adobe Experience Platform接收数据。 但仍依赖 Marketo Engage 的使用权限及部分配置功能来完成系统的部署与设置。
+通过更新的架构，Journey Optimizer B2B edition和Marketo Engage不再位于同一系统和数据存储中。 Journey Optimizer B2B edition从Adobe Experience Platform接收数据。 但仍依赖 Marketo Engage 的使用权限及部分配置功能来完成系统的部署与设置。
 
 >[!NOTE]
 >
@@ -176,7 +188,7 @@ Add for 2026.8 release
 * **轻松统一并扩展数据**：更新后的平台支持复杂的数据模型，包括自定义对象、购买群组和帐户事件。
 * **连接多个 Adobe Marketo Engage 实例**：可在同一位置管理并统一多个 Adobe Marketo Engage 环境中的数据。
 * **保障数据安全**：高级隐私与安全功能有助于保护客户信息。
-* **专为长期可扩展性而设计**：此更新为您的组织做好了持续改进和创新的准备。
+* **专为长期可扩展性而设计**：此更新使您的组织为持续改进和创新做好准备。
 
 >[!NOTE]
 >
