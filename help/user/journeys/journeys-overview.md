@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 1504
-ht-degree: 42%
+source-wordcount: 1312
+ht-degree: 46%
 
 ---
 
@@ -33,27 +33,9 @@ Journey Optimizer B2B edition支持两种历程类型：
 
   ![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看帐户历程概述视频](#overview-video)
 
-* **人员历程** - (Beta)使用Experience Platform受众和数据编排基于商机的营销。 对于人员历程，您的营销操作不依赖于Marketo Engage或Adobe Campaign/B2C工具链的解决方法，因此它们可以支持B2B用例。
+* **人员历程** — 使用Experience Platform受众和数据编排基于潜在客户的营销。 对于人员历程，您的营销操作不依赖于Marketo Engage或Adobe Campaign/B2C工具链的解决方法，因此它们可以支持B2B用例。
 
   当与帐户历程和购买群组一起使用时，人员历程可以为营销人员提供将整个编排应用于购买历程的功能。
-
-  +++人员历程的当前限制
-
-  存在可能阻止某些用例或导致创建人员历程困难的限制。 许多问题都是初始Beta计划实施的结果，有待将来解决。
-
-  * 事件不能与配置文件属性结合使用，以缩小受众定义的范围。
-  * 符合历程用户档案条件的事件上下文不能用于个性化或编排。
-  * 历程当前不能同时具有事件和配置文件区段录入条件。
-  * 事件侦听器无法侦听多个事件。
-  * 等待节点当前没有针对一周中的某天或每天时间的退出标准的整套选项。
-  * 电子邮件编辑器错误地引用了仅适用于Account历程的功能和属性
-  * 尚不支持自定义历程令牌（_我的令牌_）。
-  * 从人员历程节点添加和删除当前不可从任一历程类型中使用。
-  * 事件历史记录无法用于编排或个性化。
-  * 相关对象（帐户、购买组、商机和自定义对象）无法用于编排或个性化。
-  * 当前不支持Web、短信和广告平台渠道。
-
-  +++
 
 ## 开始使用历程
 
@@ -75,9 +57,7 @@ Journey Optimizer B2B edition支持两种历程类型：
 
 ![筛选帐户历程列表](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
->[!TAB 人员历程(Beta)]
-
-[!BADGE Beta 版]{type=Informative tooltip="作为测试版功能提供"}
+>[!TAB 人员历程]
 
 在左侧导航栏中，展开&#x200B;**[!UICONTROL 历程管理]**，然后单击&#x200B;**[!UICONTROL 人员历程]**。
 
@@ -194,7 +174,7 @@ Journey Optimizer B2B edition支持两种历程类型：
 
    * **[!UICONTROL 部分内容复制]** - 使用此类型来复制历程中的所有内容，但不包括任何已创建的电子邮件或 SMS 消息。 引用 Marketo Engage 电子邮件或 SMS 消息的节点会被完整保留。
 
-   * **[!UICONTROL 复制但不包含详细信息]** — 使用此类型仅复制节点结构和路径。 所有节点设置和路径条件均未定义（默认），以便您可以重复使用具有不同受众、操作和路径分段设置的基本流程。 所有&#x200B;_等待_&#x200B;节点默认设置为五天。
+   * **[!UICONTROL 复制但不包含详细信息]** — 使用此类型仅复制节点结构和路径。 所有节点设置和路径条件均未定义（默认），因此您可以通过不同的受众、操作和路径分段设置再次使用基本流量。 所有&#x200B;_等待_&#x200B;节点默认设置为五天。
 
 1. 单击&#x200B;**[!UICONTROL 复制]**。
 

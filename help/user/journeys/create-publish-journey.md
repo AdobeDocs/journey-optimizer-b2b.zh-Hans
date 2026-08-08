@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:14:46.843Z
 TQID: https://experienceleague.adobe.com/-emMaxlrae40JXP0tThacD3xA27d5OzO8tX6o-mOnfg
-source-git-commit: 800becf15eb0020f5e8799207b6bf91a52549157
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 862
 ht-degree: 6%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 6%
 在左侧导航栏中的&#x200B;**[!UICONTROL 历程管理]**&#x200B;下，选择要创建的历程类型：
 
 * **[!UICONTROL 帐户历程]**
-* **[!UICONTROL 人员历程]** (Beta)
+* **[!UICONTROL 人员历程]**
 
 添加新历程(_T):_
 
@@ -50,7 +50,7 @@ ht-degree: 6%
 
 +++
 
-+++人员历程(Beta)
++++人员历程
 
 1. 单击页面右上角的&#x200B;**[!UICONTROL 创建历程]**。
 
