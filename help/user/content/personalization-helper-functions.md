@@ -9,24 +9,15 @@ keywords: 表达式、编辑器、语法、个性化
 exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
 autotag-review: '2026-05-27T16:17:26.324Z'
 TQID: 'https://experienceleague.adobe.com/T4rBlUSxIJylMD4PGmAFG3qXJRVBBLEtzPE5WCWx8NA'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: bd3c685c-6c92-4a4a-becb-535cc25215de
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
-source-wordcount: 4902
+source-wordcount: 4937
 ht-degree: 6%
 
 ---
@@ -1158,7 +1149,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### truncateToStartOfDay {#truncate-day}
 
-使用`truncateToStartOfDay`函数，通过将给定日期时间设置为time为00:00的该天开始来修改该日期。
+使用`truncateToStartOfDay`函数将给定日期时间设置为00:00时的一天开始时间，从而修改该日期。
 
 +++句法
 
@@ -1175,7 +1166,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### truncatetostartofQuarter {#truncate-quarter}
 
-使用`truncateToStartOfQuarter`函数将日期时间截断为其季度的第一天（如1月1日、4月1日、7月1日、10月1日），时间为00:00。
+使用`truncateToStartOfQuarter`函数可将日期时间截断为其季度的第一天（如1月1日、4月1日、7月1日、10月1日），时间为00:00。
 
 +++句法
 
@@ -1192,7 +1183,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### truncateToStartOfWeek {#truncate-week}
 
-`truncateToStartOfWeek`函数通过将给定日期时间设置为一周的开始（星期一为00:00）来修改该日期。
+`truncateToStartOfWeek`函数通过将给定日期时间设置为一周的开始（星期一的00:00）来修改该日期。
 
 +++句法
 
@@ -1209,7 +1200,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### truncateToStartOfYear {#truncate-year}
 
-使用`truncateToStartOfYear`函数修改给定的日期时间，方法是：在00:00处将其截断为一年的第一天（1月1日）。
+使用`truncateToStartOfYear`函数将给定日期时间截断为一年的第一天（1月1日），即00:00，以修改该日期。
 
 +++句法
 
