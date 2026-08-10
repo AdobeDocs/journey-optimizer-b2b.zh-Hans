@@ -26,7 +26,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
-source-wordcount: 4902
+source-wordcount: 4937
 ht-degree: 6%
 
 ---
@@ -1158,7 +1158,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### truncateToStartOfDay {#truncate-day}
 
-使用`truncateToStartOfDay`函数，通过将给定日期时间设置为time为00:00的该天开始来修改该日期。
+使用`truncateToStartOfDay`函数将给定日期时间设置为00:00时的一天开始时间，从而修改该日期。
 
 +++句法
 
@@ -1175,7 +1175,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### truncatetostartofQuarter {#truncate-quarter}
 
-使用`truncateToStartOfQuarter`函数将日期时间截断为其季度的第一天（如1月1日、4月1日、7月1日、10月1日），时间为00:00。
+使用`truncateToStartOfQuarter`函数可将日期时间截断为其季度的第一天（如1月1日、4月1日、7月1日、10月1日），时间为00:00。
 
 +++句法
 
@@ -1192,7 +1192,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### truncateToStartOfWeek {#truncate-week}
 
-`truncateToStartOfWeek`函数通过将给定日期时间设置为一周的开始（星期一为00:00）来修改该日期。
+`truncateToStartOfWeek`函数通过将给定日期时间设置为一周的开始（星期一的00:00）来修改该日期。
 
 +++句法
 
@@ -1209,7 +1209,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### truncateToStartOfYear {#truncate-year}
 
-使用`truncateToStartOfYear`函数修改给定的日期时间，方法是：在00:00处将其截断为一年的第一天（1月1日）。
+使用`truncateToStartOfYear`函数将给定日期时间截断为一年的第一天（1月1日），即00:00，以修改该日期。
 
 +++句法
 
