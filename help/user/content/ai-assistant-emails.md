@@ -4,24 +4,14 @@ description: 使用AI助手生成电子邮件内容 — 在 [!DNL Journey Optimi
 feature: AI Assistant, Generative AI, Email Authoring
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: beb7a3c1-66ab-4786-b879-7621375b3c40id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: 2026-03-30T21:53:30.297Z
 TQID: https://experienceleague.adobe.com/r6LXhsac6WcX015k3NIm-MOIvtqG7EUf1XK4p1adhAo
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: eb57eab88e264ec8ebd0975cced6c4241fcce23b
 workflow-type: tm+mt
 source-wordcount: 3582
 ht-degree: 0%
@@ -34,15 +24,15 @@ ht-degree: 0%
 
 这项新功能提供了基于提示的内容生成功能，可用于生成完整的电子邮件或在电子邮件结构组件中对其进行定位。 对于图像，您可以生成新的图像资产，或从输入品牌资产的图像目录中生成推荐。 您还可以使用此功能生成最佳主题行和预标题，从而影响电子邮件打开率。
 
->[!IMPORTANT]
+>[!PREREQUISITES]
 >
 >要在Adobe Journey Optimizer B2B edition中访问这些功能，您必须具有&#x200B;_[!UICONTROL AI助手]_ > _[!UICONTROL 生成内容]_&#x200B;权限。 有关产品管理员如何授予功能权限的详细信息，请参阅[编辑产品权限的角色](../admin/user-management.md#edit-roles-for-product-permissions)。
 
 ## 准则和限制
 
-在开始使用此功能之前，请查看[准则和限制](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)。 在[!DNL Journey Optimizer B2B Edition]中使用AI功能之前，还需要用户同意[&#128279;](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
+在开始使用此功能之前，请查看[准则和限制](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)。 在[!DNL Journey Optimizer B2B Edition]中使用AI功能之前，还需要用户同意[](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
 
-为增加透明度，Adobe在下载或导出时将[内容凭据](https://helpx.adobe.com/cn/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}应用于Firefly生成的资源。
+为增加透明度，Adobe在下载或导出时将[内容凭据](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}应用于Firefly生成的资源。
 
 以下限制和准则适用于在[!DNL Journey Optimizer B2B Edition]中生成电子邮件内容所使用的AI助手功能：
 
@@ -147,7 +137,7 @@ ht-degree: 0%
 
 1. 单击字段右侧的AI助手图标（![AI助手访问图标](../../assets/do-not-localize/icon-gen-ai-email-properties.svg){width="30"}）。
 
-   电子邮件主题行![&#128279;](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}的AI助手访问权限
+   电子邮件主题行](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}的![AI助手访问权限
 
    将打开&#x200B;_[!UICONTROL 生成主题行]_&#x200B;对话框，其中包含电子邮件主题行的生成设置。
 

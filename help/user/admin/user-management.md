@@ -6,20 +6,15 @@ roles: Admin
 level: Beginner
 solution: Journey Optimizer B2B Edition
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f467931a-9b22-4ca8-869f-adfbd64061ce
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:47:43.575Z
 TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: 171518509dc161d236663cde399b3fcc02408f18
 workflow-type: tm+mt
-source-wordcount: 2267
-ht-degree: 81%
+source-wordcount: 2348
+ht-degree: 77%
 
 ---
 
@@ -68,13 +63,13 @@ ht-degree: 81%
 
 授予用户访问Adobe解决方案的权限时，您不一定要授予他们完全访问权限。 产品配置文件使每个解决方案都有自己的用户权限集。 使用Admin Console分配产品配置文件。
 
-有关将产品配置文件用于用户权限的详细信息，请参阅Admin Console文档中的&#x200B;[_管理企业用户的产品配置文件_](https://helpx.adobe.com/cn/enterprise/using/manage-product-profiles.html){target="_blank"}。
+有关将产品配置文件用于用户权限的详细信息，请参阅Admin Console文档中的&#x200B;[_管理企业用户的产品配置文件_](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"}。
 
 >[!BEGINSHADEBOX]
 
 将用户添加到Marketo Engage产品配置文件后，这些用户随后将添加到Marketo Engage订阅的默认工作区中的&#x200B;_标准用户_&#x200B;角色。 此角色向他们授予该工作区中Marketo Engage的所有标准权限。 目前，所有Journey Optimizer B2B edition用户都必须是Marketo Engage用户。 Marketo Engage管理员可以通过更新&#x200B;_Standard User_&#x200B;角色的权限或使用更严格的权限将用户移动到其他Marketo Engage用户角色来限制访问。
 
-有关在Marketo Engage中管理这些权限的详细信息，请参阅Marketo Engage文档中的[管理用户角色和权限](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}。
+有关在Marketo Engage中管理这些权限的详细信息，请参阅Marketo Engage文档中的[管理用户角色和权限](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -167,7 +162,7 @@ ht-degree: 81%
 
 在Adobe Experience Platform的&#x200B;_权限_&#x200B;区域，管理员可以定义用户角色和访问策略，以管理产品应用程序内功能和对象的访问权限。 在此应用程序中，您可以创建和管理角色，并为这些角色分配所需的资源权限。 权限还允许您管理与特定角色关联的沙盒和用户。
 
-有关Experience Platform中角色权限的更多信息，请参阅Experience Platform文档中的[管理角色的权限](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
+有关Experience Platform中角色权限的更多信息，请参阅Experience Platform文档中的[管理角色的权限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
 
 ### B2B产品权限 {#b2b-product-permissions}
 
@@ -175,13 +170,13 @@ ht-degree: 81%
 
 | 类别 | 描述 | 权限 |
 | -------- | ----------- | ---------- |
-| B2B帐户列表 | 配置、管理、查看和发布B2B帐户列表的权限。 这些权限包括从帐户列表中添加、删除、导入和删除帐户等操作。 | <li>管理B2B帐户列表 |
+| B2B帐户列表 | 配置、管理、查看和发布B2B帐户列表的权限。 这些权限包括从帐户列表中添加、移除、导入和删除帐户等操作。 | <li>管理B2B帐户列表 |
 | B2B管理配置 | 配置、管理和查看B2B管理配置的权限。 这些权限包括数字资产管理连接、资产存储库和事件。 | <li>管理B2B管理配置 |
-| B2B Assets | 配置、管理和查看B2B资源的权限。 这些权限包括电子邮件、短信、登陆页面、片段、模板和图像。 | <li>管理B2B Assets <li>管理B2B模板 <li>管理B2B片段 <li>管理B2B电子邮件 |
+| B2B Assets | 配置、管理和查看B2B资源的权限。 这些权限包括电子邮件、登陆页面、表单、片段、模板和图像。 | <li>管理B2B Assets <li>管理B2B模板 <li>管理B2B片段 <li>管理B2B电子邮件 <li>查看B2B模板 <li>查看B2B片段 <li>发布B2B片段 <li>查看B2B Assets <li>查看B2B电子邮件 <li>管理B2B消息导出 <li>查看B2B登陆页面 <li>管理B2B登陆页面 <li>发布B2B登陆页面 <li>查看B2B Forms <li>管理B2B Forms <li>发布B2B Forms |
 | B2B购买团体 | 配置、管理和查看B2B购买群组的权限。 这些权限包括解决方案兴趣、角色模板和购买群组状态。 | <li>管理B2B购买组 <li>管理B2B解决方案兴趣 <li>管理B2B角色模板 <li>管理B2B阶段 <li>查看B2B购买群组 |
-| B2B渠道配置 | 配置、管理和查看B2B渠道配置的权限。 这些权限包括通信限制设置、API凭据和安全设置。 | <li>管理B2B渠道配置 |
-| B2B仪表板 | 配置和查看B2B仪表板的权限。 这些权限包括帐户参与、购买团体阶段、激增的帐户和联系范围。 | <li>查看B2B参与仪表板 |
-| B2B历程 | 配置、管理、查看和发布B2B历程的权限。 这些权限包括帐户和人员操作、事件侦听器以及拆分路径。 | <li>管理B2B帐户历程 |
+| B2B渠道配置 | 配置、管理和查看B2B渠道配置的权限。 这些权限包括通信限制设置、API凭据和安全设置。 | <li>管理 B2B 渠道配置 <li>查看B2B电子邮件设置 <li>管理B2B电子邮件设置 <li>管理B2B WhatsApp预设 <li>管理B2B登陆页面设置 <li>查看B2B Forms预设 <li>管理B2B Forms预设 <li>发布B2B Forms预设 <li>创作B2B Web体验 <li>管理B2B WhatsApp设置 |
+| B2B仪表板 | 配置和查看B2B仪表板的权限。 这些权限包括帐户参与、购买群组阶段、激增帐户和联系人覆盖范围。 | <li>查看B2B参与仪表板 |
+| B2B历程 | 配置、管理、查看和发布B2B历程的权限。 这些权限包括帐户和人员操作、事件侦听器以及拆分路径。 | <li>管理B2B帐户历程 <li>管理B2B人员历程 |
 | Journey Optimizer规则 | 访问和配置频率规则（通信限制）。 这些权限应限制为产品管理员。 | <li>查看频率规则 <li>管理频率规则 |
 
 ### B2B内置角色 {#b2b-built-in-roles}
@@ -192,14 +187,14 @@ ht-degree: 81%
 | ---- | ----------- |
 | B2B历程管理器 | <li>管理B2B历程 <li>管理B2B购买组 <li>管理B2B帐户列表 <li>查看B2B参与仪表板 <li>查看B2B分析仪表板 |
 | B2B渠道管理器 | <li>管理B2B Assets <li>管理B2B模板 <li>管理B2B片段 |
-| B2B系统管理员 | <li>管理B2B渠道配置 <li>管理B2B管理配置 |
+| B2B系统管理员 | <li>管理 B2B 渠道配置 <li>管理B2B管理配置 |
 | B2B销售用户 | <li>查看B2B参与仪表板 <li>查看B2B购买群组 <li>访问In-CRM Insights |
 
 ### 编辑角色权限 {#edit-role-permissions}
 
 对于内置或自定义角色，您可以随时决定添加或删除权限。 如果修改默认或自定义角色，则会影响分配给该角色的每个用户。
 
-在以下示例中，您要为分配给B2B历程管理员角色的用户添加与B2B角色资源相关的权限。 此更改还允许该角色的用户管理帐户历程。
+在以下示例中，您要为分配给 B2B 渠道管理员角色的用户添加与 B2B 历程资源相关的权限。 此更改还允许该角色的用户管理帐户历程。
 
 >[!NOTE]
 >
@@ -306,12 +301,12 @@ ht-degree: 81%
    * 在左侧的&#x200B;_[!UICONTROL 资源]_&#x200B;列表中，找到&#x200B;**[!UICONTROL 配置文件管理]**&#x200B;项目，然后单击&#x200B;_添加_ (**+**)图标以添加该属性。
 
    * 对于属性，添加以下权限：
-      * [!UICONTROL 查看区段]
-      * [!UICONTROL 管理区段]
-      * [!UICONTROL 查看配置文件]
-      * [!UICONTROL 管理配置文件]
-      * [!UICONTROL 查看B2B配置文件]
-      * [!UICONTROL 管理B2B配置文件]
+     * [!UICONTROL 查看区段]
+     * [!UICONTROL 管理区段]
+     * [!UICONTROL 查看配置文件]
+     * [!UICONTROL 管理配置文件]
+     * [!UICONTROL 查看B2B配置文件]
+     * [!UICONTROL 管理B2B配置文件]
 
    ![Experience Platform — 为新角色添加配置文件](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"}
 

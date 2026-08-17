@@ -4,22 +4,16 @@ description: 通过Meta的Cloud API连接您的WhatsApp Business帐户，以便�
 feature: Setup, Channels
 role: Admin
 exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-subfeature_v2:
-  - id: a7692144-1dc6-426f-b00f-fe187797f61d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f01b5556-e951-40ba-8625-2e3001864f2bid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+subfeature_v2: id: a7692144-1dc6-426f-b00f-fe187797f61d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
+source-git-commit: eec5558d6065501576a91097182201726020213c
 workflow-type: tm+mt
-source-wordcount: 1491
-ht-degree: 13%
+source-wordcount: 1515
+ht-degree: 9%
 
 ---
 
@@ -34,13 +28,13 @@ Adobe Journey Optimizer B2B edition通过Meta的Cloud API发送WhatsApp消息。
 在配置WhatsApp渠道之前，请确保您具备以下条件：
 
 * [Meta业务经理帐户](https://business.facebook.com/)
-* [具有已验证的发件人姓名和电话号码的WhatsApp商业帐户](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
+* [具有已验证的发件人姓名和电话号码的WhatsApp商业帐户](https://developers.facebook.com/documentation/business-messaging/whatsapp/whatsapp-business-accounts)
 * [具有相应权限的Meta用户授权令牌](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
-* [您的WhatsApp商业帐户中的已批准消息模板](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
+* [您的WhatsApp商业帐户中的已批准消息模板](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/overview)
 
 >[!IMPORTANT]
 >
->您对WhatsApp消息传递服务的使用受Meta条款和条件的约束。 通过Journey Optimizer B2B edition访问WhatsApp消息传送，即表示您确认已查看并同意遵守[Meta WhatsApp业务政策](https://www.whatsapp.com/legal/business-policy/)。
+>您对WhatsApp消息传递服务的使用受Meta条款和条件的约束。 通过Journey Optimizer B2B edition访问WhatsApp消息传送，即表示您确认已查看并同意遵守[Meta WhatsApp业务政策](https://whatsappbusiness.com/policy/)。
 
 ## 限制 {#limitations}
 
@@ -50,7 +44,7 @@ Adobe Journey Optimizer B2B edition通过Meta的Cloud API发送WhatsApp消息。
 
 * 尚不支持自动或预定义的响应消息。
 
-* 从2025年4月开始，Meta暂停向拥有美国电话号码（一个由+1拨号代码和美国区号组成的号码）的WhatsApp用户发送所有营销模板消息。 [在Meta文档中了解详情](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/marketing-templates/per-user-limits/)
+* 从2025年4月开始，Meta已暂停向美国电话号码（+1拨号代码和美国区号）的WhatsApp用户发送营销模板消息。 [在Meta文档中了解详情](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/marketing-templates/per-user-limits/)
 
 * 原生集成功能不允许与第三方业务服务提供商 (BSP) 集成。
 
@@ -64,7 +58,7 @@ Adobe Journey Optimizer B2B edition通过Meta的Cloud API发送WhatsApp消息。
 1. [添加 WhatsApp Webhook](#configure-webhooks)
 1. [创建WhatsApp渠道配置](#create-channel-configuration)
 
-### 创建WhatsApp API凭据
+### 创建 WhatsApp API 凭据
 
 >[!NOTE]
 >
@@ -97,9 +91,9 @@ Adobe Journey Optimizer B2B edition通过Meta的Cloud API发送WhatsApp消息。
    自动填充电话号码设置：
 
    * **质量评级** — 反映客户对过去24小时内发送的邮件的反馈。
-      * 绿色：高品质
-      * 黄色：Medium品质
-      * 红色：低品质
+     * 绿色：高品质
+     * 黄色：Medium品质
+     * 红色：低品质
 
      有关详细信息，请参阅Meta文档中的&#x200B;[_质量评级_](https://www.facebook.com/business/help/766346674749731#)。
 
@@ -115,14 +109,16 @@ Adobe Journey Optimizer B2B edition通过Meta的Cloud API发送WhatsApp消息。
 
 如果在配置WhatsApp API凭据时遇到HTTP 500错误，请按照以下故障排除步骤操作：
 
-1. 验证您的Adobe授权 — 确认您的组织已配置&#x200B;_cjm_ whatsapp_权利。 如果没有此权限，无法配置WhatsApp渠道。
+1. 验证您的Adobe授权 — 确认您的组织已配置&#x200B;_cjm_ whatsapp_权利。
+
+   如果没有此权限，无法配置WhatsApp渠道。
 
 1. 验证业务帐户字段 — 确保所有必填字段均正确：
 
    * API令牌 — 必须是具有适当权限的有效[Meta访问令牌](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)。
    * Business帐户ID — 必须与您的[Meta Business帐户ID](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)完全匹配。
 
-1. 外部测试凭据 — 直接使用Meta API验证您的凭据，以确认问题与凭据有关，还是与Journey Optimizer B2B edition凭据处理有关。
+1. 在外部测试凭据 — 要确认问题是否涉及凭据或Journey Optimizer B2B edition凭据处理，请使用Meta API验证您的凭据。
 
 <!--
  1. Enable advanced logging - To identify internal server or authentication misconfigurations, enable advanced logs in your Journey Optimizer B2B Edition environment to provide detailed information about the API call failures.
@@ -138,7 +134,7 @@ do we have advanced logs? How are they enabled?
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-inbound-keyword-category"
 >title="入站关键词类别"
->abstract="<b>选择加入</b>：用户订阅后，发送您定义的自动回复。 <br/><b>选择退出</b>：用户取消订阅后，发送您定义的自动回复。 <br/><b>帮助</b>：用户请求帮助或支持时，发送您定义的自动回复。 <br/><b>默认</b>：关键词不匹配的情况下，发送您的备用自动回复。"
+>abstract="<b>选择加入</b>：发送订阅的自动响应。 <br/><b>选择退出</b>：发送取消订阅的自动响应。 <br/><b>帮助</b>：发送帮助请求的自动响应。 <br/><b>默认</b>：为不匹配的关键字发送回退自动响应。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin_whatsapp-webhook-inbound-keyword"
@@ -155,11 +151,21 @@ do we have advanced logs? How are they enabled?
 >title="验证令牌"
 >abstract="Meta 在验证过程中返回的用于确认和验证回调 URL 的令牌。"
 
+>[!BEGINSHADEBOX]
+
+![AEP权限图标](../../assets/do-not-localize/icon_permissions-outline.svg)这些步骤需要您在Experience Platform中分配的用户角色的以下[权限](./user-management.md#b2b-product-permissions)：
+
+* **[!UICONTROL B2B渠道配置]** - `Manage B2B Channels`
+* **[!UICONTROL B2B渠道配置]** - `Manage B2B WhatsApp Settings`
+* **[!UICONTROL B2B渠道配置]** - `Manage B2B WhatsApp Presets`
+
+>[!ENDSHADEBOX]
+
 Webhook使Journey Optimizer B2B edition能够从WhatsApp商业帐户接收入站消息、同意响应和投放通知。 配置Webhook以确保正确的同意管理和消息跟踪。
 
 >[!NOTE]
 >
->如果没有指定的选择加入或选择退出关键词，则不会启用标准同意消息。
+>标准同意消息需要指定的选择加入或选择退出关键词。
 
 成功创建WhatsApp API凭据后，您可以配置Webhook。
 
@@ -174,8 +180,8 @@ Webhook使Journey Optimizer B2B edition能够从WhatsApp商业帐户接收入站
 1. 对于&#x200B;**[!UICONTROL 入站关键词类别]**，请选择类别以定义关键词和回复消息：
 
    * **[!UICONTROL 选择加入]** — 用户必须主动同意接收WhatsApp消息，通常通过您网站或应用程序上的表单进行管理。
-   * **[!UICONTROL 选择退出]** — 将您的webhook配置为侦听诸如`Stop`或`No Message`之类的短语，以自动将用户标记为选择退出。
-   * **[!UICONTROL 帮助]** — 允许自动系统检测用户何时发送`HELP`（或类似的关键字，如`Unknown`），并使用特定信息（如服务指令）自动回复。
+   * **[!UICONTROL 选择退出]** — 若要自动将用户标记为选择退出，请配置您的webhook以收听`Stop`或`No Message`等短语。
+   * **[!UICONTROL 帮助]** — 允许自动系统检测用户何时发送`HELP`（或类似的关键字，如`Unknown`），并以自动方式回复特定信息，如服务说明。
    * **[!UICONTROL 默认]** — 处理与专门定义的关键字不匹配的传入消息。 它用作回退类别，以便在Adobe Experience Platform数据集中启用跟踪事件（例如打开和投放报告）。
 
    选择关键字类别时，将填充默认关键字。
@@ -209,6 +215,16 @@ Webhook使Journey Optimizer B2B edition能够从WhatsApp商业帐户接收入站
 1. 在[面向开发人员的Meta门户](https://developers.facebook.com/)中，导航到您的WhatsApp应用程序设置，并使用您复制的值配置webhook。
 
 ### 创建渠道配置 {#create-channel-configuration}
+
+>[!BEGINSHADEBOX]
+
+![AEP权限图标](../../assets/do-not-localize/icon_permissions-outline.svg)这些步骤需要您在Experience Platform中分配的用户角色的以下[权限](./user-management.md#b2b-product-permissions)：
+
+* **[!UICONTROL B2B渠道配置]** - `Manage B2B Channels`
+* **[!UICONTROL B2B渠道配置]** - `Manage B2B WhatsApp Settings`
+* **[!UICONTROL B2B渠道配置]** - `Manage B2B WhatsApp Presets`
+
+>[!ENDSHADEBOX]
 
 渠道配置定义从历程操作节点发送WhatsApp消息时使用的投放设置。
 

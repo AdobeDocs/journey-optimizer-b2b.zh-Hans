@@ -3,23 +3,16 @@ title: Journey Optimizer B2B Edition 发行说明
 description: 探索 Adobe Journey Optimizer B2B Edition 中的最新功能、增强功能和错误修复。 随时掌握最新功能与产品改进信息。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: adf6888348795972fe62a6be0180650f649beba5
+source-git-commit: 9ffa5baa0a8967957d5e243e199d6f41da4ab417
 workflow-type: tm+mt
-source-wordcount: 5580
+source-wordcount: 5597
 ht-degree: 62%
 
 ---
@@ -46,6 +39,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | 增强功能 | 外部拆分路径节点 — 人员历程 | 人员历程现在支持&#x200B;_外部拆分路径_&#x200B;节点。 |
 | 增强功能 | 外部操作节点 — 人员历程 | 人员历程现在支持&#x200B;_外部操作_&#x200B;节点。 |
 | 增强功能 | AEP关系数据集 | 新的关系数据集现在与现有数据集一起显示在您的AEP沙盒中。 |
+| 增强功能 | 产品权限 — WhatsApp渠道 | 产品管理员现在可以为&#x200B;_[!UICONTROL B2B渠道配置]_&#x200B;设置`Manage B2B WhatsApp Settings`和`Manage B2B WhatsApp Presets`权限。 |
 
 >[!NOTE]
 >
