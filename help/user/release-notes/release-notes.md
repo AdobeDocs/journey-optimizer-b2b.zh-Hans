@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: aa687e409812e70b80c366b7c9bb0274a7a179f7
+source-git-commit: 969f071ea3f01251cc16fe68584089a7588ba20e
 workflow-type: tm+mt
-source-wordcount: 5580
+source-wordcount: 5599
 ht-degree: 62%
 
 ---
@@ -40,12 +40,13 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | ---- | ---- | ----------- |
 | 功能 | 人员历程 | （以前的Beta为正式发布而提早部署）现在您可以创建历程，以使用Experience Platform受众和数据来编排基于商机的营销。 [了解详情](../journeys/journeys-overview.md) |
 | 功能 | 人员列表 | 现在提供了静态和动态人员列表，以便您可以按定义的标准（如人口统计属性和体验事件历史记录）定向用户档案。 |
-| 功能 | _变量拆分路径_&#x200B;历程节点 | （以前称为Beta帐户历程）营销人员现在可以通过根据定义的百分比将帐户或人员分配给不同的历程路径来测试帐户或人员历程中的变体。 |
+| 功能 | _变量拆分路径_&#x200B;历程节点 | （以前称为Beta帐户历程）营销人员现在可以通过根据定义的百分比将帐户或人员分配给不同的历程路径来测试帐户或人员历程中的变体。 [了解详情](../journeys/variant-split-paths-nodes.md) |
 | 增强功能 | 历程重新进入 — 人员历程 | 现在为人员历程提供历程重新进入支持。 |
 | 增强功能 | 监听事件触发器和过滤器 — 帐户历程 | 帐户历程现在支持&#x200B;_侦听事件_&#x200B;节点中的多个触发器和过滤器。 |
 | 增强功能 | 外部拆分路径节点 — 人员历程 | 人员历程现在支持&#x200B;_外部拆分路径_&#x200B;节点。 |
 | 增强功能 | 外部操作节点 — 人员历程 | 人员历程现在支持&#x200B;_外部操作_&#x200B;节点。 |
 | 增强功能 | AEP关系数据集 | 新的关系数据集现在与现有数据集一起显示在您的AEP沙盒中。 |
+| 增强功能 | 产品权限 — WhatsApp渠道 | 产品管理员现在可以为&#x200B;_[!UICONTROL B2B渠道配置]_&#x200B;设置`Manage B2B WhatsApp Settings`和`Manage B2B WhatsApp Presets`权限。 |
 
 >[!NOTE]
 >
