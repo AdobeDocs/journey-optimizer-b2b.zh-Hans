@@ -354,4 +354,4 @@ Journey Optimizer B2B基于人员的操作旨在通过配置的渠道管理通�
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443255/?captions=chi_hans&learn=on)
