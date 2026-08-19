@@ -14,7 +14,7 @@ Journey Optimizer B2B edition使用内联简单语法，允许您创建包含用
 
 例如，您可以添加个性化表达式作为`Hello {{lead.firstName}} {{lead.lastName}}`。 处理内容时，Journey Optimizer B2B edition会将表达式替换为Experience Platform数据库中包含的数据。 因此，第一个示例变为&#x200B;_Hello John Doe_。
 
-有关在Journey Optimizer B2B edition中使用个性化工具的更全面信息，请参阅[内容个性化](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/personalization/personalization)。
+有关在Journey Optimizer B2B edition中使用个性化工具的更全面信息，请参阅[内容个性化](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/content-management/personalization/personalization)。
 
 >[!NOTE]
 >

@@ -24,4 +24,4 @@ ht-degree: 4%
 
   ![从源库中选择资产](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}
 
-有关使用源类型中的资产的更多信息，请参阅[使用资产进行内容创作](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/assets-overview#use-assets-for-content-authoring)。
+有关使用源类型中的资产的更多信息，请参阅[使用资产进行内容创作](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/content-management/assets/assets-overview#use-assets-for-content-authoring)。
