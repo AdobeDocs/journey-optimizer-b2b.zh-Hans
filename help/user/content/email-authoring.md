@@ -17,7 +17,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
 source-wordcount: 1380
 ht-degree: 2%
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 此操作将启动电子邮件设计工具，您可以在其中从以下选项中选择所需的电子邮件设计方式：
 
-* [使用可视化设计界面从头开始设计电子邮件](#design-your-email-from-scratch)。
+* [使用可视化设计界面从头开始设计电子邮件](#design-from-scratch)。
 
 * 从文件或 .zip 文件夹[导入现有 HTML 内容](#import-existing-html-content)。
 
@@ -62,7 +62,7 @@ ht-degree: 2%
 
 1. [审阅并更新链接](#edit-linked-url-tracking)。
 
-1. [测试电子邮件](#check-and-test-the-email)。
+1. [测试电子邮件](#email-testing)。
 
 <!--
  If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.

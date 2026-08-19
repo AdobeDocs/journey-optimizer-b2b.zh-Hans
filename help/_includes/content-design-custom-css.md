@@ -1,9 +1,9 @@
 ---
 title: 内容创作 — 自定义CSS
 description: 重用有关使用自定义CSS进行内容创作的部分
-source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 1. 在编辑器中输入CSS代码。
 
-   请确保自定义CSS有效并遵循正确的语法。 如果输入的CSS无效，则会显示一条错误消息，并且无法保存CSS。 若要了解详细信息，请参阅[CSS有效期](../user/content/design-custom-css.md#css-validity)。
+   请确保自定义CSS有效并遵循正确的语法。 如果输入的CSS无效，则会显示一条错误消息，并且无法保存CSS。 若要了解详细信息，请参阅[CSS有效期](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#css-validity)。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存自定义CSS。
 
-   自定义样式表应用于现有内容。 您可以检查自定义CSS是否已根据您的需求应用。 有关如何进行更改并调整样式表应用程序的信息，请参阅[疑难解答](../user/content/design-custom-css.md#troubleshooting)。
+   自定义样式表应用于现有内容。 您可以检查自定义CSS是否已根据您的需求应用。 有关如何进行更改并调整样式表应用程序的信息，请参阅[疑难解答](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#troubleshooting)。
 
 >[!NOTE]
 >
