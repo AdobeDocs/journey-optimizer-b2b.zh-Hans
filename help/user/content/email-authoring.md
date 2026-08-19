@@ -4,20 +4,13 @@ description: 使用可视化设计工具、HTML导入或模板创建电子邮件
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
 source-wordcount: 1380
 ht-degree: 2%
@@ -34,7 +27,7 @@ ht-degree: 2%
 
 此操作将启动电子邮件设计工具，您可以在其中从以下选项中选择所需的电子邮件设计方式：
 
-* [使用可视化设计界面从头开始设计电子邮件](#design-your-email-from-scratch)。
+* [使用可视化设计界面从头开始设计电子邮件](#design-from-scratch)。
 
 * 从文件或 .zip 文件夹[导入现有 HTML 内容](#import-existing-html-content)。
 
@@ -62,7 +55,7 @@ ht-degree: 2%
 
 1. [审阅并更新链接](#edit-linked-url-tracking)。
 
-1. [测试电子邮件](#check-and-test-the-email)。
+1. [测试电子邮件](#email-testing)。
 
 <!--
  If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
@@ -106,7 +99,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您的电子邮件是使用包含锁定内容[&#128279;](./template-content-governance.md)的模板设计的，则无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
+>如果您的电子邮件是使用包含锁定内容](./template-content-governance.md)的[模板设计的，则无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
 
 ![访问正文样式](./assets/email-body-styles.png){width="800" zoomable="yes"}
 
