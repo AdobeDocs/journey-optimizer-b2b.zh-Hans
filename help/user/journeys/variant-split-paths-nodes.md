@@ -6,11 +6,17 @@ solution: Journey Optimizer B2B Edition
 role: User
 autotag-review: '2026-08-17T19:14:54.674Z'
 TQID: 'https://experienceleague.adobe.com/42lSbF7J-yEzFYbFFhs2sSQ4j4NfRtENlIz-R-HcPx8'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6beid: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 source-git-commit: d130cb9de068b22be540a1fe9a6dc9fcaaad127e
 workflow-type: tm+mt
 source-wordcount: 2008
@@ -184,7 +190,7 @@ _[拆分路径](./split-merge-paths-nodes.md)_&#x200B;和&#x200B;_变量拆分�
 
    ![变量拆分路径节点 — 合计不等于100%时的验证错误](./assets/node-variant-split-paths-validation-error.png){width="500" zoomable="yes"}
 
-   若要将百分比平均分配到所有路径，请单击“平均分配”****。 系统计算相等的份额并调整任何舍入，以确保总数等于100%。
+   若要将百分比平均分配到所有路径，请单击“平均分配”**&#x200B;**。 系统计算相等的份额并调整任何舍入，以确保总数等于100%。
 
 1. 若要定义其他路径，请单击每个路径的&#x200B;**[!UICONTROL 添加路径]**。
 
