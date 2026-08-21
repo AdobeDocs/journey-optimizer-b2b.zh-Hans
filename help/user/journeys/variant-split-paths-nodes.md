@@ -4,7 +4,6 @@ description: 了解如何在Journey Optimizer B2B edition中使用变量拆分�
 feature: Account Journeys, Person Journeys
 solution: Journey Optimizer B2B Edition
 role: User
-badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 autotag-review: '2026-08-17T19:14:54.674Z'
 TQID: 'https://experienceleague.adobe.com/42lSbF7J-yEzFYbFFhs2sSQ4j4NfRtENlIz-R-HcPx8'
 product_v2:
@@ -18,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: b9abc88d05d5863ad57a19118fb905c394dbc76e
+source-git-commit: d130cb9de068b22be540a1fe9a6dc9fcaaad127e
 workflow-type: tm+mt
-source-wordcount: 2018
+source-wordcount: 2008
 ht-degree: 1%
 
 ---
