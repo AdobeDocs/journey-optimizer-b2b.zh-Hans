@@ -4,22 +4,16 @@ description: 通过Meta的Cloud API连接您的WhatsApp Business帐户，以便�
 feature: Setup, Channels
 role: Admin
 exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-subfeature_v2:
-  - id: a7692144-1dc6-426f-b00f-fe187797f61d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f01b5556-e951-40ba-8625-2e3001864f2bid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+subfeature_v2: id: a7692144-1dc6-426f-b00f-fe187797f61d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: eec5558d6065501576a91097182201726020213c
 workflow-type: tm+mt
 source-wordcount: 1515
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
@@ -140,7 +134,7 @@ do we have advanced logs? How are they enabled?
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-inbound-keyword-category"
 >title="入站关键词类别"
->abstract="<b>选择加入</b>：发送订阅的自动响应。 <br/><b>选择退出</b>：发送取消订阅的自动响应。 <br/><b>帮助</b>：发送帮助请求的自动响应。 <br/><b>默认</b>：为不匹配的关键字发送回退自动响应。"
+>abstract="<b>选择启用</b>：针对订阅请求发送自动回复。 <br/><b>选择禁用</b>：针对取消订阅请求发送自动回复。 <br/><b>帮助</b>：针对帮助请求发送自动回复。 <br/><b>默认</b>：针对无法匹配的关键字发送备用自动回复。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin_whatsapp-webhook-inbound-keyword"
