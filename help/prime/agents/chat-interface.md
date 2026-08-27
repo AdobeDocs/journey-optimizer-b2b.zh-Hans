@@ -45,7 +45,7 @@ ht-degree: 1%
 
 Sales Qualifier是一款AI驱动型应用程序，可与Journey Optimizer B2B Prime结合使用。 它实施了Account Qualification Agent，旨在简化业务开发代表(BDR)的工作流。 Sales Qualifier可跨渠道自动执行潜在客户鉴别、外联和买方参与工作流程。 它减少了手动BDR负载，加快了企业B2B公司的管道速度。
 
-有关详细信息，请参阅[Sales Qualifier文档](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}。
+有关详细信息，请参阅[Sales Qualifier文档](https://experienceleague.adobe.com/zh-hans/docs/sales-qualifier/using/home){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
