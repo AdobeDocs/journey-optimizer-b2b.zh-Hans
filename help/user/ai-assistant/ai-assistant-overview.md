@@ -1,5 +1,5 @@
 ---
-title: Journey Optimizer B2B edition中的AI助手
+title: Journey Optimizer B2B edition中的AI功能
 description: 借助 AI 助手加速工作流程，获取 Journey Optimizer B2B Edition 的产品知识、故障排查支持和运营洞察。
 feature: AI Assistant
 role: User, Admin
@@ -21,20 +21,20 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+source-git-commit: ea4fbd8696cfd3b60e7ff032843d290abca6ae4d
 workflow-type: tm+mt
-source-wordcount: 1300
+source-wordcount: 1385
 ht-degree: 8%
 
 ---
 
-# Journey Optimizer B2B edition中的AI助手
+# Journey Optimizer B2B edition中的AI功能
 
-Journey Optimizer B2B edition中的AI助手是与Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target="_blank"}中的AI助手相同的技术基础创建的。 它是一种对话式体验，可用于加快Adobe Journey Optimizer B2B edition中的工作流程。 您可以使用AI Assistant进一步了解产品功能、排除问题或搜索信息并查找Journey Optimizer B2B edition的操作见解。
+Adobe Journey Optimizer B2B edition中的聊天界面由与Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target="_blank"}中的AI Assistant相同的技术基础提供支持。 它是一种对话式体验，可用于加快Journey Optimizer B2B edition中的工作流程。 您可以通过聊天界面进一步了解产品功能、排查问题或搜索信息并查找Journey Optimizer B2B edition的运行洞察。 您还可以使用此接口调用[Journey Agent](../agents/journey-agent.md)和[Audience Agent](../agents/audience-agent-b2b.md)。
 
 >[!IMPORTANT]
 >
->在Journey Optimizer B2B edition中使用AI助手之前，需要与[用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}达成协议。 本协议还包含公共测试版协议，以便您能够在以测试版容量推出其他AI Assistant功能时使用它们。
+>在Journey Optimizer B2B edition中使用AI助手之前，需要与[用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}达成协议。 此协议还包含公共测试版协议，以便您可以在推出其他AI Assistant功能时使用。
 
 +++查看用户协议界面
 
@@ -44,11 +44,21 @@ Journey Optimizer B2B edition中的AI助手是与Adobe Experience Platform[&#128
 
 +++
 
+>[!BEGINSHADEBOX]
+
+## 销售限定词
+
+Sales Qualifier是AI驱动的应用程序，可与Journey Optimizer B2B edition一起使用。 它实施了Account Qualification Agent，旨在简化业务开发代表(BDR)的工作流。 Sales Qualifier可跨渠道自动执行潜在客户鉴别、外联和买方参与工作流程。 它减少了手动BDR负载，加快了企业B2B公司的管道速度。
+
+有关详细信息，请参阅[Sales Qualifier文档](https://experienceleague.adobe.com/zh-hans/docs/sales-qualifier/using/home){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 ## Journey Optimizer B2B edition中的AI助手功能
 
-为了制定对您提交问题的响应，AI Assistant查询数据库并将数据库中的数据转换为人类可读的答案。 此响应是基础数据的内部表示形式，也称为&#x200B;_&#x200B;**_知识图_**&#x200B;_ — 给定答案的概念、数据和元数据的综合集合。 知识图由每次提交查询时引用的子图组成：
+为了制定对您提交问题的响应，AI Assistant查询数据库并将数据库中的数据转换为人类可读的答案。 此响应是基础数据&#x200B;_&#x200B;**知识图**&#x200B;_&#x200B;的内部表示形式，并为给定答案提供概念、数据和元数据的全面集合。 知识图由每次提交查询时引用的子图组成：
 
-* Experience League文档。
+* Adobe Experience League文档。
 * 操作构件，例如架构、字段、受众和历程。
 
 考虑在提交AI Assistant查询之前需要哪种类型的查询：
@@ -88,7 +98,7 @@ _操作分析_&#x200B;是指AI助手生成的有关您的元数据对象（属�
 
 {style="table-layout:fixed"}
 
-对于操作分析问题，答案可能不会反映UI的当前状态。 支持这些问题的数据每24小时更新一次。 例如，用户白天在Real-Time CDP中所做的更改会在晚上与数据存储同步，然后早上就可供用户提问了。 登录到沙盒以查询与对象相关的特定数据。
+对于操作分析问题，答案可能不会反映UI的当前状态。 支持这些问题的数据每24小时更新一次。 例如，用户白天在Real-Time CDP中所做的更改会在晚上与数据存储同步，然后早上就可供用户提问了。 要查询与对象相关的特定数据，请登录到沙盒。
 
 ### 功能范围
 
@@ -108,9 +118,9 @@ Journey Optimizer B2B edition中的AI助手优先考虑隐私、安全和管理�
 
 * 您必须具有显式权限才能与AI助手交互。
 
-   * 管理员可以使用[权限UI](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}和[Admin Console](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/ui/browse){target="_blank"}设置权限。
+  * 管理员可以使用[权限UI](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}和[Admin Console](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/ui/browse){target="_blank"}设置权限。
 
-   * 权限是细粒度的，您的沙盒管理员可以配置哪些用户能够提出不同类别的问题（使用AI助手基于产品知识的问题或有关操作见解的问题）。
+  * 权限是细粒度的，您的沙盒管理员可以配置哪些用户能够提出不同类别的问题（使用AI助手基于产品知识的问题或有关操作见解的问题）。
 
 * 您可以查看之前与AI助手进行交互的30天日志。
 
@@ -132,7 +142,7 @@ AI Assistant可以处理Adobe产品知识查询，并可解答与运营工件的
 
 **AI助手能否提供有关客户数据的信息？**
 
-不会。 AI Assistant无法访问客户数据，因此，不会查看或使用客户数据。
+不会。 AI Assistant无法访问客户数据，因此无法访问或不可用。
 
 **我的个人信息是否用于AI助理的培训数据？**
 
