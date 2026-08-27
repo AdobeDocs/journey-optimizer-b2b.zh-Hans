@@ -2,9 +2,9 @@
 user-guide-title: Journey Optimizer B2B Prime文档
 user-guide-description: 了解Adobe Journey Optimizer B2B Prime以及如何将其用于？
 hide: true
-source-git-commit: c1e8e03ccd6f2d132ca1bc1a27c0d9ea18dcdcac
+source-git-commit: 5379682b79bd5a455a8eb15bcfaf5985e7ecdeb4
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '185'
 ht-degree: 54%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 54%
     + [深色模式设计](./content/email-dark-mode.md)
   + [WhatsApp 渠道](./content/whatsapp-authoring.md)
 + [历程流量控制](./marketing/journey-traffic-control.md)
-+ 受众 {#audiences}
++ Audiences {#audiences}
   + [人员列表](./audiences/people-lists.md)
   + [个人详细信息](./audiences/person-details.md)
   + [基于事件的受众](./audiences/event-based-audiences.md)
@@ -85,7 +85,7 @@ ht-degree: 54%
     + [表单预设配置](./admin/configuration-presets-forms.md)
   + [业务规则](./admin/business-rules.md)
   + [程序类型](./admin/program-types.md)
-+ [销售限定词](./sales-qualifier/sales-qualifier.md)
+
 <!--
    + [Persona mapping](./admin/persona-mapping.md)
 

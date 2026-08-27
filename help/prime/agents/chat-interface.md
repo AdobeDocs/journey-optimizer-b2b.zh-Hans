@@ -4,19 +4,13 @@ description: 使用Journey Optimizer B2B Prime中的AI Assistant聊天面板可�
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 autotag-review: '2026-06-12T22:46:23.441Z'
 TQID: 'https://experienceleague.adobe.com/XyBLmqv63kNBcw-Jo4hKvUKIn2la7kac7-kTbNEU5aE'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: a30218bb-f80a-4410-8ac4-b039e99a15b4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: a30218bb-f80a-4410-8ac4-b039e99a15b4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 5379682b79bd5a455a8eb15bcfaf5985e7ecdeb4
 workflow-type: tm+mt
-source-wordcount: 878
+source-wordcount: 955
 ht-degree: 1%
 
 ---
@@ -38,6 +32,16 @@ ht-degree: 1%
 
 * 添加消息并按&#x200B;**Enter**&#x200B;发送（**Shift+Enter**&#x200B;插入新行）。
 * 使用&#x200B;_附加_&#x200B;图标附加文件（支持的格式：`.txt`、`.md`、`.csv`、`.json`、`.xlsx`、`.docx`、`.pdf`）。 使用CSV和电子表格上传功能启动商机导入。
+
+>[!BEGINSHADEBOX]
+
+## 销售限定词
+
+Sales Qualifier是一款AI驱动型应用程序，可与Journey Optimizer B2B Prime结合使用。 它实施了Account Qualification Agent，旨在简化业务开发代表(BDR)的工作流。 Sales Qualifier可跨渠道自动执行潜在客户鉴别、外联和买方参与工作流程。 它减少了手动BDR负载，加快了企业B2B公司的管道速度。
+
+有关详细信息，请参阅[Sales Qualifier文档](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 ## 询问AI助手
 

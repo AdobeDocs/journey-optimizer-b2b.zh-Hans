@@ -7,35 +7,28 @@ level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
 autotag-review: '2026-06-05T16:09:10.773Z'
 TQID: 'https://experienceleague.adobe.com/QymVRUVL4cH9q-rqovifqh4oSH9YHLlf-o2M0uNQqiA'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2:
-  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ea4fbd8696cfd3b60e7ff032843d290abca6ae4d
 workflow-type: tm+mt
-source-wordcount: 970
+source-wordcount: 954
 ht-degree: 1%
 
 ---
 
-# 在Journey Optimizer B2B edition中使用AI助手
+# 使用聊天界面
 
-在Journey Optimizer B2B edition中，AI Assistant是一项用户界面功能，可用于了解产品概念、快速导航和了解产品功能，以及获得对环境的操作见解。 Adobe Experience Cloud的多个产品中也提供了此功能。
+在Journey Optimizer B2B edition中，AI Assistant提供了一个聊天界面，您可以使用它来了解产品概念、快速导航和了解产品功能，以及获取对环境的操作见解。 Adobe Experience Cloud的多个产品中也提供了此功能。
 
 >[!IMPORTANT]
 >
->在使用AI助手之前，需要先签署Adobe Experience Cloud创作AI用户指南的协议。 有关此协议和使用准则的更多信息，请参阅[Adobe Experience Cloud Generative AI用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
+>在使用AI助手之前，需要先签署Adobe Experience Cloud创作AI用户指南的协议。 有关此协议和使用准则的更多信息，请参阅[Adobe Experience Cloud Generative AI用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)。
 
-要访问AI助手，请单击标题中的图标。 AI助手将在右侧的面板中打开。
+要访问聊天界面，请单击标题中的图标。
 
 ![单击图标以访问AI助手](./assets/ai-assistant-icon-displayed.png){width="420"}
 
@@ -67,7 +60,7 @@ ht-degree: 1%
 
 ## 提出操作见解问题
 
-运营见解问题与组织沙盒中的历程对象有关。 您可以询问有关操作对象的问题，如客户受众、历程、解决方案兴趣和购买群组模板。 操作分析问题或提示的一些示例包括：
+运营见解问题与组织沙盒中的历程对象有关。 您可以询问有关操作对象的问题，如受众、历程、解决方案兴趣和购买组模板。 操作分析问题或提示的一些示例包括：
 
 * Adobe Journey Optimizer B2B edition中有多少实时历程？
 * 给我所有计划历程的列表
@@ -93,7 +86,7 @@ ht-degree: 1%
 
 ## 验证响应
 
-AI Assistant包括可用于验证和验证响应的工具。
+聊天界面包括可用于验证响应的工具。
 
 ### 产品知识源
 
