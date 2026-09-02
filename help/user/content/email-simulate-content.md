@@ -5,22 +5,16 @@ feature: Email Authoring
 level: Beginner
 role: User
 exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:31:50.715Z
 TQID: https://experienceleague.adobe.com/pwS-mF-KluJnQgXWXyxrflSsC8LuEoJm-eku9IHqgyQ
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 574
+source-wordcount: 568
 ht-degree: 7%
 
 ---
@@ -38,7 +32,7 @@ ht-degree: 7%
 >
 >如果出现错误，则无法预览电子邮件。 要确保没有错误阻止预览功能，请检查&#x200B;_警报_。 警告不会阻止预览，但在发布触发电子邮件投放的历程之前解决这些问题。
 
-## 显示电子邮件预览
+## 显示电子邮件预览 {#display-preview}
 
 您可以从[电子邮件设计空间](./email-authoring.md)或从&#x200B;_[!UICONTROL 摘要]_&#x200B;访问渲染预览，当您[从电子邮件列表](./emails-list.md#open-and-edit-emails)打开电子邮件时。
 
@@ -56,13 +50,13 @@ ht-degree: 7%
 
    ![选择人员配置文件以呈现模拟](./assets/email-simulate-content-preview.png){width="800" zoomable="yes"}
 
-   如果左侧的&#x200B;_[!UICONTROL 人员]_&#x200B;列表为空，则[使用连接的Marketo Engage实例中的联系人添加人员](#add-people-to-the-profiles-list)。
+   如果左侧的&#x200B;_[!UICONTROL 联系人]_&#x200B;列表为空，则[使用联系人添加联系人](#add-people)。
 
    >[!TIP]
    >
    >您还可以使用[Litmus测试呈现集成](./email-test-rendering.md)来检查常用桌面、移动和基于Web的客户端中的电子邮件呈现。
 
-## 调整显示选项
+## 调整显示选项 {#display-options}
 
 使用显示工具根据设备类型或缩放级别更改预览：
 
@@ -72,7 +66,7 @@ ht-degree: 7%
 
 ![调整预览显示](assets/email-simulate-content-preview-display-options.png){width="600" zoomable="yes"}
 
-## 发送校样
+## 发送校样 {#send-proofs}
 
 验证是投放的测试消息，允许您和团队成员在将电子邮件发送给受众成员之前对其进行审核。 校样的收件人可以检查邮件渲染、内容、个性化设置和配置。 您可以使用选定的测试用户档案发送校样。
 
@@ -82,7 +76,7 @@ ht-degree: 7%
 
 1. 在&#x200B;_发送验证_&#x200B;页面中，输入第一个收件人的电子邮件地址。
 
-1. 对于要包含在审核中的其他每个收件人，请单击“添加收件人”**&#x200B;**，然后在“发送至”**[!UICONTROL 字段中输入其电子邮件地址]**。
+1. 对于要包含在审核中的其他每个收件人，请单击“添加收件人”****，然后在“发送至”**[!UICONTROL 字段中输入其电子邮件地址]**。
 
    您最多可以为校样投放添加十个收件人。
 
@@ -92,7 +86,7 @@ ht-degree: 7%
 
 1. 单击&#x200B;**[!UICONTROL 发送校样]**。
 
-## 将人员添加到用户档案列表
+## 将人员添加到用户档案列表 {#add-people}
 
 1. 在&#x200B;_[!UICONTROL 人员]_&#x200B;列表顶部，单击&#x200B;**[!UICONTROL 添加人员]**。
 
@@ -100,7 +94,7 @@ ht-degree: 7%
 
 1. 在&#x200B;_[!UICONTROL 添加测试人员]_&#x200B;对话框中，输入联系人的完整电子邮件地址。
 
-   要添加多个联系人，请输入多个地址，地址之间用逗号分隔。
+   要添加多个联系人，请输入用逗号分隔的地址。
 
 1. 选中要添加到测试用户档案列表中的每个匹配联系人的复选框。
 
