@@ -41,7 +41,7 @@ Marketo Engage中的品牌策略域是一个自定义子域（如`links.yourcomp
 
 >[!PREREQUISITES]
 >
->在UI中编辑或添加域之前，必须将[CNAME映射到Adobe提供的Marketo Engage域](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}。
+>在UI中编辑或添加域之前，必须将[CNAME映射到Adobe提供的Marketo Engage域](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}。
 >
 >添加域时，系统会检查先前手动创建的预先存在的SSL。 如果遇到此验证，请在不选择SSL创建的情况下创建域，然后将其作为单独的过程连接。
 
@@ -106,7 +106,7 @@ Marketo Engage中的品牌策略域是一个自定义子域（如`links.yourcomp
 
    >[!NOTE]
    >
-   >**_自定义SSL_**：如果您需要自定义SSL，则可以提交[支持票证](https://experienceleague.adobe.com/en/support){target="_blank"}。 请勿使用该复选框来创建 SSL。
+   >**_自定义SSL_**：如果您需要自定义SSL，则可以提交[支持票证](https://experienceleague.adobe.com/zh-hans/support){target="_blank"}。 请勿使用该复选框来创建 SSL。
 
 <!-- 
 1. If you have multiple workspaces defined for your Marketo Engage instance, click **[!UICONTROL Next]**.
