@@ -4,23 +4,17 @@ description: 在Journey Optimizer B2B edition中设计包含内容组件的电�
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: 2026-03-30T22:16:05.946Z
 TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: 3074
-ht-degree: 6%
+source-wordcount: 2658
+ht-degree: 8%
 
 ---
 
@@ -320,7 +314,7 @@ ht-degree: 6%
 
    按钮大小会根据设置的文本和样式进行调整。
 
-1. 对于&#x200B;**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
+1. 对于**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
 
    * _[!UICONTROL 无]_ — 使用默认浏览器或客户端行为（默认）打开链接。
    * _[!UICONTROL 空白]_ — 在新窗口或选项卡中打开链接。
@@ -564,51 +558,23 @@ ht-degree: 6%
 
 选择[资源源类型](./assets-overview.md)并选择图像文件：
 
-* **[!UICONTROL Marketo Engage Assets]** — 选择此类型以浏览并从Journey Optimizer B2B edition库或连接的Marketo Engage实例中选择图像资源。
++++[!UICONTROL 选择资源]
 
-  ![浏览可用的图像资源](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
+{{internal-dam}}
 
-  从该对话框中，可以从所选存储库中选择图像。 单击&#x200B;**[!UICONTROL 选择]**&#x200B;以添加资产。
++++
 
-  有多种工具可帮助您找到所需的资源：
++++[!UICONTROL 导入媒体]
 
-  * 单击左上角的&#x200B;_筛选器_&#x200B;图标以根据您的条件筛选显示的项目。
+{{image-upload}}
 
-  * 在&#x200B;_搜索_&#x200B;字段中输入文本，以筛选显示的项目以匹配资源名称。
++++
 
-    ![使用筛选器和搜索字段查找您需要的资源](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
++++[!UICONTROL Experience Manager Assets]
 
-* **[!UICONTROL Experience Manager Assets]** — 选择此类型以浏览并从[配置的Experience Manage Assets存储库](../admin/configure-aem-repositories.md)中选择图像资源。
+{{aem-assets-dam}}
 
-  从&#x200B;_[!UICONTROL 选择Assets]_&#x200B;对话框中，使用可用工具选择一个图像以查找所需的资源，然后单击&#x200B;**[!UICONTROL 选择]**：
-
-  * 更改右上角的&#x200B;**[!UICONTROL 存储库]**。
-
-  * 单击右上角的&#x200B;**[!UICONTROL 管理资源]**&#x200B;可在其他浏览器选项卡中打开Assets存储库并使用AEM Assets管理工具。
-
-  * 单击右上角的&#x200B;_视图类型_&#x200B;选择器以将显示更改为&#x200B;**[!UICONTROL 列表视图]**、**[!UICONTROL 网格视图]**、**[!UICONTROL 图库视图]**&#x200B;或&#x200B;**[!UICONTROL 瀑布视图]**。
-
-  * 单击&#x200B;_排序顺序_&#x200B;图标可在升序和降序之间更改排序顺序。
-
-    ![使用“选择Assets”对话框中的工具查找并选择图像资源](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
-
-  * 单击&#x200B;**[!UICONTROL 排序方式]**&#x200B;菜单箭头以将排序条件更改为&#x200B;**[!UICONTROL 名称]**、**[!UICONTROL 大小]**&#x200B;或&#x200B;**[!UICONTROL 修改时间]**。
-
-  * 单击左上角的&#x200B;_筛选器_&#x200B;图标以根据您的条件筛选显示的项目。
-
-  * 在&#x200B;_搜索_&#x200B;字段中输入文本，以筛选显示的项目以匹配资源名称。
-
-  ![使用筛选器和搜索字段查找资源](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
-
-* **[!UICONTROL 导入媒体]** — 选择此类型可从系统中选择文件并将其导入Journey Optimizer B2B edition资源库。
-
-  在&#x200B;_[!UICONTROL 上传图像]_&#x200B;对话框中，将文件从您的系统拖放到文件框中。 最大文件大小为100 MB。
-
-  ![将图像文件导入](./assets/email-designer-image-upload.png){width="450"}
-
-  对话框中显示所选图像的文件名。 资源文件名必须是唯一的（跨文件夹），如果具有该名称的文件已存在，则会显示一条消息。 名称最多可包含100个字符，并且不能包含特殊字符（如`;`、`:`、`\`和`|`）。
-
-  单击&#x200B;**[!UICONTROL 导入]**。
++++
 
 可以在右侧面板中为图像添加图像标题和替换文本。
 
@@ -636,7 +602,7 @@ ht-degree: 6%
 
    按钮大小会根据设置的文本和样式进行调整。
 
-1. 对于&#x200B;**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
+1. 对于**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
 
    * _[!UICONTROL 无]_ — 使用默认浏览器或客户端行为（默认）打开链接。
    * _[!UICONTROL 空白]_ — 在新窗口或选项卡中打开链接。
@@ -705,7 +671,7 @@ ht-degree: 6%
 选择社交媒体类型后，为该类型设置选项：
 
 * **[!UICONTROL URL]** — 输入要链接到社交媒体图形或图标的社交媒体URL。
-* **[!UICONTROL Source]** — 如果要使用自己的图像而不是默认图像，请选择图像资源。 您可以从连接的Marketo Engage资源存储库和Experience Manager Assets存储库（如果已配置）中选择图像，或从系统中导入图像文件。 有关选择和导入图像资产的详细信息，请参阅[图像组件信息](#add-the-image-asset)。
+* **[!UICONTROL Source]** — 如果要使用自己的图像而不是默认图像，请选择图像资源或从系统中导入图像文件。 有关选择和导入图像资产的详细信息，请参阅[图像组件信息](#add-the-image-asset)。
 * **[!UICONTROL 替代文本]** — 为显示的图像输入替代文本。
 
   ![所选社交媒体类型的设置](./assets/content-components-social-settings-for-type.png){width="250"}
@@ -758,8 +724,6 @@ ht-degree: 6%
 
 ### 表单（仅限登陆页面） {#form}
 
-[!BADGE Beta 版]{type=Informative url="/help/user/content/forms.md" tooltip="Beta功能"}
-
 使用&#x200B;_表单_&#x200B;组件将已发布的表单添加到登陆页面或登陆页面模板。 有关创建和发布表单的更多信息，请参阅[Forms](./forms.md)。
 
 1. 单击组件工具栏中的&#x200B;_表单_&#x200B;工具，或使用右侧的&#x200B;**[!UICONTROL 嵌入表单]**&#x200B;属性选择发布的表单。
@@ -772,7 +736,7 @@ ht-degree: 6%
 
    * **[!UICONTROL 停留在页面]** — 选择此选项可在提交表单时将访客停留在同一页面。
 
-   * **[!UICONTROL 登陆页面]** — 选择此选项可选择任意Journey Optimizer B2B edition或Marketo Engage登陆页面作为跟进。
+   * **[!UICONTROL 登陆页面]** — 选择此选项可选择任意Journey Optimizer B2B edition登陆页面作为跟进。
 
    * **[!UICONTROL 外部URL]** — 选择此选项可将任何URL指定为后续页面。 访客提交表单后，浏览器会加载指定的URL。
 

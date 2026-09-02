@@ -1,9 +1,9 @@
 ---
 title: 代码段
 description: 重用注释和可视化元素来注释应用于特定版本的功能或页面
-source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: '2423'
 ht-degree: 2%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->为您的Journey Optimizer B2B edition实例配置目的数据后，即会包含目的数据。 还需要一个或多个已发布的历程&#x200B;**或**&#x200B;创建购买组。 有关意图检测模型以及如何提交关键字、产品和类别的详细信息，请参阅[意图数据](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/admin/configurations/intent-data)。
+>为您的Journey Optimizer B2B edition实例配置目的数据后，即会包含目的数据。 还需要一个或多个已发布的历程&#x200B;**或**&#x200B;创建购买组。 有关意图检测模型以及如何提交关键字、产品和类别的详细信息，请参阅[意图数据](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/intent-data)。
 
 ## AEM Assets许可说明 {#aem-assets-licensing-note}
 
 >[!NOTE]
 >
->AEM Assets as a Cloud Service的许可证和Dynamic Media许可证是进行集成的先决条件。 确保启用了[Dynamic Media withOpen API](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。 该集成仅限于&#x200B;_交付层_&#x200B;中的存储库。 如果您使用&#x200B;_创作层_&#x200B;并想要转换它，请与Adobe Experience Manager支持部门联系。<br/>
+>AEM Assets as a Cloud Service的许可证和Dynamic Media许可证是进行集成的先决条件。 确保启用了[Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。 该集成仅限于&#x200B;_交付层_&#x200B;中的存储库。 如果您使用&#x200B;_创作层_&#x200B;并想要转换它，请与Adobe Experience Manager支持部门联系。<br/>
 >根据您的合同和配置，在设计可视化内容时，可以直接从Adobe Experience Manager Assets B2B edition访问Adobe Journey Optimizer as a Cloud Service 。
 
 ## 内容创作 — 组件 — 结构步骤 {#structures-step}
@@ -213,9 +213,9 @@ HTML组件的![对齐样式](../assets/content-design-shared/content-components-
 
   ![字体拾色器](../assets/content-design-shared/content-components-styles-text-font-color.png){width="300"}
 
-## 内容 — 图像选择 — Marketo DAM {#me-dam}
+## 内容 — 图像选择 — 内部DAM {#internal-dam}
 
-选择此类型以浏览并从Journey Optimizer B2B edition库或连接的Market Engage实例中选择图像资源。
+选择此类型可浏览并从Journey Optimizer B2B edition库中选择图像资源。
 
 ![浏览可用的图像资源](../user/content/assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
@@ -231,7 +231,7 @@ HTML组件的![对齐样式](../assets/content-design-shared/content-components-
 
 ## 内容 — 图像选择 — AEM Assets {#aem-assets-dam}
 
-选择此类型以浏览并从[配置的Experience Manager Assets存储库](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/admin/configurations/configure-aem-repositories)中选择图像资源。
+选择此类型以浏览并从[配置的Experience Manager Assets存储库](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/configure-aem-repositories)中选择图像资源。
 
 从&#x200B;_[!UICONTROL 选择Assets]_&#x200B;对话框中，使用可用工具选择一个图像以查找所需的资源，然后单击&#x200B;**[!UICONTROL 选择]**：
 
