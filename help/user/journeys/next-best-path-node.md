@@ -5,21 +5,15 @@ feature: Account Journeys, AI Assistant
 role: User
 autotag-review: '2026-05-20T18:52:08.227Z'
 TQID: 'https://experienceleague.adobe.com/idPaG-ZNnNwJjN8yVC3Ay1FZ2XPgtQgrSMNIus4fReI'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2:
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 1912
+source-wordcount: 1913
 ht-degree: 0%
 
 ---
@@ -77,9 +71,9 @@ AI会使用输入的组合，根据定义的路径提示评估每个人：
 
      **示例提示三路径拆分：**
 
-      * _Path 1 - HR主管&#x200B;:_确定HR领导角色中最可能参与人才管理和员工体验内容的人员。
-      * _Path 2 — 技术评估人员&#x200B;:_确定最有可能参与产品体系结构、集成和实施内容的技术利益相关者。
-      * _Path 3 — 业务决策者&#x200B;:_确定最有可能参与ROI、业务成果和案例研究内容的业务利益相关者。
+     * _Path 1 - HR主管&#x200B;:_确定HR领导角色中最可能参与人才管理和员工体验内容的人员。
+     * _Path 2 — 技术评估人员&#x200B;:_确定最有可能参与产品体系结构、集成和实施内容的技术利益相关者。
+     * _Path 3 — 业务决策者&#x200B;:_确定最有可能参与ROI、业务成果和案例研究内容的业务利益相关者。
 
 1. 如果需要，可重新排列路径顺序以设置匹配的优先级顺序。
 
@@ -274,7 +268,7 @@ _识别在财政季度的最后30天内评估阶段活动激增的帐户。_
 1. 在对话框中，选择要用于模拟的受众：
 
    * **[!UICONTROL 原始人员列表]** — 使用受众节点中的受众。 指定全部受众超出模拟阈值时的样本大小。
-   * **[!UICONTROL 动态和静态列表]** — 使用[!DNL Marketo Engage]静态或动态列表。
+   * **[!UICONTROL 动态和静态列表]** — 使用静态或动态人员列表。
    * **[!UICONTROL 测试记录]** — 使用AI建议的测试配置文件。
 
    ![下一个最佳路径 — 模拟 — 选择受众](./assets/node-next-best-path-simulate-dialog.png){width="300"}

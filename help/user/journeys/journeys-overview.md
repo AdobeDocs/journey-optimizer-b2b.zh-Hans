@@ -4,22 +4,17 @@ description: 通过历程简化需求生成 — 在Journey Optimizer B2B edition
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 1312
-ht-degree: 46%
+source-wordcount: 1308
+ht-degree: 45%
 
 ---
 
@@ -94,11 +89,11 @@ Journey Optimizer B2B edition支持两种历程类型：
 
 | 状态 | 描述 | 可用操作 |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**草稿**&#x200B;_ | 可编辑的未发布历程。 | <li>[发布](./create-publish-journey.md#publish-a-journey)<li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
-| _&#x200B;**实时**&#x200B;_ | 历程发布后，历程状态从&#x200B;_草稿_&#x200B;更改为&#x200B;_实时_。 在这种状态下，历程无法再编辑。 | <li>[重复](#duplicate-journey)<li>[对新条目关闭](#close-to-new-entries) <li>[中止](#abort-journey) |
-| _&#x200B;**对新条目关闭**&#x200B;_ | 单击顶部导航中的[!UICONTROL 对新条目关闭]，历程状态从&#x200B;_实时_&#x200B;变为&#x200B;_对新条目关闭_。 | <li>[重复](#duplicate-journey) <li>[中止](#abort-journey) |
-| _&#x200B;**已中止**&#x200B;_ | 历程中止后，历程状态从&#x200B;_实时_&#x200B;或&#x200B;_对新条目关闭_&#x200B;改变。 已中止历程无法重新开始。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
-| _&#x200B;**已完成**&#x200B;_ | 当历程中的所有帐户或人员受众成员完成历程时，状态将从&#x200B;_实时_&#x200B;或&#x200B;_已关闭到新条目_&#x200B;更改为&#x200B;_已完成_。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
+| _**草稿**_ | 可编辑的未发布历程。 | <li>[发布](./create-publish-journey.md#publish-a-journey)<li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
+| _**实时**_ | 历程发布后，历程状态从&#x200B;_草稿_&#x200B;更改为&#x200B;_实时_。 在这种状态下，历程无法再编辑。 | <li>[重复](#duplicate-journey)<li>[对新条目关闭](#close-to-new-entries) <li>[中止](#abort-journey) |
+| _**对新条目关闭**_ | 单击顶部导航中的[!UICONTROL 对新条目关闭]，历程状态从&#x200B;_实时_&#x200B;变为&#x200B;_对新条目关闭_。 | <li>[重复](#duplicate-journey) <li>[中止](#abort-journey) |
+| _**已中止**_ | 历程中止后，历程状态从&#x200B;_实时_&#x200B;或&#x200B;_对新条目关闭_&#x200B;改变。 已中止历程无法重新开始。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
+| _**已完成**_ | 当历程中的所有帐户或人员受众成员完成历程时，状态将从&#x200B;_实时_&#x200B;或&#x200B;_已关闭到新条目_&#x200B;更改为&#x200B;_已完成_。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
 
 ## 历程映射
 
@@ -172,7 +167,7 @@ Journey Optimizer B2B edition支持两种历程类型：
 
 1. 选择复制&#x200B;**[!UICONTROL 类型]**：
 
-   * **[!UICONTROL 部分内容复制]** - 使用此类型来复制历程中的所有内容，但不包括任何已创建的电子邮件或 SMS 消息。 引用 Marketo Engage 电子邮件或 SMS 消息的节点会被完整保留。
+   * **[!UICONTROL 部分内容复制]** - 使用此类型来复制历程中的所有内容，但不包括任何已创建的电子邮件或 SMS 消息。 引用短信消息的节点将完整保留。
 
    * **[!UICONTROL 复制但不包含详细信息]** — 使用此类型仅复制节点结构和路径。 所有节点设置和路径条件均未定义（默认），因此您可以通过不同的受众、操作和路径分段设置再次使用基本流量。 所有&#x200B;_等待_&#x200B;节点默认设置为五天。
 
@@ -206,4 +201,4 @@ Journey Optimizer B2B edition支持两种历程类型：
 
 ## 帐户历程概述视频 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443217/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

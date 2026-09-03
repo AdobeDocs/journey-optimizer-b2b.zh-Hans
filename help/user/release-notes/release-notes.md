@@ -3,23 +3,16 @@ title: Journey Optimizer B2B Edition 发行说明
 description: 探索 Adobe Journey Optimizer B2B Edition 中的最新功能、增强功能和错误修复。 随时掌握最新功能与产品改进信息。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 5635
+source-wordcount: 5633
 ht-degree: 61%
 
 ---
@@ -154,7 +147,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | ----- | ------ | ----------- |
 | 历程生成代理 | 新增的和更新的 | 历程生成代理可实时分析、构思并联合创建历程，使营销人员能够更快启动、提高参与度、促进更高转化率。 [了解详情](../agents/journey-agent.md) |
 | Audience 代理 | 新 | Audience 代理使用结构化和非结构化数据自动识别和构建购买群组。 这有助于营销人员更快、更准确地锁定合适的人群。 [了解详情](../agents/audience-agent-b2b.md) |
-| 销售限定词 | 新 | Sales Qualifier是Adobe Journey Optimizer B2B edition的AI驱动附加应用程序，它包含Account Qualification Agent，旨在简化业务开发代表(BDR)的工作流。 它跨渠道自动化了潜在客户鉴别、外联和买方参与工作流程。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/sales-qualifier/using/home){target="_blank"} |
+| 销售限定词 | 新 | Sales Qualifier是Adobe Journey Optimizer B2B edition的AI驱动附加应用程序，它包含Account Qualification Agent，旨在简化业务开发代表(BDR)的工作流。 它跨渠道自动化了潜在客户鉴别、外联和买方参与工作流程。 [了解详情](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## 2025.10 版本发行说明 {#rel-2025-10}
 
@@ -162,7 +155,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | 将历程激活至目标 | 使用新的&#x200B;_激活至目标_&#x200B;公司帐户操作，可直接面向公司进行激活，而非个人。 （仅限此版本的LinkedIn公司。） [了解详情](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
+| 功能 | 将历程激活至目标 | 使用新的&#x200B;_激活至目标_&#x200B;公司帐户操作，可直接面向公司进行激活，而非个人。 （仅限此版本的LinkedIn公司。） [了解详情](../journeys/action-nodes.md#activate-deactivate-destination) |
 | 功能 | 品牌主题 | 借助品牌主题功能，非技术用户可在标准模板基础上添加自定义样式，创建符合特定品牌与设计语言的可复用内容。 [了解详情](../content/brand-themes.md) |
 | 功能 | 电子邮件模板 – 将图像转换为 HTML | 您现在可以使用以 JPG 或 PNG 格式保存的设计文件，自动生成电子邮件模板。 [了解详情](../content/email-template-image-convert.md) |
 | 功能 | 人物角色映射 | 通过属性映射，将帐户成员与已建立的人物角色关联。 [了解详情](../admin/persona-mapping.md) |
@@ -280,7 +273,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | ---- | ---- | ----------- |
 | 功能 | 帐户列表 | 您现在可以创建静态或动态帐户列表，以根据您定义的标准（例如行业、地点或公司规模）定位命名帐户。 <a href="../accounts/account-lists.md">了解详情</a> |
 | 功能 | 帐户列表历程编排 | 使用历程操作节点来添加和移除静态帐户列表的帐户。 <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">了解详情</a> |
-| 增强功能 | 在 Marketo Engage 中筛选历程会员资格 | 为历程受众使用 Adobe Journey Optimizer B2B Edition 帐户列表，然后使用 Marketo Engage 智能列表中的&#x200B;_帐户列表会员_&#x200B;过滤器。 <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">了解详情</a> |
+| 增强功能 | 在 Marketo Engage 中筛选历程成员资格 | 为历程受众使用 Adobe Journey Optimizer B2B Edition 帐户列表，然后使用 Marketo Engage 智能列表中的&#x200B;_帐户列表会员_&#x200B;过滤器。 |
 | 功能 | 非活动状态过滤器 | 根据 Marketo Engage 营销活动和计划中的非活动状态来编排历程，包括电子邮件非活动状态、有趣的时刻、数据值变化和访问过的网页。 |
 | 增强功能 | 访问过的网页过滤器 | 根据与 Marketo Engage 营销活动和计划相关联的访问过的网页的活动状态来编排历程。 |
 | 增强功能 | 电子邮件列表 | 查看活跃电子邮件和草稿电子邮件的全局列表，以便在相关联的帐户历程中搜索、审查和更新它们。 <a href="../content/emails-list.md">了解详情</a> |
