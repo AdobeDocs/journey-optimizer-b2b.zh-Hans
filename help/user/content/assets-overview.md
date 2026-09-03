@@ -16,10 +16,10 @@ topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
 autotag-review: 2026-03-30T22:17:01.501Z
 TQID: https://experienceleague.adobe.com/urL1pGKG420-cPjDUkCQaYBV3HC8BM6lp3ni6M1b0oc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: 867
-ht-degree: 61%
+source-wordcount: 848
+ht-degree: 62%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 61%
 
 ### 内部资产
 
-默认情况下，每[!DNL Journey Optimizer B2B Edition]订阅都会提供内部资源存储库。 这意味着您有权访问所连接[!DNL Adobe Marketo Engage]资源文件系统中存储的任何图像资源。 您可以将该存储库用作您的本地资产库，包含上传和下载资产功能。 您还可以在历程内容中使用这些资产。
+默认情况下，每[!DNL Journey Optimizer B2B Edition]订阅都会提供内部资源存储库。 您可以将该存储库用作您的本地资产库，包含上传和下载资产功能。 您还可以在历程内容中使用这些资产。
 
 您可以[使用Adobe Express](./image-edit-adobe-express.md)编辑这些资源，并将它们移动到文件夹中，以整理它们以供在电子邮件、模板和片段中使用。
 

@@ -18,22 +18,18 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T23:06:01.153Z
 TQID: https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 2333
-ht-degree: 81%
+source-wordcount: 2303
+ht-degree: 79%
 
 ---
 
 # 设置电子邮件跟踪和投放
 
-Adobe Journey Optimizer B2B edition利用附加的Marketo Engage实例中的电子邮件渠道功能和事件跟踪。 某些组织使用限制性的防火墙或代理服务器设置。 为确保这些组织能够按预期方式交付电子邮件，系统管理员必须将特定域和IP地址范围添加到允许列表中。
+Adobe Journey Optimizer B2B Edition 利用附加的 Marketo Engage 实例中的电子邮件频道功能和事件跟踪。 某些组织使用限制性的防火墙或代理服务器设置。 要确保电子邮件投放对这些组织按预期工作，系统管理员必须将某些域和IP地址范围添加到。
 
->[!NOTE]
->
->如果贵组织已使用连接的Marketo Engage实例运行营销操作，则这些协议和配置已准备就绪。
-
-确保向允许列表中添加了以下域（包括星号），以启用所有Marketo Engage资源和Web套接字：
+确保将以下域（包括星号）添加到允许列表中，以启用所有 Marketo Engage 资源和 web sockets：
 
 * `*.experience.adobe.com`
 * `*.adobe.net`
@@ -47,15 +43,15 @@ Adobe Journey Optimizer B2B edition利用附加的Marketo Engage实例中的电�
 1. [设置 SPF 和 DKIM](#set-up-spf-and-dkim)
 1. [设置 DMARC](#set-up-dmarc)
 1. [为您的域设置 MX 记录](#set-up-mx-records-for-your-domain)
-1. [将出站IP地址添加到允许列表](#outbound-ip-addresses)
+1. [将出站 IP 地址添加到允许列表](#outbound-ip-addresses)
 
 >[!NOTE]
 >
->电子邮件可投放性服务和咨询是独立于Adobe的付费产品。 如果您需要或希望可交付性团队为Journey Optimizer B2B edition实例提供支持，则必须购买该实例的其中一个电子邮件可交付性服务包（Essentials、Enhanced或Plus）。 此配置与预先存在的Marketo Engage实例上的任何可投放性包无关。 可投放性服务是按实例附加的，而不是按组织附加的。 两个实例上的可投放性支持都需要两个单独的Deliverability Services包。 每当为Journey Optimizer B2B edition配置新IP时，都需要一个新的可交付性服务包来进行IP预热和持续的可交付性支持。
+>电子邮件可投放性服务和咨询是独立于Adobe的付费产品。 如果您需要或希望可交付性团队为Journey Optimizer B2B edition实例提供支持，则必须购买该实例的其中一个电子邮件可交付性服务包（Essentials、Enhanced或Plus）。 此配置与预先存在的Marketo Engage实例上的任何可投放性包无关。 供应能力服务是按实例附加的，而不是按组织附加的。 两个实例上的可投放性支持都需要两个单独的Deliverability Services包。 每当为Journey Optimizer B2B edition配置新IP时，都需要一个新的可交付性服务包来进行IP预热和持续的可交付性支持。
 
 ## 为登陆页面和电子邮件创建DNS记录
 
-连接 CNAME 记录可以让营销人员托管电子邮件、登陆页面和博客的网页版本，保持一致的品牌形象，从而提升流量和转化率。 强烈建议您将 CNAME 添加到您的根域主机，以便 Marketo Engage 托管您的以营销为中心的网络资产。
+通过配置CNAME记录，营销人员可以托管具有一致品牌策略的Web版本电子邮件、登陆页面和博客，从而提高流量和转化率。 强烈建议您将 CNAME 添加到您的根域主机，以便 Marketo Engage 托管您的以营销为中心的网络资产。
 
 要计划和实施两个CNAME记录，请以管理员身份与您的营销团队合作。 第一个是针对登陆页面URL的，这样登陆页面就会显示在反映您域的URL中，而不是显示在Adobe Marketo Engage（实际的主机）中。 第二个用于跟踪通过Marketo Engage发送的电子邮件中包含的链接。
 
@@ -81,7 +77,7 @@ Adobe Journey Optimizer B2B edition利用附加的Marketo Engage实例中的电�
 >
 >`[MktoTrackingLink]` 值必须是默认[品牌域](../admin/configure-channels-emails.md#branding-domains)。
 
-### 提供 SSL 证书
+### 配置 SSL 证书
 
 联系 [Adobe 支持部门](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support){target="_blank"}，以开始 SSL 证书设置过程。
 
@@ -120,7 +116,7 @@ Adobe Journey Optimizer B2B edition利用附加的Marketo Engage实例中的电�
 
 ## 设置 DMARC
 
-DMARC（基于域的消息认证、报告和一致性）是一种认证协议，用于帮助确保组织的域不在未经授权的情况下被使用。 它扩展了现有的身份验证协议（例如 SPF 和 DKIM），以告知收件人服务器在其域上发生身份验证失败时应采取的行动。 DMARC是可选的，但强烈建议使用，因为它有助于保护您的品牌和声誉。 Google 和 Yahoo 等主要服务提供商从 2024 年 2 月开始要求批量发件人使用 DMARC。
+DMARC（基于域的消息认证、报告和一致性）是一种认证协议，用于帮助确保组织的域不在未经授权的情况下被使用。 它扩展了现有的身份验证协议（例如 SPF 和 DKIM），以告知收件人服务器在其域上发生身份验证失败时应采取的行动。 DMARC是可选的，但建议使用，因为它有助于保护您的品牌和声誉。 Google 和 Yahoo 等主要服务提供商从 2024 年 2 月开始要求批量发件人使用 DMARC。
 
 为了使 DMARC 正常运行，您必须至少拥有以下 DNS TXT 记录之一：
 
@@ -137,7 +133,7 @@ DMARC（基于域的消息认证、报告和一致性）是一种认证协议，
 
 如果您收到DMARC报表，请执行以下操作：
 
-1. 使用 `p=none` 并分析您收到的反馈和报告。 报告会指示接收者对未通过身份验证的消息不采取任何行动，并向发件人发送电子邮件报告。
+1. 使用 `p=none` 并分析您收到的反馈和报告。 报告告知接收者不对验证失败的邮件执行任何操作，并向发件人发送电子邮件报告。
 
    * 如果合法消息未通过身份验证，请检查并解决 SPF/DKIM 方面的问题。
 
@@ -151,7 +147,7 @@ DMARC（基于域的消息认证、报告和一致性）是一种认证协议，
 
 1. 如果您对`p=quarantine`级别的消息行为感到满意，则可以将该策略调整为(`p=reject`)。
 
-   拒绝策略会指示接收者拒绝（退回）任何未通过身份验证的域的电子邮件。 启用此策略后，只有经过域的 100% 验证的电子邮件才有机会被放入收件箱。
+   拒绝策略会指示接收者拒绝（退回）该域中任何未通过身份验证的电子邮件。 启用此策略后，只有经过域的 100% 验证的电子邮件才有机会被放入收件箱。
 
    >[!CAUTION]
    >
@@ -159,7 +155,7 @@ DMARC（基于域的消息认证、报告和一致性）是一种认证协议，
 
 ### DMARC 报告
 
-DMARC 提供的功能可以接收关于 SPF/DKIM 验证失败电子邮件的报告。 在身份验证过程中，ISP服务会生成两个不同的报告。 发件人可以通过其 DMARC 策略中的 RUA/RUF 标记接收这些报告。
+DMARC 提供接收关于未通过 SPF/DKIM 验证的电子邮件的报告的功能。 在身份验证过程中，ISP服务会生成两个不同的报告。 发件人可以通过其 DMARC 策略中的 RUA/RUF 标记接收这些报告。
 
 * **汇总报告 (RUA)**：不包含任何可能属于《通用数据保护条例》（GDPR）敏感范畴的个人身份信息（PII）。
 
@@ -185,7 +181,7 @@ DMARC 记录有多个名为 _DMARC 标记_&#x200B;的组件。 每个标记都�
 | `pct` | 可选 | 指定需要筛选的消息的百分比。 | `pct=20` | `100` |
 | `rua` | 可选（推荐） | 指定将汇总报告发送到哪里。 | `rua=mailto:aggrep@example.com` | - |
 | `ruf` | 可选（推荐） | 指定将取证报告发送到哪里。 | `ruf=mailto:authfail@example.com` | - |
-| `sp` | 可选 | 指定某个父域的若干子域的 DMARC 策略。 | `sp=reject` | - |
+| `sp` | 可选 | 指定父域的子域的 DMARC 策略。 | `sp=reject` | - |
 | `adkim` | 可选 | 指定严格 (`s`) 或宽松 (`r`) 对齐。 宽松对齐意味着该域用于 DKIM 签名，并且可以是 `From:` 地址的子域。 严格对齐意味着在 DKIM 签名中使用的域必须与 `From:` 地址中使用的域完全匹配。 | `adkim=r` | `r` |
 | `aspf` | 可选 | 可以是严格的 (`s`)，也可以是宽松的 (`r`)。 宽松模式意味着返回路径域可以是 `From:` 地址的子域。 严格模式意味着返回路径域必须与 `From:` 地址完全匹配。 | `aspf=r` | `r` |
 
@@ -199,9 +195,9 @@ DMARC 有两种对齐方式：
 
   DKIM对齐验证发件人是否获得授权从域发送邮件，并验证在电子邮件传输期间是否未更改任何内容。 要实施 DKIM 对齐的 DMARC：
 
-   * 为您的邮件的 MAIL FROM 域设置 DKIM。 使用 Marketo Engage 文档中的[说明](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}。
+  * 为您的邮件的 MAIL FROM 域设置 DKIM。 使用 Marketo Engage 文档中的[说明](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}。
 
-   * 为 DKIM MAIL FROM 域配置 DMARC。
+  * 为 DKIM MAIL FROM 域配置 DMARC。
 
   >[!NOTE]
   >
@@ -209,12 +205,12 @@ DMARC 有两种对齐方式：
 
 * **SPF** （发件人策略框架）对齐：`From:` 标头中的域必须与返回路径标头中的域匹配。 如果两个 DNS 域相同，则 SPF 会匹配（对齐）并给出验证通过的结果。 要实施 SPF 对齐的 DMARC：
 
-   * 设置品牌化返回路径域。
+  * 设置品牌化返回路径域。
 
-      * 配置适当的 SPF 记录。
-      * 将 MX 记录更改为指回到发送邮件的数据中心的默认 MX
+    * 配置适当的 SPF 记录。
+    * 要指向发送邮件时所在数据中心的默认MX，请更改MX记录。
 
-   * 为品牌化返回路径域配置 DMARC。
+  * 为品牌化返回路径域配置 DMARC。
 
   >[!NOTE]
   >
@@ -230,25 +226,25 @@ DMARC 有两种对齐方式：
 
 如果您有专用IP，则必须在与现有Journey Optimizer实例相同的区域创建新的Marketo Engage B2B edition实例。 如果新实例位于不同的区域，则无法共享现有IP。 如果区域匹配，请打开具有[Adobe支持](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support){target="_blank"}的票证，并请求将现有IP和绑定组与新实例共享。 提供您的Marketo Engage前缀(Munchkin ID)和新的Journey Optimizer B2B edition前缀(Munchkin ID)。
 
-通过此请求，Adobe会复制与现有Marketo Engage实例相同的IP、绑定组和配置的返回路径域。 在Marketo Engage和Journey Optimizer B2B edition实例之间共享IP时，IP将同时使用。
+通过此请求，Adobe会复制与现有Marketo Engage实例相同的IP、绑定组和配置的返回路径域。 在Marketo Engage实例和Journey Optimizer B2B edition实例之间共享IP时，两个实例会同时使用它们。
 
 >[!ENDSHADEBOX]
 
-可信 IP 池是为每月发送量低于 75k 且不符合专用 IP 条件的低流量用户预留的共享 IP 池。 这些用户还必须满足最佳实践要求。
+受信任的IP是IP的共享池，为每月发送少于75,000的较低卷用户保留，并且无法满足专用IP的要求。 这些用户还必须满足最佳做法要求。
 
 * 如果您通过 Marketo Engage 使用 IP 共享池发送邮件，那么您可以通过[申请可信 IP 发送范围计划](https://na-sjg.marketo.com/lp/marketoprivacydemo/Trusted-IP-Sending-Range-Program.html){target="_blank"}来检查您是否有资格获得可信 IP。 从 Marketo Engage 可信 IP 发送时包含品牌化返回路径。 如果获准参与此计划，请联系 Adobe 支持部门以设置品牌化返回路径。
 
-* 如果您每月发送的消息量超过 10 万条，并希望通过 Marketo Engage 使用共享 IP 发送电子邮件，请联系 Adobe 帐户团队（即您的帐户经理）以购买专用 IP。
+* 如果您每月发送的消息量超过 10 万条，并希望通过 Marketo Engage 使用共享 IP 发送电子邮件，请联系 Adobe 帐户团队（即您的客户经理）以购买专用 IP。
 
 共享IP池中的客户不需要任何其他配置。 您可以继续使用与之前相同的IP池和默认返回路径域。
 
 ## 为您的域设置 MX 记录
 
-MX 记录允许您接收发送电子邮件所使用域名的来信，以处理回复和自动回复。 如果您从公司域发出邮件，这可能已经配置好了。 如果没有，您通常可以将其设置为映射到您的公司域 MX 记录。
+MX 记录允许您接收发送电子邮件所使用域名的来信，以处理回复和自动回复。 如果您从公司域发出邮件，这可能已经配置好了。 如果不能，请将其设置为映射到您的公司域MX记录。
 
 ## 出站 IP 地址
 
-Marketo Engage代表您与Internet服务器进行出站连接。 您的IT部门和某些合作伙伴/供应商可能会使用允许列表来限制对服务器的访问。 如果是这样的话，请向他们提供Marketo Engage出站IP地址块以添加到其允许列表。
+Marketo Engage代表您与Internet服务器进行出站连接。 您的IT部门和某些合作伙伴/供应商使用允许列表来限制对服务器的访问。 如果是这样的话，请向他们提供Marketo Engage出站IP地址块，以添加到他们的。
 
 <!--
 Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allow list on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allow list. For more information, see [_Create a webhook_](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [_Call Webhook_](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.

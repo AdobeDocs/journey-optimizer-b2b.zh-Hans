@@ -1,9 +1,9 @@
 ---
 title: 代码段
 description: 重用注释和可视化元素来注释应用于特定版本的功能或页面
-source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: '2423'
 ht-degree: 2%
 
 ---
@@ -213,9 +213,9 @@ HTML组件的![对齐样式](../assets/content-design-shared/content-components-
 
   ![字体拾色器](../assets/content-design-shared/content-components-styles-text-font-color.png){width="300"}
 
-## 内容 — 图像选择 — Marketo DAM {#me-dam}
+## 内容 — 图像选择 — 内部DAM {#internal-dam}
 
-选择此类型以浏览并从Journey Optimizer B2B edition库或连接的Market Engage实例中选择图像资源。
+选择此类型可浏览并从Journey Optimizer B2B edition库中选择图像资源。
 
 ![浏览可用的图像资源](../user/content/assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 

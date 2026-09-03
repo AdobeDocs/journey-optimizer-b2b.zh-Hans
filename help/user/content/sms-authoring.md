@@ -22,9 +22,9 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 1306
+source-wordcount: 1207
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 3%
 >
 >根据行业标准和法规，所有短信营销消息都必须包含一种让接收者轻松取消订阅的方式。 要实现此目的，短信收件人可以使用选择启用和选择禁用关键词进行回复。 支持并遵循所有标准的选择加入和选择退出关键词。 此外，还支持并遵循为短信服务提供商帐户配置的任何自定义关键字。 有关如何在投放时评估短信同意首选项的详细信息，请参阅[同意首选项](./channels-consent-preferences.md)。
 
-## 在帐户历程中添加短信操作
+## 在帐户历程中添加短信操作 {#add-action}
 
 添加&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点并执行以下操作时，您可以在帐户历程中设置短信投放：
 
@@ -61,7 +61,7 @@ ht-degree: 3%
 
    _历程映射_&#x200B;打开，您可以创建消息并设置用于发送消息的短信属性。
 
-### 创建短信消息
+### 创建短信消息 {#create-message}
 
 在&#x200B;**[!UICONTROL 消息]**&#x200B;字段中输入要发送的文本。
 
@@ -69,7 +69,7 @@ ht-degree: 3%
 
 ![撰写短信消息](./assets/sms-message-compose.png){width="800" zoomable="yes"}
 
-#### 个性化设置短信
+#### 个性化设置短信 {#personalize}
 
 1. 将光标放在消息中要添加个性化令牌的位置。
 
@@ -91,36 +91,39 @@ ht-degree: 3%
 
    您可以根据需要继续编辑包含令牌的消息。
 
-#### 向文本消息添加链接(URL)
+#### 向文本消息添加链接(URL) {#add-links}
 
 1. 输入消息文本后，单击文本消息框右侧的&#x200B;_链接_&#x200B;图标（![链接图标](../assets/do-not-localize/icon-link.svg)）。
 
 1. 输入链接的&#x200B;**[!UICONTROL URL]**。
 
+
+1. 在对话框中，选择要链接的URL类型：
+
+   * **[!UICONTROL 登陆页面]** — 选择此选项可选择任何已发布的登陆页面。
+
+   * **[!UICONTROL 外部URL]** — 此类型是您在文本框中输入的任何外部URL。
+
 <!--
-1. In the dialog, choose the type of URLs to link:
 
-   * **[!UICONTROL Landing Page]** - Choose this option to select any of the approved Adobe Marketo Engage landing pages from your Marketo Engage instance. Select the workspace, and then select the landing page.
+1. If you choose to use a Marketo Engage landing page, set the tracking options.
 
-   * **[!UICONTROL External URL]** - This type is any external URL that you enter in the text box. 
+   * **[!UICONTROL Enable tracking]** - Select this checkbox to enable tracking, which requires _shortening_ the URL. For a landing page, it uses the Marketo Engage subdomain for the shortened URL. A sample of the shortened URL format is displayed. The actual URL is created when the SMS is sent to the recipient.
+
+   * **[!UICONTROL Include mkt_tok]** - Select this checkbox to track activity against a user.</br>
+
+      >[!NOTE] 
+      >
+      >When you allow tracking but disable _[!UICONTROL Include mkt_tok]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
+      >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+
 -->
 
-1. 如果您选择使用Marketo Engage登陆页面，请设置跟踪选项。
-
-   * **[!UICONTROL 启用跟踪]** — 选中此复选框可启用跟踪，这需要&#x200B;_缩短_ URL。 对于登陆页面，它会使用缩短URL的Marketo Engage子域。 此时将显示缩短的URL格式的示例。 实际URL是在将短信发送给收件人时创建的。
-
-   * **[!UICONTROL 包含mkt_tok]** — 选中此复选框可跟踪针对用户的活动。</br>
-
-     >[!NOTE]
-     >
-     >当您允许跟踪但禁用&#x200B;_[!UICONTROL 包含mkt_tok]_&#x200B;时，目标URL在重定向后不包含`mkt_tok`查询字符串参数。Marketo Engage登陆页面和Munchkin使用此参数以确保跟踪人员活动（例如，当人员取消订阅电子邮件时）。除非参数导致您的网站上出现问题，否则请勿禁用此选项。<br/>
-     >有关在网站上使用Munchkin跟踪代码的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}。
-
-   ![为短信消息添加链接对话框](./assets/sms-add-link-dialog.png){width="470"}
+![为短信消息添加链接对话框](./assets/sms-add-link-dialog.png){width="470"}
 
 1. 链接选项完成后，单击&#x200B;**[!UICONTROL 添加]**&#x200B;以保存更改并将URL链接添加到短信消息。
 
-### 设置短信属性
+### 设置短信属性 {#sms-properties}
 
 1. 在&#x200B;_[!UICONTROL 短信属性]_&#x200B;部分中，为您的消息输入&#x200B;**[!UICONTROL Name]**（必需，最多100个字符）和&#x200B;**[!UICONTROL Description]**（可选，最多300个字符）。
 
@@ -160,7 +163,7 @@ ht-degree: 3%
 
 1. 使用&#x200B;_模拟内容_&#x200B;页面管理用于测试配置文件的潜在客户。
 
-   在显示的列表中，您可以从Marketo Engage lead数据库中搜索并添加任何潜在客户（一次最多10个潜在客户）。
+   在显示的列表中，您可以搜索并添加任何潜在客户（一次最多10个潜在客户）。
 
    要搜索，请输入整个电子邮件地址，然后按&#x200B;_Enter_。 将显示相应的潜在客户配置文件以供选择。
 
@@ -178,9 +181,9 @@ ht-degree: 3%
 
 1. 要退出&#x200B;_[!UICONTROL 模拟内容]_&#x200B;页面并返回短信创作工作区，请单击右上方的&#x200B;**[!UICONTROL 关闭]**。
 
-## 短信同意管理
+## 短信同意管理 {#consent-management}
 
-向收件人提供取消订阅以停止从品牌接收通信的功能，并遵守此选择是一项法律要求。 未能遵守这些法规会为您的品牌带来法律风险。 此功能可帮助您避免向收件人发送未经请求的通信，这种通信可能会导致他们将您的邮件标记为垃圾邮件并损害您的声誉。
+向收件人提供取消订阅以停止从品牌接收通信的功能，并遵守此选择是一项法律要求。 未能遵守这些法规会为您的品牌带来法律风险。 此功能可帮助您避免向收件人发送未经请求的通信。 这可防止他们将您的邮件标记为垃圾邮件并损害您的声誉。
 
 提供此选项后，短信收件人可以使用选择启用和选择禁用关键词进行回复。 支持并遵循所有标准的选择启用和选择禁用关键词，以及使用SMS服务提供商配置的任何自定义关键词。 取消订阅后，用户档案将自动从未来营销消息的受众中删除。
 
@@ -188,4 +191,4 @@ Journey Optimizer B2B edition提供了使用以下逻辑管理短信消息中的
 
 * 默认情况下，如果商机选择不接收您的通信，则相应的用户档案将从后续短信投放中排除
 
-* 来自不同来源（如AEP或短信服务提供商）的潜在客户同意将同步到Journey Optimizer B2B edition。 目前，在实例级别，它仅支持每个商机的单个同意状态（商机“John Doe”订阅或取消订阅实例中的所有促销短信）。 它当前不支持在品牌级别/单个订阅列表级别同意双重选择加入。
+* 来自不同来源（例如AEP或短信服务提供商）的潜在客户同意将同步到Journey Optimizer B2B edition。 目前，在实例级别，它仅支持每个商机的单个同意状态（商机“John Doe”订阅或取消订阅实例中的所有促销短信）。 它当前不支持在品牌级别/单个订阅列表级别同意双重选择加入。

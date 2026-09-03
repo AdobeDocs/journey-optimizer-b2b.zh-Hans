@@ -16,10 +16,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 1013
-ht-degree: 80%
+source-wordcount: 913
+ht-degree: 75%
 
 ---
 
@@ -28,16 +28,14 @@ ht-degree: 80%
 Marketo Engage中的品牌策略域是一个自定义子域（如`links.yourcompany.com`），用于重写链接和跟踪电子邮件点击并确保它们反映您的品牌而非通用域。 每个品牌推广域都充当点击跟踪域，通过将电子邮件和登陆页面链接与域进行配对来增强可投放性和信任度。
 
 * 它在电子邮件超链接中将通用链接替换为您自己的品牌。
-* 当帐户潜在客户单击链接时，它通过此自定义域进行重定向，以允许在对电子邮件过滤器显示合法性的同时进行性能跟踪。
+* 当潜在客户单击链接时，它通过此自定义域进行重定向，以允许在对电子邮件过滤器显示合法链接时进行性能跟踪。
 * 要支持不同的业务单位或品牌，如果您有多个品牌，则可以配置额外的品牌策略域。
 
 >[!BEGINSHADEBOX]
 
 **用于跟踪链接的唯一CNAME**
 
-电子邮件跟踪链接必须是新的，并且对于附加的Marketo Engage实例必须是唯一的。 如果您有现有的CNAME用于跟踪指向预先存在的（生产）Marketo Engage实例的链接，则需要先修改这些CNAME，然后才能重复使用。
-
-您可以在生产Marketo Engage实例和附加实例之间共享返回路径域品牌化，但此更改属于后端更改。 打开支持工单并提供您的Marketo Engage前缀(Munchkin ID)和新的Journey Optimizer B2B edition前缀(Munchkin ID)，以请求共享返回路径域品牌化。
+电子邮件跟踪链接必须是新的，并且对于附加的Marketo Engage实例必须是唯一的。 您可以在生产Marketo Engage实例和附加实例之间共享返回路径域品牌化，但此更改是内部系统更改。 打开支持工单并提供您的Marketo Engage前缀(Munchkin ID)和新的Journey Optimizer B2B edition前缀(Munchkin ID)，以请求共享返回路径域品牌化。
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +61,7 @@ Marketo Engage中的品牌策略域是一个自定义子域（如`links.yourcomp
 
 >[!NOTE]
 >
->在编辑通用默认域之前，您无法定义其他品牌策略域。
+>在编辑通用默认域之前，您无法定义其他品牌化域。
 
 1. 在&#x200B;_[!UICONTROL 品牌化域]_&#x200B;面板中，选择通用域并单击顶部的&#x200B;**[!UICONTROL 编辑]**。
 
@@ -73,17 +71,20 @@ Marketo Engage中的品牌策略域是一个自定义子域（如`links.yourcomp
 
    ![编辑品牌策略域对话框](./assets/me-admin-email-branding-domains-edit-default-name.png){width="400"}
 
-1. 如果您为Marketo Engage实例定义了多个工作区，请单击&#x200B;**[!UICONTROL 下一步]**。
+<!--
+1. If you have multiple workspaces defined for your Marketo Engage instance, click **[!UICONTROL Next]**.
 
-   选择要应用已更新主域的每个工作区。
+   Select each of the workspaces where you want to apply the updated primary domain.
 
-   ![编辑品牌策略域对话框，其中包含主域的工作区选择](./assets/me-admin-email-branding-domains-edit-default-workspaces.png){width="400"}
+   ![Edit Branding Domain dialog with workspace selection for primary domain](./assets/me-admin-email-branding-domains-edit-default-workspaces.png){width="400"}
 
-1. 单击&#x200B;**[!UICONTROL 保存]**。
+-->
+
+1. 单击&#x200B;**[!UICONTROL 下一步]**，然后单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 定义其他域
 
-在编辑默认域后，您可以添加另一个品牌域来支持您的Journey Optimizer B2B edition环境中的多个品牌，其中每个品牌都有自己的品牌跟踪链接。 添加域时，有以下选项：
+要在您的Journey Optimizer B2B edition环境中支持多个品牌（每个品牌都有自己的品牌跟踪链接），您可以在编辑默认域后添加另一个品牌域。 添加域时，有以下选项：
 
 >* _使主域_：使它成为工作区的主域。 选择此选项时，所有现有未发送电子邮件都会设置为默认主域，所有新创建的电子邮件都会自动默认到此主域。 营销人员可以根据需要选择替代品牌推广域。
 >
@@ -105,19 +106,21 @@ Marketo Engage中的品牌策略域是一个自定义子域（如`links.yourcomp
 
    >[!NOTE]
    >
-   >**_自定义SSL_**：如果您需要自定义SSL，则可以提交[支持票证](https://experienceleague.adobe.com/zh-hans/support){target="_blank"}。 请勿将复选框用于SSL创建。
+   >**_自定义SSL_**：如果您需要自定义SSL，则可以提交[支持票证](https://experienceleague.adobe.com/zh-hans/support){target="_blank"}。 请勿使用该复选框来创建 SSL。
 
-1. 如果您为Marketo Engage实例定义了多个工作区，请单击&#x200B;**[!UICONTROL 下一步]**。
+<!-- 
+1. If you have multiple workspaces defined for your Marketo Engage instance, click **[!UICONTROL Next]**.
 
-   如果需要，请选择要应用新域作为主域的每个工作区。
+   If needed, select each of the workspaces where you want to apply the new domain as the primary domain.
 
-   ![带有用于应用主域的工作区选择的“新建品牌域”对话框](assets/me-admin-email-branding-domains-add-workspaces.png){width="400"}
+    ![New Branding Domain dialog with workspace selection for applying the primary domain](assets/me-admin-email-branding-domains-add-workspaces.png){width="400"}
+-->
 
-1. 单击&#x200B;**[!UICONTROL 保存]**。
+1. 单击&#x200B;**[!UICONTROL 下一步]**，然后单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 编辑现有品牌策略域的SSL
 
-按照以下步骤为现有域启用SSL。
+要为现有域启用SSL，请执行以下步骤：
 
 1. 从&#x200B;_[!UICONTROL 管理员]_&#x200B;区域，选择&#x200B;**[!UICONTROL 电子邮件]**。
 
@@ -131,7 +134,7 @@ Marketo Engage中的品牌策略域是一个自定义子域（如`links.yourcomp
 
 ## 错误消息
 
-| 错误 | 详情 |
+| 错误 | 详细信息 |
 | ----- | ------- |
 | `Domain already exists.` | 具有相同名称的域已存在。 |
 | `Domain is not mapped to the default domain.` | 自定义域未正确映射到默认域。 验证域映射设置，并确保DNS配置指向正确的默认域。 |

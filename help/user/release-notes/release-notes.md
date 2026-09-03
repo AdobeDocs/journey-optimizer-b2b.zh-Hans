@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 77daccdacfbc62e51be67ef2b68953692591505a
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 5635
+source-wordcount: 5633
 ht-degree: 61%
 
 ---
@@ -162,7 +162,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | 将历程激活至目标 | 使用新的&#x200B;_激活至目标_&#x200B;公司帐户操作，可直接面向公司进行激活，而非个人。 （仅限此版本的LinkedIn公司。） [了解详情](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
+| 功能 | 将历程激活至目标 | 使用新的&#x200B;_激活至目标_&#x200B;公司帐户操作，可直接面向公司进行激活，而非个人。 （仅限此版本的LinkedIn公司。） [了解详情](../journeys/action-nodes.md#activate-deactivate-destination) |
 | 功能 | 品牌主题 | 借助品牌主题功能，非技术用户可在标准模板基础上添加自定义样式，创建符合特定品牌与设计语言的可复用内容。 [了解详情](../content/brand-themes.md) |
 | 功能 | 电子邮件模板 – 将图像转换为 HTML | 您现在可以使用以 JPG 或 PNG 格式保存的设计文件，自动生成电子邮件模板。 [了解详情](../content/email-template-image-convert.md) |
 | 功能 | 人物角色映射 | 通过属性映射，将帐户成员与已建立的人物角色关联。 [了解详情](../admin/persona-mapping.md) |
@@ -254,7 +254,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | 功能 | CRM 内访问详细信息页面 | 现在，您可以在客户关系管理 (CRM) 工具（例如 Salesforce 或 Microsoft Dynamics）中配置导向帐户、联系人和潜在客户的 Journey Optimizer B2B Edition 详细信息页面的直接链接。 [了解详情](../accounts/crm-linking.md) |
 | 功能 | 用于内容设计的自定义 CSS 支持 | 现在，您可以在设计空间中创作电子邮件和登陆页面内容时添加自己的自定义 CSS。 [了解详情](../content/design-custom-css.md) |
 | 功能 | 意图关键词映射配置 | 要激活和管理意图检测模型，管理员现在可以上传电子表格以定义意图数据映射类别。 [了解详情](../admin/intent-data.md) |
-| 增强功能 | 模拟电子邮件摘要中的内容 | 当您从电子邮件列表中打开电子邮件时，您现在可以从电子邮件摘要（详细信息和属性）中访问&#x200B;_模拟内容_&#x200B;工具。 除了电子邮件设计空间之外，还提供此访问权限。 [了解详情](../content/email-simulate-content.md#display-the-email-preview) |
+| 增强功能 | 模拟电子邮件摘要中的内容 | 当您从电子邮件列表中打开电子邮件时，您现在可以从电子邮件摘要（详细信息和属性）中访问&#x200B;_模拟内容_&#x200B;工具。 除了电子邮件设计空间之外，还提供此访问权限。 [了解详情](../content/email-simulate-content.md#display-preview) |
 | 增强功能 | 角色模板列表的总数显示 | _[!UICONTROL 角色模板]_&#x200B;列表页面的搜索栏旁边显示总数，进一步得到改进。 |
 
 ## 2025.5 版发行说明 {#rel-2025-5}
@@ -280,7 +280,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | ---- | ---- | ----------- |
 | 功能 | 帐户列表 | 您现在可以创建静态或动态帐户列表，以根据您定义的标准（例如行业、地点或公司规模）定位命名帐户。 <a href="../accounts/account-lists.md">了解详情</a> |
 | 功能 | 帐户列表历程编排 | 使用历程操作节点来添加和移除静态帐户列表的帐户。 <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">了解详情</a> |
-| 增强功能 | 在 Marketo Engage 中筛选历程会员资格 | 为历程受众使用 Adobe Journey Optimizer B2B Edition 帐户列表，然后使用 Marketo Engage 智能列表中的&#x200B;_帐户列表会员_&#x200B;过滤器。 <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">了解详情</a> |
+| 增强功能 | 在 Marketo Engage 中筛选历程成员资格 | 为历程受众使用 Adobe Journey Optimizer B2B Edition 帐户列表，然后使用 Marketo Engage 智能列表中的&#x200B;_帐户列表会员_&#x200B;过滤器。 |
 | 功能 | 非活动状态过滤器 | 根据 Marketo Engage 营销活动和计划中的非活动状态来编排历程，包括电子邮件非活动状态、有趣的时刻、数据值变化和访问过的网页。 |
 | 增强功能 | 访问过的网页过滤器 | 根据与 Marketo Engage 营销活动和计划相关联的访问过的网页的活动状态来编排历程。 |
 | 增强功能 | 电子邮件列表 | 查看活跃电子邮件和草稿电子邮件的全局列表，以便在相关联的帐户历程中搜索、审查和更新它们。 <a href="../content/emails-list.md">了解详情</a> |
