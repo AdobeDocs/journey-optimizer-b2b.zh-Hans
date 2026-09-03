@@ -4,21 +4,15 @@ description: 创建带有加权活动的自定义参与度得分模型，以便�
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-27T23:14:34.224Z
 TQID: https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1298
+source-wordcount: 1257
 ht-degree: 0%
 
 ---
@@ -58,10 +52,6 @@ ht-degree: 0%
 系统创建一个名为&#x200B;_活动权重模型1_&#x200B;的初始参与度得分模型。 参与活动基于标准和自定义Experience Platform事件。 默认情况下，所有活动的权重为0。
 
 ![Experience Platform事件的默认参与度得分加权模型](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
-
-<!-- **Standard architecture (legacy)** - If your environment still uses the standard architecture, the connected [!DNL Marketo Engage] instance is the source for the engagement activity data. The default model is active until you create a custom version and activate it. -->
-
-<!-- ![Default engagement score weighting model for the standard architecture](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"} -->
 
 激活自定义模型后，活动模型将更改为&#x200B;_已存档_&#x200B;状态。 如果您决定恢复为默认参与度得分模型，则可以复制原始默认模型，然后激活它或将其用作另一个自定义模型的起点。
 
@@ -138,14 +128,6 @@ Experience Platform事件的默认模型包括Experience Platform跟踪的活动
 </td>
 </tbody>
 </table>
-
-+++
-
-+++标准架构的活动
-
-标准体系结构的默认模型包括[!DNL Marketo Engage]个具有关联默认权重的跟踪活动。 复制该模型时，可以根据需要更改权重。 您不能更改最大每日频率。
-
-{{engagement-activities-me}}
 
 +++
 

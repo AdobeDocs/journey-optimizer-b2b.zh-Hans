@@ -4,19 +4,15 @@ description: 创建具有条件自动分配的角色模板，以识别在Journey
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1577
+source-wordcount: 1432
 ht-degree: 5%
 
 ---
@@ -98,7 +94,7 @@ ht-degree: 5%
 
 | 类型 | 条件 |
 | ---- | --------- |
-| [!UICONTROL 人员属性] | [个人资料](../admin/field-mapping.md#xdm-business-person-attributes)中的属性，包括： <li>城市 <li>国家/地区 <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>名 <li>推断的州区域 <li>职务名称 <li>姓 <li>手机号码 <li>人员参与度评分 <li>电话号码 <li>邮政编码 <li>State |
+| [!UICONTROL 人员属性] | [个人资料](../admin/field-mapping.md#xdm-business-person-attributes)中的属性，包括： <li>城市 <li>国家 <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>名 <li>推断的州区域 <li>职务名称 <li>姓 <li>手机号码 <li>人员参与度评分 <li>电话号码 <li>邮政编码 <li>State |
 | [!UICONTROL 自定义对象] >具有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}该帐户或人员具有或不具有关系架构记录。 也可以根据[XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中配置的任何所选自定义对象条件对其进行评估。 |
 | 特殊筛选条件 | <li>列表的成员（已弃用） <li>计划成员（已弃用） |
 | 意图数据 | <li>类别意图 <li>产品意图 <li>关键字意图<br/>（请参阅&#x200B;[_意图数据_](../admin/intent-data.md)） |
@@ -109,7 +105,7 @@ ht-degree: 5%
 
    * 从列表中选择&#x200B;**[!UICONTROL 购买团体角色]**。
 
-     有六个默认角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 该列表还包括在&#x200B;_角色_&#x200B;列表[&#128279;](./default-custom-roles.md#create-a-custom-role)中定义的任何自定义角色。
+     有六个默认角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 该列表还包括在&#x200B;_角色_&#x200B;列表](./default-custom-roles.md#create-a-custom-role)中定义的任何[自定义角色。
 
      ![购买团体角色列表](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -141,7 +137,7 @@ ht-degree: 5%
 
      使用工作标题的![角色模板条件示例](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-   * 如果已配置与XDM关系架构[&#128279;](../admin/xdm-field-management.md#relational-schemas)中定义的人员相关的自定义对象，请展开&#x200B;**[!UICONTROL 自定义对象]**&#x200B;的列表以在角色条件中使用它们。
+   * 如果已配置与XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中定义的人员[相关的自定义对象，请展开&#x200B;**[!UICONTROL 自定义对象]**&#x200B;的列表以在角色条件中使用它们。
 
      ![角色模板添加自定义对象条件](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
 
@@ -156,23 +152,6 @@ ht-degree: 5%
    ![定义了多个角色的角色模板](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
    您的更改将自动保存为&#x200B;_草稿_&#x200B;状态。 如果您还未准备好发布角色模板，请单击页面顶部的左（后）箭头，并返回到&#x200B;_[!UICONTROL 角色模板]_&#x200B;列表。
-
->[!BEGINSHADEBOX “Marketo Engage列表成员资格”]
-
-在Marketo Engage中，_Smart Campaigns_&#x200B;检查项目成员资格，以确保潜在客户不会收到重复的电子邮件，并且不会同时成为多个电子邮件流的成员。 在Journey Optimizer B2B中，您可以检查Marketo Engage列表成员资格，将其作为您角色模板的条件，以帮助消除购买组成员资格和旅程活动中的重复。
-
-要将列表成员资格用作角色条件，请展开&#x200B;**[!UICONTROL 特殊筛选器]**，并将&#x200B;**[!UICONTROL 列表成员]**&#x200B;条件拖入筛选器空间。 要评估一个或多个Marketo Engage列表中的成员资格，请完成筛选器定义。
-
-Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
-<br/>
-
->[!NOTE]
->
->**功能弃用**
->
->在当前Journey Optimizer B2B edition版本中，不再支持基于Marketo Engage实例中的列表或项目成员资格进行筛选。
-
->[!ENDSHADEBOX]
 
 ### 更改完整性得分设置 {#change-the-completeness-score-settings}
 
@@ -240,4 +219,4 @@ Marketo Engage列表成员资格的![角色模板条件](assets/roles-template-c
 
 ## 概述视频 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3453311/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
