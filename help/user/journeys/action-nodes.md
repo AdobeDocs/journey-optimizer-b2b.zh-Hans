@@ -4,12 +4,18 @@ description: 为帐户和人员操作配置操作节点 — 发送电子邮件�
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2: id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2:
+  - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
 workflow-type: tm+mt
@@ -80,7 +86,7 @@ ht-degree: 3%
 
 添加激活到目标节点(_T):_
 
-1. 在历程画布中选择&#x200B;_执行操作_&#x200B;节点后，将帐户&#x200B;]**上的**[!UICONTROL &#x200B;操作设置为&#x200B;**[!UICONTROL 激活到目标]**。
+1. 在历程画布中选择&#x200B;_执行操作_&#x200B;节点后，将帐户&#x200B;**上的**&#x200B;操作设置为&#x200B;**[!UICONTROL 激活到目标]**。
 
 1. 单击&#x200B;**[!UICONTROL 选择目标]**。
 
@@ -96,7 +102,7 @@ ht-degree: 3%
 
 添加从目标节点&#x200B;:_取消激活的操作(_T)
 
-1. 在历程画布中选择&#x200B;_执行操作_&#x200B;节点后，将帐户&#x200B;]**上的**[!UICONTROL &#x200B;操作设置为&#x200B;**[!UICONTROL 从目标]**&#x200B;停用。
+1. 在历程画布中选择&#x200B;_执行操作_&#x200B;节点后，将帐户&#x200B;**上的**&#x200B;操作设置为&#x200B;**[!UICONTROL 从目标]**&#x200B;停用。
 
    ![历程节点 — 对帐户执行操作 — 从目标菜单取消激活](./assets/node-deactivate-destination-menu.png){width="500" zoomable="yes"}
 
