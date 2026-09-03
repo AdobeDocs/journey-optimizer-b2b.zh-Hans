@@ -19,9 +19,9 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-04-29T23:21:59.633Z
 TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1339
+source-wordcount: 1262
 ht-degree: 2%
 
 ---
@@ -33,13 +33,9 @@ ht-degree: 2%
 * **静态** — 使用静态帐户列表时，该列表仅在您添加帐户时更改。 您可以通过应用过滤器集以根据当前帐户数据填充列表来手动添加帐户，或通过帐户历程添加和删除帐户。
 * **动态** — 使用动态帐户列表，您可以定义用于自动策划列表的过滤器集。 系统使用此筛选器集根据帐户信息的更改添加和删除帐户。 此列表管理类似于Real-time Customer Data Platform[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}中的受众分段。
 
-当帐户列表处于&#x200B;_实时_（已发布）状态时，它可用于[在帐户历程和Marketo Engage程序中使用](./account-lists-journeys.md)。
+当帐户列表处于&#x200B;_实时_ （已发布）状态时，它可用于[在帐户历程](./account-lists-journeys.md)中使用。
 
 ![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看视频概述](#overview-video)
-
->[!NOTE]
->
->帐户列表利用Marketo Engage中的帐户数据创建帐户区段和列表。 这意味着，如果Adobe Experience Platform中的某个帐户区段未主动同步到Marketo Engage，则该Experience Platform区段中的帐户可能在Journey Optimizer B2B edition帐户列表中不可用。 随后，只有来自Experience Platform区段中同步到Marketo Engage的帐户的人员，才会包含在人员会员计数中，并会触发事件。
 
 ## 访问和浏览帐户列表
 

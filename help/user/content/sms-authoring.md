@@ -22,9 +22,9 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
 workflow-type: tm+mt
-source-wordcount: 1207
+source-wordcount: 1251
 ht-degree: 3%
 
 ---
@@ -95,33 +95,29 @@ ht-degree: 3%
 
 1. 输入消息文本后，单击文本消息框右侧的&#x200B;_链接_&#x200B;图标（![链接图标](../assets/do-not-localize/icon-link.svg)）。
 
-1. 输入链接的&#x200B;**[!UICONTROL URL]**。
-
-
 1. 在对话框中，选择要链接的URL类型：
 
    * **[!UICONTROL 登陆页面]** — 选择此选项可选择任何已发布的登陆页面。
 
-   * **[!UICONTROL 外部URL]** — 此类型是您在文本框中输入的任何外部URL。
+   * **[!UICONTROL 外部URL]** — 选择此选项可链接任何外部URL。 输入链接的&#x200B;**[!UICONTROL URL]**。
+
+     ![为短信消息添加链接对话框](./assets/sms-add-link-dialog.png){width="470"}
+
+1. （可选）设置跟踪选项。
+
+   * **[!UICONTROL 启用链接跟踪]** — 选中此复选框可启用跟踪，这需要&#x200B;_缩短_ URL。 此时将显示缩短的URL格式的示例。 实际URL是在将短信发送给收件人时创建的。
+
+   * **[!UICONTROL 启用潜在客户跟踪]** — 选中此复选框可跟踪针对用户的活动。</br>
 
 <!--
-
-1. If you choose to use a Marketo Engage landing page, set the tracking options.
-
-   * **[!UICONTROL Enable tracking]** - Select this checkbox to enable tracking, which requires _shortening_ the URL. For a landing page, it uses the Marketo Engage subdomain for the shortened URL. A sample of the shortened URL format is displayed. The actual URL is created when the SMS is sent to the recipient.
-
-   * **[!UICONTROL Include mkt_tok]** - Select this checkbox to track activity against a user.</br>
-
       >[!NOTE] 
       >
-      >When you allow tracking but disable _[!UICONTROL Include mkt_tok]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
+      >When you allow tracking but disable _[!UICONTROL Enable Lead Tracking]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
       >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
 -->
 
-![为短信消息添加链接对话框](./assets/sms-add-link-dialog.png){width="470"}
-
-1. 链接选项完成后，单击&#x200B;**[!UICONTROL 添加]**&#x200B;以保存更改并将URL链接添加到短信消息。
+1. 链接选项完成后，单击&#x200B;**[!UICONTROL 添加]**&#x200B;以添加指向短信消息的URL链接。
 
 ### 设置短信属性 {#sms-properties}
 
@@ -183,7 +179,7 @@ ht-degree: 3%
 
 ## 短信同意管理 {#consent-management}
 
-向收件人提供取消订阅以停止从品牌接收通信的功能，并遵守此选择是一项法律要求。 未能遵守这些法规会为您的品牌带来法律风险。 此功能可帮助您避免向收件人发送未经请求的通信。 这可防止他们将您的邮件标记为垃圾邮件并损害您的声誉。
+向收件人提供取消订阅以停止从品牌接收通信的功能，并遵守此选择是一项法律要求。 未能遵守这些法规会为您的品牌带来法律风险。 此功能可帮助您避免向收件人发送未经请求的通信。 这可以防止他们将您的邮件标记为垃圾邮件并损害您的声誉。
 
 提供此选项后，短信收件人可以使用选择启用和选择禁用关键词进行回复。 支持并遵循所有标准的选择启用和选择禁用关键词，以及使用SMS服务提供商配置的任何自定义关键词。 取消订阅后，用户档案将自动从未来营销消息的受众中删除。
 

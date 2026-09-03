@@ -1,10 +1,10 @@
 ---
 title: 代码段
 description: 重用注释和可视化元素来注释应用于特定版本的功能或页面
-source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: '2423'
-ht-degree: 2%
+source-wordcount: '2318'
+ht-degree: 0%
 
 ---
 
@@ -264,16 +264,3 @@ HTML组件的![对齐样式](../assets/content-design-shared/content-components-
 对话框中显示所选图像的文件名。 资源文件名必须是唯一的（跨文件夹），如果具有该名称的文件已存在，则会显示一条消息。 名称最多可包含100个字符，并且不能包含特殊字符（如`;`、`:`、`\`和`|`）。
 
 单击&#x200B;**[!UICONTROL 导入]**。
-
-## 参与度得分活动 — Marketo {#engagement-activities-me}
-
-| 活动名称 | 描述 | 每日最大频率计数 | 默认模型活动权重 |
-| --- | --- | --- | --- |
-| [!UICONTROL 出席活动] | 成员参加了某个活动 | 20 | 60 |
-| 已单击[!UICONTROL 电子邮件] | 成员点击电子邮件中的链接 | 20 | 30 |
-| [!UICONTROL 电子邮件已打开] | 成员打开一个电子邮件 | 20 | 30 |
-| [!UICONTROL 表单已填写] | 成员在某个网页上填写并提交一份表单 | 20 | 40 |
-| [!UICONTROL 有趣的时刻] | 成员有一个有趣的时刻 | 20 | 60 |
-| [!UICONTROL 链接点击次数] | 成员点击网页上的某个链接 | 20 | 40 |
-| [!UICONTROL 页面查看次数] | 成员查看网页 | 20 | 40 |
-| [!UICONTROL 注册事件] | 为事件注册的成员 | 20 | 60 |

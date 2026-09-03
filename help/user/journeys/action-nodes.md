@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
 workflow-type: tm+mt
-source-wordcount: 2193
+source-wordcount: 2184
 ht-degree: 3%
 
 ---
@@ -125,7 +125,6 @@ ht-degree: 3%
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL 将人员添加到（其他）历程] | <li>帐户历程（针对人员的操作） <li>人员历程 | <li>选择实时人员历程 |
 | | [!UICONTROL 添加到外部客户受众] | <li>帐户历程 <li>人员历程 | <li>选择外部客户受众 |
 | | [!UICONTROL 分配给购买组] | <li>帐户历程 | <li>选择解决方案兴趣 <li>选择角色 |
-| | [!UICONTROL 更改得分] | <li>帐户历程 | <li>得分名称 <li>分数更改 |
 | | [!UICONTROL 个人有趣的时刻] | <li>帐户历程 <li>人员历程 | <li>类型 <li>描述 |
 | | [!UICONTROL 个性化Web体验] (Beta) | <li>帐户历程 | <li>创建/编辑Web体验 |
 | | [!UICONTROL 从购买群中删除] | <li>帐户历程 | <li>选择解决方案兴趣 |

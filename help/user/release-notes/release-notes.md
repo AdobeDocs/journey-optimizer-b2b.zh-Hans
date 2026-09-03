@@ -17,7 +17,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
 source-wordcount: 5633
 ht-degree: 61%
@@ -328,7 +328,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | 功能 | Adobe Express 图像编辑 | Adobe Express 快速操作允许您对图像进行简单的编辑（例如裁剪和调整大小），以使内容看起来更加精美。 <a href="../content/image-edit-adobe-express.md#quick-actions-in-adobe-express">了解详情</a>  <p>为了提供更全面的设计工具，此集成可在 Journey Optimizer B2B Edition 中启用完整的 Adobe Express 许可证。 通过此设置，可在本地资产工作区内访问完整的 Adobe Express 用户界面。 <a href="../content/image-edit-adobe-express.md#adobe-express-enterprise-license">了解详情</a> |
 | 功能 | 购买群组角色的意图过滤器 | 您提交意图关键词后，意图检测模型会根据潜在客户的活动，以足够高的置信度预测感兴趣的解决方案/产品。 <a href="../admin/intent-data.md">了解详情</a> <p>此意图数据可用于定义购买群组角色条件<a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">了解详情</a> |
 | 增强功能 | 在历程中支持 Marketo Engage 事件 | _侦听事件_&#x200B;历程节点现在支持人员级别的两个Marketo Engage事件： _访问网页_&#x200B;和&#x200B;_填写表单_。 <a href="../journeys/listen-for-event-nodes.md#listen-for-marketo-engage-event">了解详情</a> |
-| 增强功能 | Marketo Engage 智能列表的购买群组过滤器 | 在 Marketo Engage 中查看并创建包含购买群组过滤器的智能列表。 通过这些添加的过滤器，您可以从 Journey Optimizer B2B Edition 帐户历程中抑制或包含 Marketo Engage 营销活动和计划中的购买群组成员。 <a href="../buying-groups/marketo-engage-smart-list-buying-group-filters.md">了解详情</a> |
+| 增强功能 | Marketo Engage 智能列表的购买群组过滤器 | 在 Marketo Engage 中查看并创建包含购买群组过滤器的智能列表。 通过这些添加的过滤器，您可以从 Journey Optimizer B2B Edition 帐户历程中抑制或包含 Marketo Engage 营销活动和计划中的购买群组成员。 _已弃用功能_ |
 | 增强功能 | 用于历程和角色的 Marketo Engage 列表成员资格过滤器 | 在 Journey Optimizer B2B 中，检查 Marketo Engage 列表会员资格作为&#x200B;_按人员拆分路径_&#x200B;节点的条件，以帮助消除历程活动中的重复。 <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">了解详情</a> <p> 为购买群组角色模板使用列表会员资格作为角色条件。 <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">了解详情</a> |
 | 增强功能 | 参与度概述仪表板 | 此仪表板已更新，提供全面的参与度视图。 它通过快照圆形图和显示一段时间内趋势的线形图，展示帐户和个人互动的实时量度。 <a href="../dashboards/engagement-dashboard.md">了解详情</a> |
 
