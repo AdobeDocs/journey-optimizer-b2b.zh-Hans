@@ -3,23 +3,16 @@ title: Journey Optimizer B2B Edition 发行说明
 description: 探索 Adobe Journey Optimizer B2B Edition 中的最新功能、增强功能和错误修复。 随时掌握最新功能与产品改进信息。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+source-git-commit: d8425054daea287d21419911158908035c1314f6
 workflow-type: tm+mt
-source-wordcount: 5633
+source-wordcount: 5637
 ht-degree: 61%
 
 ---
@@ -44,8 +37,8 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | 功能 | C2PA元数据 | 使用创作AI工具生成或编辑的图像现在会自动使用C2PA元数据签名，帮助您满足内容透明度和AI披露要求。 [了解详情](../content/c2pa-metadata.md) |
 | 增强功能 | 历程重新进入 — 人员历程 | 现在为人员历程提供历程重新进入支持。 |
 | 增强功能 | 监听事件触发器和过滤器 — 帐户历程 | 帐户历程现在支持&#x200B;_侦听事件_&#x200B;节点中的多个触发器和过滤器。 |
-| 增强功能 | 外部拆分路径节点 — 人员历程 | 人员历程现在支持&#x200B;_外部拆分路径_&#x200B;节点。 |
-| 增强功能 | 外部操作节点 — 人员历程 | 人员历程现在支持&#x200B;_外部操作_&#x200B;节点。 |
+| 增强功能 | 外部拆分路径节点 — 人员历程 | 人员历程现在支持&#x200B;_外部拆分路径_&#x200B;节点。 [了解详情](../journeys/external-nodes.md#external-action) |
+| 增强功能 | 外部操作节点 — 人员历程 | 人员历程现在支持&#x200B;_外部操作_&#x200B;节点。 [了解详情](../journeys/external-nodes.md#external-split-paths) |
 | 增强功能 | AEP关系数据集 | 新的关系数据集现在与现有数据集一起显示在您的AEP沙盒中。 |
 | 增强功能 | 产品权限 — WhatsApp渠道 | 产品管理员现在可以为&#x200B;_[!UICONTROL B2B渠道配置]_&#x200B;设置`Manage B2B WhatsApp Settings`和`Manage B2B WhatsApp Presets`权限。 |
 
@@ -154,7 +147,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | ----- | ------ | ----------- |
 | 历程生成代理 | 新增的和更新的 | 历程生成代理可实时分析、构思并联合创建历程，使营销人员能够更快启动、提高参与度、促进更高转化率。 [了解详情](../agents/journey-agent.md) |
 | Audience 代理 | 新 | Audience 代理使用结构化和非结构化数据自动识别和构建购买群组。 这有助于营销人员更快、更准确地锁定合适的人群。 [了解详情](../agents/audience-agent-b2b.md) |
-| 销售限定词 | 新 | Sales Qualifier是Adobe Journey Optimizer B2B edition的AI驱动附加应用程序，它包含Account Qualification Agent，旨在简化业务开发代表(BDR)的工作流。 它跨渠道自动化了潜在客户鉴别、外联和买方参与工作流程。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/sales-qualifier/using/home){target="_blank"} |
+| 销售限定词 | 新 | Sales Qualifier是Adobe Journey Optimizer B2B edition的AI驱动附加应用程序，其中包含Account Qualification Agent，旨在简化业务开发代表(BDR)的工作流。 它跨渠道自动化了潜在客户鉴别、外联和买方参与工作流程。 [了解详情](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## 2025.10 版本发行说明 {#rel-2025-10}
 
