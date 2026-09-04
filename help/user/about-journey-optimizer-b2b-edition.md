@@ -14,16 +14,16 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 TQID: https://experienceleague.adobe.com/L58cK4MP-S-8U9fFiXU2qZn4HCieNzjoOaSRCLkyanI
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 8d2fc3ebc7df1674ac9af441679228a9e19d8d5a
 workflow-type: tm+mt
-source-wordcount: 803
-ht-degree: 66%
+source-wordcount: 739
+ht-degree: 15%
 
 ---
 
 # Adobe Journey Optimizer B2B Edition 概述
 
-借助 Adobe Journey Optimizer B2B Edition，您可以使用内置的生成式 AI 和行业领先的自动化功能来协调帐户和购买群组历程，以使用符合营销资格的购买群组来最大限度地满足特定产品的需求。
+借助Adobe Journey Optimizer B2B edition，您可以使用内置的创作AI和行业领先的自动化功能来编排人员和帐户历程，以通过符合营销条件的购买小组最大程度地满足特定产品的需求。
 
 ## 包含购买群组的帐户历程
 
@@ -31,30 +31,34 @@ ht-degree: 66%
 
 ## 高层架构
 
-Adobe Journey Optimizer B2B Edition 使用 Adobe Experience Platform 中的&#x200B;_帐户受众_&#x200B;和&#x200B;_人员受众_，来支持在 Marketo Engage 内部运行的帐户历程。 Experience Platform始终是此数据的主要来源，但客户历程的所有执行和处理都发生在Marketo Engage B2B营销基础架构中。 该编排通过现有的 Marketo Engage - Adobe Real-Time CDP B2B Edition 源连接器近乎实时地将数据带回 Experience Platform，该连接器将数据变化从 Marketo Engage 传输到 Experience Platform。
+Adobe Journey Optimizer B2B edition基于Adobe Experience Platform构建，包括Real-Time CDP B2B。 Journey Optimizer B2B edition和Marketo Engage在单独的系统上运行，每个系统都有自己的数据存储。 Experience Platform是客户、人员和机会的主要数据存储和权威来源。 Journey Optimizer B2B edition拥有您的帐户历程、购买群组和购买群组角色。
 
-![高层数据架构](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}
+专用的Marketo Engage实例支持每个Journey Optimizer B2B edition订阅。 此实例不会存储您的帐户历程、受众或购买群体。 相反，它提供权利和后端服务，如电子邮件投放、发件人配置和品牌策略域。
+
+要支持历程操作，您还可以连接一个或多个现有Marketo Engage实例，包括生产实例。 通过历程操作，营销人员可以在Journey Optimizer B2B edition中协调基于帐户的历程与Marketo Engage中基于商机的营销活动，例如将人员添加到列表或请求营销活动。 [了解有关连接Marketo Engage实例的更多信息](./admin/marketo-actions-connect.md)。
+
+![高级数据架构显示连接到Adobe Experience Platform的Journey Optimizer B2B edition作为帐户和人员受众的真实来源，一个提供权利和后端服务的专用Marketo Engage实例，以及一个用于运行历程操作的可选生产Marketo Engage实例。](./assets/high-level-data-architecture.png){zoomable="yes"}
 
 >[!NOTE]
 >
->检查您的许可证授权和相应的[产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，了解性能护栏和静态限制。
+>检查您的许可证授权和相应的[产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}以了解性能护栏和静态限制。
 
 ### 订阅模型
 
-具有Experience Platform _Munchkin_&#x200B;订阅的一对Marketo Engage (AEP)沙盒定义了Journey Optimizer B2B edition订阅。 单个 Marketo Engage 订阅不能与多个 AEP 沙盒配对。 如果您不选择将现有的 Marketo Engage 订阅与 Journey Optimizer B2B Edition 配对，将获得一个新的空 Marketo Engage 订阅，以便与 Journey Optimizer B2B Edition 一起使用。
+Experience Platform沙盒与专用的Marketo Engage实例配对，可定义Journey Optimizer B2B edition订阅。 此专用实例与您的生产Marketo Engage实例不同，它的存在是为了支持权利和后端服务，而不是存储帐户历程数据。 [了解有关设置的详细信息](./setup-ultimate.md)。
 
-Experience Platform提供了来自Marketo Engage实例和附加的CRM系统的数据的统一视图，以便使用帐户历程处理这些数据。
+Experience Platform可让您统一查看连接的Marketo Engage实例和CRM系统中的数据。 使用该统一数据构建和运行您的历程。
 
-### 帐户历程操作
+### 历程操作
 
-在 Journey Optimizer B2B Edition 中创作帐户历程，并将其存储在与订阅相关联的 Marketo Engage 实例中。 尽管它们存储在Marketo Engage数据存储中，但在Marketo Engage UI中不可见，并且只能在Journey Optimizer B2B edition中使用。
+Journey Optimizer B2B edition创建、存储和运行您的帐户历程。 帐户历程不会显示在Marketo Engage中，并且只能在Journey Optimizer B2B edition中使用。
 
-帐户历程总是从选择使用一个帐户区段作为历程的帐户受众开始。 选择受众时，使用标准 Experience Platform 受众选择器组件。 然后，营销人员可以根据自己的标准（包括帐户标准、人员标准或购买群组标准）拆分历程路径来实施帐户历程。 在每个分支上都可以通过执行操作来实施历程，例如发送电子邮件或等待事件发生。
+历程始终从符合潜在客户或客户及其人员历程条件的受众开始。 使用标准Experience Platform受众选择器选择此受众。 营销人员通过使用帐户标准、人员标准或购买群组标准拆分路径来实施历程。 在每个路径上，操作都会发送通信或等待事件发生。
 
-帐户历程创建后，必须将其发布。 发布时，帐户历程会被验证，并转换为一系列实施历程体验的 Marketo Engage 营销活动。 我们会联系Data Integration Services以启动数据流，进而启动帐户历程操作。 第一步是为帐户的人员创建区段。
+创建帐户历程后，发布该历程以使其上线。 符合条件的帐户将在24小时内进入已发布的历程。
 
 ### 数据流
 
-Journey Optimizer B2B Edition 使用 Real-Time CDP 帐户分段，定义并执行历程所需的帐户区段和相关帐户人员区段。 随着已发布历程的运行，关于人员和帐户的数据可能会发生变化，并且会收集与历程互动人员的数据。 Journey Optimizer B2B edition依赖于Real-Time CDP B2B edition的Marketo Engage源连接器，将数据更改流回主要数据源Experience Platform沙盒。  此数据会近乎实时地提交到AEP。
+Journey Optimizer B2B edition可充当Adobe Real-Time CDP B2B edition目标。 使用Real-Time CDP帐户分段来构建和评估符合历程帐户和人员资格的帐户受众和人员受众。 发布历程时，Journey Optimizer B2B edition会从Experience Platform激活符合条件的受众。
 
-只有 Marketo Engage 源连接器支持的现有数据类型（帐户、人员和机会）才会返回 Real-Time CDP。 这意味着购买群组数据不会流向 AEP，而是保留在 Journey Optimizer B2B Edition 订阅使用的 Marketo Engage 实例中。
+在Journey Optimizer B2B edition中创建并存储购买群组、购买群组角色和购买群组得分。 [了解有关购买群组的详细信息](./buying-groups/buying-groups-overview.md)。
