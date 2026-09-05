@@ -1,6 +1,6 @@
 ---
 title: 外部操作配置
-description: 了解开发人员、管理员和营销人员如何协作来实施、配置和使用外部操作，以便将Journey Optimizer B2B edition与帐户历程中的外部服务相关联。
+description: 了解开发人员、管理员和营销人员如何协作来实施、配置和使用外部操作，从而在历程中将Journey Optimizer B2B edition与外部服务相关联。
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
@@ -14,25 +14,21 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: effa8e2a45ecc5afbaa5a3f75437735bef89a400
+source-git-commit: a5f11fc1707e274738d961d991fd0dab26c65a4e
 workflow-type: tm+mt
-source-wordcount: 1306
+source-wordcount: 1278
 ht-degree: 1%
 
 ---
 
 # 外部操作配置
 
-外部操作允许Journey Optimizer B2B edition中的帐户旅程直接从旅程画布与外部系统连接。 当帐户受众访问外部操作节点时，系统会向配置的外部服务进行异步出站调用，传递帐户、人员或两者的受众属性数据。 外部服务处理数据并使用回调进行响应，返回可用于指导历程执行的受众数据和元数据。
+外部操作允许[!DNL Journey Optimizer B2B Edition]中的帐户和人员历程直接从历程画布与外部系统连接。 当受众到达外部操作节点时，系统会向配置的外部服务进行异步出站调用，传递受众属性数据。 外部服务处理数据并使用回调进行响应，返回可用于指导历程执行的受众数据和元数据。
 
 此功能支持两种历程节点类型：
 
-* **外部操作** — 调用外部服务并沿单个传出路径继续。 适用于&#x200B;_触发并忘记_&#x200B;集成，例如更新CRM记录或触发下游通知。
-* **外部拆分路径** — 调用外部服务并评估响应以沿几个定义的路径之一路由帐户。
-
->[!NOTE]
->
->仅帐户历程支持外部操作服务。 这些节点类型不适用于人员历程。
+* **外部操作** — 调用外部服务并沿单个传出路径继续。 非常适用于异步集成，例如更新CRM记录或触发下游通知。
+* **外部拆分路径** — 调用外部服务并评估响应以沿几个定义的路径之一路由帐户或人员。
 
 ## 实施概述
 
@@ -42,7 +38,7 @@ ht-degree: 1%
 | ---- | ---- | ---- |
 | 1 | Developer | [实施并发布外部服务](#implement-service) |
 | 2 | 管理员 | [在Journey Optimizer B2B edition中配置操作](#configure-action) |
-| 3 | 营销人员 | [向帐户历程添加外部节点](#add-journey-node) |
+| 3 | 营销人员 | [向历程添加外部节点](#add-journey-node) |
 
 ## 实施外部服务 {#implement-service}
 
@@ -100,7 +96,7 @@ ht-degree: 1%
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
 
-1. 设置&#x200B;**[!UICONTROL 配置]**&#x200B;属性以定义操作与外部服务交换数据的方式。
+1. 要定义操作如何与外部服务交换数据，请设置&#x200B;**[!UICONTROL 配置]**&#x200B;属性。
 
    >[!NOTE]
    >
@@ -108,8 +104,8 @@ ht-degree: 1%
 
    * **[!UICONTROL 操作类型]** （_静态_） — 支持的历程节点类型：
 
-      * [!UICONTROL 外部操作] (`enableSplitPath` = false)
-      * [!UICONTROL 外部操作拆分路径] (`enableSplitPath` = true)
+     * [!UICONTROL 外部操作] (`enableSplitPath` = false)
+     * [!UICONTROL 外部操作拆分路径] (`enableSplitPath` = true)
 
      创建操作配置后，无法更改操作类型。
 
@@ -117,11 +113,11 @@ ht-degree: 1%
 
    * **[!UICONTROL 历程上下文]** （_静态_） — 在请求中发送的受众数据的范围(`supportedEntityType`)：
 
-      * [!UICONTROL 帐户] — 仅发送帐户
+     * [!UICONTROL 帐户] — 仅发送帐户
 
-      * [!UICONTROL 人员] — 仅发送人员
+     * [!UICONTROL 人员] — 仅发送人员
 
-      * [!UICONTROL 帐户中的人员] — 发送帐户和与帐户相关的人员
+     * [!UICONTROL 帐户中的人员] — 发送帐户和与帐户相关的人员
 
    * **[!UICONTROL 传出字段]** — 将表中的每个字段映射到[XDM字段](../admin/xdm-field-management.md)。 这些字段在请求正文中发送到外部服务。 服务定义属性： `invocationPayloadDef.accountFields`，`invocationPayloadDef.fields`。
 
@@ -139,7 +135,7 @@ ht-degree: 1%
 
 1. 单击&#x200B;_上退箭头_&#x200B;返回列表并将操作保持在&#x200B;_草稿_&#x200B;状态。
 
-   或者，单击&#x200B;**[!UICONTROL 激活]**&#x200B;以将操作配置更改为&#x200B;_活动_&#x200B;状态。 配置的外部操作必须处于活动状态才能在帐户历程中使用。
+   或者，单击&#x200B;**[!UICONTROL 激活]**&#x200B;以将操作配置更改为&#x200B;_活动_&#x200B;状态。 配置的外部操作必须处于活动状态才能在历程中使用。
 
 ### 故障排除 {#troubleshooting}
 
@@ -149,7 +145,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->以下许多错误都需要与创建和发布面向公众的Web服务的开发人员合作才能解决。
+>以下许多错误都需要与创建和发布面向公众的Web服务的开发人员合作才能解决它们。
 
 #### 验证错误详细信息
 
@@ -182,4 +178,4 @@ This error appears below the URL field (not in the alert banner) and means there
 
 ## 向历程添加外部节点 {#add-journey-node}
 
-在激活操作后，营销人员可以将&#x200B;_[!UICONTROL 外部操作]_&#x200B;或&#x200B;_[!UICONTROL 外部拆分路径]_&#x200B;节点添加到任何帐户历程。 有关如何在帐户历程画布中添加和使用这些节点的信息，请参阅[外部节点](../journeys/external-nodes.md)。
+在激活操作后，营销人员可以将&#x200B;_[!UICONTROL 外部操作]_&#x200B;或&#x200B;_[!UICONTROL 外部拆分路径]_&#x200B;节点添加到任何帐户或人员历程。 有关如何在历程画布中添加和使用这些节点的信息，请参阅[外部节点](../journeys/external-nodes.md)。

@@ -16,9 +16,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
+source-git-commit: 6af5c69aac417f557472bdb80df9de7460e65f16
 workflow-type: tm+mt
-source-wordcount: 697
+source-wordcount: 692
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ ht-degree: 0%
 
 ## 隐私
 
-有多种法规适用于为居住在上述地区或国家（欧盟、加利福尼亚、泰国、巴西、新西兰）的持有数据主体数据的[!DNL Journey Optimizer B2B Edition]客户。 本页上的这些信息不是法律建议，也不保证您遵守适用法律。
+各种法规适用于欧盟、加利福尼亚、泰国、巴西和新西兰等地区为数据主体持有数据的[!DNL Journey Optimizer B2B Edition]用户。 本页提供的信息不是法律建议，也不保证您遵守适用法律。
 
 ### GDPR
 
 《通用数据保护条例》(GDPR)是一项欧盟(EU)隐私法律，旨在协调欧盟国家或地区的[数据保护要求](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"}并使之现代化。
 
-[!DNL Journey Optimizer B2B Edition]使用Privacy Service和Marketo Engage隐私代理服务提供的现有Marketo GDPR治理功能。
+[!DNL Journey Optimizer B2B Edition]使用Privacy Service提供的现有Experience Platform GDPR治理功能。 有关提交和管理访问和删除请求的信息，请参阅&#x200B;[_隐私管理_](./privacy-management.md)。
 
 ### CNIL
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 CNIL提供了自建议之日起三个月的时间，要求公司通知电子邮件收件人存在跟踪像素、跟踪像素的目的以及收件人选择退出的权利。 在此过渡期间，Marketo Engage用户应通知其收件人有关像素跟踪的信息，并在必要时提供选择退出选项。 预计CNIL将在2026年7月14日之后开始执行活动。
 
-随着CNIL和其他监管机构澄清有关跟踪像素和相关问题的指导，Adobe将继续监控最新信息，并告知您技术能力正在发生变化。
+由于CNIL和其他监管机构对像素跟踪和相关问题的指导进行了澄清，Adobe会监控更新，并通知您技术能力正在发生变化。
 
 [!DNL Journey Optimizer B2B Edition]提供可帮助您在电子邮件级别管理打开跟踪的控制。 用户负责根据适用的CNIL指导和其他法律确定自己的合规义务。 有关使用这些功能管理电子邮件打开跟踪的信息，请参阅&#x200B;[_管理电子邮件跟踪_](../content/email-tracking-manage.md)。
 
@@ -53,7 +53,7 @@ CNIL提供了自建议之日起三个月的时间，要求公司通知电子邮�
 
 ## 数据加密
 
-**_静态数据加密_** — 所有从Adobe Experience Platform传输到Journey Optimizer B2B edition的帐户和人员配置文件数据均已加密，以保持Experience Platform的现有合规性。 源自Journey Optimizer B2B edition的所有实体（例如历程和购买群组）也都进行了加密。
+**_静态数据加密_** — 对从Adobe Experience Platform传输到Journey Optimizer B2B edition的所有帐户和人员配置文件数据进行加密，以保持来自Experience Platform的现有合规性。 源自Journey Optimizer B2B edition的所有实体（例如历程和购买群组）也都进行了加密。
 
 **_传输中数据的加密_**（通过公共网络） — 使用TLS 1.2对所有Journey Optimizer B2B edition API和实体进行传输中加密。
 
@@ -67,7 +67,7 @@ Journey Optimizer B2B edition会读取存储在Adobe Experience Platform XDM用�
 
 ## 沙盒重置
 
-当前不支持&#x200B;**沙盒重置**&#x200B;用于Adobe Journey Optimizer B2B edition。 重置或删除映射到Journey Optimizer B2B edition的沙盒可能会导致永久数据丢失，并需要配置新实例。
+当前不支持&#x200B;**沙盒重置**&#x200B;用于Adobe Journey Optimizer B2B edition。 重置或删除映射到[!DNL Journey Optimizer B2B Edition]的沙盒可能会导致永久数据丢失，并需要配置新的实例。
 
 ## 尚不可用
 
