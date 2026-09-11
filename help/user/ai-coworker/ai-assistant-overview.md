@@ -7,21 +7,13 @@ level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
 autotag-review: '2026-06-05T16:05:30.499Z'
 TQID: 'https://experienceleague.adobe.com/4bXkOzwadjZVzhedVO6oQEEV1biaWMZFHEuqey74qek'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2:
-  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7b5a3fdf94725b7cf3c7f4da8ff5d8cce115a3d7
 workflow-type: tm+mt
 source-wordcount: 1385
 ht-degree: 8%
@@ -30,7 +22,7 @@ ht-degree: 8%
 
 # Journey Optimizer B2B edition中的AI功能
 
-Adobe Journey Optimizer B2B edition中的聊天界面由与Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target="_blank"}中的AI Assistant相同的技术基础提供支持。 它是一种对话式体验，可用于加快Journey Optimizer B2B edition中的工作流程。 您可以通过聊天界面进一步了解产品功能、排查问题或搜索信息并查找Journey Optimizer B2B edition的运行洞察。 您还可以使用此接口调用[Journey Agent](../agents/journey-agent.md)和[Audience Agent](../agents/audience-agent-b2b.md)。
+Adobe Journey Optimizer B2B edition中的聊天界面由与Adobe Experience Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target="_blank"}中的[AI Assistant相同的技术基础提供支持。 它是一种对话式体验，可用于加快Journey Optimizer B2B edition中的工作流程。 您可以通过聊天界面进一步了解产品功能、排查问题或搜索信息并查找Journey Optimizer B2B edition的运行洞察。 您还可以使用此接口调用[Journey Agent](../agents/journey-agent.md)和[Audience Agent](../agents/audience-agent-b2b.md)。
 
 >[!IMPORTANT]
 >
@@ -56,7 +48,7 @@ Sales Qualifier是AI驱动的应用程序，可与Journey Optimizer B2B edition�
 
 ## Journey Optimizer B2B edition中的AI助手功能
 
-为了制定对您提交问题的响应，AI Assistant查询数据库并将数据库中的数据转换为人类可读的答案。 此响应是基础数据&#x200B;_&#x200B;**知识图**&#x200B;_&#x200B;的内部表示形式，并为给定答案提供概念、数据和元数据的全面集合。 知识图由每次提交查询时引用的子图组成：
+为了制定对您提交问题的响应，AI Assistant查询数据库并将数据库中的数据转换为人类可读的答案。 此响应是基础数据&#x200B;_**知识图**_&#x200B;的内部表示形式，并为给定答案提供概念、数据和元数据的全面集合。 知识图由每次提交查询时引用的子图组成：
 
 * Adobe Experience League文档。
 * 操作构件，例如架构、字段、受众和历程。
@@ -118,7 +110,7 @@ Journey Optimizer B2B edition中的AI助手优先考虑隐私、安全和管理�
 
 * 您必须具有显式权限才能与AI助手交互。
 
-  * 管理员可以使用[权限UI](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}和[Admin Console](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/ui/browse){target="_blank"}设置权限。
+  * 管理员可以使用[权限UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}和[Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}设置权限。
 
   * 权限是细粒度的，您的沙盒管理员可以配置哪些用户能够提出不同类别的问题（使用AI助手基于产品知识的问题或有关操作见解的问题）。
 
