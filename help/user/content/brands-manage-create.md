@@ -6,20 +6,14 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 2070
 ht-degree: 7%
@@ -83,7 +77,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brands_create"
 >title="创建您的品牌"
->abstract="输入您的品牌名称并上传您的品牌指导方针文件。 该工具会自动提取关键细节，使维护品牌形象更加容易。"
+>abstract="输入您的品牌名称并上传您的品牌指南文件。 该工具会自动提取关键细节，使维护品牌识别更加容易。"
 
 要创建和定义品牌指南，您可以输入详细信息或上传品牌指南文档以用于自动提取。
 
@@ -169,7 +163,7 @@ ht-degree: 7%
 
 当您的品牌包含完整的定义集并符合您的要求时，请单击&#x200B;**[!UICONTROL 发布]**&#x200B;以使您的品牌准则可用于内容对齐和生成。
 
-已发布的品牌可从AI [品牌一致性分数](./content-evaluation.md#brand-alignment-score)和[内容生成工具](../ai-assistant/generative-ai-content.md)中的&#x200B;**[!UICONTROL 品牌]**&#x200B;选项访问。
+已发布的品牌可从AI [品牌一致性分数](./content-evaluation.md#brand-alignment-score)和[内容生成工具](../ai-coworker/generative-ai-content.md)中的&#x200B;**[!UICONTROL 品牌]**&#x200B;选项访问。
 
 内容的![品牌选项](./assets/brand-menu-content-ai-tools.png){width="300"}
 
@@ -211,13 +205,13 @@ ht-degree: 7%
 
      ![关于品牌 — 指导原则 — 增加核心价值](./assets/brands-about-guiding-principles-add-core-values.png){width="500" zoomable="yes"}
 
-      * **[!UICONTROL 值]** — 输入核心品牌值的名称。
+     * **[!UICONTROL 值]** — 输入核心品牌值的名称。
 
-      * **[!UICONTROL 描述]** — 说明此值对您的品牌意味着什么。
+     * **[!UICONTROL 描述]** — 说明此值对您的品牌意味着什么。
 
-      * **[!UICONTROL 行为]** — 概述在实践中反映此值的操作或态度。
+     * **[!UICONTROL 行为]** — 概述在实践中反映此值的操作或态度。
 
-      * **[!UICONTROL 表现形式]** — 提供如何在真实世界品牌中表示此值的示例。
+     * **[!UICONTROL 表现形式]** — 提供如何在真实世界品牌中表示此值的示例。
 
    * 要更改或删除核心值，请单击&#x200B;_编辑_ （![编辑图标](../assets/do-not-localize/icon-edit.svg) ）图标以更新或删除核心品牌值。
 
@@ -336,4 +330,4 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
    * [视觉内容](#visual-content)
 
-1. 在处理草稿更新时单击“保存”**&#x200B;**，在准备好替换&#x200B;_Live_&#x200B;版本时单击“发布”**&#x200B;**。
+1. 在处理草稿更新时单击“保存”****，在准备好替换&#x200B;_Live_&#x200B;版本时单击“发布”****。

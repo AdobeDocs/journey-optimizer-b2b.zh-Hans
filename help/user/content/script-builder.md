@@ -6,23 +6,16 @@ role: User, Developer
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 autotag-review: '2026-07-27T16:18:02.498Z'
 TQID: 'https://experienceleague.adobe.com/JWnXAAbCuZVLv4ZhWubpNsZ61xbYU7xtdOXkG9uoWis'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0004f8fba0c3d4ae89063418e4d3ef8fea22b0c3
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: bd3c685c-6c92-4a4a-becb-535cc25215de
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
-source-wordcount: 1074
-ht-degree: 2%
+source-wordcount: 1077
+ht-degree: 3%
 
 ---
 
@@ -44,9 +37,9 @@ _脚本生成器_&#x200B;是[!DNL Adobe Journey Optimizer B2B Edition]电子邮�
 
 >[!IMPORTANT]
 >
->用户对Script Builder的访问通过[!DNL Journey Optimizer B2B Edition]中其他生成AI功能使用的相同权限进行控制。 有关授予功能权限的信息，请参阅[启用AI助手访问](../ai-assistant/enable-ai-assistant-access.md)。
+>用户对Script Builder的访问通过[!DNL Journey Optimizer B2B Edition]中其他生成AI功能使用的相同权限进行控制。 有关授予功能权限的信息，请参阅[启用AI助手访问](../ai-coworker/enable-ai-assistant-access.md)。
 
-在使用脚本生成器之前，请查看适用于[!DNL Journey Optimizer B2B Edition]中的创作AI功能的[准则和限制](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)。 [在使用AI功能之前，还需要用户同意](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。
+在使用脚本生成器之前，请查看适用于[!DNL Journey Optimizer B2B Edition]中的创作AI功能的[准则和限制](../ai-coworker/generative-ai-content.md#general-guidelines-and-limitations)。 [在使用AI功能之前，还需要用户同意](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。
 
 熟悉[!DNL Journey Optimizer B2B Edition]支持的[Handlebars模板语言](https://handlebarsjs.com/guide/){target="_blank"}、[个性化语法](./personalization-syntax.md)和[辅助函数](./personalization-helper-functions.md)。 脚本生成器会为您生成有效的Handlebars，但了解语法可帮助您满怀信心地查看和编辑输出。
 

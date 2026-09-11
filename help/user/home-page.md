@@ -4,18 +4,13 @@ description: 访问 Journey Optimizer B2B Edition 并导航个性化主页——
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ce
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:19:43.813Z
 TQID: https://experienceleague.adobe.com/GjEJsGSThzDVqWTjFyTijmazYCaV2mSJoFgAH7G5-8s
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 415
 ht-degree: 83%
@@ -39,7 +34,7 @@ ht-degree: 83%
 
 ![Journey Optimizer B2B Edition 主页](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B Edition 有两个主要的用户画像：_&#x200B;**营销人员**&#x200B;_&#x200B;和&#x200B;_&#x200B;**管理员**&#x200B;_。 每个用户画像都有针对不同成熟度阶段（新用户或高级用户）的特定主页。 页面内容基于每个用户画像所需的信息以及接下来要执行的操作。
+Journey Optimizer B2B Edition 有两个主要的用户画像：_**营销人员**_&#x200B;和&#x200B;_**管理员**_。 每个用户画像都有针对不同成熟度阶段（新用户或高级用户）的特定主页。 页面内容基于每个用户画像所需的信息以及接下来要执行的操作。
 
 * **营销人员 - 新用户**——针对新用户的&#x200B;_营销人员_&#x200B;主页可帮助他们熟悉 Journey Optimizer B2B 及其功能。 其中包括面向新营销人员的引导式演练，以便他们能够了解系统的细微差别，并有效制定B2B营销策略和计划。
 * **营销人员 - 高级用户**——针对高级营销人员的&#x200B;_营销人员_&#x200B;主页显示当前计划进度、建议的后续操作，并提供相关部分的快速访问。
@@ -48,7 +43,7 @@ Journey Optimizer B2B Edition 有两个主要的用户画像：_&#x200B;**营销
 
 _[!UICONTROL 最近访问的]_&#x200B;部分提供了营销人员或管理员最近访问的资产列表。 使用此列表可直接前往您最近使用过的资产，而无需浏览一系列资产页面进行搜索。
 
-通过该页面还可以访问 [AI 助手](./ai-assistant/ai-assistant-overview.md)，帮助用户快速获取他们需要的任何特定问题或主题的信息。<!-- and to obtain specific recommendations for their challenges or objectives-->
+通过该页面还可以访问 [AI 助手](./ai-coworker/ai-assistant-overview.md)，帮助用户快速获取他们需要的任何特定问题或主题的信息。<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!--
 

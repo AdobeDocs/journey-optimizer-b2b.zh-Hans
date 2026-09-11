@@ -1,38 +1,29 @@
 ---
-title: 目的数据
+title: 目的数据配置
 description: 在Journey Optimizer B2B edition中，通过关键词映射配置意图数据以预测客户兴趣和用于基于账户的营销的购买信号。
 feature: Setup, Intent, Account Insights
 roles: Admin
 exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T23:18:01.223Z
 TQID: https://experienceleague.adobe.com/uQMmGedQfU8IPyoHRJzYHnYjIl7jxlG8hj8hhSBrwR4
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2da5c7bbbadde4bbb5df82a81398ecb970165da2
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: 578
 ht-degree: 1%
 
 ---
 
-# 意图数据
+# 目的数据配置
 
-在Journey Optimizer B2B edition中，意图检测模型根据商机活动预测具有足够高置信度的感兴趣解决方案/产品。 它还利用了其他帐户共同成员的活动，以及标记的内容。 个人的意图可以解释为对产品感兴趣的可能性。
+在[!DNL Adobe Journey Optimizer B2B Edition]中，意图检测模型根据商机的活动预测具有足够高置信度的感兴趣的解决方案/产品。 它还利用了其他帐户共同成员的活动，以及标记的内容。 个人的意图可以解释为对产品感兴趣的可能性。
 
-* 意图级别 — 在已知潜在客户、客户和购买组级别上可用。
-* 意图信号类型 — 关键字、产品和解决方案
+有关意图分数计算的更多信息，请参阅&#x200B;[_意图分数_](../ai-coworker/intent-scores.md)。
 
 意图数据用于&#x200B;[_智能仪表板_](../dashboards/intelligent-dashboard.md)、[_帐户详细信息_&#x200B;页](../accounts/account-details.md)、[_购买群组详细信息_&#x200B;页](../buying-groups/buying-group-details.md)和&#x200B;[_个人详细信息_&#x200B;页](../accounts/person-details.md)。
-
-![意图数据可视化图表](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
 
 ## 准备意图映射数据
 
