@@ -5,12 +5,20 @@ feature: Dashboards, Intent, Intelligent Insights
 role: User
 autotag-review: '2026-09-11T14:56:32.307Z'
 TQID: 'https://experienceleague.adobe.com/ajtUdNKafSoE1BC08imOpyflpDeAsXaQ3tdlbeYT6NU'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-subfeature_v2: id: e388c29d-df1e-4b47-ad27-1b14ae45776e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+subfeature_v2:
+  - id: e388c29d-df1e-4b47-ad27-1b14ae45776e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 2da5c7bbbadde4bbb5df82a81398ecb970165da2
 workflow-type: tm+mt
 source-wordcount: 1445
