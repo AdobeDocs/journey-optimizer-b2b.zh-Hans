@@ -15,7 +15,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:19:43.813Z
 TQID: https://experienceleague.adobe.com/GjEJsGSThzDVqWTjFyTijmazYCaV2mSJoFgAH7G5-8s
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 415
 ht-degree: 83%
@@ -48,7 +48,7 @@ Journey Optimizer B2B Edition 有两个主要的用户画像：_&#x200B;**营销
 
 _[!UICONTROL 最近访问的]_&#x200B;部分提供了营销人员或管理员最近访问的资产列表。 使用此列表可直接前往您最近使用过的资产，而无需浏览一系列资产页面进行搜索。
 
-通过该页面还可以访问 [AI 助手](./ai-assistant/ai-assistant-overview.md)，帮助用户快速获取他们需要的任何特定问题或主题的信息。<!-- and to obtain specific recommendations for their challenges or objectives-->
+通过该页面还可以访问 [AI 助手](./ai-coworker/ai-assistant-overview.md)，帮助用户快速获取他们需要的任何特定问题或主题的信息。<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!--
 

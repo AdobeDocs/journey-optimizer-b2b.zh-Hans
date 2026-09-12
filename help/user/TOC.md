@@ -1,9 +1,9 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文档
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition 以及如何使用它通过内置的生成式 AI 和行业领先的自动化来编排帐户及购买群组历程。
-source-git-commit: cdc9cc5c55d961d1f685c32a5e55f755ad1cdd57
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '452'
 ht-degree: 86%
 
 ---
@@ -28,14 +28,22 @@ ht-degree: 86%
   + [用户载入](./start/get-started.md)
   + [登录和主页](home-page.md)
 + AI功能 {#ai-assistant}
-  + [概述](./ai-assistant/ai-assistant-overview.md)
-  + [启用 AI 助手访问](./ai-assistant/enable-ai-assistant-access.md)
-  + [问题指导](./ai-assistant/question-guidance.md)
-  + [聊天界面](./ai-assistant/use-ai-assistant.md)
-  + [用于内容的生成式 AI](./ai-assistant/generative-ai-content.md)
+  + [概述](./ai-coworker/ai-assistant-overview.md)
+  + [启用 AI 助手访问](./ai-coworker/enable-ai-assistant-access.md)
+  + [问题指导](./ai-coworker/question-guidance.md)
+  + [聊天界面](./ai-coworker/use-ai-assistant.md)
+  + [用于内容的生成式 AI](./ai-coworker/generative-ai-content.md)
+  + [意图分数](./ai-coworker/intent-scores.md)
   + 代理 {#ai-agents}
     + [Audience Agent B2B](./agents/audience-agent-b2b.md)
     + [Journey Agent B2B](./agents/journey-agent.md)
++ 智能仪表板 {#dashboards}
+  + [分析仪表板](./dashboards/intelligent-dashboard.md)
+  + [参与仪表板](./dashboards/engagement-dashboard.md)
+  + [Web参与仪表板](./dashboards/web-engagement-dashboard.md)
+  + [电子邮件性能报表](./dashboards/email-performance-dashboard.md)
+  + [购买组仪表板](./dashboards/buying-groups-dashboard.md)
+  + [历程功能板](./dashboards/journeys-dashboard.md)
 + 历程管理 {#journeys}
   + [帐户和人员历程](./journeys/journeys-overview.md)
   + [创建和发布历程](./journeys/create-publish-journey.md)
@@ -153,13 +161,6 @@ ht-degree: 86%
     + [个性化语法](./content/personalization-syntax.md)
     + [辅助函数列表](./content/personalization-helper-functions.md)
     + [脚本生成器(Beta)](./content/script-builder.md)
-+ 智能仪表板 {#dashboards}
-  + [分析仪表板](./dashboards/intelligent-dashboard.md)
-  + [参与仪表板](./dashboards/engagement-dashboard.md)
-  + [Web参与仪表板](./dashboards/web-engagement-dashboard.md)
-  + [电子邮件性能报表](./dashboards/email-performance-dashboard.md)
-  + [购买组仪表板](./dashboards/buying-groups-dashboard.md)
-  + [历程功能板](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
   + [治理](./admin/governance.md)
   + [隐私管理](./admin/privacy-management.md)
