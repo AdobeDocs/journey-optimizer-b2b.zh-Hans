@@ -1,38 +1,44 @@
 ---
 title: 用于内容的生成式 AI
-description: 了解如何在 [!DNL Journey Optimizer B2B Edition]中使用创作AI创建个性化电子邮件和登陆页面，包括提示最佳实践。
-feature: AI Assistant, Generative AI, Content
+description: 了解如何在[!DNL Journey Optimizer B2B Edition]中使用创作AI创建个性化电子邮件和登陆页面，包括提示最佳实践。
+feature: Generative AI, Content
 level: Beginner
 topic: Artificial Intelligence
 role: User
 nudge: true
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
-autotag-review: '2026-06-05T16:07:36.688Z'
-TQID: 'https://experienceleague.adobe.com/W-BpOy-U5Be3BJxbcWpnNheZs06sLHRAdvQJca3t--o'
+autotag-review: '2026-08-06T18:42:03.734Z'
+TQID: 'https://experienceleague.adobe.com/oqAvHYWEVJQVQDOPWcZHuxlTmKJqAKtRp71pfbYcgys'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+    internal-label: Content management
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7664c0a08f45698266c72dea229a340eeb596945
+    internal-label: Accessibility
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 2476
+source-wordcount: '2430'
 ht-degree: 7%
-
 ---
-
 # 用于内容的生成式 AI {#generative-ai-content}
 
 >[!CONTEXTUALHELP]
@@ -49,9 +55,9 @@ ht-degree: 7%
 >id="ajo_b2b_ai-generation-start"
 >title="Adobe 生成式 AI 条款"
 >abstract="要使用此功能，您必须接受 Adobe Experience Cloud 生成式 AI 用户准则。 请审阅此功能生成的任何输出内容，以确保其准确性并适用于您的用例。"
->additional-url="https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 用户准则"
+>additional-url="https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 用户准则"
 
-由Microsoft Azure OpenAI和Adobe Firefly提供支持的[!DNL Adobe Journey Optimizer B2B Edition]中内容的创作AI，为文本和图像提供主动内容变体建议。 通过试验不同的主标题和图像，优化您的内容影响。
+由Microsoft Azure OpenAI和Adobe Firefly提供支持的[!DNL Adobe Journey Optimizer B2B Edition]中内容的创作AI，为文本和图像提供主动内容变体建议。 通过尝试不同的主标题和图像来提高内容影响力。
 
 使用创作AI功能在[!DNL Journey Optimizer B2B Edition]中创建内容，以利用Adobe的创作AI功能。 为电子邮件、短信消息、登陆页面等制作个性化的文本和可视化图表。 在构建营销活动或优化资产时，这些功能可帮助您使内容与品牌准则保持一致，同时节省时间。
 
@@ -63,18 +69,18 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 >
 >若要在[!DNL Journey Optimizer B2B Edition]中访问这些功能，您必须具有&#x200B;_[!UICONTROL AI助手]_ > _[!UICONTROL 生成内容]_&#x200B;权限。 有关产品管理员如何授予功能权限的详细信息，请参阅[编辑产品权限的角色](../admin/user-management.md#edit-roles-for-product-permissions)。
 
-以下资源类型支持用于生成内容的AI助手工具：
+以下资源类型支持内容生成工具：
 
-* [电子邮件](../content/ai-assistant-emails.md)
-* [!BADGE Beta] [登陆页面](../content/ai-assistant-landing-pages.md)
+* [电子邮件](./generate-content-emails.md)
+* [!BADGE Beta] [登陆页面](./generate-content-landing-pages.md)
 
 ## 一般准则和限制 {#general-guidelines-and-limitations}
 
-生成AI功能的使用受[Adobe Experience Cloud生成AI用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}的约束。 由于Adobe承诺在使用创作AI工具创建媒体时保持透明度，因此Adobe在下载或导出包含[!DNL Firefly]生成的资源的任何内容或项目时会应用[内容凭据](https://helpx.adobe.com/cn/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}。
+生成AI功能的使用受[Adobe Experience Cloud生成AI用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}的约束。 由于Adobe承诺在使用创作AI工具创建媒体时保持透明度，因此Adobe在下载或导出包含[!DNL Firefly]生成的资源的任何内容或项目时应用[C2PA元数据](./c2pa-metadata.md)。
 
 查看这些对[!DNL Journey Optimizer B2B Edition]中的内容使用创作AI的一般准则：
 
-* 为创作AI模型使用定义良好的提示来准确地解释。 您提供的营销目标或提示会严重影响所生成内容的质量。
+* 为创作AI模型使用定义良好的提示来准确地解释。 您提供的营销目标或提示会影响所生成内容的质量。
 
 * 上传内容引用文件以包含准确的品牌内内容。 否则，内容将基于公开可用的信息。 上传的内容可以采用以下文件格式：PDF、JPEG、PNG或ZIP（包含支持的文件格式）。 上传文件的最大大小为50MB。 较大的文件或大量的图像可以工作，但这会增加处理时间。
 
@@ -91,7 +97,7 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 
 本指南可帮助您构建请求、清晰地传达意图，并确保AI生成的消息符合您的品牌准则、受众需求和营销活动目标。
 
-了解如何编写有效的提示，以使AI助手能够根据您的目标生成高质量、品牌化的营销内容。
+了解如何编写有效的提示，根据您的目标定制高质量的品牌营销内容。
 
 ### 使用CO-STAR框架 {#costar-framework}
 
@@ -324,7 +330,7 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 
 #### 创建新内容
 
-在启动营销活动、发布新解决方案或启动更新/刷新通信时应用此策略。 它可确保您的消息开始变得强大并与目标保持一致。
+在启动营销活动、发布新解决方案或启动更新/刷新通信时应用此策略。 它确保您的消息有效并且符合您的目标。
 
 **如何提示** ➤创建新内容时，请专注于营销目标而不引用现有内容。
 
@@ -342,7 +348,7 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 >
 >对于精细、汇总或简化等标准修改，请选择&#x200B;**_优化_**，而不是编写自定义提示。
 
-在需要更新、刷新或调整当前营销活动时，使用修改提示。 此方法支持增量改进，确保消息传送保持相关状态而不从头开始。
+在需要更新、刷新或调整当前营销活动时，使用修改提示。 此方法支持增量改进，可确保在不再次启动该过程的情况下，消息传送保持相关状态。
 
 **如何提示** ➤修改现有内容时，请明确指定要更改的内容以及如何更改内容。
 
@@ -356,7 +362,7 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 
 ## 高级文本设置 {#text-settings}
 
-除了使用清晰且格式正确的提示外，AI助手内容工具中的文本设置还包括可用于优化生成的输出的文本设置。
+除了使用清晰且格式正确的提示外，还可使用文本设置来优化生成的输出。
 
 >[!TIP]
 >
@@ -405,21 +411,21 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 >
 >如果您已通过&#x200B;**[!UICONTROL 引用内容]**&#x200B;菜单上传资产，则无需在提示中引用该资产。 系统会自动使用任何选定的文档。
 
-参考内容文件提供了真实的信息，通过特定、准确的详细信息丰富了您生成的内容。 上传文档（如产品小册子或白皮书）时，请更改提示以包括哪些部件具有焦点：
+参考内容文件提供了真实的信息，通过特定、准确的详细信息丰富了您生成的内容。 要包括哪些部件具有焦点，请在上传文档时更改提示，如产品小册子或白皮书：
 
-* **不要使用** _“使用产品手册”_ **您应该使用** _“专注于高级安全功能和合规性认证，特别是SOC 2合规性和数据加密”_
+* **而不是** _“使用产品手册”_ **使用** _“专注于高级安全功能和合规性认证，特别是SOC 2合规性和数据加密”_
 
-* **而不是** _“参考案例研究”_ **您应该使用** _“突出医疗保健客户的ROI结果，特别是地区医疗中心的40%成本降低”_
+* **而不是** _“参考案例研究”_ **使用** _“突出医疗保健客户的ROI结果，特别是地区医疗中心的40%成本降低”_
 
-* **您应该使用** _“强调API集成功能和开发人员优势，重点是REST API端点和99.9%的正常运行时间SLA”_，而不是&#x200B;**_“包括技术详细信息”_**
+* **而不是** _“包括技术详细信息”_ **使用** _“强调API集成功能和开发人员权益，重点是REST API端点和99.9%的正常运行时间SLA”_
 
 ### 内容细化
 
 生成内容后，使用&#x200B;**_[!UICONTROL 优化]_**&#x200B;功能通过以下选项对其进行迭代和增强：
 
-* **[!UICONTROL 精心设计]** - AI助手可以帮助您展开特定主题，提供其他详细信息以便更好地了解和参与。
+* **[!UICONTROL 阐述]** — 展开特定主题，提供更多详细信息，以便更好地了解和参与。
 
-* **[!UICONTROL 摘要]** — 过长的信息可能会使页面查看者过载。 使用AI Assistant将关键点浓缩为清晰、简洁的摘要，以吸引注意并鼓励他们进一步阅读。
+* **[!UICONTROL 摘要]** — 过长的信息可能会使读者过载。 修改以将关键点浓缩为清晰、简洁的摘要，以吸引注意并鼓励他们进一步阅读。
 
 * **[!UICONTROL 重写]** — 重写邮件并保留其含义。 此选项可帮助您在不更改核心消息的情况下生成替代措辞、改善流量或调整词语。
 

@@ -5,25 +5,30 @@ role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: d8425054daea287d21419911158908035c1314f6
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 5637
+source-wordcount: '5637'
 ht-degree: 61%
-
 ---
-
 # Journey Optimizer B2B Edition 发行说明
 
 Adobe Journey Optimizer B2B Edition 不断地提供新功能，对现有功能进行增强，并修复错误。
@@ -137,7 +142,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
 | 功能 | 品牌套件 | (Beta)在Journey Optimizer B2B edition中定义品牌，为创意团队创建任何可视或书面内容提供真实来源。 在编译这些指南并共享品牌资产后，任何团队成员或协作者都可以为您的产品创建品牌上内容。 [了解详情](../content/brands-overview.md) |
-| 功能 | 用于生成电子邮件内容的品牌 | 您可以定义品牌指南，并使用此信息生成电子邮件内容。 利用此功能，电子邮件内容将符合您特定品牌的版面制作准则、样式和语调。 [了解详情](../content/ai-assistant-emails.md) |
+| 功能 | 用于生成电子邮件内容的品牌 | 您可以定义品牌指南，并使用此信息生成电子邮件内容。 利用此功能，电子邮件内容将符合您特定品牌的版面制作准则、样式和语调。 [了解详情](../content/generate-content-emails.md) |
 | 增强功能 | 历程&#x200B;_等待_&#x200B;节点 — 高级设置 | 对于历程中的&#x200B;_等待_&#x200B;节点，营销人员现在可以指定退出日期和时间，并选择时区。 此增强功能可更好地控制历程编排和营销活动计时。 [了解详情](../journeys/wait-nodes.md#advanced-wait-settings) |
 | 增强功能 | 购买组成员过滤器 — 已删除 | 对于由人员&#x200B;_节点拆分的_&#x200B;路径，_[!UICONTROL 购买群组成员]_&#x200B;筛选器现在包含&#x200B;_Is Removed_&#x200B;约束。 选择该筛选器后，该筛选器可以包含或排除已移除的购买组成员。 Marketo Engage智能列表中也支持此功能，您可以在其中的&#x200B;_[!UICONTROL 购买组成员]_&#x200B;筛选器中使用此新限制。 |
 | 增强功能 | 电子邮件设计 — 多级项目符号 | 电子邮件内容设计空间工具现在支持子项目符号（项目符号级别）。 |
@@ -154,7 +159,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | ----- | ------ | ----------- |
 | 历程生成代理 | 新增的和更新的 | 历程生成代理可实时分析、构思并联合创建历程，使营销人员能够更快启动、提高参与度、促进更高转化率。 [了解详情](../agents/journey-agent.md) |
 | Audience 代理 | 新 | Audience 代理使用结构化和非结构化数据自动识别和构建购买群组。 这有助于营销人员更快、更准确地锁定合适的人群。 [了解详情](../agents/audience-agent-b2b.md) |
-| 销售限定词 | 新 | Sales Qualifier是Adobe Journey Optimizer B2B edition的AI驱动附加应用程序，其中包含Account Qualification Agent，旨在简化业务开发代表(BDR)的工作流。 它跨渠道自动化了潜在客户鉴别、外联和买方参与工作流程。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/sales-qualifier/using/home){target="_blank"} |
+| 销售限定词 | 新 | Sales Qualifier是Adobe Journey Optimizer B2B edition的AI驱动附加应用程序，它包含Account Qualification Agent，旨在简化业务开发代表(BDR)的工作流。 它跨渠道自动化了潜在客户鉴别、外联和买方参与工作流程。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## 2025.10 版本发行说明 {#rel-2025-10}
 

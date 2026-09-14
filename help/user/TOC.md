@@ -1,13 +1,11 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文档
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition 以及如何使用它通过内置的生成式 AI 和行业领先的自动化来编排帐户及购买群组历程。
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 86%
-
+source-wordcount: '448'
+ht-degree: 84%
 ---
-
 
 # Journey Optimizer B2B Edition 用户指南 {#user}
 
@@ -32,7 +30,6 @@ ht-degree: 86%
   + [启用 AI 助手访问](./ai-coworker/enable-ai-assistant-access.md)
   + [问题指导](./ai-coworker/question-guidance.md)
   + [聊天界面](./ai-coworker/use-ai-assistant.md)
-  + [用于内容的生成式 AI](./ai-coworker/generative-ai-content.md)
   + [意图分数](./ai-coworker/intent-scores.md)
   + 代理 {#ai-agents}
     + [Audience Agent B2B](./agents/audience-agent-b2b.md)
@@ -67,7 +64,7 @@ ht-degree: 86%
     + [添加电子邮件](./content/add-email.md)
     + [发送时间优化](./content/email-send-time-optimization.md)
     + [电子邮件创作](./content/email-authoring.md)
-    + [电子邮件创作的 AI 助手](./content/ai-assistant-emails.md)
+    + [生成电子邮件内容](./content/generate-content-emails.md)
     + [GenStudio 工作流](./content/genstudio-email-workflow.md)
     + [用于电子邮件设计的深色模式](./content/email-dark-mode.md)
     + [受监管的模板](./content/email-authoring-governance.md)
@@ -143,7 +140,7 @@ ht-degree: 86%
     + [概述](./content/landing-pages.md)
     + [创建并发布](./content/landing-pages-create-publish.md)
     + [登陆页面设计](./content/landing-page-design.md)
-    + [用于登陆页面内容的AI助手](./content/ai-assistant-landing-pages.md)
+    + [生成登陆页面内容](./content/generate-content-landing-pages.md)
   + 内容设计工具 {#content-design}
     + [结构组件](./content/structure-components.md)
     + [内容组件](./content/content-components.md)
@@ -153,6 +150,7 @@ ht-degree: 86%
     + [管理和创建](./content/brands-manage-create.md)
     + [创作AI模型](./content/generative-ai-models.md)
   + [品牌主题](./content/brand-themes.md)
+  + [用于内容的生成式 AI](./content/generative-ai-content.md)
   + [内容评估](./content/content-evaluation.md)
   + [条件内容](./content/conditional-content.md)
   + [内容辅助功能](./content/accessible-content.md)

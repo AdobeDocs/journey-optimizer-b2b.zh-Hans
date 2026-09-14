@@ -1,36 +1,49 @@
 ---
-title: 电子邮件内容的AI助手
-description: 使用AI助手生成电子邮件内容 — 在 [!DNL Journey Optimizer B2B Edition]中创建包含品牌资产和购买群组角色定位的邮件内容、主题行和预标题。
-feature: AI Assistant, Generative AI, Email Authoring
+title: 生成电子邮件内容
+description: 了解如何使用[!DNL Journey Optimizer B2B Edition]中的品牌资产和购买群体定位生成电子邮件内容、主题行和预标题。
+feature: Generative AI, Email Authoring
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
+autotag-review: '2026-08-06T18:39:02.013Z'
+TQID: 'https://experienceleague.adobe.com/XglTgYwjWyZg5gntuvPZwccIU2r0IUrL0iXy1S6oQOw'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+subfeature_v2:
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-autotag-review: 2026-03-30T21:53:30.297Z
-TQID: https://experienceleague.adobe.com/r6LXhsac6WcX015k3NIm-MOIvtqG7EUf1XK4p1adhAo
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+    internal-label: Optimization
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 3582
+source-wordcount: '3509'
 ht-degree: 0%
-
 ---
+# 生成电子邮件内容
 
-# 电子邮件内容的AI助手
-
-随着营销行业的竞争日益激烈，各大品牌都在寻求高效的方法来快速高效地生成有影响力的内容。 用于[!DNL Adobe Journey Optimizer B2B Edition]中电子邮件创作的AI Assistant是Adobe提供的AI支持的内容生成功能，它彻底改变了营销人员创建专业且品牌一致的电子邮件内容的方式。 借助先进的创作AI模型和对品牌准则的深入了解，AI Assistant可自动生成个性化、吸引人和有效的内容。 它利用您的营销目标并优化品牌概述样式、布局、色调等内容。 AI Assistant使电子邮件营销活动的创建和执行变得直观、简单而高效。 将此功能添加到工作流可以节省时间、提高效率并取得更好的结果。
+随着营销行业的竞争日益激烈，品牌厂商也在寻求有效的方法来生成有影响力的内容。 [!DNL Adobe Journey Optimizer B2B Edition]包括AI支持的内容生成，可帮助营销人员创建专业、品牌一致的电子邮件内容。 凭借先进的创作AI模型和对品牌准则的深入了解，它可自动生成个性化、引人入胜且有效的内容。 它利用您的营销目标并优化品牌概述样式、布局、色调等内容。 使用这些工具可以直观、简单高效地创建和执行电子邮件营销活动。 将此功能添加到工作流可以节省时间、提高效率并取得更好的结果。
 
 这项新功能提供了基于提示的内容生成功能，可用于生成完整的电子邮件或在电子邮件结构组件中对其进行定位。 对于图像，您可以生成新的图像资产，或从输入品牌资产的图像目录中生成推荐。 您还可以使用此功能生成最佳主题行和预标题，从而影响电子邮件打开率。
 
@@ -40,21 +53,21 @@ ht-degree: 0%
 
 ## 准则和限制
 
-在开始使用此功能之前，请查看[准则和限制](../ai-coworker/generative-ai-content.md#general-guidelines-and-limitations)。 在[!DNL Journey Optimizer B2B Edition]中使用AI功能之前，还需要用户同意[&#128279;](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
+在开始使用此功能之前，请查看[准则和限制](./generative-ai-content.md#general-guidelines-and-limitations)。 在[!DNL Journey Optimizer B2B Edition]中使用AI功能之前，还需要用户同意[&#128279;](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
 
 为增加透明度，Adobe在下载或导出时将[内容凭据](https://helpx.adobe.com/cn/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}应用于Firefly生成的资源。
 
-以下限制和准则适用于在[!DNL Journey Optimizer B2B Edition]中生成电子邮件内容所使用的AI助手功能：
+以下限制和准则适用于[!DNL Journey Optimizer B2B Edition]中的电子邮件内容生成：
 
 * 英语是唯一受支持的语言。
 * 生成的内容可能不准确 — 请分享您的反馈，以便Adobe工程师可以优化模型。
-* 您可以上传多个内容引用资源，但只能为特定层代利用一个。
+* 您可以上传多个内容引用资源，但您只能为特定层代利用一个。
 * 使用特定品牌或自定义模板为完整电子邮件生成内容。 建议使用最多包含8至10个图像的电子邮件模板。
 * 选择生成的变体时，请确保使用向上缩略图、向下缩略图或标记图标报告任何有问题的输出。
 
 ## 用于内容生成的输入和设置
 
-您可以为电子邮件或电子邮件中的选定组件生成完整内容。 使用AI助手工具时，可以为文本和图像提供提示、引用内容和设置。
+您可以为电子邮件或电子邮件中的选定组件生成完整内容。 使用内容生成工具时，可以为文本和图像提供提示、引用内容以及设置。
 
 ### 提示
 
@@ -62,7 +75,7 @@ ht-degree: 0%
 
 ![提示字段](./assets/gen-ai-prompt.png){width="320"}
 
-有关创建有效提示的详细信息，请参阅&#x200B;_[提示最佳实践](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_。
+有关创建有效提示的详细信息，请参阅&#x200B;_[提示最佳实践](./generative-ai-content.md#generative-ai-prompting-guide)_。
 
 >[!BEGINSHADEBOX]
 
@@ -70,9 +83,9 @@ ht-degree: 0%
 
 有效的提示对于生成最佳内容至关重要。 如果您希望在构建提示方面获得帮助，请单击&#x200B;_提示库_ ![提示库图标](../assets/do-not-localize/icon-library.svg)图标以访问根据目标整理的提示想法库。 在搜索字段中输入文本以根据关键词字符串查找提示。
 
-![AI助手 — 访问提示库](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
+![生成内容 — 访问提示库](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
 
-选择最能反映您预期目标的提示，然后单击&#x200B;**[!UICONTROL 尝试此提示]**。 在&#x200B;_[!UICONTROL 提示]_&#x200B;字段中，将任意占位符（如`[Key Feature/Information]`）替换为指定品牌、产品、营销活动和用例的值。
+选择最能反映您预期目标的提示，然后单击&#x200B;**[!UICONTROL 尝试此提示]**。 在&#x200B;_[!UICONTROL 提示]_&#x200B;字段中，将占位符（如`[Key Feature/Information]`）替换为您的品牌、产品、促销活动和使用案例详细信息。
 
 >[!ENDSHADEBOX]
 
@@ -106,7 +119,7 @@ ht-degree: 0%
 默认情况下，系统禁用&#x200B;**[!UICONTROL 使用AI生成图像]**&#x200B;选项。 启用此功能并设置以下选项以在建议的内容变体中包含生成的图像：
 
 * **[!UICONTROL 创成模型]**：从现成的Adobe提供的模型、用于专门功能的合作伙伴模型或根据您的品牌资源训练的配置自定义模型中选择。 有关创成模型的详细信息，请参阅&#x200B;_[用于品牌对齐的创成AI模型](generative-ai-models.md)_。
-* **[!UICONTROL 宽高比]**：选择图像组件时，此设置将确定资源的宽度和高度。 从常用比率（如16:9、4:3、3:2或1:1）中进行选择，或输入自定义比率。
+* **[!UICONTROL 宽高比]**：选择图像组件时，此设置将确定资源的宽度和高度。 从16:9、4:3、3:2或1:1等常见比率中进行选择，或输入自定义比率。
 * **[!UICONTROL 内容类型]**：该类型对可视元素的性质进行分类，区分不同的可视表示形式，如照片、图形或艺术品。
 * **[!UICONTROL 视觉强度]**：通过调整图像的强度来控制其影响。 较低的设置（如2）可创建更柔和、更受限的外观，而较高的设置（如10）则使图像更生动、视觉更强大。
 * **[!UICONTROL 颜色和色调]**：图像内颜色的总体外观及其传达的情绪或气氛。
@@ -119,7 +132,7 @@ ht-degree: 0%
 
 ### 参考内容
 
-上传参考内容资产以生成准确的品牌内内容。 否则，生成的内容将基于公开可用的信息。 引用内容用作内容生成和图像推荐的源。 有关准则和最佳实践，请参阅&#x200B;_[优化的参考内容](../ai-coworker/generative-ai-content.md#reference-content)_。
+上传参考内容资产以生成准确的品牌内内容。 否则，生成的内容将基于公开可用的信息。 引用内容用作内容生成和图像推荐的源。 有关准则和最佳实践，请参阅&#x200B;_[优化的参考内容](./generative-ai-content.md#reference-content)_。
 
 从&#x200B;**[!UICONTROL 引用内容]**&#x200B;设置中，单击&#x200B;**[!UICONTROL 上载文件]**&#x200B;以添加包含要用于其他上下文的内容的任何资源。
 
@@ -131,23 +144,23 @@ ht-degree: 0%
 
 ![启用现有引用内容以使用](./assets/gen-ai-reference-content-select.png){width="350" zoomable="yes"}
 
-## 使用AI助手生成电子邮件属性
+## 生成电子邮件属性
 
-当您[将电子邮件操作](./add-email.md#add-an-email-action-node-in-a-journey)添加到帐户历程时，您定义了一组用于发送电子邮件的电子邮件属性。 AI助手可以生成电子邮件&#x200B;**_主题行_**&#x200B;和&#x200B;**_预编译标头_**&#x200B;的推荐内容，从而帮助实现更好的电子邮件参与。
+当您[将电子邮件操作](./add-email.md#add-an-email-action-node-in-a-journey)添加到帐户历程时，您定义了一组用于发送电子邮件的电子邮件属性。 通过为电子邮件&#x200B;**_主题行_**&#x200B;和&#x200B;**_preheader_**&#x200B;生成推荐的内容，创作AI工具可帮助实现更好的电子邮件参与。
 
-从历程创建电子邮件或从历程节点打开现有电子邮件时，电子邮件预览页面会在右侧显示&#x200B;_[!UICONTROL 电子邮件属性]_。 在&#x200B;_[!UICONTROL 摘要]_&#x200B;选项卡中，可以使用AI Assistant内容生成工具生成主题行和/或预标题。
+从历程创建电子邮件或从历程节点打开现有电子邮件时，电子邮件预览页面会在右侧显示&#x200B;_[!UICONTROL 电子邮件属性]_。 在&#x200B;_[!UICONTROL 摘要]_&#x200B;选项卡中，您可以使用内容生成工具生成主题行和/或预标题。
 
 >[!BEGINTABS]
 
 >[!TAB 主题行生成]
 
-以下步骤描述了使用AI Assistant为您的电子邮件生成优化主题行的任务序列：
+以下步骤描述了为电子邮件生成优化主题行的任务序列：
 
 1. 在选择了&#x200B;_详细信息_&#x200B;选项卡的&#x200B;_摘要_&#x200B;面板中，向下滚动到&#x200B;**[!UICONTROL 主题行]**&#x200B;字段。
 
-1. 单击字段右侧的AI助手图标（![AI助手访问图标](../../assets/do-not-localize/icon-gen-ai-email-properties.svg){width="30"}）。
+1. 单击字段右侧的&#x200B;_生成内容_&#x200B;图标（![生成内容访问图标](../../assets/do-not-localize/icon-gen-ai-email-properties.svg){width="30"}）。
 
-   电子邮件主题行![&#128279;](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}的AI助手访问权限
+   ![电子邮件主题行的创作AI访问](./assets/email-properties-generate-content-subject-line-icon.png){width="600" zoomable="yes"}
 
    将打开&#x200B;_[!UICONTROL 生成主题行]_&#x200B;对话框，其中包含电子邮件主题行的生成设置。
 
@@ -164,9 +177,9 @@ ht-degree: 0%
 
    生成的变体将显示在对话框中。
 
-   ![AI助手 — 电子邮件主题行生成的变体](./assets/email-properties-ai-assistant-subject-line.png){width="600" zoomable="yes"}
+   ![生成内容 — 电子邮件主题行生成的变体](./assets/email-properties-generate-content-subject-line.png){width="600" zoomable="yes"}
 
-1. 滚动AI助手面板并浏览生成的变体以确定哪个变体最适合。
+1. 滚动&#x200B;_生成内容_&#x200B;面板并浏览生成的变体以确定哪个变体最合适。
 
    您可以通过单击&#x200B;_拇指向上_、_拇指向下_&#x200B;或&#x200B;_标志_&#x200B;图标并选择最能总结您的反馈的原因来为生成的变体[提交反馈](#submit-variation-feedback)。
 
@@ -180,19 +193,19 @@ ht-degree: 0%
 
    * **[!UICONTROL 更改音调]** — 调整消息音调以符合您的沟通风格，例如，使消息更友好、更专业、更紧急或更具启发性。
 
-   * **[!UICONTROL 更改沟通策略]** — 根据您的目标修改消息传送方式，如创建紧迫感或强调令人兴奋的吸引力。
+   * **[!UICONTROL 更改通信策略]** — 根据您的目标修改消息传送方法，如创建紧迫感或强调引人注目的吸引力。
 
-   ![AI助手 — 主题行细化](./assets/email-properties-ai-assistant-subject-line-refine.png){width="600" zoomable="yes"}
+   ![生成内容 — 主题行细化](./assets/email-properties-generate-content-subject-line-refine.png){width="600" zoomable="yes"}
 
 1. 单击&#x200B;**[!UICONTROL 选择]**&#x200B;以使用所选变体替换主题行文本并返回电子邮件属性。
 
 >[!TAB 预标头生成]
 
-电子邮件预告是在收件箱中查看电子邮件时遵循主题行的简短摘要文本。 它是电子邮件的一项可选元素，但也是提高参与度的有效机会。 以下步骤描述了使用AI Assistant为您的电子邮件生成优化的预标头的任务序列：
+电子邮件预告是在收件箱中查看电子邮件时遵循主题行的简短摘要文本。 它是电子邮件的一项可选元素，但也是提高参与度的有效机会。 以下步骤描述了为电子邮件生成优化的预标头的任务序列：
 
 1. 在选择了&#x200B;_详细信息_&#x200B;选项卡的&#x200B;_摘要_&#x200B;面板中，向下滚动并选择&#x200B;**[!UICONTROL 预标题]**&#x200B;复选框。
 
-   ![电子邮件预告头的AI助手访问权限](./assets/email-properties-ai-assistant-preheader-icon.png){width="600" zoomable="yes"}
+   ![对电子邮件预告头的生成AI访问](./assets/email-properties-generate-content-preheader-icon.png){width="600" zoomable="yes"}
 
    将打开&#x200B;_[!UICONTROL 生成预标头]_&#x200B;对话框，其中包含电子邮件预标头的生成设置。
 
@@ -209,9 +222,9 @@ ht-degree: 0%
 
    生成的变体将显示在对话框中。
 
-   ![AI助手 — 电子邮件预标头生成的变体](./assets/email-properties-ai-assistant-preheader.png){width="600" zoomable="yes"}
+   ![生成内容 — 电子邮件预标头生成的变体](./assets/email-properties-generate-content-preheader.png){width="600" zoomable="yes"}
 
-1. 滚动AI助手面板并浏览生成的变体以确定哪个变体最适合。
+1. 向下滚动&#x200B;_生成内容_&#x200B;面板并浏览生成的变体以确定哪个变体最合适。
 
    您可以通过单击&#x200B;_拇指向上_、_拇指向下_&#x200B;或&#x200B;_标志_&#x200B;图标并选择最能总结您的反馈的原因来为生成的变体[提交反馈](#submit-variation-feedback)。
 
@@ -227,19 +240,19 @@ ht-degree: 0%
 
    * **[!UICONTROL 更改沟通策略]** — 根据您的目标修改消息传送方式，如创建紧迫感或强调令人兴奋的吸引力。
 
-   ![AI助手 — 预标头细化](./assets/email-properties-ai-assistant-preheader-refine.png){width="500" zoomable="yes"}
+   ![生成内容 — 预标头细化](./assets/email-properties-generate-content-preheader-refine.png){width="500" zoomable="yes"}
 
 1. 单击&#x200B;**[!UICONTROL 选择]**&#x200B;将预标头替换为所选变体并返回电子邮件属性。
 
 >[!ENDTABS]
 
-## 使用AI助手生成电子邮件正文内容 {#generative-ai-email-design}
+## 生成电子邮件正文内容 {#generative-ai-email-design}
 
-在您[创建并个性化您的电子邮件](./email-authoring.md)后，在[!DNL Journey Optimizer B2B Edition]中使用由创作AI提供支持的AI助手来改进您的电子邮件正文内容。
+在您[创建并个性化您的电子邮件](./email-authoring.md)后，请使用Adobe的创作AI工具来改进您的电子邮件正文内容。
 
-在电子邮件设计空间中，AI Assistant可以生成与受众产生共鸣的完整电子邮件正文、目标文本内容和图像，从而帮助您优化投放的影响。 这种电子邮件促销活动优化旨在提高参与度。 选择&#x200B;_AI助手_ （![AI助手菜单切换](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ）以显示可用于当前内容选择的内容生成工具。
+在电子邮件设计空间中，创作AI工具可以生成完整的电子邮件正文、有针对性的文本内容以及与受众产生共鸣的图像，从而帮助您优化投放的影响。 这种电子邮件促销活动优化旨在提高参与度。 选择&#x200B;_生成内容_ （![生成内容菜单切换](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ）以显示可用于当前内容选择的内容生成工具。
 
-电子邮件设计空间中的![AI助手切换](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+![在电子邮件设计空间中“生成内容”切换](./assets/email-designer-generate-content-button.png){width="600" zoomable="yes"}
 
 根据要使用的电子邮件内容生成类型，执行以下步骤：
 
@@ -247,7 +260,7 @@ ht-degree: 0%
 
 >[!TAB 生成完整电子邮件]
 
-要使用AI Assistant通过优化现有电子邮件模板来生成完整的电子邮件，请执行以下步骤：
+要通过优化现有电子邮件模板生成完整的电子邮件，请执行以下步骤：
 
 1. 在[创建电子邮件](./add-email.md)后，单击&#x200B;**[!UICONTROL 编辑电子邮件内容]**。
 
@@ -257,11 +270,11 @@ ht-degree: 0%
 
    有关使用电子邮件模板的详细信息，请参阅&#x200B;_[选择模板](./email-authoring.md#select-a-template)_。
 
-1. 在电子邮件设计空间中，通过单击右侧的图标（![AI助手菜单切换](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} ）访问AI助手菜单。
+1. 在电子邮件设计空间中，单击右侧的&#x200B;_生成内容_ （ ![生成内容菜单切换](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} ）图标。
 
-   右侧的AI助手设置反映了&#x200B;_生成电子邮件_。
+   右侧的设置反映了&#x200B;_生成电子邮件_。
 
-   ![AI助手 — 用于生成电子邮件内容的提示库](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
+   ![生成内容 — 用于生成电子邮件内容的提示库](./assets/email-designer-generate-content-full.png){width="600" zoomable="yes"}
 
 1. 选择您的&#x200B;**[!UICONTROL 品牌]**&#x200B;以确保AI生成的内容与您的品牌规格一致。
 
@@ -273,7 +286,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >如果您不熟悉如何提示生成内容，请查看&#x200B;_[提示最佳实践](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_。
+   >如果您不熟悉如何提示生成内容，请查看&#x200B;_[提示最佳实践](./generative-ai-content.md#generative-ai-prompting-guide)_。
 
 1. 要定制生成的内容，请完成内容指导设置：
 
@@ -287,11 +300,11 @@ ht-degree: 0%
 
 1. 浏览生成的变体或单击&#x200B;_全屏_ （![全屏图标](../assets/do-not-localize/icon-full-screen.svg) ）图标以打开&#x200B;_[!UICONTROL 生成电子邮件]_&#x200B;对话框。
 
-   该对话框提供了额外的空间来比较变体、调整文本和引用内容设置（如果需要）以及重新生成变体。
+   该对话框提供了额外的空间来比较变体、调整文本和引用内容设置（如果需要）并重新生成变体。
 
    您还可以通过应用细化操作来微调变体，并提交所生成变体的反馈。 有关变体精简和反馈的更多详细信息，请参阅&#x200B;_[预览和内容细化](#refine-finalize)_。
 
-   ![电子邮件变体和细化选项的AI Assistant预览](./assets/email-designer-ai-assistant-full-refine.png){width="700" zoomable="yes"}
+   ![生成的电子邮件变体和细化选项的预览](./assets/email-designer-generate-content-full-refine.png){width="700" zoomable="yes"}
 
 1. 单击&#x200B;**[!UICONTROL 选择]**&#x200B;将模板内容替换为选定的变体并返回电子邮件设计空间。
 
@@ -299,11 +312,11 @@ ht-degree: 0%
 
 >[!TAB 仅限文本]
 
-要使用AI助手优化或增强现有电子邮件的文本内容，请执行以下步骤：
+要优化或增强现有电子邮件的文本内容，请执行以下步骤：
 
 1. 在电子邮件设计空间中，选择一个&#x200B;_文本_&#x200B;组件以定位特定内容。
 
-1. 在右侧面板的外边栏上，选择&#x200B;_AI助手_ （ ![AI助手菜单切换](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} ）图标。
+1. 在右侧面板的外边栏上，选择&#x200B;_生成内容_ （ ![生成内容菜单切换](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} ）图标。
 
    右侧的设置反映了文本组件的内容生成设置。
 
@@ -313,7 +326,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中，输入要生成的内容的描述。
 
-   ![AI助手 — 文本设置](./assets/email-designer-ai-assistant-text.png){width="600" zoomable="yes"}
+   ![生成内容 — 文本设置](./assets/email-designer-generate-content-text.png){width="600" zoomable="yes"}
 
    如果您需要有关创建有效提示的帮助，请使用[提示库](#prompt-library)。
 
@@ -331,7 +344,7 @@ ht-degree: 0%
 
    您还可以通过应用细化操作来微调变体，并提交所生成变体的反馈。 有关变体精简和反馈的更多详细信息，请参阅&#x200B;_[预览和内容细化](#preview-and-refine-the-content)_。
 
-   ![文本变体和细化选项的AI Assistant预览](./assets/email-designer-ai-assistant-text-refine.png){width="700" zoomable="yes"}
+   ![生成的文本变体和细化选项的预览](./assets/email-designer-generate-content-text-refine.png){width="700" zoomable="yes"}
 
 1. 获得所需的内容后，单击&#x200B;**[!UICONTROL 选择]**&#x200B;以使用选定的变体替换文本并返回电子邮件设计空间。
 
@@ -339,13 +352,13 @@ ht-degree: 0%
 
 >[!TAB 仅图像]
 
-要使用AI Assistant优化或增强现有电子邮件的图像内容，请执行以下步骤：
+要优化或增强现有电子邮件的图像内容，请执行以下步骤：
 
 1. 在电子邮件设计空间中，选择&#x200B;_Image_&#x200B;组件以定位特定内容。
 
-1. 在右侧面板的外边栏上，选择&#x200B;_AI助手_ （ ![AI助手菜单切换](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} ）图标。
+1. 在右侧面板的外边栏上，选择&#x200B;_生成内容_ （ ![生成内容菜单切换](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} ）图标。
 
-   右侧的AI助手设置反映了图像组件的生成设置。
+   右侧的设置反映了图像组件的生成设置。
 
 1. 选择您的&#x200B;**[!UICONTROL 品牌]**&#x200B;以确保AI生成的内容与您的品牌规格一致。
 
@@ -353,7 +366,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中输入所需内容的说明。
 
-   ![AI助手 — 输入图像组件](./assets/email-designer-ai-assistant-image.png){width="600" zoomable="yes"}的提示
+   ![生成内容 — 为图像组件输入提示](./assets/email-designer-generate-content-image.png){width="600" zoomable="yes"}
 
    如果您需要有关创建有效提示的帮助，请使用[提示库](#prompt-library)。
 
@@ -365,7 +378,7 @@ ht-degree: 0%
 
 1. 如果对提示和设置感到满意，请单击&#x200B;**[!UICONTROL 生成]**。
 
-   AI Assistant处理请求并根据提示和其他输入生成最合适的图像。
+   该系统处理该请求，并根据提示和其它输入产生最合适的图像。
 
    >[!IMPORTANT]
    >
@@ -373,11 +386,11 @@ ht-degree: 0%
 
 1. 浏览生成的变体或单击&#x200B;_全屏_ （ ![全屏图标](../assets/do-not-localize/icon-full-screen.svg) ）图标以打开&#x200B;_[!UICONTROL 生成图像]_&#x200B;对话框。
 
-   该对话框提供了额外的空间来比较变体、调整图像和引用内容设置（如果需要）以及重新生成变体。
+   该对话框提供了额外的空间来比较变体、调整图像和引用内容设置（如果需要），以及重新生成变体。
 
    您可以选择变体并单击&#x200B;**[!UICONTROL 生成类似]**&#x200B;以生成与所选变体类似的其他图像。 或者，单击&#x200B;**[!UICONTROL 在Adobe Express中编辑]**&#x200B;以自己对图像进行更改。 有关使用Adobe Express优化图像的更多信息，请参阅[Adobe Express中的快速操作](./image-edit-adobe-express.md#quick-actions-in-adobe-express)。
 
-   ![文本变体和细化选项的AI Assistant预览](./assets/email-designer-ai-assistant-image-refine.png){width="700" zoomable="yes"}
+   ![生成的文本变体和细化选项的预览](./assets/email-designer-generate-content-image-refine.png){width="700" zoomable="yes"}
 
    您还可以[提交生成的变体的反馈](#submit-variation-feedback)。
 
@@ -389,7 +402,7 @@ ht-degree: 0%
 
 ## 预览和优化内容 {#refine-finalize}
 
-生成内容变体后，您可以优化结果以确保它们满足您的确切要求。 审查品牌定位，调整语调和语言，并为可审核的草稿准备内容。 您还可以提交变体的反馈，以帮助培训AI Assistant并改进未来输出。
+生成内容变体后，您可以优化结果以确保它们满足您的确切要求。 审查品牌定位，调整语调和语言，并为可审核的草稿准备内容。 您还可以提交变体的反馈，以帮助培训创作AI工具并改进未来输出。
 
 ### 打开全屏视图
 
@@ -405,9 +418,9 @@ ht-degree: 0%
 
 单击&#x200B;**[!UICONTROL Refine]**&#x200B;选项以访问电子邮件和文本变体的其他自定义功能：
 
-* **[!UICONTROL 精心设计]** - AI助手可以帮助您展开特定主题，提供其他详细信息以便更好地了解和参与。
+* **[!UICONTROL 阐述]** — 展开特定主题，提供更多详细信息，以便更好地了解和参与。
 
-* **[!UICONTROL 摘要]** — 过长的信息可能会使读者过载。 使用AI Assistant将关键点浓缩为清晰、简洁的摘要，以吸引注意并鼓励他们进一步阅读。
+* **[!UICONTROL 摘要]** — 冗长的信息会让读者不知所措。 使用此选项可将要点归纳为清晰、简洁的摘要，以吸引注意并鼓励读者进一步阅读。
 
 * **[!UICONTROL 重写]** — 重写邮件并保留其含义。 此选项可帮助您在不更改核心消息的情况下生成替代措辞、改善流量或调整词语。
 
@@ -427,7 +440,7 @@ ht-degree: 0%
 
 通过单击&#x200B;_Thumbs Up_、_Thumbs Down_&#x200B;或&#x200B;_Flag_&#x200B;图标，并选择最能总结您的反馈的原因，为生成的变体提供反馈。
 
-![AI助手 — 预览生成的变体](./assets/gen-ai-preview-feedback-thumbs-up.png){width="700" zoomable="yes"}
+![生成的变体的预览](./assets/gen-ai-preview-feedback-thumbs-up.png){width="700" zoomable="yes"}
 
 ### 检查您的品牌一致性(Beta)
 

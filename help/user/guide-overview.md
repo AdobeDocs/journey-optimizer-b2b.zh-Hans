@@ -5,16 +5,16 @@ exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 autotag-review: 2026-03-27T22:18:45.397Z
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 1163
-ht-degree: 37%
-
+source-wordcount: '1162'
+ht-degree: 32%
 ---
-
 # Adobe Journey Optimizer B2B Edition 文档
 
 [!DNL Adobe Journey Optimizer B2B Edition]是首创的应用程序，它允许营销和销售团队在整个客户生命周期中编排基于帐户的体验，并使购买组有资格购买特定产品。 它利用AI吸引和授权目标客户中的购买群体，帮助您的团队形成更高质量的管道，设计更好的收购、扩展和保留策略。 它还支持在销售和营销团队之间共享见解。
@@ -185,7 +185,7 @@ Learn how to author and manage content for personalized customer experiences orc
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="历程内容"><br/>
-      <strong>历程内容</strong><br/><a href="./content/add-email.md">电子邮件渠道</a><br/><a href="./content/ai-assistant-emails.md">电子邮件 AI 助手</a><br/><a href="./content/genstudio-email-workflow.md">GenStudio 电子邮件体验</a><br/><a href="./content/sales-alert-email.md">销售警报电子邮件</a><br/><a href="./content/sms-authoring.md">SMS 渠道</a>
+      <strong>历程内容</strong><br/><a href="./content/add-email.md">电子邮件频道</a><br/><a href="./content/generate-content-emails.md">生成电子邮件内容</a><br/><a href="./content/genstudio-email-workflow.md">GenStudio电子邮件体验</a><br/><a href="./content/sales-alert-email.md">销售提醒电子邮件</a><br/><a href="./content/sms-authoring.md">短信频道</a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="内容管理"><br/>

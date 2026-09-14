@@ -8,24 +8,29 @@ autotag-review: '2026-07-27T16:18:02.498Z'
 TQID: 'https://experienceleague.adobe.com/JWnXAAbCuZVLv4ZhWubpNsZ61xbYU7xtdOXkG9uoWis'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
 subfeature_v2:
   - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+    internal-label: Personalization
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 1077
+source-wordcount: '1067'
 ht-degree: 3%
-
 ---
-
 # 脚本生成器
 
 _脚本生成器_&#x200B;是[!DNL Adobe Journey Optimizer B2B Edition]电子邮件设计空间中可用的AI支持的助手。 它有助于营销人员和电子邮件开发人员更快地创建个性化脚本，并通过将现有个性化逻辑转换为[!DNL Journey Optimizer B2B Edition]来帮助从[!DNL Marketo Engage]迁移，而无需手动重写代码。
@@ -34,7 +39,7 @@ _脚本生成器_&#x200B;是[!DNL Adobe Journey Optimizer B2B Edition]电子邮�
 >
 >当前，脚本生成器仅在&#x200B;**_帐户历程_**&#x200B;中作为受限测试版提供给选择客户。 计划在将来的版本中支持人员历程。 要获取访问权限，请联系您的Adobe代表。
 
-构建条件电子邮件个性化需要创作&#x200B;_Handlebars_&#x200B;表达式，例如按区域设置切换语言块、按区域或角色交换内容，或者插入动态配置文件或自定义对象值。 如果从[!DNL Marketo Engage]迁移，您会面临一个附加的挑战：逐行重写&#x200B;_Velocity_&#x200B;脚本。 Script Builder从单个对话界面中解决了这两个障碍：
+构建条件电子邮件个性化（如切换语言块、交换内容或插入动态值）需要创作&#x200B;_Handlebars_&#x200B;表达式。 如果从[!DNL Marketo Engage]迁移，您会面临一个附加的挑战：逐行重写&#x200B;_Velocity_&#x200B;脚本。 脚本生成器从单个对话界面中解决了这两个障碍：
 
 * 从纯语言描述生成新的Handlebars个性化脚本。
 * 粘贴[!DNL Marketo Engage] Velocity脚本并将其转换为具有自动令牌映射的等效Handlebars脚本。
@@ -46,7 +51,7 @@ _脚本生成器_&#x200B;是[!DNL Adobe Journey Optimizer B2B Edition]电子邮�
 >
 >用户对Script Builder的访问通过[!DNL Journey Optimizer B2B Edition]中其他生成AI功能使用的相同权限进行控制。 有关授予功能权限的信息，请参阅[启用AI助手访问](../ai-coworker/enable-ai-assistant-access.md)。
 
-在使用脚本生成器之前，请查看适用于[!DNL Journey Optimizer B2B Edition]中的创作AI功能的[准则和限制](../ai-coworker/generative-ai-content.md#general-guidelines-and-limitations)。 [在使用AI功能之前，还需要用户同意](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。
+在使用脚本生成器之前，请查看适用于[!DNL Journey Optimizer B2B Edition]中的创作AI功能的[准则和限制](./generative-ai-content.md#general-guidelines-and-limitations)。 [在使用AI功能之前，还需要用户同意](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。
 
 熟悉[!DNL Journey Optimizer B2B Edition]支持的[Handlebars模板语言](https://handlebarsjs.com/guide/){target="_blank"}、[个性化语法](./personalization-syntax.md)和[辅助函数](./personalization-helper-functions.md)。 脚本生成器会为您生成有效的Handlebars，但了解语法可帮助您满怀信心地查看和编辑输出。
 
