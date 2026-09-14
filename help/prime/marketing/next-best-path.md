@@ -6,23 +6,29 @@ autotag-review: '2026-06-12T23:02:18.769Z'
 TQID: 'https://experienceleague.adobe.com/OCsqXogJ7C1u2iKrmI9O2ZCPi3FC9xKSU-uIa-Ngki8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
 subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
   - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+    internal-label: Agentic AI
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+    internal-label: Decisioning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
-source-wordcount: 1528
+source-wordcount: '1528'
 ht-degree: 1%
-
 ---
-
 # 下一个最佳路径节点
 
 在Journey Optimizer B2B Prime中，*下一个最佳路径*&#x200B;节点将AI驱动的分割路径决策直接引入旅程画布。 您不是在[拆分路径](./split-merge-paths-nodes.md)节点上配置筛选条件，而是用自然语言描述您的意图，让系统确定与每个人最相关的路径。
@@ -84,9 +90,9 @@ ht-degree: 1%
 
      **示例提示三路径拆分：**
 
-      * *路径1 - HR主管：*&#x200B;确定HR领导角色中最可能参与人才管理和员工经验内容的人员。
-      * *路径2 — 技术评估人员：*&#x200B;确定最有可能参与产品架构、集成和实施内容的技术利益相关者。
-      * *路径3 — 业务决策者：*&#x200B;确定最有可能参与ROI、业务成果和案例研究内容的业务利益相关者。
+     * *路径1 - HR主管：*&#x200B;确定HR领导角色中最可能参与人才管理和员工经验内容的人员。
+     * *路径2 — 技术评估人员：*&#x200B;确定最有可能参与产品架构、集成和实施内容的技术利益相关者。
+     * *路径3 — 业务决策者：*&#x200B;确定最有可能参与ROI、业务成果和案例研究内容的业务利益相关者。
 
 1. 如果需要，可重新排列路径顺序以设置匹配的优先级顺序。
 
