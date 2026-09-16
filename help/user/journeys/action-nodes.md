@@ -6,24 +6,28 @@ role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 subfeature_v2:
   - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
+    internal-label: Journey Actions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
+source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
 workflow-type: tm+mt
-source-wordcount: 2184
+source-wordcount: '2176'
 ht-degree: 3%
-
 ---
-
 # 执行操作
 
 要执行操作，如发送电子邮件、更改得分或分配给购买组，请在历程中添加&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点。 操作通常是您希望因某种类型的触发器（例如事件或上一个操作）而发生的操作。
@@ -45,7 +49,6 @@ ht-degree: 3%
 | [!UICONTROL 从目标]停用 | 选择现有虚拟受众<br/>选择目标 |
 | [!UICONTROL 从历程中删除帐户] | 选择实时帐户历程 |
 | [!UICONTROL 从帐户列表中删除] | 选择实时静态帐户列表 |
-| [!UICONTROL 发送销售警报] | 选择感兴趣的解决方案<br/>发送电子邮件至 |
 | [!UICONTROL 更新帐户配置文件] | 选择属性<br/>新值 |
 | [!UICONTROL 更新购买团体阶段] | 选择解决方案兴趣<br/>选择购买团体阶段 |
 | [!UICONTROL 更新购买团体状态] | 选择感兴趣的解决方案<br/>状态（必需，最多50个字符） |
