@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Content strategy
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: a4cce068002a9f26ba7bb4a1aa836ddf92ef8586
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 4%
@@ -173,7 +173,7 @@ ht-degree: 4%
 
 当您的品牌包含完整的定义集并符合您的要求时，请单击&#x200B;**[!UICONTROL 发布]**&#x200B;以使您的品牌准则可用于内容对齐和生成。
 
-已发布的品牌可从AI [品牌一致性分数](./content-evaluation.md#brand-alignment-score)和[内容生成工具](../ai-coworker/generative-ai-content.md)中的&#x200B;**[!UICONTROL 品牌]**&#x200B;选项访问。
+已发布的品牌可从AI [品牌一致性分数](./content-evaluation.md#brand-alignment-score)和[内容生成工具](./generative-ai-content.md)中的&#x200B;**[!UICONTROL 品牌]**&#x200B;选项访问。
 
 内容的![品牌选项](./assets/brand-menu-content-ai-tools.png){width="300"}
 
@@ -340,4 +340,4 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
    * [视觉内容](#visual-content)
 
-1. 在处理草稿更新时单击“保存”**&#x200B;**，在准备好替换&#x200B;_Live_&#x200B;版本时单击“发布”**&#x200B;**。
+1. 在处理草稿更新时单击“保存”****，在准备好替换&#x200B;_Live_&#x200B;版本时单击“发布”****。
