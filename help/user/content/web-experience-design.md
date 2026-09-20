@@ -1,34 +1,42 @@
 ---
 title: Web体验设计
-description: 使用可视编辑器和非可视编辑器设计Web体验 — 在Journey Optimizer B2B edition中添加修改、管理内容更新、启用点击跟踪并个性化内容。
+description: 使用可视编辑器和非可视编辑器设计Web体验 — 在Journey Optimizer B2B Edition中添加修改、管理内容更新、启用点击跟踪并个性化内容。
 feature: Content Design Tools, Channels
 role: User
-badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
+badge: label="有限发布版" type="Informative"
 exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
 autotag-review: '2026-05-27T16:20:57.090Z'
 TQID: 'https://experienceleague.adobe.com/VduQltglsVryZl5TEFtWVASl-C8IQX9B7CNNQdIkXnA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 subfeature_v2:
   - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+    internal-label: Web channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+    internal-label: Web experience
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: 2339
+source-wordcount: '2317'
 ht-degree: 4%
-
 ---
-
 # Web体验设计
 
 在您[创建Web体验](./web-experiences.md#create-a-web-experience)之后，请使用内容设计空间定义要应用于网页的修改。
@@ -41,23 +49,24 @@ ht-degree: 4%
 
 * 产品管理员已配置一个或多个Web渠道来定义要用于Web体验的URL（页面）。 有关详细信息，请参阅[Web渠道配置](../admin/configure-channels-web.md)。
 
-* 您的网站已实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，用于访客识别和内容交付。 需要Adobe Experience Platform Web SDK版本2.16或更高版本。
+* 您的网站已实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，用于访客识别和内容交付。 需要Adobe Experience Platform Web SDK版本2.16或更高版本。
 
 * 您拥有在历程中创建和管理Web体验所需的[权限](../admin/user-management.md#b2b-product-permissions)：
-   * _[!UICONTROL 营销活动]_ > _[!UICONTROL 管理营销活动]_ — 添加或更新Web个性化操作节点是必需的。
-   * _[!UICONTROL 营销活动]_ > _[!UICONTROL 查看营销活动]_ — 需要查看Web个性化操作节点的详细信息。
+  * _[!UICONTROL 创作B2B Web体验]_
+  * _[!UICONTROL 管理B2B人员历程]_
+  * _[!UICONTROL 管理B2B帐户历程]_
 
 >[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->在设计Web体验之前，请确保已为Web浏览器安装了Adobe Experience Cloud可视化编辑帮助程序浏览器扩展。 在Journey Optimizer B2B edition Web体验设计空间中，需要此扩展才能可靠地打开、创作和预览网页。<br/>
+>在设计Web体验之前，请确保已为Web浏览器安装了Adobe Experience Cloud可视化编辑帮助程序浏览器扩展。 在Journey Optimizer B2B Edition Web体验设计空间中，需要此扩展才能可靠地打开、创作和预览网页。<br/>
 >
->Google Chrome和Microsoft Edge目前是唯一支持在Journey Optimizer B2B edition中扩展和创作Web体验的浏览器。 有关详细信息，请参阅[安装可视化编辑帮助程序扩展](./web-experiences.md#install-the-visual-editing-helper-extension)。
+>Google Chrome和Microsoft Edge目前是唯一支持在Journey Optimizer B2B Edition中扩展和创作Web体验的浏览器。 有关详细信息，请参阅[安装可视化编辑帮助程序扩展](./web-experiences.md#install-the-visual-editing-helper-extension)。
 
 ## Web体验编辑器
 
-Journey Optimizer B2B edition提供了两种类型的编辑器来设计Web修改：
+Journey Optimizer B2B Edition为设计Web修改提供了两种类型的编辑器：
 
 | 编辑者 | 描述 | 最适合 |
 | ------ | ----------- | -------- |
@@ -103,7 +112,7 @@ Journey Optimizer B2B edition提供了两种类型的编辑器来设计Web修改
 
    * 从页面中选择任何现有元素，并[为Web体验](#modify-elements)修改它。
 
-   * [为元素添加点击跟踪](#click-tracking-for-web-experiences)以测量参与度和收集见解。
+   * [为元素添加点击跟踪](#web-click-tracking)以测量参与度和收集见解。
 
 1. 重复步骤2以加载要包含在Web体验中的其他页面。 重复步骤3以定义页面修改。
 
@@ -171,7 +180,7 @@ Journey Optimizer B2B edition提供了两种类型的编辑器来设计Web修改
 
 +++
 
-+++ 容器元素
++++容器元素
 
 1. 在页面上选择一个容器元素。
 
@@ -196,8 +205,8 @@ Journey Optimizer B2B edition提供了两种类型的编辑器来设计Web修改
 
 单击显示的按钮之一放置组件：
 
-* ***[!UICONTROL 在]**&#x200B;之前插入 — 将组件插入到选定元素之前。
-* ***[!UICONTROL 此项后插入]** — 将组件插入选定元素之后。
+* **[!UICONTROL 插入到]**&#x200B;之前 — 将组件插入选定元素之前。
+* **[!UICONTROL 此项后插入]** — 将组件插入选定元素之后。
 
 要取消选择要插入的组件类型，请在页面顶部显示的上下文蓝色横幅中单击&#x200B;**[!UICONTROL ESC]**。
 
@@ -224,9 +233,9 @@ Journey Optimizer B2B edition提供了两种类型的编辑器来设计Web修改
 
    * 根据类型配置修改参数：
 
-      * **[!UICONTROL CSS选择器]** — 输入有效的CSS选择器以定位特定元素。
-      * **[!UICONTROL 操作类型]** — 选择要执行的操作（编辑、隐藏、删除、插入、替换）。
-      * **[!UICONTROL 内容]** — 提供要应用的内容或样式。
+     * **[!UICONTROL CSS选择器]** — 输入有效的CSS选择器以定位特定元素。
+     * **[!UICONTROL 操作类型]** — 选择要执行的操作（编辑、隐藏、删除、插入、替换）。
+     * **[!UICONTROL 内容]** — 提供要应用的内容或样式。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以应用修改。
 

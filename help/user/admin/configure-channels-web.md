@@ -1,29 +1,33 @@
 ---
 title: Web渠道配置
-description: 了解如何在Journey Optimizer B2B edition中配置Web渠道设置以定义Web属性和页面匹配规则以进行内容交付。
+description: 了解如何配置Web渠道设置以定义Journey Optimizer B2B Edition中内容投放的Web属性和页面匹配规则。
 feature: Setup, Channels
 role: Admin
-badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
+badge: label="有限发布版" type="Informative"
 exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 autotag-review: 2026-03-27T23:15:46.632Z
 TQID: https://experienceleague.adobe.com/jxBV37ku9z-b7dzbhzFy0PToJa6gq9x-u-1OMcdkU3g
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 1a11805d02adb0084cc7ac377782632c940df584
 workflow-type: tm+mt
-source-wordcount: 1077
-ht-degree: 2%
-
+source-wordcount: '1049'
+ht-degree: 1%
 ---
-
 # Web渠道配置
 
 Web配置是由交付内容的URL标识的Web属性。 它可以匹配单个页面URL或多个页面，以便Web体验可以跨一个或多个网页进行修改。 营销人员需要这些配置来[在历程中添加Web个性化操作节点](../content/web-experiences.md#create-a-web-experience)和[为营销活动设计体验修改](../content/web-experience-design.md)。
@@ -32,12 +36,11 @@ Web配置是由交付内容的URL标识的Web属性。 它可以匹配单个页�
 
 **先决条件**
 
-要使用Web渠道，您的网站必须实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以便进行访客识别和内容交付。 确保Adobe Experience Platform Web SDK的版本为2.16或更高版本。
+要使用Web渠道，您的网站必须实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以便进行访客识别和内容交付。 确保Adobe Experience Platform Web SDK的版本为2.16或更高版本。
 
-Journey Optimizer B2B edition中的Web渠道配置需要以下[权限](../admin/user-management.md#b2b-product-permissions)：
+Journey Optimizer B2B Edition中的Web渠道配置需要以下[权限](../admin/user-management.md#b2b-product-permissions)：
 
-* _[!UICONTROL 渠道配置]_ > _[!UICONTROL 管理消息预设]_ — 创建、更新和删除Web渠道配置所必需的。
-* _[!UICONTROL 渠道配置]_ > _[!UICONTROL 查看消息预设]_ — 查看Web渠道配置所需。
+* _[!UICONTROL 管理B2B渠道配置]_
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +48,7 @@ Journey Optimizer B2B edition中的Web渠道配置需要以下[权限](../admin/
 
 1. 在左侧导航中，转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**。
 
-1. 在导航面板中的&#x200B;_[!UICONTROL Web]_&#x200B;下，选择&#x200B;**[!UICONTROL 渠道配置]**。
+1. 在导航面板中的&#x200B;_[!UICONTROL 常规设置]_&#x200B;下，选择&#x200B;**[!UICONTROL 渠道配置]**。
 
    ![访问Web渠道配置](./assets/config-web-channels.png){width="800" zoomable="yes"}
 
@@ -63,7 +66,7 @@ Journey Optimizer B2B edition中的Web渠道配置需要以下[权限](../admin/
 
      ![为单页Web渠道配置选择页面URL](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL 页面匹配规则]** — 若要定位多个匹配同一规则的URL，请构建一个匹配规则[&#128279;](#build-a-rule)的页面，并输入&#x200B;**[!UICONTROL 默认创作和预览URL]**。
+   * **[!UICONTROL 页面匹配规则]** — 若要定位多个匹配同一规则的URL，请构建一个匹配规则](#build-a-rule)的[页面，并输入&#x200B;**[!UICONTROL 默认创作和预览URL]**。
 
 1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以保存更改。
 
@@ -73,7 +76,7 @@ Journey Optimizer B2B edition中的Web渠道配置需要以下[权限](../admin/
 
 ## 页面匹配规则 {#pages-matching-rule}
 
-创建Web配置时，您可以生成与规则&#x200B;_匹配的_&#x200B;页面，以定位多个与同一规则匹配的URL。 这些规则允许您在多个页面中应用相同的内容更改。
+创建Web配置时，您可以生成与规则&#x200B;]_匹配的_[!UICONTROL &#x200B;页面，以定位多个与同一规则匹配的URL。 这些规则允许您在多个页面中应用相同的内容更改。
 
 例如，将更改应用于整个网站的主页横幅，或添加在所有产品页面上显示的顶部图像。
 
@@ -116,7 +119,7 @@ Journey Optimizer B2B edition中的Web渠道配置需要以下[权限](../admin/
 
    ![定义与Web渠道配置匹配的页面规则](./assets/config-web-channel-pages-matching-rules.png){width="600" zoomable="yes"}
 
-1. 如果您的用例需要多个规则，请单击“添加其他页面规则”**&#x200B;**&#x200B;并重复上一步。
+1. 如果您的用例需要多个规则，请单击“添加其他页面规则”****&#x200B;并重复上一步。
 
    * 您最多可以定义10个规则。
 
@@ -138,7 +141,7 @@ Journey Optimizer B2B edition中的Web渠道配置需要以下[权限](../admin/
 
 1. 单击&#x200B;_更多菜单_&#x200B;图标(**...**) 为变体选择&#x200B;**[!UICONTROL 复制]**。
 
-   ![单击更多nenu图标以复制现有Web渠道配置](./assets/config-web-channels-more-menu.png){width="450"}
+   ![单击“更多”菜单图标以复制现有Web渠道配置](./assets/config-web-channels-more-menu.png){width="350"}
 
    此操作创建一个名称后附加`_Copy_nnn`的重复Web渠道。
 

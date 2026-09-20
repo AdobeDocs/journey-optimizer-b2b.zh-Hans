@@ -1,36 +1,43 @@
 ---
 title: 单页应用程序
-description: 为单页应用程序(SPA)创建Web体验 — 在Journey Optimizer B2B edition中配置视图跟踪、处理动态内容和管理客户端导航。
+description: 为单页应用程序(SPA)创建Web体验 — 在Journey Optimizer B2B Edition中配置视图跟踪、处理动态内容和管理客户端导航。
 feature: Channels, Personalization
 role: User
-badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
+badge: label="有限发布版" type="Informative"
 exl-id: 7691006d-3d22-4db4-94d3-cfd420128b86
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
 autotag-review: 2026-03-30T22:02:23.111Z
 TQID: https://experienceleague.adobe.com/L5Mn4u-o4xACD2L1TW2lx7pB9gkC3O2uRmL8b0alDkA
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: 846
-ht-degree: 2%
-
+source-wordcount: '838'
+ht-degree: 1%
 ---
-
 # 单页应用程序
 
-单页应用程序(SPA)可动态更新页面内容而无需重新加载整页，因此它们给Web个性化带来了独特的挑战。 Journey Optimizer B2B edition提供了专用工具来有效处理SPA个性化。
+单页应用程序(SPA)可动态更新页面内容而无需重新加载整页，因此它们给Web个性化带来了独特的挑战。 Journey Optimizer B2B Edition提供了专用工具来有效处理SPA个性化。
 
 ## 了解SPA
 
@@ -43,7 +50,7 @@ ht-degree: 2%
 
 ## 配置SPA支持
 
-为了有效地个性化SPA，您需要配置视图跟踪，以便Journey Optimizer B2B edition能够识别用户在虚拟视图之间导航的时间。
+为了有效地个性化SPA，您需要配置视图跟踪，以便Journey Optimizer B2B Edition能够识别用户在虚拟视图之间导航的时间。
 
 ### 设置查看声明
 
@@ -121,7 +128,7 @@ SPA通常在初始页面渲染后动态加载内容。 可使用以下技术确�
 
 ### SPA框架
 
-Journey Optimizer B2B edition Web体验可与流行的SPA框架配合使用：
+Journey Optimizer B2B Edition Web体验可与流行的SPA框架配合使用：
 
 | 框架 | 注意事项 |
 | --------- | -------------- |
@@ -179,27 +186,27 @@ SPA通常会生成动态类名或ID（特别是对于CSS-in-JS解决方案）。
 
 * **未显示修改** — 如果修改未显示在SPA上：
 
-   1. **检查视图跟踪** — 验证`sendEvent`调用是否包含正确的视图名称。
+  1. **检查视图跟踪** — 验证`sendEvent`调用是否包含正确的视图名称。
 
-   1. **验证元素是否存在** — 应用修改时，请确保目标元素位于DOM中。
+  1. **验证元素是否存在** — 应用修改时，请确保目标元素位于DOM中。
 
-   1. **查看选择器** — 确认CSS选择器与实际的DOM结构匹配。
+  1. **查看选择器** — 确认CSS选择器与实际的DOM结构匹配。
 
-   1. **检查控制台** — 查找可能阻止修改的JavaScript错误。
+  1. **检查控制台** — 查找可能阻止修改的JavaScript错误。
 
 * **修改会短暂出现然后消失** — 此问题通常发生在SPA重新渲染并替换修改的元素时：
 
-   1. 使用在渲染中保持稳定的更具体的CSS选择器。
+  1. 使用在渲染中保持稳定的更具体的CSS选择器。
 
-   1. 使变异观察器在重新创建元素时重新应用修改。
+  1. 使变异观察器在重新创建元素时重新应用修改。
 
-   1. 与开发团队合作，向目标元素添加稳定属性。
+  1. 与开发团队合作，向目标元素添加稳定属性。
 
 * **重复修改** — 如果修改出现多次：
 
-   1. 选中每个视图过渡仅触发一次视图跟踪事件。
+  1. 选中每个视图过渡仅触发一次视图跟踪事件。
 
-   1. 验证修改是否限定在特定视图的范围内，而不是全局应用。
+  1. 验证修改是否限定在特定视图的范围内，而不是全局应用。
 
 ## 相关主题
 
