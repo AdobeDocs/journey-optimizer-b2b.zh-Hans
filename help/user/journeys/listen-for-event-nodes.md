@@ -196,7 +196,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 对于人员历程，您可以使用B2B人员配置文件属性中的更改来触发&#x200B;_侦听事件_&#x200B;节点。
 
-1. 将**[!UICONTROL 人员配置文件更改]**从&#x200B;_[!UICONTROL 触发器]_&#x200B;列表拖放到事件匹配生成器空间中。
+1. 将&#x200B;**[!UICONTROL 人员配置文件更改]**&#x200B;从&#x200B;_[!UICONTROL 触发器]_&#x200B;列表拖放到事件匹配生成器空间中。
 
 1. 单击&#x200B;**[!UICONTROL 添加约束]**&#x200B;并选择要用于事件触发器的属性更改。
 
@@ -250,7 +250,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 ## 事件过滤器 {#filters-people-event}
 
-当您在帐户历程](#people-events)中定义[人员事件，或在人员历程](#person-journeys)中定义[事件时，您可以包含筛选以根据各种条件限制匹配的事件触发器：
+当您在帐户历程[&#128279;](#people-events)中定义[人员事件，或在人员历程](#person-journeys)中定义事件时，您可以包含筛选以根据各种条件限制匹配的事件触发器：
 
 | 过滤器 | 描述 |
 | ------------ | ----------- |
