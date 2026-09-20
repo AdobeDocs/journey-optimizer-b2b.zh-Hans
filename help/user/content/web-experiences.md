@@ -80,7 +80,7 @@ Adobe Journey Optimizer B2B Edition中的Web渠道允许您直接在您的网站
 
    如果您使用的是[!DNL Microsoft Edge]，请选择顶部横幅上其他商店中的&#x200B;_允许扩展_。 启用此选项可让您将扩展从[!DNL Chrome Web Store]添加到[!DNL Microsoft Edge]。
 
-1. 搜索并导航到&#x200B;_[!DNL Adobe Experience Cloud Visual Editing Helper]_浏览器扩展。
+1. 搜索并导航到&#x200B;_[!DNL Adobe Experience Cloud Visual Editing Helper]_&#x200B;浏览器扩展。
 
    ![适用于Google Chrome的Adobe Experience Cloud可视化编辑帮助程序扩展](./assets/web-experience-google-chrome-adobe-visual-editing-extension.png){width="800" zoomable="yes"}
 
@@ -106,7 +106,7 @@ Adobe Journey Optimizer B2B Edition中的Web渠道允许您直接在您的网站
 
 当您[添加&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点](../journeys/action-nodes.md)并执行以下操作时，可以在历程中设置Web体验：
 
-1. 对于&#x200B;]_目标上的_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
+1. 对于&#x200B;_目标上的_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
 
 1. 若要对人员执行&#x200B;_[!UICONTROL 操作]_，请选择&#x200B;**[!UICONTROL 个性化Web体验]**。
 

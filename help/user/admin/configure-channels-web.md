@@ -66,7 +66,7 @@ Journey Optimizer B2B Edition中的Web渠道配置需要以下[权限](../admin/
 
      ![为单页Web渠道配置选择页面URL](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL 页面匹配规则]** — 若要定位多个匹配同一规则的URL，请构建一个匹配规则](#build-a-rule)的[页面，并输入&#x200B;**[!UICONTROL 默认创作和预览URL]**。
+   * **[!UICONTROL 页面匹配规则]** — 若要定位多个匹配同一规则的URL，请构建一个匹配规则[&#128279;](#build-a-rule)的页面，并输入&#x200B;**[!UICONTROL 默认创作和预览URL]**。
 
 1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以保存更改。
 
@@ -76,7 +76,7 @@ Journey Optimizer B2B Edition中的Web渠道配置需要以下[权限](../admin/
 
 ## 页面匹配规则 {#pages-matching-rule}
 
-创建Web配置时，您可以生成与规则&#x200B;]_匹配的_[!UICONTROL &#x200B;页面，以定位多个与同一规则匹配的URL。 这些规则允许您在多个页面中应用相同的内容更改。
+创建Web配置时，您可以生成与规则&#x200B;_匹配的_&#x200B;页面，以定位多个与同一规则匹配的URL。 这些规则允许您在多个页面中应用相同的内容更改。
 
 例如，将更改应用于整个网站的主页横幅，或添加在所有产品页面上显示的顶部图像。
 
@@ -119,7 +119,7 @@ Journey Optimizer B2B Edition中的Web渠道配置需要以下[权限](../admin/
 
    ![定义与Web渠道配置匹配的页面规则](./assets/config-web-channel-pages-matching-rules.png){width="600" zoomable="yes"}
 
-1. 如果您的用例需要多个规则，请单击“添加其他页面规则”****&#x200B;并重复上一步。
+1. 如果您的用例需要多个规则，请单击“添加其他页面规则”**&#x200B;**&#x200B;并重复上一步。
 
    * 您最多可以定义10个规则。
 
