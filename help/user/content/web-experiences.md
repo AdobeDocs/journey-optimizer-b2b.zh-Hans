@@ -57,7 +57,7 @@ Adobe Journey Optimizer B2B Edition中的Web渠道允许您直接在您的网站
 
 * 产品管理员已配置一个或多个Web渠道来定义要用于Web体验的URL（页面）。 有关详细信息，请参阅[Web渠道配置](../admin/configure-channels-web.md)。
 
-* 您的网站已实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，用于访客识别和内容交付。 确保Adobe Experience Platform Web SDK的版本为2.16或更高版本。
+* 您的网站已实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，用于访客识别和内容交付。 确保Adobe Experience Platform Web SDK的版本为2.16或更高版本。
 
 * 您拥有在历程中创建和管理Web体验所需的[权限](../admin/user-management.md#b2b-product-permissions)：
   * _[!UICONTROL 创作B2B Web体验]_
@@ -214,13 +214,13 @@ Adobe Journey Optimizer B2B Edition中的Web渠道允许您直接在您的网站
 
 * 在Adobe Experience Platform数据收集中，确保定义了数据流。 确保在Adobe Experience Platform服务下启用了Adobe Journey Optimizer B2B Edition选项。
 
-  此配置可确保Adobe Experience Platform Edge能够正确处理入站事件。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+  此配置可确保Adobe Experience Platform Edge能够正确处理入站事件。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)
 
 * 在Adobe Experience Platform中，确保您有一个启用了&#x200B;_[!UICONTROL Active-On-Edge合并策略]_&#x200B;选项的合并策略。
 
-  在Experience Platform的Customer > Profiles > Merge Policies菜单下，选择一个策略。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  在Experience Platform的Customer > Profiles > Merge Policies菜单下，选择一个策略。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Journey Optimizer B2B Edition入站渠道使用此合并策略在Edge上正确激活和发布入站Web体验。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
+  Journey Optimizer B2B Edition入站渠道使用此合并策略在Edge上正确激活和发布入站Web体验。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### 故障排除
 
