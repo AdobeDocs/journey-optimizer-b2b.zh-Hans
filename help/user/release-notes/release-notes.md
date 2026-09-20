@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: 0fcf6c3c390ee932d2a6c019a4eed721976b32db
 workflow-type: tm+mt
-source-wordcount: '5637'
+source-wordcount: '5645'
 ht-degree: 61%
 ---
 # Journey Optimizer B2B Edition 发行说明
@@ -48,7 +48,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | 功能 | _变量拆分路径_&#x200B;历程节点 | （以前称为Beta帐户历程）营销人员现在可以通过根据定义的百分比将帐户或人员分配给不同的历程路径来测试帐户或人员历程中的变体。 [了解详情](../journeys/variant-split-paths-nodes.md) |
 | 功能 | C2PA元数据 | 使用创作AI工具生成或编辑的图像现在会自动使用C2PA元数据签名，帮助您满足内容透明度和AI披露要求。 [了解详情](../content/c2pa-metadata.md) |
 | 增强功能 | 历程重新进入 — 人员历程 | 现在为人员历程提供历程重新进入支持。 |
-| 增强功能 | 监听事件触发器和过滤器 — 帐户历程 | 帐户历程现在支持&#x200B;_侦听事件_&#x200B;节点中的多个触发器和过滤器。 |
+| 增强功能 | 监听事件触发器和过滤器 — 帐户历程 | 对于帐户历程，现在支持在&#x200B;_侦听事件类型为_&#x200B;人员&#x200B;_的事件_&#x200B;节点中使用多个触发器和过滤器。 [了解详情](../journeys/listen-for-event-nodes.md) |
 | 增强功能 | 外部拆分路径节点 — 人员历程 | 人员历程现在支持&#x200B;_外部拆分路径_&#x200B;节点。 [了解详情](../journeys/external-nodes.md#external-action) |
 | 增强功能 | 外部操作节点 — 人员历程 | 人员历程现在支持&#x200B;_外部操作_&#x200B;节点。 [了解详情](../journeys/external-nodes.md#external-split-paths) |
 | 增强功能 | AEP关系数据集 | 新的关系数据集现在与现有数据集一起显示在您的AEP沙盒中。 |
@@ -81,12 +81,12 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | 登陆页面 | Journey Optimizer B2B edition中提供了登陆页面以支持历程和程序&#x200B;_（以前是Beta程序功能）_。 <ul><li>管理员可以配置登陆页面子域和预设以启用登陆页面发布。 [了解详情](../admin/configure-channels-landing-pages.md)</li><li>营销人员可以创建、设计和发布登陆页面，以通过个性化的Web内容支持其历程。 [了解详情](../content/landing-pages.md)</li></ul> |
-| 功能 | 表单 | Journey Optimizer B2B edition现在支持可重用表单组件，以便从登陆页面&#x200B;_（以前是Beta程序功能）_&#x200B;提交数据。 <ul><li>管理员可以使用不同的数据集和流连接组合配置多个表单预设。 [了解详情](../admin/configure-channels-forms.md)</li><li>营销人员现在可以定义可重复使用的表单组件，以从网页访客捕获信息。 [了解详情](../content/forms.md)</li></ul> |
+| 功能 | 登陆页面 | Journey Optimizer B2B Edition中提供登陆页面以支持历程和程序&#x200B;_（以前是Beta程序功能）_。 <ul><li>管理员可以配置登陆页面子域和预设以启用登陆页面发布。 [了解详情](../admin/configure-channels-landing-pages.md)</li><li>营销人员可以创建、设计和发布登陆页面，以通过个性化的Web内容支持其历程。 [了解详情](../content/landing-pages.md)</li></ul> |
+| 功能 | 表单 | Journey Optimizer B2B Edition现在支持可重复使用的表单组件，以便能够提交来自登陆页面&#x200B;_的数据（以前是Beta程序功能）_。 <ul><li>管理员可以使用不同的数据集和流连接组合配置多个表单预设。 [了解详情](../admin/configure-channels-forms.md)</li><li>营销人员现在可以定义可重复使用的表单组件，以从网页访客捕获信息。 [了解详情](../content/forms.md)</li></ul> |
 | 功能 | 帐户列表成员过滤器 | 将帐户列表成员资格用作帐户历程中的编排点。 营销人员可以创建帐户阻止列表、优先级列表或其受众的任何其他类型的子集，并根据其成员资格在历程中提供独特的帐户体验。 |
 | 功能 | 体验事件历史记录筛选 | 此功能使B2B Journey Orchestration能够使用历史参与为受众成员制定基于行为的决策。 [了解详情](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | 功能 | 下一最佳路径历程节点 | 您可以优化人员历程的拆分路径决策，优化在历程激活之前或运行时受众在路径间的路由方式。 [了解详情](../journeys/next-best-path-node.md) |
-| 功能 | 电子邮件性能仪表板 | “电子邮件性能”功能板为营销人员提供了在Adobe Journey Optimizer B2B edition中查看所有历程中的电子邮件活动的统一视图。 [了解详情](../dashboards/email-performance-dashboard.md) |
+| 功能 | 电子邮件性能仪表板 | 电子邮件性能仪表板为营销人员提供了在Adobe Journey Optimizer B2B Edition中所有历程的电子邮件活动的统一视图。 [了解详情](../dashboards/email-performance-dashboard.md) |
 | 增强功能 | Audience Agent B2B技能 | Audience Agent B2B技能已更新，包括AI支持的购买群组模板创建。 使用第一方意图和角色映射生成购买组模板，审查AI推荐的角色到角色映射，并在发布模板之前使用自然语言优化模板。 [了解详情](../agents/audience-agent-b2b.md) |
 | 增强功能 | 历程概述仪表板 — 人员历程 | 人员历程(Beta)现在包含&#x200B;_[!UICONTROL 概述]_&#x200B;选项卡，该选项卡具有与帐户历程相同的分析，包括历程完成率分配、按参与类型划分的历程，以及穿透钻取和导出操作。 [了解详情](../dashboards/journeys-dashboard.md) |
 | 增强功能 | 支持AEP关系数据集 | 新的关系数据集现在与现有数据集一起显示在您的AEP沙盒中。 |
@@ -141,7 +141,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | 品牌套件 | (Beta)在Journey Optimizer B2B edition中定义品牌，为创意团队创建任何可视或书面内容提供真实来源。 在编译这些指南并共享品牌资产后，任何团队成员或协作者都可以为您的产品创建品牌上内容。 [了解详情](../content/brands-overview.md) |
+| 功能 | 品牌套件 | (Beta)在Journey Optimizer B2B Edition中定义品牌，为创意团队创建任何可视或书面内容提供真实来源。 在编译这些指南并共享品牌资产后，任何团队成员或协作者都可以为您的产品创建品牌上内容。 [了解详情](../content/brands-overview.md) |
 | 功能 | 用于生成电子邮件内容的品牌 | 您可以定义品牌指南，并使用此信息生成电子邮件内容。 利用此功能，电子邮件内容将符合您特定品牌的版面制作准则、样式和语调。 [了解详情](../content/generate-content-emails.md) |
 | 增强功能 | 历程&#x200B;_等待_&#x200B;节点 — 高级设置 | 对于历程中的&#x200B;_等待_&#x200B;节点，营销人员现在可以指定退出日期和时间，并选择时区。 此增强功能可更好地控制历程编排和营销活动计时。 [了解详情](../journeys/wait-nodes.md#advanced-wait-settings) |
 | 增强功能 | 购买组成员过滤器 — 已删除 | 对于由人员&#x200B;_节点拆分的_&#x200B;路径，_[!UICONTROL 购买群组成员]_&#x200B;筛选器现在包含&#x200B;_Is Removed_&#x200B;约束。 选择该筛选器后，该筛选器可以包含或排除已移除的购买组成员。 Marketo Engage智能列表中也支持此功能，您可以在其中的&#x200B;_[!UICONTROL 购买组成员]_&#x200B;筛选器中使用此新限制。 |
@@ -153,13 +153,13 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 ## 代理式 AI 功能 {#rel-agents}
 
-现在，在聊天界面中，Journey Optimizer B2B edition可以使用以下代理AI功能：
+Journey Optimizer B2B Edition现在可在聊天界面中使用以下代理AI功能：
 
 | 代理 | 更新 | 描述 |
 | ----- | ------ | ----------- |
 | 历程生成代理 | 新增的和更新的 | 历程生成代理可实时分析、构思并联合创建历程，使营销人员能够更快启动、提高参与度、促进更高转化率。 [了解详情](../agents/journey-agent.md) |
 | Audience 代理 | 新 | Audience 代理使用结构化和非结构化数据自动识别和构建购买群组。 这有助于营销人员更快、更准确地锁定合适的人群。 [了解详情](../agents/audience-agent-b2b.md) |
-| 销售限定词 | 新 | Sales Qualifier是Adobe Journey Optimizer B2B edition的AI驱动附加应用程序，它包含Account Qualification Agent，旨在简化业务开发代表(BDR)的工作流。 它跨渠道自动化了潜在客户鉴别、外联和买方参与工作流程。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/sales-qualifier/using/home){target="_blank"} |
+| 销售限定词 | 新 | Sales Qualifier是Adobe Journey Optimizer B2B Edition的AI驱动附加应用程序，其中包含Account Qualification Agent，旨在简化业务开发代表(BDR)的工作流。 它跨渠道自动化了潜在客户鉴别、外联和买方参与工作流程。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## 2025.10 版本发行说明 {#rel-2025-10}
 
@@ -185,11 +185,11 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 ### 更新的体系结构
 
-通过更新的架构，Journey Optimizer B2B edition和Marketo Engage不再位于同一系统和数据存储中。 Journey Optimizer B2B edition从Adobe Experience Platform接收数据。 但仍依赖 Marketo Engage 的使用权限及部分配置功能来完成系统的部署与设置。
+随着架构的更新，Journey Optimizer B2B Edition和Marketo Engage将不再位于同一系统和数据存储中。 Journey Optimizer B2B Edition从Adobe Experience Platform接收数据。 但仍依赖 Marketo Engage 的使用权限及部分配置功能来完成系统的部署与设置。
 
 >[!NOTE]
 >
->早期的发行说明将此部署称为&#x200B;*简化的架构*。 该模型现在是默认的Journey Optimizer B2B edition实施。
+>早期的发行说明将此部署称为&#x200B;*简化的架构*。 该模型现在是默认的Journey Optimizer B2B Edition实施。
 
 此实施可提供多种好处：
 
@@ -210,7 +210,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | 功能 | 多个Marketo Engage激活 | 配置与远程Marketo Engage实例的连接，并使用这些连接设置历程的Marketo Engage操作。 这些操作（例如从列表中添加/删除人员，或将人员添加到请求营销活动）适用于指定的Marketo Engage实例。 [了解详情](../admin/marketo-actions-connect.md) |
 | 功能 | 电子邮件疲劳重复数据删除 | 您现在可以启用电子邮件重复数据删除功能，确保同一历程中不会向同一邮箱地址重复发送相同邮件。 重复的地址将被阻止，直到使用该电子邮件地址的第一条记录完成历程。  [了解详情](../content/email-deduplication.md) |
 | 增强功能 | 参与度得分权重 — AEP事件 | 参与度得分权重现在可以包括任何标准或自定义Experience Platform事件，并根据您的需要进行加权。 [了解详情](../admin/engagement-score-weighting.md) |
-| 增强功能 | 通信限制 | 现在，系统尊重了Marketo Engage和Journey Optimizer B2B edition的组合通信限制。 [了解详情](../admin/configure-channels-emails.md#communication-limits) |
+| 增强功能 | 通信限制 | 现在，该系统尊重了Marketo Engage和Journey Optimizer B2B Edition的组合通信限制。 [了解详情](../admin/configure-channels-emails.md#communication-limits) |
 
 ## 2025.9 版发行说明 {#rel-2025-9}
 
@@ -220,7 +220,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | 电子邮件内容协作 | 现在，营销团队可以在电子邮件资源的上下文中与Journey Optimizer B2B edition同事进行评论和协作。 他们可以标记团队成员，以接收包含评论详细信息的电子邮件通知。 也可以使用推送通知的方式。 [了解详情](../content/email-collaboration-tools.md) |
+| 功能 | 电子邮件内容协作 | 现在，营销团队可以在电子邮件资源的上下文中与Journey Optimizer B2B Edition同事进行评论和协作。 他们可以标记团队成员，以接收包含评论详细信息的电子邮件通知。 也可以使用推送通知的方式。 [了解详情](../content/email-collaboration-tools.md) |
 | 功能 | 用于电子邮件设计的深色模式 | 电子邮件设计空间现在包含能够切换到&#x200B;_深色模式_&#x200B;的功能。 在深色模式下，您可以预览电子邮件内容，并定义要专门为在深色模式下查看电子邮件的收件人显示的自定义设置。 [了解详情](../content/email-dark-mode.md) |
 | 增强功能 | 历程 - 按角色的人数拆分路径 | 使用按帐户节点拆分的路径，按一个或多个购买群组角色中的人数来定位帐户。 在这个路径中，您可以根据角色深度评估购买群组对销售警报和其他参与行动的意愿。 [了解详情](../journeys/split-merge-paths-nodes.md#buying-group-filtering-accounts) |
 | 增强功能 | 历程 - 事件的人员过滤器 | 使用人员过滤器来侦听人员事件。 这些筛选条件包括针对匹配购买群组中的特定角色进行定位的功能。 [了解详情](../journeys/listen-for-event-nodes.md#filters-people-event) |
