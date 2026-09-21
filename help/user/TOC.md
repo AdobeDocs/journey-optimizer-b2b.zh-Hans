@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文档
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition 以及如何使用它通过内置的生成式 AI 和行业领先的自动化来编排帐户及购买群组历程。
-source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 84%
+source-wordcount: '443'
+ht-degree: 83%
 ---
 
 # Journey Optimizer B2B Edition 用户指南 {#user}
@@ -70,7 +70,7 @@ ht-degree: 84%
     + [受监管的模板](./content/email-authoring-governance.md)
     + [电子邮件重复数据删除](./content/email-deduplication.md)
     + [电子邮件跟踪](./content/email-tracking-manage.md)
-  + Web渠道(Beta) {#web-channel}
+  + Web 渠道 {#web-channel}
     + [概述](./content/web-experiences.md)
     + [Web体验设计](./content/web-experience-design.md)
     + [单页应用程序](./content/web-single-page-applications.md)
@@ -172,6 +172,6 @@ ht-degree: 84%
     + [电子邮件配置](./admin/configure-channels-emails.md)
     + [短信配置](./admin/configure-channels-sms.md)
     + [WhatsApp配置](./admin/configure-channels-whatsapp.md)
-    + [Web渠道配置(Beta)](./admin/configure-channels-web.md)
+    + [Web渠道配置](./admin/configure-channels-web.md)
     + [登陆页面配置](./admin/configure-channels-landing-pages.md)
     + [Forms配置](./admin/configure-channels-forms.md)
