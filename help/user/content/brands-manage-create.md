@@ -1,6 +1,6 @@
 ---
 title: 创建内容生成和一致性品牌
-description: 通过从文档自动提取或手动输入来创建和管理品牌指南 — 在Journey Optimizer B2B edition中设置默认品牌以实现内容一致。
+description: 通过从文档自动提取或手动输入来创建和管理品牌指南 — 在Journey Optimizer B2B Edition中设置默认品牌以实现内容一致。
 badge: label="Beta 版" type="Informative"
 feature: Content, Brand Identity
 role: User
@@ -28,13 +28,13 @@ TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G
 source-git-commit: a4cce068002a9f26ba7bb4a1aa836ddf92ef8586
 workflow-type: tm+mt
 source-wordcount: '2039'
-ht-degree: 4%
+ht-degree: 6%
 ---
 # 创建和管理您的品牌 {#brand-library}
 
 定义品牌以提供一套详细的规则和标准，从而建立可视化和口头化的身份识别。 这些准则为在所有营销和通信平台上保持一致的品牌代表性提供了参考。 通过利用明确定义的品牌准则，组织可以确保所有内容创建工作与战略目标和整体品牌标识保持一致。 这种一致性不仅增强了品牌认知和信任，还有助于在所有接触点营造更具凝聚力和影响力的客户体验。
 
-在Journey Optimizer B2B edition中，您可以手动定义并组织品牌定义和资产，或上传品牌准则文档以自动提取信息和可视资产。
+在Journey Optimizer B2B Edition中，您可以手动定义并组织品牌定义和资产，或上传品牌准则文档以自动提取信息和可视资产。
 
 >[!AVAILABILITY]
 >
@@ -42,7 +42,7 @@ ht-degree: 4%
 >
 ><br>
 >
->在Adobe Journey Optimizer B2B edition中使用AI支持的功能之前，需要[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
+>在Adobe Journey Optimizer B2B Edition中使用AI支持的功能之前，需要[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
 >
 ><br>
 >
@@ -50,7 +50,7 @@ ht-degree: 4%
 
 ## 访问您的品牌库
 
-要在Adobe Journey Optimizer B2B edition中访问品牌套件，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 品牌]**。 此操作将打开一个页面，其中创建的品牌将显示为卡片。
+要在Adobe Journey Optimizer B2B Edition中访问品牌套件，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 品牌]**。 此操作将打开一个页面，其中创建的品牌将显示为卡片。
 
 ![访问品牌库](./assets/brands-library.png){width="800" zoomable="yes"}
 
@@ -245,7 +245,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
 >title="写作风格一致性得分"
->abstract="写作样式部分定义语言、格式和结构的标准。 一致性分数显示您的内容遵循这些准则的程度，并突出显示需要改进的领域。"
+>abstract="“写作风格”部分规定了语言、格式和结构方面的标准。 符合度得分显示您的内容对这些准则的遵循程度，并指出有待改进之处。"
 
 _[!UICONTROL 书写样式]_&#x200B;定义概述了书写内容的标准，并详细说明了如何使用语言、格式和结构来保持所有材料的清晰度、一致性和一致性。
 
@@ -289,7 +289,7 @@ Supplement your work choice guidelines by adding preferred and avoided terms.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_imagery"
 >title="视觉内容一致性得分"
->abstract="视觉内容一致性得分表明您的内容与配置的品牌指南的匹配程度。 它有助于您评估一致性并确定需要改进的领域。"
+>abstract="视觉内容一致性得分表明您的内容与配置的品牌指南的匹配程度。 它可帮助您评估符合程度，并找出有待改进之处。"
 
 _[!UICONTROL 可视内容]_&#x200B;定义概述了图像和设计的标准，并详细说明了保持统一一致的品牌外观所需的规范。
 
@@ -340,4 +340,4 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
    * [视觉内容](#visual-content)
 
-1. 在处理草稿更新时单击“保存”**&#x200B;**，在准备好替换&#x200B;_Live_&#x200B;版本时单击“发布”**&#x200B;**。
+1. 在处理草稿更新时单击“保存”****，在准备好替换&#x200B;_Live_&#x200B;版本时单击“发布”****。
