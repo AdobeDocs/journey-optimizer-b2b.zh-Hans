@@ -113,7 +113,7 @@ ht-degree: 0%
 
 ### 配置跟踪和非跟踪电子邮件变体 {#configure-tracking-and-non-tracking-email-variants}
 
-向每个路径添加一个[_[!UICONTROL 发送电子邮件&#x200B;]_操作节点](./add-email.md)，以便每个人接收与其跟踪首选项匹配的电子邮件变体。
+向每个路径添加一个[_[!UICONTROL 发送电子邮件&#x200B;]_&#x200B;操作节点](./add-email.md)，以便每个人接收与其跟踪首选项匹配的电子邮件变体。
 
 1. 在启用跟踪的路径上，添加&#x200B;**[!UICONTROL 发送电子邮件]**&#x200B;操作，然后照常选择或创建电子邮件，在电子邮件属性中清除&#x200B;**[!UICONTROL 禁用打开跟踪]**。
 
