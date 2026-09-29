@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 0fcf6c3c390ee932d2a6c019a4eed721976b32db
+source-git-commit: 5ae2c8e9e395f027e166b445a37950e5870789cd
 workflow-type: tm+mt
-source-wordcount: '5645'
+source-wordcount: '5708'
 ht-degree: 61%
 ---
 # Journey Optimizer B2B Edition 发行说明
@@ -37,6 +37,21 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 查看[产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，了解有关权限、性能护栏和限制的信息。
 
+## 2026.9版发行说明 {#rel-2026-9}
+
+**部署日期**：2026年9月25日
+
+| 类型 | 项目 | 描述 |
+| ---- | ---- | ----------- |
+| 功能 | 人员列表 | 现在提供了静态和动态人员列表，以便您可以按定义的标准（如人口统计属性和体验事件历史记录）定向用户档案。 |
+| 功能 | 服务运行状况功能板 | 通过收集成功/错误量度并提供仪表板供管理员监视服务性能，跟踪外部操作的操作健康状况。 |
+| 增强功能 | 历程重新进入 — 人员历程 | 现在为人员历程提供历程重新进入支持。 |
+
+>[!NOTE]
+>
+>这些版本更改从2026年9月25日开始部署，并分阶段推出每个功能和增强功能。 功能及增强功能的发布时间可能会有变动。
+
+
 ## 2026.8发行说明 {#rel-2026-8}
 
 **部署日期**：2026年8月14日
@@ -44,10 +59,8 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
 | 功能 | 人员历程 | （以前的Beta为正式发布而提早部署）现在您可以创建历程，以使用Experience Platform受众和数据来编排基于商机的营销。 [了解详情](../journeys/journeys-overview.md) |
-| 功能 | 人员列表 | 现在提供了静态和动态人员列表，以便您可以按定义的标准（如人口统计属性和体验事件历史记录）定向用户档案。 |
 | 功能 | _变量拆分路径_&#x200B;历程节点 | （以前称为Beta帐户历程）营销人员现在可以通过根据定义的百分比将帐户或人员分配给不同的历程路径来测试帐户或人员历程中的变体。 [了解详情](../journeys/variant-split-paths-nodes.md) |
-| 功能 | C2PA元数据 | 使用创作AI工具生成或编辑的图像现在会自动使用C2PA元数据签名，帮助您满足内容透明度和AI披露要求。 [了解详情](../content/c2pa-metadata.md) |
-| 增强功能 | 历程重新进入 — 人员历程 | 现在为人员历程提供历程重新进入支持。 |
+| 功能 | C2PA 元数据 | 使用创作AI工具生成或编辑的图像现在会自动使用C2PA元数据签名，帮助您满足内容透明度和AI披露要求。 [了解详情](../content/c2pa-metadata.md) |
 | 增强功能 | 监听事件触发器和过滤器 — 帐户历程 | 对于帐户历程，现在支持在&#x200B;_侦听事件类型为_&#x200B;人员&#x200B;_的事件_&#x200B;节点中使用多个触发器和过滤器。 [了解详情](../journeys/listen-for-event-nodes.md) |
 | 增强功能 | 外部拆分路径节点 — 人员历程 | 人员历程现在支持&#x200B;_外部拆分路径_&#x200B;节点。 [了解详情](../journeys/external-nodes.md#external-action) |
 | 增强功能 | 外部操作节点 — 人员历程 | 人员历程现在支持&#x200B;_外部操作_&#x200B;节点。 [了解详情](../journeys/external-nodes.md#external-split-paths) |
