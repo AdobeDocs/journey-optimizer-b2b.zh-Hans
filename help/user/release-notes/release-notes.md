@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 5ae2c8e9e395f027e166b445a37950e5870789cd
+source-git-commit: eb4654dc36b165f5cb40e7999f3204bdc5bd2c85
 workflow-type: tm+mt
-source-wordcount: '5708'
-ht-degree: 61%
+source-wordcount: '5744'
+ht-degree: 60%
 ---
 # Journey Optimizer B2B Edition 发行说明
 
@@ -45,6 +45,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | ---- | ---- | ----------- |
 | 功能 | 人员列表 | 现在提供了静态和动态人员列表，以便您可以按定义的标准（如人口统计属性和体验事件历史记录）定向用户档案。 |
 | 功能 | 服务运行状况功能板 | 通过收集成功/错误量度并提供仪表板供管理员监视服务性能，跟踪外部操作的操作健康状况。 |
+| 增强功能 | 个人资料受众筛选条件的成员 | 此过滤器现在可用于人员历程拆分路径条件、帐户历程人员拆分路径条件和人员列表，以根据其受众成员资格包含或排除用户档案。 |
 | 增强功能 | 历程重新进入 — 人员历程 | 现在为人员历程提供历程重新进入支持。 |
 
 >[!NOTE]
