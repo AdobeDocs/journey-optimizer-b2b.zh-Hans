@@ -310,7 +310,7 @@ Adobe Journey Optimizer B2B Edition构建于Adobe Experience Platform之上。 �
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="复选框"/></td>
 <td>配置您的商业网站以支持Adobe Experience Platform Web SDK。</td>
-<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">了解详情</a></td>
+<td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/js-overview">了解详情</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="复选框"/></td>
