@@ -4,32 +4,42 @@ description: 配置电子邮件传递协议——设置 DNS、SPF、DKIM、DMARC
 feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806
+autotag-review: 2026-03-30T23:06:01.153Z
+TQID: 'https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: 2026-03-30T23:06:01.153Z
-TQID: https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+    internal-label: Cross channel delivery
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2303
+source-wordcount: '2303'
 ht-degree: 79%
-
 ---
-
 # 设置电子邮件跟踪和投放
 
 Adobe Journey Optimizer B2B Edition 利用附加的 Marketo Engage 实例中的电子邮件频道功能和事件跟踪。 某些组织使用限制性的防火墙或代理服务器设置。 要确保电子邮件投放对这些组织按预期工作，系统管理员必须将某些域和IP地址范围添加到。
 
-确保将以下域（包括星号）添加到允许列表中，以启用所有 Marketo Engage 资源和 web sockets：
+确保将以下域（包括星号）添加到允许列表中，以启用所有 Marketo Engage 资源和 Web 套接字：
 
 * `*.experience.adobe.com`
 * `*.adobe.net`
@@ -79,7 +89,7 @@ Adobe Journey Optimizer B2B Edition 利用附加的 Marketo Engage 实例中的�
 
 ### 配置 SSL 证书
 
-联系 [Adobe 支持部门](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support){target="_blank"}，以开始 SSL 证书设置过程。
+联系 [Adobe 支持部门](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"}，以开始 SSL 证书设置过程。
 
 此过程可能最多需要三个工作日。
 
@@ -218,15 +228,15 @@ DMARC 有两种对齐方式：
 
 ### 专用 IP 和共享池
 
-如果您通过 Marketo Engage 使用专用 IP 发送邮件，且未实施（或不确定是否已实施）品牌化返回路径，请向 [Adobe 支持部门](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support){target="_blank"}提交工单。
+如果您通过 Marketo Engage 使用专用 IP 发送邮件，且未实施（或不确定是否已实施）品牌化返回路径，请向 [Adobe 支持部门](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"}提交工单。
 
 >[!BEGINSHADEBOX]
 
-**将专用IP迁移到Journey Optimizer B2B edition**
+**将专用IP迁移到Journey Optimizer B2B Edition**
 
-如果您有专用IP，则必须在与现有Journey Optimizer实例相同的区域创建新的Marketo Engage B2B edition实例。 如果新实例位于不同的区域，则无法共享现有IP。 如果区域匹配，请打开具有[Adobe支持](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support){target="_blank"}的票证，并请求将现有IP和绑定组与新实例共享。 提供您的Marketo Engage前缀(Munchkin ID)和新的Journey Optimizer B2B edition前缀(Munchkin ID)。
+如果您有专用IP，则必须在与现有Journey Optimizer实例相同的区域创建新的Marketo Engage B2B edition实例。 如果新实例位于不同的区域，则无法共享现有IP。 如果区域匹配，请打开具有[Adobe支持](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"}的票证，并请求将现有IP和绑定组与新实例共享。 提供您的Marketo Engage前缀(Munchkin ID)和新的Journey Optimizer B2B edition前缀(Munchkin ID)。
 
-通过此请求，Adobe会复制与现有Marketo Engage实例相同的IP、绑定组和配置的返回路径域。 在Marketo Engage实例和Journey Optimizer B2B edition实例之间共享IP时，两个实例会同时使用它们。
+通过此请求，Adobe会复制与现有Marketo Engage实例相同的IP、绑定组和配置的返回路径域。 在Marketo Engage实例和Journey Optimizer B2B Edition实例之间共享IP时，两个实例会同时使用它们。
 
 >[!ENDSHADEBOX]
 
@@ -247,11 +257,11 @@ MX 记录允许您接收发送电子邮件所使用域名的来信，以处理�
 Marketo Engage代表您与Internet服务器进行出站连接。 您的IT部门和某些合作伙伴/供应商使用允许列表来限制对服务器的访问。 如果是这样的话，请向他们提供Marketo Engage出站IP地址块，以添加到他们的。
 
 <!--
-Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allow list on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allow list. For more information, see [_Create a webhook_](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [_Call Webhook_](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
+Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allow list on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allow list. For more information, see [_Create a webhook_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [_Call Webhook_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
 
 ### CRM sync
 
-Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [_Add an Existing Salesforce Field to the Marketo Sync_](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [_Understanding the Microsoft Dynamics Sync_](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. 
+Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [_Add an Existing Salesforce Field to the Marketo Sync_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [_Understanding the Microsoft Dynamics Sync_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. 
 -->
 
 ## 出站 IP 地址块

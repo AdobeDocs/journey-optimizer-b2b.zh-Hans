@@ -19,9 +19,13 @@ feature_v2:
     internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
     internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
     internal-label: Email channel
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -30,7 +34,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ec55e33d1db9aa7ecf488e2898564f89df702789
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 0%
@@ -113,7 +119,7 @@ ht-degree: 0%
 
 ### 配置跟踪和非跟踪电子邮件变体 {#configure-tracking-and-non-tracking-email-variants}
 
-向每个路径添加一个[_[!UICONTROL 发送电子邮件&#x200B;]_&#x200B;操作节点](./add-email.md)，以便每个人接收与其跟踪首选项匹配的电子邮件变体。
+向每个路径添加一个[_[!UICONTROL 发送电子邮件&#x200B;]_操作节点](./add-email.md)，以便每个人接收与其跟踪首选项匹配的电子邮件变体。
 
 1. 在启用跟踪的路径上，添加&#x200B;**[!UICONTROL 发送电子邮件]**&#x200B;操作，然后照常选择或创建电子邮件，在电子邮件属性中清除&#x200B;**[!UICONTROL 禁用打开跟踪]**。
 

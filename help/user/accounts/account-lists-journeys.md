@@ -1,26 +1,33 @@
 ---
 title: 在历程中使用帐户列表
-description: 在Journey Orchestration中使用帐户列表，并在Journey Optimizer B2B edition中动态添加/删除帐户。
+description: 在Journey Orchestration中使用帐户列表，并在Journey Optimizer B2B Edition中动态添加/删除帐户。
 feature: Account Lists, Account Journeys
 role: User
 exl-id: 7cda080d-6263-4ccd-b144-432e4e78c298
+autotag-review: 2026-03-27T22:29:03.719Z
+TQID: 'https://experienceleague.adobe.com/FokJGxTj7abTN01WCcrVLDEuNLW0oI-i-8z0j-rFBO4'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e935834c-48b7-43d8-b754-a815196a1b05
+    internal-label: Account lists
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-autotag-review: 2026-03-27T22:29:03.719Z
-TQID: https://experienceleague.adobe.com/FokJGxTj7abTN01WCcrVLDEuNLW0oI-i-8z0j-rFBO4
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+    internal-label: Customer journeys
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 417
+source-wordcount: '417'
 ht-degree: 0%
-
 ---
-
 # 在历程中使用帐户列表
 
 您可以通过多种方式将实时（已发布）帐户列表合并到帐户历程中。
@@ -51,9 +58,9 @@ ht-degree: 0%
 >
 >如果执行节点时帐户已位于列表中，则将忽略该操作。
 
-1. 选择&#x200B;_&#x200B;**[!UICONTROL 帐户]**&#x200B;上的_&#x200B;操作选项。
+1. 选择&#x200B;]_**[!UICONTROL 帐户]**上的_[!UICONTROL &#x200B;操作选项。
 
-1. 若要对帐户&#x200B;_执行_&#x200B;操作，请选择&#x200B;**[!UICONTROL 添加到帐户列表]**。
+1. 若要对帐户&#x200B;]_执行_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 添加到帐户列表]**。
 
    ![选择“添加到帐户列表”](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
 
@@ -73,9 +80,9 @@ ht-degree: 0%
 >
 >如果某个帐户不在计划删除的列表中，则该操作将被忽略。
 
-1. 选择&#x200B;_&#x200B;**[!UICONTROL 帐户]**&#x200B;上的_&#x200B;操作选项。
+1. 选择&#x200B;]_**[!UICONTROL 帐户]**上的_[!UICONTROL &#x200B;操作选项。
 
-1. 若要对帐户&#x200B;_执行_&#x200B;操作，请选择&#x200B;**[!UICONTROL 从帐户列表中删除]**。
+1. 若要对帐户&#x200B;]_执行_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 从帐户列表中删除]**。
 
    ![选择“从帐户列表中移除”](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
 

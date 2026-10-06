@@ -1,29 +1,37 @@
 ---
 title: In-CRM Insights
-description: 直接在CRM中访问Journey Optimizer B2B edition购买群组。 销售团队成员可以使用In-CRM Insights查看参与数据并识别销售机会。
+description: 直接在CRM中访问Journey Optimizer B2B Edition购买群组。 销售团队成员可以使用In-CRM Insights查看参与数据并识别销售机会。
 feature: Sales Insights, Buying Groups
 role: User
 exl-id: c55a1fce-2ddc-481b-9f60-5e67a4bf9633
+autotag-review: 2026-03-30T21:40:22.011Z
+TQID: 'https://experienceleague.adobe.com/HfypAUMJxZyWaQlkknyxUn63x5uVqcfJU-pzXcDWYBs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+    internal-label: Sales Experience
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+subfeature_v2:
+  - id: d918a333-f043-4717-886b-aefeef1f8267
+    internal-label: Sales insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-30T21:40:22.011Z
-TQID: https://experienceleague.adobe.com/HfypAUMJxZyWaQlkknyxUn63x5uVqcfJU-pzXcDWYBs
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 483
+source-wordcount: '483'
 ht-degree: 1%
-
 ---
-
 # In-CRM Insights
 
 [!DNL In-CRM Insights]是一个集成到Salesforce和Microsoft Dynamics 365中的基于Web的应用程序，它允许您直接在CRM中访问[!DNL Journey Optimizer B2B Edition]购买团体。 它汇集了销售数据源，使得更容易发现提高参与度和销售潜力的机会。
@@ -44,8 +52,8 @@ ht-degree: 1%
 
 如果要将用户限制为仅[!DNL In-CRM Insights]：
 
-1. 创建一个[自定义角色](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role)并为其分配&#x200B;**销售分析：查看销售分析**&#x200B;权限。
-1. 创建新的[用户组](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group)。
+1. 创建一个[自定义角色](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role)并为其分配&#x200B;**销售分析：查看销售分析**&#x200B;权限。
+1. 创建新的[用户组](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group)。
 1. 将Experience Platform产品配置文件添加到组。
 
 ### 安装包
@@ -63,7 +71,7 @@ ht-degree: 1%
 1. 在对话框中批准第三方访问，然后单击&#x200B;**[!UICONTROL 继续]**。
 1. 安装完成后，单击&#x200B;**[!UICONTROL 完成]**。
 
-   它现在列在&#x200B;**已安装的包**&#x200B;页面上，并且&#x200B;**Journey Optimizer B2B edition**&#x200B;列在应用程序启动程序中。
+   它现在列在&#x200B;**已安装的包**&#x200B;页面上，并且&#x200B;**Journey Optimizer B2B Edition**&#x200B;列在应用程序启动程序中。
 
    在Salesforce中设置的![In-CRM Insights](assets/in-crm-install-sf-done.png){width=800 zoomable="yes"}
 
@@ -76,7 +84,7 @@ ht-degree: 1%
 1. 浏览并上传安装程序包，然后单击&#x200B;**[!UICONTROL 下一步]**。
 1. 验证包详细信息，然后单击&#x200B;**[!UICONTROL 下一步]**。
 1. 在&#x200B;_环境变量_&#x200B;下，验证该值是否设置为`prod`（不更改该值），然后单击&#x200B;**[!UICONTROL 导入]**。
-1. 安装完成后，左侧导航栏上会显示&#x200B;**[!UICONTROL Journey Optimizer B2B edition]** > **[!UICONTROL 购买群组]**。
+1. 安装完成后，左侧导航栏上会显示&#x200B;**[!UICONTROL Journey Optimizer B2B Edition]** > **[!UICONTROL 购买群组]**。
 
    Microsoft Dynamics中提供的![In-CRM Insights](assets/incrm-ms-install-done.png){width=800 zoomable="yes"}
 
@@ -84,4 +92,4 @@ ht-degree: 1%
 
 按照提示登录Adobe帐户。 您的购买组已加载并可供查看。
 
-选择购买组后，您可以浏览[组详细信息](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#)。 这与Journey Optimizer B2B edition中显示的数据和分析相同，但数据通过[!DNL In-CRM Insights]是只读的。
+选择购买组后，您可以浏览[组详细信息](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#)。 这与Journey Optimizer B2B Edition中显示的数据和分析相同，但数据通过[!DNL In-CRM Insights]是只读的。

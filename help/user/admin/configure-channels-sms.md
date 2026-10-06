@@ -1,40 +1,48 @@
 ---
 title: 短信渠道配置
-description: 将Sinch、Twilio和Infobip等SMS提供商连接到API凭据，以在Journey Optimizer B2B edition历程中启用文本消息。
+description: 使用API凭据连接Sinch、Twilio和Infobip等SMS提供商，以在Journey Optimizer B2B Edition历程中启用文本消息。
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
+autotag-review: 2026-03-27T22:56:54.661Z
+TQID: 'https://experienceleague.adobe.com/JTGUye7nh2sAbpPvqgRNYfkWZtRJCjsvSi3DuOioD-U'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a492a671-d5f6-46ee-b832-2efbca14ddd8
-autotag-review: 2026-03-27T22:56:54.661Z
-TQID: https://experienceleague.adobe.com/JTGUye7nh2sAbpPvqgRNYfkWZtRJCjsvSi3DuOioD-U
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Activation and channels
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 747
+source-wordcount: '747'
 ht-degree: 0%
-
 ---
-
 # SMS渠道配置
 
-Adobe Journey Optimizer B2B edition通过短信服务提供商（或短信网关提供商）发送文本消息。 在创建短信消息之前，请从&#x200B;_管理员_&#x200B;设置中配置服务提供商。
+Adobe Journey Optimizer B2B Edition通过短信服务提供商（或短信网关提供商）发送文本消息。 在创建短信消息之前，请从&#x200B;_管理员_&#x200B;设置中配置服务提供商。
 
 ## SMS网关服务提供商
 
-Adobe Journey Optimizer B2B edition目前与独立提供短信服务的第三方提供商集成。 受支持的短信提供商有Sinch、Twilio和Infobip。
+Adobe Journey Optimizer B2B Edition目前与独立提供短信服务的第三方提供商集成。 受支持的短信提供商有Sinch、Twilio和Infobip。
 
-在Adobe Journey Optimizer B2B edition中配置短信渠道之前，必须向这些提供商之一创建帐户，以获取API令牌和服务ID。 配置Adobe Journey Optimizer B2B edition与适用提供商之间的连接时需要这些凭据。
+在Adobe Journey Optimizer B2B Edition中配置短信渠道之前，必须向这些提供商之一创建帐户，以获取API令牌和服务ID。 配置Adobe Journey Optimizer B2B Edition与适用提供商之间的连接时需要这些凭据。
 
 >[!IMPORTANT]
 >
->您对短信服务的使用受适用提供商提供的其他条款与条件的约束。 作为第三方解决方案，Adobe Journey Optimizer B2B edition用户可通过集成使用Sinch、Twilio和Infobip。 Adobe不控制，也不负责第三方产品。 有关短信服务(SMS)的任何问题或协助请求，请与提供商联系。
+>您对短信服务的使用受适用提供商提供的其他条款与条件的约束。 作为第三方解决方案，Adobe Journey Optimizer B2B Edition用户可通过集成使用Sinch、Twilio和Infobip。 Adobe不控制，也不负责第三方产品。 有关短信服务(SMS)的任何问题或协助请求，请与提供商联系。
 
 ## 验证现有SMS API配置
 
@@ -60,7 +68,7 @@ Adobe Journey Optimizer B2B edition目前与独立提供短信服务的第三方
 
 >[!TAB Sinch]
 
-使用Adobe Journey Optimizer B2B edition将Sinch配置为短信提供商(_T):_
+使用Adobe Journey Optimizer B2B Edition :_将Sinch配置为短信提供商(_T)
 
 1. 在左侧导航栏中，展开&#x200B;**[!UICONTROL 管理员]**&#x200B;部分，然后单击&#x200B;**[!UICONTROL 配置]**。
 
@@ -82,7 +90,7 @@ Adobe Journey Optimizer B2B edition目前与独立提供短信服务的第三方
 
 >[!TAB Twilio]
 
-要将Twilio配置为使用Adobe Journey Optimizer B2B edition的短信提供商(_T):_
+要将Twilio配置为使用Adobe Journey Optimizer B2B Edition的短信提供商(_T):_
 
 1. 在左侧导航栏中，展开&#x200B;**[!UICONTROL 管理员]**&#x200B;部分，然后单击&#x200B;**[!UICONTROL 配置]**。
 
@@ -104,7 +112,7 @@ Adobe Journey Optimizer B2B edition目前与独立提供短信服务的第三方
 
 >[!TAB Infobip]
 
-使用Adobe Journey Optimizer B2B edition将Infobip配置为短信提供商(_T):_
+使用Adobe Journey Optimizer B2B Edition将Infobip配置为短信提供商(_T):_
 
 1. 在左侧导航栏中，展开&#x200B;**[!UICONTROL 管理员]**&#x200B;部分，然后单击&#x200B;**[!UICONTROL 配置]**。
 

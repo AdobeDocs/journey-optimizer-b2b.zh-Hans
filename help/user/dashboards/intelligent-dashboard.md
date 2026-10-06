@@ -1,30 +1,37 @@
 ---
 title: 智能仪表板
-description: 访问AI支持的见解，了解如何在Journey Optimizer B2B edition中使用参与量度、意图检测和预测分析来购买群组和帐户。
+description: 访问AI支持的见解，了解如何在Journey Optimizer B2B Edition中使用参与量度、意图检测和预测分析来购买群组和帐户。
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
+autotag-review: 2026-03-30T22:43:58.948Z
+TQID: 'https://experienceleague.adobe.com/hT2zUGnpFcnnZ9lnVprrA4SbBEq9jUQ0Zs5DziC4cf8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-autotag-review: 2026-03-30T22:43:58.948Z
-TQID: https://experienceleague.adobe.com/hT2zUGnpFcnnZ9lnVprrA4SbBEq9jUQ0Zs5DziC4cf8
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+    internal-label: Customer engagement
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1682
+source-wordcount: '1682'
 ht-degree: 16%
-
 ---
-
 # 智能仪表板
 
 智能仪表板提供[购买群组](../buying-groups/buying-groups-overview.md)和帐户量度的全面视图，帮助您更有效地监控和制定营销策略。
@@ -40,7 +47,7 @@ ht-degree: 16%
 
 {{intent-data-note}}
 
-要利用智能功能板提供的信息和见解，您的Journey Optimizer B2B edition实例必须配备以下所需项目：
+要利用智能功能板提供的信息和见解，您的Journey Optimizer B2B Edition实例必须具备以下所需项目：
 
 | 类型 | 要求 |
 | ---- | ----------- |
@@ -58,7 +65,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="购买群组阶段"
->abstract="此图概述了根据所配置的过渡规则，购买群组在不同阶段的进展情况。 第一条柱状图显示了所选时间范围内第一天与最后一天相比，特定阶段购买群体的数量变化。"
+>abstract="此图概述了根据所配置的过渡规则，购买群组在不同阶段的进展情况。 第一条柱状图表示在所选时间范围的第一天处于特定阶段的购买群组数量，与所选时间范围最后一天的数量进行比较。"
 
 _[!UICONTROL 购买组阶段]_&#x200B;图表提供了跨不同阶段的购买组进展的概览（[基于管理员设置的过渡规则](../buying-groups/buying-group-stages.md)）。
 
@@ -111,7 +118,7 @@ _[!UICONTROL 购买组阶段]_&#x200B;图表提供了跨不同阶段的购买组
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_stagnant"
 >title="按停滞程度排名前 5 位的购买群组"
->abstract="停滞不前的购买群组，尽管完整度得分很高，但在各阶段的进展却不顺利。"
+>abstract="停滞不前的购买群组，尽管完整度得分很高，但并未在各阶段取得进展。"
 
 _[!UICONTROL 购买群组亮点]_&#x200B;分区分为三行，以显示有关您组织感兴趣的购买群组的信息。
 
@@ -167,7 +174,7 @@ _[!UICONTROL 购买群组亮点]_&#x200B;分区分为三行，以显示有关您
 
 >[!NOTE]
 >
->帐户激增数据仅包括Journey Optimizer B2B edition通过帐户历程或购买团体摄取的帐户。
+>帐户激增数据仅包括Journey Optimizer B2B Edition通过帐户历程或购买团体摄取的帐户。
 
 ![帐户激增数据可视化图表](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -211,7 +218,7 @@ _[!UICONTROL 帐户高亮显示]_&#x200B;部分被组织为两行，以显示有
 
 >[!NOTE]
 >
->帐户突出显示数据仅包括Journey Optimizer B2B edition通过帐户历程或购买组摄取的帐户。
+>帐户突出显示数据仅包括Journey Optimizer B2B Edition通过帐户历程或购买组摄取的帐户。
 
 ![帐户亮点](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
@@ -261,7 +268,7 @@ _[!UICONTROL 联系人覆盖范围]_&#x200B;部分显示与解决方案兴趣相
 
 >[!NOTE]
 >
->联系范围数据基于在Journey Optimizer B2B edition实例中创建的购买群组。
+>联系范围数据基于在Journey Optimizer B2B Edition实例中创建的购买群组。
 
 ![帐户激增数据可视化图表](./assets/intelligent-dashboard-contact-coverage.png){width="800" zoomable="yes"}
 
@@ -293,7 +300,7 @@ _[!UICONTROL 联系人重叠]_&#x200B;部分显示联系人列表，这些联系
 
 >[!NOTE]
 >
->联系人重叠数据基于在Journey Optimizer B2B edition实例中创建的购买组。
+>联系人重叠数据基于在Journey Optimizer B2B Edition实例中创建的购买组。
 
 ![联系人重叠表](./assets/intelligent-dashboard-contact-overlap.png){width="800" zoomable="yes"}
 

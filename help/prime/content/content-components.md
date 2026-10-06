@@ -8,21 +8,27 @@ autotag-review: '2026-06-19T21:52:30.119Z'
 TQID: 'https://experienceleague.adobe.com/HlZVkbD1SkW94xTSLv-rMoKYWG6E79wBGfIH3oGQTNI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2840
+source-wordcount: '2840'
 ht-degree: 7%
-
 ---
-
 # 内容组件 {#content-components}
 
 >[!CONTEXTUALHELP]
@@ -224,7 +230,7 @@ ht-degree: 7%
 
 1. 在&#x200B;**[!UICONTROL 组件]**&#x200B;库中，获取所选内容组件的&#x200B;_拖动手柄_ ![拖动手柄](../../assets/do-not-localize/icon-drag-handle.svg)，然后将其拖放到结构组件上。
 
-   您可以将多个组件添加到单个结构组件中，也可以将它们添加到结构组件的每个列中。
+   您可以将多个组件添加到单个结构组件中，也可以将它们添加到结构组件的每一列中。
 
    ![将内容组件拖动到结构组件中](../../user/content/assets/content-components-drag.png){width="600" zoomable="yes"}
 
@@ -457,11 +463,11 @@ ht-degree: 7%
 
 * **[!UICONTROL 宽度]** — 使用切换开关以像素或百分比设置宽度。
 
-   * 对于百分比宽度，使用滑块设置百分比值。 百分比根据包含块的内容框确定元素大小，其中不包括填充和边框。 例如，如果值为50，则将元素宽度设置为其包含的块内容宽度的50%。
+  * 对于百分比宽度，使用滑块设置百分比值。 百分比根据包含块的内容框确定元素大小，其中不包括填充和边框。 例如，如果值为50，则将元素宽度设置为其包含的块内容宽度的50%。
 
   ![为分隔线组件定义行样式](../../user/content/assets/component-divider-line-options.png){width="250"}
 
-   * 对于基于像素的宽度，单击向上和向下箭头图标可增加或减少像素数。 缺省值为空值(Auto)，并根据元素的内容调整元素宽度。
+  * 对于基于像素的宽度，单击向上和向下箭头图标可增加或减少像素数。 缺省值为空值(Auto)，并根据元素的内容调整元素宽度。
 
 * **[!UICONTROL 样式]** — 从标准CSS `line-style`值列表中选择一个值，如&#x200B;_实线_、_点线_&#x200B;和&#x200B;_虚线_。
 
@@ -573,9 +579,9 @@ ht-degree: 7%
 
   有多种工具可帮助您找到所需的资源：
 
-   * 单击左上角的&#x200B;_筛选器_&#x200B;图标以根据您的条件筛选显示的项目。
+  * 单击左上角的&#x200B;_筛选器_&#x200B;图标以根据您的条件筛选显示的项目。
 
-   * 在&#x200B;_搜索_&#x200B;字段中输入文本，以筛选显示的项目以匹配资源名称。
+  * 在&#x200B;_搜索_&#x200B;字段中输入文本，以筛选显示的项目以匹配资源名称。
 
 * **[!UICONTROL 导入媒体]** — 选择此类型可从系统中选择文件并将其导入[!DNL Journey Optimizer B2B Prime]资源库。
 

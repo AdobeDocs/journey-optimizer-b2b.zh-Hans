@@ -10,24 +10,33 @@ autotag-review: '2026-05-27T16:14:57.623Z'
 TQID: 'https://experienceleague.adobe.com/LCYTDtFTLBqRjafMWrRZI6TWfJFxRDhxWGdgBBTHYDk'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d2122fb4-ba3b-5da7-99a6-26f1679daf34
+    internal-label: Brand Identity
 subfeature_v2:
   - id: a509712a-4df0-4095-9c79-78116d8e3311
+    internal-label: Brand Themes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Artificial intelligence
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 497
+source-wordcount: '497'
 ht-degree: 0%
-
 ---
-
 # 用于品牌协调的创作AI模型
 
 通过内置模型、自定义Firefly模型和第三方图像生成提供商扩展您的AI图像创建功能，以满足您的特定需求并改善品牌一致性：
@@ -36,11 +45,11 @@ ht-degree: 0%
 - 由Gemini 2.5 Flash支持的&#x200B;**[!UICONTROL 合作伙伴模型]**&#x200B;提供了针对特定用例的专门功能。
 - **[!UICONTROL 自定义模型]**&#x200B;是在您自己的资产上训练并由您的组织添加的特定于品牌的模型。
 
-请参阅[Adobe Firefly文档](https://helpx.adobe.com/cn/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}以了解自定义模型。
+请参阅[Adobe Firefly文档](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}以了解自定义模型。
 
 在为电子邮件或登陆页面内容生成图像时，营销人员可以选择任何启用的创成模型。
 
-## 管理创成模型
+## 管理生成模型
 
 您可以从一个中心位置查看所有可用模型，进行筛选和搜索以查找特定模型，以及配置品牌的模型设置。
 
@@ -86,7 +95,7 @@ ht-degree: 0%
 
 1. 输入&#x200B;**[!UICONTROL 模型ID]**。
 
-   要查找模型ID，请访问Firefly网站并导航到经过训练的模型。 发布模型后，可在模型的“管理”部分中找到唯一标识符。 有关详细信息，请参阅[Firefly自定义模型文档](https://helpx.adobe.com/cn/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}。
+   要查找模型ID，请访问Firefly网站并导航到经过训练的模型。 发布模型后，可在模型的“管理”部分中找到唯一标识符。 有关详细信息，请参阅[Firefly自定义模型文档](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}。
 
 1. 或者，输入&#x200B;**[!UICONTROL 描述]**&#x200B;以帮助识别模型及其预期用途。
 

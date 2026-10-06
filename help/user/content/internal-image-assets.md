@@ -1,33 +1,39 @@
 ---
 title: 使用内部图像Assets
-description: 浏览、管理和使用Journey Optimizer B2B edition资源 — 组织文件夹、编辑图像和创建帐户历程内容。
+description: 浏览、管理和使用Journey Optimizer B2B Edition资源 — 组织文件夹、编辑图像和创建帐户历程内容。
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
+autotag-review: 2026-03-30T22:14:12.746Z
+TQID: 'https://experienceleague.adobe.com/YsLXorT6DkcbCPecnroWm1Gq-Vs7czRW34IlByASfiQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-autotag-review: 2026-03-30T22:14:12.746Z
-TQID: https://experienceleague.adobe.com/YsLXorT6DkcbCPecnroWm1Gq-Vs7czRW34IlByASfiQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Digital asset management
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1765
+source-wordcount: '1765'
 ht-degree: 1%
-
 ---
-
 # 使用内部图像资产
 
 内部图像资产存储库是默认的图像资产源，您可以轻松管理和使用可用资产来设计支持帐户历程的内容。
 
-您可以在Journey Optimizer B2B edition中使用各种资产管理功能。 这些功能包括：
+您可以在Journey Optimizer B2B Edition中使用各种资产管理功能。 这些功能包括：
 
 * [替换](#replace-assets)
 * [删除](#delete-assets)
@@ -36,7 +42,7 @@ ht-degree: 1%
 
 ## 浏览和访问资源
 
-要在Journey Optimizer B2B edition中访问内部资源，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL Assets]**。 此操作会打开一个列表页面，其中列出了所有资产。
+要在Journey Optimizer B2B Edition中访问内部资源，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL Assets]**。 此操作会打开一个列表页面，其中列出了所有资产。
 
 ![浏览图像资源](assets/assets-list-page.png){width="800" zoomable="yes"}
 
@@ -58,13 +64,13 @@ ht-degree: 1%
 
 ## 查看由引用使用的资源
 
-在资源详细信息页面中，单击&#x200B;**[!UICONTROL 使用者]**&#x200B;选项卡以查看有关当前在Journey Optimizer B2B edition中使用资源的位置、电子邮件、电子邮件模板和片段的详细信息。
+在资源详细信息页面中，单击&#x200B;**[!UICONTROL 使用者]**&#x200B;选项卡以查看有关当前在Journey Optimizer B2B Edition中使用资源的位置、电子邮件、电子邮件模板和片段的详细信息。
 
 >[!IMPORTANT]
 >
 >无法删除任何电子邮件、电子邮件模板或片段&#x200B;**中当前&#x200B;_正在使用_的任何资产**。
 
-面板按类别显示引用： _电子邮件_、_电子邮件模板_&#x200B;或&#x200B;_片段_。 Journey Optimizer B2B edition中的电子邮件是在历程中嵌入和创作的，因此，使用资源的电子邮件的父历程会显示在引用中。
+面板按类别显示引用： _电子邮件_、_电子邮件模板_&#x200B;或&#x200B;_片段_。 Journey Optimizer B2B Edition中的电子邮件是在历程中嵌入和创作的，因此，使用资源的电子邮件的父历程会显示在引用中。
 
 单击链接会将您定向到使用资产的相应电子邮件、电子邮件模板或片段。
 
@@ -72,7 +78,7 @@ ht-degree: 1%
 
 ## 添加资源
 
-从&#x200B;_Assets_&#x200B;列表页面，您可以将图像资源添加到Journey Optimizer B2B edition资源存储库。
+从&#x200B;_Assets_&#x200B;列表页面，您可以将图像资源添加到Journey Optimizer B2B Edition资源存储库。
 
 1. 单击右上方的&#x200B;**[!UICONTROL 添加Assets]**。
 
@@ -112,7 +118,7 @@ ht-degree: 1%
 
 ## 替换资产
 
-使用以下任一方法替换&#x200B;_[!UICONTROL Journey Optimizer B2B edition]_&#x200B;资源存储库中的资源：
+使用以下任一方法替换&#x200B;_[!UICONTROL Journey Optimizer B2B Edition]_&#x200B;资源存储库中的资源：
 
 * 转到资源详细信息，单击&#x200B;**[!UICONTROL ...右上角的More]**，然后从选项中选择&#x200B;**[!UICONTROL 替换]**。
 
@@ -142,7 +148,7 @@ ht-degree: 1%
 
 ![选定的资源](./assets/assets-list-selected.png){width="700" zoomable="yes"}
 
-您可以对位于&#x200B;_[!UICONTROL Journey Optimizer B2B edition]_&#x200B;资源存储库中的选定资源执行以下操作：
+您可以对位于&#x200B;_[!UICONTROL Journey Optimizer B2B Edition]_&#x200B;资源存储库中的选定资源执行以下操作：
 
 +++移动资产
 
@@ -280,8 +286,8 @@ ht-degree: 1%
 
   有多种工具可帮助您找到所需的资源：
 
-   * 单击左上角的&#x200B;_筛选器_&#x200B;图标以根据您的条件筛选显示的项目。
+  * 单击左上角的&#x200B;_筛选器_&#x200B;图标以根据您的条件筛选显示的项目。
 
-   * 在&#x200B;_搜索_&#x200B;字段中输入文本，以筛选显示的项目以匹配资源名称。
+  * 在&#x200B;_搜索_&#x200B;字段中输入文本，以筛选显示的项目以匹配资源名称。
 
   ![使用筛选器和搜索字段查找您需要的资源](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}

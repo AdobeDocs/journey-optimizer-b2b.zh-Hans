@@ -1,33 +1,39 @@
 ---
 title: 历程管理
-description: 通过历程简化需求生成 — 在Journey Optimizer B2B edition中跨电子邮件、短信和事件创建、发布和管理购买团体参与。
+description: 通过历程简化需求生成 — 在Journey Optimizer B2B Edition中跨电子邮件、短信和事件创建、发布和管理购买团体参与。
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
+autotag-review: 2026-03-30T23:09:32.398Z
+TQID: 'https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-autotag-review: 2026-03-30T23:09:32.398Z
-TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+    internal-label: Customer journeys
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1308
+source-wordcount: '1308'
 ht-degree: 45%
-
 ---
-
 # 历程管理
 
-在Journey Optimizer B2B edition中，历程是基于商机的自动多步客户营销计划，可跨渠道编排个性化体验，以响应参与、业务事件或计划的营销活动。 定义包括电子邮件、短信等在内的销售驱动型参与，以将入站营销与每个购买组成员的出站销售活动协调起来。
+在Journey Optimizer B2B Edition中，历程是基于商机的自动多步客户营销计划，可跨渠道编排个性化体验，以响应参与、业务事件或计划的营销活动。 定义包括电子邮件、短信等在内的销售驱动型参与，以将入站营销与每个购买组成员的出站销售活动协调起来。
 
-Journey Optimizer B2B edition支持两种历程类型：
+Journey Optimizer B2B Edition支持两种历程类型：
 
 * **客户历程** — 简化需求生成和购买团体资格认证，并为您的收购、追加销售/交叉销售和保留计划带来更多符合条件的需求。 通过电子邮件、短信、活动等自动参与方式，为每个购买群组和购买群组成员定制历程。
 
@@ -94,11 +100,11 @@ Journey Optimizer B2B edition支持两种历程类型：
 
 | 状态 | 描述 | 可用操作 |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**草稿**&#x200B;_ | 可编辑的未发布历程。 | <li>[发布](./create-publish-journey.md#publish-a-journey)<li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
-| _&#x200B;**实时**&#x200B;_ | 历程发布后，历程状态从&#x200B;_草稿_&#x200B;更改为&#x200B;_实时_。 在这种状态下，历程无法再编辑。 | <li>[重复](#duplicate-journey)<li>[对新条目关闭](#close-to-new-entries) <li>[中止](#abort-journey) |
-| _&#x200B;**对新条目关闭**&#x200B;_ | 单击顶部导航中的[!UICONTROL 对新条目关闭]，历程状态从&#x200B;_实时_&#x200B;变为&#x200B;_对新条目关闭_。 | <li>[重复](#duplicate-journey) <li>[中止](#abort-journey) |
-| _&#x200B;**已中止**&#x200B;_ | 历程中止后，历程状态从&#x200B;_实时_&#x200B;或&#x200B;_对新条目关闭_&#x200B;改变。 已中止历程无法重新开始。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
-| _&#x200B;**已完成**&#x200B;_ | 当历程中的所有帐户或人员受众成员完成历程时，状态将从&#x200B;_实时_&#x200B;或&#x200B;_已关闭到新条目_&#x200B;更改为&#x200B;_已完成_。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
+| _**草稿**_ | 可编辑的未发布历程。 | <li>[发布](./create-publish-journey.md#publish-a-journey)<li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
+| _**实时**_ | 历程发布后，历程状态从&#x200B;_草稿_&#x200B;更改为&#x200B;_实时_。 在这种状态下，历程无法再编辑。 | <li>[重复](#duplicate-journey)<li>[对新条目关闭](#close-to-new-entries) <li>[中止](#abort-journey) |
+| _**对新条目关闭**_ | 单击顶部导航中的[!UICONTROL 对新条目关闭]，历程状态从&#x200B;_实时_&#x200B;变为&#x200B;_对新条目关闭_。 | <li>[重复](#duplicate-journey) <li>[中止](#abort-journey) |
+| _**已中止**_ | 历程中止后，历程状态从&#x200B;_实时_&#x200B;或&#x200B;_对新条目关闭_&#x200B;改变。 已中止历程无法重新开始。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
+| _**已完成**_ | 当历程中的所有帐户或人员受众成员完成历程时，状态将从&#x200B;_实时_&#x200B;或&#x200B;_已关闭到新条目_&#x200B;更改为&#x200B;_已完成_。 | <li>[重复](#duplicate-journey) <li>[删除](#delete-journey) |
 
 ## 历程映射
 
@@ -116,7 +122,7 @@ Journey Optimizer B2B edition支持两种历程类型：
 
 ## 历程操作
 
-历程列表页面包含您的Journey Optimizer B2B edition实例中的所有帐户或人员历程。 从列表页面，您可以将多个操作应用到历程。
+历程列表页面包含Journey Optimizer B2B Edition实例中的所有帐户或人员历程。 从列表页面，您可以将多个操作应用到历程。
 
 ### 中止历程
 
@@ -206,4 +212,4 @@ Journey Optimizer B2B edition支持两种历程类型：
 
 ## 帐户历程概述视频 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443217/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

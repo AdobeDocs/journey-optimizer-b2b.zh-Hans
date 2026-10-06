@@ -4,26 +4,36 @@ description: 配置电子邮件投放设置、通信限制和身份验证协议�
 feature: Setup, Channels
 role: Admin
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
+autotag-review: 2026-03-27T22:54:31.660Z
+TQID: 'https://experienceleague.adobe.com/iJy1TfeslMT4FM3RqcMdIVov0MKQnckKjP09MvdHcvc'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: a492a671-d5f6-46ee-b832-2efbca14ddd8
-autotag-review: 2026-03-27T22:54:31.660Z
-TQID: https://experienceleague.adobe.com/iJy1TfeslMT4FM3RqcMdIVov0MKQnckKjP09MvdHcvc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Activation and channels
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1787
+source-wordcount: '1787'
 ht-degree: 97%
-
 ---
-
 # 电子邮件渠道配置
 
 Adobe Journey Optimizer B2B edition可利用Marketo Engage中的渠道功能和事件跟踪。 管理员应确保已设置投放和跟踪配置，以便为营销人员启用渠道投放。 有关通过Marketo Engage进行电子邮件投放和跟踪所需协议的信息，请参阅[跟踪和电子邮件投放协议](../start/email-protocols.md)。
@@ -64,11 +74,11 @@ Journey Optimizer B2B edition中的设置是只读的。 单击右上角的&#x20
 
 ![访问品牌策略域设置](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-此设置为连接的Marketo Engage实例中的一个或多个工作区定义主域。 新电子邮件使用此域作为默认域，但营销人员可以[基于每封电子邮件](../content/add-email.md#define-the-email-settings)覆盖此域。 有关定义默认品牌策略域的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}。
+此设置为连接的Marketo Engage实例中的一个或多个工作区定义主域。 新电子邮件使用此域作为默认域，但营销人员可以[基于每封电子邮件](../content/add-email.md#define-the-email-settings)覆盖此域。 有关定义默认品牌策略域的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}。
 
 >[!NOTE]
 >
->如果您要营销多个品牌，并且希望每个品牌都有自己的品牌跟踪链接，则可以添加额外的品牌推广域。 有关添加多个品牌化域的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}。
+>如果您要营销多个品牌，并且希望每个品牌都有自己的品牌跟踪链接，则可以添加额外的品牌推广域。 有关添加多个品牌化域的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}。
 
 ### [!UICONTROL 自定义标头选项] {#custom-header-options}
 
@@ -80,7 +90,7 @@ Journey Optimizer B2B edition中的设置是只读的。 单击右上角的&#x20
 
 ## 通信限制
 
-通信限制控制联系人从您的组织收到的电子邮件数量。 您设置的限制在Journey Optimizer B2B edition和连接的Marketo Engage实例之间共享。 设置这些限制可确保某个潜在客户在给定时间段内收到的电子邮件数量不会超过最大数量。
+通信限制控制联系人从您的组织收到的电子邮件数量。 您设置的限制在 Journey Optimizer B2B Edition 和连接的 Marketo Engage 实例之间共享。 设置这些限制可确保某个潜在客户在给定时间段内收到的电子邮件数量不会超过最大数量。
 
 >[!AVAILABILITY]
 >
@@ -95,9 +105,9 @@ Journey Optimizer B2B edition中的设置是只读的。 单击右上角的&#x20
 
 >[!ENDSHADEBOX]
 
-例如，系统规定每天只能收到五封电子邮件，通过禁止第六封电子邮件，可确保某位联系人在一天内不会收到第六封电子邮件。 利用Journey Optimizer B2B edition和Marketo Engage之间的共享通信限制，可以在一个位置定义通信限制规则。 无论来自Journey Optimizer B2B edition或Marketo Engage的发送操作如何，都会禁止发送第六封电子邮件。
+例如，如果定义的限制为每天五封电子邮件，系统会通过禁止第六封电子邮件，确保某位联系人在一天内不会收到第六封电子邮件。 利用 Journey Optimizer B2B Edition 和 Marketo Engage 之间的共享通信限制，可以在一个位置定义通信限制规则。 无论来自Journey Optimizer B2B edition或Marketo Engage的发送操作如何，都会禁止发送第六封电子邮件。
 
-所有Marketo Engage生产实例默认定义了通信限制（有关详细信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}）。 您可以对Journey Optimizer B2B edition和生产Marketo Engage实例分别使用不同的通信限制。 要使用共享通信限制，请在Journey Optimizer B2B edition中定义规则，并将这些限制的共享扩展到Marketo Munchkin代码。
+所有Marketo Engage生产实例默认定义了通信限制（有关详细信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}）。 您可以对Journey Optimizer B2B edition和生产Marketo Engage实例分别使用不同的通信限制。 要使用共享通信限制，请在Journey Optimizer B2B edition中定义规则，并将这些限制的共享扩展到Marketo Munchkin代码。
 
 >[!IMPORTANT]
 >
@@ -123,7 +133,7 @@ Journey Optimizer B2B edition中的设置是只读的。 单击右上角的&#x20
 
 1. 根据您想要为限制定义时间周期的方式，选择&#x200B;**[!UICONTROL 重置上限频率]**&#x200B;值。
 
-   您可以选择每小时&#x200B;_[!UICONTROL 、_[!UICONTROL &#x200B;每日&#x200B;]_、_[!UICONTROL &#x200B;每周&#x200B;]_&#x200B;或_[!UICONTROL &#x200B;每月&#x200B;]_。]_
+   您可以选择每小时&#x200B;_[!UICONTROL 、_[!UICONTROL &#x200B;每日&#x200B;]_、_[!UICONTROL &#x200B;每周&#x200B;]_或_[!UICONTROL &#x200B;每月&#x200B;]_。]_
 
    ![访问通信限制配置](./assets/config-email-communication-limits-create-rule-settings.png){width="600" zoomable="yes"}
 
@@ -153,7 +163,7 @@ Journey Optimizer B2B edition中的设置是只读的。 单击右上角的&#x20
 
 ## SPF/DKIM
 
-通过将SPF (Sender Policy Framework)和DKIM (Domain Keys Identified Mail)整合到DNS设置中，提高电子邮件投放率。 这些技术可确保收件人不会收到垃圾邮件。 为帮助防止收件人的垃圾邮件过滤器拒绝电子邮件，请确保为您的域设置了SPF和DKIM。
+通过将SPF (Sender Policy Framework)和DKIM (Domain Keys Identified Mail)整合到DNS设置中，提高电子邮件投放率。 这些技术可让收件人确信您的电子邮件不是垃圾邮件。 为帮助防止收件人的垃圾邮件过滤器拒绝电子邮件，请确保为您的域设置了SPF和DKIM。
 
 若要查看当前设置，请转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**。 在导航面板中的&#x200B;_[!UICONTROL 电子邮件]_&#x200B;下，选择&#x200B;**[!UICONTROL SPF/DKIM]**。
 
@@ -181,7 +191,7 @@ Journey Optimizer B2B edition中的设置是只读的。 单击右上角的&#x20
 
 DKIM是一种身份验证协议，电子邮件接收者使用它来验证电子邮件的发件人。 它通常会提高向收件箱发送电子邮件的可投放性，因为接收者可以确信该消息不是伪造。
 
-当您的DNS记录中具有公钥，并且在连接的Marketo Engage实例中激活了发送域时，自定义DKIM签名将用于发送消息。 自定义DKIM签名包含加密的数字签名，其中包含在发送的每封电子邮件中。 然后，接收方可通过在发送域的DNS中查找&#x200B;_公钥_&#x200B;来解密数字签名。 如果电子邮件中的密钥与DNS记录中的密钥相对应，则接收邮件服务器更有可能接受通过Marketo Engage发送的电子邮件。
+当您的DNS记录中具有公钥，并且在连接的Marketo Engage实例中激活了发送域时，自定义DKIM签名将用于发送消息。 自定义 DKIM 签名会在发送的每封电子邮件中包含一个加密的数字签名。 然后，接收方可通过在发送域的DNS中查找&#x200B;_公钥_&#x200B;来解密数字签名。 如果电子邮件中的密钥与DNS记录中的密钥相对应，则接收邮件服务器更有可能接受通过Marketo Engage发送的电子邮件。
 
 有关为电子邮件投放配置自定义DKIM签名的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}。
 
@@ -195,10 +205,10 @@ Marketo Engage使用两种方法确认机器人活动：
 
 * **与邻近模式匹配** — 当同时发生两个或多个活动时（在一秒内），它们将被识别为机器人。 此方法会考虑以下属性进行比较：
 
-   * 商机ID（应相同）
-   * 电子邮件资源（应相同）
-   * 链接点击或电子邮件打开
-   * 时间差（应小于1秒）
+  * 销售线索 ID（应相同）
+  * 电子邮件资产（应相同）
+  * 链接点击或电子邮件打开
+  * 时间差（应小于1秒）
 
 对于电子邮件链接点击和电子邮件打开活动，新属性将填充以下值：
 
@@ -210,10 +220,10 @@ Marketo Engage使用两种方法确认机器人活动：
 
 ![访问电子邮件投放的机器人活动配置](./assets/config-email-bot-activity.png){width="700" zoomable="yes"}
 
-Journey Optimizer B2B edition中的设置是只读的。 单击右上角的&#x200B;**[!UICONTROL 编辑设置]**&#x200B;可访问连接的Marketo Engage实例中的配置选项。
+Journey Optimizer B2B Edition 中的设置是只读的。 单击右上角的&#x200B;**[!UICONTROL 编辑设置]**&#x200B;可访问连接的Marketo Engage实例中的配置选项。
 
 >[!NOTE]
 >
 >要在Adobe Marketo Engage中访问和编辑这些设置，您必须具有产品管理员权限。
 
-有关配置机器人活动选项的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}。
+有关配置机器人活动选项的更多信息，请参阅[Marketo Engage文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}。

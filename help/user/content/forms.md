@@ -1,6 +1,6 @@
 ---
 title: 表单
-description: 在Journey Optimizer B2B edition中创建和管理可重用的业务数据收集表单 — 设计字段、设置感谢页面、发布和跟踪使用情况。
+description: 在Journey Optimizer B2B Edition中创建和管理可重用的表单，用于业务数据收集 — 设计字段、设置感谢页面、发布和跟踪使用情况。
 feature: Forms, Content
 role: User
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
@@ -8,23 +8,29 @@ autotag-review: '2026-05-27T16:11:44.937Z'
 TQID: 'https://experienceleague.adobe.com/enF7MQi47bo8bWotzkhkPL6MQfGnis0rb6wJNyJcxVo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: afa842a8-6e39-516c-be79-63c0be8e2dc6
+    internal-label: Forms
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+    internal-label: Web forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a046883f6f4170f40c01734e1a3f473e9f5bef4c
+    internal-label: Data collection
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2504
+source-wordcount: '2504'
 ht-degree: 2%
-
 ---
-
 # 表单
 
 要从网页访客中捕获信息，请创建表单并将其添加到您的登陆页面。 表单是一组字段，页面访客填写并提交它们以获取某种内容或选件，例如白皮书、按需网络研讨会或免费试用。
@@ -35,7 +41,7 @@ ht-degree: 2%
 >
 >在营销团队创建并使用表单捕获信息之前，管理员必须定义一个或多个表单预设。 有关详细信息，请参阅&#x200B;[_Forms配置_](../admin/configure-channels-forms.md)。
 >
->在Journey Optimizer B2B edition中创建表单需要以下[权限](../admin/user-management.md#b2b-product-permissions)：
+>在Journey Optimizer B2B Edition中创建表单需要以下[权限](../admin/user-management.md#b2b-product-permissions)：
 >
 >* _[!UICONTROL Journey Optimizer库]_ > _[!UICONTROL 读取B2C Forms]_ — 访问和查看表单时需要。
 >* _[!UICONTROL Journey Optimizer库]_ > _[!UICONTROL 管理B2C Forms]_ — 创建、更新和删除表单时需要。
@@ -43,7 +49,7 @@ ht-degree: 2%
 
 ## 访问和管理表单 {#view-forms}
 
-要在Journey Optimizer B2B edition中访问表单，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL Forms]**。 此操作将打开一个列表页面，该页面显示实例中创建的所有表单。
+要在Journey Optimizer B2B Edition中访问表单，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL Forms]**。 此操作将打开一个列表页面，该页面显示实例中创建的所有表单。
 
 ![访问表单库](./assets/forms-list.png){width="800" zoomable="yes"}
 
@@ -77,7 +83,7 @@ ht-degree: 2%
 
 ## 创建表单 {#create-forms}
 
-在Journey Optimizer B2B edition中开始构建可重用表单之前，需要考虑以下几个因素：
+在Journey Optimizer B2B Edition中开始构建可重用表单之前，需要考虑以下几个因素：
 
 * 确定您需要什么表单。
 
@@ -105,7 +111,7 @@ ht-degree: 2%
 >abstract="选择一个预定义预设，其中包含要使用的连接以及为表单预定义的数据集。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="创建表单预设"
 
-您可以在Journey Optimizer B2B edition中创建表单，方法是单击&#x200B;_[!UICONTROL Forms]_&#x200B;列表页右上角的&#x200B;**[!UICONTROL 创建表单]**。
+您可以在Journey Optimizer B2B Edition中创建表单，方法是单击&#x200B;_[!UICONTROL Forms]_&#x200B;列表页右上角的&#x200B;**[!UICONTROL 创建表单]**。
 
 1. 在&#x200B;_[!UICONTROL 创建表单]_&#x200B;对话框中，输入有用的&#x200B;**[!UICONTROL 名称]**（必需）和&#x200B;**[!UICONTROL 描述]**（可选）。
 
@@ -149,7 +155,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 停留在页面]** — 选择此选项可在提交表单时将访客停留在同一页面。
 
-* **[!UICONTROL 登陆页面]** — 选择此选项可选择任意Journey Optimizer B2B edition登陆页面作为跟进。
+* **[!UICONTROL 登陆页面]** — 选择此选项可选择任何Journey Optimizer B2B Edition登陆页面作为跟进。
 
 * **[!UICONTROL 外部URL]** — 选择此选项可将任何URL指定为后续页面。 访客提交表单后，浏览器会加载指定的URL。
 
@@ -181,7 +187,7 @@ ht-degree: 2%
 
 ## 查看引用使用的表单
 
-在右侧的&#x200B;_[!UICONTROL 摘要]_&#x200B;面板中，单击&#x200B;**[!UICONTROL 使用者]**&#x200B;选项卡以查看有关当前在Journey Optimizer B2B edition中使用表单的位置、登陆页和登陆页模板的详细信息。
+在右侧的&#x200B;_[!UICONTROL 摘要]_&#x200B;面板中，单击&#x200B;**[!UICONTROL 使用者]**&#x200B;选项卡以查看有关当前在Journey Optimizer B2B Edition中使用表单的位置、登陆页和登陆页模板的详细信息。
 
 >[!IMPORTANT]
 >

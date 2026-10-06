@@ -4,25 +4,31 @@ description: 配置品牌推广域，使您的每个品牌都有自己的品牌�
 feature: Setup, Channels
 role: Admin
 exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 913
+source-wordcount: '913'
 ht-degree: 75%
-
 ---
-
 # 配置品牌策略域
 
 Marketo Engage中的品牌策略域是一个自定义子域（如`links.yourcompany.com`），用于重写链接和跟踪电子邮件点击并确保它们反映您的品牌而非通用域。 每个品牌推广域都充当点击跟踪域，通过将电子邮件和登陆页面链接与域进行配对来增强可投放性和信任度。
@@ -41,7 +47,7 @@ Marketo Engage中的品牌策略域是一个自定义子域（如`links.yourcomp
 
 >[!PREREQUISITES]
 >
->在UI中编辑或添加域之前，必须将[CNAME映射到Adobe提供的Marketo Engage域](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}。
+>在UI中编辑或添加域之前，必须将[CNAME映射到Adobe提供的Marketo Engage域](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}。
 >
 >添加域时，系统会检查先前手动创建的预先存在的SSL。 如果遇到此验证，请在不选择SSL创建的情况下创建域，然后将其作为单独的过程连接。
 
@@ -84,7 +90,7 @@ Marketo Engage中的品牌策略域是一个自定义子域（如`links.yourcomp
 
 ## 定义其他域
 
-要在您的Journey Optimizer B2B edition环境中支持多个品牌（每个品牌都有自己的品牌跟踪链接），您可以在编辑默认域后添加另一个品牌域。 添加域时，有以下选项：
+要在您的Journey Optimizer B2B Edition环境中支持多个品牌（每个品牌都有自己的品牌跟踪链接），您可以在编辑默认域后添加另一个品牌域。 添加域时，有以下选项：
 
 >* _使主域_：使它成为工作区的主域。 选择此选项时，所有现有未发送电子邮件都会设置为默认主域，所有新创建的电子邮件都会自动默认到此主域。 营销人员可以根据需要选择替代品牌推广域。
 >
@@ -106,7 +112,7 @@ Marketo Engage中的品牌策略域是一个自定义子域（如`links.yourcomp
 
    >[!NOTE]
    >
-   >**_自定义SSL_**：如果您需要自定义SSL，则可以提交[支持票证](https://experienceleague.adobe.com/zh-hans/support){target="_blank"}。 请勿使用该复选框来创建 SSL。
+   >**_自定义SSL_**：如果您需要自定义SSL，则可以提交[支持票证](https://experienceleague.adobe.com/en/support){target="_blank"}。 请勿使用该复选框来创建 SSL。
 
 <!-- 
 1. If you have multiple workspaces defined for your Marketo Engage instance, click **[!UICONTROL Next]**.

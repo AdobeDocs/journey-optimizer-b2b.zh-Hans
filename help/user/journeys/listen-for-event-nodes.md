@@ -4,12 +4,17 @@ description: 为帐户和人员触发器配置事件节点 — 监听Journey Opt
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
+autotag-review: 2026-03-30T23:08:46.228Z
+TQID: 'https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
     internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -19,9 +24,7 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-autotag-review: 2026-03-30T23:08:46.228Z
-TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 8295db0f508acc0b28feabdf95f1ccb71f2afc12
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '1783'
 ht-degree: 5%
@@ -196,7 +199,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 对于人员历程，您可以使用B2B人员配置文件属性中的更改来触发&#x200B;_侦听事件_&#x200B;节点。
 
-1. 将&#x200B;**[!UICONTROL 人员配置文件更改]**&#x200B;从&#x200B;_[!UICONTROL 触发器]_&#x200B;列表拖放到事件匹配生成器空间中。
+1. 将**[!UICONTROL 人员配置文件更改]**从&#x200B;_[!UICONTROL 触发器]_&#x200B;列表拖放到事件匹配生成器空间中。
 
 1. 单击&#x200B;**[!UICONTROL 添加约束]**&#x200B;并选择要用于事件触发器的属性更改。
 
@@ -218,7 +221,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 >[!PREREQUISITES]
 >
->管理员可配置[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，以便营销人员能够创建近乎实时地对事件做出反应的帐户和人员历程。
+>管理员可配置[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，以便营销人员能够创建近乎实时地对事件做出反应的帐户和人员历程。
 >
 >要使体验事件可用于历程，产品管理员必须首先在[!DNL Journey Optimizer B2B Edition]中[添加感兴趣的事件类型和字段](../admin/configure-aep-events.md#add-an-event)。
 
@@ -250,7 +253,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 ## 事件过滤器 {#filters-people-event}
 
-当您在帐户历程[&#128279;](#people-events)中定义[人员事件，或在人员历程](#person-journeys)中定义事件时，您可以包含筛选以根据各种条件限制匹配的事件触发器：
+当您在帐户历程](#people-events)中定义[人员事件，或在人员历程](#person-journeys)中定义[事件时，您可以包含筛选以根据各种条件限制匹配的事件触发器：
 
 | 过滤器 | 描述 |
 | ------------ | ----------- |
@@ -317,5 +320,5 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443244/?captions=chi_hans&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
 -->

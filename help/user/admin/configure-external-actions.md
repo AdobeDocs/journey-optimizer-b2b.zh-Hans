@@ -1,26 +1,34 @@
 ---
 title: 外部操作配置
-description: 了解开发人员、管理员和营销人员如何协作来实施、配置和使用外部操作，从而在历程中将Journey Optimizer B2B edition与外部服务相关联。
+description: 了解开发人员、管理员和营销人员如何协作来实施、配置和使用将Journey Optimizer B2B Edition与历程中的外部服务连接的外部操作。
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: a5f11fc1707e274738d961d991fd0dab26c65a4e
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1278
+source-wordcount: '1278'
 ht-degree: 1%
-
 ---
-
 # 外部操作配置
 
 外部操作允许[!DNL Journey Optimizer B2B Edition]中的帐户和人员历程直接从历程画布与外部系统连接。 当受众到达外部操作节点时，系统会向配置的外部服务进行异步出站调用，传递受众属性数据。 外部服务处理数据并使用回调进行响应，返回可用于指导历程执行的受众数据和元数据。
@@ -37,16 +45,16 @@ ht-degree: 1%
 | | 角色 | 任务 |
 | ---- | ---- | ---- |
 | 1 | Developer | [实施并发布外部服务](#implement-service) |
-| 2 | 管理员 | [在Journey Optimizer B2B edition中配置操作](#configure-action) |
+| 2 | 管理员 | [在Journey Optimizer B2B Edition中配置操作](#configure-action) |
 | 3 | 营销人员 | [向历程添加外部节点](#add-journey-node) |
 
 ## 实施外部服务 {#implement-service}
 
-开发人员必须创建并发布符合[Adobe Journey Optimizer B2B edition外部操作服务提供程序接口](https://developer.adobe.com/journey-optimizer-b2b-apis/)的面向公众的Web服务。
+开发人员必须创建并发布符合[Adobe Journey Optimizer B2B Edition外部操作服务提供程序接口](https://developer.adobe.com/journey-optimizer-b2b-apis/)的面向公众的Web服务。
 
 >[!NOTE]
 >
->回调函数需要持有者令牌。 通过在Adobe Developer Console[&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)中为您的IMS组织设置OAuth服务器到服务器凭据来检索此项。
+>回调函数需要持有者令牌。 通过在Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)中为您的IMS组织设置[OAuth服务器到服务器凭据来检索此项。
 
 服务启动后，将指向OpenAPI规范的URL和身份验证凭据提供给负责配置该操作的产品管理员。
 
@@ -158,7 +166,7 @@ ht-degree: 1%
 | `The entity type value is invalid` | 实体类型的特定于Adobe的`x-`扩展具有无法识别的值 | 将实体类型更正为支持的值。 有关有效选项，请参阅[开发人员文档](https://developer.adobe.com/journey-optimizer-b2b-apis/)。 |
 | `The provided document is not a valid OpenAPI specification` | 规范无法进行结构解析。 | 根据OpenAPI 3.0架构验证您的规范并修复任何问题。 |
 | `Required OpenAPI field is missing` | 缺少标准OpenAPI必填字段（如`info`或`paths`）。 | 添加缺少的字段。 |
-| `Required endpoint is missing from the specification` | 您的规范中未定义Adobe Journey Optimizer B2B edition所需的端点。 | 添加所需的端点。 请参阅需要端点的[开发人员文档](https://developer.adobe.com/journey-optimizer-b2b-apis/)。 |
+| `Required endpoint is missing from the specification` | 您的规范中未定义Adobe Journey Optimizer B2B Edition所需的端点。 | 添加所需的端点。 请参阅需要端点的[开发人员文档](https://developer.adobe.com/journey-optimizer-b2b-apis/)。 |
 | `Required extension field is missing` | 您的规范中不存在必需的Adobe `x-`扩展字段。 | 按照文档中的说明，添加缺少的扩展字段。 |
 | `Security schemes are missing from the specification` | 您的规范没有在`components`下定义`securitySchemes`。 | 定义至少一个安全方案。 |
 | `Multiple authentication types are not supported` | 您的规范定义了多个身份验证方案。 | 更新您的规范以使用单一身份验证类型。 |

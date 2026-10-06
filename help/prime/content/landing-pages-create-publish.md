@@ -8,21 +8,27 @@ autotag-review: '2026-07-08T20:35:24.091Z'
 TQID: 'https://experienceleague.adobe.com/wj4r5EUW-tvZDVa6eZZw-tETc0kkcGZVCGSjxHk-dAs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9b286221420c4f8db24ab1d8f2f8ca29828f65e4
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1562
+source-wordcount: '1562'
 ht-degree: 11%
-
 ---
-
 # 创建和发布登陆页面
 
 作为营销人员，您可以定义并发布要合并到历程中的页面。 添加新登陆页面时，您可以配置主页面和任何子页面、设计内容、测试它并发布它。
@@ -87,7 +93,7 @@ ht-degree: 11%
 
    每个登陆页面最多可添加两个子页面。
 
-配置并设计主页面和任何子页面后，请在发布登陆页面[&#128279;](#test-landing-page)之前对其进行测试。
+配置并设计主页面和任何子页面后，请在发布登陆页面](#test-landing-page)之前[对其进行测试。
 
 >[!CAUTION]
 >
@@ -171,7 +177,7 @@ ht-degree: 11%
 
   >[!NOTE]
   >
-  >具体的 .zip 文件结构没有任何限制。 但是，引用必须是相对的，并且适合.zip文件夹的树结构。 图像始终上载到[资源存储库](./digital-asset-management.md)。
+  >.zip 文件结构没有任何限制。 但是，引用必须是相对的，并且适合.zip文件夹的树结构。 图像始终上载到[资源存储库](./digital-asset-management.md)。
 
 导入包含HTML内容的文件(_T):_
 
@@ -199,15 +205,15 @@ ht-degree: 11%
 
 * 引用推荐和最佳实践的&#x200B;**_警告_**，例如：
 
-   * `Placeholder links are present in the landing page body`：不要忘记使用有效链接替换占位符。
+  * `Placeholder links are present in the landing page body`：不要忘记使用有效链接替换占位符。
 
-   * `Text version of HTML is empty`：别忘了定义页面正文的文本版本，此文本版本在HTML内容无法显示时使用。
+  * `Text version of HTML is empty`：别忘了定义页面正文的文本版本，此文本版本在HTML内容无法显示时使用。
 
-   * `Empty link is present in page body`：检查页面中的所有链接是否正确。
+  * `Empty link is present in page body`：检查页面中的所有链接是否正确。
 
 * **_错误_**，阻止您测试或激活历程，只要这些错误未解决，例如：
 
-   * `The landing page content is empty`：页面内容是必需的。
+  * `The landing page content is empty`：页面内容是必需的。
 
 ## 测试登陆页面 {#test-landing-page}
 

@@ -1,6 +1,6 @@
 ---
 title: 短信创作
-description: 为具有个性化、链接和同意管理的帐户历程创建短信消息 — 在Journey Optimizer B2B edition中预览内容并配置投放设置。
+description: 为具有个性化、链接和同意管理的帐户历程创建短信消息 — 在Journey Optimizer B2B Edition中预览内容并配置投放设置。
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
@@ -8,30 +8,42 @@ autotag-review: '2026-05-27T16:18:50.732Z'
 TQID: 'https://experienceleague.adobe.com/MEoL8Fm-drFPWzFZofvS7hMRTTpmRyThVxBUHUsS6Qs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d66b6f77-1150-58cd-81d8-2a1924d54baa
+    internal-label: SMS Authoring
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
+    internal-label: SMS channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+    internal-label: Cross channel delivery
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1251
+source-wordcount: '1251'
 ht-degree: 3%
-
 ---
-
 # 短信创作
 
-使用Adobe Journey Optimizer B2B edition在其移动设备上向客户发送短信(SMS)。 您可以从短信编辑器中创建、个性化和预览文本格式的消息。
+使用Adobe Journey Optimizer B2B Edition向客户在其移动设备上发送短信(SMS)。 您可以从短信编辑器中创建、个性化和预览文本格式的消息。
 
 在为帐户历程创建短信消息之前，请确保从&#x200B;_[!UICONTROL 管理员]_&#x200B;设置中配置了[短信服务提供程序](../admin/configure-channels-sms.md)。
 
@@ -45,9 +57,9 @@ ht-degree: 3%
 
 添加&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点并执行以下操作时，您可以在帐户历程中设置短信投放：
 
-1. 对于&#x200B;_目标上的_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
+1. 对于&#x200B;]_目标上的_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
 
-1. 若要对人员&#x200B;_执行_&#x200B;操作，请选择&#x200B;**[!UICONTROL 发送短信]**。
+1. 若要对人员&#x200B;]_执行_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 发送短信]**。
 
    ![执行操作 — 发送短信](assets/journey-node-send-sms.png){width="800" zoomable="yes"}
 
@@ -113,7 +125,7 @@ ht-degree: 3%
       >[!NOTE] 
       >
       >When you allow tracking but disable _[!UICONTROL Enable Lead Tracking]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
-      >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+      >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
 -->
 
@@ -183,8 +195,8 @@ ht-degree: 3%
 
 提供此选项后，短信收件人可以使用选择启用和选择禁用关键词进行回复。 支持并遵循所有标准的选择启用和选择禁用关键词，以及使用SMS服务提供商配置的任何自定义关键词。 取消订阅后，用户档案将自动从未来营销消息的受众中删除。
 
-Journey Optimizer B2B edition提供了使用以下逻辑管理短信消息中的选择退出的功能：
+Journey Optimizer B2B Edition提供了使用以下逻辑管理短信消息中的选择退出的功能：
 
 * 默认情况下，如果商机选择不接收您的通信，则相应的用户档案将从后续短信投放中排除
 
-* 来自不同来源（例如AEP或短信服务提供商）的潜在客户同意将同步到Journey Optimizer B2B edition。 目前，在实例级别，它仅支持每个商机的单个同意状态（商机“John Doe”订阅或取消订阅实例中的所有促销短信）。 它当前不支持在品牌级别/单个订阅列表级别同意双重选择加入。
+* 来自不同来源（例如AEP或短信服务提供商）的潜在客户同意将同步到Journey Optimizer B2B Edition。 目前，在实例级别，它仅支持每个商机的单个同意状态（商机“John Doe”订阅或取消订阅实例中的所有促销短信）。 它当前不支持在品牌级别/单个订阅列表级别同意双重选择加入。

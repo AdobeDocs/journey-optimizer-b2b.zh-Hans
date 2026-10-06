@@ -1,34 +1,41 @@
 ---
 title: 查看垃圾邮件报告
-description: 生成带有SpamAssassin评分的垃圾邮件报告，以检查电子邮件是否触发垃圾邮件过滤器，并改进Journey Optimizer B2B edition中的可投放性。
+description: 生成带有SpamAssassin评分的垃圾邮件报告，以检查电子邮件是否触发垃圾邮件过滤器并改进Journey Optimizer B2B Edition中的可投放性。
 feature: Email Authoring
 level: Beginner
 role: User
 exl-id: 0ab2a85c-fbab-4681-9964-74b7fd1d574f
+autotag-review: 2026-03-30T22:30:57.478Z
+TQID: 'https://experienceleague.adobe.com/SX8ewAjGolTNim8LeVKhLXne6EntrSMs8aMETVahYaQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-autotag-review: 2026-03-30T22:30:57.478Z
-TQID: https://experienceleague.adobe.com/SX8ewAjGolTNim8LeVKhLXne6EntrSMs8aMETVahYaQ
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+    internal-label: Email marketing
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 378
+source-wordcount: '378'
 ht-degree: 0%
-
 ---
-
 # 查看垃圾邮件报告
 
-许多电子邮件收件箱提供商和大多数公司系统都采用垃圾邮件过滤流程。 发送触发这些过滤器的电子邮件可能会严重影响可投放性。 在Journey Optimizer B2B edition中，您可以通过生成垃圾邮件报告来检查电子邮件内容垃圾邮件评分。 此报表使用[[!DNL SpamAssassin]](https://spamassassin.apache.org/)测试电子邮件，并帮助您确定反垃圾邮件工具是否可以将邮件视为垃圾邮件。 您可以使用报表中的信息执行操作，提高电子邮件内容分数和可投放性。 优化内容后，在[电子邮件性能报表](../dashboards/email-performance-dashboard.md)中跟踪跳出率和投放。
+许多电子邮件收件箱提供商和大多数公司系统都采用垃圾邮件过滤流程。 发送触发这些过滤器的电子邮件可能会严重影响可投放性。 在Journey Optimizer B2B Edition中，您可以通过生成垃圾邮件报告来检查电子邮件内容垃圾邮件评分。 此报表使用[[!DNL SpamAssassin]](https://spamassassin.apache.org/)测试电子邮件，并帮助您确定反垃圾邮件工具是否可以将邮件视为垃圾邮件。 您可以使用报表中的信息执行操作，提高电子邮件内容分数和可投放性。 优化内容后，在[电子邮件性能报表](../dashboards/email-performance-dashboard.md)中跟踪跳出率和投放。
 
 在查看电子邮件设置或编辑内容时，打开&#x200B;_[!UICONTROL 模拟]_&#x200B;页面并生成&#x200B;_垃圾邮件报告_&#x200B;以查看可能触发反垃圾邮件过滤的评分和标记元素。
 

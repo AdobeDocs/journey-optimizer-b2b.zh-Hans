@@ -1,29 +1,36 @@
 ---
 title: 购买群组的参与度分数
-description: 在Journey Optimizer B2B edition中，使用加权活动、基于角色的计算以及30天评分窗口计算购买组和人员参与度分数。
+description: 在Journey Optimizer B2B Edition中使用加权活动、基于角色的计算和30天评分窗口计算购买组和人员参与度分数。
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
+autotag-review: 2026-03-30T21:43:47.624Z
+TQID: 'https://experienceleague.adobe.com/hbqnc4zInCOzKx4UwW4lBY1LDDy-NZEV9wA1BTzhsD8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
+subfeature_v2:
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+    internal-label: Engagement
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-autotag-review: 2026-03-30T21:43:47.624Z
-TQID: https://experienceleague.adobe.com/hbqnc4zInCOzKx4UwW4lBY1LDDy-NZEV9wA1BTzhsD8
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+    internal-label: Customer engagement
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1229
+source-wordcount: '1229'
 ht-degree: 30%
-
 ---
-
 # 参与度评分 {#engagement-scores}
 
 >[!CONTEXTUALHELP]
@@ -31,7 +38,7 @@ ht-degree: 30%
 >title="参与度评分"
 >abstract="参与度评分决定了购买群组成员的参与度水平。"
 
-参与度得分是一个数字，它指示购买小组成员的参与度级别。 这些得分基于购买组成员活动、加权操作和加权角色。 所得的得分在租户（实例）中进行标准化，以实现一致的比较，并允许可行的分析。 分数计算在您创建购买组后立即开始。 Journey Optimizer B2B edition数据中心系统每天计算得分，并使用引入服务将其上传到多级营销(MLM) MySQL系统。
+参与度得分是一个数字，它指示购买小组成员的参与度级别。 这些得分基于购买组成员活动、加权操作和加权角色。 所得的得分在租户（实例）中进行标准化，以实现一致的比较，并允许可行的分析。 分数计算在您创建购买组后立即开始。 Journey Optimizer B2B Edition数据中心系统每天计算得分，并使用引入服务将其上传到多级营销(MLM) MySQL系统。
 
 有两种类型的参与度分数：
 
@@ -43,7 +50,7 @@ ht-degree: 30%
 
 * **人员参与度分数** — 人员参与度分数基于个人购买小组成员的活动。
 
-  每个购买群成员的人员参与分数显示在购买群组详细信息页面[_[!UICONTROL 成员&#x200B;]_&#x200B;选项卡](./buying-group-details.md#buying-group-members)中。 这些得分还会显示在页面和仪表板中，其中包括最常参与的成员和重叠的联系人信息。
+  每个购买群成员的人员参与分数显示在购买群组详细信息页面[_[!UICONTROL 成员&#x200B;]_选项卡](./buying-group-details.md#buying-group-members)中。 这些得分还会显示在页面和仪表板中，其中包括最常参与的成员和重叠的联系人信息。
 
   ![参与次数最多的购买小组成员](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 

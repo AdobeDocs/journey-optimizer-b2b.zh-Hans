@@ -1,27 +1,32 @@
 ---
 title: 将图像转换为电子邮件模板
-description: 使用Journey Optimizer B2B edition将图像文件转换为HTML电子邮件模板。 上传PNG/JPEG文件并自动生成可重用的电子邮件内容。
+description: 使用Journey Optimizer B2B Edition将图像文件转换为HTML电子邮件模板。 上传PNG/JPEG文件并自动生成可重用的电子邮件内容。
 feature: Email Authoring, Content
 exl-id: ffea0088-9fb3-4e54-8612-e37d9a34b003
+autotag-review: 2026-03-30T22:06:11.745Z
+TQID: 'https://experienceleague.adobe.com/3P6awHSiX5K4Gh3saXUsaCbwrTYUx9vQ5noh-pA4Kps'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:06:11.745Z
-TQID: https://experienceleague.adobe.com/3P6awHSiX5K4Gh3saXUsaCbwrTYUx9vQ5noh-pA4Kps
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: '537'
 ht-degree: 0%
-
 ---
-
 # 将图像转换为电子邮件模板
 
 创建和更新电子邮件模板是营销内容supply chain中的基本组件，但由于需要手动进行HTML编码，这些任务通常需要大量时间和资源。 传统上，营销团队依靠代理或IT团队来开发这些模板。 新的用于电子邮件模板的图像到HTML工具通过允许营销人员将设计文件转换为HTML代码模板来简化此过程。 转换后的HTML已准备好在电子邮件设计空间中进行进一步编辑。 此工具支持JPEG和PNG文件类型，并具有拖放界面。
@@ -32,7 +37,7 @@ ht-degree: 0%
 
 **使用品牌主题**
 
-如果您的组织在Journey Optimizer B2B edition中定义了[品牌主题](./brand-themes.md)，则可以选择品牌主题作为输入，以便生成的输出HTML会根据品牌主题参数设置样式。 使用此输入，样式如背景颜色、按钮颜色、字体、行距、边距、填充将应用于生成的模板。  使用品牌主题有助于消除额外的样式和格式设计工作，并生成能以最少编辑次数使用的模板。
+如果您的组织在Journey Optimizer B2B Edition中定义了[品牌主题](./brand-themes.md)，则可以选择品牌主题作为输入，以便生成的输出HTML会根据品牌主题参数设置样式。 使用此输入，样式如背景颜色、按钮颜色、字体、行距、边距、填充将应用于生成的模板。  使用品牌主题有助于消除额外的样式和格式设计工作，并生成能以最少编辑次数使用的模板。
 
 >[!ENDSHADEBOX]
 

@@ -1,29 +1,35 @@
 ---
 title: 购买组概述仪表板
-description: 使用完成分数、参与量度和解决方案兴趣分析跟踪购买团体进度，以在Journey Optimizer B2B edition中启用销售移交功能。
+description: 使用完成分数、参与量度和解决方案兴趣分析跟踪购买团体进度，以在Journey Optimizer B2B Edition中启用销售移交功能。
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
+autotag-review: 2026-03-30T22:45:21.856Z
+TQID: 'https://experienceleague.adobe.com/sp2xFXNnYT5zOjsQC6R53SsGudsYmF8EYq4RIIzqYH0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-30T22:45:21.856Z
-TQID: https://experienceleague.adobe.com/sp2xFXNnYT5zOjsQC6R53SsGudsYmF8EYq4RIIzqYH0
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 594
+source-wordcount: '594'
 ht-degree: 3%
-
 ---
-
 # 购买组概述仪表板
 
 采购组的“概览”仪表板是为B2B销售移交流程设计的。 它使营销团队能够将&#x200B;_就绪_&#x200B;的购买组及其成员共享给销售团队以供执行。 此过程可确保从营销到销售的简化过渡。

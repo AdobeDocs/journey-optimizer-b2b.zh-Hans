@@ -1,6 +1,6 @@
 ---
 title: 登陆页面模板设计
-description: 设计登陆页面模板以供重用 — 在Journey Optimizer B2B edition中添加内容组件、表单、自定义CSS、个性化和设备预览。
+description: 设计登陆页面模板以供重用 — 在Journey Optimizer B2B Edition中添加内容组件、表单、自定义CSS、个性化和设备预览。
 feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
@@ -9,24 +9,33 @@ autotag-review: '2026-05-27T16:15:29.609Z'
 TQID: 'https://experienceleague.adobe.com/vWu6NGGG-pyhypi4RR76gMO8Jx3YnumXuJlDdbS9qTc'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 353
-ht-degree: 6%
-
+source-wordcount: '353'
+ht-degree: 7%
 ---
-
 # 登陆页面模板设计
 
 在您[创建登陆页面模板](./landing-page-templates.md#create-a-landing-page-template)之后，请使用可视化设计空间在页面模板中创作结构和内容组件。
@@ -79,8 +88,8 @@ You can continue to make edits to the draft page template. When you are ready to
 * 通过预设缩放选项放大/缩小内容。
 
 * 切换在桌面、移动设备或纯文本/纯文本中查看内容。
-   * 单击&#x200B;_查看_&#x200B;图标可跨设备预览内容。
-   * 选择一个现成的设备或输入自定义维度以预览内容。
+  * 单击&#x200B;_查看_&#x200B;图标可跨设备预览内容。
+  * 选择一个现成的设备或输入自定义维度以预览内容。
 
 ### 更多选项
 

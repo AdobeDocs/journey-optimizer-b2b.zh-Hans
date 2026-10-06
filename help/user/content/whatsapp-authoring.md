@@ -1,6 +1,6 @@
 ---
 title: WhatsApp创作
-description: 在Journey Optimizer B2B edition中使用已获批准的Meta模板、个性化令牌和投放设置，为帐户历程创建WhatsApp消息。
+description: 在Journey Optimizer B2B Edition中使用经批准的Meta模板、个性化令牌和投放设置为帐户历程创建WhatsApp消息。
 feature: Content, Channels, Account Journeys
 role: User
 exl-id: 36c7e377-1f51-4d68-9e00-c6ce994e9909
@@ -8,33 +8,47 @@ autotag-review: '2026-05-27T16:19:44.490Z'
 TQID: 'https://experienceleague.adobe.com/B368ny2Y9BSzsE7CClVIbVr-5Kha5d2pTiNiDGCwML4'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 828
+source-wordcount: '828'
 ht-degree: 1%
-
 ---
-
 # WhatsApp创作
 
-使用Adobe Journey Optimizer B2B edition向其移动设备上的帐户成员发送WhatsApp消息。 您可以使用WhatsApp编辑器中的已批准Meta消息模板创建、个性化和预览消息。<!-- Test your WhatsApp messages before publishing the account journey to ensure your intended rendering, accurate personalization, and proper configuration of all settings. -->
+使用Adobe Journey Optimizer B2B Edition向其移动设备上的帐户成员发送WhatsApp消息。 您可以使用WhatsApp编辑器中的已批准Meta消息模板创建、个性化和预览消息。<!-- Test your WhatsApp messages before publishing the account journey to ensure your intended rendering, accurate personalization, and proper configuration of all settings. -->
 
 在为帐户历程创建WhatsApp消息之前，请确保已在&#x200B;_[!UICONTROL 管理员]_&#x200B;设置中配置所需的[WhatsApp渠道](../admin/configure-channels-whatsapp.md)。
 
 
 >[!NOTE]
 >
->Journey Optimizer B2B edition中仅支持&#x200B;_出站_ WhatsApp消息元素。
+>Journey Optimizer B2B Edition中仅支持&#x200B;_出站_ WhatsApp消息元素。
 
 +++ 支持的消息元素和行动号召选项
 
@@ -69,9 +83,9 @@ WhatsApp支持以下消息类型：
 
 当您[添加&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点](../journeys/action-nodes.md)并执行以下操作时，可以在帐户历程中设置WhatsApp消息投放：
 
-1. 对于&#x200B;_目标上的_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
+1. 对于&#x200B;]_目标上的_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
 
-1. 若要对人员&#x200B;_执行_&#x200B;操作，请选择&#x200B;**[!UICONTROL 发送WhatsApp]**。
+1. 若要对人员&#x200B;]_执行_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 发送WhatsApp]**。
 
    ![执行操作 — 发送WhatsApp](./assets/whatsapp-journey-node.png){width="500" zoomable="yes"}
 
@@ -99,7 +113,7 @@ WhatsApp支持以下消息类型：
 
 ### 选择消息模板
 
-使用您Meta WhatsApp商业帐户中的预批准消息模板发送WhatsApp消息。 **模板必须由Meta审核和批准**，然后才能在Journey Optimizer B2B edition中使用。 要管理和提交模板以供审批，请与您的[!DNL Meta Business Manager]帐户管理员联系。
+使用您Meta WhatsApp商业帐户中的预批准消息模板发送WhatsApp消息。 **模板必须由Meta审核和批准**，然后才能在Journey Optimizer B2B Edition中使用。 要管理和提交模板以供审批，请与您的[!DNL Meta Business Manager]帐户管理员联系。
 
 1. 对于&#x200B;**[!UICONTROL 选择模板类别]**，请选择下列选项之一：
 

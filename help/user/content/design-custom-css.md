@@ -1,30 +1,42 @@
 ---
 title: 为内容添加自定义CSS
-description: 向电子邮件和登陆页添加自定义CSS，以便实现Journey Optimizer B2B edition中标准组件以外的高级样式和精确设计控制。
+description: 向电子邮件和登陆页添加自定义CSS，以便实现Journey Optimizer B2B Edition中标准组件以外的高级样式和精确设计控制。
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
 exl-id: 5a961190-8a65-41b0-90d0-5dd44e5cdf8a
+autotag-review: 2026-03-30T22:36:27.982Z
+TQID: 'https://experienceleague.adobe.com/yOvuidpHGmO0jnf8X0PeWDORJyFf2c8QWnqY9epK0nE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-autotag-review: 2026-03-30T22:36:27.982Z
-TQID: https://experienceleague.adobe.com/yOvuidpHGmO0jnf8X0PeWDORJyFf2c8QWnqY9epK0nE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Customer experience
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: '563'
 ht-degree: 0%
-
 ---
-
 # 为内容添加自定义CSS
 
 您可以直接在电子邮件或登陆页面设计空间中添加自己的自定义CSS。 使用自定义CSS可应用高级和特定的样式，以便更加灵活地控制内容的外观。

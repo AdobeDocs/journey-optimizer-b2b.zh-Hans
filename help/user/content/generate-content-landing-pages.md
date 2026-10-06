@@ -1,6 +1,6 @@
 ---
 title: 生成登陆页面内容
-description: 生成登陆页面内容 — 在Journey Optimizer B2B edition中使用您的参考资源和购买群体角色定位创建页面文本和图像。
+description: 生成登陆页面内容 — 在Journey Optimizer B2B Edition中使用您的参考资源和购买群体角色定位创建页面文本和图像。
 feature: Generative AI, Landing Pages, Content
 topic: Artificial Intelligence
 role: User
@@ -25,6 +25,8 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
@@ -32,7 +34,7 @@ topic_v2:
     internal-label: Accessibility
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
     internal-label: Content production
-source-git-commit: d8451ab306de70decd11909676d6d9aaf667d466
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '2599'
 ht-degree: 0%
@@ -53,9 +55,9 @@ ht-degree: 0%
 
 ## 准则和限制
 
-在开始使用此功能之前，请查看[准则和限制](./generative-ai-content.md#general-guidelines-and-limitations)。 在[!DNL Journey Optimizer B2B Edition]中使用AI功能之前，还需要用户同意[&#128279;](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
+在开始使用此功能之前，请查看[准则和限制](./generative-ai-content.md#general-guidelines-and-limitations)。 在[!DNL Journey Optimizer B2B Edition]中使用AI功能之前，还需要用户同意[](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
 
-为了提高创作AI中的透明度，Adobe在下载或导出时将[内容凭据](https://helpx.adobe.com/cn/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}应用于Firefly生成的资源。
+为了提高创作AI中的透明度，Adobe在下载或导出时将[内容凭据](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}应用于Firefly生成的资源。
 
 以下限制和准则适用于在[!DNL Journey Optimizer B2B Edition]中用于登陆页面的内容生成功能：
 

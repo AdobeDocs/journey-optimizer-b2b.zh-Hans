@@ -1,31 +1,42 @@
 ---
 title: 用户访问和权限
-description: 使用Adobe Admin Console管理用户访问权限：创建Journey Optimizer B2B edition的用户组、分配产品配置文件和设置基于角色的权限。
+description: 使用Adobe Admin Console管理用户访问权限：创建Journey Optimizer B2B Edition的用户组、分配产品配置文件以及设置基于角色的权限。
 feature: Setup, Permissions
 roles: Admin
 level: Beginner
 solution: Journey Optimizer B2B Edition
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
+autotag-review: 2026-03-27T22:47:43.575Z
+TQID: 'https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
+  - id: bd42eee1-e206-4826-91ea-88dc726d858e
+    internal-label: Permissions
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: 2026-03-27T22:47:43.575Z
-TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ
-source-git-commit: 171518509dc161d236663cde399b3fcc02408f18
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2348
+source-wordcount: '2348'
 ht-degree: 77%
-
 ---
-
 # 用户访问和权限
 
-完成配置并绑定沙盒后，使用以下步骤为团队和用户提供对Adobe Journey Optimizer B2B edition的访问权限。
+完成配置并绑定沙盒后，使用以下步骤为团队和用户提供访问Adobe Journey Optimizer B2B Edition的权限。
 
 1. [在Admin Console中创建Marketo Engage产品配置文件](#marketo-engage-profile)（仅限新的Marketo Engage实例）。
 1. 在Admin Console中[添加用户组](#add-user-group)。
@@ -68,13 +79,13 @@ ht-degree: 77%
 
 授予用户访问Adobe解决方案的权限时，您不一定要授予他们完全访问权限。 产品配置文件使每个解决方案都有自己的用户权限集。 使用Admin Console分配产品配置文件。
 
-有关将产品配置文件用于用户权限的详细信息，请参阅Admin Console文档中的&#x200B;[_管理企业用户的产品配置文件_](https://helpx.adobe.com/cn/enterprise/using/manage-product-profiles.html){target="_blank"}。
+有关将产品配置文件用于用户权限的详细信息，请参阅Admin Console文档中的&#x200B;[_管理企业用户的产品配置文件_](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"}。
 
 >[!BEGINSHADEBOX]
 
 将用户添加到Marketo Engage产品配置文件后，这些用户随后将添加到Marketo Engage订阅的默认工作区中的&#x200B;_标准用户_&#x200B;角色。 此角色向他们授予该工作区中Marketo Engage的所有标准权限。 目前，所有Journey Optimizer B2B edition用户都必须是Marketo Engage用户。 Marketo Engage管理员可以通过更新&#x200B;_Standard User_&#x200B;角色的权限或使用更严格的权限将用户移动到其他Marketo Engage用户角色来限制访问。
 
-有关在Marketo Engage中管理这些权限的详细信息，请参阅Marketo Engage文档中的[管理用户角色和权限](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}。
+有关在Marketo Engage中管理这些权限的详细信息，请参阅Marketo Engage文档中的[管理用户角色和权限](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -98,7 +109,7 @@ ht-degree: 77%
 
 >[!TIP]
 >
->将现有Journey Optimizer B2B edition用户添加到Marketo Engage时，您可以跳过用户组创建并添加Marketo Engage产品配置文件到现有用户组。
+>将现有Journey Optimizer B2B Edition用户添加到Marketo Engage时，您可以跳过用户组创建并将Marketo Engage产品配置文件添加到现有用户组。
 
 有关如何使用用户组管理权限的更多信息，请参阅Admin Console文档中的[管理用户组](https://helpx.adobe.com/cn/enterprise/using/user-groups.html){target="_blank"}。
 
@@ -163,11 +174,11 @@ ht-degree: 77%
 
 ## 编辑产品权限的角色 {#edit-roles-for-product-permissions}
 
-权限是单一的权利，可用于定义分配给产品配置文件的授权。 每个权限都分组在功能（如历程或购买群组）下，代表Journey Optimizer B2B edition中的功能。
+权限是单一的权利，可用于定义分配给产品配置文件的授权。 每个权限都分组在功能（如历程或购买群组）下，表示Journey Optimizer B2B Edition中的功能。
 
 在Adobe Experience Platform的&#x200B;_权限_&#x200B;区域，管理员可以定义用户角色和访问策略，以管理产品应用程序内功能和对象的访问权限。 在此应用程序中，您可以创建和管理角色，并为这些角色分配所需的资源权限。 权限还允许您管理与特定角色关联的沙盒和用户。
 
-有关Experience Platform中角色权限的更多信息，请参阅Experience Platform文档中的[管理角色的权限](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
+有关Experience Platform中角色权限的更多信息，请参阅Experience Platform文档中的[管理角色的权限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
 
 ### B2B产品权限 {#b2b-product-permissions}
 
@@ -335,4 +346,4 @@ ht-degree: 77%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-您的自定义角色已配置，并且分配组中的用户现在可以访问您选择的Journey Optimizer B2B edition功能。
+您的自定义角色已配置，并且分配组中的用户现在可以访问您选择的Journey Optimizer B2B Edition功能。

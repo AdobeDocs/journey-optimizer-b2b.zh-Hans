@@ -5,45 +5,50 @@ feature: Setup, Integrations
 role: Admin
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
+autotag-review: 2026-03-27T22:58:08.848Z
+TQID: 'https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 feature_v2:
-  - id: adf04a6a-050f-44bc-a52c-db79ccb22ebf
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+    internal-label: Administration
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: 2026-03-27T22:58:08.848Z
-TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: ecc3b7d5a63f67d7f29208278814d5abae969ea4
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1632
+source-wordcount: '1632'
 ht-degree: 10%
-
 ---
-
 # 选择体验事件和字段
 
-管理员可以在Experience Event合并架构中选择特定的Adobe Experience Platform (AEP) [Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其相关字段。 选择后，用户可以配置决策规则以侦听这些Experience事件，以基于近乎实时的事件数据启用动态和针对性的营销活动操作。
+管理员可以在Experience Event合并架构中选择特定的Adobe Experience Platform (AEP) [Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其相关字段。 选择后，用户可以配置决策规则以侦听这些Experience事件，以基于近乎实时的事件数据启用动态和针对性的营销活动操作。
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
 >[!PREREQUISITES]
 >
->在Journey Optimizer B2B edition中使用Experience Events和字段需要启用配置文件的Experience Event架构。 有关详细信息，请参阅Experience Platform教程中的[启用实时客户个人资料](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}。
+>在Journey Optimizer B2B Edition中使用Experience Event和字段需要启用配置文件的Experience Event架构。 有关详细信息，请参阅Experience Platform教程中的[启用实时客户个人资料](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}。
 
 在历程中使用AEP Experience事件包括两个步骤：
 
-1. 管理员[在AEP B2B edition配置中添加了Journey Optimizer Experience事件和字段](#add-an-event)。
+1. 管理员[在Journey Optimizer B2B Edition配置中添加了AEP Experience Events和字段](#add-an-event)。
 
 1. 在历程中，营销人员通过以下两种方式之一使用配置的事件：
 
    * 添加&#x200B;_侦听事件_&#x200B;节点，[选择体验事件](../journeys/listen-for-event-nodes.md#experience-events-account-people)以根据历程期间的实时事件活动触发历程进展。
-   * 添加&#x200B;_按人员拆分路径_&#x200B;节点，并在&#x200B;**[!UICONTROL Event history]**&#x200B;文件夹中的事件[&#128279;](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering)上配置筛选器的路径。
+   * 添加&#x200B;_按人员拆分路径_&#x200B;节点，并在&#x200B;**[!UICONTROL Event history]**&#x200B;文件夹中的事件](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering)上配置[筛选器的路径。
 
 >[!BEGINSHADEBOX]
 
@@ -55,7 +60,7 @@ ht-degree: 10%
 
 * 历程可以收听使用Experience Platform流功能（如Web SDK或HTTP API）引入的Experience事件。
 
-* 当事件存在于Journey Optimizer B2B edition数据库中时，人员的历史体验事件数据开始累积。 对于首次配置事件类型时已存在的人员，回填从配置时开始。 对于新人，积累始于首次添加此人（其以前的历史不可追溯获得）。
+* 当事件存在于Journey Optimizer B2B Edition数据库中时，人员的历史体验事件数据开始累积。 对于首次配置事件类型时已存在的人员，回填从配置时开始。 对于新人，积累始于首次添加此人（其以前的历史不可追溯获得）。
 
 * 当前没有为累积的事件历史记录提供删除机制。 长期保留策略可能会发生更改。
 
@@ -153,7 +158,7 @@ _[!UICONTROL 事件]_&#x200B;选项卡上的列表显示已保存的事件。
 
 ## 事件和字段 {#events-and-fields}
 
-对于[!DNL Journey Optimizer B2B Edition]，某些人员级别的活动被捕获为[!DNL Experience Platform]体验事件。 这些事件存储在使用XDM体验事件架构的系统数据集中，其中包括特定于历程的字段组。 您可以在[!UICONTROL Journey Optimizer B2B edition]中像任何其他体验事件一样使用这些事件。
+对于[!DNL Journey Optimizer B2B Edition]，某些人员级别的活动被捕获为[!DNL Experience Platform]体验事件。 这些事件存储在使用XDM体验事件架构的系统数据集中，其中包括特定于历程的字段组。 您可以在[!UICONTROL Journey Optimizer B2B Edition]中像任何其他体验事件一样使用这些事件。
 
 每个事件都公开一组定义的字段，这些字段可用于历程&#x200B;_侦听事件_&#x200B;节点（基于事件进行决策）。 要确定在这些历程节点中使用的事件和字段，请查看可用的事件类型及其字段：
 
@@ -491,5 +496,5 @@ _[!UICONTROL 事件]_&#x200B;选项卡上的列表显示已保存的事件。
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448693/?captions=chi_hans&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
 -->

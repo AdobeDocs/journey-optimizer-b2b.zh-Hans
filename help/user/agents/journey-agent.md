@@ -8,30 +8,42 @@ autotag-review: '2026-06-05T16:42:46.785Z'
 TQID: 'https://experienceleague.adobe.com/SgjavYf2Tp5yO8s3f0DQexRCUILQRsD5bM6UwmbcgyE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
 subfeature_v2:
   - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+    internal-label: Agentic AI
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1165
+source-wordcount: '1165'
 ht-degree: 0%
-
 ---
-
 # Journey Agent B2B
 
-Journey Agent B2B是Adobe Journey Optimizer B2B edition中由AI提供支持的助手，可帮助您通过自然语言设计、执行、优化和监控B2B历程。 它通过将自动化、数据驱动型推荐和实时可观察性相结合，减少了构建和管理客户历程所需的时间和复杂性。
+Journey Agent B2B是Adobe Journey Optimizer B2B Edition中由AI提供支持的助手，可帮助您通过自然语言设计、执行、优化和监控B2B历程。 它通过将自动化、数据驱动型推荐和实时可观察性相结合，减少了构建和管理客户历程所需的时间和复杂性。
 
 ![Journey Agent B2B提示](./assets/journey-agent-prompt.png)
 
@@ -99,7 +111,7 @@ Journey Agent B2B提供了一组AI技能，每组技能都侧重于B2B历程生�
 
 通过历程可观察性技能，您可以询问有关帐户和人员如何在B2B历程中移动的自然语言问题，而无需挖掘历程地图、日志或仪表板。 它涵盖两个主要领域：旅程进展和数据同步可观察性。
 
-您可以在Journey Optimizer B2B edition中的两个位置访问它：
+您可以在Journey Optimizer B2B Edition中的以下两个位置访问它：
 
 * **历程图中的右边栏助手** — 直接从历程图中询问特定于历程的问题。 历程名称会自动插入到上下文中。
 

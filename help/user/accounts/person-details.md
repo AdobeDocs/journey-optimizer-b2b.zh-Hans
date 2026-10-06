@@ -1,30 +1,38 @@
 ---
 title: 人员详细信息
-description: 在Journey Optimizer B2B edition中，通过人工智能生成的关于购买小组成员的摘要、参与度分数、活动跟踪和意图检测查看人员见解。
+description: 在Journey Optimizer B2B Edition中通过人工智能生成的摘要、参与度分数、活动跟踪和购买小组成员的意图检测查看人员见解。
 feature: Account Insights
 role: User
 exl-id: 401d7107-fd20-471e-9adf-a64c590b0080
+autotag-review: 2026-03-27T22:21:27.328Z
+TQID: 'https://experienceleague.adobe.com/EVVkq83oIwQy2BWI-0z0YA8uBCnvw6Wz2GI7O2c-jE0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+subfeature_v2:
+  - id: aa03b4f9-8230-4f55-8705-d4fda6d64f2b
+    internal-label: Account insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-27T22:21:27.328Z
-TQID: https://experienceleague.adobe.com/EVVkq83oIwQy2BWI-0z0YA8uBCnvw6Wz2GI7O2c-jE0
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 300
+source-wordcount: '300'
 ht-degree: 6%
-
 ---
-
 # 个人详细信息
 
-当您从Journey Optimizer B2B edition中的任何位置单击人员名称时，都会显示人员详细信息页面。 此页面包含与帐户或购买组关联的人员的有用信息，包括高亮和意图数据的创作AI摘要（如果已配置）。<!-- There are also [actions](#person-actions) that you can execute for the person. -->
+当您从Journey Optimizer B2B Edition中的任何位置单击人员名称时，都会显示人员详细信息页面。 此页面包含与帐户或购买组关联的人员的有用信息，包括高亮和意图数据的创作AI摘要（如果已配置）。<!-- There are also [actions](#person-actions) that you can execute for the person. -->
 
 ![人员详细信息页面](./assets/person-details-page.png){width="800" zoomable="yes"}
 
@@ -65,7 +73,7 @@ ht-degree: 6%
 
 ## 意图数据
 
-在Journey Optimizer B2B edition中，意图检测模型根据人员的活动预测具有足够高置信度的感兴趣解决方案/产品。 它还利用了其他帐户共同成员的活动，以及标记的内容。 个人的意图可以解释为对产品感兴趣的可能性。
+在Journey Optimizer B2B Edition中，意图检测模型根据人员的活动预测具有足够高置信度的感兴趣解决方案/产品。 它还利用了其他帐户共同成员的活动，以及标记的内容。 个人的意图可以解释为对产品感兴趣的可能性。
 
 {{intent-data-note}}
 

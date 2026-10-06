@@ -7,22 +7,31 @@ autotag-review: '2026-05-27T16:06:59.553Z'
 TQID: 'https://experienceleague.adobe.com/GFW5SZ5Z-phoEIE6jTVD7EgwcT1Vx647mjoLXJejbFg'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Data collection
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 542
-ht-degree: 3%
-
+source-wordcount: '542'
+ht-degree: 4%
 ---
-
 # Forms配置
 
 产品管理员必须先创建一个或多个专用预设，然后营销人员才能[创建和发布要在登陆页面中使用的表单](../content/forms.md)。 每个预设定义用于发送表单提交数据的连接端点，以及用于存储捕获的数据的数据集。
@@ -33,14 +42,14 @@ ht-degree: 3%
 
 ## 先决条件
 
-要使用Web窗体，您必须在Adobe Experience Platform中定义一个或多个&#x200B;_&#x200B;**HTTP API流连接**&#x200B;_。 确保要使用的每个连接都满足以下要求：
+要使用Web窗体，您必须在Adobe Experience Platform中定义一个或多个&#x200B;_**HTTP API流连接**_。 确保要使用的每个连接都满足以下要求：
 
 * 数据类型必须设置为XDM（不是原始数据）
 * 必须禁用身份验证（非身份验证连接）
 
 有关创建流源连接的详细信息，请参阅&#x200B;[_Experience Platform文档_](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/streaming/http)。
 
-Journey Optimizer B2B edition中的Forms渠道配置需要以下[权限](../admin/user-management.md#b2b-product-permissions)：
+Journey Optimizer B2B Edition中的Forms渠道配置需要以下[权限](../admin/user-management.md#b2b-product-permissions)：
 
 * _[!UICONTROL B2B渠道配置]_ > _[!UICONTROL 查看Forms预设]_ — 查看表单预设配置所需。
 * _[!UICONTROL B2B渠道配置]_ > _[!UICONTROL 管理Forms预设]_ — 创建、更新和删除表单预设配置时需要。
@@ -58,9 +67,9 @@ Journey Optimizer B2B edition中的Forms渠道配置需要以下[权限](../admi
 
 * 每个流连接都会自动生成资源，例如：
 
-   * _Source连接_ — 数据来源。
-   * _目标连接_ — 存储或使用数据的位置。
-   * _Source流_ — 将数据从源连接移入Experience Platform的管道。 它处理映射、转换和验证。
+  * _Source连接_ — 数据来源。
+  * _目标连接_ — 存储或使用数据的位置。
+  * _Source流_ — 将数据从源连接移入Experience Platform的管道。 它处理映射、转换和验证。
 
 ## 创建表单预设
 

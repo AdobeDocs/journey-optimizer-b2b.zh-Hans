@@ -1,34 +1,43 @@
 ---
 title: 条件内容
-description: 在Journey Optimizer B2B edition中使用条件规则创建动态内容变体，这些条件规则基于用户档案属性和事件为个性化电子邮件和片段提供。
+description: 在Journey Optimizer B2B Edition中使用条件规则创建动态内容变体，这些条件规则基于用户档案属性和事件为个性化电子邮件和片段提供。
 feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
+autotag-review: 2026-03-30T22:10:29.308Z
+TQID: 'https://experienceleague.adobe.com/B-As12oHe15O9i3ZCfSz0Og4BRvYyF3BXnXFoVqRWf8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: e1663313-7961-4100-bea9-fa9f4edf8493
+    internal-label: Fragments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:10:29.308Z
-TQID: https://experienceleague.adobe.com/B-As12oHe15O9i3ZCfSz0Og4BRvYyF3BXnXFoVqRWf8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1264
+source-wordcount: '1264'
 ht-degree: 12%
-
 ---
-
 # 条件内容
 
 条件内容允许您根据条件规则调整电子邮件和片段内容。 这些规则是使用配置文件属性或上下文事件定义的。 您可以在规则生成器中创建条件规则，将其存储后可在您的帐户历程中重复使用。
 
-为了向片段和电子邮件添加条件内容，Adobe Journey Optimizer允许您应用存储在&#x200B;_条件_&#x200B;库中的条件规则。 在您为帐户历程[&#128279;](./email-authoring.md)或[可视片段](./fragment-authoring.md)创作电子邮件内容时，在可视设计空间中应用条件规则。
+为了向片段和电子邮件添加条件内容，Adobe Journey Optimizer允许您应用存储在&#x200B;_条件_&#x200B;库中的条件规则。 在您为帐户历程](./email-authoring.md)或[可视片段](./fragment-authoring.md)创作[电子邮件内容时，在可视设计空间中应用条件规则。
 
 ## 添加条件内容 {#email-fragment-content}
 
@@ -118,10 +127,10 @@ ht-degree: 12%
 
 | 完成情况类型 | 过滤器 | 描述 |
 | -------------- | ------- | ----------- |
-| **帐户** | 帐户属性 | 帐户个人资料中的属性，包括： <li>年收入</li><li>城市</li><li>国家</li><li>员工规模</li><li>行业</li><li>名称</li><li>SIC 代码</li><li>State</li> |
+| **帐户** | 帐户属性 | 帐户个人资料中的属性，包括： <li>年收入</li><li>城市</li><li>国家/地区</li><li>员工规模</li><li>行业</li><li>名称</li><li>SIC 代码</li><li>State</li> |
 | | [!UICONTROL 特殊筛选器] > [!UICONTROL 有购买群] | 该帐户是否具有购买组的成员。 也可以根据以下一个或多个标准来评估过滤器： <li>解决方案兴趣</li><li>购买组状态</li><li>完整性分数</li><li>参与度评分</li> |
 | **人员** | [!UICONTROL 活动历史记录] > [!UICONTROL 电子邮件] | 与历程关联的电子邮件活动： <li>[!UICONTROL 已单击电子邮件中的链接]</li><li>已打开的电子邮件</li><li>是已送达的电子邮件</li><li>为已发送电子邮件</li> 使用历程中早期的选定电子邮件评估这些条件。 |
-|  | [!UICONTROL 人员属性] | 人员配置文件中的属性，包括： <li>城市</li><li>国家</li><li>出生日期</li><li>电子邮件地址</li><li>电子邮件无效</li><li>电子邮件已暂停</li><li>名</li><li>推断的州区域</li><li>职务名称</li><li>姓</li><li>手机号码</li><li>电话号码</li><li>邮政编码</li><li>State</li><li>取消订阅</li><li>取消订阅的原因</li> |
+|  | [!UICONTROL 人员属性] | 人员配置文件中的属性，包括： <li>城市</li><li>国家/地区</li><li>出生日期</li><li>电子邮件地址</li><li>电子邮件无效</li><li>电子邮件已暂停</li><li>名字</li><li>推断的州区域</li><li>作业名称</li><li>姓氏</li><li>手机号码</li><li>电话号码</li><li>邮政编码</li><li>State</li><li>取消订阅</li><li>取消订阅的原因</li> |
 | | [!UICONTROL 特殊筛选器] > [!UICONTROL 购买团体成员] | 人员是否属于根据以下一个或多个标准评估的购买组成员： <li>解决方案兴趣</li><li>购买组状态</li><li>完整性分数</li><li>参与度评分</li><li>已删除</li><li>角色</li> |
 
 ### 创建条件规则 {#create-condition}

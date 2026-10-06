@@ -1,29 +1,35 @@
 ---
 title: 内容组件
-description: 在Journey Optimizer B2B edition中设计包含内容组件的电子邮件、登陆页面和片段 — 添加按钮、文本、图像、表单和容器。
+description: 在Journey Optimizer B2B Edition中设计包含内容组件的电子邮件、登陆页面和片段 — 添加按钮、文本、图像、表单和容器。
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
+autotag-review: 2026-03-30T22:16:05.946Z
+TQID: 'https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-autotag-review: 2026-03-30T22:16:05.946Z
-TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
+    internal-label: Experience design
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2658
+source-wordcount: '2658'
 ht-degree: 8%
-
 ---
-
 # 内容组件 {#content-components}
 
 >[!CONTEXTUALHELP]
@@ -320,7 +326,7 @@ ht-degree: 8%
 
    按钮大小会根据设置的文本和样式进行调整。
 
-1. 对于&#x200B;**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
+1. 对于**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
 
    * _[!UICONTROL 无]_ — 使用默认浏览器或客户端行为（默认）打开链接。
    * _[!UICONTROL 空白]_ — 在新窗口或选项卡中打开链接。
@@ -608,7 +614,7 @@ ht-degree: 8%
 
    按钮大小会根据设置的文本和样式进行调整。
 
-1. 对于&#x200B;**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
+1. 对于**[!UICONTROL Target**]，请选择如何从电子邮件或页面重定向链接的目标：
 
    * _[!UICONTROL 无]_ — 使用默认浏览器或客户端行为（默认）打开链接。
    * _[!UICONTROL 空白]_ — 在新窗口或选项卡中打开链接。
@@ -742,7 +748,7 @@ ht-degree: 8%
 
    * **[!UICONTROL 停留在页面]** — 选择此选项可在提交表单时将访客停留在同一页面。
 
-   * **[!UICONTROL 登陆页面]** — 选择此选项可选择任意Journey Optimizer B2B edition登陆页面作为跟进。
+   * **[!UICONTROL 登陆页面]** — 选择此选项可选择任何Journey Optimizer B2B Edition登陆页面作为跟进。
 
    * **[!UICONTROL 外部URL]** — 选择此选项可将任何URL指定为后续页面。 访客提交表单后，浏览器会加载指定的URL。
 

@@ -4,31 +4,42 @@ description: 为Journey Optimizer B2B电子邮件投放配置Marketo Engage选�
 feature: Setup, Channels
 role: Admin
 exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+    internal-label: Cross channel delivery
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1321
+source-wordcount: '1321'
 ht-degree: 70%
-
 ---
-
 # 电子邮件设置
 
 要支持由附加的Marketo Engage实例提供的电子邮件投放基础架构，请设置以下电子邮件选项。 Marketo Engage产品管理员可以通过导航到Marketo Engage实例中的&#x200B;**[!UICONTROL 管理员]**&#x200B;区域并选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;来配置这些设置。
@@ -43,7 +54,7 @@ ht-degree: 70%
 
 >[!NOTE]
 >
->此更改仅适用于您创建的电子邮件，而不适用于其他Marketo Engage或Journey Optimizer B2B edition用户。
+>此更改仅适用于您创建的电子邮件，而不适用于其他 Marketo Engage 或 Journey Optimizer B2B Edition 用户。
 
 1. 转到附加的Marketo Engage实例中的&#x200B;**[!UICONTROL 管理员]**&#x200B;区域，然后选择&#x200B;**[!UICONTROL 电子邮件]**。
 
@@ -63,7 +74,7 @@ ht-degree: 70%
 
    >[!TIP]
    >
-   >营销人员可以使用系统令牌更改取消订阅HTML在其电子邮件中的位置。
+   >营销人员可以使用系统令牌更改其电子邮件中取消订阅 HTML 的位置。
 
    ![电子邮件设置 — 取消订阅HTML和取消订阅文本默认值](./assets/me-admin-email-settings-unsubscribe.png){width="500"}
 
@@ -137,7 +148,7 @@ To view this email as a web page, go to the following address:
 
 [[!DNL Apache Velocity]](https://velocity.apache.org/)是基于[!DNL Java]构建的语言，专为模板化和编写HTML内容脚本而设计。 Marketo Engage电子邮件基础架构支持通过脚本令牌在电子邮件上下文中使用它，利用脚本令牌可访问存储在自定义对象中的数据。
 
-您可以引用直接连接到潜在客户或联系人的父自定义对象和子自定义对象，但不能引用第三级自定义对象。 对于每个自定义对象，每个人员/联系人的10个最近更新的记录在运行时可用，并且按照从最近更新（在`0`）到最旧更新（在`9`）的顺序排列。
+您可以引用直接连接到销售线索或联系人的父自定义对象和子自定义对象，但不能引用第三级自定义对象。 对于每个自定义对象，每个人员/联系人的10个最近更新的记录在运行时可用，并且按照从最近更新（在`0`）到最旧更新（在`9`）的顺序排列。
 
 更改限制(_T):_
 
@@ -176,11 +187,11 @@ To view this email as a web page, go to the following address:
 
 电子邮件机器人活动(也称为非人工交互(NHI))可能会夸大您的电子邮件&#x200B;_打开_&#x200B;和&#x200B;_点击_&#x200B;数据，扭曲您的参与量度，并触发基于事件的历程进程。 使用电子邮件机器人筛选来维护点击参与量度和分析的完整性。 识别可疑机器人活动的方法有两种：
 
-* _&#x200B;**[!UICONTROL 与IAB机器人列表匹配]**&#x200B;_ — 与[Interactive Advertising Bureau机器人列表](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"}（用户代理/IP地址）上的任何内容匹配的活动将被标记为机器人。
-* _&#x200B;**[!UICONTROL 与邻近模式匹配]**&#x200B;_ — 将同时发生的两个或多个活动（在一秒之内）识别为机器人。 比较过程中考虑的属性包括：
-   * 商机ID（应相同）
-   * 电子邮件资源（应相同）
-   * 链接点击或电子邮件打开
+* _**[!UICONTROL 与IAB机器人列表匹配]**_ — 与[Interactive Advertising Bureau机器人列表](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"}（用户代理/IP地址）上的任何内容匹配的活动将被标记为机器人。
+* _**[!UICONTROL 与邻近模式匹配]**_ — 将同时发生的两个或多个活动（在一秒之内）识别为机器人。 比较过程中考虑的属性包括：
+  * 商机ID（应相同）
+  * 电子邮件资产（应相同）
+  * 链接点击或电子邮件打开
 
 对于电子邮件链接点击和电子邮件打开活动，属性将填充为以下值：
 
