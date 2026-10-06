@@ -109,7 +109,7 @@ LinkedIn帐户的名称和描述对Journey Optimizer B2B Edition中的购买群�
 
    保存之后，为数据流指定的名称将带有&#x200B;_AJOB2B_&#x200B;前缀，以便帮助识别Experience Platform中的数据流。
 
-1. 输入LinkedIn营销活动管理器帐户](https://www.linkedin.com/help/lms/answer/a424270)的[帐户ID。
+1. 输入LinkedIn营销活动管理器帐户[&#128279;](https://www.linkedin.com/help/lms/answer/a424270)的帐户ID。
 
    您可以在Campaign Manager UI中按帐户名称查找帐户ID。
 
@@ -143,7 +143,7 @@ LinkedIn帐户的名称和描述对Journey Optimizer B2B Edition中的购买群�
 
 从2025.10版本开始，对帐户使用&#x200B;_激活到目标_&#x200B;操作，以直接从历程将帐户激活到LinkedIn目标。 使用适用于LinkedIn目标的操作，通过消除多系统切换并减少延迟来简化营销活动执行。 例如，作为营销人员，您可以在关键购买角色缺失时自动将高意图帐户激活到LinkedIn以进行重定向，或根据非活动过滤器重新吸引休眠帐户。
 
-1. 在历程画布中选择&#x200B;_执行操作_&#x200B;节点后，将帐户&#x200B;]**上的**[!UICONTROL &#x200B;操作设置为&#x200B;**[!UICONTROL 激活到目标]**。
+1. 在历程画布中选择&#x200B;_执行操作_&#x200B;节点后，将帐户&#x200B;**上的**&#x200B;操作设置为&#x200B;**[!UICONTROL 激活到目标]**。
 
    ![历程节点 — 对帐户执行操作 — 激活到目标](./assets/node-activate-destination.png){width="550" zoomable="yes"}
 

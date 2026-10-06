@@ -60,7 +60,7 @@ Marketo Engage操作是&#x200B;_基于人员的_&#x200B;操作，通过此类操
    * 客户端 ID
    * 客户端密码
 
-在自定义服务](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}中分配的[角色权限可管理Marketo Engage工作区对资源（如列表和营销活动）的可见性。 营销人员可以在一个历程中多次使用同一连接，并在同一历程中使用不同的Marketo Engage连接。
+在自定义服务[&#128279;](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}中分配的角色权限可管理Marketo Engage工作区对资源（如列表和营销活动）的可见性。 营销人员可以在一个历程中多次使用同一连接，并在同一历程中使用不同的Marketo Engage连接。
 
 ### 添加集成
 
@@ -94,6 +94,6 @@ Marketo Engage操作是&#x200B;_基于人员的_&#x200B;操作，通过此类操
 >
 >从历程执行的Marketo Engage操作不适用于连接的Marketo Engage实例的REST API限制。
 
-完成集成后，可从节点属性中的&#x200B;:_**上的**_Actions执行Marketo Engage操作。
+完成集成后，可从节点属性中的&#x200B;:_&#x200B;**上的**&#x200B;_Actions执行Marketo Engage操作。
 
 ![Marketo操作列表](assets/marketo-actions-list.png){width="800" zoomable="yes"}
