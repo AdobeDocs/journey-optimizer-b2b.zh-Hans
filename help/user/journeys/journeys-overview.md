@@ -212,4 +212,4 @@ Journey Optimizer B2B Edition支持两种历程类型：
 
 ## 帐户历程概述视频 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443217/?captions=chi_hans&learn=on)
