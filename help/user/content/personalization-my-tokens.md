@@ -1,6 +1,6 @@
 ---
 title: 电子邮件Personalization的自定义令牌
-description: 创建和管理用于动态电子邮件个性化的自定义我的令牌 — 在Journey Optimizer B2B edition中为帐户历程定义文本和数字变量。
+description: 创建和管理用于动态电子邮件个性化的自定义我的令牌 — 在Journey Optimizer B2B Edition中为帐户历程定义文本和数字变量。
 feature: Personalization, Content, Email Authoring
 role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
@@ -8,23 +8,29 @@ autotag-review: '2026-05-27T16:17:44.938Z'
 TQID: 'https://experienceleague.adobe.com/Jhx5DqeSOi5oTIyBNXw04RagSUFiNx-OPig-vTdFWfU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 subfeature_v2:
   - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 606
+source-wordcount: '606'
 ht-degree: 2%
-
 ---
-
 # 电子邮件个性化的自定义令牌
 
 内容个性化使用令牌作为生成内容工件时填充的占位符或变量。 标准个性化令牌可用于电子邮件、登陆页面、片段和模板。 您还可以使用特定于帐户历程的值定义一组自定义令牌。 这组自定义令牌称为&#x200B;_我的令牌_，在[创作历程电子邮件](./email-authoring.md#personalize-content)时，可使用这些自定义令牌中的任何令牌进行个性化。

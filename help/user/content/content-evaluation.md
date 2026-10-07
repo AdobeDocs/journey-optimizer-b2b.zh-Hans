@@ -1,34 +1,40 @@
 ---
 title: 内容评估和评分
-description: 通过品牌一致性评分评估电子邮件内容 — 根据Journey Optimizer B2B edition中的品牌准则验证颜色、字体、徽标和书写样式。
+description: 通过品牌一致性评分评估电子邮件内容 — 根据Journey Optimizer B2B Edition中的品牌准则验证颜色、字体、徽标和书写样式。
 badge: label="Beta 版" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d2122fb4-ba3b-5da7-99a6-26f1679daf34
+    internal-label: Brand Identity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: '755'
 ht-degree: 15%
-
 ---
-
 # 内容评估和评分 {#content-scoring}
 
 内容评估和评分可帮助您创建、审查和管理符合选定品牌[&#128279;](./brands-manage-create.md#brand-definitions)中定义的准则和一般质量标准的内容。 运行评估确保电子邮件促销活动在语气、消息传递和视觉身份方面保持一致，同时在内容上线之前充当质量检查。
 
 >[!AVAILABILITY]
 >
->在Adobe Journey Optimizer B2B edition中使用AI支持的功能之前，需要[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
+>在Adobe Journey Optimizer B2B Edition中使用AI支持的功能之前，需要[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
 >
 >有关产品管理员如何启用这些功能的信息，请参阅[与品牌相关的权限](./brands-overview.md#brand-related-permissions)。
 
@@ -55,7 +61,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score_overview"
 >title="品牌选择"
->abstract="选择您的品牌，以确保您的内容制作符合其特定的指导方针、标准和身份，从而保持一致性和品牌完整性。"
+>abstract="选择您的品牌，以确保您的内容制作符合其特定的指导方针、标准和品牌形象，从而保持一致性和品牌完整性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"

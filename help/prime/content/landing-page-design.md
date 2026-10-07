@@ -8,22 +8,29 @@ autotag-review: '2026-07-08T20:36:05.221Z'
 TQID: 'https://experienceleague.adobe.com/M8OA0CPihuuX5h9J-ZrGJOPHkHLwatX5VhBa8co4r4Y'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: '568'
 ht-degree: 2%
-
 ---
-
 # 登陆页面设计
 
 在您[创建登陆页面](./landing-pages-create-publish.md#create-landing-page)之后，请使用可视化设计空间在页面中创作结构和内容组件。
@@ -93,8 +100,8 @@ ht-degree: 2%
 * 通过预设缩放选项放大/缩小内容。
 
 * 切换在桌面、移动设备或纯文本/纯文本中查看内容。
-   * 单击&#x200B;_查看_&#x200B;图标可跨设备预览内容。
-   * 选择一个现成的设备或输入自定义维度以预览内容。
+  * 单击&#x200B;_查看_&#x200B;图标可跨设备预览内容。
+  * 选择一个现成的设备或输入自定义维度以预览内容。
 
 ### 更多选项 {#more-options}
 

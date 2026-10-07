@@ -1,33 +1,45 @@
 ---
 title: 内容个性化
-description: 在Journey Optimizer B2B edition中使用帐户、人员和系统令牌个性化B2B电子邮件。 了解如何使用个性化编辑器和语法。
+description: 在Journey Optimizer B2B Edition中使用帐户、人员和系统令牌个性化B2B电子邮件。 了解如何使用个性化编辑器和语法。
 feature: Personalization, Content Design Tools, Email Authoring
 topic: Personalization
 role: User, Developer
 level: Intermediate
 keywords: 表达式、编辑器、开始、个性化
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
+autotag-review: 2026-03-30T21:59:25.221Z
+TQID: 'https://experienceleague.adobe.com/GGBrB5jUvsOa4pHMutAX9usoDzithfIgx3RQUjXb7YE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-autotag-review: 2026-03-30T21:59:25.221Z
-TQID: https://experienceleague.adobe.com/GGBrB5jUvsOa4pHMutAX9usoDzithfIgx3RQUjXb7YE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 751
-ht-degree: 6%
-
+source-wordcount: '751'
+ht-degree: 7%
 ---
-
 # 内容个性化 {#add-personalization}
 
 >[!CONTEXTUALHELP]
@@ -39,7 +51,7 @@ ht-degree: 6%
 
 使用&#x200B;_个性化编辑器_，您可以选择、排列、自定义和验证所有数据，以便为您的内容创建自定义的个性化设置。 使用各种工具（如辅助函数）定制消息。 编辑器使用基于&#x200B;_Handlebars_&#x200B;的内联个性化语法，其中表达式由双大括号`{{}}`括起来的内容构建。
 
-在处理消息时，Journey Optimizer B2B edition会使用Adobe Experience Platform数据集中包含的数据和本地系统值替换表达式。 例如，`Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`动态变为`Hello John Doe`。
+在处理消息时，Journey Optimizer B2B Edition会使用Adobe Experience Platform数据集中包含的数据和本地系统值替换表达式。 例如，`Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`动态变为`Hello John Doe`。
 
 使用此语法，您可以跨多个字段个性化消息，包括电子邮件主题行、消息正文和发件人信息。
 
@@ -59,7 +71,7 @@ ht-degree: 6%
 >
 >在[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home){target="_blank"}中了解有关XDM架构的更多信息。
 
-## Personalization编辑器
+## 个性化编辑器
 
 个性化编辑器适用于您需要在电子邮件内容中定义个性化的每个上下文。 在编辑器中，您可以选择、排列、自定义和验证所有数据，以创建内容的自定义个性化设置。
 

@@ -1,28 +1,43 @@
 ---
 title: 目的数据配置
-description: 在Journey Optimizer B2B edition中，通过关键词映射配置意图数据以预测客户兴趣和用于基于账户的营销的购买信号。
+description: 使用关键词映射配置意图数据，以预测客户对Journey Optimizer B2B Edition中基于账户的营销活动的兴趣和购买信号。
 feature: Setup, Intent, Account Insights
 roles: Admin
 exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
+autotag-review: 2026-03-27T23:18:01.223Z
+TQID: 'https://experienceleague.adobe.com/uQMmGedQfU8IPyoHRJzYHnYjIl7jxlG8hj8hhSBrwR4'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
+  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+    internal-label: Data management
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
+  - id: e8c5d7c8-2857-453e-9943-8237af218e97
+    internal-label: Intent data
+  - id: aa03b4f9-8230-4f55-8705-d4fda6d64f2b
+    internal-label: Account insights
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: 2026-03-27T23:18:01.223Z
-TQID: https://experienceleague.adobe.com/uQMmGedQfU8IPyoHRJzYHnYjIl7jxlG8hj8hhSBrwR4
-source-git-commit: 2da5c7bbbadde4bbb5df82a81398ecb970165da2
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 578
+source-wordcount: '578'
 ht-degree: 1%
-
 ---
-
 # 目的数据配置
 
 在[!DNL Adobe Journey Optimizer B2B Edition]中，意图检测模型根据商机的活动预测具有足够高置信度的感兴趣的解决方案/产品。 它还利用了其他帐户共同成员的活动，以及标记的内容。 个人的意图可以解释为对产品感兴趣的可能性。

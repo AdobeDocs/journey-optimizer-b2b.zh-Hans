@@ -8,21 +8,27 @@ autotag-review: '2026-06-19T22:49:14.999Z'
 TQID: 'https://experienceleague.adobe.com/4yZyKIShtXQ1KgivMKaGMwH03sbmeqmURY3kttX6hyI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 598f728a271bf23752dec2b0056bcc3a14a88b32
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1634
+source-wordcount: '1657'
 ht-degree: 6%
-
 ---
-
 # 结构组件 {#structure-components}
 
 >[!CONTEXTUALHELP]
@@ -54,13 +60,13 @@ ht-degree: 6%
 | 图标 | 组件 | 描述 |
 | ----- | ----------- | ----------- |
 | ![1:1列图标](../../user/assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1列] | 填充空格宽度的单列容器。 |
-| ![1:2列图标](../../user/assets/do-not-localize/icon-design-structure-1-2.png) | 剩余[!UICONTROL 1:2列] | 两列容器，使用1:2比率填充空间的宽度。 第一（左）列占据宽度的三分之一，第二（右）列占据剩余的三分之二。 |
-| ![1:3列图标](../../user/assets/do-not-localize/icon-design-structure-1-3.png) | 剩余[!UICONTROL 1:3列] | 两列容器，使用1:3比率填充空间的宽度。 第一（左）柱占据宽度的四分之一，第二（右）柱占据剩余的四分之三。 |
-| ![2:1列图标](../../user/assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1列右侧] | 两列容器，使用2:1比率填充空间的宽度。 第一（左）列占据宽度的三分之二，第二（右）列占据剩余的三分之一。 |
-| ![2:2列图标](../../user/assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2列] | 两列容器，使用2:2比率填充空间的宽度。 左列和右列的宽度相等。 |
-| ![3:1列图标](../../user/assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1列右侧] | 两列容器，使用3:1的比率填充空间的宽度。 第一（左）柱占据宽度的四分之三(75%)，第二（右）柱占据剩余的四分之一(25%)。 |
+| ![1:2列图标](../../user/assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2列左对齐] | 两列容器，使用1:2的比例填充空间的宽度。 第一（左）列占据宽度的三分之一，第二（右）列占据剩余的三分之二。 |
+| ![1:3列图标](../../user/assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3列左对齐] | 两列容器，使用1:3的比例填充空间的宽度。 第一（左）柱占据宽度的四分之一，第二（右）柱占据剩余的四分之三。 |
+| ![2:1列图标](../../user/assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1列右对齐] | 由两列构成的容器，使用2:1的比率填充空间的宽度。 第一（左）列占据宽度的三分之二，第二（右）列占据剩余的三分之一。 |
+| ![2:2列图标](../../user/assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2列] | 由两列构成的容器，使用2:2的比率填充空间的宽度。 左列和右列的宽度相等。 |
+| ![3:1列图标](../../user/assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1列右对齐] | 两列容器，使用3:1的比率填充空间的宽度。 第一（左）柱占据宽度的四分之三(75%)，第二（右）柱占据剩余的四分之一(25%)。 |
 | ![3:3列图标](../../user/assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3列] | 三列容器，使用3:3的比率填充空间的宽度。 三列的宽度相等。 |
-| ![4:4列图标](../../user/assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4列] | 四列容器，使用4:4比率填充空间的宽度。 四列的宽度相等。 |
+| ![4:4列图标](../../user/assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4列] | 四列容器，使用4:4的比率填充空间的宽度。 四列的宽度相等。 |
 | ![n:n列图标](../../user/assets/do-not-localize/icon-design-structure-n-n.png) | [!UICONTROL n:n列] | 一种可自定义的列结构，根据您定义的列填充空间。 您可以设置列数（介于2和10之间）并单独设置每列的宽度。 [了解详情](#change-nn-columns) |
 
 ## 添加结构组件 {#add-structure-components}

@@ -1,6 +1,6 @@
 ---
 title: 表单设计
-description: 设计表单，其中包含Journey Optimizer B2B edition中用于业务数据收集的字段类型、验证、样式和XDM架构属性。
+description: 设计包含Journey Optimizer B2B Edition中业务数据收集的字段类型、验证、样式和XDM架构属性的表单。
 feature: Forms, Content Design Tools
 role: User
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
@@ -8,25 +8,35 @@ autotag-review: '2026-05-27T16:10:55.800Z'
 TQID: 'https://experienceleague.adobe.com/2-5PPPyFLrTpU89D-ByVskTVAF6ItgqJYFZrTbHsPTU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: afa842a8-6e39-516c-be79-63c0be8e2dc6
+    internal-label: Forms
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+    internal-label: Web forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Web experience
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: '2190'
 ht-degree: 1%
-
 ---
-
 # 表单设计
 
 在您[创建表单](./forms.md#create-forms)后，可视化设计空间将打开一个草稿，其中包含默认的基本表单定义。 在右侧的&#x200B;_[!UICONTROL 摘要]_&#x200B;面板中，单击&#x200B;**[!UICONTROL 编辑表单]**&#x200B;并使用可视设计空间定义表单样式和字段组件。
@@ -75,7 +85,7 @@ ht-degree: 1%
    | ---------- | ----- |
    | **[!UICONTROL 复选框]** | 使用此类型，以便访客可以选择&#x200B;_true_（选中）或&#x200B;_false_（未选中）值。 |
    | **[!UICONTROL 复选框组]** | 使用此类型，以便访客可以为多个项目选择&#x200B;_true_（选中）或&#x200B;_false_（未选中）值。 |
-   | **[!UICONTROL 货币]** | 使用此类型可允许代表为Journey Optimizer B2B edition实例选择的默认货币类型的浮动字段。 |
+   | **[!UICONTROL 货币]** | 使用此类型可允许代表为Journey Optimizer B2B Edition实例选择的默认货币类型的浮动字段。 |
    | **[!UICONTROL 日期]** | 使用此类型可将输入限制为日期格式，并在字段中提供日历选择器。 |
    | **[!UICONTROL 双精度]** | 双（双精度浮点）变量，存储为IEEE 64位（8字节）浮点数。 |
    | **[!UICONTROL 电子邮件]** | 使用此类型将输入限制为电子邮件地址格式。 |

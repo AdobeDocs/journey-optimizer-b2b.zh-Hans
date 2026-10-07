@@ -1,9 +1,10 @@
 ---
 title: 执行操作
-description: 为帐户和人员操作配置操作节点 — 发送电子邮件，更新购买群组，更改得分，以及在Journey Optimizer B2B edition中与Marketo Engage集成。
+description: 为帐户和人员操作配置操作节点 — 发送电子邮件，更新购买群组，更改得分，以及在Journey Optimizer B2B Edition中与Marketo Engage集成。
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -13,6 +14,8 @@ feature_v2:
 subfeature_v2:
   - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
     internal-label: Journey Actions
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -22,8 +25,7 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '2176'
 ht-degree: 3%
@@ -55,7 +57,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->2025.10版本弃用&#x200B;_[!UICONTROL 帐户更改数据值]_&#x200B;操作。 _[!UICONTROL 更新帐户配置文件]_&#x200B;将在Journey Optimizer B2B edition中替换此操作。<br/>
+>2025.10版本弃用&#x200B;_[!UICONTROL 帐户更改数据值]_&#x200B;操作。 _[!UICONTROL 更新帐户配置文件]_&#x200B;将在Journey Optimizer B2B Edition中替换此操作。<br/>
 >
 >管理员可以通过更新&#x200B;_[!UICONTROL XDM配置]_ > _[!UICONTROL 标准类]_&#x200B;中的字段来配置XDM业务帐户的可用属性。 有关详细信息，请参阅[标准架构](../admin/xdm-field-management.md#standard-schemas)。
 
@@ -200,7 +202,7 @@ Journey Optimizer B2B基于人员的操作旨在通过配置的渠道管理通�
 
    >[!NOTE]
    >
-   >从Journey Optimizer B2B edition创建新的外部客户受众时，将植入一个虚拟记录(`test@email.com`)。 将第一个实际用户档案添加到历程的外部受众后，就会覆盖此记录。
+   >当从Journey Optimizer B2B Edition创建新的外部客户受众时，将植入一个虚拟记录(`test@email.com`)。 将第一个实际用户档案添加到历程的外部受众后，就会覆盖此记录。
 
 使用现有受众(_T):_
 
@@ -294,7 +296,7 @@ Journey Optimizer B2B基于人员的操作旨在通过配置的渠道管理通�
 
 >[!NOTE]
 >
->_[!UICONTROL 更新人员配置文件]_&#x200B;操作取代了当前Journey Optimizer B2B edition版本中的&#x200B;_[!UICONTROL 更改数据值]_&#x200B;操作。<br/>
+>_[!UICONTROL 更新人员配置文件]_&#x200B;操作取代了当前Journey Optimizer B2B Edition版本中的&#x200B;_[!UICONTROL 更改数据值]_&#x200B;操作。<br/>
 >
 >管理员可以通过更新&#x200B;_[!UICONTROL XDM配置]_ > _[!UICONTROL 标准类]_&#x200B;中的字段来配置XDM个人配置文件的可用属性。 有关详细信息，请参阅[标准架构](../admin/xdm-field-management.md#standard-schemas)。
 
@@ -308,7 +310,7 @@ Journey Optimizer B2B基于人员的操作旨在通过配置的渠道管理通�
 >
 >Marketo Engage操作需要配置与一个或多个外部Marketo Engage实例的集成。 若要查找有关此配置的详细信息，请参阅&#x200B;[_激活Marketo Engage连接以支持操作_](../admin/marketo-actions-connect.md)。
 
-例如，在Marketo Engage中禁止参与购买Journey Optimizer B2B edition群组的人员参与促销活动。 在这种情况下，您可以在Marketo Engage中专门为解决方案利益创建一个静态列表。 然后，在购买群的分割路径上，使用历程节点中的&#x200B;_添加到Marketo列表_&#x200B;操作。 此操作将购买组成员添加到连接的Marketo Engage实例中的特定静态列表。 然后，在Marketo Engage中将以解决方案兴趣为中心的静态列表用于智能列表筛选器。
+例如，在Marketo Engage中禁止参与购买Journey Optimizer B2B Edition中的群组的人员参与促销活动。 在这种情况下，您可以在Marketo Engage中专门为解决方案利益创建一个静态列表。 然后，在购买群的分割路径上，使用历程节点中的&#x200B;_添加到Marketo列表_&#x200B;操作。 此操作将购买组成员添加到连接的Marketo Engage实例中的特定静态列表。 然后，在Marketo Engage中将以解决方案兴趣为中心的静态列表用于智能列表筛选器。
 
 +++[!UICONTROL 添加到Marketo请求营销活动]
 

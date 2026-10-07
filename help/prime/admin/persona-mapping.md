@@ -2,13 +2,14 @@
 title: 角色映射
 description: 了解如何在Journey Optimizer B2B Prime中设置角色映射。 映射人员属性以定义角色，并在人员列表和人员历程中使用派生角色过滤。
 badge: label="GA" type="informative" tooltip="此功能在GA发布之前不可用"
-source-git-commit: d88ebb07186f488541138da23a276429b1f1994b
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 1%
-
 ---
-
 # 人物角色映射
 
 <!-- not available until GA -->

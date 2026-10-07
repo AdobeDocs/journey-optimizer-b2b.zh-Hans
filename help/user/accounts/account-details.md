@@ -1,30 +1,38 @@
 ---
 title: 帐户详细信息
-description: 在Journey Optimizer B2B edition中通过AI生成的摘要、意图检测、联系人覆盖范围分析和电子邮件通信查看帐户洞察。
+description: 在Journey Optimizer B2B Edition中通过AI生成的摘要、意图检测、联系人覆盖范围分析和电子邮件通信查看帐户洞察。
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
+autotag-review: 2026-03-27T22:20:55.565Z
+TQID: 'https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+subfeature_v2:
+  - id: aa03b4f9-8230-4f55-8705-d4fda6d64f2b
+    internal-label: Account insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-27T22:20:55.565Z
-TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 640
+source-wordcount: '640'
 ht-degree: 6%
-
 ---
-
 # 帐户详细信息
 
-当您在Journey Optimizer B2B edition的任何位置单击帐户名称时，都会显示&#x200B;_帐户详细信息_&#x200B;页面。 本页提供有关帐户的信息，包括创作AI摘要。 还有可为与该帐户关联的联系人执行的[操作](#send-email)。
+当您从Journey Optimizer B2B Edition中的任意位置单击帐户名称时，将显示&#x200B;_帐户详细信息_&#x200B;页面。 本页提供有关帐户的信息，包括创作AI摘要。 还有可为与该帐户关联的联系人执行的[操作](#send-email)。
 
 ![访问帐户详细信息](./assets/account-details.png){width="700" zoomable="yes"}
 
@@ -49,7 +57,7 @@ ht-degree: 6%
 
 ### 意图数据
 
-在Journey Optimizer B2B edition中，意图检测模型根据帐户联系活动预测具有足够高置信度的感兴趣解决方案/产品。 帐户联系人的意图可以解释为对产品感兴趣的可能性。
+在Journey Optimizer B2B Edition中，意图检测模型根据客户联系活动预测具有足够高置信度的感兴趣解决方案/产品。 帐户联系人的意图可以解释为对产品感兴趣的可能性。
 
 {{intent-data-note}}
 

@@ -1,35 +1,44 @@
 ---
 title: 使用GenStudio for Performance Marketing创建电子邮件内容
-description: 将GenStudio for Performance Marketing与Journey Optimizer B2B edition集成 — 导出HTML、创建支持AI的电子邮件体验和导入品牌内容。
+description: 将GenStudio for Performance Marketing与Journey Optimizer B2B Edition集成 — 导出HTML、创建支持AI的电子邮件体验和导入品牌内容。
 feature: Email Authoring, Content, Integrations
 topic: Content Supply Chain
 level: Intermediate
 role: User
 badge: label="限量发布版" type="Informative"
 exl-id: 13f45e8f-9d49-4ec2-90ef-689475c629f1
+autotag-review: 2026-03-30T22:24:40.416Z
+TQID: 'https://experienceleague.adobe.com/lFx0KVsrjM7aGFX8-N3lSvqWKvsd2JaK2tOa7QJyjtQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
-autotag-review: 2026-03-30T22:24:40.416Z
-TQID: https://experienceleague.adobe.com/lFx0KVsrjM7aGFX8-N3lSvqWKvsd2JaK2tOa7QJyjtQ
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+    internal-label: Content production
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 857
+source-wordcount: '857'
 ht-degree: 10%
-
 ---
-
 # 使用 GenStudio for Performance Marketing 创建电子邮件内容 {#genstudio-workflow}
 
 >[!CONTEXTUALHELP]
@@ -43,9 +52,9 @@ ht-degree: 10%
 >
 >此集成仅适用于电子邮件渠道。
 
-为了提高工作流效率并维护品牌一致性，您可以将GenStudio for Performance Marketing体验与Adobe Journey Optimizer B2B edition电子邮件编排相结合。 通过这个扩展的工作流，您可以利用GenStudio中由AI支持的内容创建工具，通过帐户历程扩展并最大化电子邮件通信。
+为了提高工作流效率并维护品牌一致性，您可以将GenStudio for Performance Marketing体验与Adobe Journey Optimizer B2B Edition电子邮件编排相结合。 通过这个扩展的工作流，您可以利用GenStudio中由AI支持的内容创建工具，通过帐户历程扩展并最大化电子邮件通信。
 
-例如，使用Journey Optimizer B2B edition开发和自动化关键帐户的电子邮件通信的技术营销人员可以与使用GenStudio创建内容的性能营销人员协作。 借助此工作流程，两者可以协作将GenStudio中的品牌内内容合并到Journey Optimizer B2B edition基于帐户的营销自动化中，从而提供针对特定购买群体并提高销售额的吸引型电子邮件。
+例如，使用Journey Optimizer B2B Edition开发和自动化关键帐户的电子邮件通信的技术营销人员可以与使用GenStudio创建内容的性能营销人员协作。 借助此工作流，两者可以共同将GenStudio中的品牌内内容整合到Journey Optimizer B2B Edition基于帐户的营销自动化中，从而提供针对特定购买群体并提高销售额的吸引型电子邮件。
 
 >[!BEGINSHADEBOX]
 
@@ -59,11 +68,11 @@ ht-degree: 10%
 
 >[!ENDSHADEBOX]
 
-## 从Journey Optimizer B2B edition导出HTML
+## 从Journey Optimizer B2B Edition导出HTML
 
-首先，在Journey Optimizer B2B edition中，从包含品牌准则的电子邮件中导出HTML。
+首先，在Journey Optimizer B2B Edition中，从包含品牌准则的电子邮件中导出HTML。
 
-1. 在Journey Optimizer B2B edition中，在可视设计空间中访问电子邮件的内容。
+1. 在Journey Optimizer B2B Edition中，在可视设计空间中访问电子邮件的内容。
 
 1. 从电子邮件设计空间顶部的&#x200B;_[!UICONTROL 更多……]_&#x200B;菜单中，选择&#x200B;**[!UICONTROL 导出HTML]**。
 
@@ -99,15 +108,15 @@ ht-degree: 10%
 
 有关生成品牌电子邮件体验的详细信息，请参阅GenStudio for Performance Marketing文档中的[创建电子邮件体验](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience)。
 
-## 将生成的电子邮件体验添加到Journey Optimizer B2B edition
+## 将生成的电子邮件体验添加到Journey Optimizer B2B Edition
 
 >[!NOTE]
 >
 >GenStudio for Performance Marketing集成仅适用于创建电子邮件，而不能用于创建电子邮件模板。
 
-要使用从导出的GenStudio B2B edition电子邮件HTML文件创建的Journey Optimizer电子邮件变体，请执行以下步骤：
+要使用从导出的GenStudio电子邮件HTML文件创建的Journey Optimizer B2B Edition电子邮件变体，请执行以下步骤：
 
-1. 在Journey Optimizer B2B edition中，[使用&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点，将电子邮件](./add-email.md)添加到帐户历程。
+1. 在Journey Optimizer B2B Edition中，[使用&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点，将电子邮件](./add-email.md)添加到帐户历程。
 
    * 对于&#x200B;_目标上的_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
 
@@ -115,7 +124,7 @@ ht-degree: 10%
 
      ![执行操作 — 发送电子邮件](./assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
-   * 对于&#x200B;_[!UICONTROL 电子邮件源]_，请选择&#x200B;**[!UICONTROL 新建电子邮件]**，以便在Journey Optimizer B2B edition中以本机方式创建电子邮件。
+   * 对于&#x200B;_[!UICONTROL 电子邮件源]_，请选择&#x200B;**[!UICONTROL 新建电子邮件]**&#x200B;以在Journey Optimizer B2B Edition中以本机方式创建电子邮件。
 
 1. 在&#x200B;_创建电子邮件_&#x200B;页面上，选择&#x200B;**[!UICONTROL 导入HTML]**。
 
@@ -133,7 +142,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >从GenStudio B2B edition或Journey Optimizer模板创建的Marketo Engage体验直接导入电子邮件设计空间。 在没有Journey Optimizer B2B edition模板的情况下创建的体验将导入兼容模式。
+   >从GenStudio或Journey Optimizer B2B Edition模板创建的Marketo Engage体验直接导入电子邮件设计空间。 在没有Journey Optimizer B2B Edition模板的情况下创建的体验会导入到兼容模式下。
 
 1. 使用[电子邮件内容和个性化工具](./email-authoring.md)根据需要编辑并保存电子邮件。
 

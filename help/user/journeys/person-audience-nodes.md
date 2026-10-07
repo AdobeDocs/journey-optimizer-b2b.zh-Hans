@@ -1,31 +1,35 @@
 ---
 title: 人员受众节点
-description: 使用区段或基于事件的受众配置人员受众节点，以在Journey Optimizer B2B edition中为目标编排定义人员历程入口点。
+description: 使用基于区段或事件的受众配置人员受众节点，以在Journey Optimizer B2B Edition中为有针对性的编排定义人员历程入口点。
 feature: Audiences
 role: User
-badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: 8d4785cd-87f0-4548-9aba-fa18165b0f45
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+    internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: 2026-03-30T23:13:05.616Z
 TQID: https://experienceleague.adobe.com/b6m294dcpyV34TMoZgOGL6Wft1mI7j4c5IcMhUnG4qE
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 5e05bba998a9c322487bd68b41e0539074a7000d
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 1%
-
+source-wordcount: '641'
+ht-degree: 0%
 ---
-
 # 人员受众历程节点
 
 _人员受众_&#x200B;节点指定哪些人员配置文件进入历程。 当您[创建人员历程](./create-publish-journey.md#create-a-journey)时，该历程始终以定义其输入的人员受众节点开始。 人员受众节点可以具有以下两种受众输入类型之一：CDP区段或基于事件的成员资格。 无法组合区段定义和基于事件的受众定义。
@@ -36,13 +40,9 @@ _人员受众_&#x200B;节点指定哪些人员配置文件进入历程。 当您
 
 * **事件受众** — 使用符合条件的事件来定义受众。 这些事件是在节点配置中定义的，必须使用在管理设置[&#128279;](../admin/configure-aep-events.md)中配置的XDM事件。 基于事件的受众成员资格支持最多10个事件。 用户档案在其用户档案接受的第一个匹配事件之后，立即符合历程的条件。
 
-  >[!NOTE]
-  >
-  >事件不能与配置文件属性结合使用，以缩小受众定义的范围。 计划在未来版本中针对此限制进行改进。
-
 ## 轮廓摄取
 
-在Journey Optimizer B2B edition中，夜间受众摄取任务会将配置文件与Experience Platform同步。 基于事件的人员历程可以确定不在Journey Optimizer B2B edition使用的受众中的用户档案，但这些用户档案仍然会过时，除非它们加入人员历程、帐户历程或购买团体使用的受众。 如果摄取某个配置文件后将其添加到受众，则会执行配置文件拼接，并且配置文件会与Experience Platform保持同步。 计划在未来版本中改进此配置文件数据同步。
+在Journey Optimizer B2B Edition中，夜间受众摄取任务会将配置文件与Experience Platform同步。 基于事件的人员历程可以确定不在Journey Optimizer B2B Edition使用的受众中的用户档案，但这些用户档案仍然会过时，除非它们加入人员历程、帐户历程或购买团体使用的受众。 如果摄取某个配置文件后将其添加到受众，则会执行配置文件拼接，并且配置文件会与Experience Platform保持同步。 计划在未来版本中改进此配置文件数据同步。
 
 基于事件的人员历程摄取的新创建的用户档案可能缺少摄取时更新的用户档案信息。 例如，如果配置文件通过表单填写事件创建，则提交的数据在历程摄取时可能不会同步到配置文件。 结果可能是用于个性化的数据不完整（如电子邮件内容中的数据）。 计划在未来版本中改进此配置文件事件数据同步。
 
@@ -50,7 +50,7 @@ _人员受众_&#x200B;节点指定哪些人员配置文件进入历程。 当您
 
 >[!IMPORTANT]
 >
->在当前的测试版计划中，人员历程的理想用途是仅限定您还在帐户历程和购买组定义中定位的用户档案。 此用法可确保完整的配置文件与Experience Platform保持同步。
+>人员历程的理想用途是仅限定您还在帐户历程和购买群组定义中定位的用户档案。 此用法可确保完整的配置文件与Experience Platform保持同步。
 
 ## 设置人员受众节点的受众
 

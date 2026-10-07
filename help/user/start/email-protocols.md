@@ -4,32 +4,42 @@ description: 配置电子邮件传递协议——设置 DNS、SPF、DKIM、DMARC
 feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806
+autotag-review: 2026-03-30T23:06:01.153Z
+TQID: 'https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: 2026-03-30T23:06:01.153Z
-TQID: https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+    internal-label: Cross channel delivery
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2303
+source-wordcount: '2303'
 ht-degree: 79%
-
 ---
-
 # 设置电子邮件跟踪和投放
 
 Adobe Journey Optimizer B2B Edition 利用附加的 Marketo Engage 实例中的电子邮件频道功能和事件跟踪。 某些组织使用限制性的防火墙或代理服务器设置。 要确保电子邮件投放对这些组织按预期工作，系统管理员必须将某些域和IP地址范围添加到。
 
-确保将以下域（包括星号）添加到允许列表中，以启用所有 Marketo Engage 资源和 web sockets：
+确保将以下域（包括星号）添加到允许列表中，以启用所有 Marketo Engage 资源和 Web 套接字：
 
 * `*.experience.adobe.com`
 * `*.adobe.net`
@@ -222,11 +232,11 @@ DMARC 有两种对齐方式：
 
 >[!BEGINSHADEBOX]
 
-**将专用IP迁移到Journey Optimizer B2B edition**
+**将专用IP迁移到Journey Optimizer B2B Edition**
 
 如果您有专用IP，则必须在与现有Journey Optimizer实例相同的区域创建新的Marketo Engage B2B edition实例。 如果新实例位于不同的区域，则无法共享现有IP。 如果区域匹配，请打开具有[Adobe支持](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support){target="_blank"}的票证，并请求将现有IP和绑定组与新实例共享。 提供您的Marketo Engage前缀(Munchkin ID)和新的Journey Optimizer B2B edition前缀(Munchkin ID)。
 
-通过此请求，Adobe会复制与现有Marketo Engage实例相同的IP、绑定组和配置的返回路径域。 在Marketo Engage实例和Journey Optimizer B2B edition实例之间共享IP时，两个实例会同时使用它们。
+通过此请求，Adobe会复制与现有Marketo Engage实例相同的IP、绑定组和配置的返回路径域。 在Marketo Engage实例和Journey Optimizer B2B Edition实例之间共享IP时，两个实例会同时使用它们。
 
 >[!ENDSHADEBOX]
 

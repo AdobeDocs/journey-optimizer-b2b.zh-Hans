@@ -1,33 +1,39 @@
 ---
 title: 历程管理
-description: 通过历程简化需求生成 — 在Journey Optimizer B2B edition中跨电子邮件、短信和事件创建、发布和管理购买团体参与。
+description: 通过历程简化需求生成 — 在Journey Optimizer B2B Edition中跨电子邮件、短信和事件创建、发布和管理购买团体参与。
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
+autotag-review: 2026-03-30T23:09:32.398Z
+TQID: 'https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-autotag-review: 2026-03-30T23:09:32.398Z
-TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+    internal-label: Customer journeys
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1308
+source-wordcount: '1308'
 ht-degree: 45%
-
 ---
-
 # 历程管理
 
-在Journey Optimizer B2B edition中，历程是基于商机的自动多步客户营销计划，可跨渠道编排个性化体验，以响应参与、业务事件或计划的营销活动。 定义包括电子邮件、短信等在内的销售驱动型参与，以将入站营销与每个购买组成员的出站销售活动协调起来。
+在Journey Optimizer B2B Edition中，历程是基于商机的自动多步客户营销计划，可跨渠道编排个性化体验，以响应参与、业务事件或计划的营销活动。 定义包括电子邮件、短信等在内的销售驱动型参与，以将入站营销与每个购买组成员的出站销售活动协调起来。
 
-Journey Optimizer B2B edition支持两种历程类型：
+Journey Optimizer B2B Edition支持两种历程类型：
 
 * **客户历程** — 简化需求生成和购买团体资格认证，并为您的收购、追加销售/交叉销售和保留计划带来更多符合条件的需求。 通过电子邮件、短信、活动等自动参与方式，为每个购买群组和购买群组成员定制历程。
 
@@ -116,7 +122,7 @@ Journey Optimizer B2B edition支持两种历程类型：
 
 ## 历程操作
 
-历程列表页面包含您的Journey Optimizer B2B edition实例中的所有帐户或人员历程。 从列表页面，您可以将多个操作应用到历程。
+历程列表页面包含Journey Optimizer B2B Edition实例中的所有帐户或人员历程。 从列表页面，您可以将多个操作应用到历程。
 
 ### 中止历程
 

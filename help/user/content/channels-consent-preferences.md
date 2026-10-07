@@ -1,41 +1,54 @@
 ---
 title: 同意渠道消息传递
-description: 了解Journey Optimizer B2B edition如何读取AEP XDM配置文件同意首选项，以及如何在电子邮件、短信和WhatsApp渠道的消息投放时强制选择启用和选择禁用。
+description: 了解Journey Optimizer B2B Edition如何读取AEP XDM配置文件同意首选项，以及如何在电子邮件、短信和WhatsApp渠道的消息投放时强制选择启用和选择禁用。
 feature: Setup, Channels
 role: Admin, User
 autotag-review: '2026-05-19T16:18:37.228Z'
 TQID: 'https://experienceleague.adobe.com/-c0dJnpfiIcj0B5gViyEQ7E1Ws0BwP864OLF003rOjw'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
   - id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
+    internal-label: SMS channel
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+    internal-label: Privacy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: '415'
 ht-degree: 1%
-
 ---
-
 # 同意渠道消息传递
 
-Adobe Journey Optimizer B2B edition读取存储在Adobe Experience Platform XDM配置文件中的个人同意偏好设置，并在消息投放时强制执行这些偏好设置，作为应用程序的[治理控制](../admin/governance.md)的一部分。 在从渠道或下游消息提供商发送内容之前，会从投放中排除选择退出渠道的人员。
+Adobe Journey Optimizer B2B Edition读取存储在Adobe Experience Platform XDM用户档案中的个人同意首选项，并在消息投放时强制执行这些首选项，作为应用程序的[治理控制](../admin/governance.md)的一部分。 在从渠道或下游消息提供商发送内容之前，会从投放中排除选择退出渠道的人员。
 
-以下部分介绍Journey Optimizer B2B edition如何在消息发送时评估每个受支持渠道的同意情况。
+以下部分介绍Journey Optimizer B2B Edition如何在消息发送时评估每个受支持渠道的同意。
 
 ## 电子邮件 {#email}
 
-在[电子邮件渠道](../admin/configure-channels-emails.md)上发送消息时，Journey Optimizer B2B edition会评估以下XDM属性以获得电子邮件同意：
+在[电子邮件渠道](../admin/configure-channels-emails.md)上发送消息时，Journey Optimizer B2B Edition会评估以下XDM属性以获得电子邮件同意：
 
 | XDM属性 | `y` | `n` | 无值 |
 | --- | --- | --- | --- |
@@ -50,7 +63,7 @@ Adobe Journey Optimizer B2B edition读取存储在Adobe Experience Platform XDM�
 
 ## 短信 {#sms}
 
-通过[SMS渠道](../admin/configure-channels-sms.md)发送消息时，Journey Optimizer B2B edition会评估以下XDM属性以获得SMS同意：
+通过[SMS渠道](../admin/configure-channels-sms.md)发送消息时，Journey Optimizer B2B Edition会评估以下XDM属性以获得SMS同意：
 
 | XDM属性 | `y` | `n` | 无值 |
 | --- | --- | --- | --- |
@@ -67,7 +80,7 @@ Adobe Journey Optimizer B2B edition读取存储在Adobe Experience Platform XDM�
 
 ## WhatsApp {#whatsapp}
 
-通过配置的[WhatsApp渠道](../admin/configure-channels-whatsapp.md)发送消息时，Journey Optimizer B2B edition会根据WhatsApp同意评估以下XDM属性：
+通过配置的[WhatsApp渠道](../admin/configure-channels-whatsapp.md)发送消息时，Journey Optimizer B2B Edition会根据WhatsApp同意评估以下XDM属性：
 
 | XDM属性 | `y` | `n` | 无值 |
 | --- | --- | --- | --- |
@@ -82,7 +95,7 @@ Adobe Journey Optimizer B2B edition读取存储在Adobe Experience Platform XDM�
 
 ## 不受支持 {#not-supported}
 
-Journey Optimizer B2B edition当前不支持以下与同意相关的功能：
+Journey Optimizer B2B Edition当前不支持以下与同意相关的功能：
 
 * AEP同意政策
 * 营销首选属性(`consents.marketing.preferred`)

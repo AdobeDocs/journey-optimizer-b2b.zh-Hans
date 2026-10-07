@@ -1,29 +1,33 @@
 ---
 title: 导出帐户
-description: 将筛选的帐户列表导出为 CSV 文件，供 Journey Optimizer B2B Edition 中配备购买群组和参与度评分过滤器的第三方平台使用。
+description: 在 Journey Optimizer B2B Edition 中，使用购买群组和参与度评分过滤器将筛选后的帐户列表导出为 CSV 文件，以供第三方平台使用。
 feature: Audiences
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
+autotag-review: 2026-03-30T19:51:33.392Z
+TQID: 'https://experienceleague.adobe.com/fvkVLjO9oIF7hOuoqdSS-jU4wAvsrPnKp1fIabH-Ewk'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e935834c-48b7-43d8-b754-a815196a1b05
+    internal-label: Account lists
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-autotag-review: 2026-03-30T19:51:33.392Z
-TQID: https://experienceleague.adobe.com/fvkVLjO9oIF7hOuoqdSS-jU4wAvsrPnKp1fIabH-Ewk
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Beginner
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 261
+source-wordcount: '261'
 ht-degree: 100%
-
 ---
-
 # 导出帐户
 
-使用&#x200B;_导出帐户_&#x200B;功能可以根据您定义的筛选方式导出所有帐户或一组帐户。 导出过程会生成一个 CSV 文件，并在脉冲通知中发送已保存文件的 URL。 您可以在需要时使用此功能将帐户转移到第三方平台。
+使用&#x200B;_导出帐户_&#x200B;功能可以根据您定义的筛选方式导出所有帐户或一组帐户。 导出过程会生成一个 CSV 文件，并在 Pulse 通知中发送已保存文件的 URL。 您可以在需要时使用此功能将帐户转移到第三方平台。
 
 1. 在 Journey Optimizer B2B Edition 中，前往左侧导航栏中的&#x200B;**[!UICONTROL 帐户]** > **[!UICONTROL 购买群组]**。
 
@@ -49,6 +53,6 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >如果您在 Adobe 用户帐户偏好设置中设置了电子邮件通知订阅，则可能发送电子邮件通知。
+   >如果您在 Adobe 用户帐户偏好设置中设置了电子邮件通知订阅，则该通知可能是电子邮件通知。
 
    应用程序页面会重定向到&#x200B;_购买群组_&#x200B;浏览选项卡，系统保存文件对话框会提示您将文件保存到系统。 如果您需要共享数据，可以使用团队的文件共享系统。

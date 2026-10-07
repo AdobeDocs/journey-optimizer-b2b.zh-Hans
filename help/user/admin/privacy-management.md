@@ -1,27 +1,34 @@
 ---
 title: 隐私管理
-description: 了解如何在Journey Optimizer B2B edition中遵守GDPR、CCPA和其他隐私法规，并使用Adobe Privacy Service提交请求。
+description: 了解如何遵守Journey Optimizer B2B Edition中的GDPR、CCPA和其他隐私法规，并使用Adobe Privacy Service提交请求。
 feature: Setup, Permissions
 role: Admin
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
+  - id: bd42eee1-e206-4826-91ea-88dc726d858e
+    internal-label: Permissions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cdc9cc5c55d961d1f685c32a5e55f755ad1cdd57
+    internal-label: Privacy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 634
+source-wordcount: '634'
 ht-degree: 5%
-
 ---
-
 
 # 隐私管理 {#privacy-management}
 
-[Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/home){target="_blank"}提供RESTful API和用户界面，帮助您管理客户数据请求。 借助[!DNL Adobe Privacy Service]，您可以提交访问和删除Adobe CX Enterprise应用程序中的个人客户数据的请求，从而促进自动遵守法律和组织隐私法规。
+[Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/home){target="_blank"}提供RESTful API和用户界面，帮助您管理客户数据请求。 借助[!DNL Adobe Privacy Service]，您可以提交从Adobe CX Enterprise应用程序访问和删除个人客户数据的请求，从而促进自动遵守法律和组织隐私法规。
 
 [!DNL Adobe Journey Optimizer B2B Edition]提供了这些隐私工具，以便您满足全局数据保护要求。 使用[!DNL Privacy Service]提交和管理[!DNL Journey Optimizer B2B Edition]收集和存储的数据的访问和删除请求。
 
@@ -85,7 +92,7 @@ ht-degree: 5%
 
 1. 对于&#x200B;**[!UICONTROL 产品]**，请选择&#x200B;**[!UICONTROL Marketo]**。
 
-   ![为Marketo Engage和Journey Optimizer B2B edition创建GDPR访问隐私请求](./assets/privacy-request-create-gdpr.png){width="450" zoomable="yes"}
+   ![为Marketo Engage和Journey Optimizer B2B Edition创建GDPR访问隐私请求](./assets/privacy-request-create-gdpr.png){width="450" zoomable="yes"}
 
    此选择包括来自[!DNL Journey Optimizer B2B Edition]和您的[!DNL Marketo Engage]实例的数据。
 

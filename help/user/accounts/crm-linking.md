@@ -5,31 +5,39 @@ feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
 exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
+autotag-review: 2026-03-27T22:24:19.286Z
+TQID: 'https://experienceleague.adobe.com/RDQfNrEzuGj-swuRpEkHCgQZexhN-B7p0Ck8PyM1lX0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+    internal-label: Sales Experience
+subfeature_v2:
+  - id: d918a333-f043-4717-886b-aefeef1f8267
+    internal-label: Sales insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: addf009e-030a-4310-8534-776a3e62ed48
-autotag-review: 2026-03-27T22:24:19.286Z
-TQID: https://experienceleague.adobe.com/RDQfNrEzuGj-swuRpEkHCgQZexhN-B7p0Ck8PyM1lX0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Customer lifecycle
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1470
+source-wordcount: '1470'
 ht-degree: 2%
-
 ---
-
 # CRM 内访问详细信息页面
 
-Adobe Journey Optimizer B2B edition允许销售和客户团队成员直接从他们的客户关系管理(CRM)工具（如Salesforce或Microsoft Dynamics）访问有关帐户和购买群组信息的详细页面。 利用此集成，销售代表可以快速访问实时帐户和购买群组洞察，例如参与历史记录、意图信号和AI生成的推荐。 这一能力使销售团队能够更快地开展外联工作，更明智地确定优先顺序，更好地与营销部门保持一致。
+Adobe Journey Optimizer B2B Edition允许销售和客户团队成员直接从他们的客户关系管理(CRM)工具（如Salesforce或Microsoft Dynamics）访问有关帐户和购买群组信息的详细页面。 利用此集成，销售代表可以快速访问实时帐户和购买群组洞察，例如参与历史记录、意图信号和AI生成的推荐。 这一能力使销售团队能够更快地开展外联工作，更明智地确定优先顺序，更好地与营销部门保持一致。
 
-要使销售和帐户团队成员能够从CRM中查看Journey Optimizer B2B edition中的[帐户详细信息](account-details.md)和[人员详细信息](person-details.md)页面，Salesforce或Dynamics管理员可以从帐户、联系人或潜在客户视图添加链接。
+要使销售和帐户团队成员能够从CRM中查看Journey Optimizer B2B Edition中的[帐户详细信息](account-details.md)和[人员详细信息](person-details.md)页面，Salesforce或Dynamics管理员可以从帐户、联系人或潜在客户视图添加链接。
 
 当销售团队成员使用CRM实例中的链接时，沙盒应为&#x200B;_Prod_，并根据以下顺序逻辑确定IMS组织：
 
@@ -39,7 +47,7 @@ Adobe Journey Optimizer B2B edition允许销售和客户团队成员直接从他
 
 ## Salesforce链接
 
-具有&#x200B;_自定义应用程序_&#x200B;权限的Salesforce管理员可以在“帐户”、“联系人”或“潜在客户”布局中配置链接。 通过配置的链接，销售用户能够访问Adobe Journey Optimizer B2B edition中相应的帐户详细信息或人员详细信息页面。
+具有&#x200B;_自定义应用程序_&#x200B;权限的Salesforce管理员可以在“帐户”、“联系人”或“潜在客户”布局中配置链接。 通过配置的链接，Sales用户可以访问Adobe Journey Optimizer B2B Edition中相应的帐户详细信息或人员详细信息页面。
 
 在Salesforce中，将自定义链接添加为按钮、超链接或链接图标，并根据您团队的偏好对其进行自定义。
 
@@ -47,7 +55,7 @@ Salesforce中的![自定义链接](./assets/crm-linking-sfdc-account-examples.pn
 
 有关在Salesforce中添加自定义链接的详细信息，请参阅Salesforce文档中的[定义自定义按钮和链接](https://help.salesforce.com/s/articleView?id=platform.defining_custom_links.htm&type=5)。
 
-定义链接的目标URL时，您可以使用帐户、联系人或潜在客户布局，并将其链接到Journey Optimizer B2B edition中对应的详细信息页面：
+定义链接的目标URL时，您可以使用帐户、联系人或潜在客户布局并将其链接到Journey Optimizer B2B Edition中相应的详细信息页面：
 
 * **帐户** - `https://experience.adobe.com/#/journey-optimizer-b2b/accounts/crm/account/[18-character ID of account]`
 
@@ -130,7 +138,7 @@ Salesforce中的![自定义链接](./assets/crm-linking-sfdc-account-examples.pn
 
 ## Microsoft Dynamics链接
 
-Dynamics开发人员可以扩展Account、Contact或Lead实体以添加链接字段。 通过配置的链接，销售用户能够访问Adobe Journey Optimizer B2B edition中相应的帐户详细信息或人员详细信息页面。
+Dynamics开发人员可以扩展Account、Contact或Lead实体以添加链接字段。 通过配置的链接，Sales用户可以访问Adobe Journey Optimizer B2B Edition中相应的帐户详细信息或人员详细信息页面。
 
 将自定义链接添加为按钮、超链接或链接图标链接，并根据您团队的偏好对其进行自定义。
 
@@ -138,7 +146,7 @@ Dynamics中的![自定义链接](./assets/crm-linking-dynamics-account-examples.
 
 使用Power Apps自定义Microsoft模型驱动应用程序，例如Dynamics组件。 有关使用Power Apps在Dynamics中添加自定义链接的详细信息，请参阅[PowerApps文档](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/create-edit-web-resources)。
 
-定义链接的目标URL时，您可以使用帐户、联系人或潜在客户视图，并将其链接到Journey Optimizer B2B edition中相应的详细信息页面：
+定义链接的目标URL时，您可以使用帐户、联系人或潜在客户视图，并将其链接到Journey Optimizer B2B Edition中相应的详细信息页面：
 
 * **帐户** - `https://experience.adobe.com/#/journey-optimizer-b2b/accounts/crm/account/[Account ID]`
 

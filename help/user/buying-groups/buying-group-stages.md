@@ -1,29 +1,36 @@
 ---
 title: 购买组阶段
-description: 在Journey Optimizer B2B edition中构建具有进入、成功和失败阶段的自定义购买组阶段模型，以跟踪进展并触发帐户历程操作。
+description: 在Journey Optimizer B2B Edition中构建具有进入、成功和失败阶段的自定义购买组阶段模型，以跟踪进展并触发客户历程操作。
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
+autotag-review: 2026-03-30T21:47:43.205Z
+TQID: 'https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d9b663ab-b785-4c49-8fc3-d3dda520c908
-autotag-review: 2026-03-30T21:47:43.205Z
-TQID: https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Automated decisioning
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2326
+source-wordcount: '2326'
 ht-degree: 2%
-
 ---
-
 # 购买群组阶段
 
 购买组阶段旨在跟踪购买组在将机会转化为客户方面的进度。 使用此功能跟踪购买团体进度，并确定适合购买团体成员的下一个最佳操作。
@@ -42,7 +49,7 @@ ht-degree: 2%
 * 定义过渡流
 * 指定登入阶段和目标阶段
 
-仅支持一个模型；要规划最佳模型，请先与您的营销和销售团队合作，然后再在Journey Optimizer B2B edition中创建和发布该模型。<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
+仅支持一个模型；要规划最佳模型，请先与您的营销和销售团队合作，然后再在Journey Optimizer B2B Edition中创建和发布该模型。<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
 
 创建购买组阶段模型时，该模型会自动处于&#x200B;_草稿_&#x200B;状态，不能删除或重新命名。 当您定义阶段并配置阶段之间的转换流时，它仍保持此状态。 当模型处于已发布（_实时_）状态时，无法对其进行更改。
 

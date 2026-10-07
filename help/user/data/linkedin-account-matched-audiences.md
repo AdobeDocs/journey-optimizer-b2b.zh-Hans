@@ -4,42 +4,50 @@ description: 了解如何连接LinkedIn帐户并为帐户成员激活数据流�
 feature: Integrations, Audiences, Buying Groups
 role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
+autotag-review: 2026-03-30T22:49:08.608Z
+TQID: 'https://experienceleague.adobe.com/rFBH54jR-xCWenpoD13UzmONLdKn9WLdtNdTCtgQNbQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: 2026-03-30T22:49:08.608Z
-TQID: https://experienceleague.adobe.com/rFBH54jR-xCWenpoD13UzmONLdKn9WLdtNdTCtgQNbQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Cross channel delivery
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: '1015'
 ht-degree: 14%
-
 ---
-
 # LinkedIn帐户匹配的受众
 
 [!DNL Journey Optimizer B2B Edition]提供通过帐户匹配受众生成LinkedIn广告受众的功能，旨在帮助您在购买群组中填充空角色。 通过定义一组购买群组过滤器，您可以维护 LinkedIn 匹配的受众，定位与您的购买群组参数相匹配的潜在客户。 您还可以从&#x200B;_执行操作_&#x200B;节点的帐户历程激活受众。
 
 此功能利用 Experience Platform Destinations 来管理集成的某些方面。 数据流上限为10个。
 
-在从Journey Optimizer B2B edition启动数据流之前，必须至少有一个[（公司） LinkedIn匹配的受众目标连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}的实例具有在Experience Platform应用程序中配置的LinkedIn营销活动管理器帐户。
+在从Journey Optimizer B2B Edition启动数据流之前，必须至少有一个[（公司） LinkedIn匹配的受众目标连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}的实例具有在Experience Platform应用程序中配置的LinkedIn营销活动管理器帐户。
 
 ## 配置新的 LinkedIn 帐户连接 {#linkedin-destination-setup}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_linkedin_destination_setup"
 >title="需要设置 LinkedIn 目标"
->abstract="将按购买群组过滤的帐户发送到 Linkedin 目标，以便与潜在的购买群组成员参与。 您可以为 10 个不同的过滤帐户组创建最多 10 个数据流。 要开始使用此功能，请先添加 Linkedin 目标。"
+>abstract="将按购买群组过滤的帐户发送到 Linkedin 目标，以便与潜在的购买群组成员互动。 您可以为 10 个不同的过滤帐户组创建最多 10 个数据流。 要开始使用此功能，请先添加 Linkedin 目标。"
 
 1. 在Experience Platform中，转到左侧导航栏中的&#x200B;**[!UICONTROL 连接]** > **[!UICONTROL 目标]**，然后选择&#x200B;**[!UICONTROL 目录]**&#x200B;选项卡。
 
@@ -69,7 +77,7 @@ ht-degree: 14%
 
 ## 更新帐户详细信息
 
-LinkedIn帐户的名称和描述对Journey Optimizer B2B edition中的购买群组可见。 最佳实践是更新此信息，以便与购买群组一起工作的营销人员能够轻松识别此信息。 您可以在Experience Platform或Journey Optimizer B2B edition UI中更改帐户详细信息。
+LinkedIn帐户的名称和描述对Journey Optimizer B2B Edition中的购买群组可见。 最佳实践是更新此信息，以便与购买群组一起工作的营销人员能够轻松识别此信息。 您可以在Experience Platform或Journey Optimizer B2B Edition UI中更改帐户详细信息。
 
 1. 在左侧导航中转到&#x200B;**[!UICONTROL 连接]** > **[!UICONTROL 目标]**，然后选择&#x200B;**[!UICONTROL 帐户]**&#x200B;选项卡。
 
@@ -87,7 +95,7 @@ LinkedIn帐户的名称和描述对Journey Optimizer B2B edition中的购买群�
 
 >[!NOTE]
 >
->如果您已有10个数据流，则无法创建另一个数据流。 如果达到最大数量，请先删除Experience Platform中的一个，然后再在Journey Optimizer B2B edition中创建新一个。
+>如果您已有10个数据流，则无法创建另一个数据流。 如果达到最大数量，请先删除Experience Platform中的一个，然后再在Journey Optimizer B2B Edition中创建新一个。
 
 1. 在 Journey Optimizer B2B Edition 中，前往左侧导航栏中的&#x200B;**[!UICONTROL 帐户]** > **[!UICONTROL 购买群组]**。
 

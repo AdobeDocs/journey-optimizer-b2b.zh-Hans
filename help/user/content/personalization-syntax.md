@@ -1,6 +1,6 @@
 ---
 title: 个性化语法
-description: 了解Journey Optimizer B2B edition中基于Handlebars的个性化语法，包括表达式、帮助程序、文本类型和格式规则。
+description: 了解Journey Optimizer B2B Edition中基于Handlebars的个性化语法，包括表达式、帮助程序、文本类型和格式规则。
 feature: Personalization, Content Design Tools
 topic: Personalization
 role: Developer
@@ -11,24 +11,31 @@ autotag-review: '2026-05-27T16:18:02.498Z'
 TQID: 'https://experienceleague.adobe.com/JWnXAAbCuZVLv4ZhWubpNsZ61xbYU7xtdOXkG9uoWis'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 361
+source-wordcount: '361'
 ht-degree: 3%
-
 ---
-
 # 个性化语法 {#personalization-syntax}
 
 [!DNL Journey Optimizer B2B Edition] [个性化编辑器](./personalization.md#personalization-editor)中的表达式基于&#x200B;_Handlebars_&#x200B;模板语法。 它使用模板和输入对象来生成HTML或其他文本格式。 Handlebars模板看起来像包含嵌入Handlebars表达式的常规文本。

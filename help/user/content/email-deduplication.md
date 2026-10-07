@@ -7,24 +7,34 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、重复数据删除、历程、复制
 exl-id: 93107acd-1cb2-4316-acfc-e32ab1e065ae
+autotag-review: 2026-03-30T22:08:16.582Z
+TQID: 'https://experienceleague.adobe.com/aWKXaC6x4Izeh81A6Fpy-Nrf18fHgnq6jUc-82ohErs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: 2026-03-30T22:08:16.582Z
-TQID: https://experienceleague.adobe.com/aWKXaC6x4Izeh81A6Fpy-Nrf18fHgnq6jUc-82ohErs
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 327
+source-wordcount: '327'
 ht-degree: 1%
-
 ---
-
 # 电子邮件重复数据删除
 
 要确保同一电子邮件不会在历程中多次发送到同一电子邮件地址，请在帐户历程中使用电子邮件重复数据删除。 启用此功能时，将阻止重复的电子邮件地址，直到使用该电子邮件地址的第一条记录完成历程。 帐户完成历程后，作为进入历程的新帐户的一部分，人员有资格再次接收电子邮件。

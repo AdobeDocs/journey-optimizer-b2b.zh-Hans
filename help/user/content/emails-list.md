@@ -1,36 +1,42 @@
 ---
 title: 电子邮件
-description: 通过搜索、过滤器和批量操作管理电子邮件库 — 在Journey Optimizer B2B edition中编辑内容、设置并测试历程外部的电子邮件。
+description: 通过搜索、过滤器和批量操作管理电子邮件库 — 在Journey Optimizer B2B Edition中编辑内容、设置并测试历程外的电子邮件。
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
+autotag-review: 2026-03-30T22:28:57.542Z
+TQID: 'https://experienceleague.adobe.com/mx0dF-BCApRTQ4KnMr-KnXHq27tWZa2oh-l9qFRLqlI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-autotag-review: 2026-03-30T22:28:57.542Z
-TQID: https://experienceleague.adobe.com/mx0dF-BCApRTQ4KnMr-KnXHq27tWZa2oh-l9qFRLqlI
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Email marketing
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 298
+source-wordcount: '298'
 ht-degree: 0%
-
 ---
-
 # 电子邮件
 
 当您[创建电子邮件](./add-email.md)时，将其添加到历程节点的上下文中。 如果要在历程图之外处理电子邮件内容，请使用&#x200B;_[!UICONTROL 电子邮件]_&#x200B;列表查找并更新电子邮件。 您可以查看电子邮件或更新设置和内容。
 
 ## 访问和管理电子邮件
 
-要在Adobe Journey Optimizer B2B edition中访问电子邮件，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 电子邮件]**。 此操作将打开一个列表页面，其中包含为实例创建的所有电子邮件，这些电子邮件在表中列出。
+要在Adobe Journey Optimizer B2B Edition中访问电子邮件，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 电子邮件]**。 此操作将打开一个列表页面，其中包含为实例创建的所有电子邮件，这些电子邮件在表中列出。
 
 默认情况下，该表按&#x200B;_[!UICONTROL 已修改]_&#x200B;列排序，最近更新的电子邮件位于顶部。 单击列标题可在升序和降序之间更改。
 

@@ -1,30 +1,36 @@
 ---
 title: 预览和测试您的电子邮件内容
-description: 在Journey Optimizer B2B edition中预览包含测试用户档案的电子邮件、检查桌面和移动设备渲染、向收件人发送验证并验证个性化。
+description: 在Journey Optimizer B2B Edition中预览包含测试用户档案的电子邮件、检查桌面和移动设备渲染、向收件人发送验证并验证个性化。
 feature: Email Authoring
 level: Beginner
 role: User
 exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
+autotag-review: 2026-03-30T22:31:50.715Z
+TQID: 'https://experienceleague.adobe.com/pwS-mF-KluJnQgXWXyxrflSsC8LuEoJm-eku9IHqgyQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-autotag-review: 2026-03-30T22:31:50.715Z
-TQID: https://experienceleague.adobe.com/pwS-mF-KluJnQgXWXyxrflSsC8LuEoJm-eku9IHqgyQ
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: '568'
 ht-degree: 7%
-
 ---
-
 # 预览和测试您的电子邮件内容 {#preview-simulate}
 
 >[!CONTEXTUALHELP]

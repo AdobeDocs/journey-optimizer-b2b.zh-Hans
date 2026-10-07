@@ -1,31 +1,40 @@
 ---
 title: 使用Adobe Express编辑图像
-description: 在Journey Optimizer B2B edition中使用Adobe Express以本机方式编辑图像 — 调整大小、裁切、删除背景、转换格式并保存到资源存储库。
+description: 在Journey Optimizer B2B Edition中使用Adobe Express以原生方式编辑图像 — 调整大小、裁切、删除背景、转换格式并保存到资源存储库。
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
+autotag-review: 2026-03-30T21:58:42.309Z
+TQID: 'https://experienceleague.adobe.com/-U1lp9chaRnq7nEKin-YnJUMYJbHQ8Q3KtF-PvaGwhA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
   - id: e66c61b1-1ca4-4c42-8df9-e5cb44b0555c
+    internal-label: Creative Cloud
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-autotag-review: 2026-03-30T21:58:42.309Z
-TQID: https://experienceleague.adobe.com/-U1lp9chaRnq7nEKin-YnJUMYJbHQ8Q3KtF-PvaGwhA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content and assets
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 860
+source-wordcount: '860'
 ht-degree: 4%
-
 ---
-
 # 使用 Adobe Express 编辑图像 {#edit-images-adobe-express}
 
 >[!CONTEXTUALHELP]
@@ -35,13 +44,13 @@ ht-degree: 4%
 
 [!DNL Adobe Journey Optimizer B2B Edition]与Adobe Express本机集成，使您能够访问一组[!DNL Adobe Express]图像编辑工具。 您可以使用这些工具来修改存储在[!DNL Journey Optimizer B2B Edition]资源存储库中的图像。 该集成具有以下主要优势：
 
-* 通过在Journey Optimizer B2B edition中编辑和保存新图像资源来提高内容重复使用率。
+* 通过在Journey Optimizer B2B Edition中编辑和保存新图像资源而增加内容重复使用。
 
 * 减少了更新图像资源或创建现有图像资源的新版本的时间和精力。
 
 >[!NOTE]
 >
->所有B2B edition订阅都包含Journey Optimizer编辑功能的权限。
+>所有Adobe Express订阅都包含Journey Optimizer B2B Edition编辑功能的权限。
 
 [!DNL Adobe Express]函数支持PNG和JPEG图像文件格式。
 
@@ -59,7 +68,7 @@ ht-degree: 4%
 
    * 要在所选文件夹中搜索图像资源，请在搜索栏中输入文本字符串。
 
-   ![浏览Journey Optimizer B2B edition存储库中的资源](./assets/assets-native-workspace-filtered.png){width="800" zoomable="yes"}
+   ![浏览Journey Optimizer B2B Edition存储库中的资源](./assets/assets-native-workspace-filtered.png){width="800" zoomable="yes"}
 
 1. 单击图像资源的名称以将其打开并查看其详细信息。
 
@@ -81,7 +90,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->必须在同一IMS组织下购买您的Adobe Express Enterprise许可证，才能从Journey Optimizer B2B edition访问这些完整的编辑器功能。 作为IMS组织的个人成员，您需要在Adobe Express实例中分配许可证。 否则，您的Adobe Express访问权限将被限制为Journey Optimizer B2B edition中针对Adobe Express[&#128279;](#quick-actions-in-adobe-express)的快速操作。
+>必须在同一IMS组织下购买您的Adobe Express企业许可证，才能从Journey Optimizer B2B Edition访问这些完整的编辑器功能。 作为IMS组织的个人成员，您需要在Adobe Express实例中分配许可证。 否则，您的Adobe Express访问权限将被限制为Journey Optimizer B2B Edition中针对Adobe Express[&#128279;](#quick-actions-in-adobe-express)的快速操作。
 
 ![在Adobe Express Enterprise编辑器中打开图像](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
@@ -101,7 +110,7 @@ ht-degree: 4%
 
    ![选择编辑类型以修改图像](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"}
 
-1. 返回主Adobe Express快速操作编辑器时，单击&#x200B;**[!UICONTROL 保存]**&#x200B;以使用相同的文件名将修改后的图像文件保存到Journey Optimizer B2B edition资源存储库中。
+1. 返回主Adobe Express快速操作编辑器时，单击&#x200B;**[!UICONTROL 保存]**&#x200B;以使用相同的文件名将修改后的图像文件保存到Journey Optimizer B2B Edition资源存储库中。
 
 ### 调整图像大小
 

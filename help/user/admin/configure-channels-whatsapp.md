@@ -1,33 +1,41 @@
 ---
 title: WhatsApp渠道设置
-description: 通过Meta的Cloud API连接您的WhatsApp Business帐户，以便在Journey Optimizer B2B edition帐户历程中启用WhatsApp消息传送。
+description: 通过Meta的Cloud API连接您的WhatsApp Business帐户，以便在Journey Optimizer B2B Edition帐户历程中启用WhatsApp消息传送。
 feature: Setup, Channels
 role: Admin
 exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: a7692144-1dc6-426f-b00f-fe187797f61d
+    internal-label: Deliverability
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: eec5558d6065501576a91097182201726020213c
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1515
+source-wordcount: '1515'
 ht-degree: 11%
-
 ---
-
 # WhatsApp渠道设置
 
-Adobe Journey Optimizer B2B edition通过Meta的Cloud API发送WhatsApp消息。 在营销人员创建帐户历程的WhatsApp消息之前，产品管理员必须配置WhatsApp渠道。
+Adobe Journey Optimizer B2B Edition通过Meta的Cloud API发送WhatsApp消息。 在营销人员创建帐户历程的WhatsApp消息之前，产品管理员必须配置WhatsApp渠道。
 
-适用于Journey Optimizer B2B edition的![WhatsApp任务流](./assets/whatsapp-flow-diagram.png)
+适用于Journey Optimizer B2B Edition的![WhatsApp任务流](./assets/whatsapp-flow-diagram.png)
 
 ## 先决条件
 
@@ -40,13 +48,13 @@ Adobe Journey Optimizer B2B edition通过Meta的Cloud API发送WhatsApp消息。
 
 >[!IMPORTANT]
 >
->您对WhatsApp消息传递服务的使用受Meta条款和条件的约束。 通过Journey Optimizer B2B edition访问WhatsApp消息传送，即表示您确认已查看并同意遵守[Meta WhatsApp业务政策](https://whatsappbusiness.com/policy/)。
+>您对WhatsApp消息传递服务的使用受Meta条款和条件的约束。 通过Journey Optimizer B2B Edition访问WhatsApp消息传送，即表示您确认已审阅并同意遵守[Meta WhatsApp业务政策](https://whatsappbusiness.com/policy/)。
 
 ## 限制 {#limitations}
 
 以下限制适用于 WhatsApp 渠道：
 
-* Adobe Journey Optimizer B2B edition **不符合HIPAA要求，并且不符合HIPAA要求**。 此外，第三方供应商不受Adobe BAA的约束。 客户需对合规性和供应商验证自行负责。
+* Adobe Journey Optimizer B2B Edition **不符合HIPAA要求，并且不符合HIPAA要求**。 此外，第三方供应商不受Adobe BAA的约束。 客户需对合规性和供应商验证自行负责。
 
 * 尚不支持自动或预定义的响应消息。
 
@@ -56,7 +64,7 @@ Adobe Journey Optimizer B2B edition通过Meta的Cloud API发送WhatsApp消息。
 
 ## 完成渠道配置
 
-在发送WhatsApp消息之前，必须配置Journey Optimizer B2B edition环境，并将其与您的WhatsApp帐户连接。
+在发送WhatsApp消息之前，必须配置Journey Optimizer B2B Edition环境并将其连接到您的WhatsApp帐户。
 
 完成以下任务：
 
@@ -124,7 +132,7 @@ Adobe Journey Optimizer B2B edition通过Meta的Cloud API发送WhatsApp消息。
    * API令牌 — 必须是具有适当权限的有效[Meta访问令牌](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)。
    * Business帐户ID — 必须与您的[Meta Business帐户ID](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)完全匹配。
 
-1. 在外部测试凭据 — 要确认问题是否涉及凭据或Journey Optimizer B2B edition凭据处理，请使用Meta API验证您的凭据。
+1. 在外部测试凭据 — 要确认问题是否涉及凭据或Journey Optimizer B2B Edition凭据处理，请使用Meta API验证您的凭据。
 
 <!--
  1. Enable advanced logging - To identify internal server or authentication misconfigurations, enable advanced logs in your Journey Optimizer B2B Edition environment to provide detailed information about the API call failures.
@@ -167,7 +175,7 @@ do we have advanced logs? How are they enabled?
 
 >[!ENDSHADEBOX]
 
-Webhook使Journey Optimizer B2B edition能够从WhatsApp商业帐户接收入站消息、同意响应和投放通知。 配置Webhook以确保正确的同意管理和消息跟踪。
+通过Webhook，Journey Optimizer B2B Edition可从您的WhatsApp商业帐户接收入站消息、同意响应和投放通知。 配置Webhook以确保正确的同意管理和消息跟踪。
 
 >[!NOTE]
 >
@@ -262,7 +270,7 @@ Webhook使Journey Optimizer B2B edition能够从WhatsApp商业帐户接收入站
 
    ![WhatsApp渠道配置详细信息](./assets/config-whatsapp-channels-general-create.png){width="500" zoomable="yes"}
 
-1. （当前不适用于Journey Optimizer B2B edition）对于&#x200B;**[!UICONTROL WhatsApp执行字段]**，请选择当有多个电话号码可供收件人使用时要用作优先电话号码的配置文件属性。
+1. （当前不适用于Journey Optimizer B2B Edition）对于&#x200B;**[!UICONTROL WhatsApp执行字段]**，请选择当有多个电话号码可供收件人使用时要用作优先电话号码的配置文件属性。
 
 1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以进行保存，或单击&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;以完成配置并稍后提交。
 

@@ -4,31 +4,39 @@ description: 激活Marketo Engage连接以支持历程操作，以便营销人�
 feature: Setup, Integrations
 role: Admin
 exl-id: e324a11b-1025-4850-865f-ef8886a6b2bb
+autotag-review: 2026-03-27T22:48:47.183Z
+TQID: 'https://experienceleague.adobe.com/nM-Jxcj7wekzRks2xCqshOdlY7W8K0WKCXtWCNSb388'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: 2026-03-27T22:48:47.183Z
-TQID: https://experienceleague.adobe.com/nM-Jxcj7wekzRks2xCqshOdlY7W8K0WKCXtWCNSb388
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: '540'
 ht-degree: 71%
-
 ---
-
 # 激活Marketo Engage连接以支持操作
 
 Marketo Engage操作是&#x200B;_基于人员的_&#x200B;操作，通过此类操作，可在Journey Optimizer B2B edition和Marketo Engage中基于&#x200B;_潜在客户_&#x200B;的营销工作之间，协调您的&#x200B;_基于帐户的_&#x200B;营销编排。 使用这些操作可编排静态列表成员资格并将人员放入营销策划。
 
-要使用Marketo Engage历程操作，管理员首先在Marketo Engage中创建[自定义服务](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/rest/custom-services){target="_blank"}，该服务提供身份验证所需的凭据。 然后，Journey Optimizer B2B edition的产品管理员使用这些凭据创建与Marketo Engage的连接。 Journey Optimizer B2B edition用户随后可以引用连接，以便在人员和帐户历程中配置Marketo Engage操作：
+要使用Marketo Engage历程操作，管理员首先在Marketo Engage中创建[自定义服务](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/rest/custom-services){target="_blank"}，该服务提供身份验证所需的凭据。 然后，Journey Optimizer B2B edition的产品管理员使用这些凭据创建与Marketo Engage的连接。 Journey Optimizer B2B Edition用户随后可以引用连接，以便在人员和帐户历程中配置Marketo Engage操作：
 
 * [!UICONTROL 添加到Marketo列表]
 * [!UICONTROL 从Marketo列表中删除]
@@ -74,7 +82,7 @@ Marketo Engage操作是&#x200B;_基于人员的_&#x200B;操作，通过此类操
    >
    >人员/商机无论匹配项是什么，都会继续完成历程，但出现错误时除外。 当不存在匹配记录时，历程操作不会在Marketo Engage中创建新的人员记录。
 
-1. 输入在外部Munchkin实例中创建的服务的Marketo Engage ID、客户端ID和客户端密钥。
+1. 输入在外部 Marketo Engage 实例中创建的服务的 Munchkin ID、客户端 ID 和客户端密钥。
 1. 单击&#x200B;**[!UICONTROL 连接到Marketo]**。
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 

@@ -1,35 +1,46 @@
 ---
 title: 设计可访问的内容
-description: 了解如何在Journey Optimizer B2B edition中为您的电子邮件和登陆页面设计无障碍内容
+description: 了解如何在Journey Optimizer B2B Edition中为电子邮件和登陆页面设计无障碍内容
 feature: Email Authoring, Landing Pages
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、设计、辅助功能
 exl-id: 744e94f4-195f-4277-877d-09275f40ce23
+autotag-review: '2026-03-30T22:11:25.228Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-autotag-review: '2026-03-30T22:11:25.228Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+    internal-label: Accessibility
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1748
+source-wordcount: '1751'
 ht-degree: 1%
-
 ---
-
 # 设计可访问的内容 {#accessible-content}
 
 [欧洲无障碍法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}是一项指令，旨在通过消除因成员国之间国家规则不同而造成的障碍，增强无障碍产品和服务的内部市场。
@@ -304,27 +315,27 @@ HTML属性可帮助辅助型技术解释内容中的结构、语言和关系。 
 对于登陆页面，提供键盘导航和焦点支持使无法使用鼠标的用户能够访问内容并与之交互。 它还通过为所有用户提供清晰、一致的信息浏览方式，提高了总体可用性。
 
 * 键盘导航和焦点
-   * 确保所有交互式元素（如按钮、复选框和链接）均具有`tabindex="0"`，以便它们按自然选项卡顺序包含。
-   * 允许使用Tab键和箭头键(↑ ↓ ← →)进行导航，此时应会突出显示重点显示的元素。
+  * 确保所有交互式元素（如按钮、复选框和链接）均具有`tabindex="0"`，以便它们按自然选项卡顺序包含。
+  * 允许使用Tab键和箭头键(↑ ↓ ← →)进行导航，此时应会突出显示重点显示的元素。
 * 自定义焦点样式
-   * 应用清晰且可区分的样式来关注可操作元素：
-     +++示例(CSS)
+  * 应用清晰且可区分的样式来关注可操作元素：
+    +++示例(CSS)
 
-     ```
-     [tabindex="0"] : focus { 
-     outline: 2px solid #00AEEF;  /* Cyan border */ 
-     background-color: #20CEFF;   /* Optional background */ 
-     }
-     ```
+    ```
+    [tabindex="0"] : focus { 
+    outline: 2px solid #00AEEF;  /* Cyan border */ 
+    background-color: #20CEFF;   /* Optional background */ 
+    }
+    ```
 
-     +++
+    +++
 
-   * 确保焦点指标符合WCAG 2.2的焦点外观标准，包括：
-      * 最小区域：2 CSS像素粗轮廓。
-      * 聚焦状态和非聚焦状态之间的对比度：≥ 3:1。
+  * 确保焦点指标符合WCAG 2.2的焦点外观标准，包括：
+    * 最小区域：2 CSS像素粗轮廓。
+    * 对比度：聚焦状态与未聚焦状态之间的对比度。
 
 * 键盘激活支持
-   * 确保复选框和按钮与Enter和Space键相对应。
-   * 仅使用键盘验证交互：
-      * Enter或Space应该切换复选框。
-      * Enter或Space应触发按钮。
+  * 确保复选框和按钮与Enter和Space键相对应。
+  * 仅使用键盘验证交互：
+    * Enter或Space应该切换复选框。
+    * Enter或Space应触发按钮。

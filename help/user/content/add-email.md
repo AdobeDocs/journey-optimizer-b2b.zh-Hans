@@ -1,32 +1,41 @@
 ---
 title: 向历程添加电子邮件
-description: 对于历程中的发送电子邮件操作节点，请创建新电子邮件或复制现有电子邮件以用于Journey Optimizer B2B edition中的定向通信。
+description: 对于历程中的发送电子邮件操作节点，请创建新电子邮件或复制现有电子邮件以用于Journey Optimizer B2B Edition中的定向通信。
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
+autotag-review: 2026-03-30T22:38:56.688Z
+TQID: 'https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-autotag-review: 2026-03-30T22:38:56.688Z
-TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+    internal-label: Email marketing
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1042
+source-wordcount: '1042'
 ht-degree: 0%
-
 ---
-
 # 向历程添加电子邮件
 
-使用Adobe Journey Optimizer B2B edition通过帐户历程向客户发送电子邮件。 您可以选择在电子邮件设计空间创建、个性化和预览消息。 在电子邮件处于历程中后，在[电子邮件性能报告](../dashboards/email-performance-dashboard.md)中监视发送、投放和参与。
+使用Adobe Journey Optimizer B2B Edition通过帐户历程向客户发送电子邮件。 您可以选择在电子邮件设计空间创建、个性化和预览消息。 在电子邮件处于历程中后，在[电子邮件性能报告](../dashboards/email-performance-dashboard.md)中监视发送、投放和参与。
 
 >[!NOTE]
 >

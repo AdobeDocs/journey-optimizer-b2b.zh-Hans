@@ -1,33 +1,40 @@
 ---
 title: 电子邮件性能报告
-description: 使用Journey Optimizer B2B edition中的“电子邮件性能”报表，在一个统一的视图中监控所有历程中的电子邮件发送、投放、参与和选择退出指标。
+description: 使用Journey Optimizer B2B Edition中的“电子邮件性能”报表可在一个统一视图中监控所有历程中的电子邮件发送、投放、参与和选择退出量度。
 feature: Dashboards, Reporting
 role: User
 autotag-review: '2026-05-21T15:04:51.176Z'
 TQID: 'https://experienceleague.adobe.com/hA63o9-2-atw0kRNFeEu6H449WmZ59CjL3uiVS7nEcA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+    internal-label: Reporting
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 833
+source-wordcount: '833'
 ht-degree: 4%
-
 ---
-
 # 电子邮件性能报表
 
-**电子邮件性能**&#x200B;报表为营销人员提供了在Adobe Journey Optimizer B2B edition中查看所有历程中的电子邮件活动的统一视图。 它汇总发送、投放、参与和选择退出量度。 通过显示原始计数和计算比率，您可以监控活动运行状况、比较电子邮件性能并快速识别可投放性或参与问题。 有关电子邮件和短信渠道中的历程级别量度，请参阅[帐户历程仪表板](./journeys-dashboard.md)。
+**电子邮件性能**&#x200B;报表为营销人员提供了有关Adobe Journey Optimizer B2B Edition中所有历程的电子邮件活动的统一视图。 它汇总发送、投放、参与和选择退出量度。 通过显示原始计数和计算比率，您可以监控活动运行状况、比较电子邮件性能并快速识别可投放性或参与问题。 有关电子邮件和短信渠道中的历程级别量度，请参阅[帐户历程仪表板](./journeys-dashboard.md)。
 
 ## 访问报告
 

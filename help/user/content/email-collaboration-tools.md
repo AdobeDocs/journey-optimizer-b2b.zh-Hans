@@ -1,28 +1,34 @@
 ---
 title: 向Collaboration工具发送电子邮件
-description: 在Journey Optimizer B2B edition中协作处理电子邮件。 添加评论、邀请审阅人、解决反馈并简化团队的审阅工作流。
+description: 在Journey Optimizer B2B Edition中协作处理电子邮件。 添加评论、邀请审阅人、解决反馈并简化团队的审阅工作流。
 feature: Email Authoring, Content
 role: User
 exl-id: 2694200e-44c1-41a3-b460-3abe6a341a55
+autotag-review: 2026-03-30T22:09:19.178Z
+TQID: 'https://experienceleague.adobe.com/HS8-H9FXERNgpylLO0rqGULtnMLTeDzQePgWq1qnoWM'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: 2026-03-30T22:09:19.178Z
-TQID: https://experienceleague.adobe.com/HS8-H9FXERNgpylLO0rqGULtnMLTeDzQePgWq1qnoWM
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1213
+source-wordcount: '1213'
 ht-degree: 4%
-
 ---
-
 # 电子邮件协作工具
 
 [电子邮件设计空间](./email-authoring.md)包括用于评论和解决的协作工具，以便营销团队可以直接在[!DNL Journey Optimizer B2B Edition]内无缝审查、讨论和最终确定电子邮件资产。 用户无需通过外部工具（如聊天、电子邮件会话或电子表格）共享草稿，即可在邮件设计空间内直接进行评论、提出修改建议并处理反馈。 在帐户历程中启动电子邮件促销活动之前，请使用以下工具简化工作流、减少错误并确保利益相关者保持一致：

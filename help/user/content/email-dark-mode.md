@@ -1,32 +1,40 @@
 ---
 title: 电子邮件内容的深色模式
-description: 了解Journey Optimizer B2B edition中的深色模式电子邮件设计。 预览渲染、自定义设置、确保无障碍访问，并在不同电子邮件客户端中进行测试。
+description: 了解Journey Optimizer B2B Edition中的深色模式电子邮件设计。 预览渲染、自定义设置、确保无障碍访问，并在不同电子邮件客户端中进行测试。
 feature: Email Authoring
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 深色模式，电子邮件，颜色，设计
 exl-id: c9ffb883-d37f-48bc-b23d-6eccf7a04d9a
+autotag-review: 2026-03-30T22:06:55.168Z
+TQID: 'https://experienceleague.adobe.com/keDJRv3orgjwthNQl1DHNnjKCre5BndRlivvMRJEgNE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
-autotag-review: 2026-03-30T22:06:55.168Z
-TQID: https://experienceleague.adobe.com/keDJRv3orgjwthNQl1DHNnjKCre5BndRlivvMRJEgNE
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+    internal-label: Content production
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1564
+source-wordcount: '1564'
 ht-degree: 7%
-
 ---
-
 # 电子邮件内容的深色模式 {#dark-mode}
 
 >[!CONTEXTUALHELP]
@@ -189,7 +197,7 @@ _深色模式_&#x200B;允许支持此功能的电子邮件客户端或应用程�
    >
    >虽然模拟与电子邮件在深色模式中的显示方式非常接近，但由于电子邮件服务提供商或设备级设置的变化，实际呈现可能会有所不同。
 
-## 最佳做法 {#best-practices}
+## 最佳实践 {#best-practices}
 
 随着主要电子邮件客户端采用深色模式的次数增加，无论您是否使用[自定义深色模式](#custom-dark-mode)，都必须考虑您的电子邮件在浅色和深色环境中的呈现方式。
 

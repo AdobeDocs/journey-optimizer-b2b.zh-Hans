@@ -1,30 +1,42 @@
 ---
 title: 登陆页面设计
-description: 使用可视化工具设计登陆页面 — 为Journey Optimizer B2B edition中的帐户历程添加内容组件、表单、自定义CSS、个性化和设备预览。
+description: 使用可视化工具设计登陆页面 — 为Journey Optimizer B2B Edition中的帐户历程添加内容组件、表单、自定义CSS、个性化和设备预览。
 feature: Landing Pages, Content Design Tools
 role: User
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
+autotag-review: 2026-03-30T23:18:56.836Z
+TQID: 'https://experienceleague.adobe.com/SXG2FrjpMlsGnofiUj1WeJ4NN3EVe1ZrcRpNdFfHwqA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-autotag-review: 2026-03-30T23:18:56.836Z
-TQID: https://experienceleague.adobe.com/SXG2FrjpMlsGnofiUj1WeJ4NN3EVe1ZrcRpNdFfHwqA
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 411
-ht-degree: 2%
-
+source-wordcount: '411'
+ht-degree: 3%
 ---
-
 # 登陆页面设计
 
 在您[创建登陆页面](./landing-pages-create-publish.md#create-landing-page)之后，请使用可视化设计空间在页面中创作结构和内容组件。
@@ -88,8 +100,8 @@ ht-degree: 2%
 * 通过预设缩放选项放大/缩小内容。
 
 * 切换在桌面、移动设备或纯文本/纯文本中查看内容。
-   * 单击&#x200B;_查看_&#x200B;图标可跨设备预览内容。
-   * 选择一个现成的设备或输入自定义维度以预览内容。
+  * 单击&#x200B;_查看_&#x200B;图标可跨设备预览内容。
+  * 选择一个现成的设备或输入自定义维度以预览内容。
 
 ### 更多选项
 
