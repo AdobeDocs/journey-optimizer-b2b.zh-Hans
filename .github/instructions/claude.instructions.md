@@ -745,7 +745,7 @@ hide: yes
 - 不得本地化的图像放入`do-not-localize/`子文件夹中。
 - TOC文件(`TOC.md`)定义左导航结构。 在添加或删除页面时更新它们。
 - 对此存储库中的文档之间的交叉引用使用根相对链接(`/help/...`)。
-- 对于指向此存储库外部文档的链接，请使用绝对`https://experienceleague.adobe.com/...` URL。
+- 对于指向此存储库外部文档的链接，请使用绝对`https://experienceleague.adobe.com/zh-hans...` URL。
 - 分支命名：没有用户名前缀。 使用Jira票证编号和以标题结尾的概要（例如，`PLAT-12345-Update-Guardrail-Limits`）。 使用相同的格式命名分支和PR标题。
 - 离散组件（标题、受防护的代码块、列表）必须用空白行括起来。
 - 每个文档只有一个H1 (`#`)。 frontmatter之后的第一行必须是H1。
@@ -832,7 +832,7 @@ hide: yes
 - **本地化标记引用**： https://experienceleague.adobe.com/en/docs/authoring-guide/using/authoring/localization/localize
 - **Experience League Markdown语法**： https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/markdown-syntax
 - **Markdown备忘单**： https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/cheatsheet
-- **发行说明样式引用**： https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest
+- **发行说明样式引用**： https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/latest
 
 **本地克隆：**
 - **创作指南存储库：**&#x200B;使用Adobe Experience League创作指南或其公共文档的可用签出。
