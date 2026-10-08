@@ -1,9 +1,9 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文档
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition 以及如何使用它通过内置的生成式 AI 和行业领先的自动化来编排帐户及购买群组历程。
-source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
+source-git-commit: e8e17689063cb0c279fca63afbd9c6e865d23772
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '446'
 ht-degree: 83%
 ---
 
@@ -82,6 +82,8 @@ ht-degree: 83%
   + [LinkedIn帐户匹配的受众](./data/linkedin-account-matched-audiences.md)
   + [默认XDM字段](./admin/field-mapping.md)
   + [测试用户档案](./audiences/test-profiles.md)
++ 数据 {#data}
+  + [导出的数据集](./data/aep-exported-datasets.md)
 + 帐户 {#accounts}
   + 购买群组 {#buying-groups}
     + [概述](./buying-groups/buying-groups-overview.md)
@@ -114,7 +116,7 @@ ht-degree: 83%
     + [电子邮件协作](./content/email-collaboration-tools.md)
   + 资产 {#assets}
     + [概述](./content/assets-overview.md)
-    + [C2PA元数据](./content/c2pa-metadata.md)
+    + [C2PA 元数据](./content/c2pa-metadata.md)
     + 内部资产 {#internal-dam}
       + [使用内部资产](./content/internal-image-assets.md)
       + [使用 Adobe Express 编辑图像](./content/image-edit-adobe-express.md)
