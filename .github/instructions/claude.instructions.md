@@ -10,7 +10,7 @@ ht-degree: 1%
 
 您正在协助Adobe Experience League公共文档存储库(`journey-optimizer-b2b.en`)上的技术撰稿人。 您起草、编辑或审阅的每个内容都必须遵循以下所有规则。 对术语有疑问时，请使用Confluence MCP工具(`mcp__adobe-wiki-confluence`)查阅引用的Wiki。
 
-&#x200B;---
+---
 
 ## &#x200B;1. 声音、音调和风格
 
@@ -71,7 +71,7 @@ ht-degree: 1%
 - 包括首次使用的同义词或替代术语(例如“ECID (Experience Cloud ID)”)，以改进对各种查询用语的检索。
 - 确保元数据字段（标题、描述、功能标记）完整且准确。
 
-&#x200B;---
+---
 
 ## &#x200B;2. Adobe标记语法(Experience League)
 
@@ -106,7 +106,7 @@ description: Learn how to... or Learn about... (150-160 chars, sentence case).
 - 使用“了解如何……”开始任务描述 或命令动词。
 - 不要以产品名称开头。 从SEO的动词开始。
 - 请勿逐字复制第一段（不同目的）。
-- 如果元数据字段以`[!DNL]`或&grave;&grave;标记开头，请将整个字段值括在引号中，否则验证失败。
+- 如果元数据字段以`[!DNL]`或``标记开头，请将整个字段值括在引号中，否则验证失败。
 
 ### 标题
 
@@ -364,7 +364,7 @@ Multiple paragraphs of preview content here.
 - 避免文件名与JavaScript/CSS冲突： `metadata.md`，`search.md`。
 - 资产文件名：首选小写；允许使用大写字母和下划线，但不推荐。
 
-&#x200B;---
+---
 
 ## &#x200B;3. 本地化标记（严重）
 
@@ -400,7 +400,7 @@ Multiple paragraphs of preview content here.
 **正在格式化：**
 - 步骤和导航中的粗体： `Select **[!UICONTROL Destinations]** from the left navigation.`
 - 为了清晰起见，概念文本（非步骤）中可以接受斜体。
-- 在HTML表中：使用`<span class="uicontrol">term</span>`而不是&grave;&grave;。
+- 在HTML表中：使用`<span class="uicontrol">term</span>`而不是``。
 - 在链接文本中：移除标记括号。
 
 **大写：**&#x200B;与接口完全匹配。
@@ -429,9 +429,9 @@ Multiple paragraphs of preview content here.
 
 **不能用于：**&#x200B;代码块，缩写。
 
-**元数据规则：**&#x200B;如果元数据字段（标题或描述）以`[!DNL]`或&grave;&grave;标记开头，请将整个字段值用引号括起来，否则验证将失败。
+**元数据规则：**&#x200B;如果元数据字段（标题或描述）以`[!DNL]`或``标记开头，请将整个字段值用引号括起来，否则验证将失败。
 
-&#x200B;---
+---
 
 ## &#x200B;4. 信息结构和内容类型
 
@@ -505,7 +505,7 @@ hide: yes
 
 这会将页面从外部和内部搜索中排除。 设置`hide: yes`会自动设置`index: no`。 当您希望从导航和搜索中隐藏页面时，除了`{hide-from-toc}`之外，还可以使用此项。
 
-&#x200B;---
+---
 
 ## &#x200B;5. 术语和品牌
 
@@ -603,7 +603,7 @@ hide: yes
 | 步调 | 非面向用户的广告词 |
 | 管道 | 内部Adobe基础架构术语 |
 
-&#x200B;---
+---
 
 ## &#x200B;6. 包含语言和可访问性
 
@@ -694,7 +694,7 @@ hide: yes
 - 在所有视频中包含有意义的字幕。
 - 如果可能，请链接到书面说明：“有关书面说明，请参阅[链接]。”
 
-&#x200B;---
+---
 
 ## &#x200B;7. 拼写和标点
 
@@ -724,7 +724,7 @@ hide: yes
 - 冒号：用于引入列表。 当句子后面是完整句子（或单词是专有名词）时，将冒号后的第一个单词变为大写。
 - 没有分号。 改用句点和新句子。
 
-&#x200B;---
+---
 
 ## &#x200B;8. SEO和可查找性
 
@@ -736,7 +736,7 @@ hide: yes
 - 描述元数据：将自然语言与关键字结合使用。 不要塞满随机关键字。 Google可能会降级关键词填充的内容。
 - 保持元数据字段（标题、描述、功能标记）完整且准确 — 发现表面使用元数据在读取页面内容之前筛选和排名结果。
 
-&#x200B;---
+---
 
 ## &#x200B;9. 文件和存储库约定
 
@@ -745,12 +745,12 @@ hide: yes
 - 不得本地化的图像放入`do-not-localize/`子文件夹中。
 - TOC文件(`TOC.md`)定义左导航结构。 在添加或删除页面时更新它们。
 - 对此存储库中的文档之间的交叉引用使用根相对链接(`/help/...`)。
-- 对于指向此存储库外部文档的链接，请使用绝对`https://experienceleague.adobe.com/zh-hans...` URL。
+- 对于指向此存储库外部文档的链接，请使用绝对`https://experienceleague.adobe.com/...` URL。
 - 分支命名：没有用户名前缀。 使用Jira票证编号和以标题结尾的概要（例如，`PLAT-12345-Update-Guardrail-Limits`）。 使用相同的格式命名分支和PR标题。
 - 离散组件（标题、受防护的代码块、列表）必须用空白行括起来。
 - 每个文档只有一个H1 (`#`)。 frontmatter之后的第一行必须是H1。
 
-&#x200B;---
+---
 
 ## &#x200B;10. 查看核对清单
 
@@ -781,7 +781,7 @@ hide: yes
 - [ ]产品名称前的“不是”（例如，不是“Adobe Experience Platform”）
 
 **本地化标记**
-- [ 所有UI元素名称上的] &grave;&grave;；步骤中以粗体显示
+- [ 所有UI元素名称上的] ``；步骤中以粗体显示
 - [ 所有产品和第三方名称上的] `[!DNL]`
 - [ ]布尔运算符已标记： `[!DNL AND]`，`[!DNL OR]`
 - [ ]代码块内没有标记
@@ -811,7 +811,7 @@ hide: yes
 - [ ]文件名为带连字符的小写；描述性概要（不是空的`overview.md`）
 - [ `assets/`中的]个图像；`do-not-localize/`中的非本地化图像
 
-&#x200B;---
+---
 
 ## &#x200B;11. 外部引用
 
@@ -832,7 +832,7 @@ hide: yes
 - **本地化标记引用**： https://experienceleague.adobe.com/en/docs/authoring-guide/using/authoring/localization/localize
 - **Experience League Markdown语法**： https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/markdown-syntax
 - **Markdown备忘单**： https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/cheatsheet
-- **发行说明样式引用**： https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/latest
+- **发行说明样式引用**： https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest
 
 **本地克隆：**
 - **创作指南存储库：**&#x200B;使用Adobe Experience League创作指南或其公共文档的可用签出。

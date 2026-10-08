@@ -40,9 +40,9 @@ Journey Optimizer B2B Edition设置包括配置用于B2B源的Experience Platfor
 
 >[!AVAILABILITY]
 >
->- 若要让您的B2B架构符合[Real-Time Customer Profile](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/home){target="_blank"}的条件，您必须有权访问[Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"}。
+>- 若要让您的B2B架构符合[Real-Time Customer Profile](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/home){target="_blank"}的条件，您必须有权访问[Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"}。
 >
->- 您的Experience Platform B2B实体必须使用[B2B命名空间和架构指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"}中所述的标准关系。
+>- 您的Experience Platform B2B实体必须使用[B2B命名空间和架构指南](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"}中所述的标准关系。
 
 查看以下有关要与B2B源一起使用的命名空间和架构的基础设置的信息。 它还提供了有关配置Postman自动化实用程序的详细信息，该实用程序是生成B2B命名空间和架构所必需的。
 
@@ -54,8 +54,8 @@ Journey Optimizer B2B Edition设置包括配置用于B2B源的Experience Platfor
 
 - 从[GitHub存储库](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility){target="_blank"}下载命名空间和架构自动生成实用程序集合和环境。
 - 有关使用Experience Platform API的信息，包括有关收集所需标头的值和读取示例API调用的详细信息，请参阅&#x200B;[_Adobe Experience Platform API快速入门_](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/platform-apis/api-guide){target="_blank"}。
-- 有关为Experience Platform API生成凭据的信息，请参阅&#x200B;[_身份验证和访问Experience Platform API_](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"}。
-- 有关为Experience Platform API设置[!DNL Postman]的信息，请参阅Adobe Experience Platform中的[_[!DNL Postman]_](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/platform-apis/postman){target="_blank"}。
+- 有关为Experience Platform API生成凭据的信息，请参阅&#x200B;[_身份验证和访问Experience Platform API_](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"}。
+- 有关为Experience Platform API设置[!DNL Postman]的信息，请参阅Adobe Experience Platform中的[_[!DNL Postman]_](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/postman){target="_blank"}。
 
 ### 环境值
 
@@ -91,7 +91,7 @@ Postman UI中命名空间和架构生成器的![根文件夹](./assets/namespace
 
 ## B2B命名空间
 
-身份命名空间是Experience Platform [[!DNL Identity Service]](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home){target="_blank"}的组件，用于区分身份的上下文。 完全限定的身份包括身份值和命名空间。 有关详细信息，请参阅[命名空间概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces){target="_blank"}。
+身份命名空间是Experience Platform [[!DNL Identity Service]](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"}的组件，用于区分身份的上下文。 完全限定的身份包括身份值和命名空间。 有关详细信息，请参阅[命名空间概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces){target="_blank"}。
 
 B2B命名空间在实体的主标识中使用。
 
@@ -115,14 +115,14 @@ Experience Platform使用架构，以一致且可重用的方式描述数据结�
 
 在Experience Platform可以摄取数据之前，必须有一个架构来描述数据的结构并对每个字段中可以包含的数据类型提供限制。 架构由一个基类以及零个或多个架构字段组组成。
 
-有关架构组合模型的详细信息，包括设计原则和最佳实践，请参阅&#x200B;[_架构组合基础_](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition){target="_blank"}。
+有关架构组合模型的详细信息，包括设计原则和最佳实践，请参阅&#x200B;[_架构组合基础_](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}。
 
 +++ B2B 帐户
 
 <table>
     <tr>
         <td style="width: 30%;">基类</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/b2b/business-account" target="_blank">XDM业务帐户</a></td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account" target="_blank">XDM业务帐户</a></td>
     </tr>
     <tr>
         <td>字段组</td>
@@ -161,7 +161,7 @@ Experience Platform使用架构，以一致且可重用的方式描述数据结�
 <table>
     <tr>
         <td style="width: 30%;">基类</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/individual-profile">XDM个人配置文件</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile">XDM个人配置文件</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>字段组</td>
@@ -202,7 +202,7 @@ Experience Platform使用架构，以一致且可重用的方式描述数据结�
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/b2b/business-opportunity">XDM Business Opportunity</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity">XDM Business Opportunity</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -242,7 +242,7 @@ Experience Platform使用架构，以一致且可重用的方式描述数据结�
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation">XDM Business Opportunity Person Relation</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation">XDM Business Opportunity Person Relation</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -283,7 +283,7 @@ Experience Platform使用架构，以一致且可重用的方式描述数据结�
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/b2b/business-campaign">XDM Business Campaign</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign">XDM Business Campaign</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -323,7 +323,7 @@ Experience Platform使用架构，以一致且可重用的方式描述数据结�
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/b2b/business-campaign-members">XDM Business Campaign Members</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members">XDM Business Campaign Members</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -361,7 +361,7 @@ Experience Platform使用架构，以一致且可重用的方式描述数据结�
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/b2b/business-marketing-list">XDM Business Marketing List</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list">XDM Business Marketing List</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -405,7 +405,7 @@ Experience Platform使用架构，以一致且可重用的方式描述数据结�
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members">XDM Business Marketing List Members</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members">XDM Business Marketing List Members</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -449,7 +449,7 @@ Experience Platform使用架构，以一致且可重用的方式描述数据结�
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/b2b/business-account-person-relation">XDM Business Account Person Relation</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation">XDM Business Account Person Relation</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>

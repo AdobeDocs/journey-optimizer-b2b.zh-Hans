@@ -80,7 +80,7 @@ ht-degree: 6%
 
 +++实体关系图
 
-导出到[!DNL Adobe Experience Platform]![&#128279;](./assets/ajo-b2b-data-model.svg)的数据集的实体关系图
+导出到[!DNL Adobe Experience Platform]](./assets/ajo-b2b-data-model.svg)的数据集的![实体关系图
 
 +++
 
