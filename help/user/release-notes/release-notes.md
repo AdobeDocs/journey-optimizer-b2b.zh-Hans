@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: eb4654dc36b165f5cb40e7999f3204bdc5bd2c85
+source-git-commit: 61cb7f99bf1f1649bf1a8569a506c248146a522e
 workflow-type: tm+mt
-source-wordcount: '5744'
+source-wordcount: '5717'
 ht-degree: 60%
 ---
 # Journey Optimizer B2B Edition 发行说明
@@ -43,15 +43,18 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | 人员列表 | 现在提供了静态和动态人员列表，以便您可以按定义的标准（如人口统计属性和体验事件历史记录）定向用户档案。 |
 | 功能 | 服务运行状况功能板 | 通过收集成功/错误量度并提供仪表板供管理员监视服务性能，跟踪外部操作的操作健康状况。 |
+| 增强功能 | 历程重新进入 — 人员历程 | 现在为人员历程提供历程重新进入支持。 [了解详情](../journeys/journey-re-entry.md) |
 | 增强功能 | 个人资料受众筛选条件的成员 | 此过滤器现在可用于人员历程拆分路径条件、帐户历程人员拆分路径条件和人员列表，以根据其受众成员资格包含或排除用户档案。 |
-| 增强功能 | 历程重新进入 — 人员历程 | 现在为人员历程提供历程重新进入支持。 |
 
 >[!NOTE]
 >
 >这些版本更改从2026年9月25日开始部署，并分阶段推出每个功能和增强功能。 功能及增强功能的发布时间可能会有变动。
 
+<!--
+Delayed to Oct
+| Feature | People lists | Static and dynamic people lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
+-->
 
 ## 2026.8发行说明 {#rel-2026-8}
 
