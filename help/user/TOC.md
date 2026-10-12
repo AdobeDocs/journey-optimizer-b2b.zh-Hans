@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文档
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition 以及如何使用它通过内置的生成式 AI 和行业领先的自动化来编排帐户及购买群组历程。
-source-git-commit: e8e17689063cb0c279fca63afbd9c6e865d23772
+source-git-commit: f48abc33799fdcd310b3479d32301795c82a32d0
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 83%
+source-wordcount: '451'
+ht-degree: 82%
 ---
 
 # Journey Optimizer B2B Edition 用户指南 {#user}
@@ -25,6 +25,9 @@ ht-degree: 83%
     + [用户管理](./admin/user-management.md)
   + [用户载入](./start/get-started.md)
   + [登录和主页](home-page.md)
++ 数据 {#data}
+  + [数据可用性和同步计时](./data/data-availability-timing.md)
+  + [导出的数据集](./data/aep-exported-datasets.md)
 + AI功能 {#ai-assistant}
   + [概述](./ai-coworker/ai-assistant-overview.md)
   + [启用 AI 助手访问](./ai-coworker/enable-ai-assistant-access.md)
@@ -82,8 +85,6 @@ ht-degree: 83%
   + [LinkedIn帐户匹配的受众](./data/linkedin-account-matched-audiences.md)
   + [默认XDM字段](./admin/field-mapping.md)
   + [测试用户档案](./audiences/test-profiles.md)
-+ 数据 {#data}
-  + [导出的数据集](./data/aep-exported-datasets.md)
 + 帐户 {#accounts}
   + 购买群组 {#buying-groups}
     + [概述](./buying-groups/buying-groups-overview.md)
