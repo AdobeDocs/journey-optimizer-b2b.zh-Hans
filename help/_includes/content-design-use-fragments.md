@@ -3,14 +3,12 @@ title: 内容创作 — 使用片段
 description: 有关使用片段进行内容创作的重用部分
 source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 0%
-
 ---
-
 # 内容创作 — 使用可视化片段
 
-可视化片段是可重复使用的设计组件，它可以被Adobe Journey Optimizer B2B edition中的多个内容资源引用。 它通常是预先创建并快速插入的一个内容块，用于使创作更快捷、更一致。
+可视化片段是可重复使用的设计组件，它可以被Adobe Journey Optimizer B2B Edition中的多个内容资源引用。 它通常是预先创建并快速插入的一个内容块，用于使创作更快捷、更一致。
 
 以下示例概述了在创作内容时添加片段的步骤。
 
