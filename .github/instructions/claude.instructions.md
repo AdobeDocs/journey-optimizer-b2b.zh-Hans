@@ -1,8 +1,8 @@
 ---
 applyTo: "**/*.md"
-source-git-commit: 0f90b37c1ed8e4da0840f64179a0e99e0fe786d7
+source-git-commit: d36cfd513df3d363a7bd74b5e09b774426e50b9b
 workflow-type: tm+mt
-source-wordcount: '5174'
+source-wordcount: '5166'
 ht-degree: 1%
 ---
 
@@ -411,12 +411,12 @@ Multiple paragraphs of preview content here.
 - 代码块或缩写
 - 图标描述。 使用该图标的悬停/工具提示名称（如果可用）；不要标记常规描述，如“铅笔图标”
 
-### `[!DONOTLOCALIZE]`：排除整个节
+### `[!DNL]`：排除整个节
 
 在所有区域设置中，必须保留英文的内容换行：
 
 ```markdown
->[!DONOTLOCALIZE]
+>[!DNL]
 >
 >Content that must not be translated.
 ```
@@ -529,9 +529,8 @@ hide: yes
 | 实时客户轮廓 | Real-time Customer Profile，统一配置文件 |
 | Adobe Journey Optimizer | AJO |
 | Adobe Journey Optimizer B2B Edition | AJO B2B |
-| Adobe Journey Optimizer B2B Prime | AJO B2B Prime |
 | Adobe Marketo Optimizer | AMO |
-| Adobe Marketo Engage | Marketo（可用作形容词） |
+| Adobe Marketo Engage | Marketo（不能用作形容词） |
 | Adobe Customer Journey Analytics | CJA |
 | Customer Journey Analytics（辅助） | — |
 | Adobe Real-Time CDP Collaboration | RTCDP Collaboration， RTCDP协作，协作 |
