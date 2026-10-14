@@ -1,6 +1,6 @@
 ---
 title: 变量拆分路径
-description: 了解如何在Journey Optimizer B2B edition中使用变量拆分路径节点，通过基于百分比的分配，跨多个历程路径分配帐户或人员。
+description: 了解如何在Journey Optimizer B2B Edition中使用变量拆分路径节点，通过基于百分比的分配，跨多个历程路径分配帐户或人员。
 feature: Account Journeys, Person Journeys
 solution: Journey Optimizer B2B Edition
 role: User
@@ -8,29 +8,29 @@ autotag-review: '2026-08-17T19:14:54.674Z'
 TQID: 'https://experienceleague.adobe.com/42lSbF7J-yEzFYbFFhs2sSQ4j4NfRtENlIz-R-HcPx8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 subfeature_v2:
   - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: d130cb9de068b22be540a1fe9a6dc9fcaaad127e
+    internal-label: Experienced
+source-git-commit: c0d976241c5074deaca28d82e71b30718f6cd0c7
 workflow-type: tm+mt
-source-wordcount: 2008
+source-wordcount: '1981'
 ht-degree: 1%
-
 ---
-
 # 变体拆分路径
 
 使用&#x200B;_变量拆分路径_&#x200B;节点，根据您定义的百分比分配，将帐户或人员分布在两个或更多历程路径上。 如果您希望在不应用条件规则的情况下跨受众区段测试不同的消息传送、计时或参与策略，此节点非常有用。
-
->[!AVAILABILITY]
->
->帐户和人员历程的&#x200B;_变量拆分路径_&#x200B;节点可用于选择客户作为有限可用性功能。 要获取访问权限，请联系您的Adobe代表。
 
 ## 按历程类型比较 {#journey-type-comparison}
 
@@ -190,7 +190,7 @@ _[拆分路径](./split-merge-paths-nodes.md)_&#x200B;和&#x200B;_变量拆分�
 
    ![变量拆分路径节点 — 合计不等于100%时的验证错误](./assets/node-variant-split-paths-validation-error.png){width="500" zoomable="yes"}
 
-   若要将百分比平均分配到所有路径，请单击“平均分配”**&#x200B;**。 系统计算相等的份额并调整任何舍入，以确保总数等于100%。
+   若要将百分比平均分配到所有路径，请单击“平均分配”****。 系统计算相等的份额并调整任何舍入，以确保总数等于100%。
 
 1. 若要定义其他路径，请单击每个路径的&#x200B;**[!UICONTROL 添加路径]**。
 
