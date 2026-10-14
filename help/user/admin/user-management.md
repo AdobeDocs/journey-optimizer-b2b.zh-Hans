@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d608cf06498c800cba3172985cf4d1fbfe84d2f8
 workflow-type: tm+mt
-source-wordcount: '2348'
-ht-degree: 77%
+source-wordcount: '2381'
+ht-degree: 76%
 ---
 # 用户访问和权限
 
@@ -192,8 +192,12 @@ ht-degree: 77%
 | B2B购买团体 | 配置、管理和查看B2B购买群组的权限。 这些权限包括解决方案兴趣、角色模板和购买群组状态。 | <li>管理B2B购买组 <li>管理B2B解决方案兴趣 <li>管理B2B角色模板 <li>管理B2B阶段 <li>查看B2B购买群组 |
 | B2B渠道配置 | 配置、管理和查看B2B渠道配置的权限。 这些权限包括通信限制设置、API凭据和安全设置。 | <li>管理 B2B 渠道配置 <li>查看B2B电子邮件设置 <li>管理B2B电子邮件设置 <li>管理B2B WhatsApp预设 <li>管理B2B登陆页面设置 <li>查看B2B Forms预设 <li>管理B2B Forms预设 <li>发布B2B Forms预设 <li>创作B2B Web体验 <li>管理B2B WhatsApp设置 |
 | B2B仪表板 | 配置和查看B2B仪表板的权限。 这些权限包括帐户参与、购买群组阶段、激增帐户和联系人覆盖范围。 | <li>查看B2B参与仪表板 |
-| B2B历程 | 配置、管理、查看和发布B2B历程的权限。 这些权限包括帐户和人员操作、事件侦听器以及拆分路径。 | <li>管理B2B帐户历程 <li>管理B2B人员历程 |
+| B2B历程 | 配置、管理、查看和发布B2B历程的权限。 这些权限包括帐户和人员操作、事件侦听器以及拆分路径。 | <li>管理B2B帐户历程 <li>管理B2B人员历程 <li>查看B2B人员历程 <li>发布B2B人员历程 |
 | Journey Optimizer规则 | 访问和配置频率规则（通信限制）。 这些权限应限制为产品管理员。 | <li>查看频率规则 <li>管理频率规则 |
+
+>[!NOTE]
+>
+>所有B2B人员历程权限当前都授予对人员历程的读取、写入和发布访问权限。 此已知差距将在未来版本中解决。
 
 ### B2B内置角色 {#b2b-built-in-roles}
 
