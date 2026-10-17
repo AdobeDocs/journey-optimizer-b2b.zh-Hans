@@ -24,14 +24,14 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 5%
+source-wordcount: '2144'
+ht-degree: 4%
 ---
 # 侦听事件
 
-要在事件发生时将受众前进到[历程](./journeys-overview.md)中的下一步，请添加&#x200B;_侦听事件_&#x200B;节点。 根据历程类型，您可以使用此节点根据人员或帐户事件触发历程中的下一个节点。
+要在事件发生时将受众推进到[历程](./journeys-overview.md)中的下一步，请添加&#x200B;_侦听事件_&#x200B;节点。 根据历程类型，您可以使用此节点根据人员或帐户事件触发历程中的下一个节点。
 
 <!--
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
@@ -65,7 +65,7 @@ ht-degree: 5%
 
      在&#x200B;_编辑事件_&#x200B;对话框中，将一个或多个[人员事件](#people-events)拖放到生成器空间中，并设置每个事件的定义。 为要用于优化事件匹配的每个约束单击&#x200B;**[!UICONTROL 添加约束]**。
 
-     您可以添加多个要匹配的人员事件。 第一个符合条件事件在历程中向前推动帐户。
+     您可以添加多个要匹配的人员事件。 第一个符合条件事件在历程中前进帐户。
 
      ![帐户历程节点 — 侦听事件 — 人员事件类型 — 编辑事件](./assets/node-listen-events-account-people-edit-event.png){width="700" zoomable="yes"}
 
@@ -79,7 +79,7 @@ ht-degree: 5%
 
 ### 帐户历程的人员事件 {#people-events}
 
-在帐户历程中，当您想要根据人员（潜在客户）活动触发的事件在历程中向前移动帐户时，您可以根据人员来侦听事件。 您还可以根据事件历史记录和人员属性筛选事件。
+在帐户历程中，当您想要根据人员（潜在客户）活动触发的事件在历程中推进帐户时，您可以根据人员来侦听事件。 您还可以根据事件历史记录和人员属性筛选事件。
 
 >[!TIP]
 >
@@ -97,7 +97,7 @@ ht-degree: 5%
 
 ### 帐户事件 {#account-events}
 
-在帐户历程中，当您想要根据帐户活动触发的事件在历程中向前移动帐户时，可以根据帐户侦听事件。
+在帐户历程中，当您想要根据帐户活动触发的事件在历程中推进帐户时，可以根据帐户侦听事件。
 
 | 活动 | 约束 |
 | ----- | ----------- |
@@ -185,7 +185,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
    将事件触发器拖放到生成器空间中并设置定义。 为要用于优化事件匹配的每个约束单击&#x200B;**[!UICONTROL 添加约束]**。
 
-   您可以添加多个要匹配的事件。 第一个符合条件事件会前进历程中的人员配置文件。
+   您可以添加多个要匹配的事件。 第一个符合条件事件会提升历程中的人员配置文件。
 
 1. （可选）选择&#x200B;**[!UICONTROL 筛选器]**&#x200B;选项卡以[为事件添加筛选器](#filters-people-event)。
 
@@ -260,7 +260,8 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 | [!UICONTROL 事件历史记录] | 管理员配置的Experience事件。 请参阅&#x200B;_[选择体验事件和字段](../admin/configure-aep-events.md)_。 |
 | [!UICONTROL 人员属性] | B2B人员配置文件中的属性，包括： <li>城市 <li>国家 <li>出生日期 <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>名字 <li>推断的州区域<li>作业名称 <li>姓 <li>手机号码 <li>人员参与度评分 <li>电话号码 <li>邮政编码 <li>State <li>取消订阅 <li>取消订阅的原因 |
 | [!UICONTROL 人员属性] | （仅限人员历程）属性值 |
-| [!UICONTROL 特殊筛选器] > [!UICONTROL 购买团体成员] | 人员是否属于根据以下一个或多个标准评估的购买组成员： <li>解决方案兴趣</li><li>购买组状态</li><li>完整性分数</li><li>参与度评分</li><li>已删除</li><li>角色</li> |
+| [!UICONTROL 特殊筛选器] > [!UICONTROL 购买团体成员] | 人员是否属于根据以下一个或多个标准评估的购买组成员： <li>解决方案兴趣</li><li>购买组状态</li><li>完整性分数</li><li>参与度评分</li><li>已删除（默认： `false`）</li><li>角色</li> （请参阅[成员资格筛选](#membership-filtering)） |
+| [!UICONTROL 特殊筛选器] > [!UICONTROL 个人资料受众的成员] | 此人是否为一个或多个[!DNL Adobe Experience Platform]配置文件受众的成员。 （请参阅[成员资格筛选](#membership-filtering)） |
 
 <!--
 | [!UICONTROL Special filters] > [!UICONTROL Member of List] | The person is or is not a member of one or more Marketo Engage lists. |
@@ -285,13 +286,58 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 1. 事件和筛选器定义完成后，单击&#x200B;**[!UICONTROL 完成]**。
 
+### 成员资格筛选 {#membership-filtering}
+
+在&#x200B;_[!UICONTROL 特殊过滤器]_&#x200B;部分中，使用以下过滤器根据人员的成员资格匹配事件：
+
+* _[!UICONTROL 购买组的成员]_ — 评估此人是否为购买组的成员。
+* _[!UICONTROL 个人资料受众的成员]_ — 评估此人是否为[!DNL Adobe Experience Platform]个人资料受众的成员。
+
+若要添加成员资格筛选器，请将其从&#x200B;_[!UICONTROL 特殊筛选器]_&#x200B;文件夹拖动到筛选器工作区，并将成员资格设置为&#x200B;_true_&#x200B;以包含成员，或设置为&#x200B;_false_&#x200B;以排除成员。 您可以将两个筛选器组合在同一事件定义中，并使用&#x200B;**[!UICONTROL 筛选器逻辑]**&#x200B;来匹配任意或全部筛选器。
+
+这些筛选器还在[按人员划分的路径条件](./split-merge-paths-nodes.md#membership-filtering)中可用。
+
+![侦听事件节点 — 成员资格筛选器](./assets/node-listen-event-people-membership-filters.png){width="700" zoomable="yes"}
+
+**购买组的成员**
+
+要匹配购买具有特定角色的群成员的事件，请将成员资格设置为&#x200B;_true_，并选择与一个或多个购买群组关联的&#x200B;_[!UICONTROL 解决方案兴趣]_。
+
+添加筛选器时，默认情况下系统包含&#x200B;_[!UICONTROL 已移除]_&#x200B;约束，并将其设置为`false`，因此筛选器仅匹配当前购买组成员。
+
+单击&#x200B;**[!UICONTROL 添加约束]**&#x200B;以包含其他购买组成员资格约束：
+
+* _[!UICONTROL 购买团体阶段]_
+* _[!UICONTROL 购买团体状态]_
+* _[!UICONTROL 完整性分数]_
+* _[!UICONTROL 参与度分数]_
+* _[!UICONTROL 角色]_
+
+>[!IMPORTANT]
+>
+>_[!UICONTROL Is Removed]_&#x200B;约束确定是否评估已移除的购买组成员：
+>
+>* `false` （默认） — 仅返回当前购买组成员。 删除的成员不包括在内。
+>* `true` — 仅退回已删除的购买组成员。 不包括当前成员。
+>* 约束已移除 — 返回当前和已移除的购买组成员。
+>
+>如果移除限制，则过滤器可以匹配不再属于购买组的用户。
+
+**个人资料受众的成员**
+
+使用&#x200B;_[!UICONTROL 个人资料受众]_&#x200B;约束选择一个或多个受众。 例如，如果选择`integroPerson`受众，则事件将仅匹配上次发生批量摄取时属于该受众的人员。
+
+>[!NOTE]
+>
+>该过滤器不会实时计算受众成员资格。 它根据人员截至上次批量受众摄取时在选定受众中的成员资格来授予人员资格。 只能评估已摄取到[!DNL Journey Optimizer B2B Edition]的受众。
+
 ## 向事件节点添加超时 {#timeouts}
 
 如果需要，可定义历程等待事件的时间。 该历程在超时后结束，除非您定义了一个超时路径，您可以在其中添加其他节点。
 
 启用节点属性中的&#x200B;**[!UICONTROL Timeout]**&#x200B;选项以为&#x200B;_侦听事件_&#x200B;节点指定超时。
 
-1. 启用这些选项后，选择&#x200B;_类型_&#x200B;并指定超时参数：
+1. 启用该选项后，选择&#x200B;_类型_&#x200B;并指定超时参数：
 
    * **[!UICONTROL 持续时间]** — 使用此类型为事件触发器指定时间段。 如果事件没有在该时间段内触发，则人员或帐户不会继续在历程中前进。
 

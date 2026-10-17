@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
 workflow-type: tm+mt
-source-wordcount: '2349'
+source-wordcount: '2569'
 ht-degree: 4%
 ---
 # 拆分和合并路径 {#split-paths}
@@ -159,7 +159,8 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 | [!UICONTROL 自定义对象] >具有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}此人是否具有关系架构记录。 也可以根据[XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中配置的任何所选自定义对象条件对其进行评估。 （请参阅[自定义数据筛选](#custom-data-filtering)） |
 | [!UICONTROL 事件历史记录] | 根据在历程进入之前发生的体验事件拆分人员。 展开该文件夹以查看在[管理员> XDM事件配置](../admin/configure-aep-events.md)中配置的所有事件类型，并选择一个类型以添加为过滤器。 约束包括来自所选事件的字段、从人员进入历程时开始的回溯时间范围以及可选的最小次数。 |
 | [!UICONTROL 人员属性] | [个人资料](../admin/field-mapping.md#xdm-business-person-attributes)中的属性，包括： <li>城市 <li>国家 <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>名 <li>推断的州区域 <li>职务名称 <li>姓 <li>手机号码 <li>人员参与度评分 <li>电话号码 <li>邮政编码 <li>州 |
-| [!UICONTROL 特殊筛选器] > [!UICONTROL 购买团体成员] | 人员是否属于根据以下一个或多个标准评估的购买组成员： <li>解决方案兴趣</li><li>购买组状态</li><li>完整性分数</li><li>参与度评分</li><li>已删除</li><li>角色</li> |
+| [!UICONTROL 特殊筛选器] > [!UICONTROL 购买团体成员] | 人员是否属于根据以下一个或多个标准评估的购买组成员： <li>解决方案兴趣</li><li>购买组状态</li><li>完整性分数</li><li>参与度评分</li><li>已删除（默认： `false`）</li><li>角色</li> （请参阅[成员资格筛选](#membership-filtering)） |
+| [!UICONTROL 特殊筛选器] > [!UICONTROL 个人资料受众的成员] | 此人是否为一个或多个[!DNL Adobe Experience Platform]配置文件受众的成员。 （请参阅[成员资格筛选](#membership-filtering)） |
 
 ### 帐户 — 人员路径条件
 
@@ -224,15 +225,15 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 
 对于按人员划分的拆分路径，您可以根据人员进入历程之前发生的体验事件定义路径。 要查看管理员配置的所有事件类型的列表，请展开条件编辑器中的&#x200B;**[!UICONTROL Event history]**&#x200B;文件夹。 选择事件类型以将其添加为筛选条件。
 
-事件历史记录的回顾时间范围是从人员进入历程的那一刻开始向后测量的。 例如，一个30天的窗口会评估符合条件事件是否在历程进入之前的30天内发生。
+事件历史记录的时间窗口是从人员进入历程的那一刻开始向后测量的。 例如，一个30天的窗口会评估符合条件事件是否在历程进入之前的30天内发生。
 
-您可以使用特定于选定事件字段的约束来进一步细化过滤器。 可选的&#x200B;**[!UICONTROL 最小次数]**&#x200B;和&#x200B;**[!UICONTROL 活动日期]**&#x200B;约束均在定义的回看时段内进行计算。 由于事件历史记录数据是从Adobe Experience Platform同步的，因此在此过滤器中使用最近发生的事件之前，可能会有一个短暂的延迟。
+您可以使用特定于选定事件字段的约束来进一步细化过滤器。 可选的&#x200B;**[!UICONTROL 最小次数]**&#x200B;和&#x200B;**[!UICONTROL 活动日期]**&#x200B;约束均在定义的回看时段内进行计算。 由于事件历史记录数据是从[!DNL Adobe Experience Platform]同步的，因此，在最近发生的事件可用于此过滤器之前，可能会有一个短暂的延迟。
 
 >[!NOTE]
 >
 >[体验事件和字段配置](../admin/configure-aep-events.md)确定[!UICONTROL 事件历史记录]文件夹中可用的事件。
 
-**示例：**&#x200B;若要路由在进入历程之前点击了营销电子邮件中的链接的人员，请从[!UICONTROL 事件历史记录]文件夹中选择电子邮件点击事件，设置回顾窗口以涵盖相关时间段，并根据需要应用任何字段级约束（例如特定链接URL）。
+**示例：**&#x200B;若要路由在进入历程之前点击了营销电子邮件中的链接的人员，请从[!UICONTROL 事件历史记录]文件夹中选择电子邮件点击事件，设置回顾窗口，并根据需要应用字段级约束。
 
 ![按人员条件拆分事件历史记录的路径](./assets/node-split-people-condition-event-history.png){width="700" zoomable="yes"}
 
@@ -244,13 +245,24 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 
 >[!ENDSHADEBOX]
 
-### 成员资格筛选
+### 成员资格筛选 {#membership-filtering}
 
-在&#x200B;_[!UICONTROL 特殊过滤器]_&#x200B;部分中，有多个过滤器可用于评估购买群组中的人员成员资格。
+在&#x200B;_[!UICONTROL 特殊过滤器]_&#x200B;部分中，使用以下过滤器基于人员的成员资格创建路径：
 
-例如，如果要为购买组成员并分配了特定角色的用户创建路径，请添加&#x200B;_[!UICONTROL 特殊筛选器]_ > _[!UICONTROL 购买组成员筛选器]_。 对于筛选器，将成员资格设置为&#x200B;_true_&#x200B;并选择与一个或多个购买组关联的&#x200B;_[!UICONTROL 解决方案兴趣]_。
+* _[!UICONTROL 购买组的成员]_ — 评估此人是否为购买组的成员。
+* _[!UICONTROL 个人资料受众的成员]_ — 评估此人是否为[!DNL Adobe Experience Platform]个人资料受众的成员。
 
-![按购买组成员资格的人员条件拆分路径](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
+要添加成员资格筛选器，请将其从&#x200B;_[!UICONTROL 特殊筛选器]_&#x200B;文件夹拖到条件工作区上，并将成员资格设置为&#x200B;_true_&#x200B;以包含成员，或设置为&#x200B;_false_&#x200B;以排除成员。 您可以将两个筛选器组合在同一路径条件中，并使用&#x200B;**[!UICONTROL 筛选器逻辑]**&#x200B;来匹配任意或全部筛选器。
+
+在&#x200B;_侦听事件_&#x200B;节点中[添加事件](./listen-for-event-nodes.md#membership-filtering)的筛选器时，这些筛选器也可用。
+
+![按人员条件拆分路径以购买群组和个人资料受众成员资格](./assets/node-split-people-condition-profile-audience-membership.png){width="700" zoomable="yes"}
+
+**购买组的成员**
+
+例如，要为具有特定角色的购买组成员创建路径，请将成员资格设置为&#x200B;_true_，并选择与购买组相关的&#x200B;_[!UICONTROL 解决方案兴趣]_。
+
+添加筛选器时，默认情况下系统包含&#x200B;_[!UICONTROL 已移除]_&#x200B;约束，并将其设置为`false`，因此路径仅包含当前购买组成员。
 
 单击&#x200B;**[!UICONTROL 添加约束]**&#x200B;以包含其他购买组成员资格约束：
 
@@ -258,12 +270,25 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 * _[!UICONTROL 购买团体状态]_
 * _[!UICONTROL 完整性分数]_
 * _[!UICONTROL 参与度分数]_
-* _[!UICONTROL 已删除]_
 * _[!UICONTROL 角色]_
 
->[!TIP]
+>[!IMPORTANT]
 >
->要排除从购买组中移除的成员，请使用&#x200B;_[!UICONTROL Is Removed]_&#x200B;约束设置为`false`。 您还可以通过将此约束设置为`true`来显式包含已删除的成员。
+>_[!UICONTROL Is Removed]_&#x200B;约束确定是否评估已移除的购买组成员：
+>
+>* `false` （默认） — 仅返回当前购买组成员。 删除的成员不包括在内。
+>* `true` — 仅退回已删除的购买组成员。 不包括当前成员。
+>* 约束已移除 — 返回当前和已移除的购买组成员。
+>
+>如果删除限制，则路径可以包含不再属于购买组的用户。
+
+**个人资料受众的成员**
+
+使用&#x200B;_[!UICONTROL 个人资料受众]_&#x200B;约束选择一个或多个受众。 例如，如果选择`integroPerson`受众，则在上次批量摄取时，路径将确定属于该受众的所有人员的资格。
+
+>[!NOTE]
+>
+>该过滤器不会实时计算受众成员资格。 它根据人员截至上次批量受众摄取时在选定受众中的成员资格来授予人员资格。 只能评估已摄取到[!DNL Journey Optimizer B2B Edition]的受众。
 
 ## 自定义数据筛选 {#custom-data-filtering}
 
@@ -287,9 +312,9 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 
 1. 在合并路径节点属性中，选择要合并的路径。
 
-   ![历程节点 — 合并路径](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
+   ![历程节点 — 选择要合并的路径](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
 
-   此时，将合并路径，以便选定路径中的帐户合并为可以继续完成历程的单个路径。
+   合并路径，以便将选定路径中的帐户合并到单个路径中，以便该路径可以继续完成历程。
 
 1. 如果需要，您可以通过导航回合并路径节点属性并清除要删除的任何路径的复选框来取消合并路径。
 
