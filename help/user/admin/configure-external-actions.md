@@ -1,6 +1,6 @@
 ---
 title: 外部操作配置
-description: 了解开发人员、管理员和营销人员如何协作来实施、配置和使用将Journey Optimizer B2B Edition与历程中的外部服务连接的外部操作。
+description: 了解开发人员、管理员和营销人员如何协作来实施、配置和使用将Journey Optimizer B2B Edition与历程中的外部服务连接的外部操作，以及管理员如何监测操作运行状况。
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: dd796abfc909ef2c60877ccf977f4b6e5755693c
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1615'
 ht-degree: 1%
 ---
 # 外部操作配置
@@ -45,7 +45,7 @@ ht-degree: 1%
 | | 角色 | 任务 |
 | ---- | ---- | ---- |
 | 1 | Developer | [实施并发布外部服务](#implement-service) |
-| 2 | 管理员 | [在Journey Optimizer B2B Edition中配置操作](#configure-action) |
+| 2 | 管理员 | [在Journey Optimizer B2B Edition中配置操作](#configure-action)和[监视外部操作运行状况](#monitor-external-action-health) |
 | 3 | 营销人员 | [向历程添加外部节点](#add-journey-node) |
 
 ## 实施外部服务 {#implement-service}
@@ -71,6 +71,8 @@ ht-degree: 1%
 1. 转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 配置]**。
 
 1. 单击中间面板上的&#x200B;**[!UICONTROL 外部操作]**。
+
+1. 选择&#x200B;**[!UICONTROL 浏览]**&#x200B;选项卡。
 
    ![访问外部操作配置空间](./assets/configuration-external-actions-list.png){width="800" zoomable="yes"}
 
@@ -184,6 +186,50 @@ This error appears below the URL field (not in the alert banner) and means there
 | `Failed to create external action. Please try again.` | A network error occurred or the server returned an unexpected response | Check your connection and try again. If it keeps happening, contact support |
 -->
 
+## 监测外部操作运行状况 {#monitor-health}
+
+营销人员开始在历程中使用外部操作后，您可以从外部操作页面的&#x200B;_概述_&#x200B;选项卡中跟踪每个操作的执行情况。 使用它可以查看每个操作收到的请求数、这些请求中有多少失败，以及哪些操作的错误率最高。
+
+要查看仪表板，请执行以下操作：
+
+1. 转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 配置]**。
+
+1. 单击中间面板上的&#x200B;**[!UICONTROL 外部操作]**。
+
+   默认情况下，系统显示&#x200B;**[!UICONTROL 概述]**&#x200B;选项卡以及过去七天的外部操作数据。
+
+1. 从日期范围菜单中选择要复核的期间，或在日期字段中输入起始日期和终止日期。 默认范围是最近30天。
+
+   ![外部操作运行状况仪表板显示日期范围筛选器、请求总数、错误、错误率和操作性能。](./assets/config-external-action-health.png){width="700" zoomable="yes"}
+
+   指标和表将更新为仅显示选定时段中的活动。
+
+### 量度 {#metrics}
+
+_概述_&#x200B;部分总结了所选期间所有外部操作的性能。
+
+| 量度 | 描述 |
+| ---- | ---- |
+| [!UICONTROL 操作总数] | 报表中包含的外部操作数。 |
+| [!UICONTROL 总请求数] | 在所有操作中向外部服务发出的请求总数。 |
+| [!UICONTROL 错误总数] | 导致错误的请求总数。 |
+| [!UICONTROL 错误率] | 导致错误的请求百分比。 |
+
+### 操作性能 {#actions}
+
+_操作性能_&#x200B;表列出了选定期间的每个外部操作及其活动。
+
+| 列 | 描述 |
+| ---- | ---- |
+| [!UICONTROL 名称] | 外部操作的名称。 |
+| [!UICONTROL 请求计数] | 向操作的外部服务发出的请求数。 |
+| [!UICONTROL 错误计数] | 导致错误的请求数。 |
+| [!UICONTROL 错误率] | 导致错误的请求百分比。 |
+
+使用表格来比较操作并查找需要注意的操作。 例如，错误率高的操作表示外部服务、其身份验证凭据或其配置有问题。 请与实施服务的开发人员合作来调查原因。
+
 ## 向历程添加外部节点 {#add-journey-node}
 
 在激活操作后，营销人员可以将&#x200B;_[!UICONTROL 外部操作]_&#x200B;或&#x200B;_[!UICONTROL 外部拆分路径]_&#x200B;节点添加到任何帐户或人员历程。 有关如何在历程画布中添加和使用这些节点的信息，请参阅[外部节点](../journeys/external-nodes.md)。
+
+![外部操作节点 — 选择外部服务](../journeys/assets/node-external-action-service-name.png){width="600" zoomable="yes"}

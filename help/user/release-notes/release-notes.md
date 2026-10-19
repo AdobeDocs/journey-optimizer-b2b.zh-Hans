@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 783fa2ddf72a910b191b2eb93c6dcd71d2cddc8c
+source-git-commit: 585e34d466ff17723a4049a0050a79d23783f2ce
 workflow-type: tm+mt
-source-wordcount: '5781'
+source-wordcount: '5784'
 ht-degree: 60%
 ---
 # Journey Optimizer B2B Edition 发行说明
@@ -43,7 +43,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | 服务运行状况功能板 | 通过收集成功/错误量度并提供仪表板供管理员监视服务性能，跟踪外部操作的操作健康状况。 |
+| 增强功能 | 外部操作运行状况 | 管理员现在可以在仪表板上监测外部操作的性能，该仪表板显示请求计数、错误计数和错误率。 [了解详情](../admin/configure-external-actions.md#monitor-health) |
 | 增强功能 | 个人资料受众筛选条件的成员 | 此筛选器现在可用于人员历程拆分路径条件、帐户历程人员拆分路径条件和&#x200B;_侦听事件_&#x200B;节点筛选器，以根据其受众成员资格包含或排除用户档案。 [了解详情](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | 增强功能 | 购买组成员过滤器 — 默认删除 | 在&#x200B;_按人员拆分路径_&#x200B;条件和&#x200B;_侦听事件_&#x200B;节点筛选器中，添加&#x200B;_[!UICONTROL 购买群组成员]_&#x200B;筛选器时，_[!UICONTROL Is Removed]_&#x200B;约束现在默认处于选中状态并设置为`false`。 除非您更改或删除限制，否则过滤器仅返回当前购买组成员。 [了解详情](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | 增强功能 | 历程重新进入 — 人员历程 | 现在为人员历程提供历程重新进入支持。 |
