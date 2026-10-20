@@ -386,7 +386,7 @@ Multiple paragraphs of preview content here.
 - 首字母缩略词（自动保留英语）
 - 不翻译数据库中已存在的术语
 
-**在链接文本中：**&#x200B;请移除标记括号以防止呈现问题。 使用`[Adobe](https://www.adobe.com)`而非`[[!DNL Adobe]](https://www.adobe.com)`。
+**在链接文本中：**&#x200B;请移除标记括号以防止呈现问题。 使用`[Adobe](https://www.adobe.com/cn)`而非`[[!DNL Adobe]](https://www.adobe.com/cn)`。
 
 ### `[!UICONTROL Label]`： UI控件
 
