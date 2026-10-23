@@ -1,34 +1,40 @@
 ---
 title: 帐户列表
-description: 在Journey Optimizer B2B edition中，使用自定义过滤器创建静态和动态帐户列表，以实现目标历程编排和基于帐户的营销。
+description: 在Journey Optimizer B2B Edition中使用自定义过滤器创建静态和动态帐户列表，以实现目标历程编排和基于帐户的营销。
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e935834c-48b7-43d8-b754-a815196a1b05
+    internal-label: Account lists
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+    internal-label: Audience segmentation
 autotag-review: 2026-04-29T23:21:59.633Z
 TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
 source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1262
+source-wordcount: '1262'
 ht-degree: 2%
-
 ---
-
 # 帐户列表
 
-在Journey Optimizer B2B edition中，帐户列表是营销人员可用于进行目标历程编排的指定帐户集合。 帐户列表可以根据您定义的条件（如行业、位置或公司规模）来定位指定帐户。 帐户列表有两种类型：
+在Journey Optimizer B2B Edition中，帐户列表是营销人员可用于进行目标历程编排的指定帐户集合。 帐户列表可以根据您定义的条件（如行业、位置或公司规模）来定位指定帐户。 帐户列表有两种类型：
 
 * **静态** — 使用静态帐户列表时，该列表仅在您添加帐户时更改。 您可以通过应用过滤器集以根据当前帐户数据填充列表来手动添加帐户，或通过帐户历程添加和删除帐户。
 * **动态** — 使用动态帐户列表，您可以定义用于自动策划列表的过滤器集。 系统使用此筛选器集根据帐户信息的更改添加和删除帐户。 此列表管理类似于Real-time Customer Data Platform[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}中的受众分段。
