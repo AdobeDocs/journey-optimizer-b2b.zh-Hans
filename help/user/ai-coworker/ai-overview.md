@@ -56,7 +56,7 @@ ht-degree: 7%
 
 将[!DNL CX Enterprise Coworker]应用程序界面用于除生成内容之外的所有聊天工作流。 提出产品问题，探索运营见解，并使用B2B帐户和人员的[历程技能](../agents/journey-agent.md)和[受众技能](../agents/audience-agent-b2b.md)。 在[!DNL Journey Optimizer B2B Edition]内，内容生成保持可用。
 
-有关打开应用程序、开始对话和使用聊天功能的说明，请参阅[CX Coworker界面指南](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}。
+有关打开应用程序、开始对话和使用聊天功能的说明，请参阅[CX Coworker界面指南](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/ui-guide){target="_blank"}。
 
 在提交[!DNL Coworker]聊天查询之前，考虑您需要哪种类型的查询。
 
@@ -115,4 +115,4 @@ _操作分析_&#x200B;是指[!DNL Coworker]生成的有关元数据对象（属�
 
 * [启用AI功能访问](./enable-ai-access.md)
 * [问题指导](./question-guidance.md)
-* [CX Coworker界面指南](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}
+* [CX Coworker界面指南](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/ui-guide){target="_blank"}

@@ -177,7 +177,7 @@ Journey Optimizer B2B Edition现在可在聊天界面中使用以下代理AI功�
 | ----- | ------ | ----------- |
 | 历程生成代理 | 新增的和更新的 | 历程生成代理可实时分析、构思并联合创建历程，使营销人员能够更快启动、提高参与度、促进更高转化率。 [了解详情](../agents/journey-agent.md) |
 | Audience 代理 | 新 | Audience 代理使用结构化和非结构化数据自动识别和构建购买群组。 这有助于营销人员更快、更准确地锁定合适的人群。 [了解详情](../agents/audience-agent-b2b.md) |
-| [!DNL Marketo Qualifier] | 新 | [!DNL Adobe Marketo Qualifier]是与[!DNL Journey Optimizer B2B Edition]集成的AI驱动应用程序。 它实施了Account Qualification Agent，旨在简化业务开发代表(BDR)的工作流。 它跨渠道自动化了潜在客户鉴别、外联和买方参与工作流程。 [了解详情](https://experienceleague.adobe.com/en/docs/marketo-qualifier/using/home){target="_blank"} |
+| [!DNL Marketo Qualifier] | 新 | [!DNL Adobe Marketo Qualifier]是与[!DNL Journey Optimizer B2B Edition]集成的AI驱动应用程序。 它实施了Account Qualification Agent，旨在简化业务开发代表(BDR)的工作流。 它跨渠道自动化了潜在客户鉴别、外联和买方参与工作流程。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/marketo-qualifier/using/home){target="_blank"} |
 
 ## 2025.10 版本发行说明 {#rel-2025-10}
 
