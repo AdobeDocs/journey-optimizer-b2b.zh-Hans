@@ -60,4 +60,4 @@ ht-degree: 5%
 
 当用户具有必要的权限时，他们可以通过选择应用程序顶部标题上的&#x200B;_[!DNL Coworker]聊天_&#x200B;图标来访问[!DNL Coworker]聊天。
 
-应用程序标头](./assets/coworker-icon-header.png){width="800" zoomable="yes"}中的![[!DNL Coworker]聊天图标
+应用程序标头![&#128279;](./assets/coworker-icon-header.png){width="800" zoomable="yes"}中的[!DNL Coworker]聊天图标

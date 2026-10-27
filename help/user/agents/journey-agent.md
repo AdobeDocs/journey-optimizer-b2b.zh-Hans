@@ -73,7 +73,7 @@ ht-degree: 0%
 
 “创建一个B2B之旅，邀请最有可能开辟新管道的参与客户参加路演。”
 
-在[!DNL CX Coworker]](./assets/coworker-chat-b2b-journey-prompt.png){width="800" zoomable="yes"}中为B2B提示创建![历程的技能
+在[!DNL CX Coworker]![&#128279;](./assets/coworker-chat-b2b-journey-prompt.png){width="800" zoomable="yes"}中为B2B提示创建历程的技能
 
 您提供的细节越多，回复就越好。 如果您有描述该事件或您的产品等的现有营销材料，请将其粘贴到提示中，以便[!DNL Coworker]更好地了解目标。
 

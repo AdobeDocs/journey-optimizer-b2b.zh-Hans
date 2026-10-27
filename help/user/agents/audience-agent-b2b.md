@@ -57,7 +57,7 @@ ht-degree: 1%
 
 单击应用程序顶部的&#x200B;_询问[!DNL Coworker]_ （![询问[!DNL Coworker]](../assets/do-not-localize/icon-ask-coworker.svg) ）图标以打开[!DNL Coworker]应用程序。 在聊天界面中输入您的自然语言提示。
 
-![ [!DNL CX Coworker]](./assets/audience-skills-prompt.png){width="800" zoomable="yes"}中的受众提示
+![&#x200B; [!DNL CX Coworker]](./assets/audience-skills-prompt.png){width="800" zoomable="yes"}中的受众提示
 
 ## 受众技能关注领域
 
