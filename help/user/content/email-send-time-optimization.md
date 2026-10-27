@@ -28,9 +28,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '477'
 ht-degree: 0%
 ---
 # 电子邮件发送时间优化
@@ -46,16 +46,16 @@ STO使用大型语言模型分析每个配置文件的历史参与。 它会预�
 * **历程类型**：人员历程
 * **渠道**：电子邮件
 * **配置**： _发送电子邮件_&#x200B;操作节点
-* **报告**：通过历程可观察性技能的AI助手
+* **报告**： [!DNL Coworker]通过历程可观察性技能聊天
 
-  性能分析（例如使用情况、参与度提升以及STO与非STO的比较）可通过AI Assistant中的自然语言查询获得。
+  性能分析，例如使用情况、参与度提升以及STO与非STO的比较，可通过[!DNL Coworker]聊天中的自然语言查询获得。
 
 >[!BEGINSHADEBOX]
 
 计划为STO提供许多&#x200B;**_未来增强功能_**：
 
 * 支持&#x200B;_帐户历程_
-* _[!UICONTROL 管理员]_&#x200B;区域中的全局STO配置
+* _[!UICONTROL 管理]_&#x200B;区域中的全局STO配置
 * 历程级别的STO启用
 * 可配置的测试/控制拆分
 * 专用的STO报告仪表板
@@ -90,4 +90,4 @@ STO使用大型语言模型分析每个配置文件的历史参与。 它会预�
 
 ## STO分析
 
-STO分析是通过&#x200B;_AI助手_&#x200B;使用Journey Agent [_可观察性技能_](../agents/journey-agent.md#journey-observability-skill)&#x200B;提供的。 您可以查询使用情况、参与量度、测试/控制结果、节点性能和整体旅程影响。
+使用&#x200B;[_历程可观察性技能_](../agents/journey-agent.md#journey-observability-skills)，通过&#x200B;_[!DNL Coworker]聊天_&#x200B;传递STO见解。 您可以查询使用情况、参与量度、测试/控制结果、节点性能和整体旅程影响。

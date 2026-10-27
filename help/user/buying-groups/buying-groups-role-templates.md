@@ -1,26 +1,28 @@
 ---
 title: 购买组角色模板
-description: 创建具有条件自动分配的角色模板，以识别在Journey Optimizer B2B edition中购买群组的决策者和利益相关者。
+description: 创建具有条件自动分配的角色模板，以识别在Journey Optimizer B2B Edition中购买群组的决策者和利益相关者。
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: '1435'
 ht-degree: 5%
-
 ---
-
 # 购买群组角色模板
 
 在B2B市场中，通常会有多个人做出购买决定。 这些个人根据其在组织内的作用参与决策过程。 创建购买组角色模板，这些模板根据每种产品和服务类型或帐户用例包含一组角色定义。
@@ -29,9 +31,9 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-## Audience Agent B2B
+## 受众技能
 
-[Audience Agent B2B](../agents/audience-agent-b2b.md)可通过第一方意图检测和角色映射生成购买群组角色模板。 在引导式流程中，您可以识别链接到产品的角色，查看人工智能推荐的角色到角色映射，并在发布模板之前使用自然语言优化模板。
+使用B2B帐户和人员的[受众技能](../agents/audience-agent-b2b.md)通过第一方意图检测和角色映射生成购买组角色模板。 在引导式流程中，您可以识别链接到产品的角色，查看人工智能推荐的角色到角色映射，并在发布模板之前使用自然语言优化模板。
 
 **提示尝试：**
 
@@ -39,7 +41,7 @@ ht-degree: 5%
 * 添加映射到`<persona>`的`<role>`
 * 移除`<role>` / `<persona>`
 
-![Audience Agent B2B正在创建购买小组角色模板](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
+![使用受众技能生成的购买群组角色模板。](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -109,7 +111,7 @@ ht-degree: 5%
 
    * 从列表中选择&#x200B;**[!UICONTROL 购买团体角色]**。
 
-     有六个默认角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 该列表还包括在&#x200B;_角色_&#x200B;列表[&#128279;](./default-custom-roles.md#create-a-custom-role)中定义的任何自定义角色。
+     有六个默认角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 该列表还包括在&#x200B;_角色_&#x200B;列表](./default-custom-roles.md#create-a-custom-role)中定义的任何[自定义角色。
 
      ![购买团体角色列表](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -141,7 +143,7 @@ ht-degree: 5%
 
      使用工作标题的![角色模板条件示例](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-   * 如果已配置与XDM关系架构[&#128279;](../admin/xdm-field-management.md#relational-schemas)中定义的人员相关的自定义对象，请展开&#x200B;**[!UICONTROL 自定义对象]**&#x200B;的列表以在角色条件中使用它们。
+   * 如果已配置与XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中定义的人员[相关的自定义对象，请展开&#x200B;**[!UICONTROL 自定义对象]**&#x200B;的列表以在角色条件中使用它们。
 
      ![角色模板添加自定义对象条件](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
 
@@ -223,4 +225,4 @@ ht-degree: 5%
 
 ## 概述视频 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3453311/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

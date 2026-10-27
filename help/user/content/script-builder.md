@@ -1,6 +1,6 @@
 ---
 title: 脚本生成器
-description: 使用Script Builder（电子邮件设计空间中支持AI的助手）生成Handlebars个性化脚本并转换Journey Optimizer B2B edition中的Marketo Engage Velocity脚本。
+description: 使用Script Builder（电子邮件设计空间中由AI提供支持的助手）生成Handlebars个性化脚本并在Journey Optimizer B2B Edition中转换Marketo Engage Velocity脚本。
 feature: AI Assistant, Generative AI, Personalization, Email Authoring
 role: User, Developer
 badgeBeta: label="Beta 版" type="informative" tooltip="此功能当前为有限测试版"
@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 3%
@@ -49,7 +49,7 @@ _脚本生成器_&#x200B;是[!DNL Adobe Journey Optimizer B2B Edition]电子邮�
 
 >[!IMPORTANT]
 >
->用户对Script Builder的访问通过[!DNL Journey Optimizer B2B Edition]中其他生成AI功能使用的相同权限进行控制。 有关授予功能权限的信息，请参阅[启用AI助手访问](../ai-coworker/enable-ai-assistant-access.md)。
+>用户对Script Builder的访问通过[!DNL Journey Optimizer B2B Edition]中其他生成AI功能使用的相同权限进行控制。 有关授予功能权限的信息，请参阅[启用AI功能访问](../ai-coworker/enable-ai-access.md)。
 
 在使用脚本生成器之前，请查看适用于[!DNL Journey Optimizer B2B Edition]中的创作AI功能的[准则和限制](./generative-ai-content.md#general-guidelines-and-limitations)。 [在使用AI功能之前，还需要用户同意](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。
 
