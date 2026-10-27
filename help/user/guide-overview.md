@@ -10,10 +10,10 @@ feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
     internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: 87bce853d68d03eabceccf02ba80a8077dce206d
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 27%
+source-wordcount: '1123'
+ht-degree: 26%
 ---
 # Adobe Journey Optimizer B2B Edition 文档
 
@@ -160,7 +160,7 @@ Learn how to author and manage content for personalized customer experiences orc
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="快速入门"><br/>
-      <strong>开始使用</strong><br/><a href="home-page.md">登录和主页</a><br/><a href="./start/get-started.md">入门指南</a> <br/><a href="./ai-coworker/ai-assistant-overview.md">AI功能</a>
+      <strong>开始使用</strong><br/><a href="home-page.md">登录和主页</a><br/><a href="./start/get-started.md">入门指南</a> <br/><a href="./ai-coworker/ai-overview.md">AI功能</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="购买群组"><br/>
@@ -188,6 +188,16 @@ Learn how to author and manage content for personalized customer experiences orc
 </tr>
 </table>
 
+>[!BEGINSHADEBOX]
+
+## [!DNL Marketo Qualifier]
+
+[!DNL Adobe Marketo Qualifier]是一个可以与[!DNL Journey Optimizer B2B Edition]一起使用的AI驱动应用程序。 它实施客户资格认证技能，旨在简化业务发展代表(BDR)的工作流程。 [!DNL Marketo Qualifier]跨渠道自动执行潜在客户鉴别、外联和买方参与工作流程。 它减少了手动BDR负载，加快了企业B2B公司的管道速度。
+
+有关详细信息，请参阅[Marketo Qualifier文档](https://experienceleague.adobe.com/zh-hans/docs/marketo-qualifier/using/home){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 ## 其他资源
 
 <table style="table-layout:fixed">
@@ -203,4 +213,3 @@ Learn how to author and manage content for personalized customer experiences orc
 <a href="https://experienceleague.adobe.com/zh-hans/docs/marketo/using/home" target="_blank">用户文档</a> - <a href="https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/home" target="_blank">开发人员文档</a>
 </td>
 </tr></table>
-

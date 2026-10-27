@@ -1,6 +1,6 @@
 ---
 title: 登录和主页
-description: 访问 Journey Optimizer B2B Edition 并导航个性化主页——为营销人员和管理员提供快速访问和 AI 助手的不同视图。
+description: 访问Journey Optimizer B2B Edition并导航个性化主页 — 面向营销人员和管理员的不同视图，可快速访问和[!DNL Coworker]聊天。
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 83%
+source-wordcount: '414'
+ht-degree: 72%
 ---
 # 登录和主页
 
@@ -53,7 +53,7 @@ Journey Optimizer B2B Edition 有两个主要的用户画像：_&#x200B;**营销
 
 _[!UICONTROL 最近访问的]_&#x200B;部分提供了营销人员或管理员最近访问的资产列表。 使用此列表可直接前往您最近使用过的资产，而无需浏览一系列资产页面进行搜索。
 
-通过该页面还可以访问 [AI 助手](./ai-coworker/ai-assistant-overview.md)，帮助用户快速获取他们需要的任何特定问题或主题的信息。<!-- and to obtain specific recommendations for their challenges or objectives-->
+该页面还包括对[同事聊天](./ai-coworker/ai-overview.md)的访问权限，这有助于用户快速获取有关他们所需的任何特定问题或主题的信息。<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!--
 

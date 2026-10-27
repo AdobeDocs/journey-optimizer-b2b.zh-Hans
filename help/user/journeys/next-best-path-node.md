@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 8d51e62165a40322efc45af87bbdfcd56e8eefb9
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1911'
 ht-degree: 0%
 ---
 # 下一个最佳路径节点
@@ -331,4 +331,4 @@ _识别在财政季度的最后30天内评估阶段活动激增的帐户。_
 * 每个路径分配的置信度分数
 * 路径级和配置文件级推理，可展开各个配置文件的详细信息
 
-实时结果也可在历程控制台中以及通过AI中心的[历程可观察性技能](../agents/journey-agent.md#journey-observability-skill)获得。
+实时结果也可在[!DNL Coworker]聊天中通过[历程可观察性技能](../agents/journey-agent.md#journey-observability-skills)提供给历程控制台。

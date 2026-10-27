@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文档
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition 以及如何使用它通过内置的生成式 AI 和行业领先的自动化来编排帐户及购买群组历程。
-source-git-commit: 4bf162645af8589b8e36bb36be1ac6594b7bdeab
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 82%
+source-wordcount: '457'
+ht-degree: 79%
 ---
 
 # Journey Optimizer B2B Edition 用户指南 {#user}
@@ -29,15 +29,14 @@ ht-degree: 82%
   + [数据可用性和同步计时](./data/data-availability-timing.md)
   + [导出的数据集](./data/aep-exported-datasets.md)
   + [数据集查询](./data/aep-query-examples.md)
-+ AI功能 {#ai-assistant}
-  + [概述](./ai-coworker/ai-assistant-overview.md)
-  + [启用 AI 助手访问](./ai-coworker/enable-ai-assistant-access.md)
++ AI功能 {#ai-capabilities}
+  + [概述](./ai-coworker/ai-overview.md)
+  + [启用访问](./ai-coworker/enable-ai-access.md)
   + [问题指导](./ai-coworker/question-guidance.md)
-  + [聊天界面](./ai-coworker/use-ai-assistant.md)
   + [意图分数](./ai-coworker/intent-scores.md)
-  + 代理 {#ai-agents}
-    + [Audience Agent B2B](./agents/audience-agent-b2b.md)
-    + [Journey Agent B2B](./agents/journey-agent.md)
+  + 同事技能 {#coworker-skills}
+    + [B2B帐户和人员的受众技能](./agents/audience-agent-b2b.md)
+    + [B2B的历程技能](./agents/journey-agent.md)
 + 智能仪表板 {#dashboards}
   + [分析仪表板](./dashboards/intelligent-dashboard.md)
   + [参与仪表板](./dashboards/engagement-dashboard.md)
