@@ -24,18 +24,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
+source-git-commit: b5346fc612e8664b7ddbbf40f07789d0c4069117
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2156'
 ht-degree: 4%
 ---
 # 侦听事件
 
 要在事件发生时将受众推进到[历程](./journeys-overview.md)中的下一步，请添加&#x200B;_侦听事件_&#x200B;节点。 根据历程类型，您可以使用此节点根据人员或帐户事件触发历程中的下一个节点。
 
-<!--
-![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
--->
+![视频](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;， vertical-align=&quot;middle&quot;} [观看概述视频](#overview-video)
 
 ## 帐户历程 {#account-journeys}
 
@@ -199,7 +197,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 对于人员历程，您可以使用B2B人员配置文件属性中的更改来触发&#x200B;_侦听事件_&#x200B;节点。
 
-1. 将&#x200B;**[!UICONTROL 人员配置文件更改]**&#x200B;从&#x200B;_[!UICONTROL 触发器]_&#x200B;列表拖放到事件匹配生成器空间中。
+1. 将**[!UICONTROL 人员配置文件更改]**从&#x200B;_[!UICONTROL 触发器]_&#x200B;列表拖放到事件匹配生成器空间中。
 
 1. 单击&#x200B;**[!UICONTROL 添加约束]**&#x200B;并选择要用于事件触发器的属性更改。
 
@@ -221,7 +219,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 >[!PREREQUISITES]
 >
->管理员可配置[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，以便营销人员能够创建近乎实时地对事件做出反应的帐户和人员历程。
+>管理员可配置[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，以便营销人员能够创建近乎实时地对事件做出反应的帐户和人员历程。
 >
 >要使体验事件可用于历程，产品管理员必须首先在[!DNL Journey Optimizer B2B Edition]中[添加感兴趣的事件类型和字段](../admin/configure-aep-events.md#add-an-event)。
 
@@ -253,7 +251,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 ## 事件过滤器 {#filters-people-event}
 
-当您在帐户历程[&#128279;](#people-events)中定义[人员事件，或在人员历程](#person-journeys)中定义事件时，您可以包含筛选以根据各种条件限制匹配的事件触发器：
+当您在帐户历程](#people-events)中定义[人员事件，或在人员历程](#person-journeys)中定义[事件时，您可以包含筛选以根据各种条件限制匹配的事件触发器：
 
 | 过滤器 | 描述 |
 | ------------ | ----------- |
@@ -363,8 +361,6 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
    如果不想定义路径，可以清除&#x200B;_[!UICONTROL 设置超时路径]_&#x200B;复选框。
 
-<!--
- ## Overview video
+## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3443244/?captions=chi_hans&learn=on) 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)
