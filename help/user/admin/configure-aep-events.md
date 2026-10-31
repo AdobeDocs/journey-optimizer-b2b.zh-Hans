@@ -26,17 +26,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: b5346fc612e8664b7ddbbf40f07789d0c4069117
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 10%
+source-wordcount: '1639'
+ht-degree: 12%
 ---
 # 选择体验事件和字段
 
 管理员可以在Experience Event合并架构中选择特定的Adobe Experience Platform (AEP) [Experience Events](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其相关字段。 选择后，用户可以配置决策规则以侦听这些Experience事件，以基于近乎实时的事件数据启用动态和针对性的营销活动操作。
 
-<!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
-
+![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看视频概述](#overview-video)
 >[!PREREQUISITES]
 >
 >在Journey Optimizer B2B Edition中使用Experience Event和字段需要启用配置文件的Experience Event架构。 有关详细信息，请参阅Experience Platform教程中的[启用实时客户个人资料](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}。
@@ -185,7 +184,7 @@ _[!UICONTROL 事件]_&#x200B;选项卡上的列表显示已保存的事件。
 | 电子邮件源实例ID | `directMarketing.emailSent.mailingKey.sourceInstanceID` |
 | 电子邮件源密钥 | `directMarketing.emailSent.mailingKey.sourceKey` |
 | 邮件名称 | `directMarketing.emailSent.mailingName` |
-| 历程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 历程 ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | 节点Id | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -213,7 +212,7 @@ _[!UICONTROL 事件]_&#x200B;选项卡上的列表显示已保存的事件。
 | 邮件源实例ID | `directMarketing.mailingKey.sourceInstanceID` |
 | 邮件源密钥 | `directMarketing.mailingKey.sourceKey` |
 | 邮件名称 | `directMarketing.mailingName` |
-| 历程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 历程 ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | 节点Id | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -245,7 +244,7 @@ _[!UICONTROL 事件]_&#x200B;选项卡上的列表显示已保存的事件。
 | 设备型号 | `device.model` |
 | 用户代理 | `environment.browserDetails.userAgent` |
 | Operating system | `environment.operatingSystem` |
-| 历程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 历程 ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | 节点Id | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -278,7 +277,7 @@ _[!UICONTROL 事件]_&#x200B;选项卡上的列表显示已保存的事件。
 | 模型 | `device.model` |
 | 用户代理 | `environment.browserDetails.userAgent` |
 | Operating system | `environment.operatingSystem` |
-| 历程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 历程 ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | 节点Id | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -309,7 +308,7 @@ _[!UICONTROL 事件]_&#x200B;选项卡上的列表显示已保存的事件。
 | 电子邮件 | `directMarketing.email` |
 | 电子邮件退回代码 | `directMarketing.emailBouncedCode` |
 | 电子邮件退回详细信息 | `directMarketing.emailBouncedDetails` |
-| 历程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 历程 ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | 节点Id | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -340,7 +339,7 @@ _[!UICONTROL 事件]_&#x200B;选项卡上的列表显示已保存的事件。
 | 电子邮件 | `directMarketing.email` |
 | 电子邮件退回代码 | `directMarketing.emailBouncedCode` |
 | 电子邮件退回详细信息 | `directMarketing.emailBouncedDetails` |
-| 历程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 历程 ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | 节点Id | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -368,7 +367,7 @@ _[!UICONTROL 事件]_&#x200B;选项卡上的列表显示已保存的事件。
 | 邮件源实例ID | `directMarketing.mailingKey.sourceInstanceID` |
 | 邮件源密钥 | `directMarketing.mailingKey.sourceKey` |
 | 邮件名称 | `directMarketing.mailingName` |
-| 历程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 历程 ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | 节点Id | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -488,13 +487,11 @@ _[!UICONTROL 事件]_&#x200B;选项卡上的列表显示已保存的事件。
 | 时刻描述 | `leadOperation.interestingMoment.description` |
 | 力矩源 | `leadOperation.interestingMoment.source` |
 | 力矩类型 | `leadOperation.interestingMoment.type` |
-| 历程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 历程 ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | 节点Id | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
 
-<!--
- ## Overview video
+## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3448693/?captions=chi_hans&learn=on) 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3448693/?captions=chi_hans&learn=on)
