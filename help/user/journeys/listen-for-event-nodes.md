@@ -24,16 +24,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: b5346fc612e8664b7ddbbf40f07789d0c4069117
+source-git-commit: 15097380d19f8e3748f49fee18aec2fcf43d0af3
 workflow-type: tm+mt
-source-wordcount: '2156'
+source-wordcount: '2151'
 ht-degree: 4%
 ---
 # 侦听事件
 
 要在事件发生时将受众推进到[历程](./journeys-overview.md)中的下一步，请添加&#x200B;_侦听事件_&#x200B;节点。 根据历程类型，您可以使用此节点根据人员或帐户事件触发历程中的下一个节点。
 
-![视频](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;， vertical-align=&quot;middle&quot;} [观看概述视频](#overview-video)
+![视频](../../assets/do-not-localize/icon-video.svg){width="30" vertical-align="middle"} [观看概述视频](#overview-video)
 
 ## 帐户历程 {#account-journeys}
 
