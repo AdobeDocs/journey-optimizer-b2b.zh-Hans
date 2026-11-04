@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: c2d3ba94927361f7695e901ef9071bdd4ded8f7d
+source-git-commit: ef3e184c1782cacc0d5452274b858c0a3d365189
 workflow-type: tm+mt
-source-wordcount: '5774'
-ht-degree: 60%
+source-wordcount: '5888'
+ht-degree: 58%
 ---
 # Journey Optimizer B2B Edition 发行说明
 
@@ -36,6 +36,20 @@ Adobe Journey Optimizer B2B Edition 不断地提供新功能，对现有功能�
 Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] 上，并继承了其最新的创新和改进。 在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/latest){target="_blank"}中进一步了解这些更改。
 
 查看[产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，了解有关权限、性能护栏和限制的信息。
+
+## 2026.10发行说明 {#rel-2026-10}
+
+**部署日期**：2026年11月6日
+
+| 类型 | 项目 | 描述 |
+| ---- | ---- | ----------- |
+| 功能 | 人员列表 | 使用静态和动态人员列表，按照您定义的标准（例如人口统计属性和体验事件历史记录）来定位用户档案。 |
+| 功能 | 历程节点标签 | 向历程节点添加标签以在历程画布上标识它们。 |
+| 增强功能 | 人员列表筛选器成员 | 使用&#x200B;_[!UICONTROL 人员列表成员]_&#x200B;筛选器可以根据其人员列表成员资格来包含或排除用户档案。 |
+| 增强功能 | 人员列表历程操作 | 通过帐户和人员历程将人员添加到静态人员列表或从静态人员列表中删除人员。 |
+
+>[!NOTE]
+>这些版本更改从2026年11月6日开始，将分阶段推出每个功能和增强功能。 功能及增强功能的发布时间可能会有变动。
 
 ## 2026.9版发行说明 {#rel-2026-9}
 
@@ -50,12 +64,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 >[!NOTE]
 >
->这些版本更改从2026年9月25日开始部署，并分阶段推出每个功能和增强功能。 功能及增强功能的发布时间可能会有变动。
-
-<!--
-Delayed to Oct
-| Feature | People lists | Static and dynamic people lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
--->
+>这些版本更改从2026年9月25日开始，将分阶段推出每个功能和增强功能。 功能及增强功能的发布时间可能会有变动。
 
 ## 2026.8发行说明 {#rel-2026-8}
 
@@ -74,7 +83,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->这些版本更改从2026年8月14日开始部署，并分阶段推出每个功能和增强功能。 功能及增强功能的发布时间可能会有变动。
+>这些版本更改的部署从2026年8月14日开始，将分阶段推出每个功能和增强功能。 功能及增强功能的发布时间可能会有变动。
 
 ## 2026.6发行说明 {#rel-2026-6}
 
@@ -89,13 +98,11 @@ Delayed to Oct
 
 >[!NOTE]
 >
->这些版本更改从2026年7月10日开始部署，并分阶段推出每个功能和增强功能。 功能及增强功能的发布时间可能会有变动。
+>这些版本更改从2026年7月10日开始，将分阶段推出每个功能和增强功能。 功能及增强功能的发布时间可能会有变动。
 
 ## 2026.5发行说明 {#rel-2026-5}
 
 **部署日期**： 2026年5月22日
-
-<!-- Learn more links omitted for 2026.5 items until updated feature documentation is published. -->
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
@@ -111,12 +118,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->这些版本更改从2026年5月22日开始部署，并分阶段推出每个功能和增强功能。 功能及增强功能的发布时间可能会有变动。
-
-<!--
- wait for later release
-| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. |
--->
+>这些版本更改从2026年5月22日开始，将分阶段推出每个功能和增强功能。 功能及增强功能的发布时间可能会有变动。
 
 ## 2026.3发行说明 {#rel-2026-3}
 
@@ -135,7 +137,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->这些版本更改从2026年3月27日开始部署，并分阶段推出每个功能和增强功能。 功能及增强功能的发布时间可能会有变动。
+>这些版本更改从2026年3月27日开始，将分阶段推出每个功能和增强功能。 功能及增强功能的发布时间可能会有变动。
 
 
 ## 2026.2发行说明 {#rel-2026-2}
@@ -151,7 +153,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->这些版本更改从2026年2月20日开始部署，并分阶段推出每个功能和增强功能。 功能及增强功能的发布时间可能会有变动。
+>这些版本更改从2026年2月20日开始，将分阶段推出每个功能和增强功能。 功能及增强功能的发布时间可能会有变动。
 
 ## 2026.1发行说明 {#rel-2026-1}
 
@@ -167,7 +169,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->这些版本更改从2026年2月3日开始部署，并分阶段推出每个功能。 功能及增强功能的发布时间可能会有变动。
+>这些版本更改从2026年2月3日开始，将分阶段推出每个功能。 功能及增强功能的发布时间可能会有变动。
 
 ## 代理式 AI 功能 {#rel-agents}
 
@@ -177,7 +179,7 @@ Journey Optimizer B2B Edition现在可在聊天界面中使用以下代理AI功�
 | ----- | ------ | ----------- |
 | 历程生成代理 | 新增的和更新的 | 历程生成代理可实时分析、构思并联合创建历程，使营销人员能够更快启动、提高参与度、促进更高转化率。 [了解详情](../agents/journey-agent.md) |
 | Audience 代理 | 新 | Audience 代理使用结构化和非结构化数据自动识别和构建购买群组。 这有助于营销人员更快、更准确地锁定合适的人群。 [了解详情](../agents/audience-agent-b2b.md) |
-| [!DNL Marketo Qualifier] | 新 | [!DNL Adobe Marketo Qualifier]是与[!DNL Journey Optimizer B2B Edition]集成的AI驱动应用程序。 它实施了Account Qualification Agent，旨在简化业务开发代表(BDR)的工作流。 它跨渠道自动化了潜在客户鉴别、外联和买方参与工作流程。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/marketo-qualifier/using/home){target="_blank"} |
+| [!DNL Marketo Qualifier] | 新 | [!DNL Adobe Marketo Qualifier]是与[!DNL Journey Optimizer B2B Edition]集成的AI驱动应用程序。 它实施了Account Qualification Agent，旨在简化业务开发代表(BDR)的工作流。 它跨渠道自动化了潜在客户鉴别、外联和买方参与工作流程。 [了解详情](https://experienceleague.adobe.com/en/docs/marketo-qualifier/using/home){target="_blank"} |
 
 ## 2025.10 版本发行说明 {#rel-2025-10}
 
@@ -199,7 +201,7 @@ Journey Optimizer B2B Edition现在可在聊天界面中使用以下代理AI功�
 
 >[!NOTE]
 >
->这些版本更新于 2025 年 10 月 31 日开始部署，并将分阶段逐步推出各项功能。 功能及增强功能的发布时间可能会有变动。
+>这些版本更改从2025年10月31日开始，将分阶段推出每个功能。 功能及增强功能的发布时间可能会有变动。
 
 ### 更新的体系结构
 
@@ -213,7 +215,7 @@ Journey Optimizer B2B Edition现在可在聊天界面中使用以下代理AI功�
 
 * **轻松统一并扩展数据**：更新后的平台支持复杂的数据模型，包括自定义对象、购买群组和帐户事件。
 * **连接多个 Adobe Marketo Engage 实例**：可在同一位置管理并统一多个 Adobe Marketo Engage 环境中的数据。
-* **保障数据安全**：高级隐私与安全功能有助于保护客户信息。
+* **保护您的数据**：高级隐私和安全功能有助于保护您的客户信息。
 * **专为长期可扩展性而设计**：此更新使您的组织为持续改进和创新做好准备。
 
 >[!NOTE]
@@ -245,7 +247,7 @@ Journey Optimizer B2B Edition现在可在聊天界面中使用以下代理AI功�
 
 >[!NOTE]
 >
->这些版本更新于 2025 年 9 月 30 日开始部署，并将分阶段逐步推出各项功能。 功能及增强功能的发布时间可能会有变动。
+>这些版本更改从2025年9月30日开始，将分阶段推出每个功能。 功能及增强功能的发布时间可能会有变动。
 
 ## 2025.8 版发行说明 {#rel-2025-8}
 
