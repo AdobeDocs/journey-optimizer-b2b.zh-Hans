@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 0d7af9ad43f2fce159de48c01d7e1c6c6ae234af
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1414'
 ht-degree: 3%
 ---
 # Web体验
@@ -192,17 +192,19 @@ Adobe Journey Optimizer B2B Edition中的Web渠道允许您直接在您的网站
 
 当您的Web营销活动处于实时状态时，您可以跟踪您在Journey Optimizer B2B Edition中定义的Web体验如何针对使用重定向到替代页面的Web体验执行。
 
-## 测试 Web 体验
+<!--
+## Test the web experience
 
-在Web体验的内容设计完成后，您可以使用&#x200B;_模拟内容_&#x200B;功能来预览网页修改。 如果插入个性化内容，则可以使用测试配置文件数据检查内容的呈现方式。 模拟工具可从Web体验的&#x200B;_[!UICONTROL Content]_&#x200B;选项卡或内容可视设计编辑器中获得。
+After the content design is complete for the web experience, you can use the _Simulate content_ feature to preview your web page modifications. If you inserted personalized content, you can use test profile data to check how the content is rendered. The simulation tools are available from the _[!UICONTROL Content]_ tab for the web experience, or the content visual design editor.
 
-1. 单击右上方的&#x200B;**[!UICONTROL 模拟内容]**。
+1. Click **[!UICONTROL Simulate content]** at the top right.
 
-1. 选择测试用户档案。
+1. Select a test profile.
 
-1. 要使用测试用户档案数据检查网页，请添加测试用户档案。
+1. To check your web page using the test profile data, add a test profile.
 
-<!-- This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out -->
+This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out
+-->
 
 ## 激活您的Web体验
 
