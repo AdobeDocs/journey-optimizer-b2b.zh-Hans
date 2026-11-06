@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 0d7af9ad43f2fce159de48c01d7e1c6c6ae234af
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1414'
 ht-degree: 3%
 ---
 # Web体验
@@ -61,7 +61,7 @@ Adobe Journey Optimizer B2B Edition中的Web渠道允许您直接在您的网站
 
 * 产品管理员已配置一个或多个Web渠道来定义要用于Web体验的URL（页面）。 有关详细信息，请参阅[Web渠道配置](../admin/configure-channels-web.md)。
 
-* 您的网站已实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，用于访客识别和内容交付。 确保Adobe Experience Platform Web SDK的版本为2.16或更高版本。
+* 您的网站已实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，用于访客识别和内容交付。 确保Adobe Experience Platform Web SDK的版本为2.16或更高版本。
 
 * 您拥有在历程中创建和管理Web体验所需的[权限](../admin/user-management.md#b2b-product-permissions)：
   * _[!UICONTROL 创作B2B Web体验]_
@@ -84,7 +84,7 @@ Adobe Journey Optimizer B2B Edition中的Web渠道允许您直接在您的网站
 
    如果您使用的是[!DNL Microsoft Edge]，请选择顶部横幅上其他商店中的&#x200B;_允许扩展_。 启用此选项可让您将扩展从[!DNL Chrome Web Store]添加到[!DNL Microsoft Edge]。
 
-1. 搜索并导航到&#x200B;_[!DNL Adobe Experience Cloud Visual Editing Helper]_&#x200B;浏览器扩展。
+1. 搜索并导航到&#x200B;_[!DNL Adobe Experience Cloud Visual Editing Helper]_浏览器扩展。
 
    ![适用于Google Chrome的Adobe Experience Cloud可视化编辑帮助程序扩展](./assets/web-experience-google-chrome-adobe-visual-editing-extension.png){width="800" zoomable="yes"}
 
@@ -110,7 +110,7 @@ Adobe Journey Optimizer B2B Edition中的Web渠道允许您直接在您的网站
 
 当您[添加&#x200B;_[!UICONTROL 执行操作]_&#x200B;节点](../journeys/action-nodes.md)并执行以下操作时，可以在历程中设置Web体验：
 
-1. 对于&#x200B;_目标上的_&#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
+1. 对于&#x200B;]_目标上的_[!UICONTROL &#x200B;操作，请选择&#x200B;**[!UICONTROL 人员]**。
 
 1. 若要对人员执行&#x200B;_[!UICONTROL 操作]_，请选择&#x200B;**[!UICONTROL 个性化Web体验]**。
 
@@ -192,17 +192,19 @@ Adobe Journey Optimizer B2B Edition中的Web渠道允许您直接在您的网站
 
 当您的Web营销活动处于实时状态时，您可以跟踪您在Journey Optimizer B2B Edition中定义的Web体验如何针对使用重定向到替代页面的Web体验执行。
 
-## 测试 Web 体验
+<!--
+## Test the web experience
 
-在Web体验的内容设计完成后，您可以使用&#x200B;_模拟内容_&#x200B;功能来预览网页修改。 如果插入个性化内容，则可以使用测试配置文件数据检查内容的呈现方式。 模拟工具可从Web体验的&#x200B;_[!UICONTROL Content]_&#x200B;选项卡或内容可视设计编辑器中获得。
+After the content design is complete for the web experience, you can use the _Simulate content_ feature to preview your web page modifications. If you inserted personalized content, you can use test profile data to check how the content is rendered. The simulation tools are available from the _[!UICONTROL Content]_ tab for the web experience, or the content visual design editor.
 
-1. 单击右上方的&#x200B;**[!UICONTROL 模拟内容]**。
+1. Click **[!UICONTROL Simulate content]** at the top right.
 
-1. 选择测试用户档案。
+1. Select a test profile.
 
-1. 要使用测试用户档案数据检查网页，请添加测试用户档案。
+1. To check your web page using the test profile data, add a test profile.
 
-<!-- This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out -->
+This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out
+-->
 
 ## 激活您的Web体验
 
@@ -218,13 +220,13 @@ Adobe Journey Optimizer B2B Edition中的Web渠道允许您直接在您的网站
 
 * 在Adobe Experience Platform数据收集中，确保定义了数据流。 确保在Adobe Experience Platform服务下启用了Adobe Journey Optimizer B2B Edition选项。
 
-  此配置可确保Adobe Experience Platform Edge能够正确处理入站事件。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)
+  此配置可确保Adobe Experience Platform Edge能够正确处理入站事件。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * 在Adobe Experience Platform中，确保您有一个启用了&#x200B;_[!UICONTROL Active-On-Edge合并策略]_&#x200B;选项的合并策略。
 
-  在Experience Platform的Customer > Profiles > Merge Policies菜单下，选择一个策略。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  在Experience Platform的Customer > Profiles > Merge Policies菜单下，选择一个策略。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Journey Optimizer B2B Edition入站渠道使用此合并策略在Edge上正确激活和发布入站Web体验。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/ui-guide)
+  Journey Optimizer B2B Edition入站渠道使用此合并策略在Edge上正确激活和发布入站Web体验。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### 故障排除
 
