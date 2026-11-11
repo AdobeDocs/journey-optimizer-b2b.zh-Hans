@@ -57,7 +57,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在帐户历程中，历程&#x200B;]**图表中的**[!UICONTROL &#x200B;帐户状态包含经过历程的帐户，即使这些帐户随后被删除也是如此。 **[!UICONTROL 穿透钻取]**&#x200B;不包括已删除的帐户，因此它显示的记录比图表少。 这一差异是意料之中的。 删除帐户不会更改历史历程状态计数。
+>在帐户历程中，历程&#x200B;**图表中的**&#x200B;帐户状态包含经过历程的帐户，即使这些帐户随后被删除也是如此。 **[!UICONTROL 穿透钻取]**&#x200B;不包括已删除的帐户，因此它显示的记录比图表少。 这一差异是意料之中的。 删除帐户不会更改历史历程状态计数。
 
 ## 历程参与
 
@@ -101,7 +101,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 ### 穿透钻取
 
-对于历程&#x200B;]**图表中的**[!UICONTROL &#x200B;帐户状态，请选择&#x200B;**[!UICONTROL 穿透钻取]**&#x200B;以深入分析各个帐户状态。
+对于历程&#x200B;**图表中的**&#x200B;帐户状态，请选择&#x200B;**[!UICONTROL 穿透钻取]**&#x200B;以深入分析各个帐户状态。
 
 ![图形数据的穿透钻取](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--
@@ -133,7 +133,7 @@ The applied global filters are carried over to the view and displayed at the top
 >
 >在个人历程中，历程中&#x200B;**[!UICONTROL 人员的状态]**&#x200B;图表包含经过该历程的人员，即使他们后来被删除。 **[!UICONTROL 穿透钻取]**&#x200B;不包括已删除的人员，因此它显示的记录比图表少。 这一差异是意料之中的。 删除人员不会更改历史历程状态计数。
 
-对于历程]图表中人员的&#x200B;_[!UICONTROL 状态，请单击_&#x200B;更多_ (**...**)图标，然后选择&#x200B;**[!UICONTROL 穿透钻取]**&#x200B;以查看个人状态。
+对于历程图表中人员的&#x200B;_状态，请单击_&#x200B;更多_ (**...**)图标，然后选择&#x200B;**[!UICONTROL 穿透钻取]**&#x200B;以查看个人状态。
 
 ## 历程参与 {#person-journey-engagement}
 
