@@ -1,7 +1,7 @@
 ---
 title: 历程详细信息
-description: 在Journey Optimizer B2B Edition中通过完成率、参与量度、电子邮件/短信分析和AI见解监控帐户历程表现。
-feature: Dashboards, Account Journeys
+description: 在Adobe Journey Optimizer B2B Edition中监控帐户和人员旅程表现。 查看每个历程的完成、参与和渠道量度。
+feature: Dashboards, Account Journeys, Person Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
 autotag-review: 2026-03-30T23:21:08.953Z
@@ -19,51 +19,63 @@ feature_v2:
 subfeature_v2:
   - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
     internal-label: Account Journeys
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c053f91ea231cd8517e2329b7170aa08c33dc24
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '843'
 ht-degree: 0%
 ---
 # 历程详细信息
 
-单击活动帐户历程的名称时，将显示历程详细信息。 _[!UICONTROL 概述]_&#x200B;选项卡提供有关历程的有用信息，包括创作AI摘要。
+在[!DNL Adobe Journey Optimizer B2B Edition]中，打开已发布的帐户或人员历程，然后选择&#x200B;**[!UICONTROL 概述]**&#x200B;选项卡。 查看所选历程的进度、参与度和渠道性能。
 
-此仪表板提供选定帐户历程的全面概述，详细介绍使用圆图和折线图对一段时间的完成、正在进行的活动和中止进行分类和量化的帐户进度。 它有助于营销团队通过关键投放和参与量度来评估电子邮件和短信渠道的有效性。 有关在所有历程中聚合的电子邮件量度，请参阅[电子邮件性能报表](../dashboards/email-performance-dashboard.md)。
+帐户历程报告帐户的进度。 人员历程报告人员的进度。 可用的小部件和量度标签因历程类型而异。 选择仪表板详细信息的相应选项卡。
 
-此概述适用于已发布的帐户历程，大约需要4个小时才能将数据开始填充到图表和表中。
+对于在历程中聚合的电子邮件量度，请使用[电子邮件性能报表](../dashboards/email-performance-dashboard.md)。
 
-![访问活动历程详细信息](./assets/journey-detail-overview.png){width="700" zoomable="yes"}
+>[!BEGINTABS]
+
+>[!TAB 帐户历程]
+
+帐户历程仪表板显示帐户进度、参与度、渠道性能和创作AI摘要。 数据大约需要四个小时才能开始填充到图表和表中。
+
+![帐户历程概述选项卡，显示进度、参与度和渠道性能。](./assets/journey-detail-overview-account.png){width="700" zoomable="yes"}
 
 ## 历程完成
 
 本节介绍两个完成指标：
 
-* **[!UICONTROL 历程状态]** — 此圆环图通过将帐户分类为&#x200B;_已完成_、_进行中_&#x200B;和&#x200B;_已中止_&#x200B;来提供历程状态的划分。 每个区段在图表的外边缘均标有相应的百分比和帐号。
-* **[!UICONTROL 一段时间内的历程完成情况]** — 此折线图跟踪一段时间内完成其历程的帐户数。 水平轴映射时间轴，而垂直轴量化帐户，从而直观地了解完成趋势。
+* **[!UICONTROL 历程中的帐户状态]**：显示帐户总数以及按历程状态细分，包括&#x200B;_已完成_、_进行中_&#x200B;和&#x200B;_已中止_。 每个区段显示状态、百分比和帐户计数。
+* **[!UICONTROL 随时间变化的已完成帐户]**：显示一段时间内完成历程的帐户数。 水平轴显示日期，垂直轴显示帐户计数。
+
+>[!NOTE]
+>
+>在帐户历程中，历程&#x200B;**图表中的**&#x200B;帐户状态包含经过历程的帐户，即使这些帐户随后被删除也是如此。 **[!UICONTROL 穿透钻取]**&#x200B;不包括已删除的帐户，因此它显示的记录比图表少。 这一差异是意料之中的。 删除帐户不会更改历史历程状态计数。
 
 ## 历程参与
 
 本节介绍两个参与量度：
 
 * **[!UICONTROL 帐户参与次数]** — 此圆环图将历程中的帐户划分为&#x200B;_参与次数_&#x200B;和&#x200B;_未参与次数_&#x200B;类别。 中心图显示总数。 此可视化图表有助于快速了解总体客户参与情况。
-* **参与者的参与度** — 此可视化图表显示历程中符合&#x200B;_参与度_&#x200B;条件的人员总数。
+* **[!UICONTROL 参与者的参与度]**：显示历程中参与活动的人数。 此值计入人员而非参与活动。
 
 ## 历程性能
 
 本节介绍两个重要的量度：
 
 * **[!UICONTROL 历程完成率]** — 已成功完成其旅程的帐户的百分比。
-* **[!UICONTROL 历程持续时间]** — 帐户完成历程所用的平均时间。
+* **[!UICONTROL 平均历程完成时间]**：帐户完成历程所用的平均时间（以天为单位）。
 
-## 电子邮件和短信性能
+## 渠道性能 {#email-and-sms-performance}
 
-性能表提供有关电子邮件和短信渠道效率的详细信息。 每个表格都显示了诸如投放率和点进率之类的量度，帮助您评估每个通信接触点的影响。 下表仅显示此历程的电子邮件和短信量度。 对于所有历程中的相同电子邮件量度，请使用[电子邮件性能报表](../dashboards/email-performance-dashboard.md)。
+仪表板包括所选帐户历程的&#x200B;**[!UICONTROL 电子邮件性能]**、**[!UICONTROL 短信性能]**&#x200B;和&#x200B;**[!UICONTROL WhatsApp性能]**&#x200B;表。 使用可用的投放和参与量度评估每个通信接触点。
 
 **[!UICONTROL 电子邮件性能]**&#x200B;表列：
 
@@ -83,13 +95,13 @@ ht-degree: 0%
 To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. 
 -->
 
-## 增强的交互
+## 其他操作
 
-使用操作图标(**...**)与数据交互 每个图表或表的右上角。
+使用图表或表的&#x200B;**...**&#x200B;菜单访问其可用操作。
 
 ### 穿透钻取
 
-对于&#x200B;_[!UICONTROL 历程状态]_&#x200B;图表，请选择&#x200B;**[!UICONTROL 穿透钻取]**&#x200B;以深入分析各个帐户状态。
+对于历程&#x200B;**图表中的**&#x200B;帐户状态，请选择&#x200B;**[!UICONTROL 穿透钻取]**&#x200B;以深入分析各个帐户状态。
 
 ![图形数据的穿透钻取](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--
@@ -102,4 +114,46 @@ The applied global filters are carried over to the view and displayed at the top
 
 ![查看扩展数据](./assets/journey-completion-over-time-view-more.png){width="600" zoomable="yes"}
 
-要下载数据，请单击数据表右上角的&#x200B;**[!UICONTROL 下载CSV]**。 要返回&#x200B;_概述_&#x200B;仪表板，请单击&#x200B;**[!UICONTROL 关闭]**。
+要下载数据，请选择&#x200B;**[!UICONTROL 下载CSV]**。 要返回&#x200B;_[!UICONTROL 概述]_&#x200B;仪表板，请选择&#x200B;**[!UICONTROL 关闭]**。
+
+>[!TAB 人员历程]
+
+人员历程仪表板显示选定历程中人员的完成、参与和电子邮件性能。
+
+![人员历程概述选项卡，显示进度、参与度和电子邮件性能。](./assets/journey-detail-overview-person.png){width="700" zoomable="yes"}
+
+## 历程完成 {#person-journey-completion}
+
+请使用以下图表查看历程中人员的状态和完成趋势：
+
+* **[!UICONTROL 历程中的人员状态]**：显示人员总数并按历程状态细分。 每个区段显示状态、百分比和人员计数。
+* **[!UICONTROL 随时间变化的已完成人数]**：显示一段时间内完成历程的人数。 **[!UICONTROL 增量已完成]**&#x200B;系列显示每个时间间隔的完成。 **[!UICONTROL 累计已完成]**&#x200B;系列显示正在运行的完成总数。
+
+>[!NOTE]
+>
+>在个人历程中，历程中&#x200B;**[!UICONTROL 人员的状态]**&#x200B;图表包含经过该历程的人员，即使他们后来被删除。 **[!UICONTROL 穿透钻取]**&#x200B;不包括已删除的人员，因此它显示的记录比图表少。 这一差异是意料之中的。 删除人员不会更改历史历程状态计数。
+
+对于历程图表中人员的&#x200B;_状态，请单击_&#x200B;更多_ (**...**)图标，然后选择&#x200B;**[!UICONTROL 穿透钻取]**&#x200B;以查看个人状态。
+
+## 历程参与 {#person-journey-engagement}
+
+**[!UICONTROL 人员参与度]**&#x200B;小组件显示历程中具有参与活动的人员数。 此值计入人员而非参与活动。
+
+## 历程性能 {#person-journey-performance}
+
+请使用以下量度来复查完成性能：
+
+* **[!UICONTROL 历程完成率]**：完成旅程的人员百分比。
+* **[!UICONTROL 平均历程完成时间]**：人员完成历程所用的平均时间（以天为单位）。
+
+## 电子邮件绩效 {#person-journey-email-performance}
+
+**[!UICONTROL 电子邮件性能]**&#x200B;表显示选定人员历程中每个电子邮件资源的计数，而不是费率：
+
+* **[!UICONTROL 资源名称]**：电子邮件资源的名称
+* **[!UICONTROL 已发送]**：已发送的电子邮件数
+* **[!UICONTROL 已传递]**：已传递的电子邮件数
+* **[!UICONTROL 已打开]**：已打开的电子邮件数
+* **[!UICONTROL 已点击]**：已点击的电子邮件数
+
+>[!ENDTABS]
