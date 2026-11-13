@@ -42,9 +42,9 @@ topic_v2:
     internal-label: Data integration
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 827c313f032d482ac2b0a5fa8f41d6506e67b9cb
+source-git-commit: 25cbdfb352740385181a68f96b0b2e6ebc3313e7
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '730'
 ht-degree: 0%
 ---
 # 数据可用性和同步计时 {#data-availability}
@@ -85,6 +85,14 @@ ht-degree: 0%
 
 * **[!DNL Experience Platform]到[!DNL Journey Optimizer B2B Edition]** — 近乎实时地同步数据，最多可能需要30分钟。
 * **[!DNL Journey Optimizer B2B Edition]到[!DNL Experience Platform]** — 以微批次同步数据，最多可能需要4小时。
+
+## 配置文件身份更改 {#profile-identity-changes}
+
+对[!DNL Adobe Experience Platform]中配置文件的`identityMap`所做的更改可能会中断它与[!DNL Journey Optimizer B2B Edition]中现有人员记录的关联。 上一个人员记录标记为已删除，并且不再继续通过历程或购买群组处理。
+
+配置文件必须再次符合激活到[!DNL Journey Optimizer B2B Edition]的受众的条件，才能再次摄取。 如果摄取的记录具有不同的人员ID，则会将其视为新人员。 如果该人员进入历程，则他们会从头开始，而不是继续上一个记录的进度。
+
+历史历程状态计数仍包括已删除的人员记录。 但是，**[!UICONTROL 穿透钻取]**&#x200B;不包括已删除的记录，因此其记录计数可以低于图表计数。 有关详细信息，请查看[人员历程完成报告](../journeys/journey-details.md#person-journey-completion)。
 
 ## 活动事件和历程操作 {#activity-and-actions}
 
