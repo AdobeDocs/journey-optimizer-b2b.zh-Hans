@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 78d7701e30628aad4b732b2d0858953ba09e26f5
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 7%
@@ -84,11 +84,11 @@ ht-degree: 7%
 
 1. 单击右上方的&#x200B;**[!UICONTROL 发送校样]**。
 
-   ![单击“发送校对”](assets/email-simulate-content-preview-send-proof.png){width="500"}
+   ![单击“发送校对”](assets/email-simulate-content-preview-send-proof.png){width="600"}
 
 1. 在&#x200B;_发送验证_&#x200B;页面中，输入第一个收件人的电子邮件地址。
 
-1. 对于要包含在审核中的其他每个收件人，请单击“添加收件人”**&#x200B;**，然后在“发送至”**[!UICONTROL 字段中输入其电子邮件地址]**。
+1. 对于要包含在审核中的其他每个收件人，请单击“添加收件人”****，然后在“发送至”**[!UICONTROL 字段中输入其电子邮件地址]**。
 
    您最多可以为校样投放添加十个收件人。
 
