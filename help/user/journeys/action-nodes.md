@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
 workflow-type: tm+mt
-source-wordcount: '2176'
+source-wordcount: '2358'
 ht-degree: 3%
 ---
 # 执行操作
@@ -91,9 +91,9 @@ ht-degree: 3%
 
 添加激活到目标节点(_T):_
 
-1. 在历程画布中选择&#x200B;_执行操作_&#x200B;节点后，将帐户&#x200B;**上的**&#x200B;操作设置为&#x200B;**[!UICONTROL 激活到目标]**。
+1. 在历程画布中选择&#x200B;_执行操作_&#x200B;节点后，将帐户&#x200B;]**上的**[!UICONTROL &#x200B;操作设置为&#x200B;**[!UICONTROL 激活到目标]**。
 
-1. 单击&#x200B;**[!UICONTROL 选择目标]**。
+1. 单击&#x200B;**[!UICONTROL Select目标]**。
 
    ![历程节点 — 对帐户执行操作 — 激活到目标](./assets/node-activate-destination-select-destination.png){width="600" zoomable="yes"}
 
@@ -107,13 +107,13 @@ ht-degree: 3%
 
 添加从目标节点&#x200B;:_取消激活的操作(_T)
 
-1. 在历程画布中选择&#x200B;_执行操作_&#x200B;节点后，将帐户&#x200B;**上的**&#x200B;操作设置为&#x200B;**[!UICONTROL 从目标]**&#x200B;停用。
+1. 在历程画布中选择&#x200B;_执行操作_&#x200B;节点后，将帐户&#x200B;]**上的**[!UICONTROL &#x200B;操作设置为&#x200B;**[!UICONTROL 从目标]**&#x200B;停用。
 
    ![历程节点 — 对帐户执行操作 — 从目标菜单取消激活](./assets/node-deactivate-destination-menu.png){width="500" zoomable="yes"}
 
-1. 在&#x200B;**[!UICONTROL 虚拟受众]**&#x200B;下，单击&#x200B;**[!UICONTROL 选择现有虚拟受众]**，然后选择要从目标中删除其帐户的虚拟受众。
+1. 在&#x200B;**[!UICONTROL 虚拟受众]**&#x200B;下，单击&#x200B;**[!UICONTROL Select现有虚拟受众]**，然后选择要从目标中删除其帐户的虚拟受众。
 
-1. 在&#x200B;**[!UICONTROL 从目标]**&#x200B;取消激活&#x200B;**[!UICONTROL 选择目标]**&#x200B;并选择要从中删除帐户的目标。
+1. 在&#x200B;**[!UICONTROL 从目标]**&#x200B;取消激活&#x200B;**[!UICONTROL Select目标]**&#x200B;下，选择要从中删除帐户的目标。
 
    配置&#x200B;_从目标_&#x200B;节点取消激活后，将显示所选虚拟受众和目标。
 
@@ -129,10 +129,13 @@ ht-degree: 3%
 | ------- | ------ | ------------ | ----------- |
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL 将人员添加到（其他）历程] | <li>帐户历程（针对人员的操作） <li>人员历程 | <li>选择实时人员历程 |
 | | [!UICONTROL 添加到外部客户受众] | <li>帐户历程 <li>人员历程 | <li>选择外部客户受众 |
+| | [!UICONTROL 添加到联系人列表] | <li>帐户历程（针对人员的操作） <li>人员历程 | <li>Select静态人员列表 |
 | | [!UICONTROL 分配给购买组] | <li>帐户历程 | <li>选择解决方案兴趣 <li>选择角色 |
 | | [!UICONTROL 个人有趣的时刻] | <li>帐户历程 <li>人员历程 | <li>类型 <li>描述 |
 | | [!UICONTROL 个性化Web体验] (Beta) | <li>帐户历程 | <li>创建/编辑Web体验 |
 | | [!UICONTROL 从购买群中删除] | <li>帐户历程 | <li>选择解决方案兴趣 |
+| | [!UICONTROL 从人员列表中移除] | <li>帐户历程（针对人员的操作） <li>人员历程 | <li>Select静态人员列表 |
+| | [!UICONTROL 从历程中删除人员] | <li>人员历程 | <li>选择人员历程 |
 | | [!UICONTROL 发送电子邮件] | <li>帐户历程 <li>人员历程 | <li>创建电子邮件 <li>发送时间优化（可选，仅限人员历程） |
 | | [!UICONTROL 发送短信] | <li>帐户历程 | <li>创建短信 |
 | | [!UICONTROL 发送WhatsApp] | <li>帐户历程 | <li>创建WhatsApp消息 |
@@ -180,7 +183,7 @@ Journey Optimizer B2B基于人员的操作旨在通过配置的渠道管理通�
 选择此基于人员的操作时，您可以创建新外部受众，或从现有外部受众列表中进行选择。
 
 * 对于现有受众，您可以从仅在[!DNL Journey Optimizer B2B Edition]中创建的外部客户受众中进行选择。
-* 在创建受众并将其用于此历程操作时，请确保连接目标。 有关详细信息，请参阅[!DNL Experience Platform]文档中的[创建新的目标连接](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}和[激活概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}。
+* 在创建受众并将其用于此历程操作时，请确保连接目标。 有关详细信息，请参阅[!DNL Experience Platform]文档中的[创建新的目标连接](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}和[激活概述](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}。
 
 ![视频](../../assets/do-not-localize/icon-video.svg){width="30"} [观看付费媒体编排的视频概述](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -216,6 +219,16 @@ Journey Optimizer B2B基于人员的操作旨在通过配置的渠道管理通�
 
 +++
 
++++[!UICONTROL 添加到联系人列表]
+
+使用此操作将人员添加到静态[人员列表](../audiences/people-lists.md)。 当人员到达操作节点时，系统会将其添加为选定列表的成员。 如果人员已是成员，则该操作将被忽略。
+
+单击&#x200B;**[!UICONTROL Select]**&#x200B;以选择静态联系人列表，或单击&#x200B;**[!UICONTROL 创建]**&#x200B;以创建新的静态联系人列表。 有关详细信息，请参阅[在历程中使用人员列表](../audiences/people-lists-journeys.md)。
+
+![执行操作 — 添加到人员列表](./assets/node-action-add-to-people-list.png){width="300"}
+
++++
+
 +++[!UICONTROL 分配给购买组]
 
 使用此操作可根据所选的解决方案兴趣和角色，将人员配置文件添加到[购买群](../buying-groups/buying-groups-overview.md)。
@@ -248,11 +261,21 @@ Journey Optimizer B2B基于人员的操作旨在通过配置的渠道管理通�
 
 +++
 
++++[!UICONTROL 从人员列表中移除]
+
+使用此操作从静态[人员列表](../audiences/people-lists.md)中删除人员。 当人员到达操作节点时，系统会将他们从选定列表中删除。 如果人员不是成员，则该操作将被忽略。
+
+单击&#x200B;**[!UICONTROL Select]**&#x200B;以选择静态人员列表。 有关详细信息，请参阅[在历程中使用人员列表](../audiences/people-lists-journeys.md)。
+
+![执行操作 — 从人员列表中删除](./assets/node-action-remove-from-people-list.png){width="300"}
+
++++
+
 +++[!UICONTROL 从历程中删除人员]
 
 使用此操作可从人员历程中删除人员配置文件。 当人员进入操作节点时，系统将删除他们作为指定人员历程的受众成员。
 
-使用&#x200B;**[!UICONTROL 选择人员历程]**&#x200B;选择器指定要从中删除人员配置文件的人员历程。 您可以在字段中输入文本以筛选列表。
+使用&#x200B;**[!UICONTROL Select人员历程]**&#x200B;选择器指定要从中删除人员配置文件的人员历程。 您可以在字段中输入文本以筛选列表。
 
 ![执行操作 — 从历程中删除人员](./assets/node-action-remove-from-person-journey.png){width="300"}
 
@@ -314,7 +337,7 @@ Journey Optimizer B2B基于人员的操作旨在通过配置的渠道管理通�
 
 +++[!UICONTROL 添加到Marketo请求营销活动]
 
-使用此操作可将人员配置文件添加到连接的Marketo Engage实例中的[请求营销活动](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"}。
+使用此操作可将人员配置文件添加到连接的Marketo Engage实例中的[请求营销活动](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"}。
 
 首先，选择一个连接的Marketo Engage实例。 接下来，选择请求营销活动名称。
 
@@ -324,7 +347,7 @@ Journey Optimizer B2B基于人员的操作旨在通过配置的渠道管理通�
 
 +++[!UICONTROL 添加到Marketo列表]
 
-使用此操作将人员添加到连接的Marketo Engage实例中的[静态列表](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}。
+使用此操作将人员添加到连接的Marketo Engage实例中的[静态列表](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}。
 
 首先，选择一个连接的Marketo Engage实例。 接下来，选择列表名称。
 
@@ -334,7 +357,7 @@ Journey Optimizer B2B基于人员的操作旨在通过配置的渠道管理通�
 
 +++[!UICONTROL 从Marketo列表中删除]
 
-使用此操作可从Marketo Engage中的[静态列表](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}中删除人员。
+使用此操作可从Marketo Engage中的[静态列表](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}中删除人员。
 
 首先，选择一个连接的Marketo Engage实例。 接下来，选择列表名称。
 
@@ -344,4 +367,4 @@ Journey Optimizer B2B基于人员的操作旨在通过配置的渠道管理通�
 
 ## 概述视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3443255/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)

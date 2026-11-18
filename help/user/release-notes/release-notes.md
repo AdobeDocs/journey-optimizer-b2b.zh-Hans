@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: ef3e184c1782cacc0d5452274b858c0a3d365189
+source-git-commit: dccf8dfaf5376b39a9cd1d3843a37a2d02a81270
 workflow-type: tm+mt
-source-wordcount: '5888'
+source-wordcount: '5899'
 ht-degree: 58%
 ---
 # Journey Optimizer B2B Edition 发行说明
@@ -43,10 +43,10 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
-| 功能 | 人员列表 | 使用静态和动态人员列表，按照您定义的标准（例如人口统计属性和体验事件历史记录）来定位用户档案。 |
+| 功能 | 人员列表 | 使用静态和动态人员列表，按照您定义的标准（例如人口统计属性和体验事件历史记录）来定位用户档案。 [了解详情](../audiences/people-lists.md) |
 | 功能 | 历程节点标签 | 向历程节点添加标签以在历程画布上标识它们。 |
-| 增强功能 | 人员列表筛选器成员 | 使用&#x200B;_[!UICONTROL 人员列表成员]_&#x200B;筛选器可以根据其人员列表成员资格来包含或排除用户档案。 |
-| 增强功能 | 人员列表历程操作 | 通过帐户和人员历程将人员添加到静态人员列表或从静态人员列表中删除人员。 |
+| 增强功能 | 人员列表筛选器成员 | 使用&#x200B;_[!UICONTROL 人员列表成员]_&#x200B;筛选器根据用户档案的静态或动态人员列表成员资格来包含或排除用户档案。 [了解详情](../journeys/split-merge-paths-nodes.md#membership-filtering) |
+| 增强功能 | 人员列表历程操作 | 通过帐户和人员历程将人员添加到静态人员列表或从静态人员列表中删除人员。 [了解详情](../journeys/action-nodes.md#people-actions) |
 
 >[!NOTE]
 >这些版本更改从2026年11月6日开始，将分阶段推出每个功能和增强功能。 功能及增强功能的发布时间可能会有变动。
@@ -108,7 +108,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | ---- | ---- | ----------- |
 | 功能 | 登陆页面 | Journey Optimizer B2B Edition中提供登陆页面以支持历程和程序&#x200B;_（以前是Beta程序功能）_。 <ul><li>管理员可以配置登陆页面子域和预设以启用登陆页面发布。 [了解详情](../admin/configure-channels-landing-pages.md)</li><li>营销人员可以创建、设计和发布登陆页面，以通过个性化的Web内容支持其历程。 [了解详情](../content/landing-pages.md)</li></ul> |
 | 功能 | 表单 | Journey Optimizer B2B Edition现在支持可重复使用的表单组件，以便能够提交来自登陆页面&#x200B;_的数据（以前是Beta程序功能）_。 <ul><li>管理员可以使用不同的数据集和流连接组合配置多个表单预设。 [了解详情](../admin/configure-channels-forms.md)</li><li>营销人员现在可以定义可重复使用的表单组件，以从网页访客捕获信息。 [了解详情](../content/forms.md)</li></ul> |
-| 功能 | 帐户列表成员过滤器 | 将帐户列表成员资格用作帐户历程中的编排点。 营销人员可以创建帐户阻止列表、优先级列表或其受众的任何其他类型的子集，并根据其成员资格在历程中提供独特的帐户体验。 |
+| 功能 | 帐户列表成员过滤器 | 将帐户列表成员资格用作帐户历程中的编排点。 营销人员可以创建帐户阻止列表、优先级列表或其受众的任何其他类型的子集，并根据其成员资格在历程中提供独特的帐户体验。 [了解详情](../accounts/account-lists-journeys.md#split-paths-member-of-account-list) |
 | 功能 | 体验事件历史记录筛选 | 此功能使B2B Journey Orchestration能够使用历史参与为受众成员制定基于行为的决策。 [了解详情](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | 功能 | 下一最佳路径历程节点 | 您可以优化人员历程的拆分路径决策，优化在历程激活之前或运行时受众在路径间的路由方式。 [了解详情](../journeys/next-best-path-node.md) |
 | 功能 | 电子邮件性能仪表板 | 电子邮件性能仪表板为营销人员提供了在Adobe Journey Optimizer B2B Edition中所有历程的电子邮件活动的统一视图。 [了解详情](../dashboards/email-performance-dashboard.md) |

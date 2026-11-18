@@ -29,18 +29,18 @@ level_v2:
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
     internal-label: Cross channel delivery
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 0ce0bd0bae3557e780ec960f5e01b3ee9a57100d
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1016'
 ht-degree: 14%
 ---
 # LinkedIn帐户匹配的受众
 
-[!DNL Journey Optimizer B2B Edition]提供通过帐户匹配受众生成LinkedIn广告受众的功能，旨在帮助您在购买群组中填充空角色。 通过定义一组购买群组过滤器，您可以维护 LinkedIn 匹配的受众，定位与您的购买群组参数相匹配的潜在客户。 您还可以从&#x200B;_执行操作_&#x200B;节点的帐户历程激活受众。
+[!DNL Journey Optimizer B2B Edition]提供通过帐户匹配受众生成LinkedIn广告受众的功能，旨在帮助您在购买群组中填充空角色。 通过定义一组购买群组过滤器，您可以维护 LinkedIn 匹配的受众，定位与您的购买群组参数相匹配的潜在客户。 您还可以从&#x200B;[_执行操作_&#x200B;节点](../journeys/action-nodes.md)的帐户历程激活受众。
 
 此功能利用 Experience Platform Destinations 来管理集成的某些方面。 数据流上限为10个。
 
-在从Journey Optimizer B2B Edition启动数据流之前，必须至少有一个[（公司） LinkedIn匹配的受众目标连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}的实例具有在Experience Platform应用程序中配置的LinkedIn营销活动管理器帐户。
+在从Journey Optimizer B2B Edition启动数据流之前，必须至少有一个[（公司） LinkedIn匹配的受众目标连接器](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}的实例具有在Experience Platform应用程序中配置的LinkedIn营销活动管理器帐户。
 
 ## 配置新的 LinkedIn 帐户连接 {#linkedin-destination-setup}
 
@@ -61,7 +61,7 @@ ht-degree: 14%
 
    ![访问（公司） LinkedIn匹配的受众连接器](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
-1. 选择&#x200B;**[!UICONTROL 新帐户]**&#x200B;并单击&#x200B;**[!UICONTROL 连接到目标]**。
+1. Select **[!UICONTROL 新帐户]**&#x200B;并单击&#x200B;**[!UICONTROL 连接到目标]**。
 
    ![连接新的LinkedIn帐户](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
 
@@ -91,7 +91,7 @@ LinkedIn帐户的名称和描述对Journey Optimizer B2B Edition中的购买群�
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-## 激活购买群组的帐户
+## 激活购买群组的帐户(#activate-buying-group)
 
 >[!NOTE]
 >
@@ -109,13 +109,13 @@ LinkedIn帐户的名称和描述对Journey Optimizer B2B Edition中的购买群�
 
    保存之后，为数据流指定的名称将带有&#x200B;_AJOB2B_&#x200B;前缀，以便帮助识别Experience Platform中的数据流。
 
-1. 输入LinkedIn营销活动管理器帐户[&#128279;](https://www.linkedin.com/help/lms/answer/a424270)的帐户ID。
+1. 输入LinkedIn营销活动管理器帐户](https://www.linkedin.com/help/lms/answer/a424270)的[帐户ID。
 
    您可以在Campaign Manager UI中按帐户名称查找帐户ID。
 
    ![添加数据流详细信息](./assets/destinations-linkedin-activate-details.png){width="700" zoomable="yes"}
 
-1. 单击&#x200B;**[!UICONTROL 选择购买群体过滤器]**&#x200B;并定义帐户受众的参数。
+1. 单击&#x200B;**[!UICONTROL Select购买团体筛选器]**，并定义帐户受众的参数。
 
    >[!IMPORTANT]
    >
@@ -129,7 +129,7 @@ LinkedIn帐户的名称和描述对Journey Optimizer B2B Edition中的购买群�
 
    单击&#x200B;**[!UICONTROL 保存]**&#x200B;以添加指定的筛选器。
 
-1. 单击&#x200B;**[!UICONTROL 选择LinkedIn目标]**，然后选择要使用的已配置LinkedIn目标。
+1. 单击&#x200B;**[!UICONTROL Select LinkedIn目标]**，然后选择要使用的已配置LinkedIn目标。
 
    激活时，此设置使用目标配置和相应的虚拟区段创建数据流。
 
@@ -143,13 +143,13 @@ LinkedIn帐户的名称和描述对Journey Optimizer B2B Edition中的购买群�
 
 从2025.10版本开始，对帐户使用&#x200B;_激活到目标_&#x200B;操作，以直接从历程将帐户激活到LinkedIn目标。 使用适用于LinkedIn目标的操作，通过消除多系统切换并减少延迟来简化营销活动执行。 例如，作为营销人员，您可以在关键购买角色缺失时自动将高意图帐户激活到LinkedIn以进行重定向，或根据非活动过滤器重新吸引休眠帐户。
 
-1. 在历程画布中选择&#x200B;_执行操作_&#x200B;节点后，将帐户&#x200B;**上的**&#x200B;操作设置为&#x200B;**[!UICONTROL 激活到目标]**。
+1. 在历程画布中选择&#x200B;_执行操作_&#x200B;节点后，将帐户&#x200B;]**上的**[!UICONTROL &#x200B;操作设置为&#x200B;**[!UICONTROL 激活到目标]**。
 
    ![历程节点 — 对帐户执行操作 — 激活到目标](./assets/node-activate-destination.png){width="550" zoomable="yes"}
 
 1. 从右侧的节点属性中选择目标。
 
-   * 如果创建了一个或多个目标，则可以单击&#x200B;**[!UICONTROL 选择目标]**&#x200B;以选择现有目标。
+   * 如果创建了一个或多个目标，请单击&#x200B;**[!UICONTROL Select目标]**&#x200B;以选择现有目标。
 
    * 如果没有现有目标，或者您要创建新目标，请单击&#x200B;**[!UICONTROL 设置目标]**。
 
@@ -171,4 +171,4 @@ LinkedIn帐户的名称和描述对Journey Optimizer B2B Edition中的购买群�
 
 您可以通过付费媒体渠道（如LinkedIn广告受众）与帐户成员互动，以获取、培育客户并使其符合销售资格。 使用帐户历程中的&#x200B;_执行操作_&#x200B;节点，通过最适合不同帐户成员的外部渠道自动与帐户的关键成员进行交互。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448682/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)
