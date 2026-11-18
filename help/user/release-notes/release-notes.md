@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: dccf8dfaf5376b39a9cd1d3843a37a2d02a81270
+source-git-commit: 6e7322b04f002d63b127ac68f87fa58a88028921
 workflow-type: tm+mt
-source-wordcount: '5899'
+source-wordcount: '5901'
 ht-degree: 58%
 ---
 # Journey Optimizer B2B Edition 发行说明
@@ -44,7 +44,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | 类型 | 项目 | 描述 |
 | ---- | ---- | ----------- |
 | 功能 | 人员列表 | 使用静态和动态人员列表，按照您定义的标准（例如人口统计属性和体验事件历史记录）来定位用户档案。 [了解详情](../audiences/people-lists.md) |
-| 功能 | 历程节点标签 | 向历程节点添加标签以在历程画布上标识它们。 |
+| 功能 | 历程节点标签 | 向历程节点添加标签以在历程画布上标识它们。 [了解详情](../journeys/create-publish-journey.md#label-a-node)。 |
 | 增强功能 | 人员列表筛选器成员 | 使用&#x200B;_[!UICONTROL 人员列表成员]_&#x200B;筛选器根据用户档案的静态或动态人员列表成员资格来包含或排除用户档案。 [了解详情](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | 增强功能 | 人员列表历程操作 | 通过帐户和人员历程将人员添加到静态人员列表或从静态人员列表中删除人员。 [了解详情](../journeys/action-nodes.md#people-actions) |
 
