@@ -51,7 +51,7 @@ ht-degree: 0%
 
 1. 单击路径上的加号( **+** )图标，然后选择&#x200B;**[!UICONTROL 执行操作]**。
 
-1. （仅限帐户历程）Select ]_上的_[!UICONTROL &#x200B;操作&#x200B;**[!UICONTROL 人员]**&#x200B;选项。
+1. （仅限帐户历程）Select _上的_&#x200B;操作&#x200B;**[!UICONTROL 人员]**&#x200B;选项。
 
 1. 若要对联系人执行&#x200B;_[!UICONTROL 操作]_，请选择&#x200B;**[!UICONTROL 添加到联系人列表]**。
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 1. 单击路径上的加号( **+** )图标，然后选择&#x200B;**[!UICONTROL 执行操作]**。
 
-1. （仅限帐户历程）Select ]_上的_[!UICONTROL &#x200B;操作&#x200B;**[!UICONTROL 人员]**&#x200B;选项。
+1. （仅限帐户历程）Select _上的_&#x200B;操作&#x200B;**[!UICONTROL 人员]**&#x200B;选项。
 
 1. 若要对联系人执行&#x200B;_[!UICONTROL 操作]_，请选择&#x200B;**[!UICONTROL 从联系人列表中删除]**。
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
    * 在右侧的节点属性中，为拆分选择&#x200B;**[!UICONTROL 人员]**。
 
-   * 将用于条件&#x200B;]**的**[!UICONTROL &#x200B;属性设置为仅&#x200B;**[!UICONTROL 人员属性]**。
+   * 将用于条件&#x200B;**的**&#x200B;属性设置为仅&#x200B;**[!UICONTROL 人员属性]**。
 
    ![帐户历程 — 拆分路径节点 — 人员属性](../journeys/assets/node-split-path-account-journey-people-attributes.png){width="300" zoomable="no"}
 

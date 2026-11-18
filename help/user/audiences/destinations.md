@@ -34,7 +34,7 @@ ht-degree: 4%
 
 * **从静态列表** — 直接从&#x200B;**_[!UICONTROL 人员列表]_**&#x200B;选项卡激活现有的静态列表。 请参阅&#x200B;[_激活到目标_](./people-lists-static.md#static-list-activate)。
 * **从帐户历程** — 将&#x200B;**_[!UICONTROL 激活到目标]_**&#x200B;操作节点添加到历程路径，以便符合条件的帐户在到达该节点时激活到目标。 请参阅&#x200B;[_激活目标_](../journeys/action-nodes.md#activate-deactivate-destination)&#x200B;或从中取消激活。
-* **来自购买组** — 若要填充购买组中的空角色，您可以激活LinkedIn匹配受众，以定位与购买组参数匹配的潜在客户。 查看与audience_s](../data/linkedin-account-matched-audiences.md#activate-buying-group)匹配的[_LinkedIn帐户。
+* **来自购买组** — 若要填充购买组中的空角色，您可以激活LinkedIn匹配受众，以定位与购买组参数匹配的潜在客户。 查看与audience_s[&#128279;](../data/linkedin-account-matched-audiences.md#activate-buying-group)匹配的_LinkedIn帐户。
 
 >[!BEGINSHADEBOX]
 
