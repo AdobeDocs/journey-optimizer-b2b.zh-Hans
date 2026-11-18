@@ -18,9 +18,9 @@ level_v2:
     internal-label: Beginner
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
+source-git-commit: 0ce0bd0bae3557e780ec960f5e01b3ee9a57100d
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1454'
 ht-degree: 5%
 ---
 # 购买群组角色模板
@@ -102,8 +102,8 @@ ht-degree: 5%
 | ---- | --------- |
 | [!UICONTROL 人员属性] | [个人资料](../admin/field-mapping.md#xdm-business-person-attributes)中的属性，包括： <li>城市 <li>国家 <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>名 <li>推断的州区域 <li>职务名称 <li>姓 <li>手机号码 <li>人员参与度评分 <li>电话号码 <li>邮政编码 <li>State |
 | [!UICONTROL 自定义对象] >具有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}该帐户或人员具有或不具有关系架构记录。 也可以根据[XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中配置的任何所选自定义对象条件对其进行评估。 |
-| 特殊筛选条件 | <li>列表的成员（已弃用） <li>计划成员（已弃用） |
 | 意图数据 | <li>类别意图 <li>产品意图 <li>关键字意图<br/>（请参阅&#x200B;[_意图数据_](../admin/intent-data.md)） |
+| 特殊筛选条件 | <li>[!UICONTROL 具有帐户关系] <li>[!UICONTROL 购买组的成员] <li>[!UICONTROL 列表]的成员（已弃用） <li>[!UICONTROL 个人资料受众的成员] <li>[!UICONTROL 人员动态列表的成员] <li>[!UICONTROL 人员静态列表的成员] |
 
 #### 定义角色属性
 

@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
+source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
 workflow-type: tm+mt
-source-wordcount: '2569'
-ht-degree: 4%
+source-wordcount: '3118'
+ht-degree: 3%
 ---
 # 拆分和合并路径 {#split-paths}
 
@@ -65,10 +65,11 @@ _&#x200B;**按帐户划分的拆分路径节点的工作方式**&#x200B;_
 | 路径条件 | 描述 |
 | --------------- | ----------- |
 | [!UICONTROL 帐户属性] | 帐户个人资料中的属性，包括： <li>年收入 <li>城市 <li>国家 <li>员工规模 <li>行业 <li>名称 <li>SIC 代码 <li>State |
-| [!UICONTROL 自定义对象] >具有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}该帐户具有或不具有关系架构记录。 也可以根据[XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中配置的任何所选自定义对象条件对其进行评估。 （请参阅[自定义数据筛选](#custom-data-filtering)。） |
+| [!UICONTROL 自定义对象] >具有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}该帐户具有或不具有关系架构记录。 也可以根据[XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中配置的任何所选自定义对象条件对其进行评估。 （请参阅&#x200B;[_自定义数据筛选_](#custom-data-filtering)。） |
 | [!UICONTROL 特殊筛选器] > [!UICONTROL 帐户与购买团体匹配] | 该帐户与一个或多个购买群体匹配。 对于匹配的购买组，可以根据以下一个或多个约束对其进行评估： <li>解决方案兴趣 <li>购买组阶段 <li>购买组状态 <li>参与度评分 <li>完整性分数 <li> 购买群组角色中的人数 |
+| [!UICONTROL 特殊筛选条件] > [!UICONTROL 帐户列表的帐户成员] | 该帐户是或不是一个或多个所选帐户列表的成员。 （请参阅&#x200B;[_拆分路径节点 — 帐户列表的帐户成员_](../accounts/account-lists-journeys.md#split-paths-account-member-of-account-list)） |
 
-### 按帐户节点添加拆分路径
+### 按帐户节点添加拆分路径 {#add-a-split-path-by-account-node}
 
 1. 导航到历程图。
 
@@ -136,6 +137,12 @@ _&#x200B;**按帐户划分的拆分路径节点的工作方式**&#x200B;_
 
 要更新已识别帐户的购买组或阶段的状态，请在路径中添加操作节点。
 
+### 帐户列表筛选 {#account-list-filtering}
+
+使用&#x200B;_[!UICONTROL 特殊筛选器]_ > _[!UICONTROL 帐户列表中的帐户成员]_&#x200B;筛选器根据帐户在[帐户列表](../accounts/account-lists.md)中的成员资格为其定义路径。 将成员资格设置为&#x200B;_true_&#x200B;以在列表中包含帐户，或设置为&#x200B;_false_&#x200B;以排除这些帐户，然后选择一个或多个帐户列表。 例如，若要将阻止列表的帐户保留在路径之外，请添加该筛选器，将成员资格设置为&#x200B;_false_，然后选择您的。
+
+有关步骤，请参阅[拆分路径节点 — 帐户列表](../accounts/account-lists-journeys.md#split-paths-account-member-of-account-list)的帐户成员。
+
 ## 按人员拆分路径
 
 _（帐户和人员历程）_
@@ -159,8 +166,12 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 | [!UICONTROL 自定义对象] >具有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}此人是否具有关系架构记录。 也可以根据[XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中配置的任何所选自定义对象条件对其进行评估。 （请参阅[自定义数据筛选](#custom-data-filtering)） |
 | [!UICONTROL 事件历史记录] | 根据在历程进入之前发生的体验事件拆分人员。 展开该文件夹以查看在[管理员> XDM事件配置](../admin/configure-aep-events.md)中配置的所有事件类型，并选择一个类型以添加为过滤器。 约束包括来自所选事件的字段、从人员进入历程时开始的回溯时间范围以及可选的最小次数。 |
 | [!UICONTROL 人员属性] | [个人资料](../admin/field-mapping.md#xdm-business-person-attributes)中的属性，包括： <li>城市 <li>国家 <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>名 <li>推断的州区域 <li>职务名称 <li>姓 <li>手机号码 <li>人员参与度评分 <li>电话号码 <li>邮政编码 <li>州 |
-| [!UICONTROL 特殊筛选器] > [!UICONTROL 购买团体成员] | 人员是否属于根据以下一个或多个标准评估的购买组成员： <li>解决方案兴趣</li><li>购买组状态</li><li>完整性分数</li><li>参与度评分</li><li>已删除（默认： `false`）</li><li>角色</li> （请参阅[成员资格筛选](#membership-filtering)） |
-| [!UICONTROL 特殊筛选器] > [!UICONTROL 个人资料受众的成员] | 此人是否为一个或多个[!DNL Adobe Experience Platform]配置文件受众的成员。 （请参阅[成员资格筛选](#membership-filtering)） |
+| [!UICONTROL 特殊筛选器] > [!UICONTROL 购买团体成员] | 人员是否属于根据以下一个或多个标准评估的购买组成员： <li>解决方案兴趣</li><li>购买组状态</li><li>完整性分数</li><li>参与度评分</li><li>已删除（默认： `false`）</li><li>角色</li> （请参阅&#x200B;[_成员资格筛选_](#membership-filtering)） |
+| [!UICONTROL 特殊筛选器] > [!UICONTROL 个人资料受众的成员] | 此人是否为一个或多个[!DNL Adobe Experience Platform]配置文件受众的成员。 （请参阅&#x200B;[_成员资格筛选_](#membership-filtering)） |
+| [!UICONTROL 特殊筛选器] > [!UICONTROL 帐户动态列表的人员成员] | （仅限人员历程）人员的帐户是否属于一个或多个动态帐户列表。 （查看帐户列表&#x200B;_[&#128279;](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)的_&#x200B;个人成员） |
+| [!UICONTROL 特殊筛选器] > [!UICONTROL 帐户静态列表的人员成员] | （仅限人员历程）人员帐户是否属于一个或多个静态帐户列表。 （查看帐户列表&#x200B;_[&#128279;](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)的_&#x200B;个人成员） |
+| [!UICONTROL 特殊筛选器] > [!UICONTROL 人员动态列表的人员] | 人员是否属于一个或多个动态人员列表。 （请参阅&#x200B;[_成员资格筛选_](#membership-filtering)） |
+| [!UICONTROL 特殊筛选器] > [!UICONTROL 人员静态列表的人员] | 此人是否属于一个或多个静态人员列表。 （请参阅&#x200B;[_成员资格筛选_](#membership-filtering)） |
 
 ### 帐户 — 人员路径条件
 
@@ -251,10 +262,14 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 
 * _[!UICONTROL 购买组的成员]_ — 评估此人是否为购买组的成员。
 * _[!UICONTROL 个人资料受众的成员]_ — 评估此人是否为[!DNL Adobe Experience Platform]个人资料受众的成员。
+* _[!UICONTROL 帐户动态列表的人员]_ - （仅限人员历程）评估人员的帐户是否为动态帐户列表的成员。 （请参阅[在历程中使用帐户列表](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)）
+* _[!UICONTROL 帐户静态列表的成员]_ - （仅限人员历程）评估人员的帐户是否为静态帐户列表的成员。 （请参阅[在历程中使用帐户列表](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)）
+* _[!UICONTROL 人员动态列表的成员]_ — 评估人员是否为动态人员列表的成员。
+* _[!UICONTROL 人员静态列表的成员]_ — 评估人员是否为静态人员列表的成员。
 
-要添加成员资格筛选器，请将其从&#x200B;_[!UICONTROL 特殊筛选器]_&#x200B;文件夹拖到条件工作区上，并将成员资格设置为&#x200B;_true_&#x200B;以包含成员，或设置为&#x200B;_false_&#x200B;以排除成员。 您可以将两个筛选器组合在同一路径条件中，并使用&#x200B;**[!UICONTROL 筛选器逻辑]**&#x200B;来匹配任意或全部筛选器。
+要添加成员资格筛选器，请将其从&#x200B;_[!UICONTROL 特殊筛选器]_&#x200B;文件夹拖动到条件工作区上，并完成匹配定义以包含或排除成员。 根据筛选条件，您选择&#x200B;_true_&#x200B;或&#x200B;_false_，或者选择&#x200B;_是_&#x200B;或&#x200B;_不是_。 您可以在相同的路径条件中组合这些筛选器，并使用&#x200B;**[!UICONTROL 筛选器逻辑]**&#x200B;来匹配任意或全部筛选器。
 
-在&#x200B;_侦听事件_&#x200B;节点中[添加事件](./listen-for-event-nodes.md#membership-filtering)的筛选器时，这些筛选器也可用。
+在&#x200B;_侦听事件_&#x200B;节点中[添加事件](./listen-for-event-nodes.md#membership-filtering)的筛选器时，也可使用&#x200B;_[!UICONTROL 购买组成员]_&#x200B;和&#x200B;_[!UICONTROL 个人资料受众成员]_&#x200B;筛选器。
 
 ![按人员条件拆分路径以购买群组和个人资料受众成员资格](./assets/node-split-people-condition-profile-audience-membership.png){width="700" zoomable="yes"}
 
@@ -289,6 +304,20 @@ _&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 >[!NOTE]
 >
 >该过滤器不会实时计算受众成员资格。 它根据人员截至上次批量受众摄取时在选定受众中的成员资格来授予人员资格。 只能评估已摄取到[!DNL Journey Optimizer B2B Edition]的受众。
+
+**帐户列表的成员**
+
+_（仅限人员历程）_
+
+使用&#x200B;_[!UICONTROL 帐户静态列表的人员]_&#x200B;和&#x200B;_[!UICONTROL 帐户动态列表的人员]_&#x200B;筛选器，根据人员的帐户是否为[帐户列表](../accounts/account-lists.md)的成员来路由人员。 将运算符设置为&#x200B;_是_&#x200B;以包含帐户在列表中的人员或&#x200B;_不是_&#x200B;以排除这些人员，然后选择一个或多个帐户列表。 例如，若要将Nurture路径中的帐户中的人员排除在外，请添加&#x200B;_[!UICONTROL 帐户静态列表的Person成员]_&#x200B;筛选器，将运算符设置为&#x200B;_不是_，然后选择您的。
+
+有关步骤，请参阅[拆分路径节点 — 帐户列表](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)的人员成员。
+
+**人员列表的成员**
+
+使用&#x200B;_[!UICONTROL 人员静态列表的成员]_&#x200B;和&#x200B;_[!UICONTROL 人员动态列表的成员]_&#x200B;筛选器根据[人员列表](../audiences/people-lists.md)中的成员资格路由人员。 将运算符设置为&#x200B;_is_&#x200B;以包含列表成员，或者设置为&#x200B;_is_&#x200B;以排除列表成员，然后选择一个或多个列表。 例如，要将员工和合作伙伴排除在培养路径之外，请添加&#x200B;_[!UICONTROL 人员静态列表的人员]_&#x200B;筛选器，将运算符设置为&#x200B;_不是_，然后选择您的排除列表。
+
+有关步骤，请参阅[按人员列表成员资格拆分路径](../audiences/people-lists-journeys.md#split-paths-by-list-membership)。
 
 ## 自定义数据筛选 {#custom-data-filtering}
 

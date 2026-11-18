@@ -29,14 +29,14 @@ level_v2:
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
     internal-label: Cross channel delivery
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 0ce0bd0bae3557e780ec960f5e01b3ee9a57100d
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1016'
 ht-degree: 14%
 ---
 # LinkedIn帐户匹配的受众
 
-[!DNL Journey Optimizer B2B Edition]提供通过帐户匹配受众生成LinkedIn广告受众的功能，旨在帮助您在购买群组中填充空角色。 通过定义一组购买群组过滤器，您可以维护 LinkedIn 匹配的受众，定位与您的购买群组参数相匹配的潜在客户。 您还可以从&#x200B;_执行操作_&#x200B;节点的帐户历程激活受众。
+[!DNL Journey Optimizer B2B Edition]提供通过帐户匹配受众生成LinkedIn广告受众的功能，旨在帮助您在购买群组中填充空角色。 通过定义一组购买群组过滤器，您可以维护 LinkedIn 匹配的受众，定位与您的购买群组参数相匹配的潜在客户。 您还可以从&#x200B;[_执行操作_&#x200B;节点](../journeys/action-nodes.md)的帐户历程激活受众。
 
 此功能利用 Experience Platform Destinations 来管理集成的某些方面。 数据流上限为10个。
 
@@ -61,7 +61,7 @@ ht-degree: 14%
 
    ![访问（公司） LinkedIn匹配的受众连接器](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
-1. 选择&#x200B;**[!UICONTROL 新帐户]**&#x200B;并单击&#x200B;**[!UICONTROL 连接到目标]**。
+1. Select **[!UICONTROL 新帐户]**&#x200B;并单击&#x200B;**[!UICONTROL 连接到目标]**。
 
    ![连接新的LinkedIn帐户](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
 
@@ -91,7 +91,7 @@ LinkedIn帐户的名称和描述对Journey Optimizer B2B Edition中的购买群�
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-## 激活购买群组的帐户
+## 激活购买群组的帐户(#activate-buying-group)
 
 >[!NOTE]
 >
@@ -115,7 +115,7 @@ LinkedIn帐户的名称和描述对Journey Optimizer B2B Edition中的购买群�
 
    ![添加数据流详细信息](./assets/destinations-linkedin-activate-details.png){width="700" zoomable="yes"}
 
-1. 单击&#x200B;**[!UICONTROL 选择购买群体过滤器]**&#x200B;并定义帐户受众的参数。
+1. 单击&#x200B;**[!UICONTROL Select购买团体筛选器]**，并定义帐户受众的参数。
 
    >[!IMPORTANT]
    >
@@ -129,7 +129,7 @@ LinkedIn帐户的名称和描述对Journey Optimizer B2B Edition中的购买群�
 
    单击&#x200B;**[!UICONTROL 保存]**&#x200B;以添加指定的筛选器。
 
-1. 单击&#x200B;**[!UICONTROL 选择LinkedIn目标]**，然后选择要使用的已配置LinkedIn目标。
+1. 单击&#x200B;**[!UICONTROL Select LinkedIn目标]**，然后选择要使用的已配置LinkedIn目标。
 
    激活时，此设置使用目标配置和相应的虚拟区段创建数据流。
 
@@ -149,7 +149,7 @@ LinkedIn帐户的名称和描述对Journey Optimizer B2B Edition中的购买群�
 
 1. 从右侧的节点属性中选择目标。
 
-   * 如果创建了一个或多个目标，则可以单击&#x200B;**[!UICONTROL 选择目标]**&#x200B;以选择现有目标。
+   * 如果创建了一个或多个目标，请单击&#x200B;**[!UICONTROL Select目标]**&#x200B;以选择现有目标。
 
    * 如果没有现有目标，或者您要创建新目标，请单击&#x200B;**[!UICONTROL 设置目标]**。
 

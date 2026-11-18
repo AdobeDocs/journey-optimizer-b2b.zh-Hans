@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d608cf06498c800cba3172985cf4d1fbfe84d2f8
+source-git-commit: 734966636b6d2addf014905431fa755f6fe92ee6
 workflow-type: tm+mt
-source-wordcount: '2381'
-ht-degree: 76%
+source-wordcount: '2420'
+ht-degree: 75%
 ---
 # 用户访问和权限
 
@@ -193,6 +193,7 @@ ht-degree: 76%
 | B2B渠道配置 | 配置、管理和查看B2B渠道配置的权限。 这些权限包括通信限制设置、API凭据和安全设置。 | <li>管理 B2B 渠道配置 <li>查看B2B电子邮件设置 <li>管理B2B电子邮件设置 <li>管理B2B WhatsApp预设 <li>管理B2B登陆页面设置 <li>查看B2B Forms预设 <li>管理B2B Forms预设 <li>发布B2B Forms预设 <li>创作B2B Web体验 <li>管理B2B WhatsApp设置 |
 | B2B仪表板 | 配置和查看B2B仪表板的权限。 这些权限包括帐户参与、购买群组阶段、激增帐户和联系人覆盖范围。 | <li>查看B2B参与仪表板 |
 | B2B历程 | 配置、管理、查看和发布B2B历程的权限。 这些权限包括帐户和人员操作、事件侦听器以及拆分路径。 | <li>管理B2B帐户历程 <li>管理B2B人员历程 <li>查看B2B人员历程 <li>发布B2B人员历程 |
+| B2B人员列表 | 管理和查看B2B人员列表的权限。 这些权限包括创建、编辑和删除静态和动态人员列表，以及在静态列表中添加和删除人员。 | <li>管理B2B人员列表 <li>查看B2B人员列表 |
 | Journey Optimizer规则 | 访问和配置频率规则（通信限制）。 这些权限应限制为产品管理员。 | <li>查看频率规则 <li>管理频率规则 |
 
 >[!NOTE]
