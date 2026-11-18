@@ -171,4 +171,4 @@ LinkedIn帐户的名称和描述对Journey Optimizer B2B Edition中的购买群�
 
 您可以通过付费媒体渠道（如LinkedIn广告受众）与帐户成员互动，以获取、培育客户并使其符合销售资格。 使用帐户历程中的&#x200B;_执行操作_&#x200B;节点，通过最适合不同帐户成员的外部渠道自动与帐户的关键成员进行交互。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448682/?captions=chi_hans&learn=on)
