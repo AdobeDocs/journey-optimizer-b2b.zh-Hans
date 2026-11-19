@@ -31,14 +31,18 @@ topic_v2:
     internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '354'
 ht-degree: 7%
 ---
 # 登陆页面模板设计
 
-在您[创建登陆页面模板](./landing-page-templates.md#create-a-landing-page-template)之后，请使用可视化设计空间在页面模板中创作结构和内容组件。
+在您[创建登陆页面模板](./landing-page-templates.md#create-a-landing-page-template)之后，请使用可视化设计空间定义页面模板的布局和内容。
+
+## 添加模块
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## 添加结构和内容 {#structure-content-landing-page}
 

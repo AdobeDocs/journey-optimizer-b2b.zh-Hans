@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1373'
 ht-degree: 2%
 ---
 # 电子邮件创作
@@ -103,6 +103,10 @@ ht-degree: 2%
 >
 > 保存的模板可以将管理（内容锁定）设置应用于一个或多个组件。 当您[从受控制的模板](./email-authoring-governance.md)创作电子邮件时，可视设计空间提供了有关锁定的组件的准则。
 
+## 添加模块
+
+{{$include /help/_includes/content-design-modules.md}}
+
 ## 添加结构和内容 {#structure-content}
 
 {{$include /help/_includes/content-design-components.md}}
@@ -115,7 +119,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您的电子邮件是使用包含锁定内容[&#128279;](./template-content-governance.md)的模板设计的，则无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
+>如果您的电子邮件是使用包含锁定内容](./template-content-governance.md)的[模板设计的，则无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
 
 ![访问正文样式](./assets/email-body-styles.png){width="800" zoomable="yes"}
 
@@ -181,7 +185,7 @@ ht-degree: 2%
 
 * 在桌面、移动设备或纯文本/纯文本中查看内容之间切换。
   * 单击&#x200B;_查看_&#x200B;图标可跨设备预览内容。
-  * 选择其中一个预定义设备或输入自定义维度以预览内容。
+  * Select预定义设备之一或输入自定义维度以预览内容。
 
 ## 更多选项
 

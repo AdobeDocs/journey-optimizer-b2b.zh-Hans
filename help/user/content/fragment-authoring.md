@@ -30,14 +30,18 @@ topic_v2:
     internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '394'
 ht-degree: 6%
 ---
 # 片段创作
 
-在您[创建片段](./fragments.md#create-fragments)后，请使用可视化设计空间在片段中创作结构和内容组件。
+在您[创建片段](./fragments.md#create-fragments)后，请使用可视化设计空间定义片段的布局和内容。
+
+## 添加模块
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## 添加结构和内容 {#design-fragment}
 
