@@ -23,9 +23,9 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
 autotag-review: '2026-09-29T00:00:00.000Z'
-source-git-commit: 801025ee02617d56fc8ab933b59385bca38f5097
+source-git-commit: ddeb4c1a777efa3449470a32784065a14eb6e7d1
 workflow-type: tm+mt
-source-wordcount: '4845'
+source-wordcount: '4862'
 ht-degree: 6%
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 6%
 
 +++实体关系图
 
-导出到[!DNL Adobe Experience Platform]![&#128279;](./assets/ajo-b2b-data-model.svg)的数据集的实体关系图
+导出到[!DNL Adobe Experience Platform]](./assets/ajo-b2b-data-model.svg)的数据集的![实体关系图
 
 +++
 
@@ -388,6 +388,12 @@ ht-degree: 6%
 
 ### 电子邮件取消订阅(`directMarketing.emailUnsubscribed`)
 
+电子邮件取消订阅事件源自[!DNL Adobe Marketo Engage]，已导入到[!DNL Journey Optimizer B2B Edition]中。
+
+>[!NOTE]
+>
+>对于此事件，`_experience.journeyOrchestration.stepEvents.journeyID`和`_experience.journeyOrchestration.stepEvents.nodeID`始终为空。
+
 | 字段名称 | 关系 | 它告诉您的内容 |
 |------------|-------------|-------------|
 | `_id` | 记录Id | 活动标识符。 |
@@ -404,8 +410,8 @@ ht-degree: 6%
 | `directMarketing.mailingKey.sourceKey` |  | 完整的电子邮件内容标识符。 |
 | `directMarketing.mailingName` |  | 邮件名称。 |
 | `directMarketing.email` |  | 电子邮件地址。 |
-| `_experience.journeyOrchestration.stepEvents.journeyID` | 匹配`AJOB2B-1_5_4-person_journey` (`_id`) | 历程id（如果已归因）。 |
-| `_experience.journeyOrchestration.stepEvents.nodeID` | 匹配`AJOB2B-1_5_4-person_journey_node` (`_id`) | 历程的节点ID（如果已归因）。 |
+| `_experience.journeyOrchestration.stepEvents.journeyID` |  | 对于电子邮件取消订阅事件，始终为空。 |
+| `_experience.journeyOrchestration.stepEvents.nodeID` |  | 对于电子邮件取消订阅事件，始终为空。 |
 
 ### 电子邮件已打开(`directMarketing.emailOpened`)
 
