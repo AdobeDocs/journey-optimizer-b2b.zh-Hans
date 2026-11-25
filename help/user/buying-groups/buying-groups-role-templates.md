@@ -18,7 +18,7 @@ level_v2:
     internal-label: Beginner
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 0ce0bd0bae3557e780ec960f5e01b3ee9a57100d
+source-git-commit: 81b4844bc7b333baaa2218639a542fefd512102f
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 5%
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## 受众技能
 
-使用B2B帐户和人员的[受众技能](../agents/audience-agent-b2b.md)通过第一方意图检测和角色映射生成购买组角色模板。 在引导式流程中，您可以识别链接到产品的角色，查看人工智能推荐的角色到角色映射，并在发布模板之前使用自然语言优化模板。
+使用B2B帐户和人员的[受众技能](../agents/audience-skills-b2b.md)通过第一方意图检测和角色映射生成购买组角色模板。 在引导式流程中，您可以识别链接到产品的角色，查看人工智能推荐的角色到角色映射，并在发布模板之前使用自然语言优化模板。
 
 **提示尝试：**
 
