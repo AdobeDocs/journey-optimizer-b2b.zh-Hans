@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: c2d3ba94927361f7695e901ef9071bdd4ded8f7d
+source-git-commit: 81b4844bc7b333baaa2218639a542fefd512102f
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '895'
 ht-degree: 7%
 ---
 # Journey Optimizer B2B Edition中的AI功能
@@ -54,9 +54,11 @@ ht-degree: 7%
 
 ## 使用[!DNL Coworker]应用 {#coworker-app}
 
-将[!DNL CX Enterprise Coworker]应用程序界面用于除生成内容之外的所有聊天工作流。 提出产品问题，探索运营见解，并使用B2B帐户和人员的[历程技能](../agents/journey-agent.md)和[受众技能](../agents/audience-agent-b2b.md)。 在[!DNL Journey Optimizer B2B Edition]内，内容生成保持可用。
+将[!DNL CX Enterprise Coworker]应用程序界面用于除生成内容之外的所有聊天工作流。 提出产品问题，探索运营见解，并使用B2B帐户和人员的[历程技能](../agents/journey-skills.md)和[受众技能](../agents/audience-skills-b2b.md)。 在[!DNL Journey Optimizer B2B Edition]内，内容生成保持可用。
 
-有关打开应用程序、开始对话和使用聊天功能的说明，请参阅[CX Coworker界面指南](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/ui-guide){target="_blank"}。
+有关受支持的历程任务、审批要求和示例工作流，请参阅[Adobe Journey Optimizer B2B Edition中的同事](../agents/coworker-overview.md)。
+
+有关打开应用程序、开始对话和使用聊天功能的说明，请参阅[CX Coworker界面指南](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}。
 
 在提交[!DNL Coworker]聊天查询之前，考虑您需要哪种类型的查询。
 
@@ -78,7 +80,7 @@ _操作分析_&#x200B;是指[!DNL Coworker]生成的有关元数据对象（属�
 * 有多少客户受众从未在任何历程中使用过？
 * 哪些活动历程使用解决方案关注&#x200B;_x_？
 
-您可以在以下域中询问[!DNL Coworker]有关您的运营见解的问题：
+下表描述了操作分析问题，而非所有[!DNL Coworker]功能。 历程创建和修改是单独的[历程技能工作流](../agents/coworker-overview.md#skills)。 这些工作流支持帐户和人员历程，并将更改应用于已保存的草稿。
 
 | 域 | 支持的元数据 | 不支持的元数据 |
 | --- | --- | --- |
@@ -115,4 +117,4 @@ _操作分析_&#x200B;是指[!DNL Coworker]生成的有关元数据对象（属�
 
 * [启用AI功能访问](./enable-ai-access.md)
 * [问题指导](./question-guidance.md)
-* [CX Coworker界面指南](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/ui-guide){target="_blank"}
+* [CX Coworker界面指南](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}

@@ -18,7 +18,7 @@ level_v2:
     internal-label: Beginner
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 0ce0bd0bae3557e780ec960f5e01b3ee9a57100d
+source-git-commit: 81b4844bc7b333baaa2218639a542fefd512102f
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 5%
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## 受众技能
 
-使用B2B帐户和人员的[受众技能](../agents/audience-agent-b2b.md)通过第一方意图检测和角色映射生成购买组角色模板。 在引导式流程中，您可以识别链接到产品的角色，查看人工智能推荐的角色到角色映射，并在发布模板之前使用自然语言优化模板。
+使用B2B帐户和人员的[受众技能](../agents/audience-skills-b2b.md)通过第一方意图检测和角色映射生成购买组角色模板。 在引导式流程中，您可以识别链接到产品的角色，查看人工智能推荐的角色到角色映射，并在发布模板之前使用自然语言优化模板。
 
 **提示尝试：**
 
@@ -111,7 +111,7 @@ ht-degree: 5%
 
    * 从列表中选择&#x200B;**[!UICONTROL 购买团体角色]**。
 
-     有六个默认角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 该列表还包括在&#x200B;_角色_&#x200B;列表[&#128279;](./default-custom-roles.md#create-a-custom-role)中定义的任何自定义角色。
+     有六个默认角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 该列表还包括在&#x200B;_角色_&#x200B;列表](./default-custom-roles.md#create-a-custom-role)中定义的任何[自定义角色。
 
      ![购买团体角色列表](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -143,7 +143,7 @@ ht-degree: 5%
 
      使用工作标题的![角色模板条件示例](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-   * 如果已配置与XDM关系架构[&#128279;](../admin/xdm-field-management.md#relational-schemas)中定义的人员相关的自定义对象，请展开&#x200B;**[!UICONTROL 自定义对象]**&#x200B;的列表以在角色条件中使用它们。
+   * 如果已配置与XDM关系架构](../admin/xdm-field-management.md#relational-schemas)中定义的人员[相关的自定义对象，请展开&#x200B;**[!UICONTROL 自定义对象]**&#x200B;的列表以在角色条件中使用它们。
 
      ![角色模板添加自定义对象条件](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
 
@@ -225,4 +225,4 @@ ht-degree: 5%
 
 ## 概述视频 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3453311/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

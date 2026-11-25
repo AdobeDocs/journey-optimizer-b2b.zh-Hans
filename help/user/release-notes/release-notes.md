@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 6e7322b04f002d63b127ac68f87fa58a88028921
+source-git-commit: 81b4844bc7b333baaa2218639a542fefd512102f
 workflow-type: tm+mt
 source-wordcount: '5901'
 ht-degree: 58%
@@ -112,7 +112,7 @@ Journey Optimizer B2B Edition 原生构建于 [!DNL Adobe Experience Platform] �
 | 功能 | 体验事件历史记录筛选 | 此功能使B2B Journey Orchestration能够使用历史参与为受众成员制定基于行为的决策。 [了解详情](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | 功能 | 下一最佳路径历程节点 | 您可以优化人员历程的拆分路径决策，优化在历程激活之前或运行时受众在路径间的路由方式。 [了解详情](../journeys/next-best-path-node.md) |
 | 功能 | 电子邮件性能仪表板 | 电子邮件性能仪表板为营销人员提供了在Adobe Journey Optimizer B2B Edition中所有历程的电子邮件活动的统一视图。 [了解详情](../dashboards/email-performance-dashboard.md) |
-| 增强功能 | Audience Agent B2B技能 | Audience Agent B2B技能已更新，包括AI支持的购买群组模板创建。 使用第一方意图和角色映射生成购买组模板，审查AI推荐的角色到角色映射，并在发布模板之前使用自然语言优化模板。 [了解详情](../agents/audience-agent-b2b.md) |
+| 增强功能 | Audience Agent B2B技能 | Audience Agent B2B技能已更新，包括AI支持的购买群组模板创建。 使用第一方意图和角色映射生成购买组模板，审查AI推荐的角色到角色映射，并在发布模板之前使用自然语言优化模板。 [了解详情](../agents/audience-skills-b2b.md) |
 | 增强功能 | 历程概述仪表板 — 人员历程 | 人员历程(Beta)现在包含&#x200B;_[!UICONTROL 概述]_&#x200B;选项卡，该选项卡具有与帐户历程相同的分析，包括历程完成率分配、按参与类型划分的历程，以及穿透钻取和导出操作。 [了解详情](../dashboards/journeys-dashboard.md) |
 | 增强功能 | 支持AEP关系数据集 | 新的关系数据集现在与现有数据集一起显示在您的AEP沙盒中。 |
 
@@ -177,8 +177,8 @@ Journey Optimizer B2B Edition现在可在聊天界面中使用以下代理AI功�
 
 | 代理 | 更新 | 描述 |
 | ----- | ------ | ----------- |
-| 历程生成代理 | 新增的和更新的 | 历程生成代理可实时分析、构思并联合创建历程，使营销人员能够更快启动、提高参与度、促进更高转化率。 [了解详情](../agents/journey-agent.md) |
-| Audience 代理 | 新 | Audience 代理使用结构化和非结构化数据自动识别和构建购买群组。 这有助于营销人员更快、更准确地锁定合适的人群。 [了解详情](../agents/audience-agent-b2b.md) |
+| 历程生成代理 | 新增的和更新的 | 历程生成代理可实时分析、构思并联合创建历程，使营销人员能够更快启动、提高参与度、促进更高转化率。 [了解详情](../agents/journey-skills.md) |
+| Audience 代理 | 新 | Audience 代理使用结构化和非结构化数据自动识别和构建购买群组。 这有助于营销人员更快、更准确地锁定合适的人群。 [了解详情](../agents/audience-skills-b2b.md) |
 | [!DNL Marketo Qualifier] | 新 | [!DNL Adobe Marketo Qualifier]是与[!DNL Journey Optimizer B2B Edition]集成的AI驱动应用程序。 它实施了Account Qualification Agent，旨在简化业务开发代表(BDR)的工作流。 它跨渠道自动化了潜在客户鉴别、外联和买方参与工作流程。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/marketo-qualifier/using/home){target="_blank"} |
 
 ## 2025.10 版本发行说明 {#rel-2025-10}

@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: 8d51e62165a40322efc45af87bbdfcd56e8eefb9
+source-git-commit: 876251dd1b69fc768c790daf0b9b1482015d69af
 workflow-type: tm+mt
 source-wordcount: '1911'
 ht-degree: 0%
@@ -275,7 +275,7 @@ _识别在财政季度的最后30天内评估阶段活动激增的帐户。_
 
 ### 运行模拟 {#run-simulation}
 
-1. 选择下一个最佳路径节点，然后单击右侧面板顶部的&#x200B;_模拟_ （ ![模拟图标](../../assets/do-not-localize/icon-simulate-outline.svg) ）图标。
+1. Select下一个最佳路径节点，然后单击右侧面板顶部的&#x200B;_模拟_ （ ![模拟图标](../../assets/do-not-localize/icon-simulate-outline.svg) ）图标。
 
    ![下一个最佳路径 — 单击模拟图标](./assets/node-next-best-path-simulate-select.png){width="500"}
 
@@ -331,4 +331,4 @@ _识别在财政季度的最后30天内评估阶段活动激增的帐户。_
 * 每个路径分配的置信度分数
 * 路径级和配置文件级推理，可展开各个配置文件的详细信息
 
-实时结果也可在[!DNL Coworker]聊天中通过[历程可观察性技能](../agents/journey-agent.md#journey-observability-skills)提供给历程控制台。
+实时结果也可在[!DNL Coworker]聊天中通过[历程可观察性技能](../agents/journey-skills.md#journey-observability-skills)提供给历程控制台。
