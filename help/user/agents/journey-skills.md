@@ -50,7 +50,7 @@ ht-degree: 0%
 * [历程创建指南](#journey-creation-skills)：在创建之前准备摘要并查看草稿。
 * [历程可观察性指南](#journey-observability-skills)：询问有关帐户和人员如何在活动历程中移动的问题。
 
-有关打开应用和开始对话的说明，请使用[同事界面指南](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}。
+有关打开应用和开始对话的说明，请使用[同事界面指南](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/ui-guide){target="_blank"}。
 
 ## 历程创建技能 {#journey-creation-skills}
 

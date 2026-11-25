@@ -43,7 +43,7 @@ ht-degree: 1%
 
 [!DNL Coworker]尊重您组织的现有[产品权限](../admin/user-management.md#b2b-product-permissions)。 您只能执行已经允许您执行的操作。 管理员控制您何时具有写入权限。 有关访问要求，请参阅[启用AI访问](../ai-coworker/enable-ai-access.md)。
 
-[!DNL Coworker]在Adobe生态系统中工作，而不仅仅是在[!DNL Journey Optimizer B2B Edition]中。 有关其更广泛的功能，请参阅[Adobe CX Enterprise Coworker聊天概述](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview){target="_blank"}。 有关打开应用和开始对话的说明，请使用[同事界面指南](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}。
+[!DNL Coworker]在Adobe生态系统中工作，而不仅仅是在[!DNL Journey Optimizer B2B Edition]中。 有关其更广泛的功能，请参阅[Adobe CX Enterprise Coworker聊天概述](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/overview){target="_blank"}。 有关打开应用和开始对话的说明，请使用[同事界面指南](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/ui-guide){target="_blank"}。
 
 ## 历程技能 {#skills}
 
